@@ -1,0 +1,92 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
+%% Using Paris-Saclay template
+%% Adapted from the LaTeX template created by Adrien Thurotte
+%% to change the content, go to Macros.tex
+%%============================
+\thispagestyle{empty}
+\input{Misc/style-pagedegarde.tex}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Second page
+%% Printing and publishing information
+%%============================
+\thispagestyle{empty}
+\begin{narrow}{-0.7\marginwidth}{4cm}
+    \vspace*{\fill}
+    \footnotesize
+    \noindent \textsc{\thesistitle}\\
+    \vspace*{0.1cm}\\
+    \noindent \copyright~2017 Lou Barreau\\
+    \noindent All rights reserved\\
+    \noindent Printed in Paris, 2017\\
+    \vspace*{0.1cm}\\
+    \noindent Commissariat à l'Energie Atomique\\
+    \noindent Direction Science de la Mati\`ere\\
+    \noindent Institut Rayonnement Mati\`ere Saclay\\
+    \noindent Laboratoire Interactions, Dynamique et Lasers\\
+    \noindent B\^atiment 522\\
+    \noindent F--91191 Gif-sur-Yvette\\
+    \noindent France\\
+    \vspace*{-0.2cm}\\
+    \noindent \url{http://iramis.cea.fr/LIDYL/index.php}\\
+    \vspace*{0.1cm}\\
+    \noindent This thesis was typeset with the \LaTeX -system and the memoir class, using a model developed by the smart people of the Atomfysik division at Lund University and modified by the previous students of the Attosecond group at CEA Saclay.
+    %\noindent \textsc{ISSN  }\\
+    %\noindent \textsc{ISBN }\\
+\end{narrow}
+
+%% Logos CEA
+\begin{textblock*}{\logocealength}(14.85\TPHorizModule-\logocealength,21cm)
+\includegraphics[width=\logocealength]{Figures/Logos/lidyl.png} %% Logo du LIDYL
+\label{Logo LIDYL}
+\vspace{0.5cm}
+\includegraphics[width=\logocealength]{Figures/Logos/CEA.png} %% Logo du CEA
+\label{Logo CEA}
+\end{textblock*}
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\thispagestyle{empty}
+ %Dedication
+%\vspace*{5cm}
+%\begin{narrow}{0cm}{-\marginwidth}
+    %\centering
+    %\raggedleft
+    %\scshape  
+    %\noindent
+    %
+  %
+    %\textit{Meinen Eltern.} \\
+%\end{narrow}
+%\vspace*{\fill}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%List of papers
+\pdfbookmark[0]{\loptitle}{\loptitle}
+\listofpapers*
+\raggedbottom\noindent\postloptext
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% List of abbreviations
+%\input{Misc/Abbreviations.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of Contents
+\cleardoublepage
+\pdfbookmark[0]{\contentsname}{toc}
+\makeatletter \renewcommand{\@dotsep}{10000} \makeatother
+\pagestyle{mycontentstyle}
+%\footnotesize
+\small
+{\hypersetup{linkcolor=black} %remove link color from table of contents
+\tableofcontents*
+}
+\normalsize
+%\clearpage
+\pagestyle{mypagestyle}

@@ -1,0 +1,200 @@
+\part{Délais de photoionisation résonante}
+%Blablablablabla
+\chapter{Délais de photoionisation attoseconde}
+Introduction sur l'effet photoélectrique...
+
+\section{Diffusion par un potentiel central}
+%V(r) à courte portée, équation de Schrodinger et de Schrodinger radiale...
+%Pour r tend vers l'infini, les solutions doivent être proches des solutions de l'équation de Schrodinger radiale sans potentiel V.
+\subsection{Position du problème}
+On considère un paquet d'ondes électronique du continuum $(E>0)$, superposition d'états "monochromatiques" du continuum avec les amplitudes $a(E,t)$
+\begin{equation}
+\Psi(t, \bm{r}) = \int_{0}^{+ \infty} {a(E,t)\psi(E, \bm{r}) \rme^{-iEt/\hbar} \rmd E}
+\label{eq:PaquetDonde}
+\end{equation}
+$\Psi$ est solution de l'équation de Schrödinger dépendante du temps 
+\begin{equation}
+i \hbar \frac{\partial \Psi}{\partial t} = [-\frac{\hbar^2}{2 \mu} \Delta + V(\bm{r})] \Psi(t,\bm{r})
+\end{equation}
+On suppose ici que le potentiel $V$ est indépendant du temps et correspond uniquement au potentiel d'interaction avec le centre diffusant. On suppose également que le potentiel $V$ est central, c'est-à-dire qu'il ne dépend que de la distance $r$ entre l'électron et le centre diffusant. Les états $\psi$ sont alors solutions de l'équation de Schödinger non-dépendante du temps, exprimée en fonctions des coordonnées sphériques de l'électron $(r,\theta,\phi)$ dans le référentiel du centre de masse du système, qui s'identifie au c\oe ur ionique dans le cas de l'interaction entre un électron et un ion. $\mu$ correspond à la masse réduite du système qui s'identifie également dans ce cas à la masse de l'électron.\\
+Pour étudier la diffusion du paquet d'onde électronique \ref{eq:PaquetDonde} sur le potentiel $V$, il faut connaître les états stationnaires $\psi$.
+\begin{align}
+\hat{H} \psi(r,\theta,\phi) = E \psi(r,\theta,\phi)\\
+[-\frac{\hbar^2}{2 \mu} \Delta + V(r)] \psi(r,\theta,\phi) = E \psi(r,\theta,\phi)
+\end{align}
+En coordonnées sphériques, l'opérateur Laplacien s'écrit:
+\begin{equation}
+\Delta \psi(r,\theta,\phi) = \frac{1}{r} \frac{\partial^2}{\partial r^2} (r \psi) + \frac{1}{r^2} \underbrace{(\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} (\sin \theta \frac{\partial \psi}{\partial \theta}) +  \frac{1}{\sin^2 \theta } \frac{\partial^2 \psi}{\partial \phi^2})}_{-\frac{\hat{L}^2}{\hbar^2}\psi}
+\end{equation}
+En comparant l'expression précédente à celle de l'opérateur moment angulaire $\hat{L}^2$, on obtient une nouvelle expression pour l'équation aux valeurs propres, faisant apparaître un terme centrifuge:
+\begin{equation}
+[-\frac{\hbar^2}{2 \mu} \frac{1}{r} \frac{\partial^2}{\partial r^2} r + \frac{1}{2 \mu r^2} \hat{L^2} + V(r)] \psi(r,\theta,\phi) = E \psi(r,\theta,\phi)
+\label{eq:Schrod_total}
+\end{equation}
+L'opérateur moment angulaire $\hat{L}$ n'agissant que sur les variables angulaires $\theta$ et $\phi$, la dépendance angulaire de l'hamiltonien est entièrement contenue dans le terme $\hat{L^2}$.  Cet hamiltonien commute avec les opérateurs $\hat{L^2}$ et $\hat{L_z}$. On peut alors chercher une base de l'espace des états de la particule constituée des fonctions propres communes aux trois observables $\hat{H}$, $\hat{L^2}$ et $\hat{L_z}$ avec les valeurs propres respectives $\hbar^2 k^2 / 2 \mu$, $\ell(\ell+1)\hbar^2$ et $m\hbar$. Les fonctions propres communes à $\hat{L^2}$ et $\hat{L_z}$ sont les harmoniques sphériques $Y_{\ell}^{m}(\theta, \phi)$. Ainsi les solutions de \ref{eq:Schrod_total} sont à chercher sous la forme \[\psi(r, \theta, \phi) = R(r)Y_{\ell}^{m}(\theta, \phi) \] les fonctions d'onde correspondantes $\psi$ seront appelées ondes partielles. En reportant cette expression dans l'équation \ref{eq:Schrod_total}, on obtient l'équation radiale 
+\begin{equation}
+(-\frac{\hbar^2}{2 \mu} \frac{1}{r} \frac{\rmd^2}{\rmd r^2} r + \frac{\ell(\ell+1)\hbar^2}{2\mu r^2} + V(r)) R(r) = E R(r)
+\label{eq:Schrod_radiale}
+\end{equation}
+
+Le cas particulier où $V$ est un potentiel coulombien $(\propto 1/r)$ nécessite un traitement particulier. Néanmoins l'étude des ondes partielles solutions de \ref{eq:Schrod_total} dans le cas d'un potentiel $V$ à courte portée, c'est-à-dire décroissant plus rapidement que $1/r$ à l'infini, permet une approche du concept de déphasage dû à la diffusion sur le potentiel $V$.
+
+Dans la suite de ce paragraphe, nous allons d'abord étudier les solutions de \ref{eq:Schrod_total} dans le cas où $V$ est identiquement nul, les ondes sphériques libres. Nous étudierons ensuite les solutions dans le cas ou le potentiel $V$ est un potentiel à courte portée, et leur comportement asymptotique à longue distance $r$. Nous mettrons en évidence l'existence d'un déphasage $\delta_\ell$ entre les ondes sphériques libres et les ondes partielles introduit par la diffusion sur le potentiel $V$. Ce déphasage nous conduira à la définition des délais de Wigner.
+
+\subsection{Les ondes sphériques libres}
+%Cohen p915 et 931
+\'A longue distance $r$ du centre diffusant, on s'attend à ce que l'électron ne ressente quasiment pas les effets du potentiel à courte portée $V$. Les solutions de \ref{eq:Schrod_total} doivent donc avoir un comportement asymptotique similaire aux ondes sphériques libres $\psi^{(0)}(r,\theta,\phi) = R^{(0)}(r) Y_{\ell}^{m}(\theta, \phi)$, solutions de \ref{eq:Schrod_total} avec $V$ identiquement nul. Il s'agit donc de résoudre l'équation radiale \ref{eq:Schrod_radiale} pour $V = 0$:
+\begin{equation}
+(-\frac{\hbar^2}{2 \mu} \frac{1}{r} \frac{\rmd^2}{\rmd r^2} r + \frac{\ell(\ell+1)\hbar^2}{2\mu r^2}) R^{(0)}(r) = E R^{(0)}(r)
+\label{eq:Schrod_V0}
+\end{equation}
+
+On peut montrer, par récurrence (voir par exemple \mycite{CohenT2} Chapitre VIII) ou bien en remarquant que l'équation radiale se ramène à l'équation de Bessel sphérique, que les solutions de \ref{eq:Schrod_V0} sont de la forme
+\begin{equation}
+\psi^{(0)}_{k,\ell,m}(r,\theta,\phi) = \sqrt{\frac{2k^2}{\pi}} j_{\ell}(kr) Y_{\ell}^{m}(\theta, \phi)
+\end{equation}
+avec $k$,$\ell$ et $m$ paramétrant les valeurs propres de l'hamiltonien sans potentiel $\hat{H_0}$, $\hat{L^2}$ et $\hat{L_z}$:
+\[ \hat{H_0} \psi^{(0)}_{k,\ell,m}(r,\theta,\phi) = \frac{\hbar^2 k^2}{2 \mu}\psi^{(0)}_{k,\ell,m}(r,\theta,\phi)\]
+\[ \hat{L^2} \psi^{(0)}_{k,\ell,m}(r,\theta,\phi) = \ell(\ell+1)\hbar^2 \psi^{(0)}_{k,\ell,m}(r,\theta,\phi) \]
+\[ \hat{L_z} \psi^{(0)}_{k,\ell,m}(r,\theta,\phi) = m \hbar \psi^{(0)}_{k,\ell,m}(r,\theta,\phi) \]
+et $j_{\ell}$ une fonction de Bessel sphérique définie par
+\[j_{\ell} (\rho) = (-1)^{\ell} \rho^{\ell} (\frac{1}{\rho} \frac{\rmd}{\rmd\rho})^{\ell} \frac{\sin \rho}{\rho}\]
+Les trois premières fonctions de Bessel sphériques $j_0$,$j_1$ et $j_2$ sont représentées figure \ref{fig:Bessel_Spheriques}. Remarquons que la fonction $j_0$ s'identifie à la fonction sinus cardinal.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/DelaisPI/}{Bessel_Spheriques.pdf_tex}
+\caption{Fonctions de Bessel sphériques $j_\ell(\rho)$ (a) et $\rho^2 j_\ell^2(\rho)$, donnant la dépendance radiale de la probabilité de présence dans l'état $\ket{\psi^{(0)}_{k,\ell,m}}$ (b) pour $\ell = 0, 1, 2$.}
+\label{fig:Bessel_Spheriques}
+\end{figure}
+
+La dépendance angulaire de l'onde sphérique libre est contenue dans l'harmonique sphérique $Y_{\ell}^{m}(\theta, \phi)$. Elle est donc fixée par les nombres quantiques $\ell$ et $m$ et non par l'énergie ($\propto k^2$). Si l'on se fixe une direction $(\theta_0,\phi_0)$, la probabilité de trouver la particule dans l'état $\ket{\psi^{(0)}_{k,\ell,m}}$ dans un angle solide $\rmd\Omega_0$ autour de $(\theta_0,\phi_0)$ et entre $r$ et $r+\rmd r$ est proportionnelle à  
+$r^2 j_\ell^2 (kr) \mid Y_{\ell}^{m}(\theta_0, \phi_0) \mid ^2 \rmd r \rmd \Omega_0 $. La fonction $\rho^2 j_\ell^2(\rho)$ est représentée figure \ref{fig:Bessel_Spheriques}. Cette fonction prend des valeurs faibles pour $\rho < \sqrt{\ell(\ell+1)}$. La probabilité de présence de la particule dans l'état $\ket{\psi^{(0)}_{k,\ell,m}}$ est donc quasiment nulle pour $r < \frac{1}{k} \sqrt{\ell(\ell+1)}$. Cette distance critique peut être interprétée semi-classiquement comme un paramètre d'impact.
+
+\paragraph*{Comportement asymptotique}
+On cherche à déterminer le comportement de la fonction d'onde à longue distance du centre diffusant $\psi^{(0)}_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi)$, c'est-à-dire le comportement asymptotique des fonctions de Bessel sphériques.\\
+En appliquant une première fois l'opérateur $(\frac{1}{\rho} \frac{\rmd}{\rmd\rho})$ à la fonction $ \frac{\sin \rho}{\rho}$, $j_\ell (\rho)$ s'écrit
+\[  j_{\ell} (\rho) = (-1)^{\ell} \rho^{\ell} (\frac{1}{\rho} \frac{\rmd}{\rmd\rho})^{\ell-1} [ \frac{\cos \rho}{\rho^2} - \frac{\sin \rho}{\rho^3}] \]
+Pour $\rho \rightarrow + \infty$, $ \frac{\sin \rho}{\rho^3} \ll \frac{\cos \rho}{\rho^2}$. Si l'on applique une nouvelle fois l'opérateur $(\frac{1}{\rho} \frac{\rmd}{\rmd\rho})$, le terme dominant viendra encore de la dérivée du cosinus. Ainsi, 
+\[ j_{\ell} (\rho \rightarrow + \infty) \sim (-1)^{\ell} \rho^{\ell} \frac{1}{\rho^\ell} \frac{1}{\rho} (\frac{\rmd}{\rmd\rho})^\ell \sin \rho \]
+Avec $(\frac{\rmd}{\rmd\rho})^\ell \sin \rho = (-1)^\ell \sin (\rho - \ell \frac{\pi}{2})$, on obtient finalement
+\[ j_{\ell} (\rho \rightarrow + \infty) \sim \frac{1}{\rho} \sin (\rho - \ell \frac{\pi}{2})  \]
+Le comportement asymptotique de l'onde sphérique libre $\psi^{(0)}_{k,\ell,m} (r, \theta, \phi)$ est donc: 
+%(1.8)
+\begin{equation}
+\psi^{(0)}_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim \sqrt{\frac{2k^2}{\pi}} Y_{\ell}^{m}(\theta, \phi)  \frac{\sin(kr - \ell \pi / 2)}{kr}
+\end{equation}
+que l'on peut écrire sous forme complexe
+
+%(1.9)
+\begin{equation}
+\psi^{(0)}_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim - \sqrt{\frac{2k^2}{\pi}} Y_{\ell}^{m}(\theta, \phi)  \frac{\rme^{-ikr}\rme^{i\ell \frac{\pi}{2}} - \rme^{ikr}\rme^{-i\ell \frac{\pi}{2}}}{2ikr}
+\label{eq:Onde_sph_libre}
+\end{equation}
+Pour $r \rightarrow + \infty$, $\psi^{(0)}_{k,\ell,m}$ est donc la superposition d'une onde sphérique entrante $e^{-ikr}/r$ et d'une onde sphérique sortante  $e^{+ikr}/r$ dont la phase relative est $\ell \pi$.
+
+
+\subsection{Les ondes partielles}
+%Cohen p919
+On s'intéresse désormais à la résolution de l'équation \ref{eq:Schrod_radiale} dans le cas général d'un potentiel central $V(r)$ à courte portée, c'est-à-dire décroissant plus rapidement que $1/r$ pour $r \rightarrow + \infty$.
+
+En posant $R(r) = \frac{1}{r} u(r)$, l'équation \ref{eq:Schrod_radiale} devient
+\begin{equation}
+[- \frac{\hbar^2}{2\mu} \frac{\rmd^2}{\rmd r^2} + \frac{\ell(\ell+1)}{2 \mu r^2} + V(r)] u(r)  = \frac{\hbar^2 k^2}{2\mu} u(r)
+\label{eq:Scrod_radiale_u}
+\end{equation}
+à laquelle il faut ajouter la condition initiale $u(r=0) = 0$. 
+
+\paragraph*{Comportement asymptotique} Pour $r \rightarrow + \infty$, le potentiel centrifuge et le potentiel $V(r)$ à courte portée sont négligeables et l'équation précédente devient
+\begin{equation}
+\frac{\rmd^2 u}{\rmd r^2} + k^2 u(r) \backsimeq 0
+\end{equation}
+dont la solution générale est de la forme
+\[ u(r \rightarrow + \infty) \sim A \cos(kr) + B \sin(kr) \]
+Si le potentiel $V$ est réel, on peut trouver des solutions $u$ réelles et donc choisir les constantes $A, B \in \mathbb{R}$. On peut alors réécrire 
+\[ u(r \rightarrow + \infty) \sim \sqrt{A^2+B^2} (\sin \beta_\ell \cos(kr) + \cos \beta_\ell \sin(kr) ) \]
+Avec $\sin \beta_\ell = \frac{A}{\sqrt{A^2+B^2}}$ et $\cos \beta_\ell = \frac{B}{\sqrt{A^2+B^2}}$, soit
+\[ u(r \rightarrow + \infty) \sim C \sin(kr - \beta_\ell) \]
+La phase $\beta_\ell$ est déterminée par continuité de la solution de \ref{eq:Scrod_radiale_u} s'annulant en $r=0$. Dans le cas d'un potentiel $V$ identiquement nul, nous avons montré précédemment que la phase $\beta_\ell$ est égale à $\ell \pi/2$. On peut alors choisir cette valeur comme référence en définissant le déphasage $\delta_\ell$ tel que:
+\[ u(r \rightarrow + \infty) \sim C \sin(kr -\ell \frac{\pi}{2} + \delta_\ell) \]
+$\delta_\ell$ dépend de $\ell$ et de $k$, c'est-à-dire du moment angulaire et de l'énergie.
+
+\paragraph*{Interprétation physique du déphasage} En injectant l'expression précédente de $u$ dans l'expression générale de la fonction d'onde, on obtient l'expression asymptotique de l'onde partielle $\psi_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi)$:
+\begin{equation}
+\psi_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim C Y_{\ell}^{m}(\theta, \phi)  \frac{\sin(kr - \ell \pi / 2 + \delta_\ell)}{r}
+\end{equation}
+ou encore, en multipliant par un facteur de phase $\rme^{i \delta_\ell}$ et en choisissant la constante $C$ pour faciliter la comparaison avec l'expression asymptotique de l'onde sphérique libre \ref{eq:Onde_sph_libre}
+\begin{equation}
+\psi_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim - Y_{\ell}^{m}(\theta, \phi)  \frac{\rme^{-ikr}\rme^{i\ell \frac{\pi}{2}} - \rme^{ikr}\rme^{-i\ell \frac{\pi}{2}} \rme^{2 i \delta_\ell}}{2ikr}
+\label{eq:Onde_partielle}
+\end{equation}
+
+De la même manière que pour le cas de l'onde sphérique libre \ref{eq:Onde_sph_libre}, l'onde partielle est pour $r \rightarrow + \infty$ la superposition d'une onde sphérique entrante $e^{-ikr}/r$ et d'une onde sphérique sortante  $e^{+ikr}/r$ déphasée de $\ell \pi + 2 \delta_\ell$. Au facteur de normalisation près, on peut interpréter cette expression comme suit. L'onde entrante de départ est identique à celle du cas de la particule libre, et s'approche de la zone d'action du potentiel $V$ en étant de plus en plus perturbée par le potentiel. Après avoir rebroussé chemin et s'être transformée en onde sortante, elle a accumulé un déphasage $2 \delta_\ell$ par rapport à l'onde sortante libre qui aurait été obtenue dans le cas $V=0$. Ce déphasage $\delta_\ell$, qui dépend de $\ell$ et de $k$, est une quantité extrêmement importante. En effet, il caractérise tout l'effet du potentiel sur la particule de moment cinétique $\ell$. Par exemple, il est possible d'exprimer la section efficace de diffusion en fonction de $\delta_\ell$ (\mycite{CohenT2}).
+
+La théorie de la diffusion par un potentiel central exposée précédemment provient de la théorie des collisions: une onde se déplaçant dans le sens des $r$ positifs "de la gauche vers la droite", et diffusée par un potentiel situé en $r=0$ possède en $r \rightarrow + \infty$ un déphasage $2 \delta_\ell$ par rapport à la même onde qui se serait propagée sans potentiel. Dans le contexte de la photoionisation, l'émission de l'électron est considérée comme une \textit{demi-collision}. Ainsi, la phase de diffusion en photoionisation est la phase du paquet d'onde électronique émis par rapport au paquet d'onde qui aurait été émis en l'absence de potentiel, soit uniquement $\delta_\ell$.
+
+
+\subsection{Délai de Wigner}
+%Définition
+%Dalhstrom p27
+%Cas du potentiel Coulombien (longue portée), Friedrich p21 ou calcul avec approx WKB Dahlstrom p26
+D'après ce qui précède, on peut réécrire pour la partie radiale du paquet d'onde électronique diffusé \ref{eq:PaquetDonde}
+\begin{equation}
+r \Psi(t, r) \propto \int_{0}^{+ \infty} {\mid A(E) \mid \rme^{i(kr+\delta_\ell)} \rme^{-iEt/\hbar} \rmd E}
+\label{eq:POEdiffusé}
+\end{equation}
+qui est déphasée de $\delta_\ell$ par rapport au même paquet d'onde électronique non diffusé par le potentiel
+\begin{equation}
+r \Psi_{V=0}(t, r) \propto \int_{0}^{+ \infty} {\mid A(E) \mid \rme^{ikr} \rme^{-iEt/\hbar} \rmd E}
+\label{eq:POEnondiffusé}
+\end{equation}
+Ces deux intégrales contiennent des termes oscillant rapidement avec l'énergie. La plus importante contribution sera donc apportée par les points où la phase est stationnaire. En dérivant les phases de \ref{eq:POEdiffusé} et \ref{eq:POEnondiffusé}, on obtient les relations suvantes:
+\begin{align*}
+r \frac{\rmd k}{\rmd E} + \frac{\rmd \delta_\ell}{\rmd E}- \frac{t}{\hbar} = 0 \\
+r \frac{\rmd k}{\rmd E} - \frac{t}{\hbar} = 0
+\end{align*}
+soit 
+\begin{align*}
+t = \frac{r}{v} + \hbar \frac{\rmd \delta_\ell}{\rmd E}\\
+t = \frac{r}{v}
+\end{align*}
+Le paquet d'onde électronique diffusé est temporellement décalé d'une quantité $\tau_W = \hbar \frac{\rmd \delta_\ell}{\rmd E}$ par rapport au paquet d'onde électronique libre.\\
+$\tau_W$ est appelé délai de Wigner (ou Eisenbud-Wigner-Smith), d'après les physiciens qui mirent en évidence cette relation entre les délais et les déphasages \mycite{Eisenbud},\mycite{WignerPR1955},\mycite{SmithPR1960}. Longtemps considéré comme accessible uniquement \textit{via} des expériences de pensée, le développement de sources XUV ultra-brèves a permis les premières mesures de délais de photoionisation durant les dix dernières années. La partie REF A METTRE PLUS TARD présente les principaux résultats expérimentaux dans ce domaine.
+
+\paragraph{Exemple: Délai de Wigner pour un potentiel faible}
+En utilisant l'approximation semi-classique de Brillouin-Kramers-Wentzel pour résoudre l'équation de Schrödinger pour un électron soumis à un potentiel $V$, on montre que le déphasage $\delta_\ell$ peut se mettre sous la forme \mycite{Friedrich} \mycite{DahlstromJPB2012}
+\begin{equation}
+\delta_\ell (E) = \frac{1}{\hbar} \lim_{x \to + \infty} \int_{- \infty}^{x} { [\sqrt{2m(E-V(x')}-\sqrt{2mE}] \rmd x'}
+\end{equation}
+Pour un potentiel faible ($V \ll E $), $\sqrt{2m(E-V(x')} \approx \sqrt{2mE}(1-\frac{V(x')}{2E})$, d'où
+\begin{equation}
+\delta_\ell (E) \approx - \frac{1}{\hbar} \sqrt{\frac{m}{2E}} \int_{- \infty}^{+ \infty} { V(x')\rmd x'} = - \frac{1}{\hbar} \sqrt{\frac{m}{2E}} I_V
+\end{equation}
+où l'on définit l'intégrale du potentiel $I_V$, indépendante de l'énergie.
+On calcule alors le délai de Wigner correspondant
+\begin{equation}
+\tau_W = \hbar \frac{\rmd \delta_\ell}{\rmd E} = \sqrt{\frac{m}{8}} \frac{I_V}{E^{3/2}}
+\end{equation}
+Pour un potentiel attractif, $I_V < 0$ donc $\tau_W < 0$. L'électron diffusé par le potentiel est en avance sur l'électron libre. En effet, à énergie constante, l'énergie cinétique de l'électron est plus grande lorsqu'il passe au voisinage d'un potentiel attractif par rapport à un potentiel nul. Le délai introduit est d'autant plus grand que le potentiel est important.
+On remarque également que le délai de Wigner est proportionnel à $E^{-3/2}$, c'est-à-dire qu'un électron sera plus affecté par le potentiel si son énergie est faible.
+
+
+\section{Vive Marcus Dahlstrom}
+%Le $\tau_{cc}$, etc
+Pour mesurer un délai de photoionisation attoseconde, il faut deux impulsions: une impulsion XUV attoseconde pour la photoionisation et une impulsion laser auxiliaire utilisée comme horloge. Quelle est l'influence de ce second photon sur le délai mesuré?
+
+
+%
+%\section{Mesure de délais de photoionisation attoseconde}	
+%Schultze, Klunder, etc...
+%Mais qu'est-ce qu'il se passe avec des résonances??
+%Swoboda, Haessler, Worner
+%
+%\chapter{Résonances de Fano}
+%\section{Fano}
+%
+%\section{2 photons avec Fano}
+%Madrid
+
+
