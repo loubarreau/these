@@ -329,7 +329,8 @@ On étend l'intégration jusqu'à $- \infty$ et on remplace $R_{\nu,\lambda}$ pa
 \mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx \mathcal{P} \int_{-\infty}^{+\infty} \rmd E_\nu \frac{C_k}{r} \sin (kr + \Phi_{k,\lambda}(r)) \frac{\bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_\kappa - E_{\nu}}
 \end{equation}
 \begin{equation}
-\mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx - \frac{\pi C_\kappa}{r} \: \cos (\kappa r + \Phi_{\kappa,\lambda}(r)) \: \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}}
+\mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx - \frac{\pi C_\kappa}{r} \: \cos (\kappa r + \Phi_{\kappa,\lambda}(r)) \: \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}}.
+\label{eq:PartieReelleDeRho}
 \end{equation}
 La forme asymptotique de la partie imaginaire de $\rho_{\kappa,\lambda}$ s'obtient simplement en remplaçant \ref{eq:fonctionAsymptotiqueContinnum} dans \ref{eq:ExpressionDeRho}.
 \begin{equation}
@@ -350,9 +351,9 @@ T_{L,\lambda,\ell_g}(k) \approx - \pi C_k C_\kappa \bra{R_{\kappa,\lambda}} r \k
 \end{equation}
 En remplaçant les déphasages par leurs expressions,
 \begin{align}
-\int_{0}^{+ \infty} \rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda} - \Phi_{k,L})} \: r \: \rmd r & =&\int_{0}^{+ \infty} r \: \rme^{i(\kappa-k)r} \rme^{i(\frac{Z \ln 2 \kappa r}{\kappa } - \frac{Z \ln 2 k r}{k})} \: \rme^{i(\eta_\lambda - \eta_L)} \rme^{i\frac{\pi}{2}(L - \lambda)} \rmd r \\
-& = & \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \int_{0}^{+ \infty} r^{1+iZ(\frac{1}{\kappa}-\frac{1}{k})} \rme^{i(\kappa-k)r} \rmd r \\
-& = & \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \left( \frac{i}{\kappa-k} \right)^{2+iZ(\frac{1}{\kappa}-\frac{1}{k})} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k}))
+\int_{0}^{+ \infty} \rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda} - \Phi_{k,L})} \: r \: \rmd r & = \int_{0}^{+ \infty} r \: \rme^{i(\kappa-k)r} \rme^{i(\frac{Z \ln 2 \kappa r}{\kappa } - \frac{Z \ln 2 k r}{k})} \: \rme^{i(\eta_\lambda - \eta_L)} \rme^{i\frac{\pi}{2}(L - \lambda)} \rmd r \\
+& = \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \int_{0}^{+ \infty} r^{1+iZ(\frac{1}{\kappa}-\frac{1}{k})} \rme^{i(\kappa-k)r} \rmd r \\
+& = \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \left( \frac{i}{\kappa-k} \right)^{2+iZ(\frac{1}{\kappa}-\frac{1}{k})} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k}))
 \end{align}
 Après changement de variable et en utilisant l'expression intégrale de la fonction Gamma définie par l'équation \ref{eq:FonctionGamma}. En remarquant que $i^{iZ(\frac{1}{\kappa}-\frac{1}{k})} = \rme^{-\frac{\pi}{2}Z(\frac{1}{\kappa}-\frac{1}{k})}$, on obtient l'expression asymptotique finale de l'élément de transition radial:
 \begin{multline}
@@ -429,7 +430,7 @@ En stabilisant activement l'interféromètre RABBIT, l'équipe de Lund a pu par 
 \label{fig:Guenot}
 \end{figure}
 
-Mentionnons également les travaux de \mycite{JordanPRA2017} publiés pendant ma thèse qui présentent la mesure de délai de photoémission entre les deux composantes spin-orbite du krypton et du xénon. Les différences d'énergie entre les deux états des ions sont de $\Delta E^{Kr} = 0.67$ eV et $\Delta E^{Xe} = 1.31$ eV, ce qui complexifie l'analyse du spectrogramme RABBIT. En effet, à 800 nm, l'écart énergétique entre une harmonique et un pic satellite est de 1.55 eV: pour le xénon les harmoniques $^2P_{1/2}$ et les pics satellites$^2P_{3/2}$ se recouvrent presque totalement. \`A chaque pas de temps de l'interféromètre les auteurs soustraient donc un spectre de photoélectrons mesuré sans habillage. Dans le krypton, un faible délai ($\approx$ 6 as) est mesuré entre 20 et 40 eV, tandis que des délais jusqu'à 30 as et variant beaucoup avec l'énergie sont mesurés dans le xénon. Ces mesures sont comparées à des calculs théoriques TDCIS "\textit{Time-Dependent Configuration-Interaction Singles}" et RRPA + CC "\textit{Relativistic Random Phase Approximation}" (figure \ref{fig:Jordan}). Dans le xénon, de fortes différences sont observés entre les deux calculs et l'expérience, en particulier au voisinage d'états doublement excités (lignes grises en figure \ref{fig:Jordan}) qui ne sont pas pris en compte dans les simulations.
+Mentionnons également les travaux récents de \mycite{JordanPRA2017}, publiés pendant ma thèse, qui présentent la mesure de délai de photoémission entre les deux composantes spin-orbite du krypton et du xénon. Les différences d'énergie entre les deux états des ions sont de $\Delta E^{Kr} = 0.67$ eV et $\Delta E^{Xe} = 1.31$ eV, ce qui complexifie l'analyse du spectrogramme RABBIT. En effet, à 800 nm, l'écart énergétique entre une harmonique et un pic satellite est de 1.55 eV: pour le xénon les harmoniques $^2P_{1/2}$ et les pics satellites$^2P_{3/2}$ se recouvrent presque totalement. \`A chaque pas de temps de l'interféromètre les auteurs soustraient donc un spectre de photoélectrons mesuré sans habillage. Dans le krypton, un faible délai ($\approx$ 6 as) est mesuré entre 20 et 40 eV, tandis que des délais jusqu'à 30 as et variant beaucoup avec l'énergie sont mesurés dans le xénon. Ces mesures sont comparées à des calculs théoriques TDCIS "\textit{Time-Dependent Configuration-Interaction Singles}" et RRPA + CC "\textit{Relativistic Random Phase Approximation}" (figure \ref{fig:Jordan}). Dans le xénon, de fortes différences sont observés entre les deux calculs et l'expérience, en particulier au voisinage d'états doublement excités (lignes grises en figure \ref{fig:Jordan}) qui ne sont pas pris en compte dans les simulations.
 \begin{figure}
 \centering
 \def\svgwidth{0.6\textwidth}
@@ -458,7 +459,7 @@ En effet, des variations de phase au voisinage d'une résonance sous le seuil d'
 \label{fig:Haessler}
 \end{figure}
 
-Finalement, notons que la technique RABBIT est également adaptée à la mesure de délais de photoionisation dans les molécules. \`A Saclay en 2009, \mycite{HaesslerPRA2009} ont effectué des mesures de phase dans $N_2$ au voisinage d'un état autoionisant. L'harmonique 11 du 800 nm est résonante avec l'état $n=3$ de la série de Hopfield de $N_2$ (figure \ref{fig:Haessler} (a-b)), état de Rydberg moléculaire convergeant vers l'état B de l'ion couplé fortement avec X et plus faiblement avec A. La photoionisation de $N_2$ avec un peigne d'harmoniques 11 à 15 donne un riche spectre de photoélectrons composé des états X et A de l'ion dans plusieurs états vibrationnels (figure \ref{fig:Haessler} (c)). Ces deux états étant séparés de 1.11 eV, les pics satellites de l'un recouvrent partiellement les harmoniques de l'autre et il faut alors soustraire à chaque délai un spectre sans habillage pour analyser le spectrogramme RABBIT. Cette astuce a permis de déterminer la phase des pics satellites des deux états électroniques pour plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (d)). Pour le pic satellite 12 (résonant), une variation de phase de $\approx \pi$ rad est mesurée dans le canal X pour $\nu^{'} = 1$ et $\nu^{'} = 2$. Une variation de phase beaucoup plus faible pour ce pic satellite est mesurée dans le canal A, en accord avec le faible couplage entre ce continuum et l'état autoionisant résonant avec H11. Le laser n'était pas accordable dans cette expérience, ce qui n'a pas permis de déterminer la variation de phase complète au voisinage de la résonance. Des calculs TDSE ultérieurs \mycite{CaillatPRL2011} ont pu déterminer cette évolution complète.
+Finalement, notons que la technique RABBIT est également adaptée à la mesure de délais de photoionisation dans les molécules. \`A Saclay en 2009, \mycite{HaesslerPRA2009} ont effectué des mesures de phase dans $N_2$ au voisinage d'un état autoionisant. L'harmonique 11 du 800 nm est résonante avec l'état $n=3$ de la série de Hopfield de $N_2$ (figure \ref{fig:Haessler} (a-b)), état de Rydberg moléculaire convergeant vers l'état B de l'ion couplé fortement avec le continuum de l'état X et plus faiblement avec celui de l'état A. La photoionisation de $N_2$ avec un peigne d'harmoniques 11 à 15 donne un riche spectre de photoélectrons composé des états X et A de l'ion dans plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (c)). Ces deux états étant séparés de 1.11 eV, les pics satellites de l'un recouvrent partiellement les harmoniques de l'autre et il faut alors soustraire à chaque délai un spectre sans habillage pour analyser le spectrogramme RABBIT. Cette astuce a permis de déterminer la phase des pics satellites des deux états électroniques pour plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (d)). Pour le pic satellite 12 (résonant), une variation de phase de $\approx \pi$ rad est mesurée dans le canal X pour $\nu^{'} = 1$ et $\nu^{'} = 2$. Une variation de phase beaucoup plus faible pour ce pic satellite est mesurée dans le canal A, en accord avec le faible couplage entre ce continuum et l'état autoionisant résonant avec H11. Le laser n'était pas accordable dans cette expérience, ce qui n'a pas permis de déterminer la variation de phase complète au voisinage de la résonance. Des calculs TDSE ultérieurs \mycite{CaillatPRL2011} ont pu déterminer cette évolution complète.
 
 Enfin par souci d'exhaustivité, mentionnons ici l'expérience de \mycite{KoturNatComm2016} mesurant la variation de phase au voisinage d'une résonance de Fano dans l'argon, publiée pendant ma thèse et étroitement liée à mes travaux. Ces résultats seront présentés en détail dans le chapitre \textbf{ref}.
 
@@ -471,7 +472,7 @@ Enfin par souci d'exhaustivité, mentionnons ici l'expérience de \mycite{KoturN
 \label{fig:PhotoFano}
 \end{figure}
 
-En 1935, alors qu'Ugo Fano est en post-doctorat dans le laboratoire d'Enrico Fermi à Rome, un de ses collègues, Emilio Segrè, lui propose d'étudier des articles de spectroscopie de Beutler \mycite{Beutler1935}. Les spectres d'absorption du krypton mesurés présentent des raies d'absorption de forme inhabituelle (figure \ref{fig:Beutler} (a)). D'après Fano, cette asymétrie est caractéristique d'interférences entre plusieurs processus d'excitation. La formulation analytique de cette théorie est élaborée avec l'aide de Fermi et publiée en italien dans la revue \textit{Nuovo Cimento} \mycite{Fano1935}. Plusieurs années plus tard, Fano, qui a émigré aux \'{E}tats-Unis pendant la seconde guerre mondiale et travaille au \textit{National Burau of Standards}, formule une version modernisée de son modèle de 1935 \mycite{FanoPR1961}. L'article publié en 1961 demeure aujourd'hui l'un des plus cités de \textit{Physical Review}, et les désormais "profils de Fano" se retrouvent dans une quantité d'atomes, molécules et nanostructures \mycite{MiroshnichenkoRevModPhys2010}. La richesse du modèle de Fano permettant d'interpréter les profils de raie réside dans sa simplicité: de complexes phénomènes physiques sont contenus dans seulement quelques paramètres.
+En 1935, alors qu'Ugo Fano est en post-doctorat dans le laboratoire d'Enrico Fermi à Rome, un de ses collègues, Emilio Segrè, lui propose d'étudier des articles de spectroscopie de Herbert Beutler \mycite{Beutler1935}. Les spectres d'absorption du krypton mesurés présentent des raies d'absorption de forme inhabituelle (figure \ref{fig:Beutler} (a)). D'après Fano, cette asymétrie est caractéristique d'interférences entre plusieurs processus d'excitation. La formulation analytique de cette théorie est élaborée avec l'aide de Fermi et publiée en italien dans la revue \textit{Nuovo Cimento} \mycite{Fano1935}. Plusieurs années plus tard, Fano, qui a émigré aux \'{E}tats-Unis pendant la seconde guerre mondiale et travaille au \textit{National Burau of Standards}, observe un spectre de diffusion d'électrons par l'hélium dont les raies asymétriques lui rappellent les spectres de Beutler. Il formule alors une version modernisée de son modèle de 1935 \mycite{FanoPR1961}. L'article publié en 1961 demeure aujourd'hui l'un des plus cités de \textit{Physical Review}. Les développements rapides de la spectroscopie ont permis d'identifier les désormais "profils de Fano" dans une quantité d'atomes, molécules et nanostructures \mycite{MiroshnichenkoRevModPhys2010}. Sa formule prédisant la forme des spectres est utilisée dans de nombreux domaines de la physique atomique, nucléaire et de la matière condensée. La richesse du modèle de Fano permettant d'interpréter les profils de raie réside dans sa simplicité: de complexes phénomènes physiques sont contenus dans seulement quelques paramètres.
 
 \begin{figure}
 \centering
@@ -481,9 +482,133 @@ En 1935, alors qu'Ugo Fano est en post-doctorat dans le laboratoire d'Enrico Fer
 \label{fig:Beutler}
 \end{figure}
 
-%\chapter{Résonances de Fano}
-%\section{Fano}
-%
+Dans ce chapitre, nous rappellerons les développements et les principaux résultats du modèle de Fano pour l'autoionisation, phénomène qui se produit lorsqu'un système est excité dans un état d'énergie supérieure à son potentiel d'ionisation.
+
+\section{Interaction entre un état discret et un continuum d'états}
+Il s'agit de déterminer les profils de raie des résonances d'autoionisation, c'est-à-dire l'expression de la section efficace de transition. La suite de ce paragraphe utilise les notations de Fano \mycite{FanoPR1961}\mycite{Maquet2015}.
+\subsection{Fonctions propres}
+On considère un système atomique constitué d'un état du continuum $\ket{\psi_{E'}}$ et d'un état discret (pseudo-) lié $\ket{\varphi}$, couplés par $V_{E'}$. On a:
+\begin{align}
+\bra{\varphi}\hat{H}\ket{\varphi} & = E_\varphi \\
+\bra{\psi_{E'}}\hat{H}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
+\bra{\psi_{E'}}\hat{H}\ket{\varphi} & = V_{E'}
+\end{align}
+où $\delta$ est la distribution de Dirac. On cherche les fonctions propres du système sous la forme
+\begin{equation}
+\ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
+\end{equation}
+avec $a_E$ et $b_E$ fonctions de l'énergie à déterminer, solutions du système d'équations
+\begin{align}
+a_E \: E_\varphi + \int b_{E'} V^*_{E'} \rmd E' & = E \: a_E \\
+a_E \: V_{E'} + b_{E'} \: E' & = E \: b_{E'}
+\end{align} 
+Pour exprimer $b_{E'}$ en fonction de $a_E$ dans la seconde équation, il faut diviser par $(E-E')$ qui peut être nul. On utilise alors l'expression formelle de $b_{E'}$ avec $z$ une fonction à déterminer
+\begin{equation}
+b_{E'}=\left(\frac{1}{E-E'} + z(E) \delta(E-E') \right) \: V_{E'} \: a_E
+\end{equation}
+Pour déterminer $z$ on injecte l'expression précédente dans la première équation du système
+\begin{equation}
+a_E \: E_\varphi +  a_E \mathcal{P} \int \frac{1}{E-E'} \: V_{E'} V^*_{E'} \: \rmd E' +  a_E \: z(E) \int \delta(E-E') \: V_{E'} V^*_{E'} \: \rmd E'= E \: a_E
+\end{equation}
+\begin{equation}
+z(E) = \frac{E - E_\varphi - \mathcal{P} \int \frac{|V_{E'}|^2}{E-E'} \rmd E'}{|V_{E}|^2}
+\end{equation}
+$\mathcal{P} \int \frac{|V_{E'}|^2}{E-E'} \rmd E'$, noté $F(E)$ par Fano, est l'écart en énergie entre la position de la résonance et $E_\varphi$. Si $V_{E'}$ est indépendant de l'énergie, $F(E) = 0$.
+$a_E$ est déterminée en normalisant $\ket{\Psi_E}$, on a alors
+\begin{equation}
+|a_E|^2 = \frac{1}{|V_E|^2 \left( \pi^2 + z(E)^2 \right)} = \frac{|V_E|^2}{\left( E - E_\varphi - F(E) \right) ^2 + \pi^2 |V_E|^4}
+\end{equation}
+On reconnaît dans l'expression de $a_E$ une fonction lorentzienne de largeur à mi-hauteur
+\begin{equation}
+\Gamma = 2 \pi |V_E|^2
+\end{equation}
+
+\paragraph*{Comportement asymptotique} \`A large distance $r$, la fonction d'onde du continuum non modifiée $\psi_{E'}$ s'écrit, d'après le paragraphe \ref{sec:DiffusionPotentielCentral}
+\begin{equation}
+\psi_{E'}(r \rightarrow + \infty) \propto \sin \left( k(E') + \delta \right)
+\end{equation}
+On a alors
+\begin{equation}
+\int b_{E'} \ket{\psi_{E'}} \rmd E' \propto \int b_{E'} \sin \left( k(E')r + \delta \right) \rmd E'
+\end{equation}
+\begin{equation}
+\propto \mathcal{P} \int V_{E'} a_E \frac{1}{E - E'} \sin \left( k(E')r + \delta \right) \rmd E' + \int V_{E'} a_E \sin \left( k(E')r + \delta \right) z(E) \delta(E-E') \rmd E'
+\end{equation}
+Si $V_{E'}$ s'annule rapidement pour $E' \neq E$, la valeur principale est donnée par l'équation \ref{eq:PartieReelleDeRho} et on a alors
+\begin{equation}
+\int b_{E'} \ket{\psi_{E'}} \rmd E' \propto V_E a_E \left[ - \pi \cos (k(E)r + \delta) + z(E) \sin(k(E)r + \delta) \right]
+\end{equation}
+En posant $\tan \Delta = - \frac{\pi}{z(E)} = - \frac{\pi |V_E|^2}{E - E_\varphi - F(E)} = - \frac{\Gamma / 2}{E - E_\varphi - F(E)}$ ;
+\begin{equation}
+\int b_{E'} \ket{\psi_{E'}} \rmd E' \propto V_E a_E \sin \left( k(E) r + \delta + \Delta \right)
+\end{equation}
+$\Delta$ est donc le déphasage introduit par l'interaction de configuration de $\ket{\psi_{E'}}$ avec l'état discret $\ket{\varphi}$. On peut exprimer les paramètres $a_E$ et $b_{E'}$ en fonction du déphasage $\Delta$:
+\begin{equation}
+|a_E|^2 = \frac{1}{|V_E|^2 \pi^2 \left( 1 + 1/\tan^2 \Delta \right)} 
+\end{equation}
+d'où
+\begin{equation}
+a_E = \frac{\sin \Delta}{\pi V_E} \: \: \: ; \: \: \: b_{E'} = \frac{V_{E'} \sin \Delta}{\pi V_E} \frac{1}{E - E'} - \cos \Delta \: \delta(E-E')
+\label{eq:Expressions_aE_bE}
+\end{equation}
+
+\subsection{Section efficace}
+Nous nous intéressons essentiellement aux transitions dipolaires électriques, mais les profils de Fano se rencontrent également dans d'autres types d'expériences comme la diffusion de particules. Par souci de généralité, l'opérateur de transition sera donc noté ici $\hat{T}$. La transition entre un état initial $\ket{g}$ et la résonance de Fano $\ket{\Psi_E}$ s'écrit, d'après \ref{eq:Expressions_aE_bE}
+\begin{align}
+\bra{\Psi_E} \hat{T} \ket{g} & = \frac{\sin \Delta}{\pi V^*_E} \bra{\varphi} \hat{T} \ket{g} + \frac{\sin \Delta}{\pi V^*_E} \: \mathcal{P} \int \rmd E' \frac{V_{E'}}{E-E'} \bra{\psi_{E'}} \hat{T} \ket{g} - \cos \Delta \bra{\psi_E} \hat{T} \ket{g} \\
+& = \frac{\sin \Delta}{\pi V^*_E} \bra{\Phi} \hat{T} \ket{g} -  \cos \Delta \bra{\psi_E} \hat{T} \ket{g} 
+\end{align}
+avec
+\begin{equation}
+\ket{\Phi} = \ket{\varphi} + \mathcal{P} \int \rmd E' \frac{V_{E'}}{E-E'} \ket{\psi_{E'}}
+\end{equation}
+l'état lié $\ket{\varphi}$ modifié un ajout d'états du continuum dû à l'interaction de configuration.
+
+La section efficace $\sigma$ s'exprime alors
+\begin{align}
+\sigma & \propto |\bra{\Psi_E} \hat{T} \ket{g}|^2 \\
+& \propto |\frac{\sin \Delta}{\pi V^*_E} \bra{\Phi} \hat{T} \ket{g} -  \cos \Delta \bra{\psi_E} \hat{T} \ket{g}|^2 \\
+& \propto |\bra{\psi_E} \hat{T} \ket{g}|^2 \: \: |\frac{\sin \Delta}{\pi V^*_E} \frac{\bra{\Phi} \hat{T} \ket{g}}{\bra{\psi_E} \hat{T} \ket{g}} -  \cos \Delta |^2
+\label{eq:SectionEfficaceFano}
+\end{align}
+En définissant la section efficace de fond $\sigma_0 \propto |\bra{\psi_E} \hat{T} \ket{g}|^2$ et en introduisant le paramètre d'asymétrie $q$ tel que
+\begin{equation}
+q = \frac{1}{\pi V^*_E} \frac{\bra{\Phi} \hat{T} \ket{g}}{\bra{\psi_E} \hat{T} \ket{g}}
+\label{eq:Definition_q}
+\end{equation}
+l'équation \ref{eq:SectionEfficaceFano} devient
+\begin{equation}
+\sigma = \sigma_0 \: |q \: \sin \Delta - \cos \Delta|^2
+\end{equation}
+On définit également l'énergie réduite $\epsilon$ telle que
+\begin{equation}
+\epsilon = - \cot \Delta = \frac{E - E_\varphi - F(E)}{\pi |V_E|^2} = \frac{E - E_\varphi - F(E)}{\Gamma / 2}
+\end{equation}
+Et avec la relation $\sin^2 \Delta = 1/(1+\cot^2 \Delta)$, l'expression du profil de Fano est obtenue:
+\begin{equation}
+\sigma = \sigma_0 \: \frac{\left(q+\epsilon\right) ^2}{1+\epsilon^2}
+\label{eq:ProfilFano}
+\end{equation}
+Ainsi, la section efficace est définie par trois paramètres: $q$, l'énergie de la résonance $E_r = E_\varphi + F(E)$ et sa largeur $\Gamma$. D'après la définition de $q$ (\ref{eq:Definition_q}),
+\begin{equation}
+\frac{1}{2} \pi q^2 = \frac{|\bra{\Phi} \hat{T} \ket{g}|^2}{|\bra{\psi_E} \hat{T} \ket{g}|^2 \: \Gamma}
+\end{equation}
+$q$ caractérise donc le rapport entre les probabilités de transition vers l'état discret (modifié par le continuum) et vers le continuum (non perturbé). 
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/DelaisPI/}{ProfilsFano.pdf_tex}
+\caption{Allure de la section efficace d'absorption pour plusieurs valeurs du paramètre $q$.}
+\label{fig:ProfilsFano}
+\end{figure}
+
+La figure \ref{fig:ProfilsFano} présente l'allure de la section efficace d'absorption en fonction de l'énergie réduite $\epsilon$ pour plusieurs valeurs de $q$. Le profil de raie est d'autant plus asymétrique que $|q|$ est grand. Le sens de l'asymétrie est donné par le signe de $q$. D'après l'expression \ref{eq:ProfilFano}, la section efficace est minimale pour $\epsilon = - q$ et maximale pour $\epsilon = 1/q$. Remarquons ici que la position de la résonance ($\epsilon = 0$), ne correspond en général ni au maximum ni au minimum de la section efficace. Le cas particulier $q = 0$ est propre aux résonances de Fano et conduit à un trou dans le spectre d'absorption, parfois appelé "anti-résonance".
+
+Une expression différente de la section efficace permet d'interpréter physiquement le phénomène de résonance de Fano:
+\begin{equation}
+\sigma = \sigma_0 \: \frac{\left(q + \epsilon \right) ^2}{1+\epsilon^2} = \sigma_0 \left( \underbrace{1}_\textrm{Continuum} + \underbrace{\frac{q^2 - 1}{1 + \epsilon^2}}_\textrm{\'Etat discret} + \underbrace{\frac{2 q \epsilon}{1 + \epsilon^2}}_\textrm{Couplage} \right)
+\end{equation}
 %\section{2 photons avec Fano}
 %Madrid
 %
