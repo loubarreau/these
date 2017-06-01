@@ -1,7 +1,8 @@
-% Police figures = Helvetica 17.5
 \part{Délai de photoionisation résonante}
 %Blablablablabla
+% Police figures = Helvetica 17.5
 \chapter{Délai de photoionisation attoseconde}
+\label{chap:DelaiPI}
 Introduction sur l'effet photoélectrique...
 
 \section{Diffusion par un potentiel central}
@@ -86,12 +87,18 @@ Avec $(\frac{\rmd}{\rmd\rho})^\ell \sin \rho = (-1)^\ell \sin (\rho - \ell \frac
 Le comportement asymptotique de l'onde sphérique libre $\psi^{(0)}_{k,\ell,m} (r, \theta, \phi)$ est donc: 
 %(1.8)
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \psi^{(0)}_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim \sqrt{\frac{2k^2}{\pi}} Y_{\ell}^{m}(\theta, \phi)  \frac{\sin(kr - \ell \pi / 2)}{kr}
+}
 \end{equation}
 fonction réelle que l'on peut écrire sous forme complexe pour interpréter son expression sous forme d'ondes
 %(1.9)
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \psi^{(0)}_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim - \sqrt{\frac{2k^2}{\pi}} Y_{\ell}^{m}(\theta, \phi)  \frac{\rme^{-ikr}\rme^{i\ell \frac{\pi}{2}} - \rme^{ikr}\rme^{-i\ell \frac{\pi}{2}}}{2ikr}
+}
 \label{eq:Onde_sph_libre}
 \end{equation}
 Pour $r \rightarrow + \infty$, $\psi^{(0)}_{k,\ell,m}$ est donc la superposition d'une onde sphérique entrante $e^{-ikr}/r$ et d'une onde sphérique sortante  $e^{+ikr}/r$ dont la phase relative est $\ell \pi$.
@@ -133,7 +140,10 @@ $\delta_{E,\ell}$ dépend de $\ell$ et de $k$, c'est-à-dire du moment angulaire
 \end{equation}
 ou encore, en multipliant par un facteur de phase $\rme^{i \delta_{E,\ell}}$ et en choisissant la constante $C$ pour faciliter la comparaison avec l'expression asymptotique de l'onde sphérique libre \ref{eq:Onde_sph_libre}
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \psi_{k,\ell,m} (r \rightarrow + \infty, \theta, \phi) \sim - Y_{\ell}^{m}(\theta, \phi)  \frac{\rme^{-ikr}\rme^{i\ell \frac{\pi}{2}} - \rme^{ikr}\rme^{-i\ell \frac{\pi}{2}} \rme^{2 i \delta_{E,\ell}}}{2ikr}
+}
 \label{eq:Onde_partielle}
 \end{equation}
 
@@ -151,7 +161,10 @@ La théorie de la diffusion par un potentiel central exposée précédemment pro
 
 \paragraph*{Cas de la diffusion sur un potentiel Coulombien} Le potentiel Coulombien créé par un ion de charge $Z$ est proportionnel à $Z/r$, le traitement analytique précédent des potentiels à courte portée ne s'applique pas. Cependant, on peut montrer que la phase de diffusion sur un potentiel de Coulomb s'exprime comme: \mycite{Friedrich} %p.22
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \Phi_{k,\ell}(r) = \frac{Z \: \ln 2kr}{k} - \ell \: \frac{\pi}{2} + \underbrace{\sigma_{k,\ell} + \delta_{k,\ell}}_{\eta_{k,\ell}}
+}
 \label{eq:dephasage_Coulomb}
 \end{equation}
 avec $\delta_{k,\ell}$ décrivant le déphasage asymptotique avec une onde libre de Coulomb et
@@ -189,7 +202,14 @@ soit
 t = \frac{r}{v} + 2 \hbar \frac{\rmd \delta_{E,\ell}}{\rmd E}\\
 t = \frac{r}{v}
 \end{align*}
-Le paquet d'onde électronique diffusé est temporellement décalé d'une quantité \[ \tau_W = 2 \hbar \frac{\rmd \delta_{E,\ell}}{\rmd E} \] par rapport au paquet d'onde électronique libre.\\
+Le paquet d'onde électronique diffusé est temporellement décalé d'une quantité
+\begin{equation}
+\setlength\fboxrule{1pt}
+\boxed{
+\tau_W = 2 \hbar \frac{\rmd \delta_{E,\ell}}{\rmd E}
+}
+\end{equation} 
+par rapport au paquet d'onde électronique libre.\\
 $\tau_W$ est appelé délai de Wigner (ou Eisenbud-Wigner-Smith), d'après les physiciens qui mirent en évidence cette relation entre les délais et les phases de diffusion \mycite{Eisenbud} \mycite{WignerPR1955} \mycite{SmithPR1960}. 
 
 \paragraph{Exemple: Délai de Wigner pour un potentiel faible}
@@ -251,7 +271,8 @@ Comme $\cos \theta = \sqrt{\frac{4 \pi}{3}} Y_1^0(\theta) $, on obtient en fonct
 \end{multline}
 Les règles de sélection pour la transition à un photon imposent $L = \ell_g \pm 1$ et $M = m_g$. Le moment de transition $M^{(1)}_{k}$ s'écrit alors
 \begin{multline}
- M^{(1)}_{k} \propto \sum_{L = \ell_g \pm 1; M = m_g} (-1)^{-M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M \: \ast} (\vec{k}) \sqrt{2 L +1} \sqrt {2 \ell_g +1}\times \\
+ M^{(1)}_{k} \propto \sum_{L = \ell_g \pm 1; M = m_g} (-1)^{-M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M \: \ast} (\vec{k}) \sqrt{2 L +1} \sqrt {2 \ell_g +1} \\
+\times
 \begin{pmatrix}
    L & 1 & \ell_g \\
    0 & 0 & 0 
@@ -260,7 +281,7 @@ Les règles de sélection pour la transition à un photon imposent $L = \ell_g \
    L & 1 & \ell_g \\
    -M & 0 & m_g 
 \end{pmatrix} \bra{R_{k,L}(r)} r \ket{R_{n_g,\ell_g}(r)}
- \label{eq:M1phot_final}
+\label{eq:M1phot_final}
 \end{multline}
 L'élément de matrice radial ainsi que les symboles $3j$ sont réels \mycite{CohenT2}. Si l'on ne considère qu'un unique canal d'ionisation, cet élément de matrice se simplifie. Cette situation se rencontre dans le cas de l'ionisation d'un électron $s$ ou bien si la transition vers $L = \ell_g + 1$ est favorisée par rapport à la transition vers $L = \ell_g - 1$ \mycite{FanoPRA1985}. On a alors la relation simple entre l'élément de matrice de transition et la phase de diffusion de l'état du continuum:
 \begin{equation}
@@ -268,7 +289,10 @@ L'élément de matrice radial ainsi que les symboles $3j$ sont réels \mycite{Co
 \end{equation}
 Soit le délai de photoionisation \footnote{Notons que bien que le délai de photoionisation soit relié à l'élément de matrice de transition, il n'est pas correct d'interpréter ce dernier comme "le temps qu'il faut pour absorber un photon", ce phénomène étant instantané. Pour éviter cette confusion, un autre choix de fonctions du continuum, les fonctions d'onde \textit{sélectionnées par la transition}, permet d'avoir un élément de transition réel et la phase est alors uniquement contenue dans l'expression de la fonction d'onde \mycite{GaillacPRA2016}.}
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \tau = \frac{\partial \arg M^{(1)}_{k}}{\partial \omega} = \frac{1}{2} \tau_W
+}
 \end{equation}
 \`A un facteur 2 près, le délai de photoionisation à un photon coïncide avec le délai de Wigner. La photoionisation peut alors être interprétée comme une demie collision. Ce délai est bien plus faible que la limite de résolution des détecteurs électroniques utilisés expérimentalement. Il ne peut donc pas être mesuré directement, et a longtemps été considéré comme accessible uniquement \textit{via} des expériences de pensée.
 
@@ -288,6 +312,7 @@ On considère l'ionisation à deux couleurs décrite par le schéma \ref{fig:Sch
 Les champs XUV et IR sont polarisés selon la même direction $z$ qui est choisie comme axe de quantification. Au second ordre de la théorie des perturbations, l'élément de transition à deux photons correspondant à l'absorption du photon XUV suivie du photon IR s'écrit comme la somme-intégrale sur tous les états intermédiaires d'énergie $E_\nu$ (discrets pour $E_\nu < 0$ et du continuum pour $E_\nu > 0$):
 \begin{equation}
 M_{\vec{k}}^{(2)} = \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\epsilon \rightarrow 0^+} \sum_{\nu} \! \! \! \! \! \! \! \! \! \int \frac{\bra{\vec{k}} z\ket{\nu} \bra{\nu} z \ket{g}} {E_g + \Omega - E_{\nu} + i \epsilon}
+\label{eq:MatriceDeuxPhotons}
 \end{equation}
 De la même manière que précédemment, on utilise la décomposition en ondes partielles des fonctions d'onde du continuum \ref{eq:M1phot_k} et la séparation de la fonction d'onde de l'état fondamental en partie radiale et angulaire \ref{eq:M1phot_g}. 
 \begin{multline}
@@ -368,7 +393,10 @@ Remarquons que la première ligne de cette expression est réelle et contient un
 où la phase $\phi_{cc}$ est associée uniquement à la transition entre deux états intermédiaire et final du continuum d'un potentiel coulombien. C'est-à-dire qu'elle ne dépend ni de l'état initial ni du champ XUV. Elle est considérée comme universelle \mycite{DahlstromChemPhys2013} et est induite par la mesure.
 Il est désormais possible d'exprimer la phase de l'élément de matrice de transition à deux photons total \ref{eq:M2phot}:
 \begin{equation}
+\setlength\fboxrule{1pt}
+\boxed{
 \arg M_{\vec{k}}^{(2)} = \pi + \arg Y_{L}^{m_g}(k) + \phi_\Omega + \phi_\omega - \lambda \frac{\pi}{2} + \eta_\lambda (\kappa) + \phi_{cc}(k,\kappa)
+}
 \label{eq:PhaseMatrice2phot}
 \end{equation}
 où $\phi_\Omega$ et $\phi_\omega$ sont les phases des champs XUV et IR respectivement. Les phases de diffusion de l'état final $\eta_L$ s'annulent et n'interviennent pas dans l'expression finale \ref{eq:PhaseMatrice2phot}. Ainsi, de manière surprenante, exceptée la contribution de l'harmonique sphérique, les termes contenus dans \ref{eq:PhaseMatrice2phot} dépendent uniquement de l'état intermédiaire c'est-à-dire de la transition à un photon.
@@ -387,11 +415,17 @@ S_{SB} \propto |M^{a}+M^{e}|^2 = |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \cos[\
 \end{equation}
 En supposant qu'un seul moment angulaire intermédiaire contribue à la transition dans les deux chemins $a$ et $e$ \footnote{Dans le cas général pour l'ionisation d'un électron ne se trouvant pas en couche $s$, plusieurs moments angulaires intermédiaires contribuent. Le délai de Wigner \textit{apparent} correspond à la somme de toutes les contributions.}, grâce à \ref{eq:PhaseMatrice2phot} on a:
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \arg (M^{a \: *} M^{e}) \approx 2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q)
+}
 \end{equation} 
 avec $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ la différence de phase spectrale entre deux harmoniques consécutives et $\tau$ le délai entre les impulsions IR et XUV. On retrouve l'expression présentée au chapitre \textbf{ref} permettant la caractérisation de trains d'impulsions attoseconde. Ainsi, la dérivée de la phase à $2 \omega$ mesurée par le RABBIT permet d'obtenir
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \tau_{\mathrm{RABBIT}} \approx \tau_q + \tau_W + \tau_{cc}
+}
 \label{eq:DelaiRabbitTotal}
 \end{equation}
 $\tau_q$ est le délai de groupe des harmoniques, $\tau_W$ le délai de Wigner et $\tau_{cc}$ un délai introduit par la mesure dû à la transition entre deux états du continuum.
@@ -464,6 +498,7 @@ Finalement, notons que la technique RABBIT est également adaptée à la mesure 
 Enfin par souci d'exhaustivité, mentionnons ici l'expérience de \mycite{KoturNatComm2016} mesurant la variation de phase au voisinage d'une résonance de Fano dans l'argon, publiée pendant ma thèse et étroitement liée à mes travaux. Ces résultats seront présentés en détail dans le chapitre \textbf{ref}.
 
 \chapter{Résonances autoionisantes de Fano}
+\label{chap:ResonancesFano}
 \begin{figure}[h]
 \centering
 \def\svgwidth{0.3\textwidth}
@@ -482,12 +517,23 @@ En 1935, alors qu'Ugo Fano est en post-doctorat dans le laboratoire d'Enrico Fer
 \label{fig:Beutler}
 \end{figure}
 
-Dans ce chapitre, nous rappellerons les développements et les principaux résultats du modèle de Fano pour l'autoionisation, phénomène qui se produit lorsqu'un système est excité dans un état d'énergie supérieure à son potentiel d'ionisation.
+Dans ce chapitre, nous rappellerons les développements et les principaux résultats du modèle de Fano pour l'autoionisation, phénomène qui se produit lorsqu'un système est excité dans un état d'énergie supérieure à son potentiel d'ionisation. Dans ces conditions, deux processus d'excitation interfèrent: l'ionisation directe et l'autoionisation après être resté transitoirement dans l'état excité. La durée de vie caractéristique des états autoionisants est traditionnellement déterminée en spectroscopie à partir de la largeur de raie, et est de l'ordre de la dizaine de femtosecondes pour les systèmes atomiques.
 
 \section{Interaction entre un état discret et un continuum d'états}
+\label{sec:UniqueContinuum}
 Il s'agit de déterminer les profils de raie des résonances d'autoionisation, c'est-à-dire l'expression de la section efficace de transition. La suite de ce paragraphe utilise les notations de Fano \mycite{FanoPR1961}\mycite{Maquet2015}.
 \subsection{Fonctions propres}
-On considère un système atomique constitué d'un état du continuum $\ket{\psi_{E'}}$ et d'un état discret (pseudo-) lié $\ket{\varphi}$, couplés par $V_{E'}$. On a:
+On considère un système atomique constitué d'un état du continuum $\ket{\psi_{E'}}$ et d'un état discret (pseudo-) lié $\ket{\varphi}$, couplés par $V_{E'}$.
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/DelaisPI/}{Schema_Fano.pdf_tex}
+\caption{Diagramme énergétique des états considérés dans le traitement de Fano de l'autoionisation.}
+\label{fig:Schema_Fano}
+\end{figure}
+
+On a:
 \begin{align}
 \bra{\varphi}\hat{H}\ket{\varphi} & = E_\varphi \\
 \bra{\psi_{E'}}\hat{H}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
@@ -499,8 +545,8 @@ où $\delta$ est la distribution de Dirac. On cherche les fonctions propres du s
 \end{equation}
 avec $a_E$ et $b_E$ fonctions de l'énergie à déterminer, solutions du système d'équations
 \begin{align}
-a_E \: E_\varphi + \int b_{E'} V^*_{E'} \rmd E' & = E \: a_E \\
-a_E \: V_{E'} + b_{E'} \: E' & = E \: b_{E'}
+\label{eq:SystUniqueContinuum1} a_E \: E_\varphi + \int b_{E'} V^*_{E'} \rmd E' & = E \: a_E \\
+\label{eq:SystUniqueContinuum2} a_E \: V_{E'} + b_{E'} \: E' & = E \: b_{E'}
 \end{align} 
 Pour exprimer $b_{E'}$ en fonction de $a_E$ dans la seconde équation, il faut diviser par $(E-E')$ qui peut être nul. On utilise alors l'expression formelle de $b_{E'}$ avec $z$ une fonction à déterminer
 \begin{equation}
@@ -517,10 +563,13 @@ $\mathcal{P} \int \frac{|V_{E'}|^2}{E-E'} \rmd E'$, noté $F(E)$ par Fano, est l
 $a_E$ est déterminée en normalisant $\ket{\Psi_E}$, on a alors
 \begin{equation}
 |a_E|^2 = \frac{1}{|V_E|^2 \left( \pi^2 + z(E)^2 \right)} = \frac{|V_E|^2}{\left( E - E_\varphi - F(E) \right) ^2 + \pi^2 |V_E|^4}
+\label{eq:Expression_aE}
 \end{equation}
 On reconnaît dans l'expression de $a_E$ une fonction lorentzienne de largeur à mi-hauteur
 \begin{equation}
-\Gamma = 2 \pi |V_E|^2
+\setlength\fboxrule{0.5pt}
+\boxed{
+\Gamma = 2 \pi |V_E|^2 }
 \end{equation}
 
 \paragraph*{Comportement asymptotique} \`A large distance $r$, la fonction d'onde du continuum non modifiée $\psi_{E'}$ s'écrit, d'après le paragraphe \ref{sec:DiffusionPotentielCentral}
@@ -562,18 +611,21 @@ avec
 \begin{equation}
 \ket{\Phi} = \ket{\varphi} + \mathcal{P} \int \rmd E' \frac{V_{E'}}{E-E'} \ket{\psi_{E'}}
 \end{equation}
-l'état lié $\ket{\varphi}$ modifié un ajout d'états du continuum dû à l'interaction de configuration.
+$\ket{\Phi}$ correspond donc à l'état lié $\ket{\varphi}$ modifié par un ajout d'états du continuum dû à l'interaction de configuration.
 
 La section efficace $\sigma$ s'exprime alors
 \begin{align}
-\sigma & \propto |\bra{\Psi_E} \hat{T} \ket{g}|^2 \\
-& \propto |\frac{\sin \Delta}{\pi V^*_E} \bra{\Phi} \hat{T} \ket{g} -  \cos \Delta \bra{\psi_E} \hat{T} \ket{g}|^2 \\
-& \propto |\bra{\psi_E} \hat{T} \ket{g}|^2 \: \: |\frac{\sin \Delta}{\pi V^*_E} \frac{\bra{\Phi} \hat{T} \ket{g}}{\bra{\psi_E} \hat{T} \ket{g}} -  \cos \Delta |^2
+\sigma & \propto \left| \bra{\Psi_E} \hat{T} \ket{g} \right| ^2 \\
+& \propto \left| \frac{\sin \Delta}{\pi V^*_E} \bra{\Phi} \hat{T} \ket{g} -  \cos \Delta \bra{\psi_E} \hat{T} \ket{g} \right| ^2 \\
+& \propto \left| \bra{\psi_E} \hat{T} \ket{g} \right| ^2 \: \times \: \left| \frac{\sin \Delta}{\pi V^*_E} \frac{\bra{\Phi} \hat{T} \ket{g}}{\bra{\psi_E} \hat{T} \ket{g}} -  \cos \Delta \right| ^2
 \label{eq:SectionEfficaceFano}
 \end{align}
 En définissant la section efficace de fond $\sigma_0 \propto |\bra{\psi_E} \hat{T} \ket{g}|^2$ et en introduisant le paramètre d'asymétrie $q$ tel que
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 q = \frac{1}{\pi V^*_E} \frac{\bra{\Phi} \hat{T} \ket{g}}{\bra{\psi_E} \hat{T} \ket{g}}
+}
 \label{eq:Definition_q}
 \end{equation}
 l'équation \ref{eq:SectionEfficaceFano} devient
@@ -582,34 +634,249 @@ l'équation \ref{eq:SectionEfficaceFano} devient
 \end{equation}
 On définit également l'énergie réduite $\epsilon$ telle que
 \begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
 \epsilon = - \cot \Delta = \frac{E - E_\varphi - F(E)}{\pi |V_E|^2} = \frac{E - E_\varphi - F(E)}{\Gamma / 2}
+}
 \end{equation}
 Et avec la relation $\sin^2 \Delta = 1/(1+\cot^2 \Delta)$, l'expression du profil de Fano est obtenue:
 \begin{equation}
-\sigma = \sigma_0 \: \frac{\left(q+\epsilon\right) ^2}{1+\epsilon^2}
+\setlength\fboxrule{1pt}
+\boxed{
+\sigma = \sigma_0 \: \frac{\left(q+\epsilon\right) ^2}{1+\epsilon^2}}
 \label{eq:ProfilFano}
 \end{equation}
 Ainsi, la section efficace est définie par trois paramètres: $q$, l'énergie de la résonance $E_r = E_\varphi + F(E)$ et sa largeur $\Gamma$. D'après la définition de $q$ (\ref{eq:Definition_q}),
 \begin{equation}
 \frac{1}{2} \pi q^2 = \frac{|\bra{\Phi} \hat{T} \ket{g}|^2}{|\bra{\psi_E} \hat{T} \ket{g}|^2 \: \Gamma}
 \end{equation}
-$q$ caractérise donc le rapport entre les probabilités de transition vers l'état discret (modifié par le continuum) et vers le continuum (non perturbé). 
+$q$ caractérise donc le rapport entre les probabilités de transition vers l'état discret (modifié par le continuum) et vers le continuum (non perturbé), et détermine la forme du profil de raie.
 
 \begin{figure}
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/DelaisPI/}{ProfilsFano.pdf_tex}
-\caption{Allure de la section efficace d'absorption pour plusieurs valeurs du paramètre $q$.}
+\caption{Allure de la section efficace d'absorption en fonction de l'énergie réduite $\epsilon$ pour plusieurs valeurs du paramètre $q$.}
 \label{fig:ProfilsFano}
 \end{figure}
 
 La figure \ref{fig:ProfilsFano} présente l'allure de la section efficace d'absorption en fonction de l'énergie réduite $\epsilon$ pour plusieurs valeurs de $q$. Le profil de raie est d'autant plus asymétrique que $|q|$ est grand. Le sens de l'asymétrie est donné par le signe de $q$. D'après l'expression \ref{eq:ProfilFano}, la section efficace est minimale pour $\epsilon = - q$ et maximale pour $\epsilon = 1/q$. Remarquons ici que la position de la résonance ($\epsilon = 0$), ne correspond en général ni au maximum ni au minimum de la section efficace. Le cas particulier $q = 0$ est propre aux résonances de Fano et conduit à un trou dans le spectre d'absorption, parfois appelé "anti-résonance".
 
-Une expression différente de la section efficace permet d'interpréter physiquement le phénomène de résonance de Fano:
+Une expression différente de la section efficace permet de rendre compte de l'interprétation physique du phénomène de résonance de Fano:
 \begin{equation}
-\sigma = \sigma_0 \: \frac{\left(q + \epsilon \right) ^2}{1+\epsilon^2} = \sigma_0 \left( \underbrace{1}_\textrm{Continuum} + \underbrace{\frac{q^2 - 1}{1 + \epsilon^2}}_\textrm{\'Etat discret} + \underbrace{\frac{2 q \epsilon}{1 + \epsilon^2}}_\textrm{Couplage} \right)
+\sigma = \sigma_0 \: \frac{\left(q + \epsilon \right) ^2}{1+\epsilon^2} = \sigma_0 \left( \underbrace{1}_\textrm{Continuum} + \underbrace{\frac{q^2 - 1}{1 + \epsilon^2}}_\textrm{Lorentzienne: \'Etat discret} + \underbrace{\frac{2 q \epsilon}{1 + \epsilon^2}}_\textrm{Couplage} \right)
+\label{eq:SectionEfficaceFano3termes}
 \end{equation}
-%\section{2 photons avec Fano}
-%Madrid
-%
+
+\section{Interaction entre un état discret et plusieurs continua}
+\label{sec:PlusieursContinua}
+Cette situation se rencontre lorsque plusieurs voies d'ionisation sont possibles, par exemple l'ionisation d'un électron $p$ peut conduire à l'émission d'un électron dans les continua $s$ ou $d$. Un état discret d'énergie supérieure au potentiel d'ionisation du système peut alors être couplé différemment aux deux continua.\\
+Les fonctions d'onde des continua sont notées $\ket{\psi_{E'}}$ et $\ket{\chi_{E'}}$ et sont orthogonales. Le système est caractérisé par les équations suivantes:
+\begin{align}
+\bra{\varphi}\hat{H}\ket{\varphi} & = E_\varphi \\
+\bra{\psi_{E'}}\hat{H}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
+\bra{\chi_{E'}}\hat{H}\ket{\chi_{E''}} & = E' \delta(E''-E') \\
+\bra{\psi_{E'}}\hat{H}\ket{\varphi} & = V_{E'} \\
+\bra{\chi_{E'}}\hat{H}\ket{\varphi} & = W_{E'} \\
+\bra{\psi_{E'}}\hat{H}\ket{\chi_{E''}} & = 0
+\end{align}
+Les fonctions propres sont cherchées sous la forme
+\begin{equation}
+\ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E' + \int c_{E'} \ket{\chi_{E'}} \rmd E'
+\end{equation}
+avec $a_E$, $b_{E'}$ et $c_{E'}$ solutions du système d'équations
+\begin{align}
+\label{eq:SystPlusieursContinua1} a_E \: E_\varphi + \int (b_{E'} V^*_{E'} + c_{E'} W^*_{E'}) \rmd E' & = E \: a_E \\
+\label{eq:SystPlusieursContinua2} a_E \: V_{E'} + b_{E'} \: E' & = E \: b_{E'} \\
+\label{eq:SystPlusieursContinua3} a_E \: W_{E'} + c_{E'} \: E' & = E \: c_{E'}
+\end{align}
+$V^*_{E'} \times$ \ref{eq:SystPlusieursContinua2} + $W^*_{E'} \times$ \ref{eq:SystPlusieursContinua3} donne
+\begin{equation}
+a_E \left( \: |V_{E'}|^2 + |W_{E'}|^2 \: \right) + E' \left( V^*_{E'} b_{E'} + W^*_{E'} c_{E'} \right) = E \left( V^*_{E'} b_{E'} + W^*_{E'} c_{E'} \right)
+\label{eq:SystPlusieursContinua4}
+\end{equation}
+Tandis que $W_{E'} \times$ \ref{eq:SystPlusieursContinua2} - $V_{E'} \times$ \ref{eq:SystPlusieursContinua3} permet d'obtenir 
+\begin{equation}
+E' \left( W_{E'} b_{E'} - V_{E'} c_{E'} \right) = E \left( W_{E'} b_{E'} - V_{E'} c_{E'} \right)
+\label{eq:SystPlusieursContinua5}
+\end{equation}
+Ces deux combinaisons linéaires étant orthogonales, \ref{eq:SystPlusieursContinua1}, \ref{eq:SystPlusieursContinua4} et \ref{eq:SystPlusieursContinua5} forment un système d'équations équivalent au précédent. On reconnaît dans \ref{eq:SystPlusieursContinua1} et \ref{eq:SystPlusieursContinua4} la forme des équations correspondant au cas à un unique continuum (équations \ref{eq:SystUniqueContinuum1} et \ref{eq:SystUniqueContinuum2}) avec $V_{E'} \leftrightarrow \sqrt{|V_{E'}|^2 + |W_{E'}|^2}$ et $V^*_{E'} b_{E'} \leftrightarrow V^*_{E'} b_{E'} + W^*_{E'} c_{E'}$.\\
+\ref{eq:SystPlusieursContinua5} ne dépend pas de $a_E$, donc pas de l'état discret et sa solution est simplement
+\begin{equation}
+W_{E'} b_{E'} - V_{E'} c_{E'} = \delta (E-E')
+\end{equation}
+Ainsi, le cas de l'interaction d'un état discret avec plusieurs continua se ramène facilement au cas de l'interaction avec un continuum "interactif" (traité au paragraphe \ref{sec:UniqueContinuum}) et un continuum "non interactif" (contribuant seulement au fond), avec
+\begin{align}
+\ket{\psi^{int}_{E'}} & = \frac{V^*_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\psi_{E'}} + \frac{W^*_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\chi_{E'}} \\
+\ket{\psi^{non \: int}_{E'}} & = \frac{W_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\psi_{E'}} - \frac{V_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\chi_{E'}} 
+\end{align}
+
+\section{Dynamique de l'autoionisation: \'Etat de l'art}
+La dynamique de l'autoionisation est d'abord caractérisée par la mesure des largeurs de raie $\Gamma$ en spectroscopie statique, donnant accès à la durée de vie $\tau = \hbar / \Gamma$. Le tableau \ref{tab:ParamètresFano} résume les paramètres caractérisant quelques résonances de Fano dans les gaz rares qui seront étudiées dans ce manuscrit. Leur largeur typique est la dizaine de milliélectronvolts, soit une durée de vie de quelques dizaines de femtosecondes. Ainsi, la question de la mesure "en temps réel" de la dynamique d'autoionisation ne s'est posée qu'à partir de l'existence de sources de lumières ultra-brèves dans cette gamme d'énergie, c'est-à-dire avec les débuts de la physique attoseconde.
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Résonance & $E_r$ (eV) & q & $\Gamma$ (meV) & $\tau$ (fs) & Référence \\
+\hline
+He $2s2p$ & 60.147 & -2.77 & 36 & 17 & \mycite{DomkePRA1996} \\
+\hline
+He $sp3^+$ & 63.66 & -2.58 & 8 & 82 & \mycite{DomkePRA1996} \\
+\hline
+Ne $2s2p^63p$ & 45.54 & -1.58 & 16 & 41 & \mycite{SchulzPRA1996} \\
+\hline
+Ar $3s3p^64p$ & 26.606 & -0.28 & 80 & 8 & \mycite{BerrahJPB1996} \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Energie $E_r$, paramètre d'asymétrie $q$, largeur spectrale $\Gamma$ et durée de vie $\tau$ de plusieurs résonances de Fano étudiées dans ce manuscrit.}
+\label{tab:ParamètresFano}
+\end{table}
+
+En 2002, \mycite{DrescherNature2002} s'intéressent à la dynamique d'un autre processus de désexcitation électronique: la relaxation Auger. Une impulsion attoseconde unique centrée à 97 eV excite le krypton qui émet des électrons Auger. Sous l'influence d'une seconde impulsion IR brève et intense, les électrons Auger sont redistribués dans des bandes latérales. L'évolution temporelle du signal des bandes latérales permet d'obtenir une estimation de la durée de vie de la lacune, tout à fait comparable à la valeur obtenue grâce à la largeur de raie. Par la suite, \mycite{ZhaoPRA2005} étudient théoriquement la possibilité de mesurer directement dans le domaine temporel les durées de vie d'états autoionisants par la même méthode. La première mesure directe de la durée de vie de la résonance de Fano $2s2p$ de l'hélium avec cette technique est effectuée quelques années plus tard \mycite{GilbertsonPRL2010}. La figure \ref{fig:Gilbertson} montre le spectre d'électrons en fonction du délai entre une impulsion attoseconde unique et une impulsion IR de 9 fs. Conformément aux prédictions de \mycite{ZhaoPRA2005}, des bandes latérales sont observées de part et d'autre de la résonance lorsque les deux impulsions sont simultanées. Le signal total d'électrons au voisinage de la résonance est asymétrique autour de $\Delta t = 0$. Son évolution pour $\Delta t > 0$ (IR après XUV) est en très bon accord avec l'ajustement exponentiel de durée de vie $\tau = 17$ fs (voir tableau \ref{tab:ParamètresFano}).
+
+\begin{figure}
+\centering
+\def\svgwidth{0.9\textwidth}
+\import{Figures/DelaisPI/}{Gilbertson.pdf_tex}
+\caption{Détermination directe de la durée de vie de la résonance $2s2p$ de l'hélium par streaking attoseconde. (a) Spectre d'électrons en fonction du délai XUV-IR. La résonance d'autoionisation (AI) ainsi que les bandes latérales dues à l'émission/absorption d'un photon IR (SB1, SB2) sont indiquées par des flèches. (b) Signal d'électrons à l'énergie de la résonance en fonction du temps et ajustement exponentiel avec $\tau = 17$ fs. Extrait de \mycite{GilbertsonPRL2010}.}
+\label{fig:Gilbertson}
+\end{figure}
+
+Le groupe de Zenghu Chang a également mesuré la durée de vie de la résonance d'autoionisation $3s3p^64p$ de l'argon grâce à la méthode d'absorption transitoire attoseconde \mycite{WangPRL2010}. Les auteurs mesurent le spectre d'absorption de l'argon en fonction du délai entre une impulsion XUV attoseconde unique et une impulsion IR de 6-8 fs. L'impulsion IR couple les résonances avec le continuum de l'argon, ce qui modifie le spectre d'absorption. La durée de vie est obtenue en effectuant un ajustement exponentiel de l'évolution temporelle du spectre au voisinage de la résonance. La valeur obtenue ($\tau = 8,2$ fs, figure \ref{fig:Wang}) est en excellent accord avec les données spectroscopiques du tableau \ref{tab:ParamètresFano}.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.9\textwidth}
+\import{Figures/DelaisPI/}{Wang.pdf_tex}
+\caption{Détermination directe de la durée de vie de la résonance $3s3p^64p$ de l'argon par absorption transitoire attoseconde. (a) Spectre XUV transmis à travers une cellule d'argon en fonction du délai entre l'impulsion attoseconde unique et une impulsion IR ultra-brève. (b) Signal transmis au voisinage des résonances d'autoionisation (trait plein) et ajustement avec la convolution d'une gaussienne et d'une décroissance exponentielle de durée de vie indiquée (pointillés). Adapté de \mycite{WangPRL2010}.}
+\label{fig:Wang}
+\end{figure}
+
+Cependant, la seule mesure de la durée de vie de la résonance ne permet pas de caractériser entièrement la dynamique électronique qui a lieu lors de l'autoionisation. En effet, la transformée de Fourier d'une décroissance exponentielle dans le temps est un profil de raie Lorentzien, très différent de l'asymétrie caractéristique des résonances de Fano. En 2005, \mycite{WickenhauserPRL2005} s'intéressent théoriquement à la dynamique complète de la construction de la résonance de Fano. L'interaction d'une résonance de Fano (décrite par le modèle présenté au paragraphe \ref{sec:UniqueContinuum}) avec une impulsion XUV de durée inférieure à la durée de vie de la résonance ($\tau_X < \tau_r$) et un champ laser est étudiée par la résolution de l'équation de Schrödinger dépendante du temps. Les auteurs calculent l'expression de la probabilité d'ionisation $P(E, t) = |\bra{E}\ket{\Psi (t)}|^2$ dépendant de l'énergie et du temps. L'expression analytique obtenue pour l'amplitude d'ionisation$\bra{E}\ket{\Psi (t)}$ (équation (11) de \mycite{WickenhauserPRL2005}) est à rapprocher de l'expression de la section efficace \ref{eq:SectionEfficaceFano3termes}. En effet, elle contient trois termes: l'excitation directe de l'état fondamental vers le continuum en l'absence de résonance, la transition indirecte vers le continuum \textit{via} la résonance, et un terme de couplage. $P(E, t)$ représente la construction du profil de raie au cours du temps, et est reproduit figure \ref{fig:Wickenhauser}. Pour $t \leq \tau_r$, le spectre large reflète la durée ultra-brève de l'impulsion de pompe $\tau_X$, seule l'excitation directe contribuant au spectre. Lorsque $t$ augmente, les interférences avec le chemin résonant ont lieu et modifient le spectre d'absorption, qui converge pour $t \rightarrow + \infty$ vers le profil de raie de la résonance. 
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{0.6\textwidth}
+\import{Figures/DelaisPI/}{Wickenhauser.pdf_tex}
+\caption{Représentation temporo-spectrale de la probabilité d'ionisation $P(E, t)$: calcul de la construction du profil de Fano au cours du temps. (1) Spectre pour $t \leq \tau_r$ répliquant l'impulsion de pompe. (2) Spectre pour $t \rightarrow + \infty$ correspondant au profil de raie ($q = 1$). Extrait de \mycite{WickenhauserPRL2005}.}
+\label{fig:Wickenhauser}
+\end{figure}
+
+L'observation de la dynamique complète d'autoionisation à l'échelle attoseconde requiert donc la mesure de l'amplitude \textbf{et} de la phase de la transition, ce qui n'était pas accessible jusqu'alors.
+
+\chapter{Transitions résonantes à deux photons}
+Dans la mesure de la section efficace d'absorption au voisinage d'une résonance de Fano (équation \ref{eq:ProfilFano}), l'information sur la phase de la transition est perdue. Nous avons vu précédemment que l'interférométrie RABBIT est une technique utilisée pour mesurer les phases d'éléments de transition à deux photons, que l'on peut interpréter en termes de phases d'éléments de transition à un photon. Dans quelle mesure cette méthode s'applique-t-elle lorsque l'on souhaite mesurer la phase d'une transition vers une résonance de Fano? Dans ce chapitre nous nous appuierons sur les travaux du groupe de Fernando Mart\'{i}n \mycite{JimenezGalanPRL2014}, \mycite{JimenezGalanPRA2016}, \mycite{ArgentiPRA2017}.
+
+\section{Phase de l'amplitude de transition vers une résonance de Fano}
+En utilisant une normalisation quelque peu différente de celle utilisée pour obtenir l'équation \ref{eq:Expression_aE}, la fonction d'onde caractérisant la résonance de Fano peut s'écrire, avec les notations du chapitre \ref{chap:ResonancesFano}
+\begin{equation}
+\ket{\Psi_E} = \frac{\epsilon}{\epsilon - i} \ket{\psi_E} + \frac{1}{\pi V_E} \frac{1}{\epsilon - i} \ket{\Phi}
+\end{equation} 
+Ainsi, l'amplitude de transition de l'état fondamental $\ket{g}$ vers $\ket{\Psi_E}$ est
+\begin{align}
+M^{(1)}_E = \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\epsilon}{\epsilon + i} \bra{\psi_E} \hat{T} \ket{g} + \frac{1}{\pi V_E^*} \frac{1}{\epsilon + i} \bra{\Phi} \hat{T} \ket{g} \\
+\label{eq:TransitionEnFonctiondeR_e}
+& = \bra{\psi_E} \hat{T} \ket{g} \left( \frac{\epsilon + q}{\epsilon + i} \right) \\
+& = \bra{\psi_E} \hat{T} \ket{g} \times \mathcal{R}(\epsilon)
+\end{align}
+Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}). Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
+\begin{equation}
+\arg M^{(1)}_E = \arg \mathcal{R}(\epsilon) = \arctan \epsilon - \pi \: \Theta (\epsilon + q) + \frac{\pi}{2}
+\end{equation}
+où $\Theta$ désigne la fonction de Heaviside. La phase de l'amplitude de transition présente donc un saut de $\pi$ en $\epsilon = -q$ (figure \ref{fig:FanoPlanComplexeFinal}(b)). Ce saut de phase n'est pas une discontinuité physique de l'amplitude de transition $M^{(1)}_E$ (qui est une fonction continue de $\epsilon$), mais reflète simplement la discontinuité de la fonction $\arg$ à l'origine. En effet, le facteur résonant $\mathcal{R}(\epsilon)$ peut être représenté sous la forme d'un cercle dans le plan complexe:
+\begin{equation}
+\mathcal{R}(\epsilon) = \frac{1-iq}{2} + \frac{1+iq}{2} \: \frac{\epsilon - i}{\epsilon + i}
+\end{equation}
+$\mathcal{R}(\epsilon)$ est un cercle de centre $\left(\frac{1}{2};- \frac{q}{2} \right)$ et de rayon $\frac{\sqrt{1+q^2}}{2}$ (figure \ref{fig:FanoPlanComplexeFinal}(a)).
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/DelaisPI/}{Fano_plan_complexe_final.pdf_tex}
+\caption{(a) Trajectoire de $\mathcal{R}(\epsilon)$ dans le plan complexe ($\epsilon$ variant de -15 à +15). (b) Phase de $\mathcal{R}(\epsilon)$ pour différentes valeurs du paramètre $q$.}
+\label{fig:FanoPlanComplexeFinal}
+\end{figure}
+
+\section{Amplitude de transition à deux photons}
+Il s'agit de combiner l'approche du chapitre \ref{chap:DelaiPI} avec le modèle de Fano présenté au chapitre \ref{chap:ResonancesFano}. Ainsi, on réécrit l'équation \ref{eq:MatriceDeuxPhotons}:
+\begin{equation}
+M_{\vec{k}}^{(2)} = \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\alpha \rightarrow 0^+} \sum_{\nu} \! \! \! \! \! \! \! \! \! \int \frac{\bra{\vec{k}} z\ket{\nu} \bra{\nu} z \ket{g}} {E_g + \Omega - E_{\nu} + i \alpha}
+\end{equation}
+Ici l'état intermédiaire $\ket{\nu}$ n'est pas une fonction du continuum mais un état autoionisant
+\begin{equation}
+\ket{\nu} = \ket{\Psi_E} = \frac{\epsilon}{\epsilon - i} \ket{\psi_E} + \frac{1}{\pi V_E} \frac{1}{\epsilon - i} \ket{\Phi}
+\end{equation}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/DelaisPI/}{Schema_2photons_Fano.pdf_tex}
+\caption{Ionisation à deux photons XUV-IR depuis l'état initial vers un état du continuum \textit{via} une résonance d'autoionisation.}
+\end{figure}
+
+De la même manière qu'au chapitre \ref{chap:DelaiPI}, on ne s'intéresse qu'à la contribution des états intermédiaires du continuum, soit 
+\begin{equation}
+M_{\vec{k}, \text{Fano}}^{(2)} \approx \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\alpha \rightarrow 0^+} \int \rmd E \frac{\bra{\vec{k}} z\ket{\Psi_E} \bra{\Psi_E} z \ket{g}} {E_g + \Omega - E + i \alpha}
+\end{equation}
+D'après l'équation \ref{eq:TransitionEnFonctiondeR_e},
+\begin{equation}
+M_{\vec{k}, \text{Fano}}^{(2)} \approx \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\alpha \rightarrow 0^+} \int \rmd E \frac{\bra{\vec{k}} z\ket{\Psi_E}} {E_g + \Omega - E + i \alpha} \times  \left( \frac{\epsilon + q}{\epsilon + i} \right) \: \bra{\psi_E} z \ket{g}
+\end{equation}
+En insérant l'expression de $\ket{\Psi_E}$ puis en effectuant les intégrations sur les contours adéquats \mycite{JimenezGalanPRA2016}, on montre que pour la transition où le photon $\Omega$ est absorbé en premier (cas (a) de la figure \ref{fig:Schema_2photons}), si la durée des impulsions correspondantes est plus longue que la durée de vie de la résonance, on a:
+\begin{equation}
+M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \frac{\epsilon + q(1-\gamma) + i \gamma}{\epsilon + i}
+\label{eq:M2phot_Fano}
+\end{equation}
+où l'on introduit le paramètre $\gamma$ tel que:
+\begin{equation}
+\gamma = \frac{\bra{\vec{k}} z \ket{\varphi}}{\bra{\vec{k}} z \ket{\psi_E} V_E / \omega}
+\end{equation}
+$\gamma$ mesure le rapport des deux transitions entre la résonance et le continuum final: la transition directe entre l'état lié et le continuum $\bra{\vec{k}} z \ket{\varphi}$, et la transition indirecte passant par le continuum intermédiaire faisant intervenir le couplage entre l'état lié $\ket{\varphi}$ et $\ket{\psi_E}$ puis la transition radiative entre $\ket{\psi_E}$ et $\ket{\vec{k}}$, $\bra{\vec{k}} z \ket{\psi_E} V_E / \omega$.
+
+L'expression \ref{eq:M2phot_Fano} est très similaire à l'équation \ref{eq:TransitionEnFonctiondeR_e}. On peut introduire un paramètre $q$ effectif conmplexe
+\begin{equation}
+q_{\text{eff}} = q(1-\gamma) + i \gamma
+\end{equation}
+ainsi qu'un facteur résonant effectif
+\begin{align}
+\mathcal{R}_{\text{eff}}(\epsilon) & = \frac{\epsilon + q_{\text{eff}}}{\epsilon + i}\\
+& = \gamma + (1 - \gamma) \frac{\epsilon + q}{\epsilon + i}\\
+& = \gamma + (1 - \gamma) \times \mathcal{R}(\epsilon) 
+\end{align}
+$\mathcal{R}_{\text{eff}}(\epsilon)$ décrit toujours un cercle dans le plan complexe, mais multiplié par $1 - \gamma$ et décalé de $\gamma$ sur l'axe des réels (figure \ref{fig:FanoComplexeEffectif}(a)). Ainsi, en général $\mathcal{R}_{\text{eff}}(\epsilon)$ n'intercepte plus l'origine et la variation de phase correspondante est différente. On retrouve le cas de $\mathcal{R}(\epsilon)$ uniquement pour $\gamma = 0$, c'est-à-dire si l'état discret n'est pas couplé radiativement au continuum final. Pour $\gamma > 0$, le cercle est contracté et la variation de phase est adoucie par rapport à la transition à un photon. Pour $\gamma < 0$, le cercle est au contraire agrandi et la phase varie alors sur $2 \pi$. Enfin, remarquons que $\gamma$ est proportionnel à $\omega$ donc d'une part il est de signe opposé pour l'absorption et l'émission du second photon, les variations de phase correspondantes sont alors différentes dans les deux cas. D'autre part la phase est a priori différente si le photon d'habillage est à 800 nm ou dans l'infrarouge moyen.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/DelaisPI/}{Fano_plan_complexe_eff_final.pdf_tex}
+\caption{(a) Trajectoire de $\mathcal{R}_{\text{eff}}(\epsilon)$ dans le plan complexe ($\epsilon$ variant de -15 à +15). (b) Phase de $\mathcal{R}_{\text{eff}}(\epsilon)$ pour différentes valeurs du paramètre $\gamma$, $q$ étant constant et $q = 1$.}
+\label{fig:FanoComplexeEffectif}
+\end{figure}
+
+Ainsi,
+\begin{equation}
+M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \mathcal{R}_{\text{eff}}(\epsilon)
+\end{equation}
+et la phase
+\begin{equation}
+\arg M_{\vec{k}, \text{Fano}}^{(2)} \approx \arg M_{\vec{k}}^{(2)} + \arg [\mathcal{R}_{\text{eff}}(\epsilon)]
+\end{equation}
+où $M_{\vec{k}}^{(2)}$ est un élément de transition à deux photons impliquant uniquement des états du continuum, calculé au chapitre \ref{chap:DelaiPI}.
+
+L'interférométrie RABBIT mesurant une différence de phase entre deux chemins quantiques, si l'on choisit un chemin de référence ne passant par aucune résonance intermédiaire, le RABBIT donne accès à $\arg [\mathcal{R}_{\text{eff}}(\epsilon)]$. Si de plus l'état lié est faiblement couplé au continuum final ($\gamma \approx 0$), alors $\mathcal{R}_{\text{eff}}(\epsilon) \approx \mathcal{R}(\epsilon)$ et on obtient la mesure de la phase de la transition à un photon vers la résonance d'autoionisation que l'on cherche. 
+
+\mycite{ArgentiPRA2017} ont montré que l'interprétation en termes de délais de Wigner n'est plus valable dans ce cas, mais la donnée des variations spectrales de la phase de l'élément de transition est bien plus riche qu'une simple valeur de délai, et permet d'accéder à toute la dynamique de l'autoionisation.
+
+\paragraph*{Cas de plusieurs continua intermédiaires} Nous avons vu au paragraphe \ref{sec:PlusieursContinua} que lorsque la résonance de Fano est couplée à plusieurs continua, le système se ramène finalement à l'interaction avec un continuum "interactif" et un continuum "non interactif". Ainsi, pour la transition à deux photons, on montre que
+\begin{equation}
+M_{\vec{k}, \text{Fano, multicanaux}}^{(2)} \propto r + \frac{\epsilon + q_{\text{eff}}}{\epsilon + i}
+\end{equation}
+avec 
+\begin{equation}
+r = \frac{\bra{\vec{k}} z \ket{\Psi_E^{\text{non int}}} \bra{\Psi_E^{\text{non int}}} z \ket{g}}{\bra{\vec{k}} z \ket{\Psi_E^{\text{int}}} \bra{\Psi_E^{\text{int}}} z \ket{g}}
+\end{equation}
+Ce qui revient à déplacer $\mathcal{R}_{\text{eff}}(\epsilon)$ dans le plan complexe d'une quantité $r$ ($r \in \mathbb{C}$). La phase de $M_{\vec{k}, \text{Fano, multicanaux}}^{(2)}$ dépend alors des couplages avec les différents continua et est quelconque \textit{a priori}.
+
 

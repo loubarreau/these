@@ -1,0 +1,90 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Fano_plan_complexe_eff_final.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{585.4239751bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.64331035)%
+    \put(0,0){\includegraphics[width=\unitlength]{Fano_plan_complexe_eff_final.pdf}}%
+    \put(0.01924127,0.03027003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-2}}}%
+    \put(0.11344714,0.03027003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-1}}}%
+    \put(0.20765301,0.03027003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.30185835,0.03027003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.39606422,0.03027003){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.00793661,0.05792773){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-2}}}%
+    \put(0.00793661,0.15213307){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%
+    \put(0.00793661,0.24633893){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.00793661,0.34054428){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
+    \put(0.00793661,0.43475014){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2}}}%
+    \put(0.73679469,0.00511448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon$}}}%
+    \put(0.52228874,0.18494529){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\arg \mathcal{R}_{\text{eff}}(\epsilon)$ (rad)}}}}%
+    \put(0.5635618,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-15}}}%
+    \put(0.62636554,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-10}}}%
+    \put(0.68916927,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-5}}}%
+    \put(0.75197354,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.81477727,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{5}}}%
+    \put(0.87758101,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10}}}%
+    \put(0.94038475,0.02725269){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{15}}}%
+    \put(0.55225714,0.05491039){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-4}}}%
+    \put(0.55225714,0.10201306){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-3}}}%
+    \put(0.55225714,0.14911573){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-2}}}%
+    \put(0.55225714,0.19621893){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%
+    \put(0.55225714,0.2433216){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.55225714,0.29042427){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
+    \put(0.55225714,0.33752694){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2}}}%
+    \put(0.55225714,0.38463014){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3}}}%
+    \put(0.55225714,0.43173281){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{4}}}%
+    \put(0.16315102,0.48257672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{I}\text{\textit{m}} \left[ \mathcal{R}_{\text{eff}}(\epsilon) \right]$}}}%
+    \put(0.34556812,0.26446401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{R}\text{\textit{e}}[\mathcal{R}_{\text{eff}}(\epsilon)]$}}}%
+    \put(0.41718922,0.56252937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\gamma = 0$}}}%
+    \put(0.41718922,0.53793178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\gamma = 0.05$}}}%
+    \put(0.41718922,0.51333417){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\gamma = 0.5$}}}%
+    \put(0.41718922,0.48873662){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\gamma = -0.5$}}}%
+    \put(0.00217448,0.47519056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.57088181,0.47519056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+  \end{picture}%
+\endgroup%
