@@ -1,0 +1,76 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'VariationPhaseInter.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{561.32367547bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.62925264)%
+    \put(0,0){\includegraphics[width=\unitlength]{VariationPhaseInter.pdf}}%
+    \put(0.04700663,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34.2}}}%
+    \put(0.13210195,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34.4}}}%
+    \put(0.21738884,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34.6}}}%
+    \put(0.30254569,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34.8}}}%
+    \put(0.40119626,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35}}}%
+    \put(0.47296463,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35.2}}}%
+    \put(0.04252126,0.10557909){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.02711362,0.16479103){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.04545354,0.22400301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.03310987,0.2832152){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.04543599,0.34242701){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.58221402,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.2}}}%
+    \put(0.66730927,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.4}}}%
+    \put(0.75259635,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.6}}}%
+    \put(0.83775296,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.8}}}%
+    \put(0.93546422,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{37}}}%
+    \put(0.32866289,0.00538278){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photoélectron (eV)}}}%
+    \put(0.01790202,0.13116836){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase $\bar{\theta}$ (rad.)}}}}%
+    \put(0.22418746,0.38204352){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{62}$}}}%
+    \put(0.72585882,0.38204352){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.49669956,0.24428869){\color[rgb]{0.18039216,0.23137255,0.81568627}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\lambda_{\text{OPA}}$ = 1285 nm}}}}%
+    \put(0.10574247,0.2549908){\color[rgb]{1,0.23529412,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\lambda_{\text{OPA}}$ = 1305 nm}}}}%
+  \end{picture}%
+\endgroup%

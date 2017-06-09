@@ -1,0 +1,117 @@
+\part{Dynamiques d'autoionisation dans l'hélium}
+%% Accordabilité de l'OPA permet d'accéder aux résonances... RABBIT normal, résultats, comparaison avec les calculs de Madrid. Ok mais variation de phase petite qui correspond plus à une "moyenne" de la phase (thèse de Vincent)
+% Le Rainbow RABBIT. Méthode, résultats, paragraphe 6 du SM. 
+%% Reconstruction du paquet d'onde dans le domaine temporel. Approximations, résultats, comparaison avec le calcul de Madrid et avec le POE non résonant.
+% Construction de la résonance au cours du temps. Wickenhauserisation
+%% Lund. Résultats expérimentaux pour la 2s2p et la sp3+ (meilleure résolution spectromètre = on résoud la sp3+ youpi), comparaison avec Alvaro, déconvolution et effets de l'IR d'habillage.
+% Reconstruction de sp2+ toute seule et des deux résonances, autres représentations, POE à deux résonances
+% Influence de l'intensité d'habillage sur q
+%% Comparaison avec l'absorption transitoire. Gruson vs Kaldun.
+Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{via} les états se trouvant sous le seuil $N=2$ de He$^+$. Comme nous l'avons vu précédemment, ces états sont étudiés depuis les débuts de la spectroscopie(\mycite{FanoPR1961},\mycite{MaddenCodling1965}, figure \ref{fig:Beutler}(b)). Ils possèdent la particularité d'être des états doublement excités, ce qui fait de l'hélium le système le plus simple pour étudier les corrélations électroniques. Par ailleurs, l'hélium est modélisable \textit{ab initio}, ce qui rend l'expérience facilement confrontable à la théorie.
+
+Dans cette partie, nous présenterons d'abord les résultats des mesures de phase de la transition vers la résonance $2s2p$ effectuées à Saclay par interférométrie RABBIT puis par une nouvelle méthode de RABBIT résolue spectralement ("Rainbow RABBIT"). Ensuite, nous montrerons comment les mesures de Rainbow RABBIT permettent d'obtenir toute la dynamique d'autoionisation ainsi que la construction du profil de la résonance au cours du temps. Dans un troisième chapitre, nous présenterons les résultats que nous avons obtenus en exportant la technique Rainbow RABBIT dans l'équipe d'Anne L'Huillier à Lund, en particulier l'étude d'une seconde résonance d'autoionisation ($sp3^+$) et de l'influence de l'intensité d'habillage sur le profil de raie. Enfin, nous comparerons le Rainbow RABBIT et l'absorption transitoire attoseconde pour l'étude des dynamiques d'autoionisation.
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/Helium/}{Domke.pdf_tex}
+\caption{Section efficace d'absorption de l'hélium entre 60 et 65 eV correspondant aux résonances doublement excitées $^1P^o$ convergeant vers le seuil d'ionisation $N=2$ de He$^+$ à 65.40 eV. Cette partie s'intéresse à la dynamique d'ionisation au voisinage des résonances $2s2p$ et $sp3^+$, dont les caractéristiques spectroscopiques sont rappelées dans le tableau \ref{tab:ParamètresFano}. Adapté de \mycite{DomkePRA1996}.}
+\label{fig:Domke}
+\end{figure}
+
+
+\chapter[Mesure de la phase de la transition au voisinage de la résonance 2s2p par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{2s2p} par RABBIT et Rainbow RABBIT}
+\section{Mesures RABBIT}
+L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. 
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{SpectresSansHabillage.pdf_tex}
+\caption{Spectres de photoélectrons de l'hélium ionisé par les harmoniques 61 à 67 générées dans l'argon par un amplificateur paramétrique optique (OPA) de longueur d'onde variant de 1285 à 1305 nm. Les spectres sont décalés verticalement pour une meilleur visibilité. Les pointillés noirs matérialisent la position de la résonance $2s2p$.}
+\label{fig:SpectresSansHabillageHe}
+\end{figure}
+
+L'impulsion MIR est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. L'XUV est refocalisé dans un spectromètre à temps de vol d'électrons à bouteille magnétique grâce à un miroir torique en or pour photoioniser un gaz d'hélium. Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:SpectresSansHabillageHe}. Le signal de photoélectrons reproduit le spectre harmonique. Un signal plus intense, dû à la section efficace de photoionisation plus importante au voisinage de la résonance \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{0.45\textwidth}
+\import{Figures/Helium/}{Schema_2s2p.pdf_tex}
+\caption{Principe de l'interférométrie RABBIT au voisinage de la résonance $2s2p$ de l'hélium. Au voisinage de la résonance, les pics satellites sont formés par l'interférence entre un chemin quantique résonant et un chemin non résonant servant alors de référence.}
+\label{fig:Schema_2s2p}
+\end{figure}
+
+Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
+\begin{multline}
+S_{\text{SB}}(\tau,q) \propto |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \\
+\times \cos[2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q) \pm \arg \mathcal{R}_{\text{eff}}]
+\label{eq:SB_He}
+\end{multline}
+avec $+ \arg \mathcal{R}_{\text{eff}}$ si la résonance de Fano se trouve dans le chemin correspondant à l'émission du photon MIR ou $- \arg \mathcal{R}_{\text{eff}}$ si elle se trouve dans le chemin absorbant un photon MIR. En sommant spectralement l'intensité de chaque pic satellite, on obtient un signal oscillant à deux fois la fréquence fondamentale ($2 \omega$), dont on extrait la phase par transformée de Fourier. La quantité mesurée est donc
+\begin{equation}
+\bar{\theta} = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} \left( \int_{\text{largeur SB}} S_{\text{SB}}(\tau,E) \rmd E \right) \right]
+\label{eq:PhaseMoyenneHe}
+\end{equation} 
+
+\begin{figure}[!h]
+\centering
+\def\svgwidth{0.70\textwidth}
+\import{Figures/Helium/}{TracesRabbitHe.pdf_tex}
+\caption{Spectrogrammes RABBIT mesurés dans l'hélium pour plusieurs longueurs d'onde de génération. \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. La résonance de Fano $2s2p$ se situe à 60.15 - 24.56 = 35.59 eV et est de plus en plus visible à mesure que l'énergie de l'harmonique 63 se rapproche de l'énergie de la résonance.}
+\label{fig:TracesRabbitHe}
+\end{figure}
+
+Pour chaque longueur d'onde de génération, on obtient une courbe similaire à la figure \ref{fig:ExtractionPhaseInter}. Hors résonance, la phase du pic satellite augmente linéairement avec l'ordre à cause du terme $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ en suivant la dispersion de délai de groupe intrinsèque au processus de génération, l'\textit{attochirp} (chapitre \textbf{ref}, \mycite{MairesseScience2003}). Lorsque l'harmonique est résonante, on observe des déviations du comportement linéaire symétriques pour les pics satellites du dessous et du dessus (dû au $\pm$ dans l'expression \ref{eq:SB_He}). L'\textit{attochirp} étant dû au processus de génération et dépendant peu de la longueur d'onde, on mesure une pente linéaire quasiment identique pour toutes les longueurs d'onde ($\approx$ 20 as/eV ou 0.06 rad/eV). En soustrayant un ajustement de cette pente (pointillés figure \ref{fig:ExtractionPhaseInter}), on obtient la phase due uniquement au processus de photoionisation à deux photons \textit{via} la résonance.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{ExtractionPhaseInter.pdf_tex}
+\caption{Phase des pics satellites intégrés spectralement pour deux longueurs d'onde de génération. Quand l'harmonique 63 n'est pas résonante ($\lambda$ = 1275 nm), la phase est une fonction linéaire croissante de l'énergie, signature de la dispersion de délai de groupe intrinsèque aux harmoniques ("\textit{attochirp}") \mycite{MairesseScience2003}. Cette phase linéaire dépend peu de l'énergie dans la gamme de longueurs d'onde explorées. Lorsque $\text{H}_{63}$ est résonante, des déviations du comportement linéaire apparaissent de manière symétrique pour les pics satellites au-dessous et au-dessus de l'harmonique résonante.}
+\label{fig:ExtractionPhaseInter}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{VariationPhaseInter.pdf_tex}
+\caption{RABBIT. Phase expérimentale (points colorés, les couleurs correspondent à la légende de la figure \ref{fig:SpectresSansHabillageHe}) des pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ extraite de spectrogrammes RABBIT effectués à différentes longueurs d'onde, et phase calculée théoriquement (pointillés gris). L'axe d'énergie correspond à l'énergie centrale du pic satellite dans chaque spectrogramme.}
+\label{fig:VariationPhaseInter}
+\end{figure}
+
+En appliquant cette procédure à toutes les longueurs d'onde de génération \mycite{KoturNatComm2016}, on obtient la variation complète de la phase au voisinage de la résonance (figure  \ref{fig:VariationPhaseInter}). La phase des pics satellites varie de près de 0.5 rad lorsque l'énergie de l'harmonique varie de 0.8 eV autour de la résonance d'autoionisation. Les évolutions sont symétriques dans les pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ en raison du signe + ou - dans l'équation \ref{eq:SB_He} évoqué précédemment. Les résultats obtenus sont en très bon accord avec les calculs du groupe de F. Mart\'{i}n, dont le principe est basé sur la théorie présentée au chapitre \ref{chap:2photons_et_Fano}, plus la prise en compte des durées des impulsions XUV et MIR et de la résolution du spectromètre d'électrons \mycite{JimenezGalanPRA2016}.
+
+\section{Mesures Rainbow RABBIT}
+L'intégration spectrale du signal de photoélectrons sur toute la largeur du pic satellite est généralement effectuée pour obtenir un meilleur rapport signal sur bruit. Cependant, cette intégration, apparaissant dans l'expression de la phase extraite \ref{eq:PhaseMoyenneHe}, n'est pas satisfaisante lorsque l'on cherche des variations de phase autour de résonances de largeur très inférieure à la largeur d'un pic satellite. En effet, la quantité \ref{eq:PhaseMoyenneHe} se rapproche plutôt d'une phase moyennée sur la largeur spectrale \mycite{TheseGruson} que de la phase de la transition résonante. 
+
+De manière surprenante, on remarque que le signal des pics satellites résonants présente une structure spectrale lorsque l'harmonique 63 est résonante (figures \ref{fig:TracesRabbitHe} et \ref{fig:TracesExp_Sim_He}, zoom). Le profil de la résonance est transféré sur le pic satellite voisin et donne lieu à deux composantes spectrales qui oscillent à la fréquence $2 \omega$ mais ne sont pas en phase. Au lieu de sommer spectralement le signal du pic satellite, nous avons analysé les oscillations à $2 \omega$ à chaque énergie de photoélectrons à l'intérieur du pic satellite. Ceci correspond à effectuer une analyse RABBIT résolue spectralement, méthode que nous avons appelée \textit{Rainbow} RABBIT. On obtient ainsi toute la variation spectrale de la phase dans un seul spectrogramme. 
+\begin{equation}
+\theta (E) = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} S_{\text{SB}}(\tau,E) \right]
+\label{eq:PhaseRainbow}
+\end{equation} 
+La même analyse permet d'obtenir également les variations de l'amplitude à $2 \omega$ résolues spectralement.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{TracesExp_Sim_He.pdf_tex}
+\caption{Spectrogramme expérimental (a) et théorique (b) pour une longueur d'onde de génération de 1295 nm. L'harmonique 63 est résonante avec l'état autoionisant $2s2p$. Un zoom sur une oscillation du pic satellite $\text{SB}_{62}$ montre la structure due à la résonance et le déphasage des deux composantes spectrales observées. Le pic satellite $\text{SB}_{66}$, non résonant, ne présente pas cette structure.}
+\label{fig:TracesExp_Sim_He}
+\end{figure}
+
+Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme enregistré avec une longueur d'onde de génération de 1295 nm sont présentés figure \ref{fig:DataRainbowHe}. L'évolution de la phase est toujours symétrique pour les deux pics satellites résonants mais cette fois la phase varie de $\approx$ 1 rad sur 200 meV. On observe un saut de phase à la position de la résonance décalée de 1 photon MIR et à la position du minimum dans l'amplitude, conformément aux résultats du modèle de Fano présentés au chapitre \ref{chap:ResonancesFano}. En comparaison, l'amplitude du pic satellite non résonant $\text{SB}_{66}$ reproduit le spectre gaussien des harmoniques, et sa phase est plate.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{DataRainbowHe.pdf_tex}
+\caption{Rainbow RABBIT. Amplitude (haut) et phase (bas) spectrales de la composante à 2$\omega$ des pics satellites, issues de l'expérience (traits pleins violets) et simulées (pointillés noirs) pour les deux pics satellites résonants $\text{SB}_{62}$ et $\text{SB}_{64}$ et un pic satellite non résonant $\text{SB}_{66}$. L'origine des phases est à zéro après soustraction de la composante linéaire due au délai de groupe des harmoniques (voir figure \ref{fig:ExtractionPhaseInter}). La position de la résonance $\pm$ un photon est matérialisée par le trait vertical gris.} 
+\label{fig:DataRainbowHe}
+\end{figure}
+
+\paragraph*{Comparaison du RABBIT et du Rainbow RABBIT} Si la largeur spectrale de l'harmonique est suffisante pour couvrir toute la largeur de la résonance, la variation complète de la phase est ici obtenue en un unique spectrogramme enregistré à une longueur d'onde résonante. La quantité mesurée correspond aux réelles variations spectrales de la phase et non à une valeur moyennée sur la largeur du pic satellite. De plus, si la phase varie très rapidement à l'intérieur du pic satellite, les oscillations à 2 $\omega$ peuvent être brouillées, ce qui rend la procédure d'extraction de phase plus difficile dans le signal intégré (RABBIT). Enfin, dans le Rainbow RABBIT, la résolution spectrale est déterminée par la fonction d'appareil du spectromètre à électrons utilisé. Dans les expériences présentées ici, un potentiel retard de 26 V était appliqué aux électrons, soit une énergie cinétique de l'ordre de 10 eV pour les photoélectrons au voisinage de la résonance. Les pics satellites de plus basse énergie que la résonance étaient nécessaire pour déterminer précisément l'\textit{attochirp} dans l'analyse RABBIT. Cependant, en ajoutant plus de potentiel retard il aurait été possible de décaler les pics satellites résonants à plus basse énergie cinétique et ainsi augmenter la résolution spectrale.
+
+\chapter{Reconstruction de la dynamique d'autoionisation}
+\section{Paquet d'onde électronique dans le domaine temporel}
+

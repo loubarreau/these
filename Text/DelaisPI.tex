@@ -3,7 +3,9 @@
 % Police figures = Helvetica 17.5
 \chapter{Délai de photoionisation attoseconde}
 \label{chap:DelaiPI}
-Introduction sur l'effet photoélectrique...
+Dans son premier article de l'\textit{annus mirabilis} 1905, Albert Einstein pose les fondements de la mécanique quantique moderne en expliquant l'effet photoélectrique \mycite{Einstein1905}. Lorsqu'un système absorbe un photon d'énergie supérieure à son potentiel d'ionisation, un électron est émis. Pendant plus d'un siècle, l'émission du photoélectron est considérée comme un phénomène instantané. Cependant, le développement de sources de lumière ultra-brèves dans l'XUV a permis des premières mesures de délais de l'ordre de l'attoseconde entre l'émission d'électrons provenant de différents niveaux électroniques. L'interprétation des quantités mesurées est complexe car le temps n'est pas un opérateur de la mécanique quantique mais un paramètre \mycite{Pauli1933}. En réalité, elle fait appel à des notions développées par la théorie des collisions dans les années 1950. Lorsqu'une particule (i.e. un électron) est diffusée par un potentiel , elle est déphasée par rapport à une particule libre. La dérivée spectrale de cette phase est homogène à un temps et peut être interprétée comme un délai entre la particule diffusée et la particule libre.
+
+Dans ce chapitre, nous présenterons les résultats de la théorie de la diffusion par un potentiel qui amènent à la définition du délai de Wigner. Ensuite, nous relierons ce délai aux quantités mesurées dans une expérience de photoionisation multicouleur. Enfin, nous détaillerons les principaux résultats expérimentaux de mesure de délais de photoionisation attoseconde dans les gaz.
 
 \section{Diffusion par un potentiel central}
 \label{sec:DiffusionPotentielCentral}
@@ -402,6 +404,7 @@ Il est désormais possible d'exprimer la phase de l'élément de matrice de tran
 où $\phi_\Omega$ et $\phi_\omega$ sont les phases des champs XUV et IR respectivement. Les phases de diffusion de l'état final $\eta_L$ s'annulent et n'interviennent pas dans l'expression finale \ref{eq:PhaseMatrice2phot}. Ainsi, de manière surprenante, exceptée la contribution de l'harmonique sphérique, les termes contenus dans \ref{eq:PhaseMatrice2phot} dépendent uniquement de l'état intermédiaire c'est-à-dire de la transition à un photon.
 
 \subsection{Phase et délai mesurés par l'interférométrie RABBIT}
+\label{subsec:PhaseRabbit}
 \begin{figure}
 \centering
 \def\svgwidth{0.5\columnwidth}
@@ -517,7 +520,7 @@ En 1935, alors qu'Ugo Fano est en post-doctorat dans le laboratoire d'Enrico Fer
 \label{fig:Beutler}
 \end{figure}
 
-Dans ce chapitre, nous rappellerons les développements et les principaux résultats du modèle de Fano pour l'autoionisation, phénomène qui se produit lorsqu'un système est excité dans un état d'énergie supérieure à son potentiel d'ionisation. Dans ces conditions, deux processus d'excitation interfèrent: l'ionisation directe et l'autoionisation après être resté transitoirement dans l'état excité. La durée de vie caractéristique des états autoionisants est traditionnellement déterminée en spectroscopie à partir de la largeur de raie, et est de l'ordre de la dizaine de femtosecondes pour les systèmes atomiques.
+Dans ce chapitre, nous rappellerons les développements et les principaux résultats du modèle de Fano pour l'autoionisation, phénomène qui se produit lorsqu'un système est excité dans un état d'énergie supérieure à son potentiel d'ionisation. Dans ces conditions, deux processus d'excitation interfèrent: l'ionisation directe et l'autoionisation après être resté transitoirement dans l'état excité. La durée de vie caractéristique des états autoionisants est traditionnellement déterminée en spectroscopie à partir de la largeur de raie, et est de l'ordre de la dizaine de femtosecondes pour les systèmes atomiques. Ensuite, nous présenterons les principales expériences récentes visant à mesurer directement (i.e. dans le domaine temporel) la durée de vie des résonances de Fano dans les gaz rares.
 
 \section{Interaction entre un état discret et un continuum d'états}
 \label{sec:UniqueContinuum}
@@ -654,7 +657,7 @@ $q$ caractérise donc le rapport entre les probabilités de transition vers l'é
 
 \begin{figure}
 \centering
-\def\svgwidth{0.7\textwidth}
+\def\svgwidth{0.6\textwidth}
 \import{Figures/DelaisPI/}{ProfilsFano.pdf_tex}
 \caption{Allure de la section efficace d'absorption en fonction de l'énergie réduite $\epsilon$ pour plusieurs valeurs du paramètre $q$.}
 \label{fig:ProfilsFano}
@@ -767,6 +770,7 @@ Cependant, la seule mesure de la durée de vie de la résonance ne permet pas de
 L'observation de la dynamique complète d'autoionisation à l'échelle attoseconde requiert donc la mesure de l'amplitude \textbf{et} de la phase de la transition, ce qui n'était pas accessible jusqu'alors.
 
 \chapter{Transitions résonantes à deux photons}
+\label{chap:2photons_et_Fano}
 Dans la mesure de la section efficace d'absorption au voisinage d'une résonance de Fano (équation \ref{eq:ProfilFano}), l'information sur la phase de la transition est perdue. Nous avons vu précédemment que l'interférométrie RABBIT est une technique utilisée pour mesurer les phases d'éléments de transition à deux photons, que l'on peut interpréter en termes de phases d'éléments de transition à un photon. Dans quelle mesure cette méthode s'applique-t-elle lorsque l'on souhaite mesurer la phase d'une transition vers une résonance de Fano? Dans ce chapitre nous nous appuierons sur les travaux du groupe de Fernando Mart\'{i}n \mycite{JimenezGalanPRL2014}, \mycite{JimenezGalanPRA2016}, \mycite{ArgentiPRA2017}.
 
 \section{Phase de l'amplitude de transition vers une résonance de Fano}

@@ -1,0 +1,96 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'TracesRabbitHe.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{405.20383301bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,2.04143704)%
+    \put(0,0){\includegraphics[width=\unitlength]{TracesRabbitHe.pdf}}%
+    \put(0.18469657,0.71214207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{32}}}%
+    \put(0.3355063,0.71214207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{34}}}%
+    \put(0.49321597,0.71214207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.64678162,0.71214207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{38}}}%
+    \put(0.79977332,0.71214207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.088704,0.74025437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.07866613,1.28670882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.08902454,1.01547597){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.31025244,0.68042349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie du photoélectron (eV)}}}%
+    \put(0.05208943,0.96010224){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Délai (fs)}}}}%
+    \put(0.65623976,1.25993181){\color[rgb]{0.50980392,0,0.50588235}\makebox(0,0)[lb]{\smash{$\lambda$ = 1295 nm}}}%
+    \put(0.46416797,1.27028925){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{63}$}}}%
+    \put(0.39674212,1.24118004){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{62}$}}}%
+    \put(0.54662237,1.21126454){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.18723499,1.40653687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{32}}}%
+    \put(0.33804468,1.40653687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{34}}}%
+    \put(0.49575436,1.40653687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.64932007,1.40653687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{38}}}%
+    \put(0.80231171,1.40653687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.12678006,1.43464911){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.11674219,1.98110357){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.12710059,1.70987071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.3483285,1.37481829){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie du photoélectron (eV)}}}%
+    \put(0.09016552,1.65449708){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Délai (fs)}}}}%
+    \put(0.69572606,1.94699346){\color[rgb]{0.18039216,0.23137255,0.81568627}\makebox(0,0)[lb]{\smash{$\lambda$ = 1285 nm}}}%
+    \put(0.51390169,1.95523146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{63}$}}}%
+    \put(0.43462995,1.93007087){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{62}$}}}%
+    \put(0.58451021,1.92384715){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.18542395,0.0391754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{32}}}%
+    \put(0.33623359,0.0391754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{34}}}%
+    \put(0.49394327,0.0391754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.64750892,0.0391754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{38}}}%
+    \put(0.80050068,0.0391754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.08943135,0.06728758){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.07939348,0.61374203){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.08975189,0.34250919){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.65229113,0.58076746){\color[rgb]{0.60784314,0.09019608,0.4}\makebox(0,0)[lb]{\smash{$\lambda$ = 1297 nm}}}%
+    \put(0.45607905,0.57385482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{63}$}}}%
+    \put(0.3886532,0.54474561){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{62}$}}}%
+    \put(0.53853346,0.51483011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.3109798,0.0074567){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie du photoélectron (eV)}}}%
+    \put(0.05281678,0.28713558){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Délai (fs)}}}}%
+  \end{picture}%
+\endgroup%

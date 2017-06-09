@@ -1,0 +1,77 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'SpectresSansHabillage.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{434.2383076bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.66774289)%
+    \put(0,0){\includegraphics[width=\unitlength]{SpectresSansHabillage.pdf}}%
+    \put(0.02814457,0.04047811){\makebox(0,0)[lb]{\smash{57}}}%
+    \put(0.11657481,0.04047811){\makebox(0,0)[lb]{\smash{58}}}%
+    \put(0.20500552,0.04047811){\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0.29233084,0.04047811){\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0.38076385,0.04047811){\makebox(0,0)[lb]{\smash{61}}}%
+    \put(0.46919456,0.04047811){\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0.55651758,0.04047811){\makebox(0,0)[lb]{\smash{63}}}%
+    \put(0.64494828,0.04047811){\makebox(0,0)[lb]{\smash{64}}}%
+    \put(0.73337899,0.04047811){\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.27483482,0.00695812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie du photon (eV)}}}%
+    \put(0.27035562,0.6232241){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{63}$}}}%
+    \put(0.60209024,0.61231879){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{67}$}}}%
+    \put(0.4389146,0.57942052){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{65}$}}}%
+    \put(0.10466752,0.59257983){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{H}_{61}$}}}%
+    \put(0.87519783,0.44650627){\makebox(0,0)[lb]{\smash{1287nm}}}%
+    \put(0.87519783,0.40560937){\makebox(0,0)[lb]{\smash{1290nm}}}%
+    \put(0.87519783,0.36470786){\makebox(0,0)[lb]{\smash{1292nm}}}%
+    \put(0.87519783,0.32270326){\makebox(0,0)[lb]{\smash{1294nm}}}%
+    \put(0.87519783,0.28180407){\makebox(0,0)[lb]{\smash{1296nm}}}%
+    \put(0.87519783,0.24090485){\makebox(0,0)[lb]{\smash{1299nm}}}%
+    \put(0.8751978,0.20000566){\makebox(0,0)[lb]{\smash{1301nm}}}%
+    \put(0.87519783,0.48703701){\makebox(0,0)[lb]{\smash{1285nm}}}%
+    \put(0.8751978,0.16315954){\makebox(0,0)[lb]{\smash{1305nm}}}%
+  \end{picture}%
+\endgroup%

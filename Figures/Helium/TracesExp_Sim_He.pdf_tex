@@ -1,0 +1,87 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'TracesExp_Sim_He.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{686.62473706bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.51306652)%
+    \put(0,0){\includegraphics[width=\unitlength]{TracesExp_Sim_He.pdf}}%
+    \put(0.14379163,0.06753929){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Délai XUV- IR (fs)}}}%
+    \put(0.09865455,0.46407461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectrogramme expérimental}}}%
+    \put(0.13928852,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10}}}%
+    \put(0.21338984,0.10044436){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{5}}}%
+    \put(0.28599185,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.35901818,0.10044436){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-5}}}%
+    \put(0.43062881,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-10}}}%
+    \put(0.50054445,0.23224959){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{35}}}%
+    \put(0.50062092,0.32957344){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{37}}}%
+    \put(0.50062092,0.42612627){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{39}}}%
+    \put(0.50503197,0.49848){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\'{E}nergie du photoélectron (eV)}}}%
+    \put(0.5605384,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10}}}%
+    \put(0.63463901,0.10044436){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{5}}}%
+    \put(0.70724244,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.78027109,0.10044436){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-5}}}%
+    \put(0.85188397,0.10037396){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-10}}}%
+    \put(0.06551078,0.36270927){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{65}$}}}%
+    \put(0.62994417,0.46407461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectrogramme simulé}}}%
+    \put(0.50054445,0.1357007){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{33}}}%
+    \put(0.06824343,0.40931404){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{66}$}}}%
+    \put(0.06551078,0.26949975){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{63}$}}}%
+    \put(0.06551078,0.1809506){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{61}$}}}%
+    \put(0.06824343,0.31610451){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.06824343,0.22755544){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{62}$}}}%
+    \put(0.08130608,0.49951029){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(a)}}}%
+    \put(0.91814171,0.49782676){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(b)}}}%
+    \put(0.63780252,0.06753929){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Délai XUV- IR (fs)}}}%
+    \put(0.92897837,0.36570998){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{65}$}}}%
+    \put(0.93171102,0.41231481){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{66}$}}}%
+    \put(0.92897837,0.27250045){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{63}$}}}%
+    \put(0.92897837,0.1839513){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{H}_{61}$}}}%
+    \put(0.93171102,0.31910521){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{64}$}}}%
+    \put(0.93171102,0.23055614){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\text{SB}_{62}$}}}%
+  \end{picture}%
+\endgroup%
