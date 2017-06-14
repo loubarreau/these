@@ -1,0 +1,78 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Phases1photon2photons.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{568.58708165bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.01917608)%
+    \put(0,0){\includegraphics[width=\unitlength]{Phases1photon2photons.pdf}}%
+    \put(0.09045234,0.11640122){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{-0.5
+}}}%
+    \put(0.08991664,0.24073504){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0
+}}}%
+    \put(0.09066874,0.36511459){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.5
+}}}%
+    \put(0.0898938,0.48949425){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1
+}}}%
+    \put(0.08666828,0.61403323){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1.5
+}}}%
+    \put(0.08993931,0.73800255){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.09058905,0.86254156){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2.5
+}}}%
+    \put(0.09022425,0.98687558){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3
+}}}%
+    \put(0.1333422,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.4}}}%
+    \put(0.27502134,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.5}}}%
+    \put(0.4152758,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.6}}}%
+    \put(0.55561563,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.7}}}%
+    \put(0.69704385,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.8}}}%
+    \put(0.83811308,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{34.9}}}%
+    \put(0.97955289,0.06787015){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{35}}}%
+    \put(0.5567899,0.00946485){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\'{E}nergie de photoélectron (eV)}}}%
+    \put(0.028556,0.57875999){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Phase (rad)}}}}%
+  \end{picture}%
+\endgroup%

@@ -299,7 +299,7 @@ Soit le délai de photoionisation \footnote{Notons que bien que le délai de pho
 \`A un facteur 2 près, le délai de photoionisation à un photon coïncide avec le délai de Wigner. La photoionisation peut alors être interprétée comme une demie collision. Ce délai est bien plus faible que la limite de résolution des détecteurs électroniques utilisés expérimentalement. Il ne peut donc pas être mesuré directement, et a longtemps été considéré comme accessible uniquement \textit{via} des expériences de pensée.
 
 \subsection{Matrice de transition à deux photons}
-%Le $\tau_{cc}$, etc
+\label{sec:Matrice2photons}
 Les premières mesures de délais de photoionisation ont été possibles grâce au développement de techniques d'interférométrie électronique attoseconde telles que le RABBIT \mycite{VeniardPRL1995}\mycite{PaulScience2001} ou le streaking attoseconde \mycite{KienbergerScience2004}\mycite{GoulielmakisScience2004}. Ces deux méthodes font intervenir un second champ électrique sonde dans le processus de photoionisation. Comment obtenir les informations sur l'ionisation à un photon à partir de mesures à deux photons? Par la suite nous nous limiterons au cas de l'interférométrie RABBIT, détaillée au chapitre \textbf{ref}, pour lequel le champ d'habillage peut être traité de manière perturbative. On utilise le formalisme et les développements de Marcus Dahlström et des théoriciens du LCPMR Paris \mycite{DahlstromChemPhys2013}.
 
 \begin{figure}
@@ -788,6 +788,7 @@ M^{(1)}_E = \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\epsilon}{\epsilon + i} \bra{
 Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}). Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
 \begin{equation}
 \arg M^{(1)}_E = \arg \mathcal{R}(\epsilon) = \arctan \epsilon - \pi \: \Theta (\epsilon + q) + \frac{\pi}{2}
+\label{eq:Arg1photonFano}
 \end{equation}
 où $\Theta$ désigne la fonction de Heaviside. La phase de l'amplitude de transition présente donc un saut de $\pi$ en $\epsilon = -q$ (figure \ref{fig:FanoPlanComplexeFinal}(b)). Ce saut de phase n'est pas une discontinuité physique de l'amplitude de transition $M^{(1)}_E$ (qui est une fonction continue de $\epsilon$), mais reflète simplement la discontinuité de la fonction $\arg$ à l'origine. En effet, le facteur résonant $\mathcal{R}(\epsilon)$ peut être représenté sous la forme d'un cercle dans le plan complexe:
 \begin{equation}
@@ -866,6 +867,7 @@ M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{\bra{\vec{k}} z \ket{\psi_E} \bra
 et la phase
 \begin{equation}
 \arg M_{\vec{k}, \text{Fano}}^{(2)} \approx \arg M_{\vec{k}}^{(2)} + \arg [\mathcal{R}_{\text{eff}}(\epsilon)]
+\label{eq:Arg2photonsFano}
 \end{equation}
 où $M_{\vec{k}}^{(2)}$ est un élément de transition à deux photons impliquant uniquement des états du continuum, calculé au chapitre \ref{chap:DelaiPI}.
 

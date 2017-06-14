@@ -67,7 +67,7 @@
     \put(0.83775296,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.8}}}%
     \put(0.93546422,0.04086779){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{37}}}%
     \put(0.32866289,0.00538278){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photoélectron (eV)}}}%
-    \put(0.01790202,0.13116836){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase $\bar{\theta}$ (rad.)}}}}%
+    \put(0.01790202,0.13686917){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase $\bar{\Delta \theta^{\text{at}}}$ (rad.)}}}}%
     \put(0.22418746,0.38204352){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{62}$}}}%
     \put(0.72585882,0.38204352){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{64}$}}}%
     \put(0.49669956,0.24428869){\color[rgb]{0.18039216,0.23137255,0.81568627}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\lambda_{\text{OPA}}$ = 1285 nm}}}}%

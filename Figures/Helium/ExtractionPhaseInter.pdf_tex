@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{441.36466276bp}%
+    \setlength{\unitlength}{441.69278776bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,30 +48,30 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.53345559)%
+  \begin{picture}(1,0.61781134)%
     \put(0,0){\includegraphics[width=\unitlength]{ExtractionPhaseInter.pdf}}%
-    \put(0.03568109,0.06464163){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-0.1}}}%
-    \put(0.05519648,0.11427467){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0.04189054,0.1639078){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.1}}}%
-    \put(0.04189054,0.21354084){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.2}}}%
-    \put(0.04189054,0.26317388){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.3}}}%
-    \put(0.04189054,0.312807){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.4}}}%
-    \put(0.04189054,0.36244004){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
-    \put(0.04189054,0.41207308){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.6}}}%
-    \put(0.04189054,0.46170621){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.7}}}%
-    \put(0.04189054,0.51133923){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.8}}}%
-    \put(0.85811626,0.15061825){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1295nm}}}%
-    \put(0.85811626,0.12565736){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1275nm}}}%
-    \put(0.86233448,0.10083405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fit}}}%
-    \put(0.06682645,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{30}}}%
-    \put(0.1960986,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{32}}}%
-    \put(0.32523022,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34}}}%
-    \put(0.44319652,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36}}}%
-    \put(0.58369721,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38}}}%
-    \put(0.71363021,0.03958206){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
-    \put(0.84290233,0.03947265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{42}}}%
-    \put(0.97203389,0.03947265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{44}}}%
-    \put(0.28038166,0.00684578){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie moyenne du pic satellite (eV)}}}%
-    \put(0.0220242,0.11547017){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase du pic satellite (rad.)}}}}%
+    \put(0.03639746,0.06459361){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-0.1}}}%
+    \put(0.05589835,0.11418978){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.0426023,0.16378603){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.1}}}%
+    \put(0.0426023,0.2133822){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.2}}}%
+    \put(0.0426023,0.26297837){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.3}}}%
+    \put(0.0426023,0.31257463){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.4}}}%
+    \put(0.0426023,0.36217079){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.0426023,0.41176696){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.6}}}%
+    \put(0.0426023,0.46136322){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.7}}}%
+    \put(0.0426023,0.51095937){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.8}}}%
+    \put(0.85822166,0.15050636){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1295nm}}}%
+    \put(0.85822166,0.12556401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1275nm}}}%
+    \put(0.86243675,0.10075914){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fit}}}%
+    \put(0.06751969,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0.19669581,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{32}}}%
+    \put(0.32573149,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{34}}}%
+    \put(0.44361015,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.58400648,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38}}}%
+    \put(0.71384295,0.03955265){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.84301903,0.03944332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{42}}}%
+    \put(0.97205466,0.03944332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{44}}}%
+    \put(0.28091625,0.00684069){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie moyenne du pic satellite (eV)}}}%
+    \put(0.02275072,0.08278255){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase du pic satellite $\bar{\Theta}$(rad.)}}}}%
   \end{picture}%
 \endgroup%

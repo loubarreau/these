@@ -645,7 +645,7 @@
        style="font-size:16.75708771px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#262626;stroke:none;font-family:Gill Sans MT;-inkscape-font-specification:Gill Sans MT"
        y="5.7461643"
        xml:space="preserve"
-       x="-562.80945">Phase $\theta (E)$ (rad)</text>
+       x="-562.80945">Phase $\Delta \theta^{\text{at}} (E)$ (rad)</text>
     <line
        id="line4861"
        y1="565.73059"
