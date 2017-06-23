@@ -21,6 +21,7 @@ Dans cette partie, nous présenterons d'abord les résultats des mesures de phas
 
 
 \chapter[Mesure de la phase de la transition au voisinage de la résonance 2s2p par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{2s2p} par RABBIT et Rainbow RABBIT}
+\label{chap:HeSaclay_res}
 \section{Mesures RABBIT}
 L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. 
 
@@ -42,7 +43,7 @@ L'impulsion MIR est focalisée avec une lentille $f$ = 400 mm dans une cellule d
 \label{fig:Schema_2s2p}
 \end{figure}
 
-Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
+Une partie du faisceau MIR initial (impulsions de 70 fs) est superposée à l'XUV au point source de la bouteille magnétique. Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
 \begin{multline}
 S_{\text{SB}}(\tau,q) \propto |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \\
 \times \cos[2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \underbrace{\eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q) \pm \arg \mathcal{R}_{\text{eff}}}_{\Delta \theta^{\text{at}}_q}]
@@ -58,7 +59,7 @@ avec $+ \arg \mathcal{R}_{\text{eff}}$ si la résonance de Fano se trouve dans l
 \centering
 \def\svgwidth{0.70\textwidth}
 \import{Figures/Helium/}{TracesRabbitHe.pdf_tex}
-\caption{Spectrogrammes RABBIT mesurés dans l'hélium pour plusieurs longueurs d'onde de génération. \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. La résonance de Fano $2s2p$ se situe à 60.15 - 24.56 = 35.59 eV et est de plus en plus visible à mesure que l'énergie de l'harmonique 63 se rapproche de l'énergie de la résonance.}
+\caption{Spectrogrammes RABBIT mesurés dans l'hélium pour plusieurs longueurs d'onde de génération. \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. La résonance de Fano $2s2p$ se situe à 60.15 - 24.56 = 35.59 eV et est de plus en plus visible à mesure que l'énergie de l'harmonique 63 se rapproche de l'énergie de la résonance. Elle est élargie spectralement par la résolution du spectromètre ($\approx$ 200 meV à cette énergie).}
 \label{fig:TracesRabbitHe}
 \end{figure}
 
@@ -100,7 +101,7 @@ La même analyse permet d'obtenir également les variations de l'amplitude à $2
 \label{fig:TracesExp_Sim_He}
 \end{figure}
 
-Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme enregistré avec une longueur d'onde de génération de 1295 nm sont présentés figure \ref{fig:DataRainbowHe}. L'évolution de la phase est toujours symétrique pour les deux pics satellites résonants mais cette fois la phase varie de $\approx$ 1 rad sur 200 meV. On observe un saut de phase à la position de la résonance décalée de 1 photon MIR et à la position du minimum dans l'amplitude, conformément aux résultats du modèle de Fano présentés au chapitre \ref{chap:ResonancesFano}. En comparaison, l'amplitude du pic satellite non résonant $\text{SB}_{66}$ reproduit le spectre gaussien des harmoniques, et sa phase est plate.
+Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme enregistré avec une longueur d'onde de génération de 1295 nm sont présentés figure \ref{fig:DataRainbowHe}. L'évolution de la phase est toujours symétrique pour les deux pics satellites résonants mais cette fois la phase varie de $\approx$ 1 rad sur 200 meV. Cet élargissement spectral de la résonance (de largeur naturelle $\Gamma$ = 17 meV, voir tableau \ref{tab:ParamètresFano}) est dû au spectromètre de photoélectrons dont la résolution est de $\approx$ 200 meV à cette énergie. On observe un saut de phase à la position de la résonance décalée de 1 photon MIR et à la position du minimum dans l'amplitude, conformément aux résultats du modèle de Fano présentés au chapitre \ref{chap:ResonancesFano}. En comparaison, l'amplitude du pic satellite non résonant $\text{SB}_{66}$ reproduit le spectre gaussien des harmoniques, et sa phase est plate.
 
 \begin{figure}
 \centering
@@ -113,6 +114,7 @@ Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme e
 \paragraph*{Comparaison du RABBIT et du Rainbow RABBIT} Si la largeur spectrale de l'harmonique est suffisante pour couvrir toute la largeur de la résonance, la variation complète de la phase est ici obtenue en un unique spectrogramme enregistré à une longueur d'onde résonante. La quantité mesurée correspond aux réelles variations spectrales de la phase et non à une valeur moyennée sur la largeur du pic satellite. De plus, si la phase varie très rapidement à l'intérieur du pic satellite, les oscillations à 2 $\omega$ peuvent être brouillées, ce qui rend la procédure d'extraction de phase plus difficile dans le signal intégré (RABBIT). Enfin, dans le Rainbow RABBIT, la résolution spectrale est déterminée par la fonction d'appareil du spectromètre à électrons utilisé. Dans les expériences présentées ici, un potentiel retard de 26 V était appliqué aux électrons, soit une énergie cinétique de l'ordre de 10 eV pour les photoélectrons au voisinage de la résonance. Les pics satellites de plus basse énergie que la résonance étaient nécessaire pour déterminer précisément l'\textit{attochirp} dans l'analyse RABBIT. Cependant, en ajoutant plus de potentiel retard il aurait été possible de décaler les pics satellites résonants à plus basse énergie cinétique et ainsi augmenter la résolution spectrale.
 
 \chapter{Reconstruction de la dynamique d'autoionisation}
+\label{chap:HeSaclay_reconstruction}
 \section{Paquet d'onde électronique dans le domaine spectral}
 \subsection{Paquet d'onde à deux photons}
 \label{subsec:POE_2phot_spec}
@@ -232,7 +234,7 @@ La figure \ref{fig:Phases1photon2photons} montre la phase calculée pour la tran
 \end{equation}
 et indique une contribution négligeable du terme "continuum-continuum".
 
-Par ailleurs, la phase de la transition à deux photons calculée en prenant en compte l'effet de la bande spectrale de l'impulsion d'habillage (\mycite{JimenezGalanPRA2016},courbe bleu clair de la figure \ref{fig:Phases1photon2photons}) diffère peu de la phase de la transition à deux photons dans le cas monochromatique. Ceci montre que dans nos conditions expérimentales avec une durée de l'impulsion MIR de 70 fs soit une largeur spectrale de 26 meV, les effets d'impulsion finie sont négligeables. La principale distorsion de la phase observée dans nos mesures provient de l'élargissement spectral dû à la résolution du spectromètre ($\approx$ 190 meV). 
+Par ailleurs, la phase de la transition à deux photons calculée en prenant en compte l'effet de la bande spectrale de l'impulsion d'habillage (\mycite{JimenezGalanPRA2016},courbe bleu clair de la figure \ref{fig:Phases1photon2photons}) diffère peu de la phase de la transition à deux photons dans le cas monochromatique. Ceci montre que dans nos conditions expérimentales avec une durée de l'impulsion MIR de 70 fs soit une largeur spectrale de 26 meV, les effets d'impulsion finie sont négligeables. La principale distorsion de la phase observée dans nos mesures provient de l'élargissement spectral dû à la résolution du spectromètre ($\approx$ 200 meV). 
 
 En conclusion, nous pouvons estimer que dans les conditions expérimentales utilisées le paquet d'onde électronique à deux photons caractérisé par Rainbow RABBIT est une réplique fidèle du paquet d'onde électronique résonant qui aurait été créé par une excitation harmonique à un photon. Son amplitude et sa phase peuvent être déterminées à partir des observables du Rainbow RABBIT:
 \begin{equation}
@@ -324,4 +326,35 @@ les contributions de l'état discret et du couplage s'annule, ne laissant que la
 \caption{Construction du profil spectral de la résonance calculée par l'équation \ref{eq:Wicken} avec les deux méthodes d'extraction de l'amplitude spectrale: sans normaliser par le pic satellite voisin (a) (figure identitque à \ref{fig:Wickenhauserisation}(b)), ou en normalisant par l'amplitude de $\text{SB}_{66}$ (b). Les dynamiques observées sont similaires dans les deux approches.} 
 \label{fig:Spectre_norm}
 \end{figure}
+
+\chapter[Etude de la résonance sp3+ et de l'influence de paramètres expérimentaux]{Etude de la résonance \MakeLowercase{sp3+} et de l'influence de paramètres expérimentaux}
+Les résultats présentés dans ce chapitre ont été obtenus lors de deux campagnes expérimentales menées à Lund en collaboration avec l'équipe du professeur Anne L'Huillier (David Busto, Mathieu Gisselbrecht, Anne Harth, Marcus Isinger, David Kroon, Shiyang Zhong) et le spectromètre de temps de vol d'électrons à bouteille magnétique de l'Université de Gothenburg (Raimund Feifel, Richard Squibb).
+
+% Spectromètre qui résoud mieux. on voit la sp3+ (youpi), la 2s2p et les deux dans la même SB. Mais dommage on peut pas les coupler à 2 photons.
+% Déconvolution du spectromètre. Mince on avait plein d'effets de finite pulse... Le POE n'est donc pas exactement une réplique du POE à 1 photon, c'est le POE à deux photons.
+% On fait quand même les recontstructions temporo spectrales. Wicken + Gabor + Wigner.
+% Le poe à deux électrons (les SB ne sont pas vraiment des répliques mais bon). + calculs Richard
+% Influence de l'intensité d'habillage sur q
+
+Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CopperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.} . Nous avons utilisé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
+
+\section{Mesures Rainbow RABBIT à Lund}
+Les expériences ont été effectuées avec un laser titane:saphir à 1 kHz délivrant des impulsions de 20 fs à 800 nm avec une énergie de 5 mJ par impulsion. Le faisceau, stabilisé activement en position, est séparé en deux dans un interféromètre de type Mach-Zehnder. Une partie est focalisée par un miroir sphérique dans un jet de néon pulsé pour générer des harmoniques. L'infrarouge résiduel est filtré par 200 nm d'aluminium puis les impulsions XUV sont focalisées par un miroir torique dans un spectromètre à temps de vol d'électrons à bouteille magnétique d'une longueur de 2 m. L'autre partie du faisceau, dont l'intensité est réglée avec une lame $\lambda /2$ et un polariseur, est superposée à l'XUV au foyer du spectromètre après un trajet dans une ligne à retard. Les spectres de photoélectrons sont mesurées en fonction du délai entre l'IR et l'XUV, stabilisé activement. La longueur d'onde du laser peut-être variée grâce à des filtres acousto-optiques (MAZZLER, DAZZLER), au détriment de la bande spectrale et donc de la durée de l'impulsion.
+
+Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus que l'écart énergétique entre deux harmoniques consécutives dans la gamme spectrale accessible ici (il faudrait une longueur d'onde autour de 720 nm pour coupler les deux résonances avec deux photons IR). Cependant grâce à la largeur spectrale des harmoniques, autour de 200 meV, il est possible d'exciter simultanément les deux résonances avec les harmoniques 39 et 41 dans certaines conditions (figure \ref{fig:Schema_2res}).
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/Helium/}{Schema_2s2p_sp3.pdf_tex}
+\caption{Schéma des états de l'hélium et des interférences à deux photons mises en jeu dans le RABBIT. Lorsque la longueur d'onde du laser est variée, les harmoniques 39 et 41 peuvent exciter séparément ou simultanément les deux résonances $2s2p$ et $sp3+$. L'écart entre ces deux niveaux est de 3.51 eV, il est donc impossible de les coupler avec deux photons IR. Cependant, la largeur spectrale des harmoniques ($\approx$ 200 meV) et de l'infrarouge ($\approx$ 130 meV) rend possible l'excitation simultanée des deux résonances par deux harmoniques consécutives.} 
+\label{fig:Schema_2res}
+\end{figure}
+
+
+
+
+
+
+
 
