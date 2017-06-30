@@ -48,16 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.78161001)%
+  \begin{picture}(1,0.81381878)%
     \put(0,0){\includegraphics[width=\unitlength]{Schema_2s2p_sp3.pdf}}%
     \put(0.53953832,0.39104751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2s2p$}}}%
-    \put(0.26484362,0.41272366){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{39}$}}}%
-    \put(0.51598871,0.73103807){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{43}$}}}%
-    \put(0.26398957,0.24558684){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{37}$}}}%
+    \put(0.27289581,0.41272366){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{39}$}}}%
+    \put(0.51598871,0.76324684){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{43}$}}}%
+    \put(0.27204177,0.24558684){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{37}$}}}%
     \put(0.55364711,0.00536682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1s^2$}}}%
-    \put(0.53953832,0.60040446){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$sp3+$}}}%
-    \put(0.69947933,0.49712572){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3,51 eV}}}%
-    \put(-0.00371549,0.5093356){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{$2 \omega = 3,06 - 3,16 eV$}}}%
-    \put(0.26484362,0.5898719){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{41}$}}}%
+    \put(0.53953832,0.59235227){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$sp3+$}}}%
+    \put(0.68337494,0.49712572){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3,51 eV}}}%
+    \put(-0.00371549,0.5093356){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{$2 \omega = 3,06 - 3,16$ eV}}}%
+    \put(0.37910143,0.5860986){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\text{H}_{41}$}}}%
   \end{picture}%
 \endgroup%

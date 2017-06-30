@@ -1,0 +1,81 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'HeLund_WLscan.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1260bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.55595238)%
+    \put(0,0){\includegraphics[width=\unitlength]{HeLund_WLscan.pdf}}%
+    \put(0.35634394,0.00550332){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photon (eV)}}}%
+    \put(0.03095238,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{59}}}%
+    \put(0.11706349,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{60}}}%
+    \put(0.2031746,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61}}}%
+    \put(0.28928571,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{62}}}%
+    \put(0.37539683,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{63}}}%
+    \put(0.46150794,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64}}}%
+    \put(0.54761905,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{65}}}%
+    \put(0.63373016,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{66}}}%
+    \put(0.71984127,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{67}}}%
+    \put(0.80595238,0.02940698){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{68}}}%
+    \put(0.13288061,0.50915258){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2s2p$}}}%
+    \put(0.44145204,0.50915258){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$sp3+$}}}%
+    \put(0.19609866,0.46504827){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_{39}$}}}%
+    \put(0.46530497,0.46504827){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_{41}$}}}%
+    \put(0.73578116,0.46504827){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_{43}$}}}%
+    \put(0.83978758,0.44245113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=790$ nm}}}%
+    \put(0.83978758,0.41248288){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=791$ nm}}}%
+    \put(0.83978758,0.38251463){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=792$ nm}}}%
+    \put(0.83978758,0.35254637){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=793$ nm}}}%
+    \put(0.83978758,0.32257811){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=794$ nm}}}%
+    \put(0.83978758,0.29260987){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=795$ nm}}}%
+    \put(0.83978758,0.26264161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=796$ nm}}}%
+    \put(0.83978758,0.23267335){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=797$ nm}}}%
+    \put(0.83978758,0.2027051){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=798$ nm}}}%
+    \put(0.83978758,0.17273684){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=799$ nm}}}%
+    \put(0.83978758,0.14276858){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda=800$ nm}}}%
+  \end{picture}%
+\endgroup%

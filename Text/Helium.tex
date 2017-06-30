@@ -29,11 +29,11 @@ L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OP
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{SpectresSansHabillage.pdf_tex}
-\caption{Spectres de photoélectrons de l'hélium ionisé par les harmoniques 61 à 67 générées dans l'argon par un amplificateur paramétrique optique (OPA) de longueur d'onde variant de 1285 à 1305 nm. Les spectres sont décalés verticalement pour une meilleur visibilité. Les pointillés noirs matérialisent la position de la résonance $2s2p$.}
+\caption{Spectres de photoélectrons de l'hélium ionisé par les harmoniques 61 à 67 générées dans l'argon par un amplificateur paramétrique optique (OPA) de longueur d'onde variant de 1285 à 1305 nm. Les spectres sont décalés verticalement pour une meilleure visibilité. Les pointillés noirs matérialisent la position de la résonance $2s2p$.}
 \label{fig:SpectresSansHabillageHe}
 \end{figure}
 
-L'impulsion MIR est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. L'XUV est refocalisé dans un spectromètre à temps de vol d'électrons à bouteille magnétique grâce à un miroir torique en or pour photoioniser un gaz d'hélium. Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:SpectresSansHabillageHe}. Le signal de photoélectrons reproduit le spectre harmonique. Un signal plus intense, dû à la section efficace de photoionisation plus importante au voisinage de la résonance \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
+L'impulsion MIR, d'une durée de $\approx$ 70 fs, est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. L'XUV est refocalisé dans un spectromètre à temps de vol d'électrons à bouteille magnétique grâce à un miroir torique en or pour photoioniser un gaz d'hélium. Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:SpectresSansHabillageHe}. Le signal de photoélectrons reproduit le spectre harmonique. Un signal plus intense, dû à la section efficace de photoionisation plus importante au voisinage de la résonance \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
 
 \begin{figure}[h]
 \centering
@@ -43,7 +43,7 @@ L'impulsion MIR est focalisée avec une lentille $f$ = 400 mm dans une cellule d
 \label{fig:Schema_2s2p}
 \end{figure}
 
-Une partie du faisceau MIR initial (impulsions de 70 fs) est superposée à l'XUV au point source de la bouteille magnétique. Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
+Une partie du faisceau MIR initial est superposée à l'XUV au point source de la bouteille magnétique. Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
 \begin{multline}
 S_{\text{SB}}(\tau,q) \propto |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \\
 \times \cos[2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \underbrace{\eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q) \pm \arg \mathcal{R}_{\text{eff}}}_{\Delta \theta^{\text{at}}_q}]
@@ -336,12 +336,12 @@ Les résultats présentés dans ce chapitre ont été obtenus lors de deux campa
 % Le poe à deux électrons (les SB ne sont pas vraiment des répliques mais bon). + calculs Richard
 % Influence de l'intensité d'habillage sur q
 
-Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CopperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.} . Nous avons utilisé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
+Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CopperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.}, et d'exciter simultanément les deux résonances avec deux harmoniques consécutives. Nous avons également développé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
 
 \section{Mesures Rainbow RABBIT à Lund}
 Les expériences ont été effectuées avec un laser titane:saphir à 1 kHz délivrant des impulsions de 20 fs à 800 nm avec une énergie de 5 mJ par impulsion. Le faisceau, stabilisé activement en position, est séparé en deux dans un interféromètre de type Mach-Zehnder. Une partie est focalisée par un miroir sphérique dans un jet de néon pulsé pour générer des harmoniques. L'infrarouge résiduel est filtré par 200 nm d'aluminium puis les impulsions XUV sont focalisées par un miroir torique dans un spectromètre à temps de vol d'électrons à bouteille magnétique d'une longueur de 2 m. L'autre partie du faisceau, dont l'intensité est réglée avec une lame $\lambda /2$ et un polariseur, est superposée à l'XUV au foyer du spectromètre après un trajet dans une ligne à retard. Les spectres de photoélectrons sont mesurées en fonction du délai entre l'IR et l'XUV, stabilisé activement. La longueur d'onde du laser peut-être variée grâce à des filtres acousto-optiques (MAZZLER, DAZZLER), au détriment de la bande spectrale et donc de la durée de l'impulsion.
 
-Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus que l'écart énergétique entre deux harmoniques consécutives dans la gamme spectrale accessible ici (il faudrait une longueur d'onde autour de 720 nm pour coupler les deux résonances avec deux photons IR). Cependant grâce à la largeur spectrale des harmoniques, autour de 200 meV, il est possible d'exciter simultanément les deux résonances avec les harmoniques 39 et 41 dans certaines conditions (figure \ref{fig:Schema_2res}).
+Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus que l'écart énergétique entre deux harmoniques consécutives dans la gamme spectrale accessible ici (il faudrait une longueur d'onde autour de 720 nm pour coupler les deux résonances avec deux photons IR). Cependant grâce à la largeur spectrale des harmoniques, autour de 200 meV, il est possible d'exciter simultanément les deux résonances avec les harmoniques 39 et 41 dans certaines conditions (figures \ref{fig:Schema_2res} et \ref{fig:HeLund_WLscan}).
 
 \begin{figure}
 \centering
@@ -351,9 +351,33 @@ Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus q
 \label{fig:Schema_2res}
 \end{figure}
 
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{HeLund_WLscan.pdf_tex}
+\caption{Spectres de photoélectrons de l'hélium ionisé par les harmoniques 39 à 43 générées dans l'argon par un laser titane:saphir accordable de longueur d'onde variant de 790 à 800 nm, de largeur 70 nm. Les spectres sont décalés verticalement pour une meilleure visibilité. Les pointillés noirs matérialisent la position des résonances $2s2p$ et $sp3+$.}
+\label{fig:HeLund_WLscan}
+\end{figure}
+
+\subsection{Excitation de la résonance 2s2p}
+D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm seule la résonance $2s2p$ est excitée. Les mesures de phase au voisinage de cette résonance avec la méthode Rainbow RABBIT sont donc à nouveau effectuées avec ces conditions expérimentales. 
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/Helium/}{Axes_Rabbit_HeLund_NeHe2.pdf_tex}
+\caption{Spectrogramme RABBIT mesuré dans l'hélium à 799 nm. \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. Pour plus de visibilité des pics satellites, l'échelle de couleurs utilisée sature l'harmonique résonante.}
+\label{fig:Rabbit_HeLund_2s2p}
+\end{figure}
 
 
-
+%\subsection{Excitation simultanée des résonances 2s2p et sp3+}
+%
+%\section{Dynamiques d'autoionisation}
+%\subsection{Représentations temps-énergie}
+%\subsection{Paquet d'onde à deux électrons}
+%
+%\section{Influence de l'intensité d'habillage sur le profil de raie}
 
 
 
