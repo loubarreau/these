@@ -336,7 +336,7 @@ Les résultats présentés dans ce chapitre ont été obtenus lors de deux campa
 % Le poe à deux électrons (les SB ne sont pas vraiment des répliques mais bon). + calculs Richard
 % Influence de l'intensité d'habillage sur q
 
-Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CopperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.}, et d'exciter simultanément les deux résonances avec deux harmoniques consécutives. Nous avons également développé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
+Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CooperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.}, et d'exciter simultanément les deux résonances avec deux harmoniques consécutives. Nous avons également développé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
 
 \section{Mesures Rainbow RABBIT à Lund}
 Les expériences ont été effectuées avec un laser titane:saphir à 1 kHz délivrant des impulsions de 20 fs à 800 nm avec une énergie de 5 mJ par impulsion. Le faisceau, stabilisé activement en position, est séparé en deux dans un interféromètre de type Mach-Zehnder. Une partie est focalisée par un miroir sphérique dans un jet de néon pulsé pour générer des harmoniques. L'infrarouge résiduel est filtré par 200 nm d'aluminium puis les impulsions XUV sont focalisées par un miroir torique dans un spectromètre à temps de vol d'électrons à bouteille magnétique d'une longueur de 2 m. L'autre partie du faisceau, dont l'intensité est réglée avec une lame $\lambda /2$ et un polariseur, est superposée à l'XUV au foyer du spectromètre après un trajet dans une ligne à retard. Les spectres de photoélectrons sont mesurées en fonction du délai entre l'IR et l'XUV, stabilisé activement. La longueur d'onde du laser peut-être variée grâce à des filtres acousto-optiques (MAZZLER, DAZZLER), au détriment de la bande spectrale et donc de la durée de l'impulsion.
@@ -370,14 +370,124 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Rabbit_HeLund_2s2p}
 \end{figure}
 
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Axes_Rabbit_HeLund_NeHe2_deconv.pdf_tex}
+\caption{Bla.}
+\label{fig:Rabbit_HeLund_2s2p_deconv}
+\end{figure}
 
-%\subsection{Excitation simultanée des résonances 2s2p et sp3+}
-%
-%\section{Dynamiques d'autoionisation}
-%\subsection{Représentations temps-énergie}
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Resultats_NeHe2_deconv.pdf_tex}
+\caption{Bla.}
+\label{fig:Resultats_NeHe2_deconv}
+\end{figure}
+
+% Déconvolution: chaque délai smoothé sur 10 points puis deconvblind. Fonction d'appareil Lorentzienne de largeur ~85 meV pour SB 38 et ~120 meV pour SB 40. Pb: Pas la même fonction d'appareil à chaque pas de délai + le deltaE/E n'est pas constant + pas ok avec Alvaro.
+% Deconvbiggs de Lund: donne des valeurs complexes ?? Ne déconvolue de rien. Pour le mode "fonction constante", il faut que la fonction soit centrée sur l'intervalle d'énergie sinon pb. Très dépendant de la valeur de T.
+
+\subsection{Excitation simultanée des résonances 2s2p et sp3+}
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Resultats_NeHe6_deconv.pdf_tex}
+\caption{Bla.}
+\label{fig:Resultats_NeHe6_deconv}
+\end{figure}
+
+
+\section{Dynamiques d'autoionisation}
+\subsection{Représentations temps-énergie}
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/Helium/}{ProfilTemporel_Lund.pdf_tex}
+\caption{Bla.}
+\label{fig:ProfilTemporel_Lund}
+\end{figure}
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Wicken_Gabor.pdf_tex}
+\caption{Bla.}
+\label{fig:Wicken_Gabor}
+\end{figure}
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Wigner_Th.pdf_tex}
+\caption{Bla.}
+\label{fig:Wigner_Th}
+\end{figure}
+
 %\subsection{Paquet d'onde à deux électrons}
 %
 %\section{Influence de l'intensité d'habillage sur le profil de raie}
+
+\chapter{Comparaison entre la spectroscopie de photoionisation et l'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
+Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés simultanément. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
+
+Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle induit, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR.
+
+\begin{figure} [h]
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/Helium/}{Kaldun.pdf_tex}
+\caption{\'{E}volution du profil d'absorption au voisinage de la résonance $2s2p$ de l'hélium en fonction du délai entre une impulsion XUV attoseconde qui excite la résonance et une impulsion IR brève et intense qui modifie le processus d'autoionisation. Adapté de \mycite{KaldunScience2016}.}
+\label{fig:Kaldun}
+\end{figure}
+
+Si ces deux expériences s'intéressent au même processus: l'autoionisation de l'hélium \textit{via} la résonance $2s2p$, les observables mesurées sont en revanche différentes. La première mesure l'amplitude et la phase du paquet d'onde électronique qui nait dans le continuum, et reconstruit la modification de son spectre au cours du temps (figure \ref{fig:Wickenhauserisation}), soit l'autoionisation \textit{de l'extérieur}. La seconde observe l'évolution temporelle de la réponse dipolaire, soit l'autoionisation \textit{de l'intérieur}. Dans ce chapitre, on souhaite déterminer analytiquement et numériquement si ces deux dynamiques sont identiques à l'échelle attoseconde.
+
+\section{Absorption transitoire attoseconde}
+\subsection{Section efficace et dipôle induit}
+La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, la section efficace es proportionnelle à la partie imaginaire de l'indice de réfraction $n(\omega) = \sqrt{1+ \chi(\omega)}$. La polarisation macroscopique $\vec{P}$ d'un milieu de $\rho$ émetteurs par unité de volume émettant un dipôle $d(\omega)$ est reliée au champ électrique incident par 
+\begin{equation}
+\vec{P} = \rho\: <d(\omega)> = \epsilon_0 \: \chi(\omega) \: \vec{E}(\omega)
+\end{equation}
+Après un développement limité au premier ordre de l'indice de réfraction \mycite{TheseKaldun}, on montre que
+\begin{equation}
+\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{E(\omega)} \right]
+\end{equation}
+soit
+\begin{equation}
+\setlength\fboxrule{0.5pt}
+\boxed{
+\sigma (\omega) \propto \mathcal{I} \text{\textit{m}} <d(\omega)> 
+}
+\end{equation}
+où $<d(\omega)>$ est la valeur moyenne de l'opérateur dipolaire dans l'état considéré $\ket{\Phi}$, et est relié par transformée de Fourier au dipôle temporel induit
+\begin{align}
+<d(\omega)> & = \int_{- \infty}^{+ \infty} <d(t)> \rme^{i \omega t} \rmd t \\
+& =  \int_{- \infty}^{+ \infty} \bra{\Phi(t)} z \ket{\Phi(t)} \rme^{i \omega t} \rmd t 
+\end{align}
+
+\subsection{Dipôle dépendant du temps au voisinage d'une résonance de Fano}
+D'après le chapitre \ref{chap:ResonancesFano}, les fonctions propres de l'hamiltonien décrit par les équations \ref{eq:Hamiltonien_Fano} s'écrivent, en fonction des configurations de l'état lié $\ket{\varphi}$ et du continuum $ \ket{\psi_{E'}}$
+\begin{equation}
+\ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
+\end{equation}
+avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}.
+
+Considérons que le système est ionisé depuis son état fondamental $\ket{g}$ par une impulsion XUV ultra-brève. Après le passage de cette impulsion, la fonction d'onde dépendante du temps caractérisant le système est donnée par
+\begin{equation}
+\ket{\Phi} = C_g \: \rme^{-i E_g t} \ket{g} + \int C_E \: \rme^{-iEt} \ket{\Psi_E} \rmd E
+\end{equation}
+Les états $\ket{\Psi_E}$ étant fonctions propres du système, les coefficients $C_E$ sont indépendants du temps en l'absence de l'impulsion de pompe. La dynamique de l'autoionisation n'est donc pas contenue dans $|C_E|^2$ et l'information temporelle est cachée, bien que l'autoionisation ait lieu.
+
+Pour faire apparaître les aspects dépendants du temps, \mycite{ChuPRA2010} proposent de décomposer la fonction d'onde $\ket{\Phi}$ non pas sur la base des fonctions propres de l'hamiltonien mais sur la base des configurations $\ket{\varphi}$ et $ \ket{\psi_{E'}}$.
+
+
+
+
+
 
 
 

@@ -1,0 +1,144 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Resultats_NeHe2_deconv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1289.48298446bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.55428973)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.05171771,0.30004807){\makebox(0,0)[lb]{\smash{58.2}}}%
+    \put(0.11515398,0.30004807){\makebox(0,0)[lb]{\smash{58.4}}}%
+    \put(0.17859026,0.30004807){\makebox(0,0)[lb]{\smash{58.6}}}%
+    \put(0.24202654,0.30004807){\makebox(0,0)[lb]{\smash{58.8}}}%
+    \put(0.30986079,0.30004807){\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.03336753,0.33160062){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.02457163,0.37155462){\makebox(0,0)[lb]{\smash{0.2}}}%
+    \put(0.02457163,0.41150862){\makebox(0,0)[lb]{\smash{0.4}}}%
+    \put(0.02457163,0.45146261){\makebox(0,0)[lb]{\smash{0.6}}}%
+    \put(0.02457163,0.49141661){\makebox(0,0)[lb]{\smash{0.8}}}%
+    \put(0.03336753,0.53137061){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.05171795,0.02520923){\makebox(0,0)[lb]{\smash{58.2}}}%
+    \put(0.11515448,0.02520923){\makebox(0,0)[lb]{\smash{58.4}}}%
+    \put(0.17858976,0.02520923){\makebox(0,0)[lb]{\smash{58.6}}}%
+    \put(0.24202629,0.02520923){\makebox(0,0)[lb]{\smash{58.8}}}%
+    \put(0.30986079,0.02520923){\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.02106008,0.05428017){\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.03336821,0.09423417){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.02457231,0.13418817){\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.03336821,0.17414216){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.02457231,0.21409616){\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0.03336821,0.25405016){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.05453149,0.54162254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-4}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.43863247,0.30004807){\makebox(0,0)[lb]{\smash{61.4}}}%
+    \put(0.50206874,0.30004807){\makebox(0,0)[lb]{\smash{61.6}}}%
+    \put(0.56550502,0.30004807){\makebox(0,0)[lb]{\smash{61.8}}}%
+    \put(0.63333928,0.30004807){\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.37270508,0.33160062){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.37270508,0.38154312){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.37270508,0.43148562){\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.37270508,0.48142811){\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.37270508,0.53137061){\makebox(0,0)[lb]{\smash{8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.43863296,0.02520924){\makebox(0,0)[lb]{\smash{61.4}}}%
+    \put(0.50206825,0.02520924){\makebox(0,0)[lb]{\smash{61.6}}}%
+    \put(0.56550477,0.02520924){\makebox(0,0)[lb]{\smash{61.8}}}%
+    \put(0.63333928,0.02520924){\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.36547093,0.05428017){\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.35791577,0.09423417){\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.36898309,0.13418817){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.3601872,0.17414217){\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.36898309,0.21409616){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.3601872,0.25405016){\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.40943253,0.00234318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photon (eV)}}}%
+    \put(0.00779291,0.05950741){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase $\Theta (E)$ (rad)}}}}%
+    \put(0.00779291,0.33248505){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Amplitude (u. arb.)}}}}%
+    \put(0.14559529,0.54649681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{38}$}}}%
+    \put(0.48916296,0.54649681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{40}$}}}%
+    \put(0.84289193,0.54649681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{42}$}}}%
+    \put(0.3882079,0.5427811){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-5}$}}}%
+    \put(0.72881119,0.54308149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-5}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.73409916,0.30004804){\makebox(0,0)[lb]{\smash{64.4}}}%
+    \put(0.79048697,0.30004804){\makebox(0,0)[lb]{\smash{64.6}}}%
+    \put(0.84687478,0.30004804){\makebox(0,0)[lb]{\smash{64.8}}}%
+    \put(0.90766057,0.30004804){\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.95965034,0.30004804){\makebox(0,0)[lb]{\smash{65.2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.71326737,0.33160059){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.71326737,0.38154309){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.71326737,0.43148559){\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.71326737,0.48142808){\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.71326737,0.53137058){\makebox(0,0)[lb]{\smash{8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.73495681,0.02317849){\makebox(0,0)[lb]{\smash{64.4}}}%
+    \put(0.79134375,0.02317849){\makebox(0,0)[lb]{\smash{64.6}}}%
+    \put(0.84773286,0.02317849){\makebox(0,0)[lb]{\smash{64.8}}}%
+    \put(0.90851778,0.02317849){\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.96050674,0.02317849){\makebox(0,0)[lb]{\smash{65.2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.7066798,0.05349024){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.6978839,0.09344424){\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.7066798,0.1333982){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.6978839,0.1733522){\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0.7066798,0.2133062){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.6978839,0.2532602){\makebox(0,0)[lb]{\smash{2.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.14870327,0.34636757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}- \hbar \omega$}}}%
+    \put(0.14870327,0.06594512){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}- \hbar \omega$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Resultats_NeHe2_deconv.pdf}}%
+    \put(0.49737017,0.34636757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}+\hbar \omega$}}}%
+    \put(0.49737017,0.07214915){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}+\hbar \omega$}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,452 @@
+\begin{thebibliography}{63}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Argenti et~al.(2017)Argenti, Jim{\'e}nez-Gal{\'a}n, Caillat,
+  Ta{\"i}eb, Maquet, et Mart{\'i}n]{ArgentiPRA2017}
+Argenti L, Jim{\'e}nez-Gal{\'a}n A, Caillat J, Ta{\"i}eb R, Maquet A, et
+  Mart{\'i}n F.
+\newblock \emph{Control of photoemission delay in resonant two-photon
+  transitions}.
+\newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Berrah et~al.(1996)Berrah, Langer, Bozek, Gorczyca, Hemmers, Lindle,
+  et Toader]{BerrahJPB1996}
+Berrah N, Langer B, Bozek J, Gorczyca TW, Hemmers O, Lindle DW, et Toader O.
+\newblock \emph{Angular-distribution parameters and r -matrix calculations of
+  ar resonances}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{29},~5351 (1996).
+
+\bibitem[Beutler(1935)]{Beutler1935}
+Beutler H.
+\newblock \emph{\"uber absorptionsserien von argon, krypton und xenon zu termen
+  zwischen den beiden ionisierungsgrenzen $^2p_{3}^{2/0}$ und $^2p_{1}^{2/0}$}.
+\newblock Zeitschrift f{\"u}r Physik \textbf{93},~177--196 (1935).
+
+\bibitem[Caillat et~al.(2011)Caillat, Maquet, Haessler, Fabre, Ruchon,
+  Sali{\`e}res, Mairesse, et Ta{\"i}eb]{CaillatPRL2011}
+Caillat J, Maquet A, Haessler S, Fabre B, Ruchon T, Sali{\`e}res P, Mairesse Y,
+  et Ta{\"i}eb R.
+\newblock \emph{Attosecond resolved electron release in {Two-Color}
+  {Near-Threshold} photoionization {ofN2}}.
+\newblock Phys. Rev. Lett. \textbf{106} (2011).
+
+\bibitem[Carette et~al.(2013)Carette, Dahlstr\"om, Argenti, et
+  Lindroth]{CarettePRA2013}
+Carette T, Dahlstr\"om JM, Argenti L, et Lindroth E.
+\newblock \emph{Multiconfigurational hartree-fock close-coupling ansatz:
+  Application to the argon photoionization cross section and delays}.
+\newblock Phys. Rev. A \textbf{87},~023420 (2013).
+
+\bibitem[Chirla(2011)]{TheseChirla}
+Chirla R.
+\newblock \emph{Attosecond Pulse Generation and Characterization}.
+\newblock PhD thesis, The Ohio State University, (2011).
+\newblock Thèse de doctorat dirigée par Louis F. Di Mauro.
+
+\bibitem[Chu et Lin(2010)]{ChuPRA2010}
+Chu WC et Lin CD.
+\newblock \emph{Theory of ultrafast autoionization dynamics of fano
+  resonances}.
+\newblock Phys. Rev. A \textbf{82},~053415 (2010).
+
+\bibitem[Clark(2001)]{ClarkNature2001}
+Clark CW.
+\newblock \emph{Obituary: Ugo fano (1912–2001)}.
+\newblock Nature \textbf{410},~164--164 (2001).
+
+\bibitem[Cohen-Tannoudji et~al.(1973)Cohen-Tannoudji, Diu, et
+  Lalo{\"{e}}]{CohenT2}
+Cohen-Tannoudji C, Diu B, et Lalo{\"{e}} F.
+\newblock \emph{M\'{e}canique quantique II}.
+\newblock Hermann (1973).
+
+\bibitem[Cooper(1962)]{CooperPR1962}
+Cooper JW.
+\newblock \emph{Photoionization from outer atomic subshells. a model study}.
+\newblock Phys. Rev. \textbf{128},~681--693 (1962).
+
+\bibitem[Cooper et~al.(1963)Cooper, Fano, et Prats]{CooperPRL1963}
+Cooper JW, Fano U, et Prats F.
+\newblock \emph{Classification of two-electron excitation levels of helium}.
+\newblock Phys. Rev. Lett. \textbf{10},~518--521 (1963).
+
+\bibitem[Dahlström et~al.(2012)Dahlström, L’Huillier, et
+  Maquet]{DahlstromJPB2012}
+Dahlström JM, L’Huillier A, et Maquet A.
+\newblock \emph{Introduction to attosecond delays in photoionization}.
+\newblock Journal of Physics B : Atomic, Molecular and Optical Physics
+  \textbf{45},~183001 (2012).
+
+\bibitem[Dahlstr{\"o}m et Lindroth(2014)]{DahlstromJPB2014}
+Dahlstr{\"o}m J et Lindroth E.
+\newblock \emph{Study of attosecond delays using perturbation diagrams and
+  exterior complex scaling}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~124012 (2014).
+
+\bibitem[Dahlstr\"om et~al.(2012)Dahlstr\"om, Carette, et
+  Lindroth]{DahlstromPRA2012}
+Dahlstr\"om JM, Carette T, et Lindroth E.
+\newblock \emph{Diagrammatic approach to attosecond delays in photoionization}.
+\newblock Phys. Rev. A \textbf{86},~061402 (2012).
+
+\bibitem[Dahlstr{\"o}m et~al.(2013)Dahlstr{\"o}m, Gu{\'e}not, Kl{\"u}nder,
+  Gisselbrecht, Mauritsson, L’Huillier, Maquet, et
+  Ta{\"\i}eb]{DahlstromChemPhys2013}
+Dahlstr{\"o}m JM, Gu{\'e}not D, Kl{\"u}nder K, Gisselbrecht M, Mauritsson J,
+  L’Huillier A, Maquet A, et Ta{\"\i}eb R.
+\newblock \emph{Theory of attosecond delays in laser-assisted photoionization}.
+\newblock Chemical Physics \textbf{414},~53--64 (2013).
+
+\bibitem[Domke et~al.(1996)Domke, Schulz, Remmers, Kaindl, et
+  Wintgen]{DomkePRA1996}
+Domke M, Schulz K, Remmers G, Kaindl G, et Wintgen D.
+\newblock \emph{High-resolution study of 1 p o double-excitation states in
+  helium}.
+\newblock Phys. Rev. A (1996).
+
+\bibitem[Drescher et~al.(2002)Drescher, Hentschel, Kienberger, Uiberacker,
+  Yakovlev, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann, et
+  Krausz]{DrescherNature2002}
+Drescher M, Hentschel M, Kienberger R, Uiberacker M, Yakovlev V, Scrinzi A,
+  Westerwalbesloh T, Kleineberg U, Heinzmann U, et Krausz F.
+\newblock \emph{Time-resolved atomic inner-shell spectroscopy}.
+\newblock Nature \textbf{419},~803 (2002).
+
+\bibitem[Einstein(1905)]{Einstein1905}
+Einstein A.
+\newblock \emph{{\"U}ber einen die erzeugung und verwandlung des lichtes
+  betreffenden heuristischen gesichtspunkt}.
+\newblock Annalen der physik \textbf{322},~132--148 (1905).
+
+\bibitem[Eisenbud(1948)]{Eisenbud}
+Eisenbud L.
+\newblock \emph{The formal properties of nuclear collisions}.
+\newblock Th{\`e}ses, Princeton University, (1948).
+
+\bibitem[Fano(1935)]{Fano1935}
+Fano U.
+\newblock \emph{Sullo spettro di assorbimento dei gas nobili presso il limite
+  dello spettro d'arco}.
+\newblock Il Nuovo Cimento (1924-1942) \textbf{12},~154--161 (1935).
+
+\bibitem[Fano(1961)]{FanoPR1961}
+Fano U.
+\newblock \emph{Effects of configuration interaction on intensities and phase
+  shifts}.
+\newblock Phys. Rev. \textbf{124},~1866--1878 (1961).
+
+\bibitem[Fano(1985)]{FanoPRA1985}
+Fano U.
+\newblock \emph{Propensity rules: An analytical approach}.
+\newblock Phys. Rev. A \textbf{32},~617--618 (1985).
+
+\bibitem[Friedrich(1991)]{Friedrich}
+Friedrich H.
+\newblock \emph{Theoretical Atomic Physics}.
+\newblock Springer-Verlag (1991).
+
+\bibitem[Gaillac et~al.(2016)Gaillac, Vacher, Maquet, Ta\"{\i}eb, et
+  Caillat]{GaillacPRA2016}
+Gaillac R, Vacher M, Maquet A, Ta\"{\i}eb R, et Caillat J.
+\newblock \emph{Attosecond photoemission dynamics encoded in real-valued
+  continuum wave functions}.
+\newblock Phys. Rev. A \textbf{93},~013410 (2016).
+
+\bibitem[Gilbertson et~al.(2010)Gilbertson, Chini, Feng, Khan, Wu, et
+  Chang]{GilbertsonPRL2010}
+Gilbertson S, Chini M, Feng X, Khan S, Wu Y, et Chang Z.
+\newblock \emph{Monitoring and controlling the electron dynamics in helium with
+  isolated attosecond pulses}.
+\newblock Phys. Rev. Lett. \textbf{105} (2010).
+
+\bibitem[Goulielmakis et~al.(2004)Goulielmakis, Uiberacker, Kienberger,
+  Baltuska, Yakovlev, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann,
+  Drescher, et Krausz]{GoulielmakisScience2004}
+Goulielmakis E, Uiberacker M, Kienberger R, Baltuska A, Yakovlev V, Scrinzi A,
+  Westerwalbesloh T, Kleineberg U, Heinzmann U, Drescher M, et Krausz F.
+\newblock \emph{Direct measurement of light waves}.
+\newblock Science \textbf{305},~1267 (2004).
+
+\bibitem[Gruson(2015)]{TheseGruson}
+Gruson V.
+\newblock \emph{Polarimétrie Harmonique et Spectroscopie de Photoionisation
+  Attoseconde}.
+\newblock PhD thesis, Université Paris Saclay, (2015).
+\newblock URL \url{http://www.theses.fr/2015SACLS227}.
+\newblock Thèse de doctorat dirigée par Salières, Pascal. Spécialité
+  Lasers, molécules, rayonnement atmosphérique.
+
+\bibitem[Gruson et~al.(2016)Gruson, Barreau, Jim{\'e}nez-Galan, Risoud,
+  Caillat, Maquet, Carr{\'e}, Lepetit, Hergott, Ruchon, Argenti, Ta{\"\i}eb,
+  Mart{\'\i}n, et Sali{\`e}res]{GrusonScience2016}
+Gruson V, Barreau L, Jim{\'e}nez-Galan {\'A}, Risoud F, Caillat J, Maquet A,
+  Carr{\'e} B, Lepetit F, Hergott JF, Ruchon T, Argenti L, Ta{\"\i}eb R,
+  Mart{\'\i}n F, et Sali{\`e}res P.
+\newblock \emph{Attosecond dynamics through a fano resonance: Monitoring the
+  birth of a photoelectron}.
+\newblock Science \textbf{354},~734--738 (2016).
+
+\bibitem[Gu\'enot et~al.(2012)Gu\'enot, Kl\"under, Arnold, Kroon, Dahlstr\"om,
+  Miranda, Fordell, Gisselbrecht, Johnsson, Mauritsson, Lindroth, Maquet,
+  Ta\"{\i}eb, L'Huillier, et Kheifets]{GuenotPRA2012}
+Gu\'enot D, Kl\"under K, Arnold CL, Kroon D, Dahlstr\"om JM, Miranda M, Fordell
+  T, Gisselbrecht M, Johnsson P, Mauritsson J, Lindroth E, Maquet A, Ta\"{\i}eb
+  R, L'Huillier A, et Kheifets AS.
+\newblock \emph{Photoemission-time-delay measurements and calculations close to
+  the 3$s$-ionization-cross-section minimum in argon}.
+\newblock Phys. Rev. A \textbf{85},~053424 (2012).
+
+\bibitem[Gu\'enot et~al.(2014)Gu\'enot, Kroon, Balogh, Larsen, Kotur, Miranda,
+  Fordell, Johnsson, Mauritsson, Gisselbrecht, Varju, Arnold, Carette,
+  Kheifets, Lindroth, L'Huillier, et Dahlström]{GuenotJPB2014}
+Gu\'enot D, Kroon D, Balogh E, Larsen EW, Kotur M, Miranda M, Fordell T,
+  Johnsson P, Mauritsson J, Gisselbrecht M, Varju K, Arnold CL, Carette T,
+  Kheifets AS, Lindroth E, L'Huillier A, et Dahlström JM.
+\newblock \emph{Measurements of relative photoemission time delays in noble gas
+  atoms}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~245602 (2014).
+
+\bibitem[Haessler et~al.(2009)Haessler, Fabre, Higuet, Caillat, Ruchon, Breger,
+  Carr{\'e}, Constant, Maquet, M{\'e}vel, Sali{\`e}res, Ta{\"i}eb, et
+  Mairesse]{HaesslerPRA2009}
+Haessler S, Fabre B, Higuet J, Caillat J, Ruchon T, Breger P, Carr{\'e} B,
+  Constant E, Maquet A, M{\'e}vel E, Sali{\`e}res P, Ta{\"i}eb R, et Mairesse
+  Y.
+\newblock \emph{Phase-resolved attosecond near-threshold photoionization of
+  molecular nitrogen}.
+\newblock Phys. Rev. A \textbf{80} (2009).
+
+\bibitem[Jim\'enez-Gal\'an et~al.(2014)Jim\'enez-Gal\'an, Argenti, et
+  Mart\'{\i}n]{JimenezGalanPRL2014}
+Jim\'enez-Gal\'an A, Argenti L, et Mart\'{\i}n F.
+\newblock \emph{Modulation of attosecond beating in resonant two-photon
+  ionization}.
+\newblock Phys. Rev. Lett. \textbf{113},~263001 (2014).
+
+\bibitem[Jim{\'e}nez-Gal{\'a}n et~al.(2016)Jim{\'e}nez-Gal{\'a}n, Mart{\'i}n,
+  et Argenti]{JimenezGalanPRA2016}
+Jim{\'e}nez-Gal{\'a}n {\'A}, Mart{\'i}n F, et Argenti L.
+\newblock \emph{Two-photon finite-pulse model for resonant transitions in
+  attosecond experiments}.
+\newblock Phys. Rev. A \textbf{93} (2016).
+
+\bibitem[Jordan et~al.(2017)Jordan, Huppert, Pabst, Kheifets, Baykusheva, et
+  W{\"o}rner]{JordanPRA2017}
+Jordan I, Huppert M, Pabst S, Kheifets A, Baykusheva D, et W{\"o}rner H.
+\newblock \emph{Spin-orbit delays in photoemission}.
+\newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Kaldun(2014)]{TheseKaldun}
+Kaldun A.
+\newblock \emph{Fano Resonances in the Time Domain - understanding and
+  controlling the absorption and emission of light}.
+\newblock PhD thesis, University of Heidelberg, (2014).
+\newblock URL \url{http://www.ub.uni-heidelberg.de/archiv/16775}.
+\newblock Thèse de doctorat dirigée par Thomas Pfeifer.
+
+\bibitem[Kaldun et~al.(2016)Kaldun, Bl{\"a}ttermann, Stoo{\ss}, Donsa, Wei,
+  Pazourek, Nagele, Ott, Lin, Burgd{\"o}rfer, et Pfeifer]{KaldunScience2016}
+Kaldun A, Bl{\"a}ttermann A, Stoo{\ss} V, Donsa S, Wei H, Pazourek R, Nagele S,
+  Ott C, Lin CD, Burgd{\"o}rfer J, et Pfeifer T.
+\newblock \emph{Observing the ultrafast buildup of a fano resonance in the time
+  domain}.
+\newblock Science \textbf{354},~738--741 (2016).
+
+\bibitem[Kheifets(2013)]{KheifetsPRA2013}
+Kheifets AS.
+\newblock \emph{Time delay in valence-shell photoionization of noble-gas
+  atoms}.
+\newblock Phys. Rev. A \textbf{87},~063404 (2013).
+
+\bibitem[Kienberger et~al.(2004)Kienberger, Goulielmakis, Uiberacker, Baltuska,
+  Yakovlev, Bammer, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann, Drescher,
+  et Krausz]{KienbergerScience2004}
+Kienberger R, Goulielmakis E, Uiberacker M, Baltuska A, Yakovlev V, Bammer F,
+  Scrinzi A, Westerwalbesloh T, Kleineberg U, Heinzmann U, Drescher M, et
+  Krausz F.
+\newblock \emph{Atomic transient recorder}.
+\newblock Nature \textbf{427},~817--821 (2004).
+
+\bibitem[Kl\"under et~al.(2011)Kl\"under, Dahlstr\"om, Gisselbrecht, Fordell,
+  Swoboda, Gu\'enot, Johnsson, Caillat, Mauritsson, Maquet, Ta\"{\i}eb, et
+  L'Huillier]{KlunderPRL2011}
+Kl\"under K, Dahlstr\"om JM, Gisselbrecht M, Fordell T, Swoboda M, Gu\'enot D,
+  Johnsson P, Caillat J, Mauritsson J, Maquet A, Ta\"{\i}eb R, et L'Huillier A.
+\newblock \emph{Probing single-photon ionization on the attosecond time scale}.
+\newblock Phys. Rev. Lett. \textbf{106},~143002 (2011).
+
+\bibitem[Kotur et~al.(2016)Kotur, Gu{\'e}not, Jim{\'e}nez-Gal{\'a}n, Kroon,
+  Larsen, Louisy, Bengtsson, Miranda, Mauritsson, Arnold, Canton, Gisselbrecht,
+  Carette, Dahlstr{\"o}m, Lindroth, Maquet, Argenti, Mart{\'i}n, et
+  L’Huillier]{KoturNatComm2016}
+Kotur M, Gu{\'e}not D, Jim{\'e}nez-Gal{\'a}n {\'A}, Kroon D, Larsen E, Louisy
+  M, Bengtsson S, Miranda M, Mauritsson J, Arnold C, Canton S, Gisselbrecht M,
+  Carette T, Dahlstr{\"o}m J, Lindroth E, Maquet A, Argenti L, Mart{\'i}n F, et
+  L’Huillier A.
+\newblock \emph{Spectral phase measurement of a fano resonance using tunable
+  attosecond pulses}.
+\newblock Nat. Commun. \textbf{7},~10566 (2016).
+
+\bibitem[Landau et Lifshitz(1965)]{LandauLifshitz}
+Landau L et Lifshitz E.
+\newblock \emph{Quantum Mechanics : Nonrelativistic Theory, 3rd edition}.
+\newblock Pergamon (1965).
+
+\bibitem[Madden et Codling(1965)]{MaddenCodling1965}
+Madden RP et Codling K.
+\newblock \emph{Two-electron excitation states in helium}.
+\newblock Astrophysical Journal \textbf{141},~364 (1965).
+
+\bibitem[Mairesse et~al.(2003)Mairesse, de~Bohan, Frasinski, Merdji, Dinu,
+  Monchicourt, Breger, Kova{\v c}ev, Ta{\"\i}eb, Carr{\'e}, Muller, Agostini,
+  et Sali{\`e}res]{MairesseScience2003}
+Mairesse Y, de~Bohan A, Frasinski LJ, Merdji H, Dinu LC, Monchicourt P, Breger
+  P, Kova{\v c}ev M, Ta{\"\i}eb R, Carr{\'e} B, Muller HG, Agostini P, et
+  Sali{\`e}res P.
+\newblock \emph{Attosecond synchronization of high-harmonic soft x-rays}.
+\newblock Science \textbf{302},~1540--1543 (2003).
+
+\bibitem[Maquet(2015)]{Maquet2015}
+Maquet A.
+\newblock \emph{Notes sur fano phys. rev. 124, 1866 (1961)}.
+\newblock Communication Privée (2015).
+
+\bibitem[Maquet et Ta{\"i}eb(2007)]{MaquetJMO2007}
+Maquet A et Ta{\"i}eb R.
+\newblock \emph{Two-colour {IR+XUV} spectroscopies: the soft-photon
+  approximation}.
+\newblock Journal of Modern Optics \textbf{54},~1847–1857 (2007).
+
+\bibitem[McNaught et Wilkinson(1997)]{IUPAC}
+McNaught AD et Wilkinson A.
+\newblock \emph{Compendium of Chemical Terminology, 2nd ed. (the "Gold Book")}.
+\newblock Blackwell Scientific Publications, Oxford (1997).
+
+\bibitem[Miroshnichenko et~al.(2010)Miroshnichenko, Flach, et
+  Kivshar]{MiroshnichenkoRevModPhys2010}
+Miroshnichenko A, Flach S, et Kivshar Y.
+\newblock \emph{Fano resonances in nanoscale structures}.
+\newblock Reviews of Modern Physics (2010).
+
+\bibitem[Moore et~al.(2011)Moore, Lysaght, Parker, van~der Hart, et
+  Taylor]{MoorePRA2011}
+Moore LR, Lysaght MA, Parker JS, van~der Hart HW, et Taylor KT.
+\newblock \emph{Time delay between photoemission from the $2p$ and $2s$
+  subshells of neon}.
+\newblock Phys. Rev. A \textbf{84},~061404 (2011).
+
+\bibitem[Paul et~al.(2001)Paul, Toma, Breger, Mullot, Aug{\'e}, Balcou, Muller,
+  et Agostini]{PaulScience2001}
+Paul PM, Toma ES, Breger P, Mullot G, Aug{\'e} F, Balcou P, Muller HG, et
+  Agostini P.
+\newblock \emph{Observation of a train of attosecond pulses from high harmonic
+  generation}.
+\newblock Science \textbf{292},~1689--1692 (2001).
+
+\bibitem[Pauli(1980)]{Pauli1933}
+Pauli W.
+\newblock \emph{General principles of quantum mechanics}.
+\newblock Springer Science \& Business Media (1980).
+
+\bibitem[Raoult et~al.(1983)Raoult, Le~Rouzo, Raseev, et
+  Lefebvre-Brion]{RaoultJPB1983}
+Raoult M, Le~Rouzo H, Raseev G, et Lefebvre-Brion H.
+\newblock \emph{Ab initio approach to the multichannel quantum defect
+  calculation of the electronic autoionisation in the hopfield series of n2}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics (1983).
+
+\bibitem[Samson et Stolte(2002)]{SamsonJESRP2002}
+Samson J et Stolte W.
+\newblock \emph{Precision measurements of the total photoionization
+  cross-sections of helium, neon, argon, krypton, and xenon}.
+\newblock Journal of Electron Spectroscopy and Related Phenomena
+  \textbf{123},~265 -- 276 (2002).
+\newblock Determination of cross-sections and momentum profiles of atoms,
+  molecules and condensed matter.
+
+\bibitem[Schoun et~al.(2014)Schoun, Chirla, Wheeler, Roedig, Agostini, DiMauro,
+  Schafer, et Gaarde]{SchounPRL2014}
+Schoun SB, Chirla R, Wheeler J, Roedig C, Agostini P, DiMauro LF, Schafer KJ,
+  et Gaarde MB.
+\newblock \emph{Attosecond pulse shaping around a cooper minimum}.
+\newblock Phys. Rev. Lett. \textbf{112},~153001 (2014).
+
+\bibitem[Schultze et~al.(2010)Schultze, Fie{\ss}, Karpowicz, Gagnon, Korbman,
+  Hofstetter, Neppl, Cavalieri, Komninos, Mercouris, Nicolaides, Pazourek,
+  Nagele, Feist, Burgd{\"o}rfer, Azzeer, Ernstorfer, Kienberger, Kleineberg,
+  Goulielmakis, Krausz, et Yakovlev]{SchultzeScience2010}
+Schultze M, Fie{\ss} M, Karpowicz N, Gagnon J, Korbman M, Hofstetter M, Neppl
+  S, Cavalieri AL, Komninos Y, Mercouris T, Nicolaides CA, Pazourek R, Nagele
+  S, Feist J, Burgd{\"o}rfer J, Azzeer AM, Ernstorfer R, Kienberger R,
+  Kleineberg U, Goulielmakis E, Krausz F, et Yakovlev VS.
+\newblock \emph{Delay in photoemission}.
+\newblock Science \textbf{328},~1658--1662 (2010).
+
+\bibitem[Schulz et~al.(1996)Schulz, Domke, P{\"u}ttner, Guti{\'e}rrez, Kaindl,
+  Miecznik, et Greene]{SchulzPRA1996}
+Schulz, Domke, P{\"u}ttner, Guti{\'e}rrez, Kaindl, Miecznik, et Greene C.
+\newblock \emph{High-resolution experimental and theoretical study of singly
+  and doubly excited resonances in ground-state photoionization of neon.}
+\newblock Phys. Rev. A \textbf{54},~3095--3112 (1996).
+
+\bibitem[Smith(1960)]{SmithPR1960}
+Smith F.
+\newblock \emph{Lifetime matrix in collision theory}.
+\newblock Phys. Rev. (1960).
+
+\bibitem[Swoboda et~al.(2010)Swoboda, Fordell, Kl{\"u}nder, Dahlstr{\"o}m,
+  Miranda, Buth, Schafer, Mauritsson, A., et Gisselbrecht]{SwobodaPRL2010}
+Swoboda M, Fordell T, Kl{\"u}nder K, Dahlstr{\"o}m J, Miranda M, Buth C,
+  Schafer K, Mauritsson J, A. L, et Gisselbrecht M.
+\newblock \emph{Phase measurement of resonant {Two-Photon} ionization in
+  helium}.
+\newblock Phys. Rev. Lett. \textbf{104},~103003 (2010).
+
+\bibitem[V{\'e}niard et~al.(1995)V{\'e}niard, Ta{\"i}eb, et
+  Maquet]{VeniardPRL1995}
+V{\'e}niard V, Ta{\"i}eb R, et Maquet A.
+\newblock \emph{{Two-Color} multiphoton ionization of atoms using {High-Order}
+  harmonic radiation}.
+\newblock Phys. Rev. Lett. \textbf{74},~4161 (1995).
+
+\bibitem[Wang et~al.(2010)Wang, Chini, Chen, Zhang, He, Cheng, Wu, Thumm, et
+  Chang]{WangPRL2010}
+Wang H, Chini M, Chen S, Zhang C, He F, Cheng Y, Wu Y, Thumm U, et Chang Z.
+\newblock \emph{Attosecond time-resolved autoionization of argon}.
+\newblock Phys. Rev. Lett. \textbf{105} (2010).
+
+\bibitem[Weber et~al.(2015)Weber, Manschwetus, Billon, Böttcher, Bougeard,
+  Breger, Géléoc, Gruson, Huetz, Lin, Picard, Ruchon, Salières, et
+  Carré]{WeberRSI2015}
+Weber SJ, Manschwetus B, Billon M, Böttcher M, Bougeard M, Breger P, Géléoc
+  M, Gruson V, Huetz A, Lin N, Picard YJ, Ruchon T, Salières P, et Carré B.
+\newblock \emph{Flexible attosecond beamline for high harmonic spectroscopy and
+  xuv/near-ir pump probe experiments requiring long acquisition times}.
+\newblock Review of Scientific Instruments \textbf{86},~033108 (2015).
+
+\bibitem[Wickenhauser et~al.(2005)Wickenhauser, Burgd{\"o}rfer, Krausz, et
+  Drescher]{WickenhauserPRL2005}
+Wickenhauser M, Burgd{\"o}rfer J, Krausz F, et Drescher M.
+\newblock \emph{Time resolved fano resonances}.
+\newblock Phys. Rev. Lett. \textbf{94} (2005).
+
+\bibitem[Wigner(1955)]{WignerPR1955}
+Wigner E.
+\newblock \emph{Lower limit for the energy derivative of the scattering phase
+  shift}.
+\newblock Phys. Rev. (1955).
+
+\bibitem[Zhao et Lin(2005)]{ZhaoPRA2005}
+Zhao Z et Lin C.
+\newblock \emph{Theory of laser-assisted autoionization by attosecond light
+  pulses}.
+\newblock Phys. Rev. A \textbf{71} (2005).
+
+\end{thebibliography}

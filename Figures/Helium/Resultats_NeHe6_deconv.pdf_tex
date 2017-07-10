@@ -1,0 +1,159 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Resultats_NeHe6_deconv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1331.76395569bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.56762179)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.06482077,0.30716228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.4}}}%
+    \put(0.11236174,0.29514814){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.6}}}%
+    \put(0.15989744,0.30716228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.8}}}%
+    \put(0.21086315,0.29514814){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0.2466346,0.30716228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59.2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.04264747,0.32810178){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.03413082,0.36678731){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.04264747,0.40547284){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.03413082,0.44415838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0.04264747,0.48284392){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.03413082,0.52152945){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.02832727,0.05958571){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3.5}}}%
+    \put(0.02832727,0.10794263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2.5}}}%
+    \put(0.02832727,0.15629955){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1.5}}}%
+    \put(0.02832727,0.20465646){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.031728,0.25301338){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.29101376,0.32857835){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.27649004,0.3927131){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.29101376,0.45684777){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.27649004,0.5209825){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.29917011,0.02495381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.4}}}%
+    \put(0.34250614,0.03937062){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.6}}}%
+    \put(0.3858369,0.02495381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.8}}}%
+    \put(0.43270501,0.03937062){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0.46656697,0.02495381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62.2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.28280747,0.05972224){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.28280747,0.10798256){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.28280747,0.15624288){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.28280747,0.20450316){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.28280747,0.25276348){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.57354087,0.2908731){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{64.8}}}%
+    \put(0.62986021,0.30408871){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.66084287,0.2908731){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65.2}}}%
+    \put(0.70569647,0.30408871){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65.4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.53414755,0.32809234){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.52563088,0.3925121){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.53414755,0.45693178){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.52563088,0.52135156){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.53555255,0.05932122){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.53555255,0.10763602){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.53555255,0.15595082){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.53555255,0.20426566){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.53555255,0.25258045){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.78697045,0.32840213){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.78697045,0.36708767){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.78697045,0.4057732){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.78697045,0.44445874){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.78697045,0.48314428){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.78697045,0.52182981){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.8187552,0.03654373){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{67.8}}}%
+    \put(0.86465209,0.02212676){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68}}}%
+    \put(0.90017447,0.03654373){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.2}}}%
+    \put(0.94247064,0.02212676){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.4}}}%
+    \put(0.98374843,0.03654373){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.78817194,0.05988606){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.78817194,0.10824298){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.78817194,0.1565999){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.78817194,0.20495682){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.78817194,0.25331373){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Resultats_NeHe6_deconv.pdf}}%
+    \put(0.4143104,0.00226878){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photon (eV)}}}%
+    \put(0.00842497,0.05627251){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase $\Theta (E)$ (rad)}}}}%
+    \put(0.00729912,0.34199262){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Amplitude (u. arb.)}}}}%
+    \put(0.1332457,0.55887487){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{38}$}}}%
+    \put(0.38703598,0.56007629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{40}$}}}%
+    \put(0.6241138,0.55887487){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{42}$}}}%
+    \put(0.88169004,0.55767346){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{44}$}}}%
+    \put(0.811067,0.53148862){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-5}$}}}%
+    \put(0.56762493,0.5313136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-4}$}}}%
+    \put(0.31956104,0.53201368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-4}$}}}%
+    \put(0.07255624,0.53043849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\times 10^{-4}$}}}%
+    \put(0.06482077,0.03772179){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.4}}}%
+    \put(0.11236174,0.02570765){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.6}}}%
+    \put(0.15989744,0.03772179){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.8}}}%
+    \put(0.21086315,0.02570765){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0.2466346,0.03772179){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59.2}}}%
+    \put(0.29917011,0.29046633){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.4}}}%
+    \put(0.34250614,0.30488314){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.6}}}%
+    \put(0.3858369,0.29046633){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.8}}}%
+    \put(0.43270501,0.30488314){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0.46656697,0.29046633){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62.2}}}%
+    \put(0.58315225,0.02415811){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{64.8}}}%
+    \put(0.63346436,0.03977656){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.67285669,0.02415811){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65.2}}}%
+    \put(0.71891168,0.03977656){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65.4}}}%
+    \put(0.82060154,0.30295843){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{67.8}}}%
+    \put(0.87010267,0.28854146){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68}}}%
+    \put(0.90081939,0.30295843){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.2}}}%
+    \put(0.94311556,0.28854146){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.4}}}%
+    \put(0.98439335,0.30295843){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{68.6}}}%
+    \put(0.10308575,0.07233182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}-\hbar \omega$}}}%
+    \put(0.34577139,0.07233182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R}+\hbar \omega$}}}%
+    \put(0.42506472,0.09395727){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R'}-\hbar \omega$}}}%
+    \put(0.64252064,0.09395727){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{E}_{R'}+\hbar \omega$}}}%
+  \end{picture}%
+\endgroup%

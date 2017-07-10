@@ -1,0 +1,103 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Axes_Rabbit_HeLund_NeHe2_deconv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1254.60652166bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.5478593)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.08141097,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58}}}%
+    \put(0.14440812,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{58.5}}}%
+    \put(0.21644576,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59}}}%
+    \put(0.27944286,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{59.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.02219527,0.06052534){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-6}}}%
+    \put(0.02219527,0.11225381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.02219527,0.16398228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.02219527,0.21571075){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.02219527,0.26743925){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.02219527,0.31916772){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.02580508,0.37089619){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.02580508,0.42262466){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.02580508,0.47435313){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.42899209,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61}}}%
+    \put(0.48718789,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61.5}}}%
+    \put(0.55442429,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0.61262022,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.36206322,0.06052534){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-6}}}%
+    \put(0.36206322,0.11225381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.36206322,0.16398228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.36206322,0.21571075){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.36206322,0.26743925){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.36206322,0.31916772){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.36567305,0.37089619){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.36567305,0.42262466){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.36567305,0.47435313){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.75453341,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{64}}}%
+    \put(0.81178438,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{64.5}}}%
+    \put(0.87807602,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65}}}%
+    \put(0.93532715,0.03192157){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{65.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Axes_Rabbit_HeLund_NeHe2_deconv.pdf}}%
+    \put(0.70320631,0.06052534){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-6}}}%
+    \put(0.70320631,0.11225381){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.70320631,0.16398228){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.70320631,0.21571075){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.70320631,0.26743925){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.70320631,0.31916772){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.70681613,0.37089619){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.70681613,0.42262466){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.70681613,0.47435313){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.43212655,0.00240831){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\'{E}nergie de photon (eV)}}}%
+    \put(0.00774801,0.25011199){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Délai (fs)}}}}%
+    \put(0.14589382,0.53984976){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{38}$}}}%
+    \put(0.49915197,0.53984976){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{40}$}}}%
+    \put(0.84093244,0.53984976){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{SB}_{42}$}}}%
+  \end{picture}%
+\endgroup%

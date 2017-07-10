@@ -1,0 +1,78 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ProfilTemporel_Lund.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{994.07882118bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.69108327)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ProfilTemporel_Lund.pdf}}%
+    \put(0.11947039,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-10}}}%
+    \put(0.23382609,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.34629561,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.45461558,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.55689977,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.66521971,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.7735397,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.88185964,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{25}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ProfilTemporel_Lund.pdf}}%
+    \put(0.08297931,0.11118081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.0648721,0.39297436){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.08297931,0.67476791){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ProfilTemporel_Lund.pdf}}%
+    \put(0.91203832,0.11118081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.91203832,0.20835098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.91203832,0.30552118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.91203832,0.40269137){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.91203832,0.49986157){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.91203832,0.59703176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{ProfilTemporel_Lund.pdf}}%
+    \put(0.01178781,0.05708502){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\left|\tilde{M}^{\text{res}} (t) \right|^2$}}}}%
+    \put(0.0097786,0.28828226){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil temporel (u. arb.)}}}}%
+    \put(0.44861187,0.00301198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
+    \put(0.98989132,0.67632971){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Phase $\arg \left[\tilde{M}^{\text{res}}(t) \right]$ (rad.) }}}}%
+  \end{picture}%
+\endgroup%
