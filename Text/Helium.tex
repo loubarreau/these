@@ -434,9 +434,9 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \chapter{Comparaison entre la spectroscopie de photoionisation et l'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
 Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés simultanément. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
 
-Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle induit, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR.
+Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
 
-\begin{figure} [h]
+\begin{figure} [ht!]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{Kaldun.pdf_tex}
@@ -444,17 +444,17 @@ Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorpti
 \label{fig:Kaldun}
 \end{figure}
 
-Si ces deux expériences s'intéressent au même processus: l'autoionisation de l'hélium \textit{via} la résonance $2s2p$, les observables mesurées sont en revanche différentes. La première mesure l'amplitude et la phase du paquet d'onde électronique qui nait dans le continuum, et reconstruit la modification de son spectre au cours du temps (figure \ref{fig:Wickenhauserisation}), soit l'autoionisation \textit{de l'extérieur}. La seconde observe l'évolution temporelle de la réponse dipolaire, soit l'autoionisation \textit{de l'intérieur}. Dans ce chapitre, on souhaite déterminer analytiquement et numériquement si ces deux dynamiques sont identiques à l'échelle attoseconde.
+Si ces deux expériences s'intéressent au même processus: l'autoionisation de l'hélium \textit{via} la résonance $2s2p$, les observables mesurées sont en revanche différentes. La première mesure l'amplitude et la phase du paquet d'onde électronique qui nait dans le continuum, et reconstruit la modification de son spectre au cours du temps (figure \ref{fig:Wickenhauserisation}), soit l'autoionisation \textit{de l'extérieur}. La seconde observe l'évolution temporelle de la réponse dipolaire (figure \ref{fig:Kaldun}), soit l'autoionisation \textit{de l'intérieur}. Dans ce chapitre, on souhaite déterminer analytiquement et numériquement si ces deux dynamiques sont identiques à l'échelle attoseconde.
 
 \section{Absorption transitoire attoseconde}
 \subsection{Section efficace et dipôle induit}
-La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, la section efficace es proportionnelle à la partie imaginaire de l'indice de réfraction $n(\omega) = \sqrt{1+ \chi(\omega)}$. La polarisation macroscopique $\vec{P}$ d'un milieu de $\rho$ émetteurs par unité de volume émettant un dipôle $d(\omega)$ est reliée au champ électrique incident par 
+La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, la section efficace es proportionnelle à la partie imaginaire de l'indice de réfraction $n(\omega) = \sqrt{1+ \chi(\omega)}$. La polarisation macroscopique $\vec{P}$ d'un milieu de $\rho$ émetteurs par unité de volume émettant un dipôle $d(\omega)$ est reliée au champ électrique incident $F$ par 
 \begin{equation}
-\vec{P} = \rho\: <d(\omega)> = \epsilon_0 \: \chi(\omega) \: \vec{E}(\omega)
+\vec{P} = \rho\: <d(\omega)> = \epsilon_0 \: \chi(\omega) \: \vec{F}(\omega)
 \end{equation}
 Après un développement limité au premier ordre de l'indice de réfraction \mycite{TheseKaldun}, on montre que
 \begin{equation}
-\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{E(\omega)} \right]
+\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{F(\omega)} \right]
 \end{equation}
 soit
 \begin{equation}
@@ -463,27 +463,86 @@ soit
 \sigma (\omega) \propto \mathcal{I} \text{\textit{m}} <d(\omega)> 
 }
 \end{equation}
-où $<d(\omega)>$ est la valeur moyenne de l'opérateur dipolaire dans l'état considéré $\ket{\Phi}$, et est relié par transformée de Fourier au dipôle temporel induit
+où $<d(\omega)>$ est la valeur moyenne de l'opérateur dipolaire dans l'état considéré $\ket{\Phi}$, et est relié par transformée de Fourier au dipôle temporel induit, dans l'approximation dipolaire
 \begin{align}
-<d(\omega)> & = \int_{- \infty}^{+ \infty} <d(t)> \rme^{i \omega t} \rmd t \\
-& =  \int_{- \infty}^{+ \infty} \bra{\Phi(t)} z \ket{\Phi(t)} \rme^{i \omega t} \rmd t 
+<d(\omega)> & = \int_{- \infty}^{+ \infty} <\tilde{d}(t)> \rme^{i \omega t} \rmd t \\
+& =  \int_{- \infty}^{+ \infty} \bra{\Phi(t)} F_z \: \rme^{i \Omega t} z \ket{\Phi(t)} \rme^{i \omega t} \rmd t 
 \end{align}
+en supposant le champ polarisé selon l'axe $z$. % \Omega ou \omega pour le champ F ???
 
 \subsection{Dipôle dépendant du temps au voisinage d'une résonance de Fano}
-D'après le chapitre \ref{chap:ResonancesFano}, les fonctions propres de l'hamiltonien décrit par les équations \ref{eq:Hamiltonien_Fano} s'écrivent, en fonction des configurations de l'état lié $\ket{\varphi}$ et du continuum $ \ket{\psi_{E'}}$
+\paragraph{Fonction d'onde dans la base des configurations} D'après le chapitre \ref{chap:ResonancesFano}, les fonctions propres de l'hamiltonien décrit par les équations \ref{eq:Hamiltonien_Fano} s'écrivent, en fonction des configurations de l'état lié $\ket{\varphi}$ et du continuum $ \ket{\psi_{E'}}$
 \begin{equation}
 \ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
 \end{equation}
-avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}.
+avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}. Dans la suite on suppose que le couplage entre l'état lié et le continuum noté $V_{E'}$ au chapitre  \ref{chap:ResonancesFano} est indépendant de l'énergie et égal à $V$.
 
 Considérons que le système est ionisé depuis son état fondamental $\ket{g}$ par une impulsion XUV ultra-brève. Après le passage de cette impulsion, la fonction d'onde dépendante du temps caractérisant le système est donnée par
 \begin{equation}
-\ket{\Phi} = C_g \: \rme^{-i E_g t} \ket{g} + \int C_E \: \rme^{-iEt} \ket{\Psi_E} \rmd E
+\ket{\Phi (t)} = c_g \: \rme^{-i E_g t / \hbar} \ket{g} + \int c_E \: \rme^{-iEt/ \hbar} \ket{\Psi_E} \rmd E
 \end{equation}
-Les états $\ket{\Psi_E}$ étant fonctions propres du système, les coefficients $C_E$ sont indépendants du temps en l'absence de l'impulsion de pompe. La dynamique de l'autoionisation n'est donc pas contenue dans $|C_E|^2$ et l'information temporelle est cachée, bien que l'autoionisation ait lieu.
+Les états $\ket{\Psi_E}$ étant fonctions propres du système, les coefficients $c_E$ sont indépendants du temps en l'absence de l'impulsion de pompe. La dynamique de l'autoionisation n'est donc pas contenue dans $|c_E|^2$ et l'information temporelle est cachée, bien que l'autoionisation ait lieu.
 
-Pour faire apparaître les aspects dépendants du temps, \mycite{ChuPRA2010} proposent de décomposer la fonction d'onde $\ket{\Phi}$ non pas sur la base des fonctions propres de l'hamiltonien mais sur la base des configurations $\ket{\varphi}$ et $ \ket{\psi_{E'}}$.
+Pour faire apparaître les aspects dépendants du temps, \mycite{ChuPRA2010} proposent de décomposer la fonction d'onde $\ket{\Phi (t)}$ non pas sur la base des fonctions propres de l'hamiltonien mais sur la base des configurations $\ket{\varphi}$ et $ \ket{\psi_{E'}}$. On a alors
+\begin{equation}
+\ket{\Phi (t)} = c_g \: \rme^{-i E_g t / \hbar} \ket{g} + c_{\varphi} (t) \ket{\varphi} + \int c_{E'} (t) \ket{\psi_{E'}} \rmd E'
+\label{eq:ExpressionDePhi}
+\end{equation}
+L'évolution temporelle des coefficients $c_{\varphi} (t)$ et $c_{E'} (t)$ est gouvernée par l'équation de Schrödinger dépendante du temps $i \hbar \frac{\partial}{\partial t} \ket{\Phi (t)} = H \ket{\Phi (t)}$, ce qui conduit aux équations différentielles couplées
+\begin{align}
+i \hbar \: \frac{\rmd c_{\varphi}}{\rmd t} & = E_r \: c_{\varphi} (t) + \int V \: c_{E'}(t) \: \rmd E' \\
+i \hbar \: \frac{\rmd c_{E'}}{\rmd t} & = V \: c_{\varphi}(t) + E'\: c_{E'}(t)
+\end{align}
+En supposant connues les conditions initiales $c_{\varphi}^{(0)}=\braket{\varphi|\Phi (t = 0)}$ et $c_{E'}^{(0)}=\braket{\psi_{E'}|\Phi (t = 0)}$, la solution est donnée par
+\begin{align}
+c_{\varphi} (t) & = \left( c_{\varphi}^{(0)} \rme^{-\frac{\Gamma}{2 \hbar}t} + \int c_{E'}^{(0)} g_{E'} (t) \rmd E' \right) \rme^{-i E_r t / \hbar} \\
+c_{E'}(t) & = \left( c_{\varphi}^{(0)} g_{E'} (t) + \int c_{E}^{(0)} f_{EE'} (t) \rmd E \right) \rme^{-i E_r t / \hbar} + c_{E'}^{(0)} \rme^{-i E' t / \hbar}
+\end{align}
+Avec les fonctions $g_E$ et $f_{EE'}$
+\begin{align}
+g_E (t) & = \frac{V}{E - E_r + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_r)t / \hbar} - \rme^{-\frac{\Gamma}{2 \hbar} t} \right) \\
+f_{EE'} (t) & = \frac{V}{E'-E} \left(g_{E'}(t) - g_{E}(t) \right)
+\end{align}
+Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^{(0)}$ est une constante et ne dépend pas de l'énergie au voisinage de la résonance, les expressions précédentes se simplifient. En utilisant l'énergie réduite $\epsilon$ définie au chapitre \ref{chap:ResonancesFano}, et le paramètre $q$ dans le cas d'un couplage $V$ constant
+\begin{equation}
+q = \frac{\bra{\varphi} z \ket{g}}{\pi V \bra{\psi_{E'}} z \ket{g}} = \frac{c_{\varphi}^{(0)}}{\pi V c_{E'}^{(0)}}
+\label{eq:q_en_fonction_des_c0}
+\end{equation}
+on a \footnote{On remarque ici que les limites de $c_{\varphi} (t)$ et $c_{\epsilon}(t)$ pour $t \rightarrow 0$ ne sont pas égales à $c_{\varphi}^{(0)}$ et $c_{\epsilon}^{(0)}$, $c_{\varphi}$ et $c_{\epsilon}$ sont donc discontinues en $t = 0$. Ceci est dû à l'intégration des fonctions $g_E$ et $f_{EE'}$ sur une gamme spectrale infinie alors qu'en pratique seule une gamme d'énergie de largeur de l'ordre de $\Gamma$ doit être pris en compte.} 
+\begin{align}
+c_{\varphi} (t) & = c_{\varphi}^{(0)} \left( 1 - \frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar}t} \: \rme^{-i E_r t} \label{eq:c_varphi} \\
+c_{\epsilon}(t) & = \frac{c_{\epsilon}^{(0)}}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \: \rme^{-i E_r t} \label{eq:c_eprime}
+\end{align}
+$|c_{\varphi}(t)|^2 $ décroit exponentiellement avec la durée de vie $1/\Gamma$, reflétant la décroissance de l'état lié. Les variations temporelles de $|c_{\epsilon}(t)|^2$ sont plus complexes et contiennent la dynamique complète de l'autoionisation, incluant les couplages entre l'état lié et le continuum ainsi qu'entre différentes énergies du continuum \textit{via} l'état lié. Le comportement aux temps longs de $|c_{\epsilon}(t)|^2$ converge vers le profil de raie de Fano:
+\begin{equation}
+\lim\limits_{t \rightarrow + \infty} |c_{\epsilon}(t)|^2 = |c_{\epsilon}^{(0)}|^2 \frac{\left( \epsilon + q \right) ^2 }{1+ \epsilon^2}
+\end{equation}
 
+\paragraph{Calcul du dipôle} \`{A} partir des équations \ref{eq:c_varphi} et \ref{eq:c_eprime}, on peut calculer le dipôle temporel induit pour la fonction d'onde $\ket{\Phi (t)}$ (équation \ref{eq:ExpressionDePhi})
+\begin{equation}
+<\tilde{d}(t)> = \bra{\Phi(t)} F_z \: \rme^{i \Omega t} z \ket{\Phi(t)}
+\end{equation} % \Omega ou \omega pour le champ F ??
+Seuls $\ket{g}$ et $\ket{\varphi}$, et $\ket{g}$ et $\ket{\psi_E}$ sont couplés radiativement. On note $ \Omega_r = E_r - E_g$. D'où
+\begin{multline}
+<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} \: \rme^{i (\Omega - \Omega_r) t}  \bra{g}  z \ket{\varphi} \\
+ + F_z \: c_g^{*} \: c_{\epsilon}^{(0)} \: \rme^{i (\Omega - \Omega_r) t} \int \frac{1}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \bra{g} z \ket{\psi_E} \rmd E \\
++ F_z \: c_g \: c_{\varphi}^{(0)*} \left( 1+\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} \: \rme^{i (\Omega + \Omega_r) t}  \bra{g}  z \ket{\varphi}^{*} \\
++ F_z \: c_g \: c_{\epsilon}^{(0)*} \: \rme^{i (\Omega + \Omega_r) t} \int \frac{1}{\epsilon - i} \left[ (q+\epsilon ) \rme^{i \frac{\Gamma}{2 \hbar} \epsilon t } - (q + i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \bra{g} z \ket{\psi_E}^{*} \rmd E
+\label{eq:DipoleRayonneTotal}
+\end{multline}
+On s'intéresse au champ rayonné au voisinage de la résonance, soit $\Omega \approx \Omega_r$. Les deux derniers termes de l'expression \ref{eq:DipoleRayonneTotal} oscillent à la fréquence $\Omega + \Omega_r \gg \Omega - \Omega_r$ et se moyennent rapidement à zéro. En appliquant l'approximation de l'onde tournante, on peut négliger ces deux derniers termes devant les deux premiers.
+\begin{multline}
+<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{i (\Omega - \Omega_r) t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} + \frac{c_{\epsilon}^{(0)}}{c_{\varphi}^{(0)}} \int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t}}{\epsilon + i} \frac{\bra{g} z \ket{\psi_E}}{\bra{g}  z \ket{\varphi}} \rmd E \right]
+\end{multline}
+En utilisant l'expression \ref{eq:q_en_fonction_des_c0},
+\begin{multline}
+<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{i (\Omega - \Omega_r) t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} + \frac{1}{(\pi q V)^2} \underbrace{\int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t}}{\epsilon + i} \rmd E}_{I} \right]
+\end{multline}
+On rappelle ici le résultat $\int_{- \infty}^{+ \infty} \frac{1}{\epsilon + i} \rmd \epsilon = - \pi i$. Par souci de clarté l'intégrale est calculée ici séparément:
+\begin{align}
+I & = \int \frac{q + \epsilon + i - i }{\epsilon + i} \: \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t} \: \rmd E - (q-i) \rme^{-\frac{\Gamma}{2 \hbar}t} \int \frac{\rmd E}{\epsilon + i} \\
+& = \frac{\Gamma}{2} \left[ (q-i) \int \frac{\rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t}}{\epsilon + i} \: \rmd \epsilon +  \int \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t} \: \rmd \epsilon + (q-i) \rme^{-\frac{\Gamma}{2 \hbar}t} \int \frac{\rmd \epsilon}{\epsilon + i} \right]
+\end{align}
 
 
 
