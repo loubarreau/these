@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,33 @@ Argenti L, Jim{\'e}nez-Gal{\'a}n A, Caillat J, Ta{\"i}eb R, Maquet A, et
 \newblock \emph{Control of photoemission delay in resonant two-photon
   transitions}.
 \newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Autler et Townes(1955)]{AutlerTownesPR1955}
+Autler SH et Townes CH.
+\newblock \emph{Stark effect in rapidly varying fields}.
+\newblock Physical Review \textbf{100},~703 (1955).
+
+\bibitem[Beaulieu et~al.(2017)Beaulieu, Bloch, Barreau, Comby, Descamps,
+  G{\'e}neaux, L{\'e}gar{\'e}, Petit, et Mairesse]{BeaulieuPRA2017}
+Beaulieu S, Bloch E, Barreau L, Comby A, Descamps D, G{\'e}neaux R,
+  L{\'e}gar{\'e} F, Petit S, et Mairesse Y.
+\newblock \emph{Phase-resolved two-dimensional spectroscopy of electronic wave
+  packets by laser-induced {XUV} free induction decay}.
+\newblock Phys Rev A \textbf{95} (2017).
+
+\bibitem[Beck et~al.(2015)Beck, Neumark, et Leone]{BeckCPL2015}
+Beck A, Neumark D, et Leone S.
+\newblock \emph{Probing ultrafast dynamics with attosecond transient
+  absorption}.
+\newblock Chem Phys Lett \textbf{624},~119--130 (2015).
+
+\bibitem[Bernhardt et~al.(2014)Bernhardt, Beck, Li, Warrick, Bell, Haxton,
+  McCurdy, Neumark, et Leone]{BernhardtPRA2014}
+Bernhardt B, Beck AR, Li X, Warrick ER, Bell MJ, Haxton DJ, McCurdy CW, Neumark
+  DM, et Leone SR.
+\newblock \emph{High-spectral-resolution attosecond absorption spectroscopy of
+  autoionization in xenon}.
+\newblock Phys. Rev. A \textbf{89},~023408 (2014).
 
 \bibitem[Berrah et~al.(1996)Berrah, Langer, Bozek, Gorczyca, Hemmers, Lindle,
   et Toader]{BerrahJPB1996}
@@ -42,6 +69,12 @@ Carette T, Dahlstr\"om JM, Argenti L, et Lindroth E.
   Application to the argon photoionization cross section and delays}.
 \newblock Phys. Rev. A \textbf{87},~023420 (2013).
 
+\bibitem[Chen et~al.(2013)Chen, Wu, Gaarde, et Schafer]{ChenPRA2013}
+Chen S, Wu M, Gaarde MB, et Schafer KJ.
+\newblock \emph{Laser-imposed phase in resonant absorption of an isolated
+  attosecond pulse}.
+\newblock Phys. Rev. A \textbf{88},~033409 (2013).
+
 \bibitem[Chirla(2011)]{TheseChirla}
 Chirla R.
 \newblock \emph{Attosecond Pulse Generation and Characterization}.
@@ -53,6 +86,12 @@ Chu WC et Lin CD.
 \newblock \emph{Theory of ultrafast autoionization dynamics of fano
   resonances}.
 \newblock Phys. Rev. A \textbf{82},~053415 (2010).
+
+\bibitem[Chu et Lin(2013)]{ChuPRA2013}
+Chu WC et Lin CD.
+\newblock \emph{Absorption and emission of single attosecond light pulses in an
+  autoionizing gaseous medium dressed by a time-delayed control field}.
+\newblock Phys. Rev. A \textbf{87},~013415 (2013).
 
 \bibitem[Clark(2001)]{ClarkNature2001}
 Clark CW.
@@ -299,6 +338,19 @@ Landau L et Lifshitz E.
 \newblock \emph{Quantum Mechanics : Nonrelativistic Theory, 3rd edition}.
 \newblock Pergamon (1965).
 
+\bibitem[Liao et~al.(2015)Liao, Sandhu, Camp, Schafer, et Gaarde]{LiaoPRL2015}
+Liao C, Sandhu A, Camp S, Schafer KJ, et Gaarde MB.
+\newblock \emph{Beyond the {Single-Atom} response in absorption line shapes:
+  Probing a dense, {Laser-Dressed} helium gas with attosecond pulse trains}.
+\newblock Phys Rev Lett \textbf{114},~143002 (2015).
+
+\bibitem[Liao et~al.(2016)Liao, Sandhu, Camp, Schafer, et Gaarde]{LiaoPRA2016}
+Liao CT, Sandhu A, Camp S, Schafer KJ, et Gaarde MB.
+\newblock \emph{Attosecond transient absorption in dense gases: Exploring the
+  interplay between resonant pulse propagation and laser-induced line-shape
+  control}.
+\newblock Phys. Rev. A \textbf{93},~033405 (2016).
+
 \bibitem[Madden et Codling(1965)]{MaddenCodling1965}
 Madden RP et Codling K.
 \newblock \emph{Two-electron excitation states in helium}.
@@ -341,6 +393,21 @@ Moore LR, Lysaght MA, Parker JS, van~der Hart HW, et Taylor KT.
 \newblock \emph{Time delay between photoemission from the $2p$ and $2s$
   subshells of neon}.
 \newblock Phys. Rev. A \textbf{84},~061404 (2011).
+
+\bibitem[Ott et~al.(2013)Ott, Kaldun, Raith, Meyer, Laux, Evers, Keitel,
+  Greene, et Pfeifer]{OttScience2013}
+Ott C, Kaldun A, Raith P, Meyer K, Laux M, Evers J, Keitel CH, Greene CH, et
+  Pfeifer T.
+\newblock \emph{Lorentz meets fano in spectral line shapes: A universal phase
+  and its laser control}.
+\newblock Science \textbf{340},~716--720 (2013).
+
+\bibitem[Pabst et~al.(2012)Pabst, Sytcheva, Moulet, Wirth, Goulielmakis, et
+  Santra]{PabstPRA2012}
+Pabst S, Sytcheva A, Moulet A, Wirth A, Goulielmakis E, et Santra R.
+\newblock \emph{Theory of attosecond transient-absorption spectroscopy of
+  krypton for overlapping pump and probe pulses}.
+\newblock Phys. Rev. A \textbf{86},~063411 (2012).
 
 \bibitem[Paul et~al.(2001)Paul, Toma, Breger, Mullot, Aug{\'e}, Balcou, Muller,
   et Agostini]{PaulScience2001}
@@ -430,6 +497,13 @@ Weber SJ, Manschwetus B, Billon M, Böttcher M, Bougeard M, Breger P, Géléoc
 \newblock \emph{Flexible attosecond beamline for high harmonic spectroscopy and
   xuv/near-ir pump probe experiments requiring long acquisition times}.
 \newblock Review of Scientific Instruments \textbf{86},~033108 (2015).
+
+\bibitem[Wehlitz et~al.(2003)Wehlitz, Luki\ifmmode~\acute{c}\else \'{c}\fi{},
+  et Bluett]{WehlitzPRA2003}
+Wehlitz R, Luki\ifmmode~\acute{c}\else \'{c}\fi{} D, et Bluett JB.
+\newblock \emph{Resonance parameters of autoionizing be $2pn\mathcal{l}$
+  states}.
+\newblock Phys. Rev. A \textbf{68},~052708 (2003).
 
 \bibitem[Wickenhauser et~al.(2005)Wickenhauser, Burgd{\"o}rfer, Krausz, et
   Drescher]{WickenhauserPRL2005}

@@ -11,7 +11,7 @@ Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{
 
 Dans cette partie, nous présenterons d'abord les résultats des mesures de phase de la transition vers la résonance $2s2p$ effectuées à Saclay par interférométrie RABBIT puis par une nouvelle méthode de RABBIT résolue spectralement ("Rainbow RABBIT"). Ensuite, nous montrerons comment les mesures de Rainbow RABBIT permettent d'obtenir toute la dynamique d'autoionisation ainsi que la construction du profil de la résonance au cours du temps. Dans un troisième chapitre, nous présenterons les résultats que nous avons obtenus en exportant la technique Rainbow RABBIT dans l'équipe d'Anne L'Huillier à Lund, en particulier l'étude d'une seconde résonance d'autoionisation ($sp3^+$) et de l'influence de l'intensité d'habillage sur le profil de raie. Enfin, nous comparerons le Rainbow RABBIT et l'absorption transitoire attoseconde pour l'étude des dynamiques d'autoionisation.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{Domke.pdf_tex}
@@ -25,7 +25,7 @@ Dans cette partie, nous présenterons d'abord les résultats des mesures de phas
 \section{Mesures RABBIT}
 L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. 
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{SpectresSansHabillage.pdf_tex}
@@ -35,7 +35,7 @@ L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OP
 
 L'impulsion MIR, d'une durée de $\approx$ 70 fs, est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. L'XUV est refocalisé dans un spectromètre à temps de vol d'électrons à bouteille magnétique grâce à un miroir torique en or pour photoioniser un gaz d'hélium. Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:SpectresSansHabillageHe}. Le signal de photoélectrons reproduit le spectre harmonique. Un signal plus intense, dû à la section efficace de photoionisation plus importante au voisinage de la résonance \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \def\svgwidth{0.45\textwidth}
 \import{Figures/Helium/}{Schema_2s2p.pdf_tex}
@@ -278,14 +278,16 @@ Le profil temporel calculé pour le pic satellite $\text{SB}_{64}$ est présent�
 Dans le domaine spectral, le paquet d'onde électronique correspond au produit de l'amplitude de l'harmonique par le facteur résonant de Fano:
 \begin{equation}
 M^{\text{res}}(E) = \mathcal{R}(\epsilon) \times \mathcal{H} (E)
+\label{eq:Mres_E}
 \end{equation}
 Dans le domaine temporel, il s'agit donc du produit de convolution de l'amplitude temporelle de l'harmonique par la transformée de Fourier de $\mathcal{R}(\epsilon)$
 \begin{equation}
 \tilde{M}^{\text{res}}(t) = \left[ \tilde{\mathcal{R}} \ast \tilde{\mathcal{H}} \right] (t)
+\label{eq:Mres_t}
 \end{equation} 
 D'après le chapitre \ref{chap:2photons_et_Fano}, la transformée de Fourier de $\mathcal{R}(\epsilon)$ s'écrit
 \begin{equation}
-\tilde{\mathcal{R}}(t) = \delta(t) - i \frac{\Gamma}{2 \hbar} (q - i) \times \mathrm{exp} \left(\frac{i E_R}{\hbar} + \frac{\Gamma}{2 \hbar} \right) \vartheta (t)
+\tilde{\mathcal{R}}(t) = \delta(t) - i \frac{\Gamma}{2 \hbar} (q - i) \times \mathrm{exp} \left(-\frac{i E_R}{\hbar} - \frac{\Gamma}{2 \hbar} \right) \vartheta (t)
 \end{equation}
 où l'on utilise les notations du chapitre \ref{chap:ResonancesFano}, et $\delta$ et $\vartheta$ représentent respectivement la distribution de Dirac et la fonction de Heaviside. Ainsi, $\tilde{M}^{\text{res}}(t)$ possède deux composantes: une gaussienne centrée à l'origine qui reproduit l'impulsion d'excitation, et une parie résonante, comme nos données expérimentales. Cette interprétation est appuyée par le calcul analytique du paquet d'onde électronique résonant, représenté en gris sur la figure \ref{fig:ProfilTemporel_th}, qui reproduit fidèlement l'interférence destructive observée. Les données expérimentales ne contiennent pas la décroissance exponentielle du paquet d'onde aux temps longs caractéristique de la durée de vie de la résonance, mais ceci est dû à l'élargissement spectral de la résonance par le spectromètre de photoélectrons (figure \ref{fig:ProfilTemporel_th}).
 
@@ -351,7 +353,7 @@ Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus q
 \label{fig:Schema_2res}
 \end{figure}
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{HeLund_WLscan.pdf_tex}
@@ -360,9 +362,9 @@ Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus q
 \end{figure}
 
 \subsection{Excitation de la résonance 2s2p}
-D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm seule la résonance $2s2p$ est excitée. Les mesures de phase au voisinage de cette résonance avec la méthode Rainbow RABBIT sont donc à nouveau effectuées avec ces conditions expérimentales. 
+D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm seule la résonance $2s2p$ est excitée. Les mesures de phase au voisinage de cette résonance avec la méthode Rainbow RABBIT sont donc à nouveau effectuées avec ces conditions expérimentales. La figure \ref{fig:Rabbit_HeLund_2s2p} présente un spectrogramme RABBIT mesuré dans ces conditions.
 
-\begin{figure} [h]
+\begin{figure} [!ht]
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/Helium/}{Axes_Rabbit_HeLund_NeHe2.pdf_tex}
@@ -370,7 +372,28 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Rabbit_HeLund_2s2p}
 \end{figure}
 
-\begin{figure} [h]
+\paragraph*{Déconvolution du spectromètre de photoélectrons} La principale raison de l'élargissement spectral de la phase dans les mesures de Saclay est la convolution du spectre de photoélectrons par la résolution du spectromètre (figure \ref{fig:Phases1photon2photons}). Ici nous choisissons d'appliquer un algorithme de déconvolution afin de s'affranchir de cet effet. La résolution du spectromètre dépend de l'énergie cinétique des photoélectrons avec $\frac{\Delta E}{E} \approx \text{constante}$, ainsi chaque pic satellite est traité séparément. L'effet du spectromètre est modélisé par une convolution par une fonction gaussienne de largeur $\Delta E$:
+\begin{equation}
+S(E) = \int \left[ \sigma(E) \times \mathcal{H} (E) \right] \rme^{-\frac{4 \ln 2 (E-E')^2}{(\Delta E)^2}} \rmd E'
+\end{equation}
+où $\sigma(E)$ est la section efficace d'absorption et $\mathcal{H}(E)$ le spectre harmonique.
+
+La largeur $\Delta E$ est d'abord déterminée en déconvoluant le spectre sans habillage (figure \ref{fig:HeLund_WLscan}).......
+
+La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué". Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par le spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
+
+\paragraph*{Effets d'impulsions brèves} En effet, l'impulsion d'habillage utilisée est plus large spectralement qu'à Saclay: une largeur de bande de 70 nm correspond ici à $\approx$ 130 meV, à opposer aux 26 meV (TF) de l'impulsion d'habillage du chapitre \ref{chap:HeSaclay_res}.  \mycite{JimenezGalanPRA2016} ont complété le modèle des amplitudes de transitions à deux photons \textit{via} une résonance de Fano présenté au chapitre \ref{chap:2photons_et_Fano} pour inclure l'effet de la largeur de bande de l'impulsion d'habillage. Si l'harmonique et l'impulsion d'habillage sont larges spectralement, une énergie particulière du pic satellite peut être obtenue par différentes combinaisons $\omega + \Omega$ de photons IR et XUV, respectivement. Ainsi les amplitudes de transitions à deux photons sont "mélangées" dans le pic satellite, ce qui déforme la phase $\arg[M^{(2)}_{\text{Fano, ib}}]$. La figure \ref{fig:FinitePulses_Alvaro} présente la phase de l'amplitude de transition à deux photons calculée par \mycite{JimenezGalanPRA2016} pour une résonance de Fano avec $q = 1$ et $\gamma = 0$ pour différentes largeurs spectrales de l'impulsion d'habillage. Plus le spectre IR est large, plus la phase du moment de transition est déformée: les variations de phase sont plus faibles et étalées spectralement. Cet effet est plus complexe qu'une simple convolution par la largeur de l'impulsion IR, il n'est donc pas possible de s'en affranchir avec un algorithme de déconvolution. Dans ces conditions, le paquet d'onde électronique du pic satellite n'est pas une exacte réplique du paquet d'onde électronique résonant, comme nous l'avons considéré au chapitre \ref{chap:HeSaclay_reconstruction}.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.3\textwidth}
+\import{Figures/Helium/}{FinitePulses_Alvaro.pdf_tex}
+\caption{Phase de l'amplitude de transition à deux photons \textit{via} une résonance de Fano avec $q = 1$ et $\gamma = 0$ en fonction de la largeur spectrale à mi-hauteur de l'impulsion d'habillage: monochromatique (bleu), $\approx$ 60 meV (vert), $\approx$ 90 meV (jaune), $\approx$ 125 meV (rouge). Extrait de \mycite{JimenezGalanPRA2016}.}
+\label{fig:FinitePulses_Alvaro}
+\end{figure}
+
+
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Axes_Rabbit_HeLund_NeHe2_deconv.pdf_tex}
@@ -378,7 +401,7 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Rabbit_HeLund_2s2p_deconv}
 \end{figure}
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Resultats_NeHe2_deconv.pdf_tex}
@@ -391,7 +414,7 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 
 \subsection{Excitation simultanée des résonances 2s2p et sp3+}
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Resultats_NeHe6_deconv.pdf_tex}
@@ -403,7 +426,7 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \section{Dynamiques d'autoionisation}
 \subsection{Représentations temps-énergie}
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{ProfilTemporel_Lund.pdf_tex}
@@ -419,7 +442,7 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Wicken_Gabor}
 \end{figure}
 
-\begin{figure} [h]
+\begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Wigner_Th.pdf_tex}
@@ -431,10 +454,10 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 %
 %\section{Influence de l'intensité d'habillage sur le profil de raie}
 
-\chapter{Comparaison entre la spectroscopie de photoionisation et l'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
+\chapter{Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
 Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés simultanément. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
 
-Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
+Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs très intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
 
 \begin{figure} [ht!]
 \centering
@@ -448,25 +471,32 @@ Si ces deux expériences s'intéressent au même processus: l'autoionisation de 
 
 \section{Absorption transitoire attoseconde}
 \subsection{Section efficace et dipôle induit}
-La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, la section efficace es proportionnelle à la partie imaginaire de l'indice de réfraction $n(\omega) = \sqrt{1+ \chi(\omega)}$. La polarisation macroscopique $\vec{P}$ d'un milieu de $\rho$ émetteurs par unité de volume émettant un dipôle $d(\omega)$ est reliée au champ électrique incident $F$ par 
+La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, l'intensité du champ $F(t,z) = F_0 \: \rme^{i \omega t - k z}$ après propagation sur une distance $l$ dans un milieu de densité $\rho$ est donnée par
 \begin{equation}
-\vec{P} = \rho\: <d(\omega)> = \epsilon_0 \: \chi(\omega) \: \vec{F}(\omega)
+I_T (t, l) = I_0 \: \rme^{- \sigma(\omega) \rho l}
 \end{equation}
-Après un développement limité au premier ordre de l'indice de réfraction \mycite{TheseKaldun}, on montre que
 \begin{equation}
-\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{F(\omega)} \right]
+\frac{\epsilon_0 \epsilon_r}{2}  \left| F_0  \rme^{i \omega t - \mathcal{R} \text{\textit{e}} [k] l} \rme^{- \mathcal{I} \text{\textit{m}}[k]l} \right|^2 = I_0 \: \rme^{-\sigma(\omega) \rho l}
 \end{equation}
-soit
+\begin{equation}
+2 \: \mathcal{I} \text{\textit{m}}[k] = \sigma(\omega) \rho
+\end{equation}
+Avec $\mathcal{I} \text{\textit{m}}[k] = \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[n(\omega)] = \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[\sqrt{1+\chi(\omega)}]$, après un développement limité au premier ordre de l'indice de réfraction \mycite{TheseKaldun}, on a 
+\begin{equation}
+\sigma(\omega) \approx \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[\chi(\omega)]
+\end{equation}
+Soit finalement:
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
-\sigma (\omega) \propto \mathcal{I} \text{\textit{m}} <d(\omega)> 
+\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{F(\omega)} \right]
 }
+\label{eq:SectionEfficace_dipole}
 \end{equation}
 où $<d(\omega)>$ est la valeur moyenne de l'opérateur dipolaire dans l'état considéré $\ket{\Phi}$, et est relié par transformée de Fourier au dipôle temporel induit, dans l'approximation dipolaire
 \begin{align}
 <d(\omega)> & = \int_{- \infty}^{+ \infty} <\tilde{d}(t)> \rme^{i \omega t} \rmd t \\
-& =  \int_{- \infty}^{+ \infty} \bra{\Phi(t)} F_z \: \rme^{i \Omega t} z \ket{\Phi(t)} \rme^{i \omega t} \rmd t 
+& =  \int_{- \infty}^{+ \infty} \bra{\Phi(t)} z \ket{\Phi(t)} \rme^{i \omega t} \rmd t 
 \end{align}
 en supposant le champ polarisé selon l'axe $z$. % \Omega ou \omega pour le champ F ???
 
@@ -475,32 +505,32 @@ en supposant le champ polarisé selon l'axe $z$. % \Omega ou \omega pour le cham
 \begin{equation}
 \ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
 \end{equation}
-avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}. Dans la suite on suppose que le couplage entre l'état lié et le continuum noté $V_{E'}$ au chapitre  \ref{chap:ResonancesFano} est indépendant de l'énergie et égal à $V$.
+avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}. Dans la suite on suppose que le couplage entre l'état lié et le continuum noté $V_{E'}$ au chapitre  \ref{chap:ResonancesFano} est indépendant de l'énergie et égal à $V$. On utilise les unités atomiques.
 
 Considérons que le système est ionisé depuis son état fondamental $\ket{g}$ par une impulsion XUV ultra-brève. Après le passage de cette impulsion, la fonction d'onde dépendante du temps caractérisant le système est donnée par
 \begin{equation}
-\ket{\Phi (t)} = c_g \: \rme^{-i E_g t / \hbar} \ket{g} + \int c_E \: \rme^{-iEt/ \hbar} \ket{\Psi_E} \rmd E
+\ket{\Phi (t)} = c_g \: \rme^{-i E_g t} \ket{g} + \int c_E \: \rme^{-iEt} \ket{\Psi_E} \rmd E
 \end{equation}
 Les états $\ket{\Psi_E}$ étant fonctions propres du système, les coefficients $c_E$ sont indépendants du temps en l'absence de l'impulsion de pompe. La dynamique de l'autoionisation n'est donc pas contenue dans $|c_E|^2$ et l'information temporelle est cachée, bien que l'autoionisation ait lieu.
 
 Pour faire apparaître les aspects dépendants du temps, \mycite{ChuPRA2010} proposent de décomposer la fonction d'onde $\ket{\Phi (t)}$ non pas sur la base des fonctions propres de l'hamiltonien mais sur la base des configurations $\ket{\varphi}$ et $ \ket{\psi_{E'}}$. On a alors
 \begin{equation}
-\ket{\Phi (t)} = c_g \: \rme^{-i E_g t / \hbar} \ket{g} + c_{\varphi} (t) \ket{\varphi} + \int c_{E'} (t) \ket{\psi_{E'}} \rmd E'
+\ket{\Phi (t)} = c_g \: \rme^{-i E_g t} \ket{g} + c_{\varphi} (t) \ket{\varphi} + \int c_{E'} (t) \ket{\psi_{E'}} \rmd E'
 \label{eq:ExpressionDePhi}
 \end{equation}
-L'évolution temporelle des coefficients $c_{\varphi} (t)$ et $c_{E'} (t)$ est gouvernée par l'équation de Schrödinger dépendante du temps $i \hbar \frac{\partial}{\partial t} \ket{\Phi (t)} = H \ket{\Phi (t)}$, ce qui conduit aux équations différentielles couplées
+L'évolution temporelle des coefficients $c_{\varphi} (t)$ et $c_{E'} (t)$ est gouvernée par l'équation de Schrödinger dépendante du temps $i \frac{\partial}{\partial t} \ket{\Phi (t)} = H \ket{\Phi (t)}$, ce qui conduit aux équations différentielles couplées
 \begin{align}
-i \hbar \: \frac{\rmd c_{\varphi}}{\rmd t} & = E_r \: c_{\varphi} (t) + \int V \: c_{E'}(t) \: \rmd E' \\
-i \hbar \: \frac{\rmd c_{E'}}{\rmd t} & = V \: c_{\varphi}(t) + E'\: c_{E'}(t)
+i \: \frac{\rmd c_{\varphi}}{\rmd t} & = E_r \: c_{\varphi} (t) + \int V \: c_{E'}(t) \: \rmd E' \\
+i \: \frac{\rmd c_{E'}}{\rmd t} & = V \: c_{\varphi}(t) + E'\: c_{E'}(t)
 \end{align}
 En supposant connues les conditions initiales $c_{\varphi}^{(0)}=\braket{\varphi|\Phi (t = 0)}$ et $c_{E'}^{(0)}=\braket{\psi_{E'}|\Phi (t = 0)}$, la solution est donnée par
 \begin{align}
-c_{\varphi} (t) & = \left( c_{\varphi}^{(0)} \rme^{-\frac{\Gamma}{2 \hbar}t} + \int c_{E'}^{(0)} g_{E'} (t) \rmd E' \right) \rme^{-i E_r t / \hbar} \\
-c_{E'}(t) & = \left( c_{\varphi}^{(0)} g_{E'} (t) + \int c_{E}^{(0)} f_{EE'} (t) \rmd E \right) \rme^{-i E_r t / \hbar} + c_{E'}^{(0)} \rme^{-i E' t / \hbar}
+c_{\varphi} (t) & = \left( c_{\varphi}^{(0)} \rme^{-\frac{\Gamma}{2}t} + \int c_{E'}^{(0)} g_{E'} (t) \rmd E' \right) \rme^{-i E_r t} \\
+c_{E'}(t) & = \left( c_{\varphi}^{(0)} g_{E'} (t) + \int c_{E}^{(0)} f_{EE'} (t) \rmd E \right) \rme^{-i E_r t} + c_{E'}^{(0)} \rme^{-i E' t}
 \end{align}
 Avec les fonctions $g_E$ et $f_{EE'}$
 \begin{align}
-g_E (t) & = \frac{V}{E - E_r + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_r)t / \hbar} - \rme^{-\frac{\Gamma}{2 \hbar} t} \right) \\
+g_E (t) & = \frac{V}{E - E_r + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_r)t} - \rme^{-\frac{\Gamma}{2} t} \right) \\
 f_{EE'} (t) & = \frac{V}{E'-E} \left(g_{E'}(t) - g_{E}(t) \right)
 \end{align}
 Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^{(0)}$ est une constante et ne dépend pas de l'énergie au voisinage de la résonance, les expressions précédentes se simplifient. En utilisant l'énergie réduite $\epsilon$ définie au chapitre \ref{chap:ResonancesFano}, et le paramètre $q$ dans le cas d'un couplage $V$ constant
@@ -510,43 +540,168 @@ q = \frac{\bra{\varphi} z \ket{g}}{\pi V \bra{\psi_{E'}} z \ket{g}} = \frac{c_{\
 \end{equation}
 on a \footnote{On remarque ici que les limites de $c_{\varphi} (t)$ et $c_{\epsilon}(t)$ pour $t \rightarrow 0$ ne sont pas égales à $c_{\varphi}^{(0)}$ et $c_{\epsilon}^{(0)}$, $c_{\varphi}$ et $c_{\epsilon}$ sont donc discontinues en $t = 0$. Ceci est dû à l'intégration des fonctions $g_E$ et $f_{EE'}$ sur une gamme spectrale infinie alors qu'en pratique seule une gamme d'énergie de largeur de l'ordre de $\Gamma$ doit être pris en compte.} 
 \begin{align}
-c_{\varphi} (t) & = c_{\varphi}^{(0)} \left( 1 - \frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar}t} \: \rme^{-i E_r t} \label{eq:c_varphi} \\
-c_{\epsilon}(t) & = \frac{c_{\epsilon}^{(0)}}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \: \rme^{-i E_r t} \label{eq:c_eprime}
+c_{\varphi} (t) & = c_{\varphi}^{(0)} \left( 1 - \frac{i}{q} \right) \rme^{-\frac{\Gamma}{2}t} \: \rme^{-i E_r t} \label{eq:c_varphi} \\
+c_{\epsilon}(t) & = \frac{c_{\epsilon}^{(0)}}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \: \rme^{-i E_r t} \label{eq:c_eprime}
 \end{align}
 $|c_{\varphi}(t)|^2 $ décroit exponentiellement avec la durée de vie $1/\Gamma$, reflétant la décroissance de l'état lié. Les variations temporelles de $|c_{\epsilon}(t)|^2$ sont plus complexes et contiennent la dynamique complète de l'autoionisation, incluant les couplages entre l'état lié et le continuum ainsi qu'entre différentes énergies du continuum \textit{via} l'état lié. Le comportement aux temps longs de $|c_{\epsilon}(t)|^2$ converge vers le profil de raie de Fano:
 \begin{equation}
 \lim\limits_{t \rightarrow + \infty} |c_{\epsilon}(t)|^2 = |c_{\epsilon}^{(0)}|^2 \frac{\left( \epsilon + q \right) ^2 }{1+ \epsilon^2}
 \end{equation}
 
-\paragraph{Calcul du dipôle} \`{A} partir des équations \ref{eq:c_varphi} et \ref{eq:c_eprime}, on peut calculer le dipôle temporel induit pour la fonction d'onde $\ket{\Phi (t)}$ (équation \ref{eq:ExpressionDePhi})
+\paragraph{Calcul du dipôle} \`{A} partir des équations \ref{eq:c_varphi} et \ref{eq:c_eprime}, on peut calculer le dipôle temporel induit pour la fonction d'onde $\ket{\Phi (t)}$ (équation \ref{eq:ExpressionDePhi}) \mycite{KaldunScience2016}
 \begin{equation}
-<\tilde{d}(t)> = \bra{\Phi(t)} F_z \: \rme^{i \Omega t} z \ket{\Phi(t)}
+<\tilde{d}(t)> = \bra{\Phi(t)} z \ket{\Phi(t)}
 \end{equation} % \Omega ou \omega pour le champ F ??
 Seuls $\ket{g}$ et $\ket{\varphi}$, et $\ket{g}$ et $\ket{\psi_E}$ sont couplés radiativement. On note $ \Omega_r = E_r - E_g$. D'où
 \begin{multline}
-<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} \: \rme^{i (\Omega - \Omega_r) t}  \bra{g}  z \ket{\varphi} \\
- + F_z \: c_g^{*} \: c_{\epsilon}^{(0)} \: \rme^{i (\Omega - \Omega_r) t} \int \frac{1}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \bra{g} z \ket{\psi_E} \rmd E \\
-+ F_z \: c_g \: c_{\varphi}^{(0)*} \left( 1+\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} \: \rme^{i (\Omega + \Omega_r) t}  \bra{g}  z \ket{\varphi}^{*} \\
-+ F_z \: c_g \: c_{\epsilon}^{(0)*} \: \rme^{i (\Omega + \Omega_r) t} \int \frac{1}{\epsilon - i} \left[ (q+\epsilon ) \rme^{i \frac{\Gamma}{2 \hbar} \epsilon t } - (q + i) \rme^{-\frac{\Gamma}{2 \hbar}t} \right] \bra{g} z \ket{\psi_E}^{*} \rmd E
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{-i \Omega_r t}  \bra{g}  z \ket{\varphi} \\
+ + c_g^{*} \: c_{\epsilon}^{(0)} \: \rme^{-i \Omega_r t} \int \frac{1}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E} \rmd E \\
++ c_g \: c_{\varphi}^{(0)*} \left( 1+\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{i \Omega_) t}  \bra{g}  z \ket{\varphi}^{*} \\
++c_g \: c_{\epsilon}^{(0)*} \: \rme^{i \Omega_r t} \int \frac{1}{\epsilon - i} \left[ (q+\epsilon ) \rme^{i \frac{\Gamma}{2} \epsilon t } - (q + i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E}^{*} \rmd E
 \label{eq:DipoleRayonneTotal}
 \end{multline}
 On s'intéresse au champ rayonné au voisinage de la résonance, soit $\Omega \approx \Omega_r$. Les deux derniers termes de l'expression \ref{eq:DipoleRayonneTotal} oscillent à la fréquence $\Omega + \Omega_r \gg \Omega - \Omega_r$ et se moyennent rapidement à zéro. En appliquant l'approximation de l'onde tournante, on peut négliger ces deux derniers termes devant les deux premiers.
 \begin{multline}
-<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{i (\Omega - \Omega_r) t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} + \frac{c_{\epsilon}^{(0)}}{c_{\varphi}^{(0)}} \int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t}}{\epsilon + i} \frac{\bra{g} z \ket{\psi_E}}{\bra{g}  z \ket{\varphi}} \rmd E \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{c_{\epsilon}^{(0)}}{c_{\varphi}^{(0)}} \int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \frac{\bra{g} z \ket{\psi_E}}{\bra{g}  z \ket{\varphi}} \rmd E \right]
 \end{multline}
 En utilisant l'expression \ref{eq:q_en_fonction_des_c0},
 \begin{multline}
-<\tilde{d}(t)> = F_z \: c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{i (\Omega - \Omega_r) t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2 \hbar} t} + \frac{1}{(\pi q V)^2} \underbrace{\int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2 \hbar}t}}{\epsilon + i} \rmd E}_{I} \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{1}{(\pi q V)^2} \underbrace{\int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \rmd E}_{I} \right]
 \end{multline}
-On rappelle ici le résultat $\int_{- \infty}^{+ \infty} \frac{1}{\epsilon + i} \rmd \epsilon = - \pi i$. Par souci de clarté l'intégrale est calculée ici séparément:
+Par souci de clarté l'intégrale est calculée ici séparément:
 \begin{align}
-I & = \int \frac{q + \epsilon + i - i }{\epsilon + i} \: \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t} \: \rmd E - (q-i) \rme^{-\frac{\Gamma}{2 \hbar}t} \int \frac{\rmd E}{\epsilon + i} \\
-& = \frac{\Gamma}{2} \left[ (q-i) \int \frac{\rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t}}{\epsilon + i} \: \rmd \epsilon +  \int \rme^{- i \frac{\Gamma}{2 \hbar} \epsilon t} \: \rmd \epsilon + (q-i) \rme^{-\frac{\Gamma}{2 \hbar}t} \int \frac{\rmd \epsilon}{\epsilon + i} \right]
+I & = \int \frac{q + \epsilon + i - i }{\epsilon + i} \: \rme^{- i \frac{\Gamma}{2} \epsilon t} \: \rmd E - (q-i) \rme^{-\frac{\Gamma}{2}t} \int \frac{\rmd E}{\epsilon + i} \\
+& = \frac{\Gamma}{2} \left[ \int \rme^{- i \frac{\Gamma}{2} \epsilon t} \: \rmd \epsilon + (q-i) \int \frac{\rme^{- i \frac{\Gamma}{2} \epsilon t}}{\epsilon + i} \: \rmd \epsilon - (q-i) \rme^{-\frac{\Gamma}{2}t} \int \frac{\rmd \epsilon}{\epsilon + i} \right]\\
+& = \frac{\Gamma}{2} \left[ \frac{2}{\Gamma} \times 2 \pi \delta(t) + (q-i) \times (-2 i \pi \rme^{-\frac{\Gamma}{2} t}) - (q-i) \rme^{-\frac{\Gamma}{2} t} \times (-i \pi) \right] \\
+& = 2 \pi \delta(t) - \frac{\Gamma}{2} i \pi \: (q-i) \rme^{-\frac{\Gamma}{2} t} 
 \end{align}
+D'où 
+\begin{multline}
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \frac{1}{q^2} \\ \times \left[ q(q-i) \rme^{-\frac{\Gamma}{2} t} + \frac{2}{\Gamma \pi} \left( 2 \pi \delta(t) - \frac{\Gamma}{2} i \pi \: (q-i) \rme^{-\frac{\Gamma}{2} t} \right) \right]
+\end{multline}
+\begin{equation}
+\setlength\fboxrule{0.25pt}
+\boxed{
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \frac{1}{q^2} \left[ \frac{4}{\Gamma} \delta(t) + (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \right]
+}
+\end{equation}
+\textit{Ici on suppose que $\bra{ \varphi}  z \ket{g}$ est réel. On considère que l'excitation XUV est infiniment brève, donc son spectre est réel. Donc d'après la théorie des perturbations au premier ordre, $c_{\varphi}^{(0)}$ est imaginaire pur. }% C'est ce qu'écrit Kaldun mais je comprends pas! Voir page 2 du "autocorrelation vs rate" du LCPMR : dc/dt = V/i E(t) e^iwt
+On obtient alors\footnote{\mycite{OttScience2013} proposent un calcul différent de cette expression du dipôle temporel en appliquant le théorème de Kramers-Kronig à la section efficace d'absorption et en calculant la transformée de Fourier du dipôle spectral obtenu. Remarquons cependant que les expressions de \mycite{OttScience2013} et \ref{eq:KaldunDipoleTemporel} diffèrent d'un facteur 2 devant le terme $\delta(t)$.}
+\begin{equation}
+\setlength\fboxrule{0.25pt}
+\boxed{
+<\tilde{d}(t)> \propto i \left[ 2 \delta(t) + \frac{\Gamma}{2} (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_r t} \right]
+}
+\label{eq:KaldunDipoleTemporel}
+\end{equation}
 
+\paragraph{Section efficace d'absorption dépendante du temps} On calcule maintenant la section efficace d'absorption à partir de la relation \ref{eq:SectionEfficace_dipole}. On considère une excitation temporelle de type Dirac, soit $F(\Omega) \approx \text{constante}$. On s'intéresse à la section efficace au voisinage de la résonance et on a alors le facteur $\Omega$ de l'expression \ref{eq:SectionEfficace_dipole} $\approx$ constante également. D'où
+\begin{equation}
+\sigma(\Omega) \propto \mathcal{I} \text{\textit{m}} <d(\Omega)>
+\end{equation}
+\begin{align}
+\int_{0}^{+\infty} \rme^{i \Omega t} <\tilde{d}(t)> \rmd t & = 2i \int_{0}^{+\infty} \rme^{i \Omega t} \delta(t) \rmd t + \frac{\Gamma}{2} \: i \: (q-i)^2 \int_{0}^{+\infty} \rme^{i \Omega t} \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_r t} \rmd t \\
+& = i + \frac{\Gamma}{2} \: i \: (q-i)^2 \times \frac{2}{\Gamma} \frac{1}{1 - i \epsilon}
+\end{align}
+% Disparition du facteur 2 du 2i \delta(t) ??
+Avec $\epsilon = \frac{\Omega - \Omega_r}{\Gamma /2}$. Finalement, on retrouve l'expression du profil de Fano 
+\begin{equation}
+\sigma(\epsilon) \propto \frac{(q+\epsilon)^2}{1+\epsilon^2}
+\end{equation}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{SectionEfficace_Kaldun_axes.pdf_tex}
+\caption{(a) Section efficace d'absorption $\sigma(\epsilon, \tau)$ calculée à partir de l'expression \ref{eq:SectionEfficace_t_Kaldun} dans le cas de la résonance $2s2p$ de l'hélium ($\Gamma = 37$ meV, $q = -2.77$, voir tableau \ref{tab:ParamètresFano}). (b) Coupes de (a) toutes les 10 fs (courbes orange à rouge) et section efficace de Fano (noir). Quand $\tau$ augmente,  $\sigma(\epsilon, \tau)$ converge vers la section efficace de Fano. Ces courbes sont directement comparables aux mesures de \mycite{KaldunScience2016} présentées figure \ref{fig:Kaldun}.}
+\label{fig:SectionEfficace_Kaldun}
+\end{figure}
 
+Si l'on s'intéresse à l'observable d'une expérience d'absorption transitoire, il faut considérer une impulsion IR ultra-brève $F_L$ à $t=\tau$, suffisamment intense pour ioniser entièrement le système. On tronque donc la transformée de Fourier en $t=\tau$ et on obtient (figure \ref{fig:SectionEfficace_Kaldun})
+\begin{equation}
+\sigma(\epsilon, \tau) \propto \mathcal{I} \text{\textit{m}} \left[ i +  i \: (q-i)^2 \times \frac{1}{i \epsilon -1} (\rme^{-\frac{\Gamma}{2} (1-i \epsilon) \tau} -1) \right]
+\label{eq:SectionEfficace_t_Kaldun}
+\end{equation}
+\begin{equation}
+\setlength\fboxrule{0.25pt}
+\boxed{
+\begin{aligned}
+\sigma(\epsilon, \tau) \propto & \frac{(q+\epsilon)^2}{1+\epsilon^2} \\
+& - \frac{1}{1+ \epsilon^2} \left[ (q^2 + 2q \epsilon -1) \cos (\epsilon \frac{\Gamma}{2} \tau) + (2q + \epsilon - \epsilon q^2) \sin (\epsilon \frac{\Gamma}{2} \tau) \right] \rme^{-\frac{\Gamma}{2} \tau}
+\end{aligned}
+}
+\label{eq:SectionEfficace_t_Kaldun_final}
+\end{equation}
+Soit la somme du profil de Fano et d'un terme oscillant dont la fréquence spectrale augmente avec $\tau$ et qui décroit avec la durée de vie $2/ \Gamma$. On retrouve évidemment que cette quantité converge vers le profil de Fano aux temps longs
+\begin{equation}
+\lim\limits_{\tau \rightarrow + \infty} \sigma(\epsilon, \tau) = \frac{(q+\epsilon)^2}{1+\epsilon^2}
+\end{equation}
 
+\section{Photoionisation}
+On rappelle ici l'expression \ref{eq:Wicken} utilisée pour déterminer la construction du spectre de photoélectrons au cours du temps, en unités atomiques
+\begin{equation*}
+W(E, \: \tau) = \int_{- \infty}^{\tau} \tilde{M}^{\text{res}}(t) \times \rme^{i E t} \: \rmd t
+\end{equation*}
+Avec $\tilde{M}^{\text{res}}(t)$ défini par les équations \ref{eq:Mres_E} et \ref{eq:Mres_t}
+\begin{align*}
+M^{\text{res}}(E) & = \mathcal{R}(\epsilon) \times \mathcal{H} (E) \\
+\tilde{M}^{\text{res}}(t)& = \left[ \tilde{\mathcal{R}} \ast \tilde{\mathcal{H}} \right] (t)
+\end{align*}
+$\mathcal{R}(\epsilon)$ étant le facteur résonant introduit au chapitre \ref{chap:2photons_et_Fano},
+\begin{equation*}
+\mathcal{R}(\epsilon) = \frac{\epsilon + q}{\epsilon + i}
+\end{equation*}
+Afin de faciliter la comparaison avec la partie précédente, on considère une impulsion d'excitation XUV infiniment brève $\tilde{\mathcal{H}}(t) = \delta(t)$. On a alors $\tilde{M}^{\text{res}}(t) = \tilde{\mathcal{R}} (t)$.
+\begin{align}
+W(E, \: \tau) & = \int_{- \infty}^{ \tau} \tilde{\mathcal{R}} (t) \times \rme^{i E t} \: \rmd t \\
+& = \int_{- \infty}^{ \tau} \left[ \delta(t) - i \frac{\Gamma}{2} (q - i) \times \mathrm{exp} \left(-i E_R - \frac{\Gamma}{2} \right) \vartheta (t) \right] \rme^{i E t} \: \rmd t \\
+& = 1 - i \frac{\Gamma}{2} (q - i) \int_{- \infty}^{ \tau}  \rme^{-\frac{\Gamma}{2}(1-i \epsilon)t} \: \vartheta (t) \rmd t \\
+& = 1 + i(q-i) \frac{1}{1-i\epsilon} \left(\rme^{-\frac{\Gamma}{2}(1-i\epsilon)  \tau} - 1 \right) \\
+& = 1 + \frac{q-i}{\epsilon + i} \left(1- \rme^{-\frac{\Gamma}{2}(1-i\epsilon)  \tau} \right) \\
+& = \frac{\rme^{i \frac{\Gamma}{2} \epsilon \tau}}{\epsilon + i} \left( (\epsilon + q) \rme^{-i \frac{\Gamma}{2} \epsilon \tau} - (q-i) \rme^{-\frac{\Gamma}{2} \tau} \right)
+\end{align}
+L'observable est le module carré de cette quantité,
+\begin{equation}
+\boxed{
+\begin{aligned}
+|W(E, \:  \tau)|^2 = & \frac{(\epsilon +q)^2}{1+\epsilon^2} + \frac{q^2+1}{1+\epsilon^2} \: \rme^{-\Gamma  \tau} \\
+& - 2 \: \frac{(\epsilon + q) \sqrt{1+q^2}}{1+\epsilon^2} \cos \left( \frac{\Gamma}{2} \epsilon \tau + \arctan \frac{1}{q} \right) \rme^{-\frac{\Gamma}{2} \tau}
+\end{aligned}
+}
+\label{eq:W_Gruson}
+\end{equation}
+Dans cette expression, on retrouve un terme oscillant multiplié par une exponentielle décroissante de durée de vie $2/\Gamma$, mais également un terme constant décroissant avec une durée de vie $1/\Gamma$. $|W(E, \:  \tau)|^2$ converge vers le profil de Fano aux temps longs
+\begin{equation}
+\lim\limits_{\tau \rightarrow + \infty} |W(E, \:  \tau)|^2 = \frac{(q+\epsilon)^2}{1+\epsilon^2}
+\end{equation}
+
+\begin{figure}[!ht]
+\centering
+\def\svgwidth{0.6\textwidth}
+\import{Figures/Helium/}{Chu.pdf_tex}
+\caption{\'{E}volution temporelle de $|c_{\epsilon}(t)|^2$ aux temps courts (a) et longs (b) devant la durée de vie dans le cas de la résonance autoionisante $2p4s$ du béryllium ($q = -0.52$; $\Gamma = 0.174$ eV; $\tau = 3.78$ fs; $E_r = EI(\text{Be}) + 2.789$ eV \mycite{WehlitzPRA2003}) excitée par une impulsion gaussienne de 2 fs centrée sur l'énergie de la résonance. Aux temps courts, le spectre reproduit celui de l'impulsion de pompe gaussienne, puis on observe progressivement sa déformation et l'apparition de la résonance fenêtre. Cependant, il faut attendre plusieurs dizaines de femtosecondes ($5-10 \tau$) pour que le profil mesuré corresponde au profil de Fano.  Adapté de \mycite{ChuPRA2010}.}
+\label{fig:Chu}
+\end{figure}
+
+On remarque que l'expression \ref{eq:W_Gruson} est identique à $|c_{\epsilon}(t)|^2$ obtenu avec l'équation \ref{eq:c_eprime}, dont l'évolution temporelle est étudiée par \mycite{ChuPRA2010} dans le cas d'une impulsion $\delta(t)$ et d'une impulsion gaussienne. Cette quantité est également identique à $P(E,t)=|\braket{\psi_E | \Phi(t)}|^2$ de \mycite{WickenhauserPRL2005}. La figure \ref{fig:Chu} montre la construction du profil de la résonance d'après les résultats des calculs de \mycite{ChuPRA2010} dans le cas d'une résonance autoionisante du béryllium excitée par une impulsion gaussienne. Ces résultats sont à mettre en parallèle de la construction de la résonance mesurée par \mycite{GrusonScience2016} et présentés figure \ref{fig:Wickenhauserisation}. 
+
+\section{Conclusions}
+Les expressions de la section efficace d'absorption dépendante du temps $\sigma(\epsilon,\tau)$ (équation \ref{eq:SectionEfficace_t_Kaldun_final}), mesurée par \mycite{KaldunScience2016}, et de l'intensité du spectre de photoélectrons $|W(E, \:  \tau)|^2$ (équation \ref{eq:W_Gruson}), observable de \mycite{GrusonScience2016}, ne sont pas identiques. Ces deux observables convergent naturellement vers le profil de Fano mais leurs dynamiques sont différentes, comme l'illustre la figure \ref{fig:Gruson_vs_Kaldun}. $\sigma(\epsilon,\tau)$ peut prendre des valeurs négatives contrairement à $|W(E, \:  \tau)|^2$. Le temps caractéristique associé à $\sigma(\epsilon,\tau)$ étant $2/\Gamma$, l'absorption transitoire peut être utilisée directement pour mesurer la durée de vie d'un état autoionisant \mycite{WangPRL2010}\mycite{BernhardtPRA2014}. En revanche, les conditions expérimentales utilisées dans les expériences d'absorption transitoires peuvent modifier la dynamique intrinsèque d'autoionisation:
+\begin{enumerate}[label=\textbullet]
+\item \`{A} forte intensité ($\approx 10^{13}$ W/cm$^2$), l'impulsion IR ionise complètement la résonance, ce qui permet d'accéder à la durée de vie de la résonance et à la construction du profil de raie, comme vu précedemment \mycite{KaldunScience2016}.
+\item \`{A} intensité moyenne ($\approx 10^{12}$ W/cm$^2$), l'effet Stark du laser décale les énergies des états résonants de $\Delta E (t) = -\frac{e^2}{2m} \int_{- \infty}^{t} F_L(t') \rmd t'$ , ce qui conduit à un déphasage de l'émission dipolaire de $\Delta \phi = - \int_{\text{Impulsion}} \frac{\Delta E (t)}{\hbar} \rmd t$ et une modification du profil de raie $\Delta q = - \text{cotan} \frac{ \Delta \phi}{2}$ \mycite{PabstPRA2012}\mycite{ChenPRA2013}\mycite{ChuPRA2013}\mycite{OttScience2013}.
+\item \`{A} intensité faible ($\approx 10 ^{10}$ W/cm$^2$), le champ laser peut coupler plusieurs états si la largeur de bande le permet, à un ou plusieurs photons selon l'intensité utilisée \mycite{BeckCPL2015}. Ce couplage ajoute des oscillations temporelles supplémentaires au signal d'absorption, de fréquence $\frac{\Delta E}{\hbar}$, et peut créer un doublet Autler-Townes \mycite{AutlerTownesPR1955}.
+\item L'impulsion XUV peut être modifiée au cours de sa propagation dans le milieu dense absorbant, causant l'élargissement des raies d'absorption ou l'apparition de nouvelles composantes spectrales  \mycite{LiaoPRL2015}\mycite{LiaoPRA2016}.
+\item \'{A} haute pression, les collisions peuvent diminuer la durée de vie radiative des résonances, en particulier pour les états de Rydberg \mycite{BeaulieuPRA2017}.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.8\textwidth}
+\import{Figures/Helium/}{Gruson_vs_Kaldun.pdf_tex}
+\caption{$|W(E, \:  \tau)|^2$ (couleurs pâles) et $\sigma(\epsilon,\tau)$ (couleurs foncées) calculées dans le cas de la résonance $2s2p$ de l'hélium excitée par une impulsion $\delta(t)$.}
+\label{fig:Gruson_vs_Kaldun}
+\end{figure}
 
 
 
