@@ -1,0 +1,85 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'LundGabors_38.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{319.15180609bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,2.78903174)%
+    \put(0,0){\includegraphics[width=\unitlength]{LundGabors_38.pdf}}%
+    \put(0.26278122,1.01140332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0.51020863,1.01140332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.72186902,1.01140332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.9472925,1.01140332){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.11137536,1.06048298){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35}}}%
+    \put(0.07009878,1.32347692){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35.5}}}%
+    \put(0.11137536,1.58647122){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.07009878,1.84946498){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.5}}}%
+    \put(0.23018074,1.80832159){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.26278121,0.06322159){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0.51020862,0.06322159){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.72186901,0.06322159){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.94729249,0.06322159){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.11137526,0.11230125){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35}}}%
+    \put(0.07009877,0.37529519){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35.5}}}%
+    \put(0.11137526,0.63828949){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.07009877,0.90128325){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.5}}}%
+    \put(0.22559191,0.85387678){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.26527656,1.91830738){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0.51187218,1.91830738){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.72270068,1.91830738){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.94729245,1.91830738){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.11428673,1.96738775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35}}}%
+    \put(0.07301015,2.22941129){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{35.5}}}%
+    \put(0.11428673,2.49143484){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36}}}%
+    \put(0.07301015,2.75345841){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{36.5}}}%
+    \put(0.22603172,2.71503427){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.46439155,0.00696916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
+    \put(0.02262589,2.06042743){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Energie de photoélectron (eV)}}}}%
+    \put(0.02262589,1.12795589){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Energie de photoélectron (eV)}}}}%
+    \put(0.02262589,0.17041784){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Energie de photoélectron (eV)}}}}%
+  \end{picture}%
+\endgroup%

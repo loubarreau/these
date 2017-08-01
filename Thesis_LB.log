@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  28 JUL 2017 18:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  1 AUG 2017 15:41
 entering extended mode
 **Thesis_LB.tex
 (C:\Users\lbarreau\Documents\these\Thesis_LB.tex
@@ -1878,7 +1878,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\lbarreau\Documents\these\Misc/Prel_Matter.tex
 (C:\Users\lbarreau\Documents\these\Misc/style-pagedegarde.tex
-<Figures/Logos/UPSac.png, id=187, 440.95174pt x 148.72957pt>
+<Figures/Logos/UPSac.png, id=191, 440.95174pt x 148.72957pt>
 File: Figures/Logos/UPSac.png Graphic file (type png)
 
 <use Figures/Logos/UPSac.png>
@@ -1889,7 +1889,7 @@ Overfull \hbox (114.49495pt too wide) in paragraph at lines 9--11
 [][]
  []
 
-<Figures/Logos/UPS.png, id=189, 80.154pt x 73.9125pt>
+<Figures/Logos/UPS.png, id=193, 80.154pt x 73.9125pt>
 File: Figures/Logos/UPS.png Graphic file (type png)
 
 <use Figures/Logos/UPS.png>
@@ -1945,14 +1945,14 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 34.
 
-<Figures/Logos/lidyl.png, id=200, 139.2402pt x 85.0377pt>
+<Figures/Logos/lidyl.png, id=204, 139.2402pt x 85.0377pt>
 File: Figures/Logos/lidyl.png Graphic file (type png)
 
 <use Figures/Logos/lidyl.png>
 Package pdftex.def Info: Figures/Logos/lidyl.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 52.13242pt.
 
-<Figures/Logos/CEA.png, id=201, 789.95125pt x 644.4075pt>
+<Figures/Logos/CEA.png, id=205, 789.95125pt x 644.4075pt>
 File: Figures/Logos/CEA.png Graphic file (type png)
 
 <use Figures/Logos/CEA.png>
@@ -2022,7 +2022,7 @@ l.26 \begin{align}
 l.48 
       [4]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Bessel_Spheriques.pdf_tex
-<Figures/DelaisPI/Bessel_Spheriques.pdf, id=319, 845.40886pt x 597.73312pt>
+<Figures/DelaisPI/Bessel_Spheriques.pdf, id=324, 845.40886pt x 597.73312pt>
 File: Figures/DelaisPI/Bessel_Spheriques.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Bessel_Spheriques.pdf>
@@ -2052,7 +2052,7 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 ) [7]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_delais_Wigner.pdf_te
 x
-<Figures/DelaisPI/Schema_delais_Wigner.pdf, id=382, 370.79471pt x 233.77083pt>
+<Figures/DelaisPI/Schema_delais_Wigner.pdf, id=387, 370.79471pt x 233.77083pt>
 File: Figures/DelaisPI/Schema_delais_Wigner.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Schema_delais_Wigner.pdf>
@@ -2062,7 +2062,7 @@ t line 52.
 ) [8] [9 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_delais_Wign
 er.pdf>] [10] [11] [12]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_2photons.pdf_tex
-<Figures/DelaisPI/Schema_2photons.pdf, id=529, 230.91249pt x 119.08788pt>
+<Figures/DelaisPI/Schema_2photons.pdf, id=534, 230.91249pt x 119.08788pt>
 File: Figures/DelaisPI/Schema_2photons.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Schema_2photons.pdf>
@@ -2073,7 +2073,7 @@ e 52.
  [14] [15]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_Principe_Rabbit_simp
 le.pdf_tex
-<Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf, id=592, 125.54839pt x 103.
+<Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf, id=597, 125.54839pt x 103.
 05533pt>
 File: Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf Graphic file (type pdf
 )
@@ -2085,7 +2085,7 @@ d on input line 52.
 [17 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_Principe_Rabbit_
 simple.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schultze.pdf_tex
-<Figures/DelaisPI/Schultze.pdf, id=617, 374.99062pt x 327.01892pt>
+<Figures/DelaisPI/Schultze.pdf, id=622, 374.99062pt x 327.01892pt>
 File: Figures/DelaisPI/Schultze.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Schultze.pdf>
@@ -2093,7 +2093,7 @@ Package pdftex.def Info: Figures/DelaisPI/Schultze.pdf used on input line 52.
 (pdftex.def)             Requested size: 240.00244pt x 209.30136pt.
 ) [18 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schultze.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Klunder.pdf_tex
-<Figures/DelaisPI/Klunder.pdf, id=642, 279.49481pt x 423.54347pt>
+<Figures/DelaisPI/Klunder.pdf, id=647, 279.49481pt x 423.54347pt>
 File: Figures/DelaisPI/Klunder.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Klunder.pdf>
@@ -2101,7 +2101,7 @@ Package pdftex.def Info: Figures/DelaisPI/Klunder.pdf used on input line 52.
 (pdftex.def)             Requested size: 240.00244pt x 363.70386pt.
 ) [19 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Klunder.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Guenot.pdf_tex
-<Figures/DelaisPI/Guenot.pdf, id=678, 590.43143pt x 180.07585pt>
+<Figures/DelaisPI/Guenot.pdf, id=683, 590.43143pt x 180.07585pt>
 File: Figures/DelaisPI/Guenot.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Guenot.pdf>
@@ -2109,7 +2109,7 @@ Package pdftex.def Info: Figures/DelaisPI/Guenot.pdf used on input line 52.
 (pdftex.def)             Requested size: 400.0pt x 121.99931pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Jordan.pdf_tex
-<Figures/DelaisPI/Jordan.pdf, id=687, 222.31631pt x 257.57613pt>
+<Figures/DelaisPI/Jordan.pdf, id=692, 222.31631pt x 257.57613pt>
 File: Figures/DelaisPI/Jordan.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Jordan.pdf>
@@ -2117,7 +2117,7 @@ Package pdftex.def Info: Figures/DelaisPI/Jordan.pdf used on input line 52.
 (pdftex.def)             Requested size: 240.00244pt x 278.06801pt.
 ) [20]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Swoboda.pdf_tex
-<Figures/DelaisPI/Swoboda.pdf, id=703, 460.76242pt x 250.14993pt>
+<Figures/DelaisPI/Swoboda.pdf, id=708, 460.76242pt x 250.14993pt>
 File: Figures/DelaisPI/Swoboda.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Swoboda.pdf>
@@ -2125,7 +2125,7 @@ Package pdftex.def Info: Figures/DelaisPI/Swoboda.pdf used on input line 52.
 (pdftex.def)             Requested size: 320.00122pt x 173.73346pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Haessler.pdf_tex
-<Figures/DelaisPI/Haessler.pdf, id=710, 411.58553pt x 353.91702pt>
+<Figures/DelaisPI/Haessler.pdf, id=715, 411.58553pt x 353.91702pt>
 File: Figures/DelaisPI/Haessler.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Haessler.pdf>
@@ -2140,7 +2140,7 @@ PI/Swoboda.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >] [23 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Haessler.pdf>]
 [24] (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/PhotoFano.pdf_tex
-<Figures/DelaisPI/PhotoFano.pdf, id=783, 341.275pt x 417.56pt>
+<Figures/DelaisPI/PhotoFano.pdf, id=788, 341.275pt x 417.56pt>
 File: Figures/DelaisPI/PhotoFano.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/PhotoFano.pdf>
@@ -2148,7 +2148,7 @@ Package pdftex.def Info: Figures/DelaisPI/PhotoFano.pdf used on input line 52.
 (pdftex.def)             Requested size: 120.00122pt x 146.82355pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Beutler.pdf_tex
-<Figures/DelaisPI/Beutler.pdf, id=797, 408.32549pt x 317.1967pt>
+<Figures/DelaisPI/Beutler.pdf, id=802, 408.32549pt x 317.1967pt>
 File: Figures/DelaisPI/Beutler.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Beutler.pdf>
@@ -2158,7 +2158,7 @@ Package pdftex.def Info: Figures/DelaisPI/Beutler.pdf used on input line 52.
 
  <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/PhotoFano.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_Fano.pdf_tex
-<Figures/DelaisPI/Schema_Fano.pdf, id=826, 177.14381pt x 123.28102pt>
+<Figures/DelaisPI/Schema_Fano.pdf, id=831, 177.14381pt x 123.28102pt>
 File: Figures/DelaisPI/Schema_Fano.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Schema_Fano.pdf>
@@ -2168,7 +2168,7 @@ Package pdftex.def Info: Figures/DelaisPI/Schema_Fano.pdf used on input line 52
 ) [26 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Beutler.pdf>] [27 <C:
 /Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_Fano.pdf>] [28]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/ProfilsFano.pdf_tex
-<Figures/DelaisPI/ProfilsFano.pdf, id=883, 427.62788pt x 430.36691pt>
+<Figures/DelaisPI/ProfilsFano.pdf, id=888, 427.62788pt x 430.36691pt>
 File: Figures/DelaisPI/ProfilsFano.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/ProfilsFano.pdf>
@@ -2178,7 +2178,7 @@ Package pdftex.def Info: Figures/DelaisPI/ProfilsFano.pdf used on input line 52
 ) [29] [30 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/ProfilsFano.pdf>
 ] [31]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Gilbertson.pdf_tex
-<Figures/DelaisPI/Gilbertson.pdf, id=979, 520.05534pt x 204.47824pt>
+<Figures/DelaisPI/Gilbertson.pdf, id=984, 520.05534pt x 204.47824pt>
 File: Figures/DelaisPI/Gilbertson.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Gilbertson.pdf>
@@ -2187,7 +2187,7 @@ Package pdftex.def Info: Figures/DelaisPI/Gilbertson.pdf used on input line 52.
 (pdftex.def)             Requested size: 359.99756pt x 141.5519pt.
 ) [32]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Wang.pdf_tex
-<Figures/DelaisPI/Wang.pdf, id=1002, 559.07755pt x 225.6113pt>
+<Figures/DelaisPI/Wang.pdf, id=1007, 559.07755pt x 225.6113pt>
 File: Figures/DelaisPI/Wang.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Wang.pdf>
@@ -2200,7 +2200,7 @@ pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Delais
 PI/Wang.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >] (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Wickenhauser.pdf_tex
-<Figures/DelaisPI/Wickenhauser.pdf, id=1034, 460.34843pt x 370.95145pt>
+<Figures/DelaisPI/Wickenhauser.pdf, id=1039, 460.34843pt x 370.95145pt>
 File: Figures/DelaisPI/Wickenhauser.pdf Graphic file (type pdf)
 
 <use Figures/DelaisPI/Wickenhauser.pdf>
@@ -2213,7 +2213,7 @@ Package pdftex.def Info: Figures/DelaisPI/Wickenhauser.pdf used on input line 5
 ]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Fano_plan_complexe_final.pd
 f_tex
-<Figures/DelaisPI/Fano_plan_complexe_final.pdf, id=1075, 622.33841pt x 351.5280
+<Figures/DelaisPI/Fano_plan_complexe_final.pdf, id=1080, 622.33841pt x 351.5280
 3pt>
 File: Figures/DelaisPI/Fano_plan_complexe_final.pdf Graphic file (type pdf)
  <use Figures/DelaisPI/Fano_plan_complexe_final.pdf>
@@ -2223,7 +2223,7 @@ input line 52.
 )
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_2photons_Fano.pdf_te
 x
-<Figures/DelaisPI/Schema_2photons_Fano.pdf, id=1079, 137.08658pt x 109.47931pt>
+<Figures/DelaisPI/Schema_2photons_Fano.pdf, id=1084, 137.08658pt x 109.47931pt>
 File: Figures/DelaisPI/Schema_2photons_Fano.pdf Graphic file (type pdf)
 <use Figures/DelaisPI/Schema_2photons_Fano.pdf>
 Package pdftex.def Info: Figures/DelaisPI/Schema_2photons_Fano.pdf used on inpu
@@ -2234,7 +2234,7 @@ nal.pdf>] [37 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_2photo
 ns_Fano.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Fano_plan_complexe_eff_fina
 l.pdf_tex
-<Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf, id=1131, 587.6193pt x 378.0
+<Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf, id=1136, 587.6193pt x 378.0
 216pt>
 File: Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf Graphic file (type pdf)
 
@@ -2248,7 +2248,7 @@ f_final.pdf>])
 
 ] [41] [42]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Domke.pdf_tex
-<Figures/Helium/Domke.pdf, id=1206, 491.04735pt x 385.63918pt>
+<Figures/Helium/Domke.pdf, id=1211, 491.04735pt x 385.63918pt>
 File: Figures/Helium/Domke.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Domke.pdf>
@@ -2258,7 +2258,7 @@ Package pdftex.def Info: Figures/Helium/Domke.pdf used on input line 52.
 
 ]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/SpectresSansHabillage.pdf_tex
-<Figures/Helium/SpectresSansHabillage.pdf, id=1233, 435.8667pt x 291.04688pt>
+<Figures/Helium/SpectresSansHabillage.pdf, id=1238, 435.8667pt x 291.04688pt>
 File: Figures/Helium/SpectresSansHabillage.pdf Graphic file (type pdf)
 
 <use Figures/Helium/SpectresSansHabillage.pdf>
@@ -2268,7 +2268,7 @@ Package pdftex.def Info: Figures/Helium/SpectresSansHabillage.pdf used on input
 ) [45 <C:/Users/lbarreau/Documents/these/Figures/Helium/SpectresSansHabillage.p
 df>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Schema_2s2p.pdf_tex
-<Figures/Helium/Schema_2s2p.pdf, id=1278, 127.71104pt x 126.44478pt>
+<Figures/Helium/Schema_2s2p.pdf, id=1283, 127.71104pt x 126.44478pt>
 File: Figures/Helium/Schema_2s2p.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Schema_2s2p.pdf>
@@ -2276,7 +2276,7 @@ Package pdftex.def Info: Figures/Helium/Schema_2s2p.pdf used on input line 52.
 (pdftex.def)             Requested size: 179.99878pt x 178.22346pt.
 ) [46 <C:/Users/lbarreau/Documents/these/Figures/Helium/Schema_2s2p.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/TracesRabbitHe.pdf_tex
-<Figures/Helium/TracesRabbitHe.pdf, id=1292, 406.72334pt x 830.30011pt>
+<Figures/Helium/TracesRabbitHe.pdf, id=1297, 406.72334pt x 830.30011pt>
 File: Figures/Helium/TracesRabbitHe.pdf Graphic file (type pdf)
 
 <use Figures/Helium/TracesRabbitHe.pdf>
@@ -2285,7 +2285,7 @@ Package pdftex.def Info: Figures/Helium/TracesRabbitHe.pdf used on input line 5
 (pdftex.def)             Requested size: 279.99878pt x 571.60275pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/ExtractionPhaseInter.pdf_tex
-<Figures/Helium/ExtractionPhaseInter.pdf, id=1300, 443.34912pt x 273.90613pt>
+<Figures/Helium/ExtractionPhaseInter.pdf, id=1305, 443.34912pt x 273.90613pt>
 File: Figures/Helium/ExtractionPhaseInter.pdf Graphic file (type pdf)
 
 <use Figures/Helium/ExtractionPhaseInter.pdf>
@@ -2294,7 +2294,7 @@ line 52.
 (pdftex.def)             Requested size: 400.0pt x 247.12341pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/VariationPhaseInter.pdf_tex
-<Figures/Helium/VariationPhaseInter.pdf, id=1305, 563.42863pt x 354.53897pt>
+<Figures/Helium/VariationPhaseInter.pdf, id=1310, 563.42863pt x 354.53897pt>
 File: Figures/Helium/VariationPhaseInter.pdf Graphic file (type pdf)
 
 <use Figures/Helium/VariationPhaseInter.pdf>
@@ -2303,7 +2303,7 @@ ine 52.
 (pdftex.def)             Requested size: 400.0pt x 251.70819pt.
 ) [47]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/TracesExp_Sim_He.pdf_tex
-<Figures/Helium/TracesExp_Sim_He.pdf, id=1334, 689.1996pt x 353.60521pt>
+<Figures/Helium/TracesExp_Sim_He.pdf, id=1339, 689.1996pt x 353.60521pt>
 File: Figures/Helium/TracesExp_Sim_He.pdf Graphic file (type pdf)
 
 <use Figures/Helium/TracesExp_Sim_He.pdf>
@@ -2312,7 +2312,7 @@ Package pdftex.def Info: Figures/Helium/TracesExp_Sim_He.pdf used on input line
 (pdftex.def)             Requested size: 400.0pt x 205.22604pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/DataRainbowHe.pdf_tex
-<Figures/Helium/DataRainbowHe.pdf, id=1338, 580.85593pt x 355.80727pt>
+<Figures/Helium/DataRainbowHe.pdf, id=1343, 580.85593pt x 355.80727pt>
 File: Figures/Helium/DataRainbowHe.pdf Graphic file (type pdf)
 
 <use Figures/Helium/DataRainbowHe.pdf>
@@ -2332,7 +2332,7 @@ n a single page
 
 ] [54]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Phases1photon2photons.pdf_tex
-<Figures/Helium/Phases1photon2photons.pdf, id=1489, 570.7193pt x 581.66345pt>
+<Figures/Helium/Phases1photon2photons.pdf, id=1494, 570.7193pt x 581.66345pt>
 File: Figures/Helium/Phases1photon2photons.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Phases1photon2photons.pdf>
@@ -2342,7 +2342,7 @@ Package pdftex.def Info: Figures/Helium/Phases1photon2photons.pdf used on input
 ) [55] [56 <C:/Users/lbarreau/Documents/these/Figures/Helium/Phases1photon2phot
 ons.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/ProfilTemporel.pdf_tex
-<Figures/Helium/ProfilTemporel.pdf, id=1519, 476.10622pt x 349.93684pt>
+<Figures/Helium/ProfilTemporel.pdf, id=1524, 476.10622pt x 349.93684pt>
 File: Figures/Helium/ProfilTemporel.pdf Graphic file (type pdf)
 
 <use Figures/Helium/ProfilTemporel.pdf>
@@ -2351,7 +2351,7 @@ Package pdftex.def Info: Figures/Helium/ProfilTemporel.pdf used on input line 5
 (pdftex.def)             Requested size: 279.99878pt x 205.79883pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/ProfilTemporel_th.pdf_tex
-<Figures/Helium/ProfilTemporel_th.pdf, id=1525, 279.9014pt x 256.97595pt>
+<Figures/Helium/ProfilTemporel_th.pdf, id=1530, 279.9014pt x 256.97595pt>
 File: Figures/Helium/ProfilTemporel_th.pdf Graphic file (type pdf)
 
 <use Figures/Helium/ProfilTemporel_th.pdf>
@@ -2361,7 +2361,7 @@ e 52.
 ) [57 <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel.pdf>] [5
 8 <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_th.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Wickenhauserisation.pdf_tex
-<Figures/Helium/Wickenhauserisation.pdf, id=1562, 618.53833pt x 269.47934pt>
+<Figures/Helium/Wickenhauserisation.pdf, id=1567, 618.53833pt x 269.47934pt>
 File: Figures/Helium/Wickenhauserisation.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Wickenhauserisation.pdf>
@@ -2375,7 +2375,7 @@ Overfull \hbox (79.99878pt too wide) in paragraph at lines 81--310
 
 [59 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wickenhauserisation.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Spectre_norm.pdf_tex
-<Figures/Helium/Spectre_norm.pdf, id=1615, 580.42744pt x 247.36456pt>
+<Figures/Helium/Spectre_norm.pdf, id=1620, 580.42744pt x 247.36456pt>
 File: Figures/Helium/Spectre_norm.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Spectre_norm.pdf>
@@ -2387,7 +2387,7 @@ Package pdftex.def Info: Figures/Helium/Spectre_norm.pdf used on input line 52.
 
 ] [63]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Schema_2s2p_sp3.pdf_tex
-<Figures/Helium/Schema_2s2p_sp3.pdf, id=1666, 199.44878pt x 162.31517pt>
+<Figures/Helium/Schema_2s2p_sp3.pdf, id=1671, 199.44878pt x 162.31517pt>
 File: Figures/Helium/Schema_2s2p_sp3.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Schema_2s2p_sp3.pdf>
@@ -2396,7 +2396,7 @@ Package pdftex.def Info: Figures/Helium/Schema_2s2p_sp3.pdf used on input line
 (pdftex.def)             Requested size: 279.99878pt x 227.87866pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/HeLund_WLscan.pdf_tex
-<Figures/Helium/HeLund_WLscan.pdf, id=1667, 1264.725pt x 703.12688pt>
+<Figures/Helium/HeLund_WLscan.pdf, id=1672, 1264.725pt x 703.12688pt>
 File: Figures/Helium/HeLund_WLscan.pdf Graphic file (type pdf)
 
 <use Figures/Helium/HeLund_WLscan.pdf>
@@ -2406,7 +2406,7 @@ Package pdftex.def Info: Figures/Helium/HeLund_WLscan.pdf used on input line 52
 ) [64 <C:/Users/lbarreau/Documents/these/Figures/Helium/Schema_2s2p_sp3.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf_
 tex
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf, id=1714, 1069.5009pt x 642.87228p
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf, id=1719, 1069.5009pt x 642.87228p
 t>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf Graphic file (type pdf)
  <use Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf>
@@ -2421,7 +2421,7 @@ pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
 cluded in a single page
 >]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/FinitePulses_Alvaro.pdf_tex
-<Figures/Helium/FinitePulses_Alvaro.pdf, id=1814, 124.17212pt x 201.36284pt>
+<Figures/Helium/FinitePulses_Alvaro.pdf, id=1823, 124.17212pt x 201.36284pt>
 File: Figures/Helium/FinitePulses_Alvaro.pdf Graphic file (type pdf)
 
 <use Figures/Helium/FinitePulses_Alvaro.pdf>
@@ -2431,7 +2431,7 @@ ine 52.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deco
 nv.pdf_tex
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1819, page=1, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1828, page=1, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2441,7 +2441,7 @@ Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, pa
 ge1 used on input line 52.
 (pdftex.def)             Requested size: 400.0pt x 219.13837pt.
 
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1820, page=2, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1829, page=2, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2451,7 +2451,7 @@ Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, pa
 ge2 used on input line 57.
 (pdftex.def)             Requested size: 400.0pt x 219.13837pt.
 
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1821, page=3, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1830, page=3, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2461,7 +2461,7 @@ Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, pa
 ge3 used on input line 67.
 (pdftex.def)             Requested size: 400.0pt x 219.13837pt.
 
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1822, page=4, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1831, page=4, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2471,7 +2471,7 @@ Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, pa
 ge4 used on input line 72.
 (pdftex.def)             Requested size: 400.0pt x 219.13837pt.
 
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1823, page=5, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1832, page=5, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2481,7 +2481,7 @@ Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, pa
 ge5 used on input line 82.
 (pdftex.def)             Requested size: 400.0pt x 219.13837pt.
 
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1824, page=6, 1259.3113
+<Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf, id=1833, page=6, 1259.3113
 4pt x 689.9254pt>
 File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deconv.pdf Graphic file (type pdf
 )
@@ -2493,7 +2493,7 @@ ge6 used on input line 87.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Resultats_NeHe2_deconv.pdf_te
 x
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1825, page=1, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1834, page=1, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 1>
@@ -2501,7 +2501,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page1 used
 on input line 52.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1826, page=2, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1835, page=2, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 2>
@@ -2509,7 +2509,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page2 used
 on input line 58.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1827, page=3, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1836, page=3, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 3>
@@ -2517,7 +2517,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page3 used
 on input line 65.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1828, page=4, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1837, page=4, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 4>
@@ -2525,7 +2525,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page4 used
 on input line 71.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1829, page=5, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1838, page=5, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 5>
@@ -2533,7 +2533,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page5 used
 on input line 78.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1830, page=6, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1839, page=6, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 6>
@@ -2541,7 +2541,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page6 used
 on input line 80.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1831, page=7, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1840, page=7, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 7>
@@ -2549,7 +2549,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page7 used
 on input line 85.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1832, page=8, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1841, page=8, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 8>
@@ -2557,7 +2557,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page8 used
 on input line 91.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1833, page=9, 1294.31859pt x 717
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1842, page=9, 1294.31859pt x 717
 .42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 9>
@@ -2565,7 +2565,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page9 used
 on input line 96.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1834, page=10, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1843, page=10, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 10>
@@ -2573,7 +2573,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page10 used
  on input line 103.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1835, page=11, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1844, page=11, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 11>
@@ -2581,7 +2581,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page11 used
  on input line 112.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1836, page=12, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1845, page=12, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 12>
@@ -2589,7 +2589,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page12 used
  on input line 118.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1837, page=13, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1846, page=13, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 13>
@@ -2597,7 +2597,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page13 used
  on input line 124.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1838, page=14, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1847, page=14, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 14>
@@ -2605,7 +2605,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page14 used
  on input line 130.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1839, page=15, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1848, page=15, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 15>
@@ -2613,7 +2613,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page15 used
  on input line 137.
 (pdftex.def)             Requested size: 400.0pt x 221.71056pt.
 
-<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1840, page=16, 1294.31859pt x 71
+<Figures/Helium/Resultats_NeHe2_deconv.pdf, id=1849, page=16, 1294.31859pt x 71
 7.42749pt>
 File: Figures/Helium/Resultats_NeHe2_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe2_deconv.pdf, page 16>
@@ -2623,7 +2623,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe2_deconv.pdf, page16 used
 )
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Resultats_NeHe6_deconv.pdf_te
 x
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1841, page=1, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1850, page=1, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 1>
@@ -2631,7 +2631,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page1 used
 on input line 52.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1842, page=2, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1851, page=2, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 2>
@@ -2639,7 +2639,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page2 used
 on input line 58.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1843, page=3, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1852, page=3, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 3>
@@ -2647,7 +2647,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page3 used
 on input line 65.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1844, page=4, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1853, page=4, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 4>
@@ -2655,7 +2655,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page4 used
 on input line 71.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1845, page=5, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1854, page=5, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 5>
@@ -2663,7 +2663,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page5 used
 on input line 76.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1846, page=6, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1855, page=6, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 6>
@@ -2671,7 +2671,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page6 used
 on input line 82.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1847, page=7, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1856, page=7, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 7>
@@ -2679,7 +2679,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page7 used
 on input line 88.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1848, page=8, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1857, page=8, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 8>
@@ -2687,7 +2687,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page8 used
 on input line 93.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1849, page=9, 1336.75803pt x 758
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1858, page=9, 1336.75803pt x 758
 .773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 9>
@@ -2695,7 +2695,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page9 used
 on input line 98.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1850, page=10, 1336.75803pt x 75
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1859, page=10, 1336.75803pt x 75
 8.773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 10>
@@ -2703,7 +2703,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page10 used
  on input line 104.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1851, page=11, 1336.75803pt x 75
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1860, page=11, 1336.75803pt x 75
 8.773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 11>
@@ -2711,7 +2711,7 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page11 used
  on input line 111.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1852, page=12, 1336.75803pt x 75
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1861, page=12, 1336.75803pt x 75
 8.773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 12>
@@ -2719,70 +2719,17 @@ Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page12 used
  on input line 117.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
 
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1853, page=13, 1336.75803pt x 75
+<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=1862, page=13, 1336.75803pt x 75
 8.773pt>
 File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
  <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 13>
 Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page13 used
  on input line 123.
 (pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/ProfilTemporel_Lund.pdf_tex
-<Figures/Helium/ProfilTemporel_Lund.pdf, id=1854, page=1, 997.8066pt x 689.5674
-3pt>
-File: Figures/Helium/ProfilTemporel_Lund.pdf Graphic file (type pdf)
- <use Figures/Helium/ProfilTemporel_Lund.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel_Lund.pdf, page1 used on 
-input line 52.
-(pdftex.def)             Requested size: 200.0pt x 138.21617pt.
-
-<Figures/Helium/ProfilTemporel_Lund.pdf, id=1855, page=2, 997.8066pt x 689.5674
-3pt>
-File: Figures/Helium/ProfilTemporel_Lund.pdf Graphic file (type pdf)
- <use Figures/Helium/ProfilTemporel_Lund.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel_Lund.pdf, page2 used on 
-input line 61.
-(pdftex.def)             Requested size: 200.0pt x 138.21617pt.
-
-<Figures/Helium/ProfilTemporel_Lund.pdf, id=1856, page=3, 997.8066pt x 689.5674
-3pt>
-File: Figures/Helium/ProfilTemporel_Lund.pdf Graphic file (type pdf)
- <use Figures/Helium/ProfilTemporel_Lund.pdf, page 3>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel_Lund.pdf, page3 used on 
-input line 65.
-(pdftex.def)             Requested size: 200.0pt x 138.21617pt.
-
-<Figures/Helium/ProfilTemporel_Lund.pdf, id=1857, page=4, 997.8066pt x 689.5674
-3pt>
-File: Figures/Helium/ProfilTemporel_Lund.pdf Graphic file (type pdf)
- <use Figures/Helium/ProfilTemporel_Lund.pdf, page 4>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel_Lund.pdf, page4 used on 
-input line 72.
-(pdftex.def)             Requested size: 200.0pt x 138.21617pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Wicken_Gabor.pdf_tex
-<Figures/Helium/Wicken_Gabor.pdf, id=1858, page=1, 545.50008pt x 235.6398pt>
-File: Figures/Helium/Wicken_Gabor.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Wicken_Gabor.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Wicken_Gabor.pdf, page1 used on input l
-ine 52.
-(pdftex.def)             Requested size: 400.0pt x 172.79585pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Wigner_Th.pdf_tex
-<Figures/Helium/Wigner_Th.pdf, id=1859, page=1, 1101.36469pt x 765.6103pt>
-File: Figures/Helium/Wigner_Th.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Wigner_Th.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Wigner_Th.pdf, page1 used on input line
- 52.
-(pdftex.def)             Requested size: 400.0pt x 278.06108pt.
-) [66] [67 <C:/Users/lbarreau/Documents/these/Figures/Helium/FinitePulses_Alvar
-o.pdf> <C:/Users/lbarreau/Documents/these/Figures/Helium/Axes_Rabbit_HeLund_NeH
-e2_deconv.pdf
+) [66]
+[67 <C:/Users/lbarreau/Documents/these/Figures/Helium/FinitePulses_Alvaro.pdf> 
+<C:/Users/lbarreau/Documents/these/Figures/Helium/Axes_Rabbit_HeLund_NeHe2_deco
+nv.pdf
 
 pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
 /Axes_Rabbit_HeLund_NeHe2_deconv.pdf): PDF inclusion: multiple pdfs with page g
@@ -2959,30 +2906,63 @@ uded in a single page
 pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
 /Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
 uded in a single page
->] [69 <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_Lund.pd
-f> <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_Lund.pdf
+>] (C:\Users\lbarreau\Documents\these\Figures/Helium/Temporel_38_Lund.pdf_tex
+<Figures/Helium/Temporel_38_Lund.pdf, id=1928, 840.00433pt x 631.8387pt>
+File: Figures/Helium/Temporel_38_Lund.pdf Graphic file (type pdf)
+
+<use Figures/Helium/Temporel_38_Lund.pdf>
+Package pdftex.def Info: Figures/Helium/Temporel_38_Lund.pdf used on input line
+ 52.
+(pdftex.def)             Requested size: 259.99756pt x 195.55945pt.
+)
+(C:\Users\lbarreau\Documents\these\Figures/Helium/Wicken_38_Lund.pdf_tex
+<Figures/Helium/Wicken_38_Lund.pdf, id=1929, 683.2717pt x 652.54091pt>
+File: Figures/Helium/Wicken_38_Lund.pdf Graphic file (type pdf)
+
+<use Figures/Helium/Wicken_38_Lund.pdf>
+Package pdftex.def Info: Figures/Helium/Wicken_38_Lund.pdf used on input line 5
+2.
+(pdftex.def)             Requested size: 240.00244pt x 229.2092pt.
+)
+(C:\Users\lbarreau\Documents\these\Figures/Helium/LundGabors_38.pdf_tex
+<Figures/Helium/LundGabors_38.pdf, id=1930, 320.34862pt x 893.46248pt>
+File: Figures/Helium/LundGabors_38.pdf Graphic file (type pdf)
+
+<use Figures/Helium/LundGabors_38.pdf>
+Package pdftex.def Info: Figures/Helium/LundGabors_38.pdf used on input line 52
+.
+(pdftex.def)             Requested size: 200.0pt x 557.81282pt.
+)
+(C:\Users\lbarreau\Documents\these\Figures/Helium/Wigner_SB38_square.pdf_tex
+<Figures/Helium/Wigner_SB38_square.pdf, id=1931, 621.0477pt x 520.70094pt>
+File: Figures/Helium/Wigner_SB38_square.pdf Graphic file (type pdf)
+
+<use Figures/Helium/Wigner_SB38_square.pdf>
+Package pdftex.def Info: Figures/Helium/Wigner_SB38_square.pdf used on input li
+ne 52.
+(pdftex.def)             Requested size: 400.0pt x 335.3768pt.
+)
+(C:\Users\lbarreau\Documents\these\Figures/Helium/Wigner_Th.pdf_tex
+<Figures/Helium/Wigner_Th.pdf, id=1932, page=1, 1101.36469pt x 765.6103pt>
+File: Figures/Helium/Wigner_Th.pdf Graphic file (type pdf)
+
+<use Figures/Helium/Wigner_Th.pdf, page 1>
+Package pdftex.def Info: Figures/Helium/Wigner_Th.pdf, page1 used on input line
+ 52.
+(pdftex.def)             Requested size: 400.0pt x 278.06108pt.
+) [69] [70 <C:/Users/lbarreau/Documents/these/Figures/Helium/Temporel_38_Lund.p
+df> <C:/Users/lbarreau/Documents/these/Figures/Helium/Wicken_38_Lund.pdf
 
 pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/ProfilTemporel_Lund.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_Lund.pdf
+/Wicken_38_Lund.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>] [71 <C:/Users/lbarreau/Documents/these/Figures/Helium/LundGabors_38.pdf>]
+[72 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wigner_SB38_square.pdf>]
+[73 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wigner_Th.pdf>] [74
 
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/ProfilTemporel_Lund.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_Lund.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/ProfilTemporel_Lund.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Wicken_Gabor.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Wicken_Gabor.pdf): PDF inclusion: multiple pdfs with page group included in a 
-single page
->] [70 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wigner_Th.pdf>]
+]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/Kaldun.pdf_tex
-<Figures/Helium/Kaldun.pdf, id=2169, page=1, 223.54414pt x 261.36041pt>
+<Figures/Helium/Kaldun.pdf, id=2077, page=1, 223.54414pt x 261.36041pt>
 File: Figures/Helium/Kaldun.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Kaldun.pdf, page 1>
@@ -2990,23 +2970,21 @@ Package pdftex.def Info: Figures/Helium/Kaldun.pdf, page1 used on input line 52
 .
 (pdftex.def)             Requested size: 200.0pt x 233.84232pt.
 
-<Figures/Helium/Kaldun.pdf, id=2170, page=2, 223.54414pt x 261.36041pt>
+<Figures/Helium/Kaldun.pdf, id=2078, page=2, 223.54414pt x 261.36041pt>
 File: Figures/Helium/Kaldun.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Kaldun.pdf, page 2>
 Package pdftex.def Info: Figures/Helium/Kaldun.pdf, page2 used on input line 59
 .
 (pdftex.def)             Requested size: 200.0pt x 233.84232pt.
-) [71
-
-] [72 <C:/Users/lbarreau/Documents/these/Figures/Helium/Kaldun.pdf> <C:/Users/l
-barreau/Documents/these/Figures/Helium/Kaldun.pdf
+) [75] [76 <C:/Users/lbarreau/Documents/these/Figures/Helium/Kaldun.pdf> <C:/Us
+ers/lbarreau/Documents/these/Figures/Helium/Kaldun.pdf
 
 pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
 /Kaldun.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >]
-Underfull \hbox (badness 1168) in paragraph at lines 525--527
+Underfull \hbox (badness 1168) in paragraph at lines 578--580
 \T1/ppl/m/n/10.95 (+20) En sup-po-sant connues les condi-tions ini-tiales $\OML
 /zplm/m/it/10.95 c[] \U/MnSymbolD/m/n/10.95   []$ \T1/ppl/m/n/10.95 (+20) et $\
 OML/zplm/m/it/10.95 c[] \U/MnSymbolD/m/n/10.95  $
@@ -3016,63 +2994,63 @@ OML/zplm/m/it/10.95 c[] \U/MnSymbolD/m/n/10.95  $
 Class memoir Warning: The material used in the headers is too large
 (27.2pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 537.
+(in both cases you will find help in the memoir manual). on input line 590.
 
 
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
-[73] [74]
+[77] [78]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
-[75]
+[79]
 (C:\Users\lbarreau\Documents\these\Figures/Helium/SectionEfficace_Kaldun_axes.p
 df_tex
-<Figures/Helium/SectionEfficace_Kaldun_axes.pdf, id=2282, 1072.68858pt x 685.33
+<Figures/Helium/SectionEfficace_Kaldun_axes.pdf, id=2190, 1072.68858pt x 685.33
 182pt>
 File: Figures/Helium/SectionEfficace_Kaldun_axes.pdf Graphic file (type pdf)
  <use Figures/Helium/SectionEfficace_Kaldun_axes.pdf>
 Package pdftex.def Info: Figures/Helium/SectionEfficace_Kaldun_axes.pdf used on
  input line 52.
 (pdftex.def)             Requested size: 400.0pt x 255.55568pt.
-) [76 <C:/Users/lbarreau/Documents/these/Figures/Helium/SectionEfficace_Kaldun_
+) [80 <C:/Users/lbarreau/Documents/these/Figures/Helium/SectionEfficace_Kaldun_
 axes.pdf>]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
-[77] (C:\Users\lbarreau\Documents\these\Figures/Helium/Chu.pdf_tex
-<Figures/Helium/Chu.pdf, id=3053, 430.19464pt x 599.69199pt>
+[81] (C:\Users\lbarreau\Documents\these\Figures/Helium/Chu.pdf_tex
+<Figures/Helium/Chu.pdf, id=2961, 430.19464pt x 599.69199pt>
 File: Figures/Helium/Chu.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Chu.pdf>
 Package pdftex.def Info: Figures/Helium/Chu.pdf used on input line 52.
 (pdftex.def)             Requested size: 240.00244pt x 334.56244pt.
-) [78 <C:/Users/lbarreau/Documents/these/Figures/Helium/Chu.pdf>]
+) [82 <C:/Users/lbarreau/Documents/these/Figures/Helium/Chu.pdf>]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
-[79] (C:\Users\lbarreau\Documents\these\Figures/Helium/Gruson_vs_Kaldun.pdf_tex
-<Figures/Helium/Gruson_vs_Kaldun.pdf, id=3136, 578.24571pt x 497.2521pt>
+[83] (C:\Users\lbarreau\Documents\these\Figures/Helium/Gruson_vs_Kaldun.pdf_tex
+<Figures/Helium/Gruson_vs_Kaldun.pdf, id=3043, 578.24571pt x 497.2521pt>
 File: Figures/Helium/Gruson_vs_Kaldun.pdf Graphic file (type pdf)
 
 <use Figures/Helium/Gruson_vs_Kaldun.pdf>
 Package pdftex.def Info: Figures/Helium/Gruson_vs_Kaldun.pdf used on input line
  52.
 (pdftex.def)             Requested size: 320.00122pt x 275.18909pt.
-)) [80 <C:/Users/lbarreau/Documents/these/Figures/Helium/Gruson_vs_Kaldun.pdf>]
+)) [84 <C:/Users/lbarreau/Documents/these/Figures/Helium/Gruson_vs_Kaldun.pdf>]
 
 (C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
 (C:\Users\lbarreau\Documents\these\Thesis_LB.brf)
 \tf@brf=\write7
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
- [81
+ [85
 
 
-] [82] [83]
+] [86] [87]
 Missing character: There is no l in font MnSymbolS9!
-) [84] [85
+) [88] [89
 
 
 ]
@@ -3090,20 +3068,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Thesis_LB.out' has not changed.
-(rerunfilecheck)             Checksum: B23C02CE5892D0993F48F1C0D4278F08;4400.
+(rerunfilecheck)             Checksum: 57B4723C249C4AD7411D58F8A0A8AA12;4522.
 Package rerunfilecheck Info: File `Thesis_LB.brf' has not changed.
-(rerunfilecheck)             Checksum: 5A29261D50F09C3EE2B205C9B111A214;6701.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 6500360A7043C864B67CEC7EFD675E90;6760.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 31769 strings out of 493921
- 548844 string characters out of 3147273
- 721885 words of memory out of 3000000
- 33265 multiletter control sequences out of 15000+200000
+ 31803 strings out of 493921
+ 549500 string characters out of 3147273
+ 720494 words of memory out of 3000000
+ 33279 multiletter control sequences out of 15000+200000
  149148 words of font info for 694 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
  46i,18n,38p,10393b,1008s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3132,9 +3106,9 @@ m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on Thesis_LB.pdf (91 pages, 19802242 bytes).
+Output written on Thesis_LB.pdf (95 pages, 20023942 bytes).
 PDF statistics:
- 3539 PDF objects out of 3580 (max. 8388607)
- 485 named destinations out of 1000 (max. 500000)
- 88868 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 3449 PDF objects out of 3580 (max. 8388607)
+ 499 named destinations out of 1000 (max. 500000)
+ 88871 words of extra memory for PDF output out of 89155 (max. 10000000)
 
