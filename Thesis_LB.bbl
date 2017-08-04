@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{76}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -483,6 +483,11 @@ V{\'e}niard V, Ta{\"i}eb R, et Maquet A.
   harmonic radiation}.
 \newblock Phys. Rev. Lett. \textbf{74},~4161 (1995).
 
+\bibitem[Ville(1948)]{Ville1948}
+Ville J.
+\newblock \emph{Th{\'e}orie et applications de la notion de signal analytique}.
+\newblock Cables et transmission \textbf{2},~61--74 (1948).
+
 \bibitem[Wang et~al.(2010)Wang, Chini, Chen, Zhang, He, Cheng, Wu, Thumm, et
   Chang]{WangPRL2010}
 Wang H, Chini M, Chen S, Zhang C, He F, Cheng Y, Wu Y, Thumm U, et Chang Z.
@@ -510,6 +515,11 @@ Wehlitz R, Luki\ifmmode~\acute{c}\else \'{c}\fi{} D, et Bluett JB.
 Wickenhauser M, Burgd{\"o}rfer J, Krausz F, et Drescher M.
 \newblock \emph{Time resolved fano resonances}.
 \newblock Phys. Rev. Lett. \textbf{94} (2005).
+
+\bibitem[Wigner(1932)]{WignerPR1932}
+Wigner E.
+\newblock \emph{On the quantum correction for thermodynamic equilibrium}.
+\newblock Phys. Rev. \textbf{40},~749--759 (1932).
 
 \bibitem[Wigner(1955)]{WignerPR1955}
 Wigner E.

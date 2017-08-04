@@ -1,0 +1,66 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Wigner_SB38_square_SpectreDivisePar3.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{575.77675059bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.86721607)%
+    \put(0,0){\includegraphics[width=\unitlength]{Wigner_SB38_square_SpectreDivisePar3.pdf}}%
+    \put(0.15221812,0.17014946){\color[rgb]{0,0,0}\rotatebox{-37.33201053}{\makebox(0,0)[lb]{\smash{Temps (fs)}}}}%
+    \put(0.06617815,0.36624099){\color[rgb]{0,0,0}\rotatebox{89.99078496}{\makebox(0,0)[lb]{\smash{WV(t, E) (u. arb.)}}}}%
+    \put(0.94404392,0.78448731){\color[rgb]{0,0,0}\rotatebox{-0.00921504}{\makebox(0,0)[lb]{\smash{150}}}}%
+    \put(0.94404273,0.6399863){\color[rgb]{0,0,0}\rotatebox{-0.00921504}{\makebox(0,0)[lb]{\smash{100}}}}%
+    \put(0.94404144,0.48436984){\color[rgb]{0,0,0}\rotatebox{-0.00921504}{\makebox(0,0)[lb]{\smash{50}}}}%
+    \put(0.94404021,0.33431092){\color[rgb]{0,0,0}\rotatebox{-0.00921504}{\makebox(0,0)[lb]{\smash{0}}}}%
+    \put(0.94403895,0.18147337){\color[rgb]{0,0,0}\rotatebox{-0.00921504}{\makebox(0,0)[lb]{\smash{-50}}}}%
+    \put(0.45860972,-0.00026839){\color[rgb]{0,0,0}\rotatebox{20.03022268}{\makebox(0,0)[lb]{\smash{Energie du photoélectron (eV)}}}}%
+    \put(0.37175697,0.70457237){\color[rgb]{0.85098039,0.3254902,0.09803922}\makebox(0,0)[lb]{\smash{($\times \frac{1}{3}$)}}}%
+    \put(0.57526566,0.33701949){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{b}}}%
+    \put(0.42922567,0.32104638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{a}}}%
+    \put(0.52141347,0.28910014){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c}}}%
+  \end{picture}%
+\endgroup%

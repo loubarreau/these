@@ -7,7 +7,7 @@
 % Reconstruction de sp2+ toute seule et des deux résonances, autres représentations, POE à deux résonances
 % Influence de l'intensité d'habillage sur q
 %% Comparaison avec l'absorption transitoire. Gruson vs Kaldun.
-Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{via} les états se trouvant sous le seuil $N=2$ de He$^+$. Comme nous l'avons vu précédemment, ces états sont étudiés depuis les débuts de la spectroscopie(\mycite{FanoPR1961},\mycite{MaddenCodling1965}, figure \ref{fig:Beutler}(b)). Ils possèdent la particularité d'être des états doublement excités, ce qui fait de l'hélium le système le plus simple pour étudier les corrélations électroniques. Par ailleurs, l'hélium est modélisable \textit{ab initio}, ce qui rend l'expérience facilement confrontable à la théorie.
+Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{via} les états se trouvant sous le seuil $N=2$ de He$^+$. Comme nous l'avons vu précédemment, ces états sont étudiés depuis les débuts de la spectroscopie(\mycite{FanoPR1961},\mycite{MaddenCodling1965}, figure \ref{fig:Beutler}(b)). Ils possèdent la particularité d'être des états doublement excités, ce qui fait de l'hélium le système le plus simple pour étudier les corrélations électroniques. Par ailleurs, l'hélium est modélisable \textit{ab initio}, ce qui rend l'expérience facilement confrontable à la théorie. Ces résonances étroites peuvent être excitées sélectivement grâce à l'accordabilité du laser de génération, offrant l'accordabilité dans l'XUV \textit{via} la GHOE.
 
 Dans cette partie, nous présenterons d'abord les résultats des mesures de phase de la transition vers la résonance $2s2p$ effectuées à Saclay par interférométrie RABBIT puis par une nouvelle méthode de RABBIT résolue spectralement ("Rainbow RABBIT"). Ensuite, nous montrerons comment les mesures de Rainbow RABBIT permettent d'obtenir toute la dynamique d'autoionisation ainsi que la construction du profil de la résonance au cours du temps. Dans un troisième chapitre, nous présenterons les résultats que nous avons obtenus en exportant la technique Rainbow RABBIT dans l'équipe d'Anne L'Huillier à Lund, en particulier l'étude d'une seconde résonance d'autoionisation ($sp3^+$) et de l'influence de l'intensité d'habillage sur le profil de raie. Enfin, nous comparerons le Rainbow RABBIT et l'absorption transitoire attoseconde pour l'étude des dynamiques d'autoionisation.
 
@@ -293,7 +293,7 @@ où l'on utilise les notations du chapitre \ref{chap:ResonancesFano}, et $\delta
 
 \section{Construction du profil spectral de la résonance au cours du temps}
 \label{sec:ConstructionResonance}
-\`{A} partir de l'amplitude et de la phase temporelles du paquet d'onde électronique résonant (figure \ref{fig:ProfilTemporel}), il est possible d'obtenir la construction du profil spectral au cours du temps, de manière similaire aux travaux de \mycite{WickenhauserPRL2005} présentés au chapitre \ref{chap:ResonancesFano}, figure \ref{fig:Wickenhauser}. Pour cela, on introduit une analyse temps-énergie basée sur une transformée de Fourier limitée
+\`{A} partir de l'amplitude et de la phase temporelles du paquet d'onde électronique résonant (figure \ref{fig:ProfilTemporel}), il est possible d'obtenir la construction du profil spectral au cours du temps, de manière similaire aux travaux de \mycite{WickenhauserPRL2005} présentés au chapitre \ref{chap:ResonancesFano}, figure \ref{fig:Wickenhauser}. Pour cela, on introduit une analyse temps-énergie basée sur une transformée de Fourier locale
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
@@ -438,15 +438,9 @@ où l'on utilise les mêmes approximations qu'au paragraphe \ref{subsec:POE_2pho
 \begin{equation}
 \left| M^{\text{res}}(E) \right| \approx A_{38}(E)
 \end{equation}
-à partir des phases et amplitudes déconvoluées du spectromètre (figure \ref{fig:Resultats_NeHe2_deconv}). L'intensité et la phase temporelles du paquet d'onde \ref{eq:POE2photons_2s2p_Lund} sont représentés figure \ref{fig:ProfilTemporel_Lund}. On retrouve les caractéristiques associées au processus d'autoionisation. Ces résultats peuvent être comparés à ceux de Saclay (figure \ref{fig:ProfilTemporel}):
-\begin{enumerate}[label=\textbullet]
-\item Une intensité gaussienne centrée en $t = 0$ correspondant à l'ionisation directe. La largeur temporelle associée est la durée limitée par transformée de Fourier de l'harmonique excitatrice: Saclay 5 fs $\leftrightarrow$ 400 meV, Lund 7.7 fs $\leftrightarrow$ 230 meV.
-\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par le spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
-\item Un minimum d'intensité associé à un saut de phase de $\approx$ 2 rad vers $t = 7$ fs, signature de l'interférence entre les deux processus d'ionisation aux temps courts. La position exacte dans le temps de cette interférence dépend des conditions d'excitation et d'habillage, et est différente dans les deux expériences. 
-\end{enumerate}
+à partir des phases et amplitudes déconvoluées du spectromètre (figure \ref{fig:Resultats_NeHe2_deconv}). L'intensité et la phase temporelles du paquet d'onde \ref{eq:POE2photons_2s2p_Lund} sont représentés figure \ref{fig:ProfilTemporel_Lund}.
 
-
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \def\svgwidth{0.65\textwidth}
 \import{Figures/Helium/}{Temporel_38_Lund.pdf_tex}
@@ -454,42 +448,127 @@ où l'on utilise les mêmes approximations qu'au paragraphe \ref{subsec:POE_2pho
 \label{fig:ProfilTemporel_Lund}
 \end{figure}
 
-\begin{figure}
+On retrouve les caractéristiques associées au processus d'autoionisation. Ces résultats peuvent être comparés à ceux de Saclay (figure \ref{fig:ProfilTemporel}):
+\begin{enumerate}[label=\textbullet]
+\item Une intensité gaussienne centrée en $t = 0$ correspondant à l'ionisation directe. La largeur temporelle associée est la durée limitée par transformée de Fourier de l'harmonique excitatrice: Saclay 5 fs $\leftrightarrow$ 400 meV, Lund 7.7 fs $\leftrightarrow$ 230 meV.
+\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par le spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
+\item Un minimum d'intensité associé à un saut de phase de $\approx$ 2 rad vers $t = 7$ fs, signature de l'interférence entre les deux processus d'ionisation aux temps courts. La position exacte dans le temps de cette interférence dépend des conditions d'excitation et d'habillage, et est différente dans les deux expériences. 
+\end{enumerate}
+Dans les conditions de l'expérience de Lund, le paquet d'onde électronique à deux photons reconstruit à partir du pic satellite n'est pas rigoureusement la réplique du paquet d'onde résonant. Cependant, la dynamique observée est très semblable à la dynamique d'autoionisation à un photon mise en évidence à Saclay (chapitre \ref{chap:HeSaclay_reconstruction}).
+
+\begin{figure}[h]
 \centering
-\def\svgwidth{0.6\textwidth}
+\def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Wicken_38_Lund.pdf_tex}
-\caption{Bla.}
+\caption{Construction du profil spectral de la résonance au cours du temps. (a) Spectre de photoélectrons tracé en fonction de la borne supérieure d'intégration de la transformée de Fourier inverse. (b) Profil spectral de (a) toutes les 3 fs. Le spectre reproduit d'abord le spectre d'excitation (bleu) puis l'on observe l'apparition du profil de la résonance à partir de $\approx$ 6 fs. Après $\approx$ 24 fs, le spectre a convergé vers le spectre mesuré (pointillés noirs).}
 \label{fig:Wicken_38_Lund}
 \end{figure}
 
-\begin{figure}
+\paragraph*{Construction du profil spectral au cours du temps} De la même manière, on peut utiliser la représentation temps-énergie définie par l'équation \ref{eq:Wicken} et appliquer une transformée de Fourier locale au profil temporel:
+\begin{equation}
+W(E, \: t_{\text{acc}}) = \int_{- \infty}^{t_{\text{acc}}} \tilde{M}^{\text{res}}(t) \times \rme^{i E t / \hbar} \: \rmd t
+\end{equation}
+Le résultat, présenté figure \ref{fig:Wicken_38_Lund} est ici également similaire à la figure \ref{fig:Wickenhauserisation}: le spectre de photoélectrons reproduit d'abord le spectre gaussien de l'impulsion d'excitation, puis l'on observe progressivement l'apparition du profil de raie caractéristique de la résonance de Fano (vers 36.6-36.7 eV).
+
+\begin{figure}[h]
 \centering
-\def\svgwidth{0.5\textwidth}
+\def\svgwidth{\textwidth}
 \import{Figures/Helium/}{LundGabors_38.pdf_tex}
-\caption{Bla.}
+\caption{Spectre de photoélectrons instantané. (a-c) Module carré de la transformée de Gabor du paquet d'onde électronique $|G(E, \: \tau)|^2$(équation \ref{eq:Gabor}) avec une fenêtre $g$ gaussienne de largeur à mi-hauteur 5 fs (a), 50 fs (b) et 20 fs (c). (d) Profil spectral de (c) toutes les 3 fs.}
 \label{fig:LundGabors_38}
 \end{figure}
 
-\begin{figure}
+\paragraph*{Spectre de photoélectrons instantané} En utilisant une transformée de Fourier locale différente, il est possible d'obtenir le spectre de photoélectrons émis à différents instants de l'interaction. On utilise ici la transformation de Gabor du paquet d'onde électronique, transformée de Fourier inverse de $\tilde{M}^{\text{res}}(t)$ multiplié par une fenêtre temporelle $g$:
+\begin{equation}
+G(E, \: \tau) =  \int_{- \infty}^{+\infty} g(t - \tau) \tilde{M}^{\text{res}}(t) \: \rme^{i E t / \hbar} \: \rmd t
+\label{eq:Gabor}
+\end{equation} 
+On choisit ici une fonction gaussienne pour la fenêtre $g$. La figure \ref{fig:LundGabors_38} montre $|G(E, \: \tau)|^2$ pour différentes largeurs à mi-hauteur de $g$. Naturellement, la largeur de la fenêtre est choisie pour optimiser le compromis entre résolution temporelle et spectrale. Une fenêtre de petite largeur temporelle (5 fs, figure \ref{fig:LundGabors_38}a) montre que l'émission est confinée temporellement entre -10 et 20 fs, mais ne permet pas de distinguer les fréquences émises aux différents instants. Au contraire une fenêtre de grande largeur temporelle (50 fs, figure \ref{fig:LundGabors_38}b) montre que l'émission possède un spectre asymétrique, mais ne permet pas de résoudre le processus temporellement. On choisit alors une fenêtre de largeur 20 fs (figure \ref{fig:LundGabors_38}c), qui permet d'observer le spectre des photoélectrons émis à différents instants. La figure \ref{fig:LundGabors_38}d montre ces spectres toutes les 3 fs entre -10 et +23 fs. Aux temps négatifs, le spectre émis est gaussien et reproduit le spectre d'excitation. Lorsque $\tau$ augmente au-delà de la durée de l'impulsion XUV (durée limitée par transformée de Fourier de l'harmonique 40), seuls les photoélectrons issus de l'autoionisation sont émis, ce qui est visible sur le spectre très asymétrique à $\tau =$ 8 et 11 fs. Une fois que toute la population de la résonance est vidée, plus aucun photoélectron n'est émis.
+
+\paragraph*{Distribution de Wigner-Ville} Les deux représentations temps-énergie précédentes reposent sur des transformées de Fourier locales. La première permet d'observer la modification progressive du spectre de photoélectrons au cours du temps due à l'interférence entre les chemins d'ionisation direct et résonant; elle ne permet pas de distinguer temporellement ces deux processus. La seconde montre le spectre de photoélectrons instantané et met en évidence la forte asymétrie du spectre émis lorsque l'impulsion excitatrice est passée, résultant de l'émission de photoélectrons résonants uniquement, mais les résolutions temporelle et spectrale sont limitées par le principe d'incertitude (ou de Fourier). David Busto de l'université de Lund a alors proposé de représenter la dynamique du paquet d'onde électronique résonant par une distribution de pseudo-probabilité de Wigner-Ville \mycite{WignerPR1932}\mycite{Ville1948}. Cette distribution est définie dans les domaines temporel et fréquentiel: 
+\begin{align}
+WV(t, E) & = \int_{-\infty}^{+\infty} \tilde{M}^{\text{res}}(t + \tau/2) \: \tilde{M}^{\text{res *}}(t - \tau/2) \: \rme^{- i\omega \tau} \rmd \tau \\ & = \frac{1}{2\pi} \int_{-\infty}^{+\infty} M^{\text{res}}(E + \xi/2) \: M^{\text{res *}}(E - \xi/2) \: \rme^{- i\xi t} \rmd \xi
+\end{align}
+et peut être interprétée comme la transformée de Fourier de la fonction d'autocorrélation du paquet d'onde. Elle possède les propriétés suivantes:
+\begin{enumerate}
+\item L'intégrale de la distribution sur le temps est égale au spectre, $\int_{-\infty}^{+\infty} WV(t, E) \rmd t = |M^{\text{res}}(E)|^2$, voir la courbe orange figure \ref{fig:Wigner_SB38}.
+\item L'intégrale de la distribution sur l'énergie est égale au profil temporel, $\int_{-\infty}^{+\infty} WV(t, E) \rmd E = |\tilde{M}^{\text{res}}(t)|^2$, voir la courbe violette figure \ref{fig:Wigner_SB38}. 
+\item La cohérence entre deux composantes d'un paquet d'onde est encodée par des oscillations de la distribution de Wigner-Ville entre ces deux composantes, où la distribution prend des valeurs négatives.
+\end{enumerate}
+
+\begin{figure}[h]
 \centering
 \def\svgwidth{\textwidth}
-\import{Figures/Helium/}{Wigner_SB38_square.pdf_tex}
-\caption{Bla.}
-\label{fig:Wigner_SB38_square}
+\import{Figures/Helium/}{Wigner_SB38_square_SpectreDivisePar3.pdf_tex}
+\caption{Distribution de Wigner-Ville du paquet d'onde électronique résonant WV(t, E) et intégration de cette distribution sur le temps (orange, $\times 1/3$) et l'énergie (violet). Ces sommes sont identiques aux profils présentés figures \ref{fig:Resultats_NeHe2_deconv} et \ref{fig:ProfilTemporel_Lund}, respectivement. Les zones a, b et c sont discutées dans le texte.}
+\label{fig:Wigner_SB38}
 \end{figure}
 
-\begin{figure} [ht]
-\centering
-\def\svgwidth{\textwidth}
-\import{Figures/Helium/}{Wigner_Th.pdf_tex}
-\caption{Bla.}
-\label{fig:Wigner_Th}
-\end{figure}
+La distribution de Wigner-Ville calculée à partir des résultats expérimentaux du pic satellite SB$_{38}$ est représentée figure \ref{fig:Wigner_SB38}. On distingue trois zones dans cette distribution: WV est maximale et positive sur toute la largeur spectrale d'intérêt autour de $t = 0$ (zone a); WV est positive sur une gamme spectrale étroite autour de $E = 35.7$ eV et $0 < t < 15$ fs (zone b); WV oscille et prend des valeurs positives et négatives pour $3 < t < 20$ fs et $35.4 < E < 35.7$ eV (zone c). Afin d'interpréter ces trois domaines, rappelons ici l'expression de la fonction d'onde de l'état autoionisant dans la base des configurations: (équation \ref{eq:BaseDesConfigurations})
+\begin{equation}
+\ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
+\end{equation}
+La fonction d'autocorrélation de cette fonction d'onde possède donc trois termes:  l'autocorrélation des fonctions du continuum, l'autocorrélation de la partie liée, et la corrélation croisée entre l'état lié et les états du continuum. Les zones a, b et c définies précédemment correspondent donc à ces trois termes, respectivement. Cette représentation permet ainsi de distinguer les trois phénomènes dans l'espace temps-énergie.
+
 
 \subsection{Paquet d'onde à deux résonances}
 \label{subsec:Lund2resonances}
-%
-%\section{Influence de l'intensité d'habillage sur le profil de raie}
+On s'intéresse désormais aux dynamiques induites lorsque la longueur d'onde est choisie afin d'exciter simultanément les résonances $2s2p$ et $sp3+$. Les harmoniques 39 et 41 excitent alors de manière cohérente les deux résonances autoionisantes, créant un paquet d'onde électronique complexe. Nous avons vu précédemment que dans les conditions de l'expérience de Lund, \textit{a forciori} dans les conditions d'excitation simultanée avec une largeur de bande IR de 90 nm, le pic satellite n'est en toute rigueur pas une réplique du paquet d'onde à un photon. Cependant, les similitudes entre les dynamiques reconstruites au paragraphe précédent et celles du chapitre \ref{chap:HeSaclay_reconstruction} (ou les calculs du LCPMR??) nous indiquent que cette approximation reste qualitativement valable et que l'élargissement spectral par le photon d'habillage modifie uniquement les durées de vie.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{0.35\textwidth}
+\import{Figures/Helium/}{SB38et42_AmpPha.pdf_tex}
+\caption{Amplitude et phase du paquet d'onde électronique créé par l'excitation cohérente des résonances $2s2p$ et $sp3+$ par les harmoniques 39 et 41 respectivement.}
+\label{fig:2res_AmpPha}
+\end{figure}
+
+On approxime donc les amplitudes et phases du paquet d'onde à celles des pics satellites, comme défini au chapitre \ref{chap:HeSaclay_reconstruction}:
+\begin{align}
+M^{2 \text{res}}(E) & = M_{39}(E) + M_{41}(E) \\
+& = A_{39}(E) \: \rme^{i \theta^{at}_{39}(E)} + A_{41}(E) \: \rme^{i \theta^{at}_{41}(E)} \\
+& \approx A_{38}(E + \hbar \omega) \: \rme^{i \Theta_{38}(E + \hbar \omega)} + A_{42}(E - \hbar \omega) \: \rme^{-i \Theta_{42}(E - \hbar \omega)}
+\end{align}
+L'amplitude et la phase spectrales du paquet d'onde doublement résonant $M^{2 \text{res}}$ sont représentées figure \ref{fig:2res_AmpPha}. La dynamique de ce paquet d'onde est décrite par l'évolution temporelle de $\tilde{M^{2 \text{res}}}(t)$ tel que
+\begin{equation}
+\tilde{M^{2 \text{res}}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{2 \text{res}}(E) \rme^{-i E t / \hbar} \: \rmd E
+\end{equation}
+Afin d'étudier l'influence des résonances sur le paquet d'onde, on le compare à un paquet d'onde de référence $\tilde{M^{\text{ref}}}(t)$ défini par
+\begin{equation}
+\tilde{M^{\text{ref}}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{\text{ref}}(E) \rme^{-i E t / \hbar} \: \rmd E
+\end{equation}
+et 
+\begin{equation}
+M^{\text{ref}}(E) \approx A_{44}(E - \hbar \omega) \: \rme^{i \Theta_{44}(E - \hbar \omega)} + A_{44}(E + \hbar \omega) \: \rme^{i \Theta_{44}(E + \hbar \omega)}
+\end{equation}
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{SB38et42_vs_44et44_temporel.pdf_tex}
+\caption{Profil temporel du paquet d'onde électronique créé par l'excitation cohérente des deux résonances (bleu). Ce profil est comparé à un paquet d'onde de référence créé par l'excitation cohérente d'un continuum lisse (rouge). Le paquet d'onde de référence est obtenu à partir des amplitude et phase spectrale du pic satellite SB$_{44}$ (figure \ref{fig:Resultats_NeHe6_deconv}).}
+\label{fig:2res_temporel}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{SB38et42_vs_44et44_temporel_zoom2-10.pdf_tex}
+\caption{Zoom sur la figure \ref{fig:2res_temporel} entre 2 et 10 fs. Le paquet d'onde doublement résonant (bleu) et le paquet d'onde de référence (rouge) sont déphasés, le retard du premier sur le second augmente au cours du temps, traduisant une augmentation de la fréquence des oscillations.}
+\label{fig:2res_temporel_zoom}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/Helium/}{Gabor_SB38et42_axes.pdf_tex}
+\caption{Spectrogramme du paquet d'onde doublement résonant obtenu par une transformation de Gabor de l'intensité temporelle avec une fenêtre gaussienne 20 fs, en échelle logarithmique. L'émission à $\Delta E \approx $ 3.1 eV correspond aux battements entre les continua excités par les harmoniques, séparés de 2 photons IR en énergie. Aux temps positifs, on remarque l'apparition de la fréquence $\Delta E \approx$ 3.6 eV, correspondant à l'écart énergétique entre les deux résonances.}
+\label{fig:2res_temporel_Gabor}
+\end{figure}
+
+
+
+\section{Influence de l'intensité d'habillage sur le profil de raie}
 
 
 
