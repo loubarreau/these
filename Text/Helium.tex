@@ -380,7 +380,15 @@ où $\sigma(E)$ est la section efficace d'absorption et $\mathcal{H}(E)$ le spec
 
 La largeur $\Delta E$ est d'abord déterminée en déconvoluant le spectre sans habillage (figure \ref{fig:HeLund_WLscan}).......
 
-La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué". Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par le spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
+La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué" (figure \ref{fig:Rabbit_HeLund_2s2p_deconv}). Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par le spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
+
+\begin{figure} [ht]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Rabbit_deconv_NeHe2.pdf_tex}
+\caption{Spectrogrammes RABBIT déconvolués de l'élargissement spectral par le spectromètre de photoélectrons pour les pics satellites 38, 40 et 42.}
+\label{fig:Rabbit_HeLund_2s2p_deconv}
+\end{figure}
 
 \paragraph*{Effets d'impulsions brèves} En effet, l'impulsion d'habillage utilisée est plus large spectralement qu'à Saclay: une largeur de bande de 70 nm correspond ici à $\approx$ 130 meV, à opposer aux 26 meV (TF) de l'impulsion d'habillage du chapitre \ref{chap:HeSaclay_res}.  \mycite{JimenezGalanPRA2016} ont complété le modèle des amplitudes de transitions à deux photons \textit{via} une résonance de Fano présenté au chapitre \ref{chap:2photons_et_Fano} pour inclure l'effet de la largeur de bande de l'impulsion d'habillage. Si l'harmonique et l'impulsion d'habillage sont larges spectralement, une énergie particulière du pic satellite peut être obtenue par différentes combinaisons $\omega + \Omega$ de photons IR et XUV, respectivement. Ainsi les amplitudes de transitions à deux photons sont "mélangées" dans le pic satellite, ce qui déforme la phase $\arg[M^{(2)}_{\text{Fano, ib}}]$. La figure \ref{fig:FinitePulses_Alvaro} présente la phase de l'amplitude de transition à deux photons calculée par \mycite{JimenezGalanPRA2016} pour une résonance de Fano avec $q = 1$ et $\gamma = 0$ pour différentes largeurs spectrales de l'impulsion d'habillage. Plus le spectre IR est large, plus la phase du moment de transition est déformée: les variations de phase sont plus faibles et étalées spectralement. Cet effet est plus complexe qu'une simple convolution par la largeur de l'impulsion IR, il n'est donc pas possible de s'en affranchir avec un algorithme de déconvolution. Dans ces conditions, le paquet d'onde électronique du pic satellite n'est pas une exacte réplique du paquet d'onde électronique résonant, comme nous l'avons considéré au chapitre \ref{chap:HeSaclay_reconstruction}. %+ commenter Alvaro, + les finite pulses ont aussi un effet sur l'amplitude
 
@@ -390,14 +398,6 @@ La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de re
 \import{Figures/Helium/}{FinitePulses_Alvaro.pdf_tex}
 \caption{Phase de l'amplitude de transition à deux photons \textit{via} une résonance de Fano avec $q = 1$ et $\gamma = 0$ en fonction de la largeur spectrale à mi-hauteur de l'impulsion d'habillage: monochromatique (bleu), $\approx$ 60 meV (vert), $\approx$ 90 meV (jaune), $\approx$ 125 meV (rouge). Extrait de \mycite{JimenezGalanPRA2016}.}
 \label{fig:FinitePulses_Alvaro}
-\end{figure}
-
-\begin{figure} [ht]
-\centering
-\def\svgwidth{\textwidth}
-\import{Figures/Helium/}{Axes_Rabbit_HeLund_NeHe2_deconv.pdf_tex}
-\caption{Bla.}
-\label{fig:Rabbit_HeLund_2s2p_deconv}
 \end{figure}
 
 \begin{figure} [ht]
@@ -451,7 +451,7 @@ où l'on utilise les mêmes approximations qu'au paragraphe \ref{subsec:POE_2pho
 On retrouve les caractéristiques associées au processus d'autoionisation. Ces résultats peuvent être comparés à ceux de Saclay (figure \ref{fig:ProfilTemporel}):
 \begin{enumerate}[label=\textbullet]
 \item Une intensité gaussienne centrée en $t = 0$ correspondant à l'ionisation directe. La largeur temporelle associée est la durée limitée par transformée de Fourier de l'harmonique excitatrice: Saclay 5 fs $\leftrightarrow$ 400 meV, Lund 7.7 fs $\leftrightarrow$ 230 meV.
-\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par le spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
+\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement avec le temps, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par le spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
 \item Un minimum d'intensité associé à un saut de phase de $\approx$ 2 rad vers $t = 7$ fs, signature de l'interférence entre les deux processus d'ionisation aux temps courts. La position exacte dans le temps de cette interférence dépend des conditions d'excitation et d'habillage, et est différente dans les deux expériences. 
 \end{enumerate}
 Dans les conditions de l'expérience de Lund, le paquet d'onde électronique à deux photons reconstruit à partir du pic satellite n'est pas rigoureusement la réplique du paquet d'onde résonant. Cependant, la dynamique observée est très semblable à la dynamique d'autoionisation à un photon mise en évidence à Saclay (chapitre \ref{chap:HeSaclay_reconstruction}).
@@ -529,13 +529,14 @@ M^{2 \text{res}}(E) & = M_{39}(E) + M_{41}(E) \\
 & = A_{39}(E) \: \rme^{i \theta^{at}_{39}(E)} + A_{41}(E) \: \rme^{i \theta^{at}_{41}(E)} \\
 & \approx A_{38}(E + \hbar \omega) \: \rme^{i \Theta_{38}(E + \hbar \omega)} + A_{42}(E - \hbar \omega) \: \rme^{-i \Theta_{42}(E - \hbar \omega)}
 \end{align}
-L'amplitude et la phase spectrales du paquet d'onde doublement résonant $M^{2 \text{res}}$ sont représentées figure \ref{fig:2res_AmpPha}. La dynamique de ce paquet d'onde est décrite par l'évolution temporelle de $\tilde{M^{2 \text{res}}}(t)$ tel que
+L'amplitude et la phase spectrales du paquet d'onde doublement résonant $M^{2 \text{res}}$ sont représentées figure \ref{fig:2res_AmpPha} (déconvoluées du spectromètre). La dynamique de ce paquet d'onde est décrite par l'évolution temporelle de $\tilde{M}^{2 \text{res}}(t)$ tel que
 \begin{equation}
-\tilde{M^{2 \text{res}}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{2 \text{res}}(E) \rme^{-i E t / \hbar} \: \rmd E
+\tilde{M}^{2 \text{res}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{2 \text{res}}(E) \rme^{-i E t / \hbar} \: \rmd E
+\label{eq:TF_M2res}
 \end{equation}
 Afin d'étudier l'influence des résonances sur le paquet d'onde, on le compare à un paquet d'onde de référence $\tilde{M^{\text{ref}}}(t)$ défini par
 \begin{equation}
-\tilde{M^{\text{ref}}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{\text{ref}}(E) \rme^{-i E t / \hbar} \: \rmd E
+\tilde{M}^{\text{ref}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{\text{ref}}(E) \rme^{-i E t / \hbar} \: \rmd E
 \end{equation}
 et 
 \begin{equation}
@@ -549,6 +550,8 @@ M^{\text{ref}}(E) \approx A_{44}(E - \hbar \omega) \: \rme^{i \Theta_{44}(E - \h
 \caption{Profil temporel du paquet d'onde électronique créé par l'excitation cohérente des deux résonances (bleu). Ce profil est comparé à un paquet d'onde de référence créé par l'excitation cohérente d'un continuum lisse (rouge). Le paquet d'onde de référence est obtenu à partir des amplitude et phase spectrale du pic satellite SB$_{44}$ (figure \ref{fig:Resultats_NeHe6_deconv}).}
 \label{fig:2res_temporel}
 \end{figure}
+
+La figure \ref{fig:2res_temporel} montre l'évolution temporelle de $|\tilde{M}^{\text{ref}}(t)|^2$ et $|\tilde{M}^{2 \text{res}}(t)|^2$. La largeur spectrale des harmoniques augmentant avec l'ordre, le paquet d'onde de référence produit à partir des données du pic satellite SB$_{44}$ possède une largeur temporelle à mi-hauteur plus petite que le paquet d'onde à deux résonances, provenant des pics satellites 38 et 40. Les deux paquets d'onde présentent des battements. On constate que les deux paquets d'onde se déphasent progressivement pour $t > 0$. Ce déphasage est plus clairement visible sur la figure \ref{fig:2res_temporel_zoom}.
 
 \begin{figure}
 \centering
@@ -566,7 +569,34 @@ M^{\text{ref}}(E) \approx A_{44}(E - \hbar \omega) \: \rme^{i \Theta_{44}(E - \h
 \label{fig:2res_temporel_Gabor}
 \end{figure}
 
+Une analyse temps-fréquence des oscillations permet de rationaliser le déphasage observé entre le paquet d'onde à deux résonances et le paquet d'onde de référence (figure \ref{fig:2res_temporel_Gabor}). Le profil temporel de la figure \ref{fig:2res_temporel} est multiplié par une fenêtre gaussienne de largeur à mi-hauteur 20 fs puis sa transformée de Fourier est calculée. Aux temps négatifs, la fréquence des ocsillations correspond à $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$. Lorsque $t$ augmente, on observe un changement de la fréquence d'oscillations et l'apparition d'un pic à $\Delta E \approx 3.6$ eV, correspondant à l'écart énergétique entre les deux résonances. Ainsi, on observe trois dynamiques dans le paquet d'onde à deux résonances: autour de $t = 0$, les deux continua sont excités par les harmoniques et les deux chemins d'ionisation directs interfèrent, on observe des battements à $\Delta E = 2 \hbar \omega$. Pour $t$ supérieur à la largeur de l'impulsion, on observe les battements entre les deux chemins résonants à $\Delta E = E_{sp3+} - E_{2s2p}$. Entre les deux, tous les chemins d'ionisation interfèrent et la fréquence des oscillations correspond à une transition entre ces deux fréquences limites. Lorsque $t$ augmente, la période des battements du paquet d'onde à deux résonances diminue, ce qui se traduit dans la figure \ref{fig:2res_temporel_zoom} par un déphasage avec le paquet d'onde de référence. Notons ici que les durées de vie des résonances sont raccourcies par l'élargissement spectral dû à l'habillage.
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{2resonances_Sim_Rabbit.pdf_tex}
+\caption{Modèle simple du paquet d'onde à deux résonances. (a) Intensité (bleu) et phase (orange) spectrales du paquet d'onde simulé. (b) Profil temporel du paquet d'onde à deux résonances simulé. (c) Spectrogramme des oscillations de (b) avec une fenêtre gaussienne de 20 fs à mi-hauteur, en échelle logarithmique.}
+\label{fig:2resonances_Sim_Rabbit}
+\end{figure}
+
+Les différentes oscillations sont plus visibles sur un paquet d'onde simulé à partir d'un modèle simple: un spectrogramme RABBIT est simulé à partir de l'équation \ref{eq:SB_He}, avec les approximations suivantes
+\begin{align}
+|M^{a/e}|^2 =  \sigma(E) \times \mathcal{H} (E) \\
+\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} = 0 \\
+\Delta \theta_{q}^{at} = \arg \mathcal{R}(E)
+\end{align}
+$\mathcal{H} (E)$ représente une harmonique et est une gaussienne de largeur à mi-hauteur en intensité 290 meV; $\sigma (E)$ est la section efficace de Fano et contient les deux résonances à leurs énergies respectives; on considère uniquement la phase de l'amplitude de transition vers la résonance de Fano et on néglige l'influence du photon d'habillage. Pour des raisons numériques, le spectre est convolué à chaque délai $\tau$ par une gaussienne de largeur à mi-hauteur en intensité 20 meV représentant le spectromètre. Le spectrogramme obtenu est analysé de la même manière que les données expérimentales avec la méthode Rainbow RABBIT et les amplitudes et phases sont représentées figure \ref{fig:2resonances_Sim_Rabbit}a. La transformée de Fourier (équation \ref{eq:TF_M2res}) est appliquée pour obtenir le profil temporel de la figure \ref{fig:2resonances_Sim_Rabbit}b. Sans l'élargissement spectral causé par le spectromètre ou l'IR d'habillage, on observe des oscillations bien après la fin de l'impulsion d'excitation, jusqu'à plus de 40 fs. L'analyse temps-fréquence de ces oscillations par la même procédure que figure \ref{fig:2res_temporel_Gabor} est représentée figure \ref{fig:2resonances_Sim_Rabbit}c et montre clairement les deux fréquences d'oscillation discutées précédemment:  $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$ centrée autour de $t = 0$ et $\Delta E \approx 3.5$ eV persistant jusqu'à $t > 60$ fs.
+
+De manière plus raffinée, le paquet d'onde électronique à deux résonances peut être simulé en résolvant l'équation de Schrödinger dépendante du temps dans un potentiel modèle reproduisant les deux résonances de Fano. L'équipe de Richard Taïeb du LCPMR (Paris) a calculé le flux de photoélectrons...
+\textit{A compléter !}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.9\textwidth}
+\import{Figures/Helium/}{POEt_LCPMR.pdf_tex}
+\caption{A modifier. (a) Flux d'électrons détecté à ??? u.a. lors de la photoionisation d'un système modèle contenant deux résonances de Fano calculé par TDSE (vert) comparé au paquet d'onde électronique calculé grâce aux pics satellites 38 et 42 simulés (bleu). (b) Flux d'électrons détecté à ??? u.a. calculé par TDSE dans le cas de deux résonances (vert) ou d'un continuum lisse (bleu).}
+\label{fig:POEt_LCPMR}
+\end{figure}
 
 \section{Influence de l'intensité d'habillage sur le profil de raie}
 

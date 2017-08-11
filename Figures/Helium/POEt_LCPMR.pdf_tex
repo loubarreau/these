@@ -1,0 +1,96 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'POEt_LCPMR.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{343.19563002bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.52188239)%
+    \put(0,0){\includegraphics[width=\unitlength]{POEt_LCPMR.pdf}}%
+    \put(0.09374252,0.86878349){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.05405347,1.01520144){\makebox(0,0)[lb]{\smash{0.005}}}%
+    \put(0.06539336,1.16176558){\makebox(0,0)[lb]{\smash{0.01}}}%
+    \put(0.05405347,1.30818353){\makebox(0,0)[lb]{\smash{0.015}}}%
+    \put(0.06539336,1.45474731){\makebox(0,0)[lb]{\smash{0.02}}}%
+    \put(0.14396023,0.84838696){\makebox(0,0)[lb]{\smash{-10}}}%
+    \put(0.25321482,0.84838696){\makebox(0,0)[lb]{\smash{-5}}}%
+    \put(0.36288494,0.84838696){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.46647018,0.84838696){\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.56424238,0.84838696){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.66782758,0.84838696){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.77126713,0.84838696){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.87485242,0.84838696){\makebox(0,0)[lb]{\smash{25}}}%
+    \put(0.97829196,0.84838696){\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0.01602212,1.12133976){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensity (arb. u.)}}}}%
+    \put(0.51183791,0.81779235){\makebox(0,0)[lb]{\smash{Time (fs)
+}}}%
+    \put(0.44078511,1.47354111){\makebox(0,0)[lb]{\smash{flux in One photon TDSE simulation 2 resonances}}}%
+    \put(0.75249066,1.45314458){\makebox(0,0)[lb]{\smash{SB 38 et SB 42}}}%
+    \put(0.11704546,0.05528364){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.07623434,0.12696288){\makebox(0,0)[lb]{\smash{5e-09}}}%
+    \put(0.07623434,0.19849642){\makebox(0,0)[lb]{\smash{1e-08}}}%
+    \put(0.05922509,0.27017566){\makebox(0,0)[lb]{\smash{1.5e-08}}}%
+    \put(0.07623434,0.34170978){\makebox(0,0)[lb]{\smash{2e-08}}}%
+    \put(0.05922509,0.41338902){\makebox(0,0)[lb]{\smash{2.5e-08}}}%
+    \put(0.07623434,0.48492256){\makebox(0,0)[lb]{\smash{3e-08}}}%
+    \put(0.05922509,0.5566018){\makebox(0,0)[lb]{\smash{3.5e-08}}}%
+    \put(0.07623434,0.62813534){\makebox(0,0)[lb]{\smash{4e-08}}}%
+    \put(0.05922509,0.69981458){\makebox(0,0)[lb]{\smash{4.5e-08}}}%
+    \put(0.13778815,0.03488711){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.27866902,0.03488711){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.41940508,0.03488711){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.56028683,0.03488711){\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.70116858,0.03488711){\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.84190463,0.03488711){\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.98278638,0.03488711){\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.01484923,0.30783989){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensity (arb. u.)}}}}%
+    \put(0.5229029,0.00429243){\makebox(0,0)[lb]{\smash{Time (fs)
+flux in One photon TDSE simulation 2 resonances}}}%
+    \put(0.36822727,0.66004134){\makebox(0,0)[lb]{\smash{flux in One photon TDSE simulation 1 (HH39) resonances}}}%
+    \put(0.37389751,0.63964481){\makebox(0,0)[lb]{\smash{flux in One photon TDSE simulation 1 (HH41)resonances}}}%
+    \put(0.43961222,0.61924828){\makebox(0,0)[lb]{\smash{flux in One photon TDSE simulation 0 resonances}}}%
+  \end{picture}%
+\endgroup%
