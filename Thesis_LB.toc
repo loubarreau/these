@@ -12,13 +12,18 @@
 \contentsline {chapter}{\chapternumberline {3}Etude de la r\IeC {\'e}sonance sp3+ et de l'influence de param\IeC {\`e}tres exp\IeC {\'e}rimentaux}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Mesures Rainbow RABBIT \IeC {\`a} Lund}{23}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Excitation de la r\IeC {\'e}sonance 2s2p}{25}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Excitation simultan\IeC {\'e}e des r\IeC {\'e}sonances 2s2p et sp3+}{26}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Dynamiques d'autoionisation}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Repr\IeC {\'e}sentations temps-\IeC {\'e}nergie}{26}{subsection.3.2.1}
-\contentsline {chapter}{\chapternumberline {4}Comparaison entre la spectroscopie de photoionisation et l'absorption transitoire attoseconde pour l'\IeC {\'e}tude de la dynamique d'autoionisation de l'h\IeC {\'e}lium}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Absorption transitoire attoseconde}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Section efficace et dip\IeC {\^o}le induit}{29}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Dip\IeC {\^o}le d\IeC {\'e}pendant du temps au voisinage d'une r\IeC {\'e}sonance de Fano}{31}{subsection.4.1.2}
-\contentsline {paragraph}{Fonction d'onde dans la base des configurations}{31}{section*.6}
-\contentsline {paragraph}{Calcul du dip\IeC {\^o}le}{32}{section*.7}
-\contentsline {part}{Bibliographie}{35}{section*.8}
+\contentsline {subsection}{\numberline {3.1.2}Excitation simultan\IeC {\'e}e des r\IeC {\'e}sonances 2s2p et sp3+}{27}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Dynamiques d'autoionisation}{28}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Repr\IeC {\'e}sentations temps-\IeC {\'e}nergie de la r\IeC {\'e}sonance 2s2p}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Paquet d'onde \IeC {\`a} deux r\IeC {\'e}sonances}{34}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Influence de l'intensit\IeC {\'e} d'habillage sur le profil de raie}{40}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'\IeC {\'e}tude de la dynamique d'autoionisation de l'h\IeC {\'e}lium}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Absorption transitoire attoseconde}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Section efficace et dip\IeC {\^o}le induit}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Dip\IeC {\^o}le d\IeC {\'e}pendant du temps au voisinage d'une r\IeC {\'e}sonance de Fano}{47}{subsection.4.1.2}
+\contentsline {paragraph}{Fonction d'onde dans la base des configurations}{47}{section*.12}
+\contentsline {paragraph}{Calcul du dip\IeC {\^o}le}{48}{section*.13}
+\contentsline {paragraph}{Section efficace d'absorption d\IeC {\'e}pendante du temps}{50}{section*.14}
+\contentsline {section}{\numberline {4.2}Photoionisation}{51}{section.4.2}
+\contentsline {section}{\numberline {4.3}Conclusions}{52}{section.4.3}
+\contentsline {part}{Bibliographie}{57}{section*.15}

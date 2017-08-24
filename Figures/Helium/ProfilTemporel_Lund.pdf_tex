@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'ProfilTemporel_Lund.pdf' (pdf, eps, ps)
 %%
@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.69108327)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{ProfilTemporel_Lund.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength]{ProfilTemporel_Lund.pdf}}%
     \put(0.11947039,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-10}}}%
     \put(0.23382609,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-5}}}%
     \put(0.34629561,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
@@ -58,21 +58,18 @@
     \put(0.66521971,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{15}}}%
     \put(0.7735397,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
     \put(0.88185964,0.05497301){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{25}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{ProfilTemporel_Lund.pdf}}%
     \put(0.08297931,0.11118081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
     \put(0.0648721,0.39297436){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.5}}}%
     \put(0.08297931,0.67476791){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{ProfilTemporel_Lund.pdf}}%
     \put(0.91203832,0.11118081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-5}}}%
     \put(0.91203832,0.20835098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-4}}}%
     \put(0.91203832,0.30552118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-3}}}%
     \put(0.91203832,0.40269137){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-2}}}%
     \put(0.91203832,0.49986157){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-1}}}%
     \put(0.91203832,0.59703176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{ProfilTemporel_Lund.pdf}}%
     \put(0.01178781,0.05708502){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\left|\tilde{M}^{\text{res}} (t) \right|^2$}}}}%
-    \put(0.0097786,0.28828226){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil temporel (u. arb.)}}}}%
+    \put(0.0097786,0.27218689){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil temporel (u. arb.)}}}}%
     \put(0.44861187,0.00301198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
-    \put(0.98989132,0.67632971){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Phase $\arg \left[\tilde{M}^{\text{res}}(t) \right]$ (rad.) }}}}%
+    \put(0.98989132,0.65057762){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Phase $\arg \left[\tilde{M}^{\text{res}}(t) \right]$ (rad.) }}}}%
   \end{picture}%
 \endgroup%

@@ -1,0 +1,113 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2resonances_Sim_Rabbit.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{426.99024048bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.87957852)%
+    \put(0,0){\includegraphics[width=\unitlength]{2resonances_Sim_Rabbit.pdf}}%
+    \put(0.11717498,0.48406788){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0.20502871,0.48406788){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{61}}}%
+    \put(0.29288243,0.48406788){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{62}}}%
+    \put(0.38073613,0.48406788){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{63}}}%
+    \put(0.46858977,0.48406788){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{64}}}%
+    \put(0.04945349,0.51184866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.03869527,0.55640185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.2}}}%
+    \put(0.03869527,0.60095505){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.4}}}%
+    \put(0.03869527,0.64550824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.6}}}%
+    \put(0.03869527,0.69006135){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.8}}}%
+    \put(0.04945349,0.73461453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.03869527,0.77916771){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.2}}}%
+    \put(0.03869527,0.82372089){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.4}}}%
+    \put(0.48831695,0.62323159){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.48831695,0.64550824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.48831695,0.66778478){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.48831695,0.69006135){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.48831695,0.71233802){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0.48831695,0.73461453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.48831695,0.75689114){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2.5}}}%
+    \put(0.48831695,0.77916771){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.18033867,0.4404481){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energie de photon (eV)}}}%
+    \put(0.01691161,0.5237911){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité spectrale (u. arb.)}}}}%
+    \put(0.54526094,0.76548282){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Phase (rad)}}}}%
+    \put(0.70352326,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-10}}}%
+    \put(0.76314102,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.81778917,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.87434944,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.93090983,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0.98747021,0.49257149){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.64746117,0.51437966){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.64172585,0.57094005){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.2}}}%
+    \put(0.64172585,0.62750043){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.4}}}%
+    \put(0.64172585,0.68406082){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.6}}}%
+    \put(0.64172585,0.74062117){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0.8}}}%
+    \put(0.64746117,0.79718154){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.78489359,0.44448263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
+    \put(0.61915559,0.53600347){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil temporel (u. arb.)}}}}%
+    \put(0.04511043,0.86266691){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.64090862,0.86266691){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.4140769,0.00520906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
+    \put(0.23961791,0.14350073){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\Delta E$ (eV)}}}}%
+    \put(0.21763171,0.38592174){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.58259816,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0.53013794,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.48142488,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.43271183,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.37650445,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0.32404424,0.03024914){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-40}}}%
+    \put(0.26516412,0.31384606){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.26516412,0.26138584){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3.5}}}%
+    \put(0.26516412,0.21267279){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.26516412,0.16021257){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2.5}}}%
+    \put(0.26516412,0.10775236){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.65005078,0.3683137){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{8}}}%
+    \put(0.65005078,0.2971177){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.65005078,0.22592169){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.65005078,0.15847284){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.65005078,0.09102399){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-8}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,75 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Temporel_38_Lund.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{836.86611328bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75218498)%
+    \put(0,0){\includegraphics[width=\unitlength]{Temporel_38_Lund.pdf}}%
+    \put(0.09966226,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-30}}}%
+    \put(0.23158302,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-20}}}%
+    \put(0.36350376,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{-10}}}%
+    \put(0.50264945,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.63005115,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.76197189,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.89389264,0.03746329){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0.06349294,0.08416906){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.0499398,0.412537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.06349294,0.74090493){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.91476134,0.08158247){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-14}}}%
+    \put(0.91507583,0.1902111){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-13}}}%
+    \put(0.91533897,0.29864077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-12}}}%
+    \put(0.91523628,0.40742985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-11}}}%
+    \put(0.91489612,0.51605848){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-10}}}%
+    \put(0.92331667,0.62467427){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-9}}}%
+    \put(0.923291,0.73329008){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-8}}}%
+    \put(0.01400226,0.13085155){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\left|\tilde{M}^{\text{res}} (t) \right|^2$}}}}%
+    \put(0.0116156,0.32326969){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil temporel (u. arb.)}}}}%
+    \put(0.45288791,0.0035778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (fs)}}}%
+    \put(0.98799231,0.62332585){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Phase $\arg \left[\tilde{M}^{\text{res}}(t) \right]$ (rad.) }}}}%
+  \end{picture}%
+\endgroup%
