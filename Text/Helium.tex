@@ -601,6 +601,7 @@ De manière plus raffinée, le paquet d'onde électronique à deux résonances p
 \end{figure}
 
 \section{Influence de l'intensité d'habillage sur le profil de raie}
+% J'utilise les données du 6 avril 2016
 La modification des profils de raie induite par laser est un phénomène très étudié par l'optique quantique. Un champ laser peut modifier les propriétés d'absorption et de dispersion d'un milieu, par exemple pour donner lieu à de la transparence induite électromagnétiquement \mycite{FleischhauerRevModPhys2005}, ou bien permettre de changer un profil de raie Lorentien en un profil de Fano \mycite{SzymanowskiJModOpt1995}. \mycite{OttScience2013} ont montré qu'il existe une correspondance directe entre le déphasage pondéromoteur induit par le laser $\varphi$ et le paramètre $q$ du profil de Fano:
 \begin{equation}
 q_{\text{pond}} = - \cot (\frac{\varphi}{2})
@@ -626,6 +627,7 @@ La figure \ref{fig:Ott_Science}(a) montre le spectre d'absorption de l'hélium l
 
 Cette correspondance entre $q$ et $\varphi$ est valable pour des impulsions XUV et IR ultra-brèves. Que se passe-t-il avec un train d'impulsions attosecondes et une impulsion laser plus longue? Est-il possible d'observer une modification du profil de raie dans un schéma de type RABBIT? L'interprétation en terme de phase pondéromotrice s'applique-t-elle toujours?
 
+\paragraph*{Modification du paramètre $q$ avec l'intensité d'habillage}
 \begin{figure}[ht]
 \centering
 \def\svgwidth{\textwidth}
@@ -634,13 +636,13 @@ Cette correspondance entre $q$ et $\varphi$ est valable pour des impulsions XUV 
 \label{fig:Spectres_vs_Phab}
 \end{figure}
 
-\`{A} Lund nous avons pu tirer profit de la stabilisation active du délai entre les impulsions XUV et IR d'habillage pour mesurer des spectres de photoélectrons à délai constant en faisant varier l'intensité de l'impulsion d'habillage. Le dispositif expérimental est identique au dispositif RABBIT. L'intensité de l'habillage est variée en tournant une lame demie-onde devant un polariseur, ce qui ne modifie pas le délai ni la taille de la tâche focale dans le spectromètre de photoélectrons. La figure \ref{fig:Spectres_vs_Phab} montre les spectres de photoélectrons mesurés lorsque l'harmonique 39 est résonante avec l'état $2s2p$ de l'hélium ($\lambda = 793$ nm, largeur de bande IR 85 nm) pour plusieurs intensités d'habillage. La grandeur P est la puissance mesurée derrière le hublot après le spectromètre de photoélectrons, en mW. Malheureusement nous n'avons pas de correspondance exacte entre P et l'intensité de l'IR d'habillage dans l'hélium, ce qui ne permet pas d'étude quantitative. Lorsque P augmente, on observe évidemment l'augmentation du signal des pics satellites et la diminution du signal de l'harmonique non résonante 41 jusqu'à $P = 22$ mW. Le signal des pics satellites et de H$_{41}$ reste identique alors que l'intensité augmente de 22 à 30 mW. La forme du pic de photoélectrons correspondant à l'harmonique 41 n'est pas modifiée lorsque P augmente. Cependant, on observe une grande modification de la forme du pic résonant avec l'intensité d'habillage. 
+\`{A} Lund nous avons pu tirer profit de la stabilisation active du délai entre les impulsions XUV et IR d'habillage pour mesurer des spectres de photoélectrons à délai constant en faisant varier l'intensité de l'impulsion d'habillage. Le dispositif expérimental est identique au dispositif RABBIT. L'intensité de l'habillage est variée en tournant une lame demie-onde devant un polariseur, ce qui ne modifie pas le délai ni la taille de la tâche focale dans le spectromètre de photoélectrons. La figure \ref{fig:Spectres_vs_Phab} montre les spectres de photoélectrons mesurés lorsque l'harmonique 39 est résonante avec l'état $2s2p$ de l'hélium ($\lambda = 797$ nm, largeur de bande IR 85 nm) pour plusieurs intensités d'habillage. Dans ces conditions, l'harmonique 41 n'est pas résonante avec l'état $sp3+$. La grandeur P est la puissance mesurée derrière le hublot après le spectromètre de photoélectrons, en mW. Malheureusement nous n'avons pas de correspondance exacte entre P et l'intensité de l'IR d'habillage dans l'hélium, ce qui ne permet pas d'étude quantitative. Lorsque P augmente, on observe évidemment l'augmentation du signal des pics satellites et la diminution du signal de l'harmonique non résonante 41 jusqu'à $P = 22$ mW. Le signal des pics satellites et de H$_{41}$ reste identique alors que l'intensité augmente de 22 à 30 mW. La forme du pic de photoélectrons correspondant à l'harmonique 41 n'est pas modifiée lorsque P augmente. Cependant, on observe une grande modification de la forme du pic résonant avec l'intensité d'habillage. 
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{fitPSF_H41_Phab01mW.pdf_tex}
-\caption{Fonction d'appareil obtenue par l'algorithme de déconvolution aveugle de l'harmonique 41 à la puissance minimale (P = 01).}
+\caption{Fonction d'appareil obtenue par l'algorithme de déconvolution aveugle de l'harmonique 41 à la puissance minimale (P = 01 mW).}
 \label{fig:fitPSF_H41}
 \end{figure}
 
@@ -650,8 +652,7 @@ Le profil harmonique est décalé de deux photons à la position de l'harmonique
 \begin{equation}
 S = \text{Conv} \left[ \text{H}(E_{41} - 2\hbar \omega) \times \left( \frac{(q+\epsilon)^2}{1+\epsilon^2}\right), \rme^{-(E_{41} - 2\hbar \omega)^2/(\sqrt{2 \ln 2} \Delta E)^2} \right]
 \end{equation}
-Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}a, et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}b. \`{A} intensité minimale, $q = q_{2s2p} = -
-$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$. 
+Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}a, et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}b. \`{A} intensité minimale, $q = q_{2s2p} = -2.77$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$. 
 
 \begin{figure}
 \centering
@@ -660,6 +661,29 @@ $. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devi
 \caption{Optimisation du paramètre $q$ en fonction de la puissance d'habillage. (a) Profil de l'harmonique 39 mesuré et résultat de l'optimisation de $q$. Pour plus de visibilité les spectres sont décalés verticalement. (b) Valeur de $q$ correspondante.}
 \label{fig:fit_q}
 \end{figure}
+
+\paragraph*{Modification du paramètre $q$ avec le délai IR-XUV}
+% Rabbits: données NeHe33 05/04/2016
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{Spectres_fit_q_NeHe33.pdf_tex}
+\caption{Profil de l'harmonique 39 mesuré au cours du spectrogramme RABBIT, par pas de 0.2 fs, et résultat de l'optimisation du paramètre $q$ à chaque délai. Les spectres sont décalés verticalement et horizontalement pour plus de visibilité. Les courbes grisées ne sont pas considérées par la suite en raison du désaccord entre le résultat de l'optimisation et la mesure.}
+\label{fig:Spectres_fit_q_NeHe33}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{0.8\textwidth}
+\import{Figures/Helium/}{qbest_RABBIT_NeHe33.pdf_tex}
+\caption{(a) Paramètre $q$ optimisé à chaque délai correspondant à la figure \ref{fig:Spectres_fit_q_NeHe33} (points colorés). Les valeurs grisées ne sont pas prises en compte pour l'ajustement sinisoidal (courbe noire). (b) Signal total de l'harmonique 41 en fonction du délai.}
+\label{fig:qbest_RABBIT_NeHe33}
+\end{figure}
+% a cos (bt+c) + d; a=0.2 +/-0.1; b=4.75 +/-0.56; c=5.08 +/-0.47; d=-1.92 +/-0.06
+
+
+
+
 
 
 \chapter{Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}

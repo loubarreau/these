@@ -1,0 +1,74 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Spectres_fit_q_NeHe33.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1158.33537598bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.60045589)%
+    \put(0,0){\includegraphics[width=\unitlength]{Spectres_fit_q_NeHe33.pdf}}%
+    \put(0.02207282,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.6}}}%
+    \put(0.10278009,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.8}}}%
+    \put(0.18838327,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39}}}%
+    \put(0.2641946,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39.2}}}%
+    \put(0.34322335,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.6}}}%
+    \put(0.42393058,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.8}}}%
+    \put(0.50953379,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39}}}%
+    \put(0.58534516,0.03522115){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39.2}}}%
+    \put(0.65194219,0.03522123){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.6}}}%
+    \put(0.73284686,0.03522123){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{38.8}}}%
+    \put(0.81864735,0.03522123){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39}}}%
+    \put(0.89465604,0.03522123){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{39.2}}}%
+    \put(0.32468681,0.00399701){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energie de Photon (ordre harmonique)}}}%
+    \put(0.01382726,0.187139){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Profil spectral (u. arb.)}}}}%
+    \put(0.24505142,0.09315572){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{$\tau$=-3 fs}}}%
+    \put(0.24337906,0.46760767){\color[rgb]{0.45098039,1,0}\makebox(0,0)[lb]{\smash{$\tau$=-1.4 fs}}}%
+    \put(0.47802238,0.07579801){\color[rgb]{0.0627451,1,0}\makebox(0,0)[lb]{\smash{$\tau$=-1 fs}}}%
+    \put(0.3651684,0.54320492){\color[rgb]{0,0.32156863,1}\makebox(0,0)[lb]{\smash{$\tau$=+0.8 fs}}}%
+    \put(0.87928276,0.16319039){\color[rgb]{0.25882353,0,1}\makebox(0,0)[lb]{\smash{$\tau$=+1.4 fs}}}%
+    \put(0.69746296,0.54101045){\color[rgb]{1,0,0.19215686}\makebox(0,0)[lb]{\smash{$\tau$=+3 fs}}}%
+  \end{picture}%
+\endgroup%

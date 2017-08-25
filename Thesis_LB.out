@@ -1,27 +1,48 @@
 \BOOKMARK [0][-]{Liste de Publications.0}{Liste de Publications}{}% 1
 \BOOKMARK [0][-]{toc.0}{Table des mati\350res}{}% 2
-\BOOKMARK [-1][-]{part.1}{I Dynamiques d'autoionisation dans l'h\351lium}{}% 3
-\BOOKMARK [0][-]{chapter.1}{1 Mesure de la phase de la transition au voisinage de la r\351sonance 2s2p par RABBIT et Rainbow RABBIT}{part.1}% 4
-\BOOKMARK [1][-]{section.1.1}{1.1 Mesures RABBIT}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{1.2 Mesures Rainbow RABBIT}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter.2}{2 Reconstruction de la dynamique d'autoionisation}{part.1}% 7
-\BOOKMARK [1][-]{section.2.1}{2.1 Paquet d'onde \351lectronique dans le domaine spectral}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Paquet d'onde \340 deux photons}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Paquet d'onde \340 un photon}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{2.2 Paquet d'onde \351lectronique dans le domaine temporel}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.3}{2.3 Construction du profil spectral de la r\351sonance au cours du temps}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{3 Etude de la r\351sonance sp3+ et de l'influence de param\350tres exp\351rimentaux}{part.1}% 13
-\BOOKMARK [1][-]{section.3.1}{3.1 Mesures Rainbow RABBIT \340 Lund}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Excitation de la r\351sonance 2s2p}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Excitation simultan\351e des r\351sonances 2s2p et sp3+}{section.3.1}% 16
-\BOOKMARK [1][-]{section.3.2}{3.2 Dynamiques d'autoionisation}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Repr\351sentations temps-\351nergie de la r\351sonance 2s2p}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Paquet d'onde \340 deux r\351sonances}{section.3.2}% 19
-\BOOKMARK [1][-]{section.3.3}{3.3 Influence de l'intensit\351 d'habillage sur le profil de raie}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{4 Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'\351tude de la dynamique d'autoionisation de l'h\351lium}{part.1}% 21
-\BOOKMARK [1][-]{section.4.1}{4.1 Absorption transitoire attoseconde}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Section efficace et dip\364le induit}{section.4.1}% 23
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Dip\364le d\351pendant du temps au voisinage d'une r\351sonance de Fano}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{4.2 Photoionisation}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{4.3 Conclusions}{chapter.4}% 26
-\BOOKMARK [-1][-]{section*.15}{Bibliographie}{}% 27
+\BOOKMARK [-1][-]{part.1}{I D\351lai de photoionisation r\351sonante}{}% 3
+\BOOKMARK [0][-]{chapter.1}{1 D\351lai de photoionisation attoseconde}{part.1}% 4
+\BOOKMARK [1][-]{section.1.1}{1.1 Diffusion par un potentiel central}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Position du probl\350me}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Les ondes sph\351riques libres}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.3}{1.1.3 Les ondes partielles}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.4}{1.1.4 D\351lai de Wigner}{section.1.1}% 9
+\BOOKMARK [1][-]{section.1.2}{1.2 Mesure de d\351lais de photoionisation}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 D\351lai de photoionisation et matrice de transition \340 un photon}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Matrice de transition \340 deux photons}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Phase et d\351lai mesur\351s par l'interf\351rom\351trie RABBIT}{section.1.2}% 13
+\BOOKMARK [1][-]{section.1.3}{1.3 Exp\351riences de mesure de d\351lais de photoionisation attoseconde dans les gaz}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{2 R\351sonances autoionisantes de Fano}{part.1}% 15
+\BOOKMARK [1][-]{section.2.1}{2.1 Interaction entre un \351tat discret et un continuum d'\351tats}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Fonctions propres}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Section efficace}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{2.2 Interaction entre un \351tat discret et plusieurs continua}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{2.3 Dynamique de l'autoionisation: \311tat de l'art}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{3 Transitions r\351sonantes \340 deux photons}{part.1}% 21
+\BOOKMARK [1][-]{section.3.1}{3.1 Phase de l'amplitude de transition vers une r\351sonance de Fano}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{3.2 Amplitude de transition \340 deux photons}{chapter.3}% 23
+\BOOKMARK [-1][-]{part.2}{II Dynamiques d'autoionisation dans l'h\351lium}{}% 24
+\BOOKMARK [0][-]{chapter.4}{4 Mesure de la phase de la transition au voisinage de la r\351sonance 2s2p par RABBIT et Rainbow RABBIT}{part.2}% 25
+\BOOKMARK [1][-]{section.4.1}{4.1 Mesures RABBIT}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{4.2 Mesures Rainbow RABBIT}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{5 Reconstruction de la dynamique d'autoionisation}{part.2}% 28
+\BOOKMARK [1][-]{section.5.1}{5.1 Paquet d'onde \351lectronique dans le domaine spectral}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Paquet d'onde \340 deux photons}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Paquet d'onde \340 un photon}{section.5.1}% 31
+\BOOKMARK [1][-]{section.5.2}{5.2 Paquet d'onde \351lectronique dans le domaine temporel}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.3}{5.3 Construction du profil spectral de la r\351sonance au cours du temps}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{6 Etude de la r\351sonance sp3+ et de l'influence de param\350tres exp\351rimentaux}{part.2}% 34
+\BOOKMARK [1][-]{section.6.1}{6.1 Mesures Rainbow RABBIT \340 Lund}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Excitation de la r\351sonance 2s2p}{section.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Excitation simultan\351e des r\351sonances 2s2p et sp3+}{section.6.1}% 37
+\BOOKMARK [1][-]{section.6.2}{6.2 Dynamiques d'autoionisation}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Repr\351sentations temps-\351nergie de la r\351sonance 2s2p}{section.6.2}% 39
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Paquet d'onde \340 deux r\351sonances}{section.6.2}% 40
+\BOOKMARK [1][-]{section.6.3}{6.3 Influence de l'intensit\351 d'habillage sur le profil de raie}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{7 Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'\351tude de la dynamique d'autoionisation de l'h\351lium}{part.2}% 42
+\BOOKMARK [1][-]{section.7.1}{7.1 Absorption transitoire attoseconde}{chapter.7}% 43
+\BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Section efficace et dip\364le induit}{section.7.1}% 44
+\BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Dip\364le d\351pendant du temps au voisinage d'une r\351sonance de Fano}{section.7.1}% 45
+\BOOKMARK [1][-]{section.7.2}{7.2 Photoionisation}{chapter.7}% 46
+\BOOKMARK [1][-]{section.7.3}{7.3 Conclusions}{chapter.7}% 47
+\BOOKMARK [-1][-]{section*.27}{Bibliographie}{}% 48
