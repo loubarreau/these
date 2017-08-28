@@ -1,5 +1,143 @@
-\part{Polarimétrie de l'émission harmonique par un champ à deux couleurs}
+\part{Polarimétrie de l'émission harmonique générée par un champ à deux couleurs polarisées circulairement en sens opposé}
 \label{part:Polarimétrie}
-%% Biblio
-%% Expérience:voir VG et KV
+%% Biblio. Romain chap 13. 1. GHOE elliptiques. Budil Antoine modèle classique. 2. Autres méthodes: molécules alignées, résonances. 3. 2 couleurs
 %% Calculs de TA
+%% Expérience:voir VG et KV
+% Principe de la PM. Résultats expérimentaux avec H19. Discussion sur le fond etc
+
+
+% POurquoi faire de l'xuv elliptique, résolution temporelle
+% Dans le vis IR, ok avec optiques, mais pas dans l'xuv (quand même le polariseur de soleil)
+% FEL (Allaria)
+
+La question de la génération d'harmoniques d'ordre élevé polarisées elliptiquement est un problème actuel de la physique attoseconde. Cette partie est centrée sur le schéma de génération à deux couleurs polarisées circulairement en sens opposé. Pour un traitement plus large, le lecteur pourra se référer par exemple à \mycite{TheseHiguet}, \mycite{TheseGruson} ou \mycite{TheseGeneaux}.
+
+\chapter{Génération d'harmoniques d'ordre élevé polarisées elliptiquement}
+\label{chap:GHOE_elliptiques}
+Dans ce chapitre, nous définirons d'abord les grandeurs utilisées pour caractériser la polarisation du rayonnement. Ensuite, nous présenterons les différentes méthodes développées pour produire des harmoniques d'ordre élevé polarisées elliptiquement. Nous montrerons d'abord que l'utilisation d'un faisceau fondamental elliptique est peu efficace, puis nous présenterons brièvement les méthodes de GHOE dans les molécules alignées et au voisinage de résonances permettant d'obtenir un rayonnement harmonique elliptique. Enfin nous détaillerons le schéma de GHOE utilisant une impulsion laser à deux couleurs polarisées circulairement en sens opposé qui sera étudié numériquement et expérimentalement dans les chapitres suivants. 
+
+\section{Polarisation de la lumière}
+Considérons une onde plane monochromatique de pulsation $\omega_0$ $\vec{E}(z,t)$. D'après les équations de Maxwell, le champ électrique est transverse, c'est-à-dire orthogonal à son vecteur d'onde $\vec{k}$. Dans un repère cartésien $(O,x,y,z)$ tel que le champ se propage selon la direction $(Oz)$, on a:
+\begin{equation}
+\vec{E}(z,t) = \begin{pmatrix}
+E_x \\
+E_y\\
+E_z
+\end{pmatrix} =
+\begin{pmatrix}
+E_{0x} \: \cos(\omega_0 t - k z) \\
+E_{0y} \: \cos(\omega_0 t - k z + \phi)  \\
+0
+\end{pmatrix}
+\end{equation}
+L'extrémité du vecteur champ électrique est l'ensemble des points tel que \mycite{BornWolf}: 
+\begin{equation}
+\left(\frac{E_x}{E_{0x}}\right)^2 + \left(\frac{E_y}{E_{0y}}\right)^2 - 2 \frac{E_x E_y}{E_{0x} E_{0y}} \cos \phi = \sin^2 \phi
+\end{equation}
+qui est l'équation d'une ellipse (voir figure \ref{fig:Polarellipse}). L'ellipse de polarisation est entièrement décrite dans $(O,x,y,z)$ par la donnée des amplitudes du champ selon $(Ox)$ et $(Oy)$, $E_{0x}$ et $E_{0y}$, et de la phase relative entre ces deux composantes $\phi$. Ces données sont équivalentes aux paramètres géométriques de l'ellipse: son demi grand axe $a$ et demi petit axe $b$ ainsi que l'angle $\psi$ entre le grand axe de l'ellipse et la direction $(Ox)$. L'ellipticité $\epsilon \in [-1; 1]$ est définie telle que 
+\begin{equation}
+\epsilon = \tan \chi = \pm \frac{b}{a}
+\end{equation}
+Si $\epsilon > 0$ (resp. $\epsilon <0$), l'ellipse est parcourue dans le sens horaire (resp. trigonométrique) lorsqu'elle est regardée par un observateur dans la direction opposée à la direction de propagation et la polarisation est appelée polarisation elliptique droite (resp. gauche). Si $E_{0x} = E_{0y}$, la polarisation est circulaire et $\epsilon = \pm 1$.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/Polarimetrie/}{polarellipse.pdf_tex}
+\caption{Ellipse de polarisation.}
+\label{fig:Polarellipse}
+\end{figure}
+
+En pratique, le champ laser (ou harmonique) possède une durée finie, donc une largeur spectrale, et un profil transverse non homogène. En chaque point $(x,y)$ du plan transverse, le champ électrique est décrit localement par
+\begin{equation}
+\vec{E}(x,y,t,\omega) = E_x(x,y,t,\omega) \vec{u_x} + E_y(x,y,t,\omega) \vec{u_y}
+\end{equation}
+Pour décrire globalement un tel champ, Stokes introduit une représentation à quatre paramètres définis par \mycite{BornWolf}:
+\begin{align}
+S_0 & = <E_x E_x^* + E_y E_y^*> \\
+S_1 & = <E_x E_x^* - E_y E_y^*> \\
+S_2 & = <E_x E_y^* + E_y E_x^*>\\
+S_3 & = i <E_x E_y^* - E_y E_x^*>
+\end{align}
+où la moyenne $< >$ est une moyenne temporelle, spatiale, et spectrale.
+Il est possible que les différentes composantes temporelles et spatiales ne soient pas corrélées. Dans le cas extrême, toutes les orientations de $E_x$ et $E_y$ sont équiprobables et non corrélées durant la durée de l'observation et dans l'espace: la lumière est émise indépendamment par un grand nombre d'émetteurs. L'émission est alors dite non polarisée. C'est le cas de la lumière naturelle émise par rayonnement du corps noir, ou bien de la lumière émise par fluorescence. En général la lumière est partiellement polarisée, et on a la relation suivante entre les paramètres de Stokes:
+\begin{equation}
+S_0^2 \geqslant S_1^2 + S_2^2 + S_3^2
+\end{equation}
+avec égalité seulement si la lumière est complètement polarisée. Il est utile de définir les paramètres de Stokes normalisés par $S_0$, $s_1 = S_1 /S_0$, $s_2 = S_2 /S_0$ et $s_3 = S_3 /S_0$.
+Le degré de polarisation de l'onde $P$ est donné par 
+\begin{equation}
+P = \frac{I_{\text{pol}}}{I_{\text{tot}}} = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0} = \sqrt{s_1^2 + s_2^2 + s_3^2}
+\label{eq:degrépolarisation}
+\end{equation}
+Les paramètres de Stokes sont reliés aux paramètres géométriques de l'ellipse:
+\begin{align}
+\psi & = \frac{1}{2} \arctan \frac{s_2}{s_1} \\
+\epsilon & = \tan \left[ \frac{1}{2} \arcsin \frac{s_3}{\sqrt{s_1^2 + s_2^2 + s_3^2}} \right]
+\label{eq:epsilon_Stokes}
+\end{align}
+La donnée des quatre paramètres de Stokes est suffisante pour décrire complètement la polarisation du champ, et est équivalente à la donnée de l'ellipticité $\epsilon$, de l'angle entre le grand axe de l'ellipse et $(Ox)$ $\psi$ et du degré de polarisation $P$. D'après l'équation \ref{eq:epsilon_Stokes}, si la lumière est complètement polarisée, il existe une relation directe entre $\epsilon$ et $s_3$. Cependant, si la lumière est partiellement polarisée, il est nécessaire de mesurer simultanément $s_1$, $s_2$ et $s_3$ pour déterminer l'ellipticité.
+
+\section{Génération d'harmoniques d'ordre élevé à partir d'un laser polarisé elliptiquement}
+L'idée la plus simple pour produire un rayonnement harmonique polarisé elliptiquement est de chercher à transmettre à l'XUV les propriétés de polarisation du faisceau fondamental.
+
+La première expérience de GHOE à partir d'un laser polarisé elliptiquement a été brillamment effectuée par \mycite{BudilPRA1993}. Un laser à colquiriite dopée au chrome Cr:LiSrAlF$_6$ produit des impulsions de 125 fs à 825 nm qui sont focalisées dans un gaz rare pour générer les harmoniques d'ordre élevé. La polarisation du laser est variée  de linéaire à circulaire gauche et droite grâce à une lame quart d'onde large bande. Le signal harmonique est mesuré en fonction de l'ellipticité du laser. Les résultats pour les harmoniques 15 à 63 dans le néon sont reportés figure \ref{fig:Budil}. On constate que l'efficacité de génération décroit exponentiellement avec l'ellipticité IR. Pour $|\epsilon| = 0.2$, le signal diminue de plus d'un ordre de grandeur par rapport au cas linéaire. La décroissance est plus rapide lorsque l'ordre de l'harmonique est grand.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.8\textwidth}
+\import{Figures/Polarimetrie/}{Budil.pdf_tex}
+\caption{Signal harmonique en fonction de l'ellipticité du laser IR, normalisé par rapport à la polarisation linéaire (échelle logarithmique). Extrait de \mycite{BudilPRA1993}.}
+\label{fig:Budil}
+\end{figure}
+
+Quelques années plus tard, \mycite{AntoinePRA1997} ont mesuré optiquement l'ellipticité et l'angle de l'ellipse de polarisation d'harmoniques générées dans plusieurs gaz rares. Les résultats expérimentaux sont comparés à des calculs dans l'approximation du champ fort (\textit{Strong Field Approximation, SFA}), incluant la propagation, de l'ellipticité et du degré de polarisation XUV. Les résultats pour les harmoniques 17 et 23, correspondant respectivement à la fin du plateau et à la coupure à l'intensité utilisée dans l'argon, sont reproduits figure \ref{fig:Antoine}. La mesure de l'ellipticité optique avec une loi de Malus ne permet pas de déterminer le paramètre de Stokes $s_3$, mais seulement $s_1$ et $s_2$ \mycite{AntoinePRA1997}\mycite{TheseGruson}. Le calcul de l'ellipticité se fait alors en utilisant les relations \ref{eq:degrépolarisation} et \ref{eq:epsilon_Stokes}, en supposant le rayonnement complètement polarisé ($P = 1$). Ainsi, la grandeur mesurée est seulement une valeur maximale de l'ellipticité harmonique, $\epsilon_q^{\text{max}}$. Si le rayonnement est seulement partiellement polarisé, l'ellipticité de la partie polarisée de la lumière ("vraie" ellipticité) est inférieure à $\epsilon_q^{\text{max}}$. D'une part, on constate que l'angle de rotation de l'ellipse est faible et augmente de manière quasi-linéaire avec l'ellipticité IR. D'autre part, l'ellipticité des harmoniques est une fonction croissante de l'ellipticité du fondamental, mais lui est inférieure, de manière plus significative pour l'harmonique de la coupure. Pour l'harmonique du plateau, une grande ellipticité mesurée est associée à un plus faible degré de polarisation. L'ellipticité "vraie" calculée est alors deux fois plus faible que l'ellipticité mesurée.
+
+Les différentes observations s'interprètent facilement dans le cadre semi-classique du modèle en trois étapes, voir par exemple \mycite{TheseGeneaux} chap. 13.
+
+Ces deux expériences montrent qu'il est possible de transférer l'ellipticité du fondamental vers l'XUV lors de la génération d'harmoniques. Cependant, le processus est très peu efficace et ne permet pas d'atteindre des ellipticités élevées. Il est donc nécessaire de développer d'autres méthodes de production d'harmoniques et d'impulsions attoseconde polarisées elliptiquement. Par ailleurs, \mycite{AntoinePRA1997} soulignent le fait que les mesures de type loi de Malus sans élément déphaseur sur le champ XUV ne peuvent déterminer ni le signe de l'ellipticité ni le paramètre de Stokes $s_3$. Ainsi, pour une caractérisation complète de la polarisation de l'émission harmonique, il est également nécessaire de développer d'autres méthodes polarimétriques. Une telle méthode sera présentée et utilisée au chapitre \ref{chap:MesurePolar}.
+
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{antoinePRA.pdf_tex}
+\caption{(a-b) Ellipticité harmonique mesurée $\epsilon_q^{\text{max}}$ par une loi de Malus (points rouges) et calculée (pointillés rouges), "Vraie" ellipticité calculée (pointillés noirs) et degré de polarisation calculé (pointillés verts, échelle de droite) pour les harmoniques 17 (a) et 23 (b) de l'argon. Le signe de l'ellipticité mesurée n'est pas possible à déterminer ici, il est donc choisi identique à celui de l'ellipticité calculée. (c-d) Angle du grand axe de l'ellipse $\psi$ mesuré (points rouges) et calculé (pointillés rouges) pour les harmoniques 17 (c) et 23 (d) de l'argon. Extrait de \mycite{TheseGeneaux}, adapté de \mycite{AntoinePRA1997}.}
+\label{fig:Antoine}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+%\chapter{\'{E}tude numérique de la GHOE par un champ à deux couleurs polarisées circulairement en sens opposé}
+
+\chapter{Mesure complète de l'état de polarisation de l'émission harmonique générée par un champ à deux couleurs polarisées circulairement en sens opposé} 
+\label{chap:MesurePolar}
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+1 & \multicolumn{2}{c|}{$\epsilon_{IR} = -1$; $\epsilon_{UV} = +1$} &  \multicolumn{2}{c|}{$\epsilon_{IR} = -1$; $\epsilon_{UV} = +1$} \\
+\hline
+Harmonique & H$_{16}$ & H$_{17}$ & H$_{16}$ & H$_{17}$ \\
+\hline
+$s_1$ & 0.27 (0.04) & 0.32 (0.05) & 0.24 (0.04) & 0.07 (0.07) \\
+\hline
+$s_2$ & 0.05 (0.04) & 0.03 (0.05) & -0.12 (0.04) & -0.20 (0.07) \\
+\hline
+$s_3$ & -0.80 (0.04) & 0.53 (0.04) & 0.77 (0.04) & -0.53 (0.04) \\
+\hline
+$P$ & 0.85 (0.03) & 0.62 (0.04) & 0.81 (0.04) & 0.57 (0.05) \\
+\hline
+$\psi$ & 5 (4.5) & 2.5 (4.5) & 167 (5) & 144.5 (9.5) \\
+\hline
+$\epsilon$ & -0.72 (0.04) & 0.56 (0.05) & 0.71 (0.04) & -0.68 (0.08) \\
+\hline
+\end{tabular}
