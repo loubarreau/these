@@ -47,5 +47,9 @@
 \contentsline {paragraph}{Calcul du dip\IeC {\^o}le}{90}{section*.25}
 \contentsline {paragraph}{Section efficace d'absorption d\IeC {\'e}pendante du temps}{92}{section*.26}
 \contentsline {section}{\numberline {7.2}Photoionisation}{93}{section.7.2}
-\contentsline {section}{\numberline {7.3}Conclusions}{95}{section.7.3}
-\contentsline {part}{Bibliographie}{99}{section*.27}
+\contentsline {section}{\numberline {7.3}Conclusions}{94}{section.7.3}
+\contentsline {part}{\partnumberline {III}Polarim\IeC {\'e}trie de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{99}{part.3}
+\contentsline {chapter}{\chapternumberline {8}G\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} polaris\IeC {\'e}es elliptiquement}{101}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}\'{E}tude num\IeC {\'e}rique de la GHOE par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{103}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Mesure compl\IeC {\`e}te de l'\IeC {\'e}tat de polarisation de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{105}{chapter.10}
+\contentsline {part}{Bibliographie}{107}{section*.28}
