@@ -7,14 +7,14 @@
 
 
 % POurquoi faire de l'xuv elliptique, résolution temporelle
-% Dans le vis IR, ok avec optiques, mais pas dans l'xuv (quand même le polariseur de soleil)
+% Dans le vis IR, ok avec optiques, mais pas dans l'xuv (quand même Vodungbo sur des harmoniques mais efficacité de quelques %. Utilisé expériementalement pour du XMCD Willems PRB 2015)
 % FEL (Allaria)
 
 La question de la génération d'harmoniques d'ordre élevé polarisées elliptiquement est un problème actuel de la physique attoseconde. Cette partie est centrée sur le schéma de génération à deux couleurs polarisées circulairement en sens opposé. Pour un traitement plus large, le lecteur pourra se référer par exemple à \mycite{TheseHiguet}, \mycite{TheseGruson} ou \mycite{TheseGeneaux}.
 
 \chapter{Génération d'harmoniques d'ordre élevé polarisées elliptiquement}
 \label{chap:GHOE_elliptiques}
-Dans ce chapitre, nous définirons d'abord les grandeurs utilisées pour caractériser la polarisation du rayonnement. Ensuite, nous présenterons les différentes méthodes développées pour produire des harmoniques d'ordre élevé polarisées elliptiquement. Nous montrerons d'abord que l'utilisation d'un faisceau fondamental elliptique est peu efficace, puis nous présenterons brièvement les méthodes de GHOE dans les molécules alignées et au voisinage de résonances permettant d'obtenir un rayonnement harmonique elliptique. Enfin nous détaillerons le schéma de GHOE utilisant une impulsion laser à deux couleurs polarisées circulairement en sens opposé qui sera étudié numériquement et expérimentalement dans les chapitres suivants. 
+Dans ce chapitre, nous définirons d'abord les grandeurs utilisées pour caractériser la polarisation du rayonnement. Ensuite, nous présenterons les différentes méthodes développées pour produire des harmoniques d'ordre élevé polarisées elliptiquement. Nous montrerons d'abord que l'utilisation d'un faisceau fondamental elliptique est peu efficace et ne permet pas d'attendre des ellipticités élevées, puis nous présenterons brièvement les méthodes de GHOE dans les molécules alignées et au voisinage de résonances permettant d'obtenir un rayonnement harmonique elliptique. Enfin nous détaillerons le schéma de GHOE utilisant une impulsion laser à deux couleurs polarisées circulairement en sens opposé qui sera étudié numériquement et expérimentalement dans les chapitres suivants. 
 
 \section{Polarisation de la lumière}
 Considérons une onde plane monochromatique de pulsation $\omega_0$ $\vec{E}(z,t)$. D'après les équations de Maxwell, le champ électrique est transverse, c'est-à-dire orthogonal à son vecteur d'onde $\vec{k}$. Dans un repère cartésien $(O,x,y,z)$ tel que le champ se propage selon la direction $(Oz)$, on a:
@@ -48,7 +48,7 @@ Si $\epsilon > 0$ (resp. $\epsilon <0$), l'ellipse est parcourue dans le sens ho
 \label{fig:Polarellipse}
 \end{figure}
 
-En pratique, le champ laser (ou harmonique) possède une durée finie, donc une largeur spectrale, et un profil transverse non homogène. En chaque point $(x,y)$ du plan transverse, le champ électrique est décrit localement par
+En pratique, le champ laser (ou harmonique) possède une durée finie, donc une largeur spectrale, et un profil transverse non homogène. En chaque point $(x,y)$ du plan transverse et à l'instant $t$, le champ électrique est décrit localement par
 \begin{equation}
 \vec{E}(x,y,t,\omega) = E_x(x,y,t,\omega) \vec{u_x} + E_y(x,y,t,\omega) \vec{u_y}
 \end{equation}
@@ -64,8 +64,8 @@ Il est possible que les différentes composantes temporelles et spatiales ne soi
 \begin{equation}
 S_0^2 \geqslant S_1^2 + S_2^2 + S_3^2
 \end{equation}
-avec égalité seulement si la lumière est complètement polarisée. Il est utile de définir les paramètres de Stokes normalisés par $S_0$, $s_1 = S_1 /S_0$, $s_2 = S_2 /S_0$ et $s_3 = S_3 /S_0$.
-Le degré de polarisation de l'onde $P$ est donné par 
+avec égalité si et seulement si la lumière est complètement polarisée. Il est utile de définir les paramètres de Stokes normalisés par $S_0$: $s_1 = S_1 /S_0$, $s_2 = S_2 /S_0$ et $s_3 = S_3 /S_0$.
+Le degré de polarisation de l'onde, $P$, est donné par 
 \begin{equation}
 P = \frac{I_{\text{pol}}}{I_{\text{tot}}} = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0} = \sqrt{s_1^2 + s_2^2 + s_3^2}
 \label{eq:degrépolarisation}
@@ -79,7 +79,7 @@ Les paramètres de Stokes sont reliés aux paramètres géométriques de l'ellip
 La donnée des quatre paramètres de Stokes est suffisante pour décrire complètement la polarisation du champ, et est équivalente à la donnée de l'ellipticité $\epsilon$, de l'angle entre le grand axe de l'ellipse et $(Ox)$ $\psi$ et du degré de polarisation $P$. D'après l'équation \ref{eq:epsilon_Stokes}, si la lumière est complètement polarisée, il existe une relation directe entre $\epsilon$ et $s_3$. Cependant, si la lumière est partiellement polarisée, il est nécessaire de mesurer simultanément $s_1$, $s_2$ et $s_3$ pour déterminer l'ellipticité.
 
 \section{Génération d'harmoniques d'ordre élevé à partir d'un laser polarisé elliptiquement}
-L'idée la plus simple pour produire un rayonnement harmonique polarisé elliptiquement est de chercher à transmettre à l'XUV les propriétés de polarisation du faisceau fondamental.
+L'idée la plus simple pour produire un rayonnement harmonique polarisé elliptiquement est de chercher à transférer à l'XUV les propriétés de polarisation du faisceau fondamental.
 
 La première expérience de GHOE à partir d'un laser polarisé elliptiquement a été brillamment effectuée par \mycite{BudilPRA1993}. Un laser à colquiriite dopée au chrome Cr:LiSrAlF$_6$ produit des impulsions de 125 fs à 825 nm qui sont focalisées dans un gaz rare pour générer les harmoniques d'ordre élevé. La polarisation du laser est variée  de linéaire à circulaire gauche et droite grâce à une lame quart d'onde large bande. Le signal harmonique est mesuré en fonction de l'ellipticité du laser. Les résultats pour les harmoniques 15 à 63 dans le néon sont reportés figure \ref{fig:Budil}. On constate que l'efficacité de génération décroit exponentiellement avec l'ellipticité IR. Pour $|\epsilon| = 0.2$, le signal diminue de plus d'un ordre de grandeur par rapport au cas linéaire. La décroissance est plus rapide lorsque l'ordre de l'harmonique est grand.
 
@@ -91,9 +91,9 @@ La première expérience de GHOE à partir d'un laser polarisé elliptiquement a
 \label{fig:Budil}
 \end{figure}
 
-Quelques années plus tard, \mycite{AntoinePRA1997} ont mesuré optiquement l'ellipticité et l'angle de l'ellipse de polarisation d'harmoniques générées dans plusieurs gaz rares. Les résultats expérimentaux sont comparés à des calculs dans l'approximation du champ fort (\textit{Strong Field Approximation, SFA}), incluant la propagation, de l'ellipticité et du degré de polarisation XUV. Les résultats pour les harmoniques 17 et 23, correspondant respectivement à la fin du plateau et à la coupure à l'intensité utilisée dans l'argon, sont reproduits figure \ref{fig:Antoine}. La mesure de l'ellipticité optique avec une loi de Malus ne permet pas de déterminer le paramètre de Stokes $s_3$, mais seulement $s_1$ et $s_2$ \mycite{AntoinePRA1997}\mycite{TheseGruson}. Le calcul de l'ellipticité se fait alors en utilisant les relations \ref{eq:degrépolarisation} et \ref{eq:epsilon_Stokes}, en supposant le rayonnement complètement polarisé ($P = 1$). Ainsi, la grandeur mesurée est seulement une valeur maximale de l'ellipticité harmonique, $\epsilon_q^{\text{max}}$. Si le rayonnement est seulement partiellement polarisé, l'ellipticité de la partie polarisée de la lumière ("vraie" ellipticité) est inférieure à $\epsilon_q^{\text{max}}$. D'une part, on constate que l'angle de rotation de l'ellipse est faible et augmente de manière quasi-linéaire avec l'ellipticité IR. D'autre part, l'ellipticité des harmoniques est une fonction croissante de l'ellipticité du fondamental, mais lui est inférieure, de manière plus significative pour l'harmonique de la coupure. Pour l'harmonique du plateau, une grande ellipticité mesurée est associée à un plus faible degré de polarisation. L'ellipticité "vraie" calculée est alors deux fois plus faible que l'ellipticité mesurée.
+Quelques années plus tard, \mycite{AntoinePRA1997} ont mesuré optiquement l'ellipticité et l'angle de l'ellipse de polarisation d'harmoniques générées dans plusieurs gaz rares à partir d'un faisceau IR polarisé elliptiquement. Les résultats expérimentaux sont comparés à des calculs dans l'approximation du champ fort (\textit{Strong Field Approximation, SFA}), incluant la propagation, de l'ellipticité et du degré de polarisation de l'XUV. Les résultats pour les harmoniques 17 et 23, correspondant respectivement à la fin du plateau et à la coupure à l'intensité utilisée dans l'argon, sont reproduits figure \ref{fig:Antoine}. La mesure de l'ellipticité par une méthode optique avec une loi de Malus ne permet pas de déterminer le paramètre de Stokes $s_3$, mais seulement $s_1$ et $s_2$ \mycite{AntoinePRA1997}\mycite{TheseGruson}. Le calcul de l'ellipticité se fait alors en utilisant les relations \ref{eq:degrépolarisation} et \ref{eq:epsilon_Stokes}, en supposant le rayonnement complètement polarisé ($P = 1$). Ainsi, la grandeur mesurée est seulement une valeur maximale de l'ellipticité harmonique, $\epsilon_q^{\text{max}}$. Si le rayonnement est seulement partiellement polarisé, l'ellipticité de la partie polarisée de la lumière ("vraie" ellipticité) est inférieure à $\epsilon_q^{\text{max}}$. D'une part, on constate que l'angle de rotation de l'ellipse est faible et augmente de manière quasi-linéaire avec l'ellipticité IR. D'autre part, l'ellipticité des harmoniques est une fonction croissante de l'ellipticité du fondamental, mais lui est inférieure, de manière plus significative pour l'harmonique de la coupure. Pour l'harmonique du plateau, une grande ellipticité mesurée est associée à un plus faible degré de polarisation. L'ellipticité "vraie" calculée est alors deux fois plus faible que l'ellipticité mesurée.
 
-Les différentes observations s'interprètent facilement dans le cadre semi-classique du modèle en trois étapes, voir par exemple \mycite{TheseGeneaux} chap. 13.
+Les différentes observations s'interprètent facilement dans le cadre semi-classique du modèle en trois étapes, voir par exemple \mycite{TheseGeneaux} chap. 13. En particulier, la diminution de l'efficacité de génération avec l'ellipticité du champ est due au fait que la trajectoire électronique dans le continuum ne recombine pas sur l'ion parent.
 
 Ces deux expériences montrent qu'il est possible de transférer l'ellipticité du fondamental vers l'XUV lors de la génération d'harmoniques. Cependant, le processus est très peu efficace et ne permet pas d'atteindre des ellipticités élevées. Il est donc nécessaire de développer d'autres méthodes de production d'harmoniques et d'impulsions attoseconde polarisées elliptiquement. Par ailleurs, \mycite{AntoinePRA1997} soulignent le fait que les mesures de type loi de Malus sans élément déphaseur sur le champ XUV ne peuvent déterminer ni le signe de l'ellipticité ni le paramètre de Stokes $s_3$. Ainsi, pour une caractérisation complète de la polarisation de l'émission harmonique, il est également nécessaire de développer d'autres méthodes polarimétriques. Une telle méthode sera présentée et utilisée au chapitre \ref{chap:MesurePolar}.
 
@@ -106,16 +106,98 @@ Ces deux expériences montrent qu'il est possible de transférer l'ellipticité 
 \label{fig:Antoine}
 \end{figure}
 
+\section{Autres méthodes de génération d'harmoniques d'ordre élevé polarisées elliptiquement}
+\subsection{Génération dans des molécules alignées}
+Par symétrie, les harmoniques d'ordre élevé générées par un laser polarisé linéairement dans un milieu isotrope sont polarisées linéairement. L'ellipticité ne peut provenir que d'une brisure de symétrie. Dans le paragraphe précédent, la brisure de symétrie provient du champ IR elliptique qui génère les harmoniques dans un milieu isotrope. Les rôles du champ et du milieu peuvent être inversés: les harmoniques peuvent être générées par un laser polarisé linéairement dans un milieu orienté.
 
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{ZhouMairesse.pdf_tex}
+\caption{(a) Ellipticité $\epsilon_q^{\text{max}}$ en fonction de l'ordre harmonique pour plusieurs angles d'alignement de la molécule N$_2$ par rapport à la polarisation linéaire du laser de génération ($I_{\text{gen}} = 2 \times 10^{14}$ W/cm$^2$). Adapté de \mycite{ZhouPRL2009}. (b) Ellipticité $\epsilon_q^{\text{max}}$ en fonction de l'ordre harmonique pour plusieurs angles d'alignement de la molécule N$_2$ par rapport à la polarisation linéaire du laser de génération ($I_{\text{gen}} = 8 \times 10^{13}$ W/cm$^2$). Adapté de \mycite{MairessePRL2010}.}
+\label{fig:ZhouMairesse}
+\end{figure}
 
+Plusieurs méthodes d'alignement de molécules ont été développées pour la GHOE, en particulier dans le cadre de la spectroscopie harmonique. Dans le schéma le plus courant d'alignement impulsionnel, une pré-impulsion laser intense de quelques centaines de femtosecondes est focalisée dans le gaz et créée un paquet d'onde rotationnel dans l'état fondamental de la molécule. Ce paquet d'onde évolue librement après l'interaction, et se rephase périodiquement (toutes les périodes rotationnelles de la molécule) à des instants où les molécules sont alignées parallèlement ou perpendiculairement à la polarisation du laser de pompe \mycite{RoscaPrunaPRL2001}. L'impulsion laser de GHOE est retardée de manière à générer les harmoniques à l'instant où les molécules sont alignées. \`{A} cet instant, l'impulsion laser de pompe n'est plus présente dans le milieu et ne perturbe pas la GHOE.
 
+En utilisant cette méthode, \mycite{ZhouPRL2009} puis \mycite{MairessePRL2010} ont mesuré optiquement l'ellipticité maximale des harmoniques générées dans des molécules de N$_2$ alignées, pour plusieurs angles d'alignement. Les résultats sont reproduits figure \ref{fig:ZhouMairesse}. Dans ces deux expériences, une ellipticité maximale $\epsilon_q^{\text{max}}$ significative ($\approx 0.35$ et $\approx 0.4 - 0.5$ resp.) a été mesurée pour les harmoniques 21 - 23 d'un laser à 800 nm lorsque les molécules sont alignées à 60° de la polarisation du laser. Soulignons ici que le signe de l'ellipticité ainsi que le degré de polarisation du rayonnement n'est pas mesurable dans ces expériences. En réalité, l'interprétation de ces résultats est plus complexe qu'une simple brisure de symétrie: la même expérience de GHOE dans CO$_2$ aligné produit des harmoniques polarisées linéairement \mycite{ZhouPRL2009}. L'ellipticité est due à l'interférence entre plusieurs canaux d'ionisation lors de la GHOE dans N$_2$, et est donc un résultat important pour la spectroscopie harmonique.
 
+En revanche, la production d'harmoniques elliptiques à partir de molécules alignées s'avère peu pratique. Si le niveau de signal est cette fois-ci suffisant, la technique est complexe à mettre en \oe uvre. Une ellipticité harmonique élevée requiert un excellent taux d'alignement des molécules qui peut s'obtenir:
+\begin{itemize}
+\item En refroidissant la température rotationnelle du gaz grâce à l'utilisation d'un jet pulsé \mycite{TheseCamper}; cependant l'utilisation d'un jet pulsé diminue la densité du milieu et donc le flux de photons XUV.
+\item En utilisant un schéma d'alignement à plusieurs impulsions \mycite{CryanPRA2009}: une nouvelle impulsion d'alignement interagit avec les molécules à chaque période rotationnelle, ce qui complexifie considérablement le dispositif expérimental et requiert une quantité d'énergie importante pour la pompe.
+\end{itemize}
+Par ailleurs, si l'intensité du faisceau d'alignement n'est pas homogène spatialement dans la zone de génération des harmoniques, ou bien s'il existe une gigue spatiale ou temporelle du faisceau d'alignement, des simulations avec le modèle QRS (\textit{Quantitative Rescattering Theory}, \mycite{LePRA2009}) ont montré que les harmoniques générées dans N$_2$ aligné n'étaient pas complètement polarisées ($P \approx 0.9$) \mycite{TheseGruson}. Toutes ces contraintes pour obtenir un rayonnement harmonique d'ellipticité significative mais inférieure à 0.5 ont contribué au développement d'autres méthodes de GHOE polarisées elliptiquement.
 
+\subsection{Génération au voisinage d'une résonance}
+La préparation du milieu préalable à la GHOE elliptiques requiert un relativement lourd équipement expérimental. Ainsi, il serait pratique d'utiliser une propriété intrinsèque au milieu de génération qui exalte la production de rayonnement elliptique. \mycite{FerreNatPhot2015} ont montré que la GHOE au voisinage de résonances possédait ce type de propriétés. Tout d'abord, les auteurs ont généré les harmoniques d'un laser à 400 nm polarisé elliptiquement ($\epsilon_{\text{fond}} = 0.4$) dans l'argon (figure \ref{fig:FerreAr}). Nous avons vu précédemment que l'ellipticité harmonique est inférieure à l'ellipticité du fondamental \mycite{AntoinePRA1997}. De manière surprenante, Ferré \textit{et al.} ont mesuré par polarimétrie optique $\epsilon_5^{\text{max}} = 0.77$, soit deux fois l'ellipticité du fondamental, pour l'harmonique 5. L'harmonique 5 à 400 nm ($\approx 5 \times 3.1 = 15.5$ eV) se trouve sous le seuil d'ionisation de l'argon, dans une région spectrale riche en états de Rydberg. La présence de ces résonances modifie donc les propriétés de polarisation de l'harmonique, ce qui est confirmé également par des calculs théoriques.
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{FerreAr.pdf_tex}
+\caption{Intensité du signal et ellipticité maximale $\epsilon_q^{\text{max}}$ mesurée par polarimétrie optique d'harmoniques générées dans l'argon par un laser à 400 nm d'ellipticité $\epsilon_{\text{fond}} = 0.4$. L'énergie de quelques états de Rydberg de l'argon est indiquée en vert. Adapté de \mycite{FerreNatPhot2015}.}
+\label{fig:FerreAr}
+\end{figure}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{FerreSF6.pdf_tex}
+\caption{Intensité du signal (haut) et ellipticité maximale $\epsilon_q^{\text{max}}$ (bas) mesurée par polarimétrie optique d'harmoniques générées dans SF$_6$ par un laser à 400 nm ou 800 nm d'ellipticité variable. Adapté de \mycite{FerreNatPhot2015}.}
+\label{fig:FerreSF6}
+\end{figure}
 
+Dans la suite de leur travail, \mycite{FerreNatPhot2015} montrent que cette propriété s'étend aux résonances de forme. L'ellipticité d'harmoniques générées au voisinage de la résonance de forme de SF$_6$ vers 25 eV \mycite{YangJElecSpec1998} \mycite{FerreNatComm2015} atteint $\epsilon_{15}^{\text{max}} \approx 0.8$ pour $\epsilon_{\text{fond}} = 0.2$ (figure \ref{fig:FerreSF6}).
 
+Ces mesures de polarimétrie optique ont été confirmées par notre groupe lors de mesures de polarimétrie moléculaire \mycite{VeyrinasFaraday2016} \mycite{TheseGruson}. Cette méthode sera présentée en détail dans le chapitre \ref{chap:MesurePolar}. Elle permet, entre autres, de mesurer tous les paramètres de Stokes du rayonnement, donc de séparer la polarisation circulaire de la partie non polarisée. Les résultats obtenus sont présentés figure \ref{fig:ResultatsFaradSF6}. Nous avons mesuré une ellipticité de $\epsilon_q \approx +0.6$ avec $\epsilon_{\text{fond}} = +0.23$ et $\epsilon_q \approx -0.6$ avec $\epsilon_{\text{fond}} = -0.17$ pour les harmoniques 15 et 17 générées dans SF$_6$ avec un laser à 800 nm. Les deux autres harmoniques mesurées possèdent une ellipticité modeste. Nous soulignons ici qu'il s'agit de la première mesure du signe de $\epsilon_q$ dans ces conditions. Par ailleurs, nous avons pu déterminer le degré de polarisation des harmoniques et mis en évidence l'existence d'une dépolarisation significative dans le rayonnement harmonique produit au voisinage de la résonance de forme de SF$_6$.
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{BordeldeVeyrinas.pdf_tex}
+\caption{Ellipticité "vraie" $\epsilon_q$ (a) et degré de polarisation $P$ (b) d'harmoniques générées dans SF$_6$ par un laser à 800 nm polarisé elliptiquement avec $\epsilon_{IR} = +0.23$ (bleu) et -0.17 (rouge) mesurés par polarimétrie moléculaire. Adapté de \mycite{VeyrinasFaraday2016}.}
+\label{fig:ResultatsFaradSF6}
+\end{figure}
+
+Les harmoniques de SF$_6$ ont été utilisées dans une expérience de dichroïsme circulaire de photoélectrons \mycite{FerreNatPhot2015}, démontrant ainsi que ce schéma permet la génération d'un flux suffisant de photons XUV de polarisation quasi-circulaire. Cependant, les résonances sous le seuil comme les résonances de forme sont généralement situées au voisinage des potentiels d'ionisation atomiques ou moléculaires, soit à des énergies de l'ordre de quelques dizaines d'électron-volts. Les résonances de forme sont moins étroites spectralement que les résonances atomiques, mais restent localisées spectralement. Ce schéma de génération apparaît donc comme un bon outil de production de rayonnement XUV elliptique pour l'étude de dichroïsmes circulaires dans les molécules, mais ne permet pas d'atteindre les énergies et les largeurs spectrales nécessaires, par exemple, pour  l'étude de matériaux magnétiques \mycite{StohrJElecSpec1995}.
+
+\section{Génération d'harmoniques d'ordre élevé à partir d'un champ à deux couleurs polarisées circulairement en sens opposé}
+Le schéma de GHOE à partir d'un mélange de deux impulsions à la fréquence fondamentale et sa seconde harmonique (généralement 800 nm et 400 nm) polarisées circulairement en sens opposé a été proposé expérimentalement par \mycite{EichmannPRA1995}. De manière surprenante, cette configuration à deux couleurs produit efficacement un spectre très étendu, composé de toutes les harmoniques exceptées les multiples de 3. En effet, dans une approche multiphotonique de la GHOE, le système absorbe un nombre $m$ de photons de fréquence $\omega$ et un nombre $n$ de photons de fréquence 2$\omega$: 
+\begin{equation}
+\Omega_{n,m} = n \times \omega + m \times 2 \omega
+\end{equation}
+L'émission du photon harmonique de fréquence $\Omega_{n,m}$ correspond à une variation de moment angulaire orbital du système $\Delta \ell = \pm 1$. Ainsi le système doit absorber un photon supplémentaire d'une couleur pour conserver le moment angulaire:
+\begin{equation}
+n = m \pm 1
+\end{equation}
+Les fréquences harmoniques autorisées sont donc
+\begin{equation}
+\Omega_{m \pm 1,m} = (3m \pm 1) \omega
+\end{equation}
+Par ailleurs, les deux impulsions sont polarisées circulairement en sens opposé. Donc l'un des faisceaux porte un moment angulaire de spin de +1 tandis que l'autre porte un moment angulaire de spin de -1. Par conservation du moment angulaire de spin, l'harmonique émise porte le moment angulaire du photon supplémentaire absorbé. Donc les harmoniques $3m+1$ (resp. $3m-1$) sont polarisées circulairement dans le même sens que le faisceau à la fréquence $\omega$ (resp. 2$\omega$).
+
+Ces conclusions des lois de conservations ont été remarquées dès les travaux pionniers de \mycite{EichmannPRA1995}, mais sans que la mesure de l'état de polarisation des harmoniques ne soit effectuée. Ce schéma permet donc en principe la production d'harmoniques polarisées circulairement sur tout le spectre, dont l'hélicité alterne et est contrôlée par l'hélicité respective des champs à $\omega$ et 2$\omega$.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{Trajectoires_Milosevic.pdf_tex}
+\caption{(a) Courbe décrite par le champ électrique à deux couleurs pendant une période du champ à $\omega$, avec $\hbar \omega = 1.6$ eV et $I_{\omega} = I_{2\omega} = 4 \times 10^{14}$ W/cm$^2$. (b) Trajectoires électroniques correspondant aux harmoniques 19 à 51. Les instants d'émission et de recombinaison pour les différentes trajectoires sont indiquées par des étoiles et des cercles respectivement en (a). La position du c\oe ur ionique est matérialisée par un cercle. Extrait de \mycite{MilosevicPRA2000_Generation}}
+\label{fig:Trajectoires_Milosevic}
+\end{figure}
+
+Bien qu'utilisant des champs polarisés circulairement ($\epsilon_{\omega, 2\omega} = \pm 1$), la GHOE avec ce schéma est très efficace. En réalité, le champ électrique total ressenti par l'électron ne décrit pas un cercle (figure \ref{fig:Polarellipse}) mais un trèfle à trois feuilles (figure \ref{fig:Trajectoires_Milosevic}(a)). Dans ce champ, \mycite{MilosevicPRA2000_Generation} ont calculé les trajectoires électroniques dans l'approximation du champ fort. Tout comme il existe des trajectoires "courtes" et "longues" dans la GHOE à une couleur polarisée linéairement (voir partie \textbf{ref}), plusieurs trajectoires électroniques sont susceptibles d'émettre des harmoniques. Cependant, les auteurs montrent qu'une famille de trajectoires domine l'émission; elles sont représentées figure \ref{fig:Trajectoires_Milosevic}(b) et correspondent à des instants d'ionisation et de recombinaison indiquées sur la figure \ref{fig:Trajectoires_Milosevic}(a). Les trajectoires commencent à $\approx$ 4 u.a. du c\oe ur (ce qui correspond à la "sortie du tunnel" lors de l'ionisation) et recombinent sur le c\oe ur en suivant une trajectoire très semblable au cas de la GHOE à une couleur linéaire, ce qui explique l'importante efficacité de ce dispositif de génération. 
+
+Par ailleurs, l'émission harmonique correspondante est alors polarisée linéairement. Ce processus se répète trois fois pendant une période T du champ à $\omega$ en tournant de 120°, c'est-a-dire à chaque "feuille" du trèfle. La combinaison des trois émissions attoseconde linéaires dont la polarisation tourne de 120° tous les T/3 est responsable de la circularité des harmoniques. Le rayonnement XUV possède donc des propriétés de polarisation inhabituelles: une harmonique donnée possède une polarisation circulaire, mais l'émission est constituée d'un train d'impulsion attoseconde émises tous les T/3 de polarisation linéaire tournant de 120° d'une impulsion à l'autre dans le train \mycite{MilosevicPRA2000_Unusual}.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.5\textwidth}
+\import{Figures/Polarimetrie/}{CitationsEichmann.pdf_tex}
+\caption{Nombre de citations par année de \mycite{EichmannPRA1995} analysé par Web of Knowledge en août 2017.}
+\label{fig:CitationsEichmann}
+\end{figure}
 
 %\chapter{\'{E}tude numérique de la GHOE par un champ à deux couleurs polarisées circulairement en sens opposé}
 
