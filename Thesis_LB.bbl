@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,20 @@
 Antoine P, Carr{\'e} B, L'Huillier A, et Leweinstein M.
 \newblock \emph{Polarization of high-order harmonics}.
 \newblock Phys. Rev. A \textbf{55},~1314–1324 (1997).
+
+\bibitem[Ayuso et~al.(2017)Ayuso, Jiménez-Galán, Morales, Ivanov, et
+  Smirnova]{AyusoNJP2017}
+Ayuso D, Jiménez-Galán A, Morales F, Ivanov M, et Smirnova O.
+\newblock \emph{Attosecond control of spin polarization in electron–ion
+  recollision driven by intense tailored fields}.
+\newblock New Journal of Physics \textbf{19},~073007 (2017).
+
+\bibitem[Baykusheva et~al.(2016)Baykusheva, Ahsan, Lin, et
+  W{\"o}rner]{BaykushevaPRL2016}
+Baykusheva D, Ahsan M, Lin N, et W{\"o}rner H.
+\newblock \emph{Bicircular {High-Harmonic} spectroscopy reveals dynamical
+  symmetries of atoms and molecules}.
+\newblock Phys Rev Lett \textbf{116} (2016).
 
 \bibitem[Born et Wolf(1980)]{BornWolf}
 Born M et Wolf E.
@@ -34,11 +48,37 @@ Cryan JP, Bucksbaum PH, et Coffee RN.
 \newblock \emph{Field-free alignment in repetitively kicked nitrogen gas}.
 \newblock Phys. Rev. A \textbf{80},~063412 (2009).
 
+\bibitem[Eckart et~al.(2016)Eckart, Richter, Kunitski, Hartung, Rist, Henrichs,
+  Schlott, Kang, Bauer, Sann, Schmidt, Sch{\"o}ffler, Jahnke, et
+  D{\"o}rner]{EckartPRL2016}
+Eckart S, Richter M, Kunitski M, Hartung A, Rist J, Henrichs K, Schlott N, Kang
+  H, Bauer T, Sann H, Schmidt L, Sch{\"o}ffler M, Jahnke T, et D{\"o}rner R.
+\newblock \emph{Nonsequential double ionization by counterrotating circularly
+  polarized {Two-Color} laser fields}.
+\newblock Phys Rev Lett \textbf{117} (2016).
+
 \bibitem[Eichmann et~al.(1995)Eichmann, Egbert, Nolte, et
   Momma]{EichmannPRA1995}
 Eichmann H, Egbert A, Nolte S, et Momma C.
 \newblock \emph{Polarization-dependent high-order two-color mixing}.
 \newblock Physical Review A (1995).
+
+\bibitem[Fan et~al.(2015)Fan, Grychtol, Knut, Carlos, Hickstein, Zusin, Gentry,
+  Dollar, Mancuso, Hogle, Kfir, Legut, Carva, Ellis, Dorney, Chen, Shpyrko,
+  Fullerton, Cohen, Oppeneer, Milo\v{s}evi{\'c}, Becker, A, Popmintchev,
+  Murnane, et Kapteyn]{FanPNAS2015}
+Fan T, Grychtol P, Knut R, Carlos H, Hickstein DD, Zusin D, Gentry C, Dollar
+  FJ, Mancuso CA, Hogle CW, Kfir O, Legut D, Carva K, Ellis JL, Dorney KM, Chen
+  C, Shpyrko OG, Fullerton EE, Cohen O, Oppeneer PM, Milo\v{s}evi{\'c} DB,
+  Becker A, A JA, Popmintchev T, Murnane MM, et Kapteyn HC.
+\newblock \emph{Bright circularly polarized soft x-ray high harmonics for x-ray
+  magnetic circular dichroism}.
+\newblock PNAS \textbf{112},~14206--14211 (2015).
+
+\bibitem[Feit et~al.(1982)Feit, Fleck, et Steiger]{FEITJCP1982}
+Feit M, Fleck J, et Steiger A.
+\newblock \emph{Solution of the schrödinger equation by a spectral method}.
+\newblock Journal of Computational Physics \textbf{47},~412 -- 433 (1982).
 
 \bibitem[Ferr{\'e} et~al.(2015{\natexlab{a}})Ferr{\'e}, Boguslavskiy, Dagan,
   Blanchet, Bruner, Burgy, Camper, Descamps, Fabre, Fedorov, Gaudin, Geoffroy,
@@ -62,6 +102,13 @@ Ferr{\'e} A, Handschin C, Dumergue M, Burgy F, Comby A, Descamps D, Fabre B,
 \newblock \emph{A table-top ultrashort light source in the extreme ultraviolet
   for circular dichroism experiments}.
 \newblock Nature Photonics \textbf{9},~93--98 (2015){\natexlab{b}}.
+
+\bibitem[Fleischer et~al.(2014)Fleischer, Kfir, Diskin, Sidorenko, et
+  Cohen]{FleischerNatPhot2014}
+Fleischer A, Kfir O, Diskin T, Sidorenko P, et Cohen O.
+\newblock \emph{Spin angular momentum and tunable polarization in high-harmonic
+  generation}.
+\newblock Nat Photonics \textbf{8},~543--549 (2014).
 
 \bibitem[G\'{e}neaux(2016)]{TheseGeneaux}
 G\'{e}neaux R.
@@ -90,6 +137,15 @@ Higuet J.
 \newblock Thèse de doctorat dirigée par Mével, Eric. Spécialité Lasers,
   matière et nanosciences.
 
+\bibitem[Kfir et~al.(2015)Kfir, Grychtol, Turgut, Knut, Zusin, Popmintchev,
+  Popmintchev, Nembach, Shaw, Fleischer, Kapteyn, Murnane, et
+  Cohen]{KfirNatPhot2015}
+Kfir O, Grychtol P, Turgut E, Knut R, Zusin D, Popmintchev D, Popmintchev T,
+  Nembach H, Shaw J, Fleischer A, Kapteyn H, Murnane M, et Cohen O.
+\newblock \emph{Generation of bright phase-matched circularly-polarized extreme
+  ultraviolet high harmonics}.
+\newblock Nat Photonics \textbf{9},~99--105 (2015).
+
 \bibitem[Le et~al.(2009)Le, Lucchese, Tonzani, Morishita, et Lin]{LePRA2009}
 Le AT, Lucchese RR, Tonzani S, Morishita T, et Lin CD.
 \newblock \emph{Quantitative rescattering theory for high-order harmonic
@@ -105,6 +161,39 @@ Mairesse Y, Higuet J, Dudovich N, Shafir D, Fabre B, M\'evel E, Constant E,
   strong-field ionization}.
 \newblock Phys. Rev. Lett. \textbf{104},~213601 (2010).
 
+\bibitem[Mancuso et~al.(2016{\natexlab{a}})Mancuso, Dorney, Hickstein,
+  Chaloupka, Ellis, Dollar, Knut, Grychtol, Zusin, Gentry, Gopalakrishnan,
+  Kapteyn, et Murnane]{MancusoPRL2016}
+Mancuso C, Dorney K, Hickstein D, Chaloupka J, Ellis J, Dollar F, Knut R,
+  Grychtol P, Zusin D, Gentry C, Gopalakrishnan M, Kapteyn H, et Murnane M.
+\newblock \emph{Controlling nonsequential double ionization in {Two-Color}
+  circularly polarized femtosecond laser fields}.
+\newblock Phys Rev Lett \textbf{117} (2016){\natexlab{a}}.
+
+\bibitem[Mancuso et~al.(2016{\natexlab{b}})Mancuso, Hickstein, Dorney, Ellis,
+  Hasović, Knut, Grychtol, Gentry, Gopalakrishnan, Zusin, Dollar, Tong,
+  Milošević, Becker, Kapteyn, et Murnane]{MancusoPRA2016}
+Mancuso C, Hickstein D, Dorney K, Ellis J, Hasović E, Knut R, Grychtol P,
+  Gentry C, Gopalakrishnan M, Zusin D, Dollar F, Tong X, Milošević D, Becker
+  W, Kapteyn H, et Murnane M.
+\newblock \emph{Controlling electron-ion rescattering in two-color circularly
+  polarized femtosecond laser fields}.
+\newblock Phys Rev A \textbf{93} (2016){\natexlab{b}}.
+
+\bibitem[Medi\v{s}auskas et~al.(2015)Medi\v{s}auskas, Wragg, Hart, et
+  Ivanov]{MedisauskasPRL2015}
+Medi\v{s}auskas L, Wragg J, Hart H, et Ivanov M.
+\newblock \emph{Generating isolated elliptically polarized attosecond pulses
+  using bichromatic counterrotating circularly polarized laser fields}.
+\newblock Phys Rev Lett \textbf{115} (2015).
+
+\bibitem[Milo\v{s}evi\'{c}(2015)]{MilosevicPRA2015}
+Milo\v{s}evi\'{c} D.
+\newblock \emph{Circularly polarized high harmonics generated by a bicircular
+  field from inert atomic gases in the p state: A tool for exploring
+  chirality-sensitive processes}.
+\newblock Physical Review A \textbf{92} (2015).
+
 \bibitem[Milo\v{s}evi\'{c} et Becker(2000)]{MilosevicPRA2000_Unusual}
 Milo\v{s}evi\'{c} D et Becker W.
 \newblock \emph{Attosecond pulse trains with unusual nonlinear polarization}.
@@ -116,6 +205,12 @@ Milo\v{s}evi\'{c} D, Becker W, et Kopold R.
 \newblock \emph{Generation of circularly polarized high-order harmonics by
   two-color coplanar field mixing}.
 \newblock Physical Review A (2000).
+
+\bibitem[Reich et Madsen(2016)]{ReichPRL2016}
+Reich D et Madsen L.
+\newblock \emph{Illuminating molecular symmetries with bicircular
+  {High-Order-Harmonic} generation}.
+\newblock Phys Rev Lett \textbf{117} (2016).
 
 \bibitem[Rosca-Pruna et Vrakking(2001)]{RoscaPrunaPRL2001}
 Rosca-Pruna F et Vrakking MJJ.
@@ -129,6 +224,30 @@ St{\"o}hr J.
   metal thin films}.
 \newblock Journal of Electron Spectroscopy and Related Phenomena
   \textbf{75},~253--272 (1995).
+
+\bibitem[Strelkov et~al.(2012)Strelkov, Khokhlova, Gonoskov, Gonoskov, et
+  Ryabikin]{StrelkovPRA2012}
+Strelkov V, Khokhlova M, Gonoskov A, Gonoskov I, et Ryabikin MY.
+\newblock \emph{High-order harmonic generation by atoms in an elliptically
+  polarized laser field: Harmonic polarization properties and laser threshold
+  ellipticity}.
+\newblock Physical Review A \textbf{86},~013404 (2012).
+
+\bibitem[Veyrinas(2015)]{TheseVeyrinas}
+Veyrinas K.
+\newblock \emph{Photoémission dans le référentiel moléculaire : une sonde
+  de la dynamique électronique et nucléaire et de l’état de polarisation
+  du rayonnement ionisant}.
+\newblock Theses, {Universit{\'e} Paris Sud - Paris XI}, (2015).
+\newblock URL \url{https://tel.archives-ouvertes.fr/tel-01236479}.
+
+\bibitem[Veyrinas et~al.(2013)Veyrinas, Elkharrat, Poullain, Saquet, Dowek,
+  Lucchese, Garcia, et Nahon]{VeyrinasPRA2013}
+Veyrinas K, Elkharrat C, Poullain SM, Saquet N, Dowek D, Lucchese R, Garcia G,
+  et Nahon L.
+\newblock \emph{Complete determination of the state of elliptically polarized
+  light by electron-ion vector correlations}.
+\newblock Physical Review A \textbf{88},~063411 (2013).
 
 \bibitem[Veyrinas et~al.(2016)Veyrinas, Gruson, Weber, Barreau, Ruchon,
   Hergott, Houver, Lucchese, Sali{\`e}res, et Dowek]{VeyrinasFaraday2016}
