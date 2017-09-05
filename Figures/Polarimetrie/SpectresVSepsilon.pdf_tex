@@ -1,0 +1,130 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'SpectresVSepsilon.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{317.66562633bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.90679929)%
+    \put(-0.32701278,0.93648599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.02518371\unitlength}\raggedright \end{minipage}}}%
+    \put(0.18221608,0.05270563){\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.22142026,0.05270563){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.26857124,0.05270563){\makebox(0,0)[lb]{\smash{11}}}%
+    \put(0.31545733,0.05270563){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.36260833,0.05270563){\makebox(0,0)[lb]{\smash{13}}}%
+    \put(0.40975929,0.05270563){\makebox(0,0)[lb]{\smash{14}}}%
+    \put(0.45691021,0.05270563){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.50406124,0.05270563){\makebox(0,0)[lb]{\smash{16}}}%
+    \put(0.5512122,0.05270563){\makebox(0,0)[lb]{\smash{17}}}%
+    \put(0.5983632,0.05270563){\makebox(0,0)[lb]{\smash{18}}}%
+    \put(0.64524925,0.05270563){\makebox(0,0)[lb]{\smash{19}}}%
+    \put(0.69240025,0.05270563){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.73955117,0.05270563){\makebox(0,0)[lb]{\smash{21}}}%
+    \put(0.34224296,0.01440562){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.13135662,0.08437802){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.11546302,0.17537422){\makebox(0,0)[lb]{\smash{50}}}%
+    \put(0.09956943,0.26636941){\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0.09956943,0.35709833){\makebox(0,0)[lb]{\smash{150}}}%
+    \put(0.09956943,0.44809322){\makebox(0,0)[lb]{\smash{200}}}%
+    \put(0.09956943,0.53908803){\makebox(0,0)[lb]{\smash{250}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{SpectresVSepsilon.pdf}}%
+    \put(0.03407017,0.57578078){\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.45137748,0.4930359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +0.84$ }}}%
+    \put(0.47774168,0.43763173){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{UV}} = -1$ }}}%
+    \put(0.07293855,0.15232657){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$|a(\omega)|^2$ (u. arb.)}}}}%
+    \put(0.13154184,1.29046842){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.11564824,1.38146327){\makebox(0,0)[lb]{\smash{50}}}%
+    \put(0.09975465,1.47245831){\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0.09975465,1.56318704){\makebox(0,0)[lb]{\smash{150}}}%
+    \put(0.09975465,1.65418192){\makebox(0,0)[lb]{\smash{200}}}%
+    \put(0.09975465,1.74517694){\makebox(0,0)[lb]{\smash{250}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{SpectresVSepsilon.pdf}}%
+    \put(0.18240131,1.25667788){\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.2216055,1.25667788){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.26875648,1.25667788){\makebox(0,0)[lb]{\smash{11}}}%
+    \put(0.31564257,1.25667788){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.36279357,1.25667788){\makebox(0,0)[lb]{\smash{13}}}%
+    \put(0.40994449,1.25667788){\makebox(0,0)[lb]{\smash{14}}}%
+    \put(0.45709545,1.25667788){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.50424648,1.25667788){\makebox(0,0)[lb]{\smash{16}}}%
+    \put(0.55139741,1.25667788){\makebox(0,0)[lb]{\smash{17}}}%
+    \put(0.5985484,1.25667788){\makebox(0,0)[lb]{\smash{18}}}%
+    \put(0.64543446,1.25667788){\makebox(0,0)[lb]{\smash{19}}}%
+    \put(0.69258545,1.25667788){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.73973645,1.25667788){\makebox(0,0)[lb]{\smash{21}}}%
+    \put(0.48070764,1.67446963){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +1$ }}}%
+    \put(0.03319063,1.7887278){\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.34242816,1.21638489){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.47774166,1.61906546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{UV}} = -1$ }}}%
+    \put(0.07312375,1.29914845){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$|a(\omega)|^2$ (u. arb.)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{SpectresVSepsilon.pdf}}%
+    \put(0.02631218,1.20662426){\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.1830727,0.67463922){\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.22248428,0.67463922){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.26988441,0.67463922){\makebox(0,0)[lb]{\smash{11}}}%
+    \put(0.31701843,0.67463922){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.36441872,0.67463922){\makebox(0,0)[lb]{\smash{13}}}%
+    \put(0.41181892,0.67463922){\makebox(0,0)[lb]{\smash{14}}}%
+    \put(0.45921921,0.67463922){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.50661941,0.67463922){\makebox(0,0)[lb]{\smash{16}}}%
+    \put(0.55401977,0.67463922){\makebox(0,0)[lb]{\smash{17}}}%
+    \put(0.60141998,0.67463922){\makebox(0,0)[lb]{\smash{18}}}%
+    \put(0.64855385,0.67463922){\makebox(0,0)[lb]{\smash{19}}}%
+    \put(0.69595421,0.67463922){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.74335442,0.67463922){\makebox(0,0)[lb]{\smash{21}}}%
+    \put(0.13327585,0.70953454){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.11862973,0.80063547){\makebox(0,0)[lb]{\smash{50}}}%
+    \put(0.10398353,0.8917362){\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0.10398353,0.9825706){\makebox(0,0)[lb]{\smash{150}}}%
+    \put(0.10398353,1.07367151){\makebox(0,0)[lb]{\smash{200}}}%
+    \put(0.10398353,1.16477224){\makebox(0,0)[lb]{\smash{250}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{SpectresVSepsilon.pdf}}%
+    \put(0.34857992,0.63428135){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.46311786,1.09236609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +0.9$ }}}%
+    \put(0.47774175,1.03696192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon_{\text{UV}} = -1$ }}}%
+    \put(0.08151236,0.71704491){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$|a(\omega)|^2$ (u. arb.)}}}}%
+  \end{picture}%
+\endgroup%

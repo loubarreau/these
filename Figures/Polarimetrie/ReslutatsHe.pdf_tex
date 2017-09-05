@@ -1,0 +1,67 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ReslutatsHe.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{591.06290436bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.0389546)%
+    \put(0.19188977,0.08889858){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps ($t/T$)}}}%
+    \put(0.19188977,0.48693048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps ($t/T$)}}}%
+    \put(0.0282793,0.17374275){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Ordre harmonique}}}}%
+    \put(0.0282793,0.56896295){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Ordre harmonique}}}}%
+    \put(0.65576287,0.10692985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.65963,0.49364239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.54666742,0.53299871){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité spectrale (u. arb.)}}}}%
+    \put(0.97023041,0.39838188){\color[rgb]{0.00392157,0,0.99607843}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Degré de polarisation}}}}%
+    \put(0.54807676,0.21955948){\color[rgb]{0.96078431,0.01568627,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Ellipticité}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ReslutatsHe.pdf}}%
+    \put(0.0005021,0.87471736){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.00010227,0.47981134){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.54997189,0.43379255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0.54997189,0.87469919){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+  \end{picture}%
+\endgroup%

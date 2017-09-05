@@ -220,10 +220,19 @@ En particulier, ce schéma de génération pourrait permettre de produire des im
 \chapter[Etude numérique de la GHOE par un champ à deux couleurs polarisées circulairement en sens opposé]{\'{E}tude numérique de la génération d'harmoniques d'ordre élevé par un champ à deux couleurs polarisées circulairement en sens opposé}
 \label{chap:calculsTA}
 
+Numériquement, il est possible d'étudier l'influence sur la polarisation des harmoniques de plusieurs paramètres du champ de manière indépendante. Dans ce chapitre, nous avons étudié la GHOE par un champ à deux couleurs polarisées elliptiquement en sens opposé dans les conditions suivantes:
+\begin{enumerate}[label=\roman*)]
+\item dans l'hélium avec des impulsions à $\omega$ et 2$\omega$ d'enveloppes $\sin^2$ ultra-brèves.
+\item dans l'argon avec des impulsions trapézoïdales de plusieurs intensités.
+\item dans le cas ii) à intensité donnée, nous avons fait varier l'ellipticité du champ à $\omega$.
+\item dans le cas ii), à intensité donnée et pour une ellipticité du champ à $\omega \neq \pm 1$, nous avons fait varier la phase relative entre les champs à $\omega$ et 2$\omega$.
+\end{enumerate}
+Notons ici que les simulations ne considèrent que la réponse de l'atome unique et ne prennent pas en compte les effets de propagation susceptibles de modifier l'état de polarisation harmonique \mycite{AntoinePRA1997}\mycite{KfirNatPhot2015}\mycite{FanPNAS2015}.
+
 \section{Méthodes numériques}
 Tous les calculs de résolution de l'équation de Schrödinger dépendante du temps (ESDT) de ce chapitre ont été effectués par Thierry Auguste de l'équipe Attophysique du LIDYL. 
 
-L'ESDT est résolue en jauge vitesse sur une grille cartésienne à deux dimensions de taille $819.2 \times 819.2$ unités atomiques avec un pas de 0.2 u.a. D'abord, les valeurs propres et vecteurs propres de l'Hamiltonien stationnaire sont calculés avec la méthode du temps de propagation imaginaire, pour un potentiel de Rochester ("\textit{soft-core}") reproduisant le potentiel d'ionisation de l'atome:
+L'ESDT est résolue en jauge vitesse sur une grille cartésienne à deux dimensions de taille $819.2 \times 819.2$ unités atomiques avec un pas de 0.2 u.a. Les valeurs propres et vecteurs propres de l'Hamiltonien stationnaire sont calculés avec la méthode du temps de propagation imaginaire, pour un potentiel de Rochester ("\textit{soft-core}") reproduisant le potentiel d'ionisation de l'atome:
 \begin{equation}
 V(x,y) = - \frac{(Z-1) \: \rme^{-(x^2+y^2) + 1}}{\sqrt{x^2 + y^2 + \eta}}
 \end{equation}
@@ -244,12 +253,65 @@ d'amplitude $E_i = \frac{E_0}{\sqrt{1 + \epsilon_i^2}}$ et d'ellipticité $\epsi
 
 Les spectres harmoniques sont obtenus en effectuant la transformée de Fourier des composantes de l'accélération du dipôle calculées, intégrées sur tout l'espace pour chaque pas de temps. Les paramètres de Stokes sont calculés à partir de l'accélération du dipôle dans le domaine des fréquences. Dans un calcul à trois dimensions, la seule différence attendue est la diffusion du paquet d'onde électronique du continuum dans la dimension perpendiculaire au plan de polarisation du champ, identique pour les orbitales $p_{-1}$ et $p_{+1}$. Les résultats devraient donc être identiques dans un calcul à trois dimensions \mycite{MedisauskasPRL2015}.
 
+\section{Champs de génération ultra-brefs}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{dessin_emission_t3.pdf_tex}
+\caption{Illustration de la rupture de symétrie du champ dans le front montant d'une impulsion ultra-brève. (a-b) Composantes du champ $\vec{E}(t)$ selon $x$ ($E_x$, bleu) et $y$ ($E_y$, rouge) pour une enveloppe  $f(t)$ constante (a) et $f(t) = \sin^2 (\pi t / 10 T)$ (b). (c-d) Courbes décrites par le champ dans le plan $(Oxy)$. Pour une enveloppe constante (c), le champ décrit un trèfle à trois feuilles régulier. Les trajectoires électroniques calculées par \mycite{MilosevicPRA2000_Generation} et présentées figure \ref{fig:Trajectoires_Milosevic} sont tracées en vert, orange et violet. Elles se reproduisent de manière identique tous les $T/3$ et conduisent à l'émission d'impulsions attosecondes de même intensité polarisées linéairement, dont la direction de polarisation est donnée par l'angle de recollision de l'électron et tourne de 120° tous les $T/3$. Avec l'enveloppe d'une impulsion ultra-brève (d), le champ décrit un trèfle dont les feuilles sont de tailles différentes qui varie rapidement d'un tiers de période à l'autre. Les trajectoires électroniques (non représentées) sont modifiées. L'instant, la direction et la probabilité de recollision, qui déterminent respectivement la phase, la polarisation et l'intensité de l'émission attoseconde varient alors également d'un tiers de période à l'autre.}
+\label{fig:dessin_emission_t3}
+\end{figure}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{ReslutatsHe.pdf_tex}
+\caption{Résultats des simulations avec des impulsions d'enveloppe $f(t) = \sin^2 (\pi t / 10 T)$ dans l'hélium. (a) Représentation temps-énergie de l'intensité harmonique, en échelle logarithmique, obtenue après transformation de Gabor du dipôle avec une fenêtre gaussienne de largeur à mi-hauteur $T$. (b) Spectre harmonique correspondant, en échelle logarithmique, avec les composantes possédant l'hélicité du champ à $\omega$ en rouge et l'hélicité du champ à 2$\omega$ en bleu. (c) Représentation temps-énergie de l'ellipticité harmonique. (d) Ellipticité (cercles rouges, échelle de gauche) et degré de polarisation (carrés bleus, échelle de droite) calculés sur la largeur spectrale des harmoniques ($\pm 0.25$ ordre jusqu'à H$_{32}$ et $\pm 0.5$ ordre au-delà).}
+\label{fig:ResultatsHe}
+\end{figure}
 
+\section{Ionisation du milieu de génération}
+\begin{figure}
+\centering
+\def\svgwidth{0.8\textwidth}
+\import{Figures/Polarimetrie/}{Decroissance_exponentielle_ionisation.pdf_tex}
+\caption{Accélération $a_x$ du dipôle selon $x$ calculée dans l'argon pour des impulsions à $\omega$ et 2$\omega$ polarisées circulairement en sens opposé d'enveloppe trapézoïdale (fond gris) et d'intensité $I_\omega = I_{2\omega} = 8 \times 10^{13}$ W/cm$^2$ (bleu) et $I_\omega = I_{2\omega} = 1.2 \times 10^{14}$ W/cm$^2$ (vert). Les enveloppes exponentielles des dipôles sont représentées en traits pleins bleu et vert. Pour comparaison, les enveloppes des dipôles calculées pour un unique champ à $\omega$ polarisé linéairement d'intensité totale équivalente ($I_\omega = 1.6 \times 10^{14}$ W/cm$^2$ pointillés bleus et $I_\omega = 2.4 \times 10^{14}$ W/cm$^2$ pointillés verts) sont également représentées.}
+\label{fig:Decroissance_exponentielle_ionisation}
+\end{figure}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{ResultatsArIonisation.pdf_tex}
+\caption{Résultats des simulations avec des impulsions d'enveloppe trapézoïdale dans l'argon. (a) Représentation temps-énergie de l'intensité harmonique, en échelle logarithmique, obtenue après transformation de Gabor du dipôle avec une fenêtre gaussienne de largeur à mi-hauteur $T$. (b) Spectre (noir, échelle de gauche) et ellipticité résolue spectralement (rouge, échelle de droite) de l'harmonique 16. (c) Représentation temps-énergie de l'ellipticité harmonique. (d) Spectre (noir, échelle de gauche) et ellipticité résolue spectralement (rouge, échelle de droite) de l'harmonique 17.}
+\label{fig:ResultatsArIonisation}
+\end{figure}
 
+\section{Défaut de circularité du fondamental}
+\begin{figure}
+\centering
+\def\svgwidth{0.75\textwidth}
+\import{Figures/Polarimetrie/}{SpectresVSepsilon.pdf_tex}
+\caption{Spectres harmoniques calculés pour $\epsilon_{\text{IR}} = +1$ (a); +0.9 (b) et +0.84 (c), le champ à 2$\omega$ restant parfaitement circulaire d'hélicité opposée ($\epsilon_{\text{UV}} = -1$). Les composantes possédant l'hélicité du champ à $\omega$ sont en rouge et celles d'hélicité du champ à 2$\omega$ en bleu.}
+\label{fig:SpectresVSepsilon}
+\end{figure}
 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{ResultatsEpsilon.pdf_tex}
+\caption{Ellipticité (a) et degré de polarisation (b) calculés sur la largeur spectrale des harmoniques ($\pm 0.25$ ordre autour du pic) pour les différentes ellipticités IR étudiées, le champ à 2$\omega$ restant parfaitement circulaire d'hélicité opposée ($\epsilon_{\text{UV}} = -1$).}
+\label{fig:ResultatsEpsilon}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{MoyenneAngles.pdf_tex}
+\caption{\'{E}volution de l'ellipticité (a) et du degré de polarisation (b) calculés sur une largeur de $\pm$ 0.25 ordre autour du pic de H$_{16}$ (rouge) et H$_{17}$ (bleu) lorsque $\phi$ la phase relative entre les champs à $\omega$ et 2$\omega$ varie de 0 à 360°, dans un cas non parfaitement circulaire ($\epsilon_{\text{IR}} = +0.9 ; \: \epsilon_{\text{UV}} = -1$).}
+\label{fig:MoyenneAngles}
+\end{figure}
 
 
 
@@ -261,6 +323,15 @@ Les spectres harmoniques sont obtenus en effectuant la transformée de Fourier d
 
 \chapter{Mesure complète de l'état de polarisation de l'émission harmonique générée par un champ à deux couleurs polarisées circulairement en sens opposé} 
 \label{chap:MesurePolar}
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{2couleurs_Setup.pdf_tex}
+\caption{Dispositif expérimental.}
+\label{fig:2couleurs_Setup}
+\end{figure}
+
 
 \begin{tabular}{|c|c|c|c|c|}
 \hline

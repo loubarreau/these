@@ -1,0 +1,98 @@
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ResultatsEpsilon.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{481.3516435bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.52455191)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ResultatsEpsilon.pdf}}%
+    \put(0.01733373,0.2240465){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Ellipticité}}}}%
+    \put(0.0657751,0.0702494){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%
+    \put(0.07234124,0.11063565){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.8}}}%
+    \put(0.0723597,0.15090637){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.6}}}%
+    \put(0.07238279,0.19117708){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.4}}}%
+    \put(0.07242435,0.23144797){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.2}}}%
+    \put(0.06124069,0.27171859){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.06917361,0.31198941){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.2}}}%
+    \put(0.06913205,0.35226022){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.4}}}%
+    \put(0.06910896,0.39253084){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.6}}}%
+    \put(0.06909049,0.43280177){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.8}}}%
+    \put(0.06188715,0.47295704){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
+    \put(0.10445854,0.03827){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{13}}}%
+    \put(0.1548248,0.03814995){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{14}}}%
+    \put(0.20508487,0.03826538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{15}}}%
+    \put(0.25547881,0.03826538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{16}}}%
+    \put(0.30581274,0.03814995){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{17}}}%
+    \put(0.35613746,0.03826538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{18}}}%
+    \put(0.40647603,0.03826538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{19}}}%
+    \put(0.45760414,0.03826538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{20}}}%
+    \put(0.19719492,0.00811016){\makebox(0,0)[lb]{\smash{Ordre Harmonique}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ResultatsEpsilon.pdf}}%
+    \put(0.62804539,0.14153874){\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +1$}}}%
+    \put(0.00199608,0.50711592){\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ResultatsEpsilon.pdf}}%
+    \put(0.53256506,0.15380715){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Degré de polarisation}}}}%
+    \put(0.58063679,0.06799216){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.6}}}%
+    \put(0.58063218,0.14853364){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.7}}}%
+    \put(0.58061833,0.22907512){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.8}}}%
+    \put(0.58061833,0.30961663){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.9}}}%
+    \put(0.57341495,0.39004267){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{ResultatsEpsilon.pdf}}%
+    \put(0.61747368,0.03494603){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{13}}}%
+    \put(0.66783992,0.03482597){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{14}}}%
+    \put(0.7181,0.03494141){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{15}}}%
+    \put(0.76849398,0.03494141){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{16}}}%
+    \put(0.81882791,0.03482597){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{17}}}%
+    \put(0.86915261,0.03494141){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{18}}}%
+    \put(0.91949111,0.03494141){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{19}}}%
+    \put(0.97061921,0.03494141){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{20}}}%
+    \put(0.71021,0.00478618){\makebox(0,0)[lb]{\smash{Ordre Harmonique}}}%
+    \put(0.5640168,0.50711592){\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.62640438,0.11340305){\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +0.9$}}}%
+    \put(0.62682412,0.08681128){\makebox(0,0)[lb]{\smash{$\epsilon_{\text{IR}} = +0.84$}}}%
+  \end{picture}%
+\endgroup%
