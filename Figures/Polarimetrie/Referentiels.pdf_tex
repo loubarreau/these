@@ -1,0 +1,63 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Referentiels.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{437.6bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.78936491)%
+    \put(0,0){\includegraphics[width=\unitlength]{Referentiels.pdf}}%
+    \put(0.03538784,0.09936758){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x_{\text{RL}}$}}}%
+    \put(0.80760933,0.31643755){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y_{\text{RL}}$}}}%
+    \put(0.36676317,0.7337789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z_{\text{RL}}$}}}%
+    \put(0.5770521,0.68938088){\color[rgb]{0.50196078,0.50196078,0.50196078}\makebox(0,0)[lb]{\smash{$z_{\text{RM}}$}}}%
+    \put(0.01659245,0.41437437){\color[rgb]{0.50196078,0.50196078,0.50196078}\makebox(0,0)[lb]{\smash{$x_{\text{RM}}$}}}%
+    \put(0.43727769,0.00512918){\color[rgb]{0.50196078,0.50196078,0.50196078}\makebox(0,0)[lb]{\smash{$y_{\text{RM}}$}}}%
+    \put(0.30934973,0.50260599){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\vec{k}$}}}%
+    \put(0.60655523,0.6070719){\color[rgb]{0,0,1}\makebox(0,0)[lb]{\smash{$\vec{v}_{A^+}$}}}%
+    \put(0.78306015,0.52928689){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{$\vec{v}_{e^-}$}}}%
+  \end{picture}%
+\endgroup%

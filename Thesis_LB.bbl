@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,6 +17,12 @@ Ayuso D, Jiménez-Galán A, Morales F, Ivanov M, et Smirnova O.
 \newblock \emph{Attosecond control of spin polarization in electron–ion
   recollision driven by intense tailored fields}.
 \newblock New Journal of Physics \textbf{19},~073007 (2017).
+
+\bibitem[Barth et Lein(2014)]{BarthJPB2014}
+Barth I et Lein M.
+\newblock \emph{Numerical verification of the theory of nonadiabatic tunnel
+  ionization in strong circularly polarized laser fields}.
+\newblock J Phys B Atomic Mol Opt Phys \textbf{47},~204016 (2014).
 
 \bibitem[Baykusheva et~al.(2016)Baykusheva, Ahsan, Lin, et
   W{\"o}rner]{BaykushevaPRL2016}
@@ -43,10 +49,26 @@ Camper A.
 \newblock Theses, {Universit{\'e} Paris Sud - Paris XI}, (2014).
 \newblock URL \url{https://tel.archives-ouvertes.fr/tel-01100464}.
 
+\bibitem[Chen et~al.(2016)Chen, Tao, Carlos, Matyba, Carr, Knut, Kfir, Zusin,
+  Gentry, Grychtol, Cohen, Plaja, Becker, Agnieszka, Kapteyn, et
+  Murnane]{ChenScienceAdvances2016}
+Chen C, Tao Z, Carlos H, Matyba P, Carr A, Knut R, Kfir O, Zusin D, Gentry C,
+  Grychtol P, Cohen O, Plaja L, Becker A, Agnieszka J, Kapteyn H, et Murnane M.
+\newblock \emph{Tomographic reconstruction of circularly polarized
+  high-harmonic fields: {3D} attosecond metrology}.
+\newblock Science Advances \textbf{2},~e1501333 (2016).
+
 \bibitem[Cryan et~al.(2009)Cryan, Bucksbaum, et Coffee]{CryanPRA2009}
 Cryan JP, Bucksbaum PH, et Coffee RN.
 \newblock \emph{Field-free alignment in repetitively kicked nitrogen gas}.
 \newblock Phys. Rev. A \textbf{80},~063412 (2009).
+
+\bibitem[Dowek et Lucchese(2012)]{DowekBook2012}
+Dowek D et Lucchese R.
+\newblock Photoionization dynamics: photoemission in the molecular frame of
+  small molecules ionized by linearly and elliptically polarized light.
+\newblock In \emph{Dynamical Processes in Atomic and Molecular Physics}, pages
+  57--95. Bentham Science Publishers, (2012).
 
 \bibitem[Eckart et~al.(2016)Eckart, Richter, Kunitski, Hartung, Rist, Henrichs,
   Schlott, Kang, Bauer, Sann, Schmidt, Sch{\"o}ffler, Jahnke, et
@@ -110,6 +132,12 @@ Fleischer A, Kfir O, Diskin T, Sidorenko P, et Cohen O.
   generation}.
 \newblock Nat Photonics \textbf{8},~543--549 (2014).
 
+\bibitem[Gaarde et Schafer(2002)]{GaardePRA2002}
+Gaarde MB et Schafer KJ.
+\newblock \emph{Quantum path distributions for high-order harmonics in rare gas
+  atoms}.
+\newblock Phys. Rev. A \textbf{65},~031406 (2002).
+
 \bibitem[G\'{e}neaux(2016)]{TheseGeneaux}
 G\'{e}neaux R.
 \newblock \emph{Le moment angulaire de la lumière en génération
@@ -137,6 +165,13 @@ Higuet J.
 \newblock Thèse de doctorat dirigée par Mével, Eric. Spécialité Lasers,
   matière et nanosciences.
 
+\bibitem[Jim{\'e}nez-Gal{\'a}n et~al.(2017)Jim{\'e}nez-Gal{\'a}n, Zhavoronkov,
+  Schloz, Morales, et Ivanov]{JimenezGalanArXiv2017}
+Jim{\'e}nez-Gal{\'a}n {\'A}, Zhavoronkov N, Schloz M, Morales F, et Ivanov M.
+\newblock \emph{Time-resolved high harmonic spectroscopy of dynamical symmetry
+  breaking in bi-circular laser fields}.
+\newblock arXiv preprint arXiv:1707.05590 (2017).
+
 \bibitem[Kfir et~al.(2015)Kfir, Grychtol, Turgut, Knut, Zusin, Popmintchev,
   Popmintchev, Nembach, Shaw, Fleischer, Kapteyn, Murnane, et
   Cohen]{KfirNatPhot2015}
@@ -146,11 +181,43 @@ Kfir O, Grychtol P, Turgut E, Knut R, Zusin D, Popmintchev D, Popmintchev T,
   ultraviolet high harmonics}.
 \newblock Nat Photonics \textbf{9},~99--105 (2015).
 
+\bibitem[Kfir et~al.(2016)Kfir, Bordo, Haham, Lahav, Fleischer, et
+  Cohen]{KfirAPL2016}
+Kfir O, Bordo E, Haham GI, Lahav O, Fleischer A, et Cohen O.
+\newblock \emph{In-line production of a bi-circular field for generation of
+  helically polarized high-order harmonics}.
+\newblock Applied Physics Letters \textbf{108},~211106 (2016).
+
+\bibitem[Lafosse et~al.(2000)Lafosse, Lebech, Brenot, Guyon, Jagutzki,
+  Spielberger, Vervloet, Houver, et Dowek]{LafossePRL2000}
+Lafosse A, Lebech M, Brenot JC, Guyon PM, Jagutzki O, Spielberger L, Vervloet
+  M, Houver JC, et Dowek D.
+\newblock \emph{Vector correlations in dissociative photoionization of diatomic
+  molecules in the vuv range: Strong anisotropies in electron emission from
+  spatially oriented no molecules}.
+\newblock Phys. Rev. Lett. \textbf{84},~5987--5990 (2000).
+
 \bibitem[Le et~al.(2009)Le, Lucchese, Tonzani, Morishita, et Lin]{LePRA2009}
 Le AT, Lucchese RR, Tonzani S, Morishita T, et Lin CD.
 \newblock \emph{Quantitative rescattering theory for high-order harmonic
   generation from molecules}.
 \newblock Phys. Rev. A \textbf{80},~013401 (2009).
+
+\bibitem[Lebech et~al.(2003)Lebech, Houver, Lafosse, Dowek, Alcaraz, Nahon, et
+  Lucchese]{LebechJCP2003}
+Lebech M, Houver JC, Lafosse A, Dowek D, Alcaraz C, Nahon L, et Lucchese RR.
+\newblock \emph{Complete description of linear molecule photoionization
+  achieved by vector correlations using the light of a single circular
+  polarization}.
+\newblock The Journal of Chemical Physics \textbf{118},~9653--9663 (2003).
+
+\bibitem[Lucchese et~al.(2002)Lucchese, Lafosse, Brenot, Guyon, Houver, Lebech,
+  Raseev, et Dowek]{LucchesePRA2002}
+Lucchese RR, Lafosse A, Brenot JC, Guyon PM, Houver JC, Lebech M, Raseev G, et
+  Dowek D.
+\newblock \emph{Polar and azimuthal dependence of the molecular frame
+  photoelectron angular distributions of spatially oriented linear molecules}.
+\newblock Phys. Rev. A \textbf{65},~020702 (2002).
 
 \bibitem[Mairesse et~al.(2010)Mairesse, Higuet, Dudovich, Shafir, Fabre,
   M\'evel, Constant, Patchkovskii, Walters, Ivanov, et
@@ -206,6 +273,15 @@ Milo\v{s}evi\'{c} D, Becker W, et Kopold R.
   two-color coplanar field mixing}.
 \newblock Physical Review A (2000).
 
+\bibitem[Nahon et~al.(2012)Nahon, de~Oliveira, Garcia, Gil, Pilette,
+  Marcouill{\'{e}}, Lagarde, et Polack]{NahonJSR2012}
+Nahon L, de~Oliveira N, Garcia GA, Gil JF, Pilette B, Marcouill{\'{e}} O,
+  Lagarde B, et Polack F.
+\newblock \emph{{DESIRS: a state-of-the-art VUV beamline featuring high
+  resolution and variable polarization for spectroscopy and dichroism at
+  SOLEIL}}.
+\newblock Journal of Synchrotron Radiation \textbf{19},~508--520 (2012).
+
 \bibitem[Reich et Madsen(2016)]{ReichPRL2016}
 Reich D et Madsen L.
 \newblock \emph{Illuminating molecular symmetries with bicircular
@@ -217,6 +293,12 @@ Rosca-Pruna F et Vrakking MJJ.
 \newblock \emph{Experimental observation of revival structures in picosecond
   laser-induced alignment of ${I}_{2}$}.
 \newblock Phys. Rev. Lett. \textbf{87},~153902 (2001).
+
+\bibitem[Sali\`eres et~al.(1995)Sali\`eres, L'Huillier, et
+  Lewenstein]{SalieresPRL1995}
+Sali\`eres P, L'Huillier A, et Lewenstein M.
+\newblock \emph{Coherence control of high-order harmonics}.
+\newblock Phys. Rev. Lett. \textbf{74},~3776--3779 (1995).
 
 \bibitem[St{\"o}hr(1995)]{StohrJElecSpec1995}
 St{\"o}hr J.

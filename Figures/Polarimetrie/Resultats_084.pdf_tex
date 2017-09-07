@@ -1,0 +1,69 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Resultats_084.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{570.3134853bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.08153081)%
+    \put(0,0){\includegraphics[width=\unitlength]{Resultats_084.pdf}}%
+    \put(0.36467622,0.67588072){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energie de photoélectron (eV)}}}%
+    \put(0.25051544,0.79370135){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité (u. arb.)}}}}%
+    \put(0.22388267,1.04783765){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.06497595,0.62782995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.40170043,0.62782995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.72230428,0.62782995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0.12611112,0.31359886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(e)}}}%
+    \put(0.5998854,0.31359886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(f)}}}%
+    \put(0.22541357,0.00393561){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Angle polaire $\theta_e$}}}%
+    \put(0.69144616,0.00674108){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Angle polaire $\theta_e$}}}%
+    \put(0.09019351,0.07473609){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité (u. arb.)}}}}%
+    \put(0.55000308,0.07473609){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité (u. arb.)}}}}%
+    \put(0.49352463,0.63162866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H$_{16}$}}}%
+    \put(0.83005709,0.63162866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H$_{17}$}}}%
+    \put(0.13857147,0.63162866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H$_{15}$}}}%
+  \end{picture}%
+\endgroup%

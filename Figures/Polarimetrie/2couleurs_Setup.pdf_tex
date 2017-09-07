@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2couleurs_Setup.pdf' (pdf, eps, ps)
 %%
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{527.57299268bp}%
+    \setlength{\unitlength}{537.91908871bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,26 +48,53 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.38559323)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{2couleurs_Setup.pdf}}%
-    \put(0.55003826,0.09055303){\color[rgb]{0,0,1}\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{400 nm}}}}%
-    \put(0.62507106,0.31886511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Miroir}}}%
-    \put(0.36921807,0.10712632){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Miroir A$\ell$}}}%
-    \put(0.75641754,0.29663762){\color[rgb]{1,0,0}\rotatebox{0.39930096}{\makebox(0,0)[lb]{\smash{800 nm}}}}%
-    \put(0.40782661,0.27453568){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Ar}}}%
-    \put(0.23957022,0.23957643){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Miroir torique}}}%
-    \put(0.73473941,0.00335454){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{PCG}}}}%
-    \put(0.80331411,0.00369837){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{PCD}}}}%
-    \put(0.69691226,0.00441215){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{$\vec{k}$}}}}%
-    \put(0.85877461,0.25240472){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/4$}}}%
-    \put(0.91611977,0.22994657){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/2$}}}%
-    \put(0.84121335,0.12572178){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{BBO (200$\mu$m)}}}%
-    \put(0.44018167,0.28551557){\makebox(0,0)[lb]{\smash{Lentille}}}%
-    \put(0.49130635,0.09207102){\color[rgb]{0,0,1}\makebox(0,0)[lt]{\begin{minipage}{0.34896187\unitlength}\raggedright $I_{2\omega} = 1 \times 10^{14}$ W/cm$^2$\end{minipage}}}%
-    \put(0.66669432,0.3756272){\color[rgb]{1,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34896187\unitlength}\raggedright $I_{\omega} = 1 \times 10^{14}$ W/cm$^2$\end{minipage}}}%
-    \put(0.67138607,0.12145023){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/4$}}}%
-    \put(0.23650141,0.21528491){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{en or}}}%
-    \put(0.61641524,0.2902134){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{dichroïque}}}%
-    \put(0.21109306,0.04007931){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectromètre XUV}}}%
+  \begin{picture}(1,0.85439544)%
+    \put(0,0){\includegraphics[width=\unitlength]{2couleurs_Setup.pdf}}%
+    \put(0.53945906,0.56502992){\color[rgb]{0,0,1}\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{400 nm}}}}%
+    \put(0.61304871,0.78895075){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Miroir}}}%
+    \put(0.36211669,0.58128445){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Miroir A$\ell$}}}%
+    \put(0.74186893,0.76715077){\color[rgb]{1,0,0}\rotatebox{0.39930096}{\makebox(0,0)[lb]{\smash{800 nm}}}}%
+    \put(0.39998265,0.74547393){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Ar}}}%
+    \put(0.23496243,0.71118707){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Miroir torique}}}%
+    \put(0.72060774,0.47950857){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{PCG}}}}%
+    \put(0.78786351,0.47984579){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{PCD}}}}%
+    \put(0.68350815,0.48054583){\rotatebox{0.26937309}{\makebox(0,0)[lb]{\smash{$\vec{k}$}}}}%
+    \put(0.8422573,0.72376862){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/4$}}}%
+    \put(0.89849951,0.70174242){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/2$}}}%
+    \put(0.82503381,0.59952225){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{BBO (200$\mu$m)}}}%
+    \put(0.4317154,0.75624263){\makebox(0,0)[lb]{\smash{Lentille}}}%
+    \put(0.48185677,0.56651872){\color[rgb]{0,0,1}\makebox(0,0)[lt]{\begin{minipage}{0.36328244\unitlength}\raggedright $I_{2\omega} \approx 1 \times 10^{14}$ W/cm$^2$\end{minipage}}}%
+    \put(0.6538714,0.8446211){\color[rgb]{1,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.36328244\unitlength}\raggedright $I_{\omega} \approx 1 \times 10^{14}$ W/cm$^2$\end{minipage}}}%
+    \put(0.65847291,0.59533286){\color[rgb]{0,0.01568627,0}\makebox(0,0)[b]{\smash{$\lambda/4$}}}%
+    \put(0.23195265,0.68736276){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{en or}}}%
+    \put(0.60455937,0.76085011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{dichroïque}}}%
+    \put(0.20703299,0.51552699){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectromètre XUV}}}%
+    \put(0.02865447,0.45950336){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{COLTRIMS CIEL}}}%
+    \put(0.11165719,0.66043751){\color[rgb]{0.01176471,0.71764706,0.90588235}\makebox(0,0)[lb]{\smash{N$^+$}}}%
+    \put(0.17174966,0.60222293){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lb]{\smash{NO}}}%
+    \put(0.04593106,0.55339781){\color[rgb]{0.14509804,0.64705882,0}\makebox(0,0)[lb]{\smash{e$^-$}}}%
+    \put(0.02001239,0.61688149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E_{ext}}$}}}%
+    \put(0.11879316,0.61987511){\color[rgb]{0,0,0.50196078}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.30343101,0.03966108){\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.33143454,0.03966108){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.36507639,0.03966108){\makebox(0,0)[lb]{\smash{11}}}%
+    \put(0.39821506,0.03966108){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.43217225,0.03966108){\makebox(0,0)[lb]{\smash{13}}}%
+    \put(0.4658141,0.03966108){\makebox(0,0)[lb]{\smash{14}}}%
+    \put(0.49945596,0.03966108){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0.53309788,0.03966108){\makebox(0,0)[lb]{\smash{16}}}%
+    \put(0.56673973,0.03966108){\makebox(0,0)[lb]{\smash{17}}}%
+    \put(0.60019367,0.03966108){\makebox(0,0)[lb]{\smash{18}}}%
+    \put(0.63383545,0.03966108){\makebox(0,0)[lb]{\smash{19}}}%
+    \put(0.66747738,0.03966108){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.70111916,0.03966108){\makebox(0,0)[lb]{\smash{21}}}%
+    \put(0.26139704,0.06652817){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.25012031,0.13143343){\makebox(0,0)[lb]{\smash{50}}}%
+    \put(0.23884372,0.19633863){\makebox(0,0)[lb]{\smash{100}}}%
+    \put(0.23884372,0.26105572){\makebox(0,0)[lb]{\smash{150}}}%
+    \put(0.23884372,0.32596091){\makebox(0,0)[lb]{\smash{200}}}%
+    \put(0.23884372,0.39086625){\makebox(0,0)[lb]{\smash{250}}}%
+    \put(0.44403919,0.00413486){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.22083604,0.1435702){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Intensité (u. arb.)}}}}%
   \end{picture}%
 \endgroup%
