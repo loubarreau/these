@@ -72,7 +72,7 @@ P = \frac{I_{\text{pol}}}{I_{\text{tot}}} = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{
 \end{equation}
 Les paramètres de Stokes sont reliés aux paramètres géométriques de l'ellipse:
 \begin{align}
-\psi & = \frac{1}{2} \arctan \frac{s_2}{s_1} \\
+\psi & = \frac{1}{2} \arctan \frac{s_2}{s_1} \label{eq:PsiStokes} \\
 \epsilon & = \tan \left[ \frac{1}{2} \arcsin \frac{s_3}{\sqrt{s_1^2 + s_2^2 + s_3^2}} \right]
 \label{eq:epsilon_Stokes}
 \end{align}
@@ -386,6 +386,7 @@ Dans ce chapitre, nous avons mis en évidence plusieurs mécanismes de rupture d
 L'état de polarisation complet des harmoniques générées par un champ à deux couleurs polarisées circulairement en sens opposé a été caractérisé par la méthode de polarimétrie moléculaire développée par l'équipe de Danielle Dowek à l'Institut des Sciences Moléculaires d'Orsay. Dans ce chapitre, nous exposerons d'abord les principaux éléments de cette méthode. Nous présenterons ensuite les résultats des mesures effectuées à Saclay sur les harmoniques générées par un champ à deux couleurs polarisées circulairement en sens opposé. Enfin, nous commenterons les ellipticités et degrés de polarisation mesurés à la lumière de l'étude numérique du chapitre \ref{chap:calculsTA}.
 
 \section{Principe de la polarimétrie moléculaire}
+\label{sec:PrincipePM}
 \subsection{Expression de la distribution angulaire des photoélectrons dans le référentiel moléculaire}
 Nous décrivons ici brièvement la méthode de polarimétrie moléculaire. Pour une description plus détaillée, le lecteur pourra consulter \mycite{VeyrinasPRA2013}, \mycite{VeyrinasFaraday2016} et \mycite{TheseVeyrinas}.
 
@@ -431,44 +432,53 @@ I(\chi) & = C \left( 1 - \frac{\beta_i}{2} P_2^0(\cos \chi) \right)
 Ces deux expressions permettent d'obtenir d'une part le paramètre d'asymétrie $\beta_i$, et si ce dernier est non nul, les paramètres de Stokes $s_1$ et $s_2$ d'autre part.
 
 \subsection{Détermination de $s_3$ à partir du dichroïsme circulaire dans le référentiel moléculaire}
-Le paramètre de Stokes $s_3$ apparaît dans le dernier terme de l'expression \ref{eq:MFPAD} à travers son produit par la fonction $F_{11}(\theta_e)$, qui caractérise le dichroïsme circulaire dans le référentiel moléculaire. En effet, la fonction $F_{11}$ est reliée dans le RM à l'asymétrie gauche-droite dans l'émission des photoélectrons dans le plan de polarisation ($\phi_e = 90$ ou 270°) lorsque l'axe internucléaire est perpendiculaire à l'axe de propagation de la lumière ($\chi =$90°). Ainsi, pour déterminer le paramètre $s_3$ d'un rayonnement inconnu, il est nécessaire de connaître la fonction $F_{11}(\theta_e)$ du processus de PID à l'énergie considérée. Celle-ci peut s'obtenir par un calcul utilisant la méthode \textit{multi channel Schwinger interaction configuration} \mycite{LebechJCP2003}, ou bien mesurée en utilisant un rayonnement de polarisation connue. Par exemple, la figure \ref{fig:F11_ref_H17} montre la fonction $F_{11}$ caractéristique de la PID de NO vers l'état $c ^3\Pi$ à l'énergie de l'harmonique 17 du 800 nm mesurée sur la ligne DESIRS du synchrotron SOLEIL avec une polarisation purement circulaire \mycite{NahonJSR2012}. La comparaison du produit $s_3 \times F_{11}(\theta_e)$ mesuré avec la fonction $F_{11}$ de référence permet de déterminer le paramètre de Stokes $s_3$. 
+Le paramètre de Stokes $s_3$ apparaît dans le dernier terme de l'expression \ref{eq:MFPAD} à travers son produit par la fonction $F_{11}(\theta_e)$, qui caractérise le dichroïsme circulaire dans le référentiel moléculaire. En effet, la fonction $F_{11}$ est reliée dans le RM à l'asymétrie gauche-droite dans l'émission des photoélectrons dans le plan de polarisation ($\phi_e = 90$ ou 270°) lorsque l'axe internucléaire est perpendiculaire à l'axe de propagation de la lumière ($\chi =$90°). Ainsi, pour déterminer le paramètre $s_3$ d'un rayonnement inconnu, il est nécessaire de connaître la fonction $F_{11}(\theta_e)$ du processus de PID à l'énergie considérée. Celle-ci peut s'obtenir par un calcul utilisant la méthode \textit{multi channel Schwinger interaction configuration} \mycite{LebechJCP2003}, ou bien mesurée en utilisant un rayonnement de polarisation connue. Par exemple, la figure \ref{fig:F11_ref_H17} montre la fonction $F_{11}$ caractéristique de la PID de NO vers l'état $c ^3\Pi$ de NO$^+$ à l'énergie de l'harmonique 17 du 800 nm mesurée sur la ligne DESIRS du synchrotron SOLEIL avec une polarisation purement circulaire \mycite{NahonJSR2012}. La comparaison du produit $s_3 \times F_{11}(\theta_e)$ mesuré avec la fonction $F_{11}$ de référence permet de déterminer le paramètre de Stokes $s_3$. 
 
 \begin{figure}
 \centering
 \def\svgwidth{0.6\textwidth}
 \import{Figures/Polarimetrie/}{F11_ref_H17.pdf_tex}
-\caption{Fonction $F_{11}$ caractéristique de la PID de NO vers l'état $c ^3\Pi$ mesurée avec un rayonnement synchrotron polarisé circulairement d'énergie 26.35 eV (points et trait plein), et calculé par le Prof. R. R. Lucchese avec la méthode \textit{multi channel Schwinger interaction configuration} (pointillés). Extrait de \mycite{TheseVeyrinas}.}
+\caption{Fonction $F_{11}$ caractéristique de la PID de NO vers l'état $c ^3\Pi$ de NO$^+$ mesurée avec un rayonnement synchrotron polarisé circulairement d'énergie 26.35 eV (points et trait plein), et calculé par le Prof. R. R. Lucchese avec la méthode \textit{multi channel Schwinger interaction configuration} (pointillés). Extrait de \mycite{TheseVeyrinas}.}
 \label{fig:F11_ref_H17}
 \end{figure}
 
 \section{Dispositif expérimental}
-La méthode de polarimétrie moléculaire a été utilisée pour déterminer l'état de polarisation complet du rayonnement harmonique généré par un champ à deux couleurs polarisées circulairement en sens opposé à Saclay, en collaboration avec Kévin Veyrinas, Jean-Christophe Houver et Danielle Dowek de l'ISMO. Le dispositif expérimental est représenté sur la figure \ref{fig:2couleurs_setup}. Le laser PLFA \mycite{WeberRSI2015} produit des impulsions polarisées horizontalement de 50 fs à 800 nm à une cadence de 1 kHz. Le faisceau est séparé en deux par une lame séparatrice 50/50. Une partie est utilisée pour générer la seconde harmonique à 400 nm dans un cristal de BBO de 200 $\mu$m. La polarisation circulaire de ce faisceau est contrôlée par une lame quart d'onde d'ordre zéro à 400 nm. La seconde partie du faisceau traverse une lame quart d'onde à 800 nm et est polarisée circulairement en sens opposé. Les deux faisceaux sont recombinés par un miroir dichroïque et focalisés par une lentille de focale $f = 80$ cm dans un jet effusif d'argon pour la GHOE. Le rayonnement XUV peut être envoyé sur un spectromètre XUV composé d'un réseau, d'une galette de micro-canaux et d'une caméra CCD pour mesurer le spectre de photons à l'aide d'un miroir en or motorisé. La transmission de ce miroir étant beaucoup plus efficace en polarisation verticale que horizontale, une lame demie onde à 800 nm est placée dans le second bras de l'interféromètre pour tourner la polarisation du fondamental de 90° afin d'observer un signal harmonique dans un cas linéaire lors de l'optimisation de l'expérience. Le rayonnement XUV peut également être focalisé à l'aide d'un miroir torique en or dans le COLTRIMS CIEL \mycite{WeberRSI2015} pour effectuer la polarimétrie moléculaire. L'influence du miroir torique sur la polarisation du rayonnement est préalablement calibrée \mycite{TheseGruson}. Dans le spectromètre de moment 3D CIEL, le rayonnement XUV produit la photoionisation dissociative de molécules de NO produites dans un jet supersonique. La réaction étudiée est la photoionisation dissociative de NO \textit{via} la réaction
-\begin{equation}
-\text{NO}(^2\Pi,4\sigma^2 5\sigma^2 1\pi^4 2\pi^1) + h\nu \longrightarrow \text{NO}^+ (c ^3\Pi, (4\sigma)^{-1}) + e^- \longrightarrow \text{N}^+ (^3P) + O (^3P) + e^-
-\end{equation}
-Les électrons et les ions sont guidés vers des détecteurs sensibles en temps et en position à ligne à retard (DLD PSDs RoentDek) par des champs électrique et magnétique, assurant une détection dans $4\pi$ sr des particules. Notons ici que le taux de répétition de 1 kHz réduit grandement le taux de comptage des coïncidences et impose une durée de mesure de plusieurs heures. Des mesures complémentaires dans l'hélium peuvent être effectuées avec un plus haut taux de comptage mais permettent uniquement la détermination des paramètres $s_1$ et $s_2$.
-
 \begin{figure}
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Polarimetrie/}{2couleurs_Setup.pdf_tex}
-\caption{Dispositif expérimental et spectre harmonique typique mesuré sur le spectromètre de photons XUV.}
+\caption{Dispositif expérimental et spectre harmonique typique mesuré sur le spectromètre de photons XUV. Les conventions choisies pour définir les polarisations circulaire gauche et droite sont indiquées sous le schéma.}
 \label{fig:2couleurs_Setup}
 \end{figure}
 
-\begin{figure}
+La méthode de polarimétrie moléculaire a été utilisée pour déterminer l'état de polarisation complet du rayonnement harmonique généré par un champ à deux couleurs polarisées circulairement en sens opposé à Saclay, en collaboration avec Kévin Veyrinas, Jean-Christophe Houver et Danielle Dowek de l'ISMO. Le dispositif expérimental est représenté sur la figure \ref{fig:2couleurs_Setup}. Le laser PLFA \mycite{WeberRSI2015} produit des impulsions polarisées horizontalement de 50 fs à 800 nm à une cadence de 1 kHz. Le faisceau est séparé en deux par une lame séparatrice 50/50. Une partie est utilisée pour générer la seconde harmonique à 400 nm dans un cristal de BBO de 200 $\mu$m. La polarisation circulaire de ce faisceau est contrôlée par une lame quart d'onde d'ordre zéro à 400 nm. La seconde partie du faisceau traverse une lame quart d'onde à 800 nm et est polarisée circulairement en sens opposé. Les deux faisceaux sont recombinés par un miroir dichroïque et focalisés par une lentille de focale $f = 80$ cm dans un jet effusif d'argon pour la GHOE. Le rayonnement XUV peut être envoyé sur un spectromètre XUV composé d'un réseau, d'une galette de micro-canaux et d'une caméra CCD pour mesurer le spectre de photons à l'aide d'un miroir en or motorisé. La transmission de ce miroir étant beaucoup plus efficace en polarisation verticale que horizontale, une lame demie onde à 800 nm est placée dans le second bras de l'interféromètre pour tourner la polarisation du fondamental de 90° afin d'observer un signal harmonique dans un cas linéaire lors de l'optimisation de l'expérience. L'intenisté des deux impulsions est déterminée grâce à la coupure du spectre harmonique généré avec chacune des impulsions polarisées linéairement, et est estimée à $I_\omega \approx I_{2\omega} \approx 1 \times 10^{14}$ W/cm$^2$. Le rayonnement XUV peut également être focalisé à l'aide d'un miroir torique en or dans le COLTRIMS CIEL \mycite{WeberRSI2015} pour effectuer la polarimétrie moléculaire. L'influence du miroir torique sur la polarisation du rayonnement est préalablement calibrée \mycite{TheseGruson}. Dans le spectromètre de moment 3D CIEL, le rayonnement XUV produit la photoionisation dissociative de molécules de NO produites dans un jet supersonique. La réaction étudiée est la photoionisation dissociative de NO \textit{via}
+\begin{multline}
+\text{NO}(^2\Pi, \: 4\sigma^2 5\sigma^2 1\pi^4 2\pi^1) + h\nu \longrightarrow \text{NO}^+ (c ^3\Pi, (4\sigma)^{-1})  + e^- \\\longrightarrow \text{N}^+ (^3P) + \text{O} (^3P) + e^-
+\label{eq:PID_NO}
+\end{multline}
+qui se produit pour des énergies supérieures à 21.73 eV. La dissociation produit très majoritairement les ions fragments N$^+$ (à 90 \% \mycite{LafossePRL2000}). Cette réaction est tout à fait adaptée à la polarimétrie moléculaire grâce à la forte anisotropie de  l'émission des ions N$^+$ ($\beta_{N^+} \approx 1$ \mycite{LafossePRL2000}) et un dichroïsme circulaire de la distribution angulaire des électrons dans le RM important \mycite{LebechJCP2003}. Les électrons et les ions sont guidés vers des détecteurs sensibles en temps et en position à ligne à retard (DLD PSDs RoentDek) par des champs électrique et magnétique, assurant une détection des particules émises dans $4\pi$ sr. Notons ici que le taux de répétition de 1 kHz réduit grandement le taux de comptage des coïncidences et impose une durée de mesure de plusieurs heures. Des mesures complémentaires dans l'hélium peuvent être effectuées avec un plus haut taux de comptage mais permettent uniquement la détermination des paramètres $s_1$ et $s_2$.
+
+\section{Résultats}
+\subsection{Champs à $\omega$ et $2\omega$ polarisés circulairement en sens opposé}
+Nous présentons d'abord les mesures de polarimétrie effectuées lorsque les champs IR et UV sont polarisés circulairement en sens opposé. Les deux configurations symétriques $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$ et $\epsilon_{\text{IR}} = +1$; $\epsilon_{\text{UV}} = -1$ sont étudiées.
+
+La figure \ref{fig:SpectresPE_pm1} présente les spectres de photoélectrons issus de la PID de NO (réaction \ref{eq:PID_NO}) mesurés dans le COLTRIMS dans les deux configurations étudiées. Seules les harmoniques d'énergie supérieure à l'énergie nécessaire à la réaction \ref{eq:PID_NO} sont observées, à la différence du spectre de photons de la figure \ref{fig:2couleurs_Setup}. La suite de l'analyse est donc centrée sur les harmoniques 16 ($3m+1$) et 17 ($3m-1$). Dans les deux configurations, on observe le spectre caractéristique du schéma à deux couleurs où les harmoniques $3m$ (H$_{15}$ et H$_{18}$ ici) sont absentes. Cependant H$_{15}$ est plus intense dans le cas $\epsilon_{\text{IR}} = +1$; $\epsilon_{\text{UV}} = -1$ que dans le cas opposé, indiquant une asymétrie des lames $\lambda/4$ utilisées.
+
+\begin{figure}[h]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Polarimetrie/}{SpectresPE_pm1.pdf_tex}
-\caption{Dispositif expérimental.}
+\caption{Spectres de photoélectrons issus de la PID de NO produits par les harmoniques générées avec $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$ (a) et  $\epsilon_{\text{IR}} = +1$; $\epsilon_{\text{UV}} = -1$ (b). Le spectre vert correspond au spectre mesuré noir corrigé de la section efficace du processus \ref{eq:PID_NO} \mycite{IidaChemPhys1986}\mycite{StratmannJCP1996}.}
 \label{fig:SpectresPE_pm1}
 \end{figure}
+
+Les DAPRM réduites après intégration sur l'angle $\gamma$, $I(\theta_e, \phi_e)$, lorsque la molécule est perpendiculaire à la direction de propagation du faisceau ($\chi = 90$°) pour les harmoniques 16 et 17 des deux configurations sont représentées sur la figure \ref{fig:MFPAD_pm1}. Les coupes de ces DAPRM dans le plan de polarisation $(\phi_e = 270$ ou 90°), dans lequel le dichroïsme circulaire est le plus important, sont représentées figure \ref{fig:CoupeMFPAD} avec les DAPRM calculées à partir des fonctions $F_{ij}$ de référence mesurées au synchrotron à l'énergie de chaque harmonique. Ces coupes permettent d'observer plus facilement l'asymétrie gauche-droite des DAPRM. Dans une configuration donnée, l'asymétrie gauche-droite est opposée pour H$_{16}$ et H$_{17}$, indiquant des hélicités opposées. Lorsque l'hélicité des deux couleurs est inversée, les hélicités de  H$_{16}$ et H$_{17}$ sont également inversées. Ces observations sont en accord avec l'image multiphotonique donnée au chapitre \ref{chap:GHOE_elliptiques} et les mesures de DCMX de \mycite{KfirNatPhot2015}. Elles sont par ailleurs confirmées par la mesure de l'harmonique 19 (figure \ref{fig:Resultatsbu2H19}) dans la configuration $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$, montrant un signe de $s_3$ identique à H$_{16}$.
 
 \begin{figure}
 \centering
 \def\svgwidth{0.8\textwidth}
 \import{Figures/Polarimetrie/}{MFPAD_pm1.pdf_tex}
-\caption{Dispositif expérimental.}
+\caption{DAPRM réduites $I(\theta_e,\phi_e)$ lorsque la molécule de NO est perpendiculaire à la direction de propagation du faisceau pour les harmoniques 16 (a-b et 17 (c-d) mesurées pour $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$ (a-c) et $\epsilon_{\text{IR}} = +1$; $\epsilon_{\text{UV}} = -1$ (b-d). Les définitions des angles utilisées et la direction de la molécule sont indiquées sur le schéma en haut de la figure.}
 \label{fig:MFPAD_pm1}
 \end{figure}
 
@@ -476,7 +486,7 @@ Les électrons et les ions sont guidés vers des détecteurs sensibles en temps 
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/Polarimetrie/}{CoupeMFPAD.pdf_tex}
-\caption{Dispositif expérimental.}
+\caption{Coupe des DAPRM de la figure \ref{fig:MFPAD_pm1} dans le plan de polarisation du rayonnement XUV. Les points mesurés avec leurs barres d'erreur sont indiqués en rouge, avec leur ajustement en polynômes de Legendre en bleu, et la coupe de DAPRM de référence en noir.}
 \label{fig:CoupeMFPAD}
 \end{figure}
 
@@ -484,7 +494,7 @@ Les électrons et les ions sont guidés vers des détecteurs sensibles en temps 
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Polarimetrie/}{F11_pm1.pdf_tex}
-\caption{Dispositif expérimental.}
+\caption{Produit $s_3 \times F_{11}(\theta_e)$ mesuré pour H$_{16}$ (rouge) et H$_{17}$ (bleu) dans les deux configurations symétriques $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$ (a) et  $\epsilon_{\text{IR}} = +1$; $\epsilon_{\text{UV}} = -1$ (b), et fonctions $F_{11}(\theta_e)$ de référence mesurées au synchrotron (brun). Dans cette gamme d'énergie, les $F_{11}$ sont positives, cependant pour mettre en évidence le signe de $s_3$ la fonction de référence $-F_{11}(\theta_e)$ est représentée dans les cas où $s_3 <0$.}
 \label{fig:F11_pm1}
 \end{figure}
 
@@ -492,9 +502,11 @@ Les électrons et les ions sont guidés vers des détecteurs sensibles en temps 
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Polarimetrie/}{Resultatsbu2H19.pdf_tex}
-\caption{Dispositif expérimental.}
+\caption{DAPRM réduite $I(\theta_e,\phi_e)$ lorsque la molécule de NO est perpendiculaire à la direction de propagation du faisceau (a) et produit $s_3 \times F_{11}(\theta_e)$ (b) mesurés pour l'harmonique 19 avec $\epsilon_{\text{IR}} = -1$; $\epsilon_{\text{UV}} = +1$. En (b), la fonction de référence $+F_{11}(\theta_e)$ est en trait plein et $-F_{11}(\theta_e)$ en pointillés.}
 \label{fig:Resultatsbu2H19}
 \end{figure}
+
+Plus quantitativement, l'asymétrie gauche-droite permet d'accéder au produit $s_3 \times F_{11}(\theta_3)$ pour le processus et l'harmonique considérée. Les $s_3 \times F_{11}(\theta_3)$ mesurés sont représentés sur la figure \ref{fig:F11_pm1} avec les fonctions $F_{11}$ de référence mesurées au synchrotron avec un rayonnement de même énergie polarisé circulairement. Dans les deux configurations, pour H$_{16}$ la mesure est très proche de la référence, indiquant un $|s_3|$ proche de 1. Les paramètres $s_1$ et $s_2$ sont déterminés indépendamment grâce à la mesure de la distribution angulaire des ions dans le référentiel du laboratoire (paragraphe \ref{sec:PrincipePM}). Ils indiquent ici un faible taux de polarisation linéaire $\approx 0.2 -0.3$.
 
 \begin{table}[ht]
 \centering
@@ -512,23 +524,21 @@ $s_3$ & -0.80 (0.04) & 0.53 (0.04) & 0.77 (0.04) & -0.53 (0.04) \\
 \hline
 $P$ & 0.85 (0.03) & 0.62 (0.04) & 0.81 (0.04) & 0.57 (0.05) \\
 \hline
-$\psi$ & 5 (4.5) & 2.5 (4.5) & 167 (5) & 144.5 (9.5) \\
+$\psi$ (°) & 5 (4.5) & 2.5 (4.5) & 167 (5) & 144.5 (9.5) \\
 \hline
 $\epsilon$ & -0.72 (0.04) & 0.56 (0.05) & 0.71 (0.04) & -0.68 (0.08) \\
 \hline
 \end{tabular}
+\caption{Paramètres de Stokes normalisés, degré de polarisation, angle de l'ellipse et ellipticité des harmoniques 16 et 17 générées dans le schéma à deux couleurs polarisées circulairement en sens opposé dans deux configurations symétriques. Les incertitudes sont entre parenthèses.}
 \label{tab:resultatspm1}
 \end{table}
 
-\begin{figure}
-\centering
-\def\svgwidth{\textwidth}
-\import{Figures/Polarimetrie/}{Resultats_084.pdf_tex}
-\caption{Dispositif expérimental.}
-\label{fig:Resultats_084}
-\end{figure}
+\`{A} partir de cette mesure simultanée des trois paramètres de Stokes, on obtient la caractérisation complète de l'état de polarisation du rayonnement harmonique généré par un champ à deux couleurs polarisées circulairement en sens opposé. L'ellipticité de la partie polarisée du rayonnement $\epsilon$, l'angle de l'ellipse $\psi$ et le degré de polarisation $P$ sont calculés à partir des expressions \ref{eq:epsilon_Stokes}, \ref{eq:PsiStokes} et \ref{eq:degrépolarisation}. Les valeurs obtenues sont résumées dans le tableau \ref{tab:resultatspm1}. Les résultats sont symétriques pour les deux configurations de GHOE symétriques. Les mesures mettent en évidence une circularité imparfaite des harmoniques 16 et 17 avec $|\epsilon| \approx$ 0.7 et 0.6 respectivement. Le degré de polarisation mesuré est significativement inférieur à 1, avec $P \approx 0.8$ pour H$_{16}$ et $P \approx 0.6$ pour H$_{17}$. L'angle d'orientation de l'ellipse $\psi$ n'est pas discuté car le délai relatif entre les deux impulsions n'était pas stabilisé dans notre expérience.
 
-\begin{table}
+\subsection{Champ à $\omega$ elliptique et champ à $2\omega$ circulaire d'hélicité opposée}
+Le dispositif expérimental permet de mesurer l'état de polarisation des harmoniques lorsque l'un des champs possède un défaut de circularité. Nous avons tourné l'angle de la lame $\lambda/4$ à 800 nm de 5° pour obtenir une ellipticité IR de $\epsilon_{\text{IR}} = +0.84$. Le champ à 400 nm est lui polarisé circulairement avec $\epsilon_{\text{UV}} = -1$. Comme le montre la figure \ref{fig:Resultats_084}(a), les harmoniques $3m$ sont présentes dans le spectre harmonique. Il est donc possible d'effectuer la polarimétrie de H$_{15}$ en plus de H$_{16}$ et H$_{17}$. D'après les figures \ref{fig:Resultats_084}(c-d-f), on observe toujours une asymétrie gauche-droite dans la DAPRM, caractéristique de la présence de polarisation circulaire, mais plus faible que dans les configurations étudiées précédemment. La DAPRM de H$_{15}$ (figure \ref{fig:Resultats_084}(b-e) présente une légère asymétrie gauche-droite dans le même sens que H$_{16}$.
+
+\begin{table}[h]
 \centering
 \begin{tabular}{|c||c|c|c|}
 \hline
@@ -544,10 +554,21 @@ $s_3$ & 0.33 (0.07) & 0.48 (0.04) & -0.22 (0.05) \\
 \hline
 $P$ & 0.38 (0.07) & 0.64 (0.04) & 0.57 (0.08) \\
 \hline
-$\psi$ & 157.5 (13) & 154 (4) & 121.5 (4) \\
+$\psi$ (°) & 157.5 (13) & 154 (4) & 121.5 (4) \\
 \hline
 $\epsilon$ & 0.58 (0.12) & 0.45 (0.05) & -0.21 (0.04) \\
 \hline
 \end{tabular}
+\caption{Paramètres de Stokes normalisés, degré de polarisation, angle de l'ellipse et ellipticité des harmoniques 15, 16 et 17 générées dans le schéma à deux couleurs avec le champ à 800 nm PED et le champ à 400 nm PCG. Les incertitudes sont entre parenthèses.}
 \label{tab:resultats084}
 \end{table}
+
+Les résultats complets sont données dans le tableau \ref{tab:resultats084}. H$_{15}$ possède la même hélicité que H$_{16}$ avec une ellipticité $\epsilon \approx 0.6$ mais un faible degré de polarisation $P \approx 0.4$. L'ellipticité des harmoniques $3m+1$ et $3m-1$ possède toujours le même signe que celle des champs à $\omega$ et $2\omega$ respectivement, mais est fortement réduite par rapport au cas ou l'IR est PCD. On observe ici aussi une ellipticité plus faible (en valeur absolue) pour H$_{17}$ que pour H$_{16}$ avec $|\epsilon| \approx 0.2$ et 0.45 respectivement. Ces valeurs sont en accord avec les mesures précédentes de \mycite{FleischerNatPhot2014}. Cependant, on observe un faible degré de polarisation pour ces deux harmoniques, $P \approx 0.6$, qui n'était pas mesuré par Fleischer \textit{et al.}
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Polarimetrie/}{Resultats_084.pdf_tex}
+\caption{Polarimétrie moléculaire dans le cas $\epsilon_{\text{IR}} = +0.84$; $\epsilon_{\text{UV}} = -1$. (a) Spectre de photoélectrons issus de la PID de NO mesuré (noir) et corrigé de la section efficace du processus (vert). (b-d) DAPRM réduites $I(\theta_e,\phi_e)$ lorsque la molécule de NO est perpendiculaire à la direction de propagation du faisceau pour les harmoniques 15, 16 et 17. (e-f) Produit $s_3 \times F_{11}(\theta_e)$ mesuré pour H$_{15}$ (orange), H$_{16}$ (rouge) et H$_{17}$ (bleu), et fonctions $F_{11}(\theta_e)$ de référence mesurées au synchrotron (brun). Dans cette gamme d'énergie, les $F_{11}$ sont positives, cependant pour mettre en évidence le signe de $s_3$ la fonction de référence $-F_{11}(\theta_e)$ est représentée dans les cas où $s_3 <0$.} 
+\label{fig:Resultats_084}
+\end{figure}

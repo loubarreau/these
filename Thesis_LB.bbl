@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -165,6 +165,12 @@ Higuet J.
 \newblock Thèse de doctorat dirigée par Mével, Eric. Spécialité Lasers,
   matière et nanosciences.
 
+\bibitem[Iida et~al.(1986)Iida, Carnovale, Daviel, et Brion]{IidaChemPhys1986}
+Iida Y, Carnovale F, Daviel S, et Brion C.
+\newblock \emph{Absolute oscillator strengths for photoabsorption and the
+  molecular and dissociative photoionization of nitric oxide}.
+\newblock Chemical physics \textbf{105},~211--225 (1986).
+
 \bibitem[Jim{\'e}nez-Gal{\'a}n et~al.(2017)Jim{\'e}nez-Gal{\'a}n, Zhavoronkov,
   Schloz, Morales, et Ivanov]{JimenezGalanArXiv2017}
 Jim{\'e}nez-Gal{\'a}n {\'A}, Zhavoronkov N, Schloz M, Morales F, et Ivanov M.
@@ -307,6 +313,13 @@ St{\"o}hr J.
 \newblock Journal of Electron Spectroscopy and Related Phenomena
   \textbf{75},~253--272 (1995).
 
+\bibitem[Stratmann et~al.(1996)Stratmann, Zurales, et
+  Lucchese]{StratmannJCP1996}
+Stratmann R, Zurales RW, et Lucchese RR.
+\newblock \emph{Multiplet-specific multichannel electron-correlation effects in
+  the photoionization of no}.
+\newblock The Journal of chemical physics \textbf{104},~8989--9000 (1996).
+
 \bibitem[Strelkov et~al.(2012)Strelkov, Khokhlova, Gonoskov, Gonoskov, et
   Ryabikin]{StrelkovPRA2012}
 Strelkov V, Khokhlova M, Gonoskov A, Gonoskov I, et Ryabikin MY.
@@ -339,6 +352,15 @@ Veyrinas K, Gruson V, Weber S, Barreau L, Ruchon T, Hergott JF, Houver JC,
   high-order harmonics: a sensitive probe of both photodynamics and harmonic
   complete polarization state}.
 \newblock Faraday discussions \textbf{194},~161--183 (2016).
+
+\bibitem[Weber et~al.(2015)Weber, Manschwetus, Billon, Böttcher, Bougeard,
+  Breger, Géléoc, Gruson, Huetz, Lin, Picard, Ruchon, Salières, et
+  Carré]{WeberRSI2015}
+Weber SJ, Manschwetus B, Billon M, Böttcher M, Bougeard M, Breger P, Géléoc
+  M, Gruson V, Huetz A, Lin N, Picard YJ, Ruchon T, Salières P, et Carré B.
+\newblock \emph{Flexible attosecond beamline for high harmonic spectroscopy and
+  xuv/near-ir pump probe experiments requiring long acquisition times}.
+\newblock Review of Scientific Instruments \textbf{86},~033108 (2015).
 
 \bibitem[Yang et~al.(1998)Yang, Ågren, Carravetta, Vahtras, Karlsson,
   Wannberg, Holland, et MacDonald]{YangJElecSpec1998}
