@@ -1,6 +1,6 @@
 %% Creator: Inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'FinitePulses_Alvaro.pdf' (pdf, eps, ps)
+%% Accompanies image file 'Kotur.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{261.52196045bp}%
+    \setlength{\unitlength}{340.7076416bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,12 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.78366322)%
-    \put(0,0){\includegraphics[width=\unitlength]{FinitePulses_Alvaro.pdf}}%
-    \put(0.02854385,0.21167941){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\arg [M^{(2)}_{\text{Fano, ib}}]$}}}}%
-    \put(0.28550124,0.01196935){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon$}}}%
-    \put(0.71875593,0.0085049){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\epsilon$}}}%
-    \put(0.17450262,0.62158762){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$q = 1 ; \gamma = 0$}}}%
-    \put(0.62918237,0.62471703){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$q = 1 ; \gamma = 0.2$}}}%
+  \begin{picture}(1,1.68675593)%
+    \put(0,0){\includegraphics[width=\unitlength]{Kotur.pdf}}%
+    \put(0.14029574,0.00912164){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Energie de l'harmonique résonante H$_{17}$ (eV)}}}%
+    \put(0.06169873,0.20498008){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase (rad)}}}}%
+    \put(0.06169873,0.74371076){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Phase (rad)}}}}%
+    \put(0.0853764,1.16012693){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{ photoélectrons (u. arb.)}}}}%
+    \put(0.21135716,1.53662058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.2101602,1.0921723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.21135716,0.57490897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.73105615,1.09241064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SB$_{16}$}}}%
+    \put(0.73608044,0.57962772){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SB$_{18}$}}}%
+    \put(0.02934609,1.26600882){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Signal de}}}}%
   \end{picture}%
 \endgroup%

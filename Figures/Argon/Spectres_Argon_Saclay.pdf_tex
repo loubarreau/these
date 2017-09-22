@@ -1,0 +1,88 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Spectres_Argon_Saclay.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1067.02249146bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.61234631)%
+    \put(0,0){\includegraphics[width=\unitlength]{Spectres_Argon_Saclay.pdf}}%
+    \put(0.532906,0.00276122){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie de photon (eV)}}}%
+    \put(0.07567553,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{20}}}%
+    \put(0.22820315,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{22}}}%
+    \put(0.38073002,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{24}}}%
+    \put(0.53325764,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{26}}}%
+    \put(0.68578451,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28}}}%
+    \put(0.83831212,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{30}}}%
+    \put(0.99083899,0.03965717){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{32}}}%
+    \put(0.04822044,0.06340549){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.04822044,0.1169099){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{5}}}%
+    \put(0.04822044,0.1704143){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{10}}}%
+    \put(0.04822044,0.22391945){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{15}}}%
+    \put(0.04822044,0.27742385){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{20}}}%
+    \put(0.04822044,0.330929){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{25}}}%
+    \put(0.04822044,0.3844334){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{30}}}%
+    \put(0.04822044,0.43793856){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{35}}}%
+    \put(0.04822044,0.49144296){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{40}}}%
+    \put(0.04822044,0.54494811){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{45}}}%
+    \put(0.04822044,0.59845251){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{50}}}%
+    \put(0.00676752,0.12845227){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Spectre de photoélectrons (u. arb.)}}}}%
+    \put(0.91333763,0.56776747){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1245}}}%
+    \put(0.91319009,0.53721663){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1250}}}%
+    \put(0.91333763,0.50666576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1255}}}%
+    \put(0.91329717,0.47611494){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1258}}}%
+    \put(0.91319009,0.4455641){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1260}}}%
+    \put(0.91321865,0.41501323){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1262}}}%
+    \put(0.91333763,0.38446239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1265}}}%
+    \put(0.91323292,0.35392102){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1267}}}%
+    \put(0.91322579,0.32337019){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1269}}}%
+    \put(0.91319009,0.29281937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1270}}}%
+    \put(0.91321865,0.26226848){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1272}}}%
+    \put(0.91333763,0.23171764){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1275}}}%
+    \put(0.91319009,0.20115728){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1280}}}%
+    \put(0.91333763,0.17060643){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1285}}}%
+  \end{picture}%
+\endgroup%

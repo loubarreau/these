@@ -715,23 +715,33 @@ Ainsi, le cas de l'interaction d'un état discret avec plusieurs continua se ram
 \ket{\psi^{int}_{E'}} & = \frac{V^*_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\psi_{E'}} + \frac{W^*_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\chi_{E'}} \\
 \ket{\psi^{non \: int}_{E'}} & = \frac{W_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\psi_{E'}} - \frac{V_{E'}}{\sqrt{|V_{E'}|^2 + |W_{E'}|^2}} \ket{\chi_{E'}} 
 \end{align}
+La section efficace d'absorption s'écrit alors:
+\begin{equation}
+\sigma = \sigma_a \: \frac{\left(q + \epsilon \right) ^2}{1+\epsilon^2} + \sigma_b
+\label{eq:SectionEff_PlusieursContinua}
+\end{equation}
+où $\sigma_a$ et $\sigma_b$ sont respectivement les sections efficaces d'absorption directes depuis l'état fondamental vers les continua interactif et on interactif. L'indice de corrélation $\rho^2$, défini par
+\begin{equation}
+\rho^2 = \frac{\sigma_a}{\sigma_a + \sigma_b}
+\end{equation}
+est également rencontré dans la littérature \mycite{FanoCooperPR1965}.
 
 \section{Dynamique de l'autoionisation: \'Etat de l'art}
 La dynamique de l'autoionisation est d'abord caractérisée par la mesure des largeurs de raie $\Gamma$ en spectroscopie statique, donnant accès à la durée de vie $\tau = \hbar / \Gamma$. Le tableau \ref{tab:ParamètresFano} résume les paramètres caractérisant quelques résonances de Fano dans les gaz rares qui seront étudiées dans ce manuscrit. Leur largeur typique est la dizaine de milliélectronvolts, soit une durée de vie de quelques dizaines de femtosecondes. Ainsi, la question de la mesure "en temps réel" de la dynamique d'autoionisation ne s'est posée qu'à partir de l'existence de sources de lumières ultra-brèves dans cette gamme d'énergie, c'est-à-dire avec les débuts de la physique attoseconde.
 
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-Résonance & $E_r$ (eV) & q & $\Gamma$ (meV) & $\tau$ (fs) & Référence \\
+Résonance & $E_r$ (eV) & q & $\Gamma$ (meV) & $\tau$ (fs) & $\rho^2$ & Référence \\
 \hline
-He $2s2p$ & 60.147 & -2.77 & 36 & 17 & \mycite{DomkePRA1996} \\
+He $2s2p$ & 60.147 & -2.77 & 36 & 17 & - &\mycite{DomkePRA1996} \\
 \hline
-He $sp3^+$ & 63.66 & -2.58 & 8 & 82 & \mycite{DomkePRA1996} \\
+He $sp3^+$ & 63.66 & -2.58 & 8 & 82 & - &\mycite{DomkePRA1996} \\
 \hline
-Ne $2s2p^63p$ & 45.54 & -1.58 & 16 & 41 & \mycite{SchulzPRA1996} \\
+Ne $2s2p^63p$ & 45.54 & -1.58 & 16 & 41 & - &\mycite{SchulzPRA1996} \\
 \hline
-Ar $3s3p^64p$ & 26.606 & -0.28 & 80 & 8 & \mycite{BerrahJPB1996} \\
+Ar $3s3p^64p$ & 26.606 & -0.28 & 80 & 8 & 0.84 &\mycite{BerrahJPB1996} \\
 \hline
 \end{tabular}
 \end{center}

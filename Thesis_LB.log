@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  11 SEP 2017 17:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  22 SEP 2017 18:11
 entering extended mode
 **Thesis_LB.tex
 (C:\Users\lbarreau\Documents\these\Thesis_LB.tex
@@ -748,239 +748,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\lbarreau\AppData\Roaming\MiKTeX\2.9\tex\latex\mnsymbol\MnSymbol.sty
-Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-))
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-LaTeX Info: Redefining \dagger on input line 84.
-LaTeX Info: Redefining \ddagger on input line 84.
-LaTeX Info: Redefining \mathparagraph on input line 84.
-LaTeX Info: Redefining \mathsection on input line 84.
-LaTeX Info: Redefining \mathdollar on input line 84.
-LaTeX Info: Redefining \mathsterling on input line 84.
-LaTeX Info: Redefining \yen on input line 84.
-LaTeX Info: Redefining \circledR on input line 84.
-LaTeX Info: Redefining \circledS on input line 84.
-LaTeX Info: Redefining \Re on input line 84.
-LaTeX Info: Redefining \Im on input line 84.
-LaTeX Info: Redefining \dotplus on input line 84.
-LaTeX Info: Redefining \thicksim on input line 84.
-LaTeX Info: Redefining \thickapprox on input line 84.
-LaTeX Info: Redefining \veebar on input line 84.
-LaTeX Info: Redefining \barwedge on input line 84.
-LaTeX Info: Redefining \doublebarwedge on input line 84.
-LaTeX Info: Redefining \centerdot on input line 84.
-LaTeX Info: Redefining \divideontimes on input line 84.
-\symMnSyA=\mathgroup8
-\symMnSyB=\mathgroup9
-\symMnSyC=\mathgroup10
-\symMnSyD=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/zplm/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/zplm/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/zplm/m/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/zplm/b/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
-(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
-LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
-(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
-LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
-(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
-LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
-(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
-25.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
-41.
-LaTeX Info: Redefining \longrightarrow on input line 548.
-LaTeX Info: Redefining \longleftarrow on input line 549.
-LaTeX Info: Redefining \longleftrightarrow on input line 550.
-LaTeX Info: Redefining \Longrightarrow on input line 551.
-LaTeX Info: Redefining \Longleftarrow on input line 552.
-LaTeX Info: Redefining \Longleftrightarrow on input line 553.
-LaTeX Info: Redefining \longmapsto on input line 554.
-LaTeX Info: Redefining \vdots on input line 868.
-LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
-LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
-LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
-LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
-LaTeX Info: Redefining \downbracefill on input line 1799.
-LaTeX Info: Redefining \upbracefill on input line 1800.
-LaTeX Info: Redefining \overbrace on input line 1819.
-LaTeX Info: Redefining \underbrace on input line 1820.
-LaTeX Info: Redefining \surd on input line 1843.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Info: Redefining \bm on input line 204.
@@ -1741,13 +1508,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 56.
@@ -1790,7 +1550,80 @@ Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 
 LaTeX Info: Redefining \dots on input line 56.
 LaTeX Info: Redefining \up on input line 56.
-
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
 (C:\Users\lbarreau\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\translator\dicts
 \translator-basic-dictionary\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1809,6 +1642,18 @@ LaTeX Font Info:    Try loading font information for OML+zplm on input line 56.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 56.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 56.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 56.
 
@@ -1840,7 +1685,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 56.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 56.
-Package xypdf Info: Line width: 0.49248pt on input line 56.
+Package xypdf Info: Line width: 0.43799pt on input line 56.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 56.
@@ -1878,7 +1723,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\lbarreau\Documents\these\Misc/Prel_Matter.tex
 (C:\Users\lbarreau\Documents\these\Misc/style-pagedegarde.tex
-<Figures/Logos/UPSac.png, id=107, 440.95174pt x 148.72957pt>
+<Figures/Logos/UPSac.png, id=23, 440.95174pt x 148.72957pt>
 File: Figures/Logos/UPSac.png Graphic file (type png)
 
 <use Figures/Logos/UPSac.png>
@@ -1889,7 +1734,7 @@ Overfull \hbox (114.49495pt too wide) in paragraph at lines 9--11
 [][]
  []
 
-<Figures/Logos/UPS.png, id=109, 80.154pt x 73.9125pt>
+<Figures/Logos/UPS.png, id=25, 80.154pt x 73.9125pt>
 File: Figures/Logos/UPS.png Graphic file (type png)
 
 <use Figures/Logos/UPS.png>
@@ -1918,11 +1763,13 @@ Underfull \hbox (badness 10000) in alignment at lines 95--95
 
  <C:/Users/lbarreau/Documents/these/Figures/Logos/UPSac.png> <C:/Users/lbarreau
 /Documents/these/Figures/Logos/UPS.png>]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 22.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd"
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
 )
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1945,14 +1792,14 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 34.
 
-<Figures/Logos/lidyl.png, id=120, 139.2402pt x 85.0377pt>
+<Figures/Logos/lidyl.png, id=36, 139.2402pt x 85.0377pt>
 File: Figures/Logos/lidyl.png Graphic file (type png)
 
 <use Figures/Logos/lidyl.png>
 Package pdftex.def Info: Figures/Logos/lidyl.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 52.13242pt.
 
-<Figures/Logos/CEA.png, id=121, 789.95125pt x 644.4075pt>
+<Figures/Logos/CEA.png, id=37, 789.95125pt x 644.4075pt>
 File: Figures/Logos/CEA.png Graphic file (type png)
 
 <use Figures/Logos/CEA.png>
@@ -1989,7 +1836,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 )) [5] [6
 
 ]
-(C:\Users\lbarreau\Documents\these\Text/Polarimetrie.tex
+(C:\Users\lbarreau\Documents\these\Text/Argon.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
@@ -1998,786 +1845,163 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 ...polarisées circulairement en sens opposé}
+l.1 ... d'autoionisation dans l'argon et le néon}
                                                    [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 ...polarisées circulairement en sens opposé}
-                                                   [2]pdfTeX warning (ext4): de
-stination with the same identifier (name{page.3}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.17 
-      [3]pdfTeX warning (ext4): destination with the same identifier (name{page
-.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 \chapter
-             {Génération d'harmoniques d'ordre élevé polarisées ellipti...
-[4]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.49 
-      [5
+l.1 ... d'autoionisation dans l'argon et le néon}
+                                                   [2]
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Zhang_SpectreAr.pdf_tex
+<Figures/Argon/Zhang_SpectreAr.pdf, id=75, 436.32658pt x 279.12097pt>
+File: Figures/Argon/Zhang_SpectreAr.pdf Graphic file (type pdf)
 
-]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/polarellipse.pdf_tex
-<Figures/Polarimetrie/polarellipse.pdf, id=269, 310.63551pt x 201.65335pt>
-File: Figures/Polarimetrie/polarellipse.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/polarellipse.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/polarellipse.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 279.99878pt x 181.76941pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
+<use Figures/Argon/Zhang_SpectreAr.pdf>
+Package pdftex.def Info: Figures/Argon/Zhang_SpectreAr.pdf used on input line 5
+2.
+(pdftex.def)             Requested size: 340.00244pt x 217.50478pt.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \begin{equation}
-                      [6 <C:/Users/lbarreau/Documents/these/Figures/Polarimetri
-e/polarellipse.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Budil.pdf_tex
-<Figures/Polarimetrie/Budil.pdf, id=306, 437.21408pt x 326.16579pt>
-File: Figures/Polarimetrie/Budil.pdf Graphic file (type pdf)
+l.20 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[3
 
-<use Figures/Polarimetrie/Budil.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Budil.pdf used on input line 52.
-(pdftex.def)             Requested size: 320.00122pt x 238.73607pt.
+ <C:/Users/lbarreau/Documents/these/Figures/Argon/Zhang_SpectreAr.pdf>]pdfTeX w
+arning (ext4): destination with the same identifier (name{page.4}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[4
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 20.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 20.
+
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Kotur.pdf_tex
+<Figures/Argon/Kotur.pdf, id=112, 341.98529pt x 576.8457pt>
+File: Figures/Argon/Kotur.pdf Graphic file (type pdf)
+
+<use Figures/Argon/Kotur.pdf>
+Package pdftex.def Info: Figures/Argon/Kotur.pdf used on input line 52.
+(pdftex.def)             Requested size: 200.0pt x 337.34335pt.
 )
-LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 102.
- [7] [8 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Budil.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/antoinePRA.pdf_tex
-<Figures/Polarimetrie/antoinePRA.pdf, id=346, 817.89807pt x 462.55206pt>
-File: Figures/Polarimetrie/antoinePRA.pdf Graphic file (type pdf)
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Spectres_Argon_Saclay.pdf_tex
+<Figures/Argon/Spectres_Argon_Saclay.pdf, id=117, 1071.02379pt x 655.83746pt>
+File: Figures/Argon/Spectres_Argon_Saclay.pdf Graphic file (type pdf)
 
-<use Figures/Polarimetrie/antoinePRA.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/antoinePRA.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 400.0pt x 226.21489pt.
-) [9 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/antoinePRA.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ZhouMairesse.pdf_tex
-<Figures/Polarimetrie/ZhouMairesse.pdf, id=441, page=1, 514.38573pt x 198.87306
-pt>
-File: Figures/Polarimetrie/ZhouMairesse.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ZhouMairesse.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ZhouMairesse.pdf, page1 used on i
-nput line 52.
-(pdftex.def)             Requested size: 400.0pt x 154.65pt.
-) [10 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ZhouMairesse.pdf>
-] [11]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/FerreAr.pdf_tex
-<Figures/Polarimetrie/FerreAr.pdf, id=492, page=1, 555.16988pt x 196.61234pt>
-File: Figures/Polarimetrie/FerreAr.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/FerreAr.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/FerreAr.pdf, page1 used on input 
+<use Figures/Argon/Spectres_Argon_Saclay.pdf>
+Package pdftex.def Info: Figures/Argon/Spectres_Argon_Saclay.pdf used on input 
 line 52.
-(pdftex.def)             Requested size: 400.0pt x 141.65976pt.
+(pdftex.def)             Requested size: 400.0pt x 244.93771pt.
 )
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/FerreSF6.pdf_tex
-<Figures/Polarimetrie/FerreSF6.pdf, id=497, page=1, 540.80217pt x 345.81908pt>
-File: Figures/Polarimetrie/FerreSF6.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/FerreSF6.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/FerreSF6.pdf, page1 used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 255.79129pt.
-) [12 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/FerreAr.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/BordeldeVeyrinas.pdf_te
-x
-<Figures/Polarimetrie/BordeldeVeyrinas.pdf, id=529, page=1, 557.55489pt x 277.8
-8712pt>
-File: Figures/Polarimetrie/BordeldeVeyrinas.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/BordeldeVeyrinas.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/BordeldeVeyrinas.pdf, page1 used 
-on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 199.36621pt.
-
-<Figures/Polarimetrie/BordeldeVeyrinas.pdf, id=530, page=2, 557.55489pt x 277.8
-8712pt>
-File: Figures/Polarimetrie/BordeldeVeyrinas.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/BordeldeVeyrinas.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/BordeldeVeyrinas.pdf, page2 used 
-on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 199.36621pt.
-) [13 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/FerreSF6.pdf>] [1
-4 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/BordeldeVeyrinas.pdf>
- <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/BordeldeVeyrinas.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/BordeldeVeyrinas.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Trajectoires_Milosevic.
-pdf_tex
-<Figures/Polarimetrie/Trajectoires_Milosevic.pdf, id=571, 589.5999pt x 255.8753
-2pt>
-File: Figures/Polarimetrie/Trajectoires_Milosevic.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/Trajectoires_Milosevic.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Trajectoires_Milosevic.pdf used o
-n input line 52.
-(pdftex.def)             Requested size: 400.0pt x 173.59076pt.
-) [15 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Trajectoires_Milo
-sevic.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/CitationsEichmann.pdf_t
-ex
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=648, page=1, 477.57309pt x 385.
-82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page1 used
- on input line 53.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=649, page=2, 477.57309pt x 385.
-82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page2 used
- on input line 60.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=650, page=3, 477.57309pt x 385.
-82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page3 used
- on input line 68.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-) [16 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichmann
-.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichmann
-.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/CitationsEichmann.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichmann.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/CitationsEichmann.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SM_Kfir.pdf_tex
-<Figures/Polarimetrie/SM_Kfir.pdf, id=676, 560.27353pt x 351.28566pt>
-File: Figures/Polarimetrie/SM_Kfir.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/SM_Kfir.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/SM_Kfir.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 250.80286pt.
-) [17 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SM_Kfir.pdf>] [18
-] [19] [20
-
-] [21] [22]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/dessin_emission_t3.pdf_
-tex
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=796, page=1, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page1 use
-d on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=797, page=2, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page2 use
-d on input line 57.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=798, page=3, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page3 use
-d on input line 59.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=799, page=4, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page4 use
-d on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=800, page=5, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 5>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page5 use
-d on input line 65.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=801, page=6, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 6>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page6 use
-d on input line 75.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=802, page=7, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 7>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page7 use
-d on input line 80.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=803, page=8, 588.19818pt x 452
-.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 8>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page8 use
-d on input line 92.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-) [23 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t
-3.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_
-t3.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ReslutatsHe.pdf_tex
-<Figures/Polarimetrie/ReslutatsHe.pdf, id=891, page=1, 593.27942pt x 616.39035p
-t>
-File: Figures/Polarimetrie/ReslutatsHe.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ReslutatsHe.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ReslutatsHe.pdf, page1 used on in
-put line 61.
-(pdftex.def)             Requested size: 400.0pt x 415.59407pt.
-) [24] [25 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ReslutatsHe.
-pdf>] [26]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Decroissance_exponentie
-lle_ionisation.pdf_tex
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=951, page=1
-, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page1 used on input line 52.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=952, page=2
-, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page2 used on input line 64.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=953, page=3
-, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page3 used on input line 76.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=954, page=4
-, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page4 used on input line 81.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ResultatsArIonisation.p
-df_tex
-<Figures/Polarimetrie/ResultatsArIonisation.pdf, id=957, page=1, 596.96396pt x 
-569.848pt>
-File: Figures/Polarimetrie/ResultatsArIonisation.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsArIonisation.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsArIonisation.pdf, page1 
-used on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 381.83966pt.
-)
-[27 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_expone
-ntielle_ionisation.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie
-/Decroissance_exponentielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_exponent
-ielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_exponent
-ielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [28 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsArIonis
-ation.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Schema_petit_modele.pdf
-_tex
-<Figures/Polarimetrie/Schema_petit_modele.pdf, id=1024, 187.37135pt x 154.03024
-pt>
-File: Figures/Polarimetrie/Schema_petit_modele.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/Schema_petit_modele.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Schema_petit_modele.pdf used on i
-nput line 52.
-(pdftex.def)             Requested size: 200.0pt x 164.42055pt.
-) [29 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Schema_petit_mode
-le.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SpectresVSepsilon.pdf_t
-ex
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=1049, page=1, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page1 used
- on input line 73.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=1050, page=2, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page2 used
- on input line 84.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=1051, page=3, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page3 used
- on input line 103.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=1052, page=4, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page4 used
- on input line 124.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ResultatsEpsilon.pdf_te
-x
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=1068, page=1, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page1 used 
-on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=1069, page=2, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page2 used 
-on input line 74.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=1070, page=3, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page3 used 
-on input line 77.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=1071, page=4, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page4 used 
-on input line 84.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-) [30] [31 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSep
-silon.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSep
-silon.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/MoyenneAngles.pdf_tex
-<Figures/Polarimetrie/MoyenneAngles.pdf, id=1085, page=1, 565.61778pt x 229.322
-66pt>
-File: Figures/Polarimetrie/MoyenneAngles.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/MoyenneAngles.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/MoyenneAngles.pdf, page1 used on 
-input line 52.
-(pdftex.def)             Requested size: 400.0pt x 162.17986pt.
-) [32 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.
-pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.p
-df
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->] [33 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/MoyenneAngles.pd
-f>] [34
-
-] [35]
-Overfull \hbox (1.46645pt too wide) detected at line 411
- []$[] \U/MnSymbolC/m/n/10.95  \OML/zplm/m/it/10.95 F[]\OMX/MnSymbolE/m/n/10.9
-5 �\OML/zplm/m/it/10.95 []\OMX/MnSymbolE/m/n/10.95 � []$ 
- []
-
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Referentiels.pdf_tex
-<Figures/Polarimetrie/Referentiels.pdf, id=1163, 439.24101pt x 346.72144pt>
-File: Figures/Polarimetrie/Referentiels.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Referentiels.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Referentiels.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 200.0pt x 157.87488pt.
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 429.
-
-[36 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Referentiels.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 441.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 441.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 441.
-
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/F11_ref_H17.pdf_tex
-<Figures/Polarimetrie/F11_ref_H17.pdf, id=1277, 368.56528pt x 281.434pt>
-File: Figures/Polarimetrie/F11_ref_H17.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/F11_ref_H17.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/F11_ref_H17.pdf used on input lin
-e 52.
-(pdftex.def)             Requested size: 240.00244pt x 183.26488pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/2couleurs_Setup.pdf_tex
-
-<Figures/Polarimetrie/2couleurs_Setup.pdf, id=1282, 539.93626pt x 461.31909pt>
-File: Figures/Polarimetrie/2couleurs_Setup.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/2couleurs_Setup.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/2couleurs_Setup.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 341.772pt.
-)
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (13.6pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 459.
-
-
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[37] [38 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/F11_ref_H17.pd
-f>]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[39 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/2couleurs_Setup.pdf
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 469.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 469.
-
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SpectresPE_pm1.pdf_tex
-<Figures/Polarimetrie/SpectresPE_pm1.pdf, id=1403, 568.25047pt x 225.16736pt>
-File: Figures/Polarimetrie/SpectresPE_pm1.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/SpectresPE_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresPE_pm1.pdf used on input 
-line 52.
-(pdftex.def)             Requested size: 400.0pt x 158.50592pt.
-) [40 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresPE_pm1.pd
-f>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/MFPAD_pm1.pdf_tex
-<Figures/Polarimetrie/MFPAD_pm1.pdf, id=1493, 532.11584pt x 586.68336pt>
-File: Figures/Polarimetrie/MFPAD_pm1.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/MFPAD_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/MFPAD_pm1.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 320.00122pt x 352.82736pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/CoupeMFPAD.pdf_tex
-<Figures/Polarimetrie/CoupeMFPAD.pdf, id=1494, 543.47218pt x 548.57358pt>
-File: Figures/Polarimetrie/CoupeMFPAD.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/CoupeMFPAD.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/CoupeMFPAD.pdf used on input line
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_Saclay.pdf_tex
+<Figures/Argon/Fano_Argon_Saclay.pdf, id=118, 686.80663pt x 653.2297pt>
+File: Figures/Argon/Fano_Argon_Saclay.pdf Graphic file (type pdf)
+
+<use Figures/Argon/Fano_Argon_Saclay.pdf>
+Package pdftex.def Info: Figures/Argon/Fano_Argon_Saclay.pdf used on input line
  52.
-(pdftex.def)             Requested size: 279.99878pt x 282.62317pt.
+(pdftex.def)             Requested size: 400.0pt x 380.44835pt.
 )
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/F11_pm1.pdf_tex
-<Figures/Polarimetrie/F11_pm1.pdf, id=1497, 542.34015pt x 228.90988pt>
-File: Figures/Polarimetrie/F11_pm1.pdf Graphic file (type pdf)
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_OSU_These.pdf_tex
+<Figures/Argon/Fano_Argon_OSU_These.pdf, id=119, 681.61432pt x 660.46376pt>
+File: Figures/Argon/Fano_Argon_OSU_These.pdf Graphic file (type pdf)
 
-<use Figures/Polarimetrie/F11_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/F11_pm1.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 168.83878pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Resultatsbu2H19.pdf_tex
-<Figures/Polarimetrie/Resultatsbu2H19.pdf, id=1498, 538.7119pt x 220.982pt>
-File: Figures/Polarimetrie/Resultatsbu2H19.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Resultatsbu2H19.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Resultatsbu2H19.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 164.08722pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[41 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/MFPAD_pm1.pdf>]
-[42 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CoupeMFPAD.pdf> <C:
-/Users/lbarreau/Documents/these/Figures/Polarimetrie/F11_pm1.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/F11_pm1.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[43 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Resultatsbu2H19.pdf
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 545.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 545.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 545.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 545.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 545.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 545.
-
-[44]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Resultats_084.pdf_tex
-<Figures/Polarimetrie/Resultats_084.pdf, id=1751, 572.45215pt x 619.12463pt>
-File: Figures/Polarimetrie/Resultats_084.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Resultats_084.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Resultats_084.pdf used on input l
+<use Figures/Argon/Fano_Argon_OSU_These.pdf>
+Package pdftex.def Info: Figures/Argon/Fano_Argon_OSU_These.pdf used on input l
 ine 52.
-(pdftex.def)             Requested size: 400.0pt x 432.61908pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[45 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Resultats_084.pdf>]
-[46])
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[47] [48
+(pdftex.def)             Requested size: 400.0pt x 387.59421pt.
+))pdfTeX warning (ext4): destination with the same identifier (name{page.5}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \backmatter
+                 [5]pdfTeX warning (ext4): destination with the same identifier
+ (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \backmatter
+                 [6 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 79.
+ [7 <C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pdf>
+] [8 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_Saclay.pdf>]
+[9 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_OSU_These.pdf>]
+[10
 
 ] (C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
 (C:\Users\lbarreau\Documents\these\Thesis_LB.brf)
 \tf@brf=\write7
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
- [49
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 12.
+ [11
 
-] [50] [51]) [52] [53
+] [12]) [13] [14
 
+] [15
 
 ]
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (13.6pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 107.
-
 \tf@lop=\write8
 \tf@toc=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+
 (C:\Users\lbarreau\Documents\these\Thesis_LB.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `Thesis_LB.out' has not changed.
-(rerunfilecheck)             Checksum: 4A33CB70C7ED759117682FF786FF4484;3018.
+(rerunfilecheck)             Checksum: 16D79712844CFE8435C41BA8DED7D579;406.
 
 
 Package rerunfilecheck Warning: File `Thesis_LB.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `Thesis_LB.brf':
-(rerunfilecheck)             Before: CEC42C71BA11A507301B1526B8C1F5D2;6712
-(rerunfilecheck)             After:  BA3A33E28080C1E1421B3C6374B8B896;6800.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+(rerunfilecheck)             Before: DF6B34AA80A6C15CD1C9A689DDE07516;100
+(rerunfilecheck)             After:  9382E7652BE1974679A7F6E6077FC3BD;152.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 30918 strings out of 493921
- 529871 string characters out of 3147273
- 692748 words of memory out of 3000000
- 32830 multiletter control sequences out of 15000+200000
- 134503 words of font info for 624 fonts, out of 3000000 for 9000
+ 28136 strings out of 493921
+ 482370 string characters out of 3147273
+ 647757 words of memory out of 3000000
+ 30650 multiletter control sequences out of 15000+200000
+ 98645 words of font info for 346 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 46i,14n,38p,10393b,988s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymb
-olC.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/
-MnSymbolA.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
-ymbol/MnSymbolF.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvi
-ps/mnsymbol/MnSymbolD.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/e
-nc/dvips/mnsymbol/MnSymbolE.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
-ntname/8r.enc} <C:\Users\lbarreau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ectt0900.pk><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/
-type1/public/mnsymbol/MnSymbol10.pfb><C:/Users/lbarreau/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/mnsymbol/MnSymbol6.pfb><C:/Users/lbarreau/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lbarreau/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/lbarreau/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
-tino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Thesis_LB.pdf (59 pages, 14088795 bytes).
+ 46i,14n,40p,10393b,966s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\lbarr
+eau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/lbarreau/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/lbarreau/AppDa
+ta/Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/p
+alatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Thesis_LB.pdf (21 pages, 1472435 bytes).
 PDF statistics:
- 2133 PDF objects out of 2487 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 87499 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 78422 words of extra memory for PDF output out of 89155 (max. 10000000)
 
