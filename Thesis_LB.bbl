@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,14 +31,6 @@ Bernhardt B, Beck AR, Li X, Warrick ER, Bell MJ, Haxton DJ, McCurdy CW, Neumark
 \newblock \emph{High-spectral-resolution attosecond absorption spectroscopy of
   autoionization in xenon}.
 \newblock Phys. Rev. A \textbf{89},~023408 (2014).
-
-\bibitem[Berrah et~al.(1996)Berrah, Langer, Bozek, Gorczyca, Hemmers, Lindle,
-  et Toader]{BerrahJPB1996}
-Berrah N, Langer B, Bozek J, Gorczyca TW, Hemmers O, Lindle DW, et Toader O.
-\newblock \emph{Angular-distribution parameters and r -matrix calculations of
-  ar resonances}.
-\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
-  \textbf{29},~5351 (1996).
 
 \bibitem[Chen et~al.(2013)Chen, Wu, Gaarde, et Schafer]{ChenPRA2013}
 Chen S, Wu M, Gaarde MB, et Schafer KJ.
@@ -271,11 +263,5 @@ Wickenhauser M, Burgd{\"o}rfer J, Krausz F, et Drescher M.
 Wigner E.
 \newblock \emph{On the quantum correction for thermodynamic equilibrium}.
 \newblock Phys. Rev. \textbf{40},~749--759 (1932).
-
-\bibitem[Zhang et~al.(2009)Zhang, Rolles, Bozek, et Berrah]{ZhangJPhysB2009}
-Zhang H, Rolles D, Bozek J, et Berrah N.
-\newblock \emph{Photoionization of argon clusters in the ar 3s np rydberg
-  resonance region}.
-\newblock J. Phys. B: At. Mol. Opt. Phys \textbf{42},~105103 (2009).
 
 \end{thebibliography}

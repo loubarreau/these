@@ -1,27 +1,5 @@
 \select@language {french}
 \contentsline {part}{\partnumberline {I}Dynamiques d'autoionisation dans l'argon et le n\IeC {\'e}on}{1}{part.1}
 \contentsline {chapter}{\chapternumberline {1}Mesure de la phase de la transition au voisinage de la r\IeC {\'e}sonance $3s3p^64p$ de l'argon par RABBIT}{5}{chapter.1}
-\contentsline {part}{\partnumberline {II}Polarim\IeC {\'e}trie de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{11}{part.2}
-\contentsline {chapter}{\chapternumberline {2}G\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} polaris\IeC {\'e}es elliptiquement}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Polarisation de la lumi\IeC {\`e}re}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}G\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} \IeC {\`a} partir d'un laser polaris\IeC {\'e} elliptiquement}{17}{section.2.2}
-\contentsline {section}{\numberline {2.3}Autres m\IeC {\'e}thodes de g\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} polaris\IeC {\'e}es elliptiquement}{20}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}G\IeC {\'e}n\IeC {\'e}ration dans des mol\IeC {\'e}cules align\IeC {\'e}es}{20}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}G\IeC {\'e}n\IeC {\'e}ration au voisinage d'une r\IeC {\'e}sonance}{21}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}GHOE \IeC {\`a} partir d'un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{24}{section.2.4}
-\contentsline {chapter}{\chapternumberline {3}Etude num\IeC {\'e}rique de la GHOE par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}M\IeC {\'e}thodes num\IeC {\'e}riques}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}Champs de g\IeC {\'e}n\IeC {\'e}ration ultra-brefs}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}Ionisation du milieu de g\IeC {\'e}n\IeC {\'e}ration}{34}{section.3.3}
-\contentsline {section}{\numberline {3.4}D\IeC {\'e}faut de circularit\IeC {\'e} du fondamental}{38}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Mesure compl\IeC {\`e}te de l'\IeC {\'e}tat de polarisation de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Principe de la polarim\IeC {\'e}trie mol\IeC {\'e}culaire}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Expression de la distribution angulaire des photo\IeC {\'e}lectrons dans le r\IeC {\'e}f\IeC {\'e}rentiel mol\IeC {\'e}culaire}{43}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}D\IeC {\'e}termination de $s_1$ et $s_2$ \IeC {\`a} partir de la distribution angulaire des ions dans le r\IeC {\'e}f\IeC {\'e}rentiel du laboratoire}{45}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}D\IeC {\'e}termination de $s_3$ \IeC {\`a} partir du dichro\IeC {\"\i }sme circulaire dans le r\IeC {\'e}f\IeC {\'e}rentiel mol\IeC {\'e}culaire}{45}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Dispositif exp\IeC {\'e}rimental}{47}{section.4.2}
-\contentsline {section}{\numberline {4.3}R\IeC {\'e}sultats}{48}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Champs \IeC {\`a} $\omega $ et $2\omega $ polaris\IeC {\'e}s circulairement en sens oppos\IeC {\'e}}{48}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Champ \IeC {\`a} $\omega $ elliptique et champ \IeC {\`a} $2\omega $ circulaire d'h\IeC {\'e}licit\IeC {\'e} oppos\IeC {\'e}e}{52}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Discussion}{54}{section.4.4}
-\contentsline {part}{Bibliographie}{57}{section*.5}
+\contentsline {chapter}{\chapternumberline {2}Mesure de la phase de la transition au voisinage de la r\IeC {\'e}sonance $2s2p^63p$ du n\IeC {\'e}on par RABBIT}{11}{chapter.2}
+\contentsline {part}{Bibliographie}{15}{section*.3}
