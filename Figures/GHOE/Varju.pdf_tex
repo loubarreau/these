@@ -1,0 +1,61 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Varju.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{536.19283095bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.41899724)%
+    \put(0,0){\includegraphics[width=\unitlength]{Varju.pdf}}%
+    \put(0.17733493,0.00446726){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Intensité (W/cm$^2$)}}}%
+    \put(0.64819545,0.00471204){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
+    \put(0.43374587,0.34165937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.93475818,0.34196992){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.5119153,0.24626612){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{(10$^{-14}$ rad.cm$^2$/W)}}}}%
+    \put(0.01999609,0.21660212){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{(rad)}}}}%
+    \put(0.51480806,0.10866709){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$-\alpha_q^j$ =}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  5 OCT 2017 14:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  18 OCT 2017 20:34
 entering extended mode
 **Thesis_LB.tex
 (C:\Users\lbarreau\Documents\these\Thesis_LB.tex
@@ -1878,7 +1878,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\lbarreau\Documents\these\Misc/Prel_Matter.tex
 (C:\Users\lbarreau\Documents\these\Misc/style-pagedegarde.tex
-<Figures/Logos/UPSac.png, id=27, 440.95174pt x 148.72957pt>
+<Figures/Logos/UPSac.png, id=63, 440.95174pt x 148.72957pt>
 File: Figures/Logos/UPSac.png Graphic file (type png)
 
 <use Figures/Logos/UPSac.png>
@@ -1889,7 +1889,7 @@ Overfull \hbox (114.49495pt too wide) in paragraph at lines 9--11
 [][]
  []
 
-<Figures/Logos/UPS.png, id=29, 80.154pt x 73.9125pt>
+<Figures/Logos/UPS.png, id=65, 80.154pt x 73.9125pt>
 File: Figures/Logos/UPS.png Graphic file (type png)
 
 <use Figures/Logos/UPS.png>
@@ -1945,14 +1945,14 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 34.
 
-<Figures/Logos/lidyl.png, id=40, 139.2402pt x 85.0377pt>
+<Figures/Logos/lidyl.png, id=76, 139.2402pt x 85.0377pt>
 File: Figures/Logos/lidyl.png Graphic file (type png)
 
 <use Figures/Logos/lidyl.png>
 Package pdftex.def Info: Figures/Logos/lidyl.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 52.13242pt.
 
-<Figures/Logos/CEA.png, id=41, 789.95125pt x 644.4075pt>
+<Figures/Logos/CEA.png, id=77, 789.95125pt x 644.4075pt>
 File: Figures/Logos/CEA.png Graphic file (type png)
 
 <use Figures/Logos/CEA.png>
@@ -1989,178 +1989,169 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 )) [5] [6
 
 ]
-(C:\Users\lbarreau\Documents\these\Text/Argon.tex
+(C:\Users\lbarreau\Documents\these\Text/GHOE.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 ... d'autoionisation dans l'argon et le néon}
+l.3 ...génération d'harmoniques d'ordre élevé}
                                                    [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 ... d'autoionisation dans l'argon et le néon}
+l.3 ...génération d'harmoniques d'ordre élevé}
                                                    [2]
-(C:\Users\lbarreau\Documents\these\Figures/Argon/Zhang_SpectreAr.pdf_tex
-<Figures/Argon/Zhang_SpectreAr.pdf, id=80, 436.32658pt x 279.12097pt>
-File: Figures/Argon/Zhang_SpectreAr.pdf Graphic file (type pdf)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 
-<use Figures/Argon/Zhang_SpectreAr.pdf>
-Package pdftex.def Info: Figures/Argon/Zhang_SpectreAr.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 340.00244pt x 217.50478pt.
-)
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/potentials.pdf_tex
+<Figures/GHOE/potentials.pdf, id=128, 1484.14436pt x 439.50809pt>
+File: Figures/GHOE/potentials.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `BerrahJPB1996' on page 3 undefined on input l
-ine 16.
-
-
-Package natbib Warning: Citation `ZhangJPhysB2009' on page 3 undefined on input
- line 16.
-
-
-Package natbib Warning: Citation `BerrahJPB1996' on page 3 undefined on input l
-ine 16.
-
-
-Package natbib Warning: Citation `ZhangJPhysB2009' on page 3 undefined on input
- line 16.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.20 \chapter
-             [Mesure de la phase de la transition au voisinage de la résona...
-[3
-
- <C:/Users/lbarreau/Documents/these/Figures/Argon/Zhang_SpectreAr.pdf>]pdfTeX w
-arning (ext4): destination with the same identifier (name{page.4}) has been alr
-eady used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.20 \chapter
-             [Mesure de la phase de la transition au voisinage de la résona...
-[4
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
-(C:\Users\lbarreau\Documents\these\Figures/Argon/Kotur.pdf_tex
-<Figures/Argon/Kotur.pdf, id=108, 341.98529pt x 576.8457pt>
-File: Figures/Argon/Kotur.pdf Graphic file (type pdf)
-
-<use Figures/Argon/Kotur.pdf>
-Package pdftex.def Info: Figures/Argon/Kotur.pdf used on input line 52.
-(pdftex.def)             Requested size: 200.0pt x 337.34335pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Argon/Spectres_Argon_Saclay.pdf_tex
-<Figures/Argon/Spectres_Argon_Saclay.pdf, id=113, 1071.02379pt x 655.83746pt>
-File: Figures/Argon/Spectres_Argon_Saclay.pdf Graphic file (type pdf)
-
-<use Figures/Argon/Spectres_Argon_Saclay.pdf>
-Package pdftex.def Info: Figures/Argon/Spectres_Argon_Saclay.pdf used on input 
-line 52.
-(pdftex.def)             Requested size: 400.0pt x 244.93771pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_Saclay.pdf_tex
-<Figures/Argon/Fano_Argon_Saclay.pdf, id=114, 686.80663pt x 653.2297pt>
-File: Figures/Argon/Fano_Argon_Saclay.pdf Graphic file (type pdf)
-
-<use Figures/Argon/Fano_Argon_Saclay.pdf>
-Package pdftex.def Info: Figures/Argon/Fano_Argon_Saclay.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 400.0pt x 380.44835pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_OSU_These.pdf_tex
-<Figures/Argon/Fano_Argon_OSU_These.pdf, id=115, 681.61432pt x 660.46376pt>
-File: Figures/Argon/Fano_Argon_OSU_These.pdf Graphic file (type pdf)
-
-<use Figures/Argon/Fano_Argon_OSU_These.pdf>
-Package pdftex.def Info: Figures/Argon/Fano_Argon_OSU_These.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 400.0pt x 387.59421pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has
+<use Figures/GHOE/potentials.pdf>
+Package pdftex.def Info: Figures/GHOE/potentials.pdf used on input line 52.
+(pdftex.def)             Requested size: 400.0pt x 118.45416pt.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \chapter
-             [Mesure de la phase de la transition au voisinage de la résona...
-[5]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) h
-as been already used, duplicate ignored
+l.27 \begin{equation}
+                      [3
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \chapter
-             [Mesure de la phase de la transition au voisinage de la résona...
-[6 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 61.
- [7 <C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pdf>
-] [8 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_Saclay.pdf>] [
-9 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_OSU_These.pdf>] [
-10
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-(C:\Users\lbarreau\Documents\these\Figures/Argon/SchulzNe.pdf_tex
-<Figures/Argon/SchulzNe.pdf, id=343, 417.22281pt x 565.01292pt>
-File: Figures/Argon/SchulzNe.pdf Graphic file (type pdf)
-
-<use Figures/Argon/SchulzNe.pdf>
-Package pdftex.def Info: Figures/Argon/SchulzNe.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 325.01784pt.
+l.57 \begin{equation}
+                      [4 <C:/Users/lbarreau/Documents/these/Figures/GHOE/potent
+ials.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/Trajectoires_Classique_Final.pd
+f_tex
+<Figures/GHOE/Trajectoires_Classique_Final.pdf, id=171, 390.1932pt x 807.764pt>
+File: Figures/GHOE/Trajectoires_Classique_Final.pdf Graphic file (type pdf)
+<use Figures/GHOE/Trajectoires_Classique_Final.pdf>
+Package pdftex.def Info: Figures/GHOE/Trajectoires_Classique_Final.pdf used on 
+input line 52.
+(pdftex.def)             Requested size: 240.00244pt x 496.8397pt.
 )
-(C:\Users\lbarreau\Documents\these\Figures/Argon/ResultatsNeon_These.pdf_tex
-<Figures/Argon/ResultatsNeon_These.pdf, id=344, 683.83257pt x 643.84074pt>
-File: Figures/Argon/ResultatsNeon_These.pdf Graphic file (type pdf)
+LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 90.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \begin{equation}
+                      [5]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \begin{equation}
+                      [6 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Trajec
+toires_Classique_Final.pdf>] [7]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/SpectreSalieres.pdf_tex
+<Figures/GHOE/SpectreSalieres.pdf, id=404, 415.96092pt x 269.83066pt>
+File: Figures/GHOE/SpectreSalieres.pdf Graphic file (type pdf)
 
-<use Figures/Argon/ResultatsNeon_These.pdf>
-Package pdftex.def Info: Figures/Argon/ResultatsNeon_These.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 400.0pt x 376.61093pt.
-)) [11] [12 <C:/Users/lbarreau/Documents/these/Figures/Argon/SchulzNe.pdf>] [13
- <C:/Users/lbarreau/Documents/these/Figures/Argon/ResultatsNeon_These.pdf>] [14
+<use Figures/GHOE/SpectreSalieres.pdf>
+Package pdftex.def Info: Figures/GHOE/SpectreSalieres.pdf used on input line 52
+.
+(pdftex.def)             Requested size: 240.00244pt x 155.68666pt.
+) [8 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SpectreSalieres.pdf>] [9]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/SFA_vs_3stepmodel.pdf_tex
+<Figures/GHOE/SFA_vs_3stepmodel.pdf, id=509, 330.84697pt x 191.6538pt>
+File: Figures/GHOE/SFA_vs_3stepmodel.pdf Graphic file (type pdf)
 
-]
-(C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
+<use Figures/GHOE/SFA_vs_3stepmodel.pdf>
+Package pdftex.def Info: Figures/GHOE/SFA_vs_3stepmodel.pdf used on input line 
+52.
+(pdftex.def)             Requested size: 400.0pt x 231.71169pt.
+) [10] [11 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SFA_vs_3stepmodel.pd
+f>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/PeigneHH.pdf_tex
+<Figures/GHOE/PeigneHH.pdf, id=539, 541.57924pt x 257.99506pt>
+File: Figures/GHOE/PeigneHH.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/PeigneHH.pdf>
+Package pdftex.def Info: Figures/GHOE/PeigneHH.pdf used on input line 52.
+(pdftex.def)             Requested size: 400.0pt x 190.5551pt.
+) [12 <C:/Users/lbarreau/Documents/these/Figures/GHOE/PeigneHH.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/MairessePRL.pdf_tex
+<Figures/GHOE/MairessePRL.pdf, id=563, 517.64136pt x 381.04247pt>
+File: Figures/GHOE/MairessePRL.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/MairessePRL.pdf>
+Package pdftex.def Info: Figures/GHOE/MairessePRL.pdf used on input line 52.
+(pdftex.def)             Requested size: 279.99878pt x 206.11452pt.
+) [13 <C:/Users/lbarreau/Documents/these/Figures/GHOE/MairessePRL.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/Varju.pdf_tex
+<Figures/GHOE/Varju.pdf, id=595, 538.20354pt x 225.5058pt>
+File: Figures/GHOE/Varju.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/Varju.pdf>
+Package pdftex.def Info: Figures/GHOE/Varju.pdf used on input line 52.
+(pdftex.def)             Requested size: 400.0pt x 167.60115pt.
+) [14 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Varju.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/Varju_atto_harmo.pdf_tex
+<Figures/GHOE/Varju_atto_harmo.pdf, id=640, 302.60701pt x 408.20415pt>
+File: Figures/GHOE/Varju_atto_harmo.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/Varju_atto_harmo.pdf>
+Package pdftex.def Info: Figures/GHOE/Varju_atto_harmo.pdf used on input line 5
+2.
+(pdftex.def)             Requested size: 200.0pt x 269.80174pt.
+) [15 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Varju_atto_harmo.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/PhaseMatching_Heyl.pdf_tex
+<Figures/GHOE/PhaseMatching_Heyl.pdf, id=668, 526.73859pt x 417.55997pt>
+File: Figures/GHOE/PhaseMatching_Heyl.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/PhaseMatching_Heyl.pdf>
+Package pdftex.def Info: Figures/GHOE/PhaseMatching_Heyl.pdf used on input line
+ 52.
+(pdftex.def)             Requested size: 279.99878pt x 221.96834pt.
+) [16 <C:/Users/lbarreau/Documents/these/Figures/GHOE/PhaseMatching_Heyl.pdf>]
+
+Package natbib Warning: Citation `ConstantPRL1999' on page 17 undefined on inpu
+t line 265.
+
+
+LaTeX Warning: Reference `eq:Deltakel' on page 17 undefined on input line 293.
+
+[17]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf
+_tex
+<Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf, id=720, 647.60843pt x 645.64902p
+t>
+File: Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf Graphic file (type pdf)
+ <use Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf>
+Package pdftex.def Info: Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf used on i
+nput line 52.
+(pdftex.def)             Requested size: 279.99878pt x 279.15068pt.
+) [18 <C:/Users/lbarreau/Documents/these/Figures/GHOE/TempsRecomb_800nm_vs_1300
+nm.pdf>]
+(C:\Users\lbarreau\Documents\these\Figures/GHOE/Alpha_MIR.pdf_tex
+<Figures/GHOE/Alpha_MIR.pdf, id=764, 659.10388pt x 651.47154pt>
+File: Figures/GHOE/Alpha_MIR.pdf Graphic file (type pdf)
+
+<use Figures/GHOE/Alpha_MIR.pdf>
+Package pdftex.def Info: Figures/GHOE/Alpha_MIR.pdf used on input line 52.
+(pdftex.def)             Requested size: 279.99878pt x 276.75743pt.
+)) [19] [20 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Alpha_MIR.pdf>] (C:
+\Users\lbarreau\Documents\these\Thesis_LB.bbl
 (C:\Users\lbarreau\Documents\these\Thesis_LB.brf)
 \tf@brf=\write7
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 12.
- [15
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
+ [21
 
-]
-Missing character: There is no l in font MnSymbolS9!
- [16]) [17] [18
 
-] [19
+]) [22] [23
+
 
 ]
 
@@ -2168,43 +2159,57 @@ Package natbib Warning: There were undefined citations.
 
 \tf@lop=\write8
 \tf@toc=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 (C:\Users\lbarreau\Documents\these\Thesis_LB.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `Thesis_LB.out' has not changed.
-(rerunfilecheck)             Checksum: CA49D46881CE40E277AFFF028C426D45;547.
-Package rerunfilecheck Info: File `Thesis_LB.brf' has not changed.
-(rerunfilecheck)             Checksum: DA5853ADD2A0E9321216C25F61D8DCCF;52.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+(rerunfilecheck)             Checksum: D75F2B68B2BE7285AE292502ECBF2343;1340.
+
+
+Package rerunfilecheck Warning: File `Thesis_LB.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Thesis_LB.brf':
+(rerunfilecheck)             Before: CCFD22C1240A8E938A00EE069449AD86;1843
+(rerunfilecheck)             After:  403CA5975EA6B16CF87B2D3E6321F28C;1843.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 29860 strings out of 493921
- 507279 string characters out of 3147273
- 652565 words of memory out of 3000000
- 32315 multiletter control sequences out of 15000+200000
- 111023 words of font info for 383 fonts, out of 3000000 for 9000
+ 30083 strings out of 493921
+ 510297 string characters out of 3147273
+ 656702 words of memory out of 3000000
+ 32339 multiletter control sequences out of 15000+200000
+ 119748 words of font info for 470 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 46i,14n,40p,10393b,966s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,45p,10393b,928s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymb
-olC.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/
-MnSymbolE.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/
-Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.en
-c}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymb
-olA.enc} <C:\Users\lbarreau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ectt0900.pk><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/
-public/mnsymbol/MnSymbol10.pfb><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/mnsymbol/MnSymbol9.pfb><C:/Users/lbarreau/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/lbarreau/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
-lr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Thesis_LB.pdf (25 pages, 1800292 bytes).
+olA.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/
+MnSymbolD.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
+ymbol/MnSymbolS.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvi
+ps/mnsymbol/MnSymbolE.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/e
+nc/dvips/mnsymbol/MnSymbolF.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
+ntname/8r.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
+ymbol/MnSymbolC.enc} <C:\Users\lbarreau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ectt0900.pk><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/mnsymbol/MnSymbol10.pfb><C:/Users/lbarreau/AppData/Roaming/M
+iKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol8.pfb><C:/Users/lbarreau/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/lbarreau/App
+Data/Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Thesis_LB.pdf (29 pages, 2849077 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 78952 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 973 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 84164 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -1,0 +1,352 @@
+% Chapitre GHOE
+
+\part{La génération d'harmoniques d'ordre élevé}
+
+\chapter{Théorie de la génération d'harmoniques d'ordre élevé}
+% Une intro...
+\section{Réponse de l'atome unique}
+\subsection{Modèle semi-classique en trois étapes}
+Le modèle semi-classique de la génération d'harmoniques d'ordre élevé est proposé en 1993 par \mycite{SchaferPRL1993} et \mycite{CorkumPRL1993}. Brièvement, l'interaction entre un champ laser intense et un atome ou une molécule déforme le potentiel ressenti par les électrons du système. Un paquet d'onde électronique peut alors être émis par ionisation tunnel (\textbf{1}). Le paquet d'onde électronique libéré est accéléré par le champ laser (\textbf{2}). Lorsque le champ change de signe, le paquet d'onde est ramené vers l'ion parent avec lequel il peut recombiner en émettant l'énergie cinétique accumulée dans le champ sous la forme d'un photon dans le domaine de l'extrême ultra-violet XUV (\textbf{3}). Dans la suite nous détaillons successivement ces trois étapes.
+
+\paragraph{Ionisation tunnel} Considérons un électron d'un atome\footnote{Par commodité nous parlerons d'atomes, tout en gardant à l'esprit qu'il est possible d'utiliser des molécules.} isolé dans son état fondamental. Son énergie est égale à l'opposé de son potentiel d'ionisation $Ip$. L'électron est soumis au potentiel coulombien du noyau, de la forme $V_0 (x) = - e^2 /4\pi \epsilon_0 |x|$ où $x$ est la distance électron-noyau (figure \ref{fig:potentials}(a)). En présence d'un champ électrique polarisé linéairement, de pulsation $\omega$, $\vec{E}(t) = E_0 \cos(\omega t) \vec{u_x}$, le potentiel effectif ressenti par l'électron devient
+\begin{align}
+V(x,t) & = V_0 (x) - e x E(t) \\
+& = -\frac{e^2}{4\pi \epsilon_0 |x|} - e x E_0 \cos(\omega t)
+\label{eq:PotentielEffectif}
+\end{align}
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{potentials.pdf_tex}
+\caption{Potentiel ressenti par un électron dans l'argon ($Ip$ = 15.76 eV = 0.58 u. at.) (a) en l'absence de champ électrique, (b) en présence d'un champ $E_0 =$ 0.04 u. at. ($I = 5.5 \times 10^{13}$ W/cm$^2$), (c) en présence d'un champ à l'éclairement de saturation de l'argon $E_0 = E_{\text{sat}}$ = 0.084 u. at. ($I = 2.4 \times 10^{14}$ W/cm$^2$).}
+\label{fig:potentials}
+\end{figure}
+
+Si le potentiel d'interaction avec le champ est négligeable devant le potentiel coulombien, l'influence du champ peut être traitée de manière perturbative. Le champ "intra-atomique" correspondant est de l'ordre de $E_{\text{atom}} \backsim e/4\pi \epsilon_0 a_0^2 \backsim 6 \times 10^9$ V/m, soit une intensité $I_\text{atom} \backsim 4 \times 10^{16}$ W/cm$^2$. Ainsi, en présence d'un champ laser intense ($I \backsim 10^{14}$ W/cm$^2$), l'interaction avec le champ électrique n'est plus perturbative. Comme illustré sur la figure \ref{fig:potentials}(b), le champ laser abaisse la barrière de potentiel ressentie par l'électron. Une partie du paquet d'onde électronique (POE) peut alors la traverser par effet tunnel, avec une probabilité qui dépend de la hauteur et de l'épaisseur de la barrière ainsi que de la durée pendant laquelle elle est abaissée. Dans le cas extrême de la figure \ref{fig:potentials}(c), le champ laser est suffisamment intense pour supprimer complètement la barrière \mycite{AugstPRL1989}\mycite{BauerPRA1999}. Dans ces conditions, la valeur maximale du potentiel est égale à $-Ip$. Cette valeur est atteinte en $x_0$ tel que $V'(x_0) = 0$. Considérons que ce maximum est atteint lorsque le champ électrique est maximal, $E = E_0$. En dérivant \ref{eq:PotentielEffectif}, il vient simplement:
+\begin{equation}
+|x_0| = \frac{e}{4\pi \epsilon_0 \sqrt{E_0}}
+\end{equation}
+Avec $V(x_0) = - Ip$, l'intensité du champ laser nécessaire à la suppression de la barrière est 
+\begin{equation}
+I_{\text{sat}} = \frac{Ip^4}{16} \: \: ; \: \: I_{\text{sat}} [\text{W/cm$^2$}] = 4 \times 10^9 Ip^4 [\text{eV}]
+\end{equation}
+Les intensités de suppression de barrière, ou de saturation, pour différents gaz couramment utilisés pour la GHOE sont rassemblées dans le tableau \ref{tab:Isat}. Pour que la GHOE soit efficace, l'intensité laser doit être inférieure à l'intensité de saturation. 
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Gaz & $Ip$ (eV) & $I_\text{sat}$ (W/cm$^2$) \\
+\hline
+He & 24.58 & $1.5 \times 10^{15}$ \\
+\hline
+Ne & 21.56 & $8.7 \times 10^{14}$ \\
+\hline
+Ar & 15.76 & $2.5 \times 10^{14}$ \\
+\hline
+Xe & 12.12 & $9 \times 10^{13}$ \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Potentiel d'ionisation $Ip$ et intensité de suppression de barrière $I_\text{sat}$ pour différents gaz couramment utilisés pour la GHOE.}
+\label{tab:Isat}
+\end{table}
+
+Cette approche doit être complétée par un aspect dynamique dans le cas d'un champ laser oscillant: pour que l'ionisation tunnel ait lieu il faut que la barrière tunnel soit abaissée pendant une durée suffisante. Cette durée est caractérisée par le paramètre de Keldysh \mycite{Keldysh1965} $\gamma = \sqrt{Ip/Up}$ où $Up$ est l'énergie pondéromotrice du champ:
+\begin{equation}
+Up = \frac{e^2 E_0^2}{4 m \omega^2} \propto I \lambda^2
+\label{eq:Up}
+\end{equation}
+Le régime d'ionisation tunnel correspond à $\gamma < 1$. Pour $\gamma > 1$, on parle de régime multiphotonique. Le régime de suppression de barrière correspond à $\gamma \ll 1$. Par exemple, pour l'argon avec un champ laser à 800 nm d'intensité $2 \times 10^{14}$ W/cm$^2$, $Up = 12$ eV soit $\gamma = 0.8$ et on se trouve dans le régime d'ionisation tunnel.
+
+\paragraph{Accélération du paquet d'onde électronique dans le champ laser} La dynamique de l'électron libéré dans le continuum par ionisation tunnel, en présence du champ électrique, est traitée classiquement. Les effets à longue portée du potentiel atomique sont négligés. La seule force agissant sur l'électron étant la force de Lorentz, on a:
+\begin{equation}
+m \ddot{x} = -e E_0 \cos(\omega t)
+\label{eq:EDMelectron}
+\end{equation} 
+L'instant d'ionisation est noté $t_i$. On suppose que l'électron est émis en $x(t_i) = 0$, c'est-à-dire que l'on néglige le mouvement à travers la barrière tunnel, avec une vitesse initiale nulle $\dot{x}(t_i) = 0$. L'intégration de l'équation \ref{eq:EDMelectron} deux fois donne l'équation de la trajectoire de l'électron:
+\begin{equation}
+x(t) = \frac{e E_0}{m \omega^2} \left[ \cos(\omega t) - \cos(\omega t_i) \right] + \frac{e E_0}{m \omega}(t-t_i) \sin(\omega t_i)
+\label{eq:TrajElec}
+\end{equation}
+L'électron oscille dans le champ selon la direction $\vec{u_x}$ et, pour certains instants d'ionisation, peut retourner en $x = 0$ c'est-à-dire recombiner sur son atome parent. L'excursion de l'électron dans le continuum est de l'ordre de 50 u. at., soit 2.6 nm.
+
+\paragraph{Recombinaison} En recombinant, l'électron peut convertir l'énergie cinétique $Ec$ accumulée dans le continuum en un photon d'énergie $\hbar \omega = Ec + Ip$. L'équation \ref{eq:TrajElec} suggère que la recombinaison est possible à chaque oscillation de l'électron au voisinage de l'ion. Cependant, si la dynamique du POE dans la direction de polarisation du champ est bien décrite classiquement, elle l'est beaucoup moins dans la direction transverse à sa trajectoire. Le POE s'étale dans la direction transverse au cours de la propagation. La probabilité de recombinaison en $x = 0$ diminue donc à chaque période, ainsi on considère uniquement le premier retour en $x = 0$. La résolution numérique de l'équation \ref{eq:TrajElec} permet la détermination de cet instant de recombinaison $t_r$ tel que $x(t_r) = 0$. Les trajectoires électroniques correspondantes sont illustrées sur la figure \ref{fig:traj_class}(a). \`{A} la recombinaison, l'électron possède une énergie cinétique
+\begin{equation}
+Ec \: (t_r) = \frac{e^2 E_0^2}{2m\omega^2} \left[ \sin(\omega t_r) - \sin(\omega t_i) \right]^2
+\end{equation}
+Le calcul de $Ec$ pour chaque couple $(t_i, t_r)$ est effectué pour les trajectoires de la figure \ref{fig:traj_class}(a), et est représenté figure \ref{fig:traj_class}(b). 
+
+\begin{figure}
+\centering
+\def\svgwidth{0.6\columnwidth}
+\import{Figures/GHOE/}{Trajectoires_Classique_Final.pdf_tex}
+\caption{(a) Champ électrique (rouge) et trajectoires électroniques (vert) calculées classiquement pour un électron dans un champ d'intensité $I = 2.2 \times 10^{14}$  W/cm$^2$ à 800 nm. (b) Energie cinétique de l'électron à la recombinaison, instants d'ionisation (pointillés) et de recombinaison (trait continu) correspondants aux trajectoires classiques de (a).}
+\label{fig:traj_class}
+\end{figure}
+
+Premièrement, on constate que l'énergie cinétique qui peut être accumulée par l'électron possède un maximum $Ec^{\text{max}} = 3.17 \: Up$ \mycite{KrausePRL1992}. C'est l'énergie maximale qui peut être convertie en énergie de photon, appelée énergie de coupure. Ainsi l'énergie de photon maximale atteinte est
+\begin{equation}
+\hbar \omega)^{\text{max}} = Ip + 3.17 \: Up
+\label{eq:LoiCoupure}
+\end{equation}
+Par exemple, dans l'argon avec un laser à 800 nm d'intensité $2 \times 10^{14}$ W/cm$^2$, $(\hbar \omega)^{\text{max}} \approx 15.8 + 3.17 \times 12 = 53.8$ eV, dans le domaine de l'extrême UV. Pour augmenter l'énergie de photon maximale atteignable, d'après l'équation \ref{eq:Up} plusieurs solutions sont envisageables:
+\begin{enumerate}[label=\roman*)]
+\item utiliser un gaz de plus haut potentiel d'ionisation.
+\item augmenter l'intensité du laser.
+\item augmenter la longueur d'onde du laser.
+\end{enumerate}
+La gamme d'énergie d'ionisation des espèces neutres a une étendue limitée (12 eV entre le xénon et l'hélium, voir tableau \ref{tab:Isat}), ainsi la solution (i) ne permet pas d'atteindre des énergies de photon très élevées. Les ions ont des énergies d'ionisation bien plus élevées que les atomes neutres mais très peu d'expériences de GHOE dans un milieu ionisé ont été reportées à ce jour \mycite{PopmintchevScience2015}. Comme nous l'avons vu précédemment, l'intensité laser ne peut excéder l'intensité de suppression de barrière $I_{\text{sat}}$ pour que le processus soit efficace. Ainsi la solution (ii) est également limitée, sauf dans un cas extrême d'impulsions de quelques cycles \mycite{SpielmannScience1997}. Jusqu'à présent, l'approche (iii) a été privilégiée pour atteindre des énergies de photons dans le domaine des rayons X mous \mycite{ChenPRL2010}\mycite{PopmintchevScience2012}.
+
+Deuxièmement, la figure \ref{fig:traj_class}(b) montre qu'une énergie cinétique donnée peut être atteinte à deux instants de recombinaison différents, correspondant à des trajectoires électroniques distinctes. Les deux familles de trajectoires sont appelées "courtes" et "longues" selon la durée d'excursion de l'électron dans le continuum. Pour la trajectoire courte (resp. longue), l'énergie augmente (resp. diminue) avec l'instant de recombinaison. Les harmoniques émises lors de ces différentes trajectoires possèdent des propriétés distinctes, qui seront détaillées par la suite. Elles convergent pour devenir indiscernables à l'énergie de coupure.
+
+\paragraph{Structure spectrale de l'émission: les harmoniques d'ordre élevé} Ce processus en trois étapes se répète à chaque extremum du champ électrique, c'est-à-dire tous les demi-cycles. Il a donc une périodicité de $T/2$, où $T = 2 \pi /\omega$ est la période du laser de génération. Cette périodicité temporelle se traduit dans le domaine spectral par une périodicité à $2 \omega$. Le milieu de génération étant centro-symétrique, seules les harmoniques impaires sont émises. Ainsi, pour une impulsion laser suffisamment longue (plusieurs cycles), le spectre obtenu se compose d'un peigne d'harmoniques impaires séparées par $2 \omega$ (figure \ref{fig:SpectreSalieres}).
+
+\begin{figure}
+\centering
+\def\svgwidth{0.6\columnwidth}
+\import{Figures/GHOE/}{SpectreSalieres.pdf_tex}
+\caption{Spectre harmonique typique. Adapté de \mycite{SalieresMST2001}.}
+\label{fig:SpectreSalieres}
+\end{figure}
+
+Dans ce modèle, l'étape d'ionisation tunnel est quantique tandis que la dynamique de l'électron libre dans le champ est traitée de manière classique, d'où  son appellation semi-classique. Il donne une image simple du processus et permet d'accéder à des quantités importantes telles que l'énergie de coupure et les instants d'ionisation et de recombinaison. Cependant, le processus de GHOE résulte de l'interférence entre la partie du paquet d'onde électronique ionisée et la partie restée dans l'état fondamental. Sa description complète fait donc appel à la mécanique quantique.
+
+\subsection{Modèle quantique de Lewenstein}
+Le traitement quantique de la GHOE est développé par Maciej Lewenstein en 1994 \mycite{LewensteinPRA1994}. Il donne une justification des hypothèses du modèle semi-classique et permet de prendre en compte les effets quantiques dûs à l'ionisation tunnel et à la diffusion du POE. Nous décrivons ici brièvement les bases de ce modèle. On considère un atome dans l'approximation d'un seul électron actif soumis au champ laser $\vec{E}(t)$ polarisé linéairement selon $\vec{u_x}$. La dynamique électronique est décrite par l'équation de Schrödinger (en unités atomiques):
+\begin{equation}
+i \frac{\partial}{\partial t} \ket{\psi(\vec{x},t)} = \left( -\frac{1}{2}\nabla^2 + V_0(\vec{x}) - E x \cos(\omega t) \right) \ket{\psi(\vec{x},t)}
+\end{equation} 
+On fait alors les approximations suivantes:
+\begin{enumerate}
+\item La contribution des états excités est négligeable, seul l'état fondamental est pris en compte. Ceci est valable dans le régime d'ionisation tunnel ($\gamma <1$) dans lequel le laser n'induit pas de transfert de population de l'état fondamental vers les états excités.
+\item La déplétion de l'état fondamental est négligée. Ceci est valable si l'intensité utilisée est inférieure à l'intensité de saturation définie précédemment.
+\item L'influence du potentiel coulombien sur la dynamique de l'électron dans le continuum est négligée. Dans le continuum l'électron est uniquement soumis à un champ électrique intense; c'est l'approximation du champ fort (\textit{Strong Field Approximation}, SFA).
+\end{enumerate}
+pour calculer la fonction d'onde $\ket{\psi(\vec{x},t)}$. Le spectre harmonique est calculé en effectuant la transformée de Fourier du moment dipolaire $x(t) =\bra{\psi(t)} x \ket{\psi(t)}$,
+\begin{equation}
+x(\Omega) = \int_{-\infty}^{+\infty} x(t) \: \rme^{i \Omega t}  \: \rmd t
+\end{equation}
+où $\Omega = q \omega$. Le modèle de Lewenstein donne l'expression de $x(t_r)$ à l'instant de recombinaison:
+\begin{equation}
+x(t_r) = i \int_0^{t_r} \rmd t_i \int \rmd^3 \vec{p} \: \vec{d}^*_{\vec{p}+\vec{A}(t_r)} \: \text{exp}\left[i S(\vec{p}, t_i, t_r) \right] \: \vec{E}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)} 
+\label{eq:x_Lew}
+\end{equation}
+Dans cette expression, $\vec{p}$ est le moment canonique, $\vec{d}$ est le moment dipolaire de la transition entre l'état fondamental et le continuum, et $\vec{A}$ est le potentiel vecteur associé au champ électrique $\vec{E}$. $S$ est appelée intégrale d'action le long de la trajectoire électronique. 
+
+\paragraph{Interprétation} En lisant l'expression \ref{eq:x_Lew} de droite à gauche, on retrouve le modèle semi-classique en trois étapes:
+\begin{enumerate}[label=(\arabic*)]
+\item à l'instant d'ionisation $t_i$, une partie du POE passe de l'état fondamental au continuum \textit{via} une transition dipolaire électrique. $\vec{p}$ étant le moment canonique, l'impulsion à cet instant est égale à $\vec{p} + \vec{A}(t_i)$ et l'amplitude de la transition s'écrit $\vec{E}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)}$.
+\item entre les instants $t_i$ et $t_r$, le POE se propage dans le continuum sous l'action du champ laser et acquiert une phase 
+\begin{equation}
+S(\vec{p}, t_i, t_r) = - \int_{t_i}^{t_r} Ip + \frac{(\vec{p} + \vec{A}(t))^2}{2} \rmd t
+\end{equation}
+\item à la recombinaison à l'instant $t_r$, l'impulsion est égale à $\vec{p} + \vec{A}(t_r)$. Le dipôle de recombinaison étant le complexe conjugué du dipôle de photoioinisation, l'amplitude de transition lors de la recombinaison est $\vec{d}^*_{\vec{p}+\vec{A}(t_r)}$.
+\end{enumerate}
+
+\paragraph{Calcul des trajectoires} La transformée de Fourier de l'expression \ref{eq:x_Lew} donne
+\begin{equation}
+x(\Omega) = \int \rmd t_r \int \rmd t_i \int \rmd^3 \vec{p} \: b(t_r,t_i, \vec{p}) \: \text{exp}\underbrace{\left[i S(\vec{p}, t_i, t_r) + i \Omega t_r \right]}_{i \phi_\Omega(\vec{p}, t_i, t_r)}
+\label{eq:TFx_Lew}
+\end{equation}
+Dans cette expression, la somme est effectuée sur tous les instants d'ionisation, de recombinaison, et tous les moments canoniques, c'est-à-dire sur toutes les trajectoires électroniques. Cette infinité de chemins possibles rend le calcul difficile. Le calcul se simplifie si la somme n'est effectuée que sur les trajectoires contribuant significativement à l'émission. Afin de déterminer ces contributions majoritaires, on applique le principe de la phase stationnaire: la phase de l'intégrand dans l'expression \ref{eq:TFx_Lew} varie à une échelle de temps beaucoup plus rapide que son amplitude. Pour un chemin dont la phase varie très rapidement, les différentes contributions s'annulent dans la somme, rendant alors la contribution de ce chemin négligeable. Les principales trajectoires correspondent alors aux points où la phase ne varie pas le long des trois variables $\vec{p}$, $t_i$ et $t_r$. Cette condition se traduit par les équations de point selle suivantes:
+\begin{align}
+\frac{\partial \phi_\Omega(\vec{p}, t_i, t_r)}{\partial t_i} & = Ip + \frac{(\vec{p} + \vec{A}(t_i))^2}{2} = 0 \label{eq:Pointselle1}\\
+\frac{\partial \phi_\Omega(\vec{p}, t_i, t_r)}{\partial t_r} & = -Ip - \frac{(\vec{p} + \vec{A}(t_r))^2}{2} + \Omega = 0 \label{eq:Pointselle2}\\
+\nabla_{\vec{p}} \phi_\Omega(\vec{p}, t_i, t_r) & = - x(t) + x(t_i) = 0 \label{eq:Pointselle3}
+\end{align}
+\ref{eq:Pointselle1} indique que le POE possède initialement une énergie cinétique négative. Ceci correspond à un instant d'ionisation $t_i$ complexe et est un reliquat de l'ionisation tunnel. \ref{eq:Pointselle2} est simplement la conservation de l'énergie à l'instant de recombinaison, $\Omega = Ip + \frac{(\vec{p} + \vec{A}(t_r))^2}{2}$. Enfin, \ref{eq:Pointselle3} indique que le POE retourne à sa position initiale. La résolution de ce système d'équations permet de calculer $t_i$, $t_r$ et $\vec{p}$.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{SFA_vs_3stepmodel.pdf_tex}
+\caption{Instants d'ionisation et de recombinaison en fonction de l'énergie du photon émis calculés par le modèle semi-classique (noir) et le modèle quantique (rouge) dans l'argon avec un champ laser à 800 nm d'intensité $2.5 \times 10^{14}$ W/cm$^2$.}
+\label{fig:SFA_vs_3step}
+\end{figure}
+
+La figure \ref{fig:SFA_vs_3step} montre le calcul de la partie réelle de l'instant d'ionisation/de recombinaison en fonction de l'énergie du photon harmonique émis avec le modèle de Lewenstein. Comme dans le modèle semi-classique, il existe deux familles de trajectoires, "courtes" et "longues", conduisant à la même énergie de photon et convergeant dans la coupure. Le modèle quantique donne également une expression de l'énergie de coupure 
+\begin{equation}
+(\hbar \omega)^{\text{max}} = f(\frac{Ip}{Up}) + 3.17 \: Up
+\end{equation}
+où $f$ est un facteur dépendant du rapport $Ip/Up$ variant de 1.32 à 1.2 lorsque la rapport $Ip/Up$ varie de 1 à 4. Enfin, la comparaison avec les résultats du modèle semi-classique montre un bon accord. Bien que complexe dans le modèle de Lewenstein, l'instant d'ionisation $t_i$ possède une partie réelle comparable à l'instant d'ionisation calculé par le modèle semi-classique.
+
+\section{Structure temporelle de l'émission harmonique}
+Dans les paragraphes précédents, nous avons vu que l'émission harmonique se compose dans le domaine spectral d'un grand nombre de fréquences, multiples impaires de la fréquence laser fondamentale. La largeur spectrale émise supporte \textit{a priori} une durée d'impulsion attoseconde \mycite{FarkasPhysLettA1992}\mycite{HarrisOptComm1993}, si toutes les composantes spectrales émises possèdent la relation de phase adéquate. Considérons ici un spectre composé de $n$ harmoniques monochromatiques d'amplitude spectrale $A_q$ et de phase spectrale $\phi_q$. Ceci revient à considérer l'impulsion femtoseconde de génération comme infiniment longue. Le profil temporel de l'émission s'écrit alors:
+\begin{equation}
+\mathcal{I}(t) = \left| \sum_{q=1}^n A_q \rme^{-iq\omega t + i \phi_q} \right|^2
+\end{equation}
+Si $\phi_q$ est constante quel que soit $q$, l'impulsion est dite limitée par transformée de Fourier. Sa durée est alors minimale étant donnée sa largeur spectrale. Ce cas est illustré sur la figure \ref{fig:PeigneHH}: l'impulsion correspondant au spectre harmonique de largeur totale $N$ où chaque harmonique possède une largeur $\delta \omega$ est un train d'impulsions attosecondes. La largeur temporelle du train est $1/\delta \omega$, et chaque impulsion dans le train a une durée $1/N$. Si $\phi_q$ est linéaire avec $q$, le profil temporel est le même que précédemment, mais décalé temporellement de $t_e = \partial \phi_q / \partial \omega$, grandeur appelée temps d'émission. Si $\phi_q$ a un autre comportement, alors l'impulsion est plus longue que la durée donnée par la limite de Fourier. Les différentes composantes spectrales de l'impulsion ne sont pas émises au même moment. $t_e (\omega_q)$ est alors le retard de groupe associé à la fréquence $\omega_q$. Dans le cas extrême où la phase entre chaque harmonique est aléatoire, l'émission lumineuse devient continue. Il est donc important de connaître la phase spectrale des harmoniques pour l'étude et la mise en forme d'impulsions attosecondes.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{PeigneHH.pdf_tex}
+\caption{Structure temporelle d'un peigne harmonique limité par transformée de Fourier. Extrait de \mycite{TheseMairesse}.}
+\label{fig:PeigneHH}
+\end{figure}
+
+Comme l'illustre la figure \ref{fig:PeigneHH}, deux types de phases spectrales sont à considérer: la relation de phase entre harmoniques consécutives qui a une influence sur la durée des impulsions dans le train, et la phase spectrale d'une harmonique donnée qui modifie globalement le train. Ces deux phases sont respectivement la dérive de fréquence attoseconde (ou \textit{chirp} atto) et la dérive de fréquence harmonique (ou \textit{chirp} harmonique/femto).
+
+\subsection{Structure attoseconde: le chirp atto} 
+Les deux modèles présentés précédemment montrent que les différentes harmoniques ne sont pas émises au même instant (figures \ref{fig:traj_class} et \ref{fig:SFA_vs_3step}): pour les trajectoires courtes (resp. longues), les hautes énergies sont émises après (resp. avant) les basses énergies. \mycite{TheseMairesse} montre que $t_e(\omega_q)$ est directement relié par l'instant de recombinaison $t_r(\omega_q)$. Dans le cadre du modèle de Lewenstein, la variation de $t_e$ avec l'ordre harmonique est linéaire dans le plateau, avec une pente opposée pour les deux familles de trajectoires, et constante dans la coupure. Ainsi, sous réserve de sélectionner un type de trajectoires, la différence de phase entre harmoniques est quadratique dans le plateau et linéaire dans la coupure. Cette phase spectrale peut être mesurée (par exemple avec la méthode RABBIT exposée dans la suite), et la mesure pour les trajectoires courtes est en très bon accord avec le modèle théorique (figure \ref{fig:MairessePRL}) \mycite{MairesseScience2003}\mycite{MairessePRL2004}. Le chirp atto est intrinsèquement lié au processus de GHOE: dans un demi-cycle, les fréquences émises correspondent à différentes trajectoires électroniques et ne sont donc pas synchronisées.  
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\columnwidth}
+\import{Figures/GHOE/}{MairessePRL.pdf_tex}
+\caption{(a) Intensité et (b) instant d'émission $t_e$ d'harmoniques générées dans le xénon à $3 \times 10^{13}$ W/cm$^2$ (rouge) et $6 \times 10^{13}$ W/cm$^2$ (vert), et dans l'argon à $9 \times 10^{13}$ W/cm$^2$ (bleu). Les traits continus correspondent aux instants de recollision pour la trajectoire courte calculée avec le modèle de Lewenstein. Extrait de \mycite{MairessePRL2004}.}
+\label{fig:MairessePRL}
+\end{figure}
+
+La dérive de fréquence linéaire dans le plateau correspond à une phase spectrale quadratique et donc à un élargissement spectral des harmoniques. Cependant, la sélection spectrale des harmoniques de la coupure uniquement, dont la phase spectrale est linéaire, permet d'optimiser la brièveté des impulsions attosecondes dans le train. Notons que le délai de groupe linéaire peut être partiellement compensé si l'impulsion est transmise par un filtre métallique de délai de groupe opposé. Cette méthode peut être utilisée pour comprimer les impulsions attosecondes \mycite{LopezMartensPRL2005}\mycite{GustafssonOptLett2007}. 
+
+\paragraph{Dépendance en intensité} Comme le montrent les résultats expérimentaux de \mycite{MairessePRL2004} reproduits figure \ref{fig:MairessePRL}, la pente de $t_e (\omega_q)$ diminue lorsque l'intensité de génération augmente (pour les trajectoires courtes). Ceci peut s'interpréter simplement grâce à la loi de la coupure: l'énergie de coupure est proportionnelle à $Up \propto I$. Ainsi lorsque l'intensité augmente, l'énergie de coupure augmente et la pente de $t_r (\omega_q)$ diminue en valeur absolue pour les deux familles de trajectoires: $t_e (\omega_q) \propto 1/I $. La productions d'impulsions attosecondes de plus courte durée est donc favorisée à haute intensité.
+
+\subsection{Structure femtoseconde: le chirp harmonique}
+Pour une harmonique donnée, la phase spectrale pour la trajectoire $j$ est donnée par la phase du dipôle (équation \ref{eq:TFx_Lew}):
+\begin{equation}
+\phi_q^j = \omega_q t_r - \int_{t_i}^{t_r} Ip + \frac{(\vec{p} + \vec{A}(t))^2}{2} \rmd t
+\label{eq:PhaseHarmonique}
+\end{equation}
+Le second terme est l'intégrale d'action, qui représente la phase accumulée par le POE le long de la trajectoire considérée. Elle dépend de l'intensité laser \textit{via} le potentiel vecteur $\vec{A}(t)$.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{Varju.pdf_tex}
+\caption{Calcul avec le modèle SFA. (a)Variations de la phase $\phi_q^j$ avec l'intensité laser pour l'harmonique 19 à 800 nm dans l'argon. (b) Variations de la dérivée $\partial \phi_q^j/\partial I = -\alpha_q^j$ avec l'ordre harmonique pour $I = 1.5 \times 10^{14}$ W/cm$^2$. La trajectoire courte est en trait continu et la trajectoire longue en pointillés. Extrait de \mycite{VarjuJMO2005}.}
+\label{fig:Varju}
+\end{figure}
+
+La figure \ref{fig:Varju}(a) montre le calcul de la dépendance en intensité de la phase de l'harmonique 19 effectué avec le modèle SFA pour les deux trajectoires. \`{A} basse intensité, l'harmonique 19 se trouve dans la coupure et les deux trajectoires sont confondues. Pour les deux trajectoires, $\phi_q^j$ est approximativement linéaire avec l'intensité avec un coefficient de proportionnalité dépendant de la trajectoire considérée,
+\begin{equation}
+\phi_q^j = - \alpha_q^j \times I
+\end{equation}
+avec $\alpha_q^{\text{courte}} \ll \alpha_q^{\text{longue}}$. 
+
+Lors de la GHOE avec une impulsion laser femtoseconde, l'intensité laser varie à l'échelle de l'enveloppe $I(t)$, ce qui implique une modification de la phase du dipole. L'émission femtoseconde harmonique n'est donc pas limitée par transformée de Fourier mais présente une dérive de fréquence proportionnelle à $\alpha_q$ \mycite{SalieresPRL1995}. Ce chirp harmonique est intrinsèquement lié à la variation de l'intensité laser à l'échelle de l'enveloppe femtoseconde. D'un demi-cycle à l'autre, les trajectoires électroniques conduisant à l'émission d'une énergie de photon donnée sont modifiées. Au sein du train d'impulsions attosecondes, on observe une modification de l'espacement des impulsions dans le train \mycite{VarjuJMO2005}. En pratique, le chirp atto et le chirp harmonique sont tous deux présents, comme illustré sur la figure \ref{fig:Varju_atto_harmo}.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.5\columnwidth}
+\import{Figures/GHOE/}{Varju_atto_harmo.pdf_tex}
+\caption{Illustration de la présence simultanée du chirp atto (rouge) et du chirp harmonique (bleu) dans le domaine spectral (a) et temporel (b). Extrait de \mycite{VarjuJMO2005}.}
+\label{fig:Varju_atto_harmo}
+\end{figure}
+
+\paragraph{Trajectoires courtes et longues} $\alpha_q^j$ étant très différent pour les trajectoires courte et longue, la dérive de fréquence est très différente pour les deux trajectoires. Pour une harmonique donnée, la trajectoire longue est alors plus décalée vers le rouge et vers le bleu que la trajectoire courte, ce qui permet de différencier ces deux contributions sur un spectromètre \mycite{ZairPRL2008}. Par ailleurs, pour un faisceau gaussien, l'intensité présente également une modulation radiale $I(r)$. La dépendance en intensité de la phase du dipôle introduit ici une courbure de phase, différente pour les trajectoires courte et longue. Pour les harmoniques les plus basses, les trajectoires courtes possèdent une divergence bien plus faible que les longues \mycite{BelliniPRL1998}. Quand l'ordre harmonique augmente, la divergence des trajectoires courtes (resp. longues) augmente (resp. diminue) jusqu'à ce confondre à la coupure. Ces deux effets sont bien visibles sur les spectres expérimentaux.
+
+\section{Réponse macroscopique}
+\subsection{Position du problème}
+Jusqu'à présent nous avons considéré les propriétés de l'émission harmonique d'un unique émetteur. Cependant, les propriétés spatio-temporelles des harmoniques dépendent également des variations d'amplitude et de phase dans les trois dimensions transverses $(x,y)$ et longitudinale $z$ du milieu non-linéaire de génération. Comme l'illustre la figure \ref{fig:PhaseMatchingHeyl}, si les différentes contributions ne sont pas en phase, alors des interférences destructives empêcheront l'émission macroscopique de rayonnement XUV.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\columnwidth}
+\import{Figures/GHOE/}{PhaseMatching_Heyl.pdf_tex}
+\caption{Illustration de l'émission harmonique avec et sans accord de phase, pour l'exemple de la seconde harmonique. Les parties rosées correspondent à l'intensité du champ laser fondamental. Extrait de \mycite{TheseHeyl}.}
+\label{fig:PhaseMatchingHeyl}
+\end{figure}
+
+Considérons simplement l'éguation de propagation des champs harmoniques $E(\vec{r},t) = \sum_q A_q \rme^{i(\vec{k_q} \vec{r} - q\omega t)}$ dans le milieu de polarisation non linéaire $P_q^{\text{NL}}$. Dans les approximations paraxiale et de l'enveloppe lentement variable, on a:
+\begin{equation}
+\Delta_\bot A_q + 2 i k_q \frac{\partial A_q}{\partial z}= -\frac{q^2 \omega^2}{\epsilon_0 c^2} P_q^{\text{NL}} \rme^{i(q \vec{k_1} - \vec{k_q})z}
+\end{equation} 
+La quantité
+\begin{equation}
+\Delta \vec{k} (q) = q \vec{k_1} - \vec{k_q}
+\end{equation}
+est le désaccord de phase. L'influence du désaccord de phase sur la GHOE peut être illustrée simplement par un modèle unidimensionnel. Pour $A_q(z)$, le signal harmonique $S_q$ est la somme cohérente sur tous les atomes du milieu de longueur $L$:
+\begin{equation}
+S_q \propto \left| \int_0^L d_q \rme^{i(\Delta k + i \eta_q)(L-z)} \right|^2
+\end{equation}
+où $d_q$ est l'amplitude du dipôle correspondant à l'harmonique $q$ et $\eta_q$ est le coefficient d'absorption du milieu à l'énergie de l'harmonique $q$. Si $d_q$ et $\eta_q$ ne dépendent pas de $z$, alors $S_q$ devient \mycite{ConstantPRL1999}\mycite{TheseHeyl}:
+\begin{equation}
+S_q \propto |d_q|^2 \rme^{-\eta_q L} \frac{\cosh(\eta_q L) - \cos(\Delta k L)}{\Delta k^2 + \eta_q^2}
+\end{equation}
+Finalement, pour $\eta_q \rightarrow 0$, on a
+\begin{equation}
+S_q \propto |d_q|^2 L^2 \left( \frac{\sin(\Delta k L /2\pi)}{\Delta k L /2\pi}\right)^2
+\end{equation}
+Pour $\Delta k = 0$ (accord de phase parfait), le signal harmonique augmente avec $L^2$. En revanche si $\Delta k \neq 0$, à longueur de milieu constante l'intensité harmonique est très sensible à $\Delta k$ à cause de la variation en sinus cardinal au carré. L'optimisation de la GHOE nécessite donc la réalisation de l'accord de phase, $\Delta \vec{k} = \vec{0}$.
+
+\subsection{Accord de phase pour la GHOE dans les gaz}
+Dans les gaz, le désaccord de phase est la somme de quatre contributions:
+\begin{equation}
+\Delta \vec{k} = \Delta \vec{k}_a + \Delta \vec{k}_{el} + \Delta \vec{k}_{foc} + \Delta \vec{k}_{dip}^{traj}
+\end{equation}
+\begin{itemize}
+\item $\Delta \vec{k}_a$ est le désaccord de phase dû à la dispersion dans les atomes de gaz neutres, et s'exprime en fonction des indices de réfraction du milieu à la fréquence fondamentale $n_1$ et harmonique $n_q$: \begin{equation}
+\Delta \vec{k}_a = q \frac{\omega}{c}(n_1 - n_q) 
+\end{equation}
+\item $\Delta \vec{k}_{el}$ est le désaccord de phase dû à la dispersion par les électrons libres du milieu (produits par l'ionisation), de densité $N_e$. Son expression est analogue au terme précédent en remplaçant les indices de réfraction par les indices de réfraction du plasma: 
+\begin{equation}
+\Delta k_{el} = q \frac{\omega}{c}(n_1^e - n_q^e)
+\label{eq:Deltakel}
+\end{equation}
+avec
+\begin{equation}
+n_q^e = \sqrt{1 - \frac{\omega_p^2}{\omega_q^2}} \approx 1 -  \frac{\omega_p^2}{2\omega_q^2}
+\end{equation}
+où $\omega_p$ est la fréquence plasma, $\omega_p = \frac{e^2}{m \epsilon_0} N_e$. En remplaçant dans l'expression \ref{eq:Deltakel}, on obtient finalement
+\begin{equation}
+\Delta k_{el} \approx \frac{q \omega \omega_p^2}{2c}(\frac{1}{\omega_q^2} - \frac{1}{\omega^2}) < 0
+\end{equation}
+\item $\Delta k_{foc}$ est le désaccord de phase dû à la phase de Gouy. La focalisation du faisceau laser utilisé pour la GHOE induit une courbure du front d'onde.
+\begin{equation}
+\Delta k_{foc} \approx -\frac{q}{z_0} < 0
+\end{equation}
+où $z_0$ est la longueur de Rayleigh du faisceau laser fondamental.
+\item $\Delta k_{dip}^{traj}$ est le désaccord de phase dû à la phase du dipôle $\phi_q^j$ (équation \ref{eq:PhaseHarmonique}).
+\end{itemize}
+
+
+
+\section{Génération d'harmoniques d'ordre élevé dans le moyen infrarouge}
+Une grande partie des expériences présentées dans cette thèse étant effectuée avec un laser de génération dans le moyen infra-rouge ($\lambda = 1.3 - 2 \: \mu$m ici), nous recensons ici les variations avec la longueur d'onde des différentes grandeurs définies précédemment.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{0.7\columnwidth}
+\import{Figures/GHOE/}{TempsRecomb_800nm_vs_1300nm.pdf_tex}
+\caption{Calcul classique des temps d'ionisation (pointillés) et de recollision (trait continu) en fonction de l'énergie cinétique de l'électron pour un champ électrique à 800 nm en bleu et 1300 nm en orange d'intensité égale ($I = 2.2 \times 10^{14}$ W/cm$^2$).}
+\label{fig:Recomb_vs_Lambda}
+\end{figure}
+
+\paragraph{Energie de coupure} D'après la loi de coupure (équation \ref{eq:LoiCoupure}) et l'expression de l'énergie pondéromotrice (équation \ref{eq:Up}),
+\begin{equation}
+(\hbar \omega)^{\text{max}} \propto \lambda^2
+\end{equation}
+La GHOE à partir d'un laser dans le moyen-IR permet d'atteindre des énergies de photon plus élevées qu'à 800 nm \mycite{ChenPRL2010}\mycite{PopmintchevScience2012}. Cette observation est illustrée par le calcul semi-classique de la figure \ref{fig:Recomb_vs_Lambda}.
+
+\paragraph{Chirp atto} Nous avons vu précédemment que le chirp atto est donné par la variation de l'instant de recombinaison avec l'énergie de photon. La figure \ref{fig:Recomb_vs_Lambda} montre le calcul semi-classique des instants de recombinaison en fonction de l'énergie cinétique de l'électron pour deux champs laser à 800 nm et 1300 nm d'intensité égale. La pente de $t_e(\omega_q)$ est plus faible à grande longueur d'onde. Plus quantitativement: l'instant de recombinaison $t_r$ augmente linéairement avec la période du laser $T = \lambda/c$. L'énergie de coupure varie elle quadratiquement avec $\lambda$. On a alors
+\begin{equation}
+t_e (\omega_q) \propto \frac{t_r}{(\hbar \omega)^{\text{max}}} \propto \frac{1}{\lambda}
+\end{equation}
+
+\paragraph{Chirp harmonique} La phase harmonique est donnée par l'expression \ref{eq:PhaseHarmonique}. L'intégrale d'action peut être interprétée de manière classique comme l'intégrale de l'énergie cinétique de l'électron \mycite{TheseMairesse}
+\begin{equation}
+S' = \int_{t_i}^{t_r} \frac{(\vec{p}+\vec{A})^2}{2} \rmd t = \int_{t_i}^{t_r} \frac{\vec{v}^2}{2} \rmd t = \int_{t_i}^{t_r} Ec \: \rmd t
+\end{equation}
+Nous considérons que les variations avec l'intensité des deux autres termes de la phase, $\omega_q t_r$ et $\int_{t_i}^{t_r} Ip \rmd t$ sont négligeables devant celles de $S'$. Ainsi, 
+\begin{equation}
+\frac{\partial \phi_q}{\partial I} \approx \frac{\partial S'}{\partial I}
+\end{equation}
+La linéarité de la phase $\phi_q$ en fonction de l'intensité illustrée par la figure \ref{fig:Varju}(a) permet de faire l'approximation
+\begin{equation}
+\frac{\partial \phi_q}{\partial I} \approx \frac{S'}{I}
+\end{equation}
+La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale $S'$ pour chaque trajectoire électronique. On en déduit $\alpha_q^{\text{class}} = - S'/I$. La période d'un laser dans le moyen-IR étant plus grande qu'à 800 nm, l'électron passe plus de temps dans le continuum. On s'attend donc à calculer un $\alpha_q^j$ plus important dans le moyer-IR qu'à 800 nm. Les résultats de ce calcul pour deux champs laser d'intensité égale à 800 nm et 1300 nm sont présentés figure \ref{fig:AlphaMIR}. Les valeurs obtenues à 800 nm sont en bon accord avec les valeurs de $\alpha_q^j$ calculées de manière quantique \mycite{GaardePRA2002}. Le chirp harmonique est donc plus important dans le moyen-IR qu'à 800 nm.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\columnwidth}
+\import{Figures/GHOE/}{Alpha_MIR.pdf_tex}
+\caption{Calcul classique du chirp harmonique $\alpha_q^{\text{class}}$ en fonction de l'énergie cinétique de l'électron pour un champ électrique à 800 nm en bleu et 1300 nm en orange d'intensité égale ($I = 2.2 \times 10^{14}$ W/cm$^2$). Les trajectoires courtes sont indiquées en trait continu et les longues en pointillés.}
+\label{fig:AlphaMIR}
+\end{figure}
+
+% + gamma plus petit -> régime tunnel (LIED blablabla)
+% alpha. modèle classique mairesse + explication qualitative durée de l'électron dans le continuum (mairesse).

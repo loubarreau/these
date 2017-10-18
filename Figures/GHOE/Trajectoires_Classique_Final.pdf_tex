@@ -1,0 +1,104 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Trajectoires_Classique_Final.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{388.73545327bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,2.07016415)%
+    \put(0,0){\includegraphics[width=\unitlength]{Trajectoires_Classique_Final.pdf}}%
+    \put(0.15467469,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.23831409,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.1}}}%
+    \put(0.32195232,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.2}}}%
+    \put(0.40559172,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.3}}}%
+    \put(0.48922995,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.4}}}%
+    \put(0.57286935,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.5}}}%
+    \put(0.65650758,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.6}}}%
+    \put(0.74014581,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.7}}}%
+    \put(0.82378521,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.8}}}%
+    \put(0.90742344,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.9}}}%
+    \put(0.99106284,0.06882856){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.12958311,0.13064744){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.12958311,0.25013045){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.5}}}%
+    \put(0.12958311,0.36961464){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
+    \put(0.12958311,0.48909883){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1.5}}}%
+    \put(0.12958311,0.60858302){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2}}}%
+    \put(0.12958311,0.72806604){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2.5}}}%
+    \put(0.12958311,0.84755023){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3}}}%
+    \put(0.12958311,0.96703442){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3.5}}}%
+    \put(0.44300723,0.01332445){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (cycle)}}}%
+    \put(0.04431436,0.31560375){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Energie Cinétique ($Up$)}}}}%
+    \put(0.44300723,1.03407155){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Temps (cycle)}}}%
+    \put(0.05962887,1.45800209){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$x$ (u. at.)}}}}%
+    \put(0.25389833,1.90952076){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{E(t) (u. arb.)}}}%
+    \put(0.32299763,0.66493066){\color[rgb]{0,0,1}\makebox(0,0)[lb]{\smash{longue}}}%
+    \put(0.34357714,0.5867286){\color[rgb]{0,1,0}\makebox(0,0)[lb]{\smash{courte}}}%
+    \put(0.01430439,2.02729679){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.01255593,1.0188989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.1552305,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
+    \put(0.2388699,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.1}}}%
+    \put(0.32250813,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.2}}}%
+    \put(0.40614754,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.3}}}%
+    \put(0.48978576,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.4}}}%
+    \put(0.57342517,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.5}}}%
+    \put(0.65706339,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.6}}}%
+    \put(0.74070162,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.7}}}%
+    \put(0.82434103,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.8}}}%
+    \put(0.90797925,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0.9}}}%
+    \put(0.99161866,1.08939602){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.13013892,1.13886718){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-50}}}%
+    \put(0.13013892,1.22250541){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-40}}}%
+    \put(0.13013892,1.30614364){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-30}}}%
+    \put(0.13013892,1.38978304){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-20}}}%
+    \put(0.13013892,1.47342127){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-10}}}%
+    \put(0.13013892,1.55706067){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
+    \put(0.13013892,1.6406989){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{10}}}%
+    \put(0.13013892,1.7243383){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{20}}}%
+    \put(0.13013892,1.80797653){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{30}}}%
+    \put(0.13013892,1.89161593){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{40}}}%
+    \put(0.13013892,1.97525416){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{50}}}%
+  \end{picture}%
+\endgroup%
