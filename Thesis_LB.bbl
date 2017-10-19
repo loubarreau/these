@@ -1,9 +1,21 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alexandridi(2015)]{ChristinaYoutube}
+Alexandridi C.
+\newblock Medea - how-to for beginners - time of flight electron spectrometer
+  (cea).
+\newblock https://www.youtube.com/watch?v=hOyG84Gp9tw, (2015).
+
+\bibitem[Antoine et~al.(1996)Antoine, L'Huillier, et
+  Lewenstein]{AntoinePRL1996}
+Antoine P, L'Huillier A, et Lewenstein M.
+\newblock \emph{Attosecond pulse trains using high\char21{}order harmonics}.
+\newblock Phys. Rev. Lett. \textbf{77},~1234--1237 (1996).
 
 \bibitem[Augst et~al.(1989)Augst, Strickland, Meyerhofer, Chin, et
   Eberly]{AugstPRL1989}
@@ -11,6 +23,21 @@ Augst S, Strickland D, Meyerhofer DD, Chin SL, et Eberly JH.
 \newblock \emph{Tunneling ionization of noble gases in a high-intensity laser
   field}.
 \newblock Phys. Rev. Lett. \textbf{63},~2212--2215 (1989).
+
+\bibitem[Balcou et~al.(1995)Balcou, Salieres, Budil, Ditmire, Perry, et
+  L'Huillier]{BalcouZPD1995}
+Balcou P, Salieres P, Budil K, Ditmire T, Perry M, et L'Huillier A.
+\newblock \emph{High-order harmonic generation in rare gases: a new source in
+  photoionization spectroscopy}.
+\newblock Zeitschrift f{\"u}r Physik D Atoms, Molecules and Clusters
+  \textbf{34},~107--110 (1995).
+
+\bibitem[Balcou et~al.(1997)Balcou, Sali`eres, L'Huillier, et
+  Lewenstein]{BalcouPRA1997}
+Balcou P, Sali`eres P, L'Huillier A, et Lewenstein M.
+\newblock \emph{Generalized phase-matching conditions for high harmonics: The
+  role of field-gradient forces}.
+\newblock Phys. Rev. A \textbf{55},~3204--3210 (1997).
 
 \bibitem[Bauer et Mulser(1999)]{BauerPRA1999}
 Bauer D et Mulser P.
@@ -25,6 +52,18 @@ Bellini M, Lyng\aa{} C, Tozzi A, Gaarde MB, H\"ansch TW, L'Huillier A, et
 \newblock \emph{Temporal coherence of ultrashort high-order harmonic pulses}.
 \newblock Phys. Rev. Lett. \textbf{81},~297--300 (1998).
 
+\bibitem[Boyd(2008)]{Boyd}
+Boyd R.
+\newblock \emph{Nonlinear Optics, Third edition}.
+\newblock Academic Press (2008).
+
+\bibitem[Camper(2014)]{TheseCamper}
+Camper A.
+\newblock \emph{{Multidimensionnal Phase Spectroscopy of the Attosecond
+  Molecular Emission}}.
+\newblock Theses, {Universit{\'e} Paris Sud - Paris XI}, (2014).
+\newblock URL \url{https://tel.archives-ouvertes.fr/tel-01100464}.
+
 \bibitem[Chen et~al.(2010)Chen, Arpin, Popmintchev, Gerrity, Zhang, Seaberg,
   Popmintchev, Murnane, et Kapteyn]{ChenPRL2010}
 Chen MC, Arpin P, Popmintchev T, Gerrity M, Zhang B, Seaberg M, Popmintchev D,
@@ -33,10 +72,25 @@ Chen MC, Arpin P, Popmintchev T, Gerrity M, Zhang B, Seaberg M, Popmintchev D,
   water window from a tabletop light source}.
 \newblock Phys. Rev. Lett. \textbf{105},~173901 (2010).
 
+\bibitem[Constant et~al.(1999)Constant, Garzella, Breger, M\'evel, Dorrer,
+  Le~Blanc, Salin, et Agostini]{ConstantPRL1999}
+Constant E, Garzella D, Breger P, M\'evel E, Dorrer C, Le~Blanc C, Salin F, et
+  Agostini P.
+\newblock \emph{Optimizing high harmonic generation in absorbing gases: Model
+  and experiment}.
+\newblock Phys. Rev. Lett. \textbf{82},~1668--1671 (1999).
+
 \bibitem[Corkum(1993)]{CorkumPRL1993}
 Corkum PB.
 \newblock \emph{Plasma perspective on strong field multiphoton ionization}.
 \newblock Phys. Rev. Lett. \textbf{71},~1994--1997 (1993).
+
+\bibitem[CXRO(2017)]{CXRO}
+CXRO.
+\newblock Cxro x-ray database - the index of refraction for a compound
+  material.
+\newblock \url{http://henke.lbl.gov/optical_constants/getdb2.html}, (2017).
+\newblock Consulté le 19 Oct 2017.
 
 \bibitem[Farkas et T{\'o}th(1992)]{FarkasPhysLettA1992}
 Farkas G et T{\'o}th C.
@@ -63,11 +117,24 @@ Harris S, Macklin J, et H{\"a}nsch T.
   generation}.
 \newblock Optics communications \textbf{100},~487--490 (1993).
 
+\bibitem[Henke et~al.(1993)Henke, Gullikson, et Davis]{HenkeAtomicData1993}
+Henke BL, Gullikson EM, et Davis JC.
+\newblock \emph{X-ray interactions: photoabsorption, scattering, transmission,
+  and reflection at e= 50-30,000 ev, z= 1-92}.
+\newblock Atomic data and nuclear data tables \textbf{54},~181--342 (1993).
+
 \bibitem[Heyl(2014)]{TheseHeyl}
 Heyl C.
 \newblock \emph{Scaling and gating attosecond pulse generation}.
 \newblock PhD thesis, Lund University, (2014).
 \newblock URL \url{https://lup.lub.lu.se/search/ws/files/3028441/4937902.pdf}.
+
+\bibitem[Kazamias et~al.(2011)Kazamias, Daboussi, Guilbaud, Cassou, Ros, Cros,
+  et Maynard]{KazamiasPRA2011}
+Kazamias S, Daboussi S, Guilbaud O, Cassou K, Ros D, Cros B, et Maynard G.
+\newblock \emph{Pressure-induced phase matching in high-order harmonic
+  generation}.
+\newblock Physical Review A \textbf{83},~063405 (2011).
 
 \bibitem[Keldysh et~al.(1965)]{Keldysh1965}
 Keldysh L et~al.
@@ -79,6 +146,12 @@ Krause JL, Schafer KJ, et Kulander KC.
 \newblock \emph{High-order harmonic generation from atoms and ions in the high
   intensity regime}.
 \newblock Phys. Rev. Lett. \textbf{68},~3535--3538 (1992).
+
+\bibitem[Kruit et Read(1983)]{KruitJPhysE1983}
+Kruit P et Read F.
+\newblock \emph{Magnetic field paralleliser for 2$\pi$ electron-spectrometer
+  and electron-image magnifier}.
+\newblock Journal of Physics E: Scientific Instruments \textbf{16},~313 (1983).
 
 \bibitem[Lewenstein et~al.(1994)Lewenstein, Balcou, Ivanov, L'Huillier, et
   Corkum]{LewensteinPRA1994}
@@ -141,6 +214,12 @@ Popmintchev T, Chen MC, Popmintchev D, Arpin P, Brown S, Ali{\v{s}}auskas S,
   from mid-infrared femtosecond lasers}.
 \newblock Science \textbf{336},~1287--1291 (2012).
 
+\bibitem[Roedig(2012)]{TheseRoedig}
+Roedig C.
+\newblock \emph{Application of strong field physics techinques to x-ray free
+  electron laser science}.
+\newblock PhD thesis, The Ohio State University, (2012).
+
 \bibitem[Sali{\`e}res et Lewenstein(2001)]{SalieresMST2001}
 Sali{\`e}res P et Lewenstein M.
 \newblock \emph{Generation of ultrashort coherent xuv pulses by harmonic
@@ -167,6 +246,11 @@ Spielmann C, Burnett NH, Sartania S, Koppitsch R, Schn{\"u}rer M, Kan C,
   5-femtosecond laser pulses}.
 \newblock Science \textbf{278},~661--664 (1997).
 
+\bibitem[Strickland et Mourou(1985)]{StricklandOptComm1985}
+Strickland D et Mourou G.
+\newblock \emph{Compression of amplified chirped optical pulses}.
+\newblock Optics communications \textbf{55},~447--449 (1985).
+
 \bibitem[Varjú et~al.(2005)Varjú, Mairesse, Carré, Gaarde, Johnsson,
   Kazamias, López-Martens, Mauritsson, Schafer, Balcou, L'huillier, et
   Salières]{VarjuJMO2005}
@@ -175,6 +259,15 @@ Varjú K, Mairesse Y, Carré B, Gaarde MB, Johnsson P, Kazamias S,
   Salières P.
 \newblock \emph{Frequency chirp of harmonic and attosecond pulses}.
 \newblock Journal of Modern Optics \textbf{52},~379--394 (2005).
+
+\bibitem[Weber et~al.(2015)Weber, Manschwetus, Billon, Böttcher, Bougeard,
+  Breger, Géléoc, Gruson, Huetz, Lin, Picard, Ruchon, Salières, et
+  Carré]{WeberRSI2015}
+Weber SJ, Manschwetus B, Billon M, Böttcher M, Bougeard M, Breger P, Géléoc
+  M, Gruson V, Huetz A, Lin N, Picard YJ, Ruchon T, Salières P, et Carré B.
+\newblock \emph{Flexible attosecond beamline for high harmonic spectroscopy and
+  xuv/near-ir pump probe experiments requiring long acquisition times}.
+\newblock Review of Scientific Instruments \textbf{86},~033108 (2015).
 
 \bibitem[Za\"{\i}r et~al.(2008)Za\"{\i}r, Holler, Guandalini, Schapper,
   Biegert, Gallmann, Keller, Wyatt, Monmayrant, Walmsley, Cormier, Auguste,

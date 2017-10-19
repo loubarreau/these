@@ -51,6 +51,7 @@
   \begin{picture}(1,0.9969744)%
     \put(0,0){\includegraphics[width=\unitlength]{TempsRecomb_800nm_vs_1300nm.pdf}}%
     \put(0.5234977,0.53118332){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lb]{\smash{Chirp atto}}}%
+    \put(0.6238761,0.21313428){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{Energie de coupure}}}%
     \put(0.54277614,0.00456655){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie Cinétique (u. at.)}}}%
     \put(0.01579752,0.53824585){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Temps (fs)}}}}%
     \put(0.10092234,0.04985313){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%

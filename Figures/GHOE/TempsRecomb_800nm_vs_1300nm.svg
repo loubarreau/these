@@ -51,14 +51,18 @@
      inkscape:window-width="1680"
      inkscape:window-height="988"
      id="namedview3705"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="1.2452347"
-     inkscape:cx="761.17645"
-     inkscape:cy="662.66972"
+     inkscape:cx="749.02712"
+     inkscape:cy="277.20022"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="ID000003" />
+     inkscape:current-layer="ID000003">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3192" />
+  </sodipodi:namedview>
   <desc
      id="desc3350">Matlab Figure Converted by PLOT2SVG written by Juerg Schwizer</desc>
   <g
@@ -128,6 +132,27 @@
              id="tspan5080"
              x="799.0462"
              y="429.12283">Chirp atto</tspan></text>
+        <path
+           style="fill:none;stroke:#800080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 706,727.554 0,60.48699"
+           id="path3194"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#800080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 1111.8133,720.19279 0,60.48699"
+           id="path3194-7"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="880"
+           y="685.625"
+           id="text3982"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3984"
+             x="880"
+             y="685.625">Energie de coupure</tspan></text>
       </g>
       <g
          clip-path="url(#ID000001)"

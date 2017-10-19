@@ -128,7 +128,7 @@ pour calculer la fonction d'onde $\ket{\psi(\vec{x},t)}$. Le spectre harmonique 
 \begin{equation}
 x(\Omega) = \int_{-\infty}^{+\infty} x(t) \: \rme^{i \Omega t}  \: \rmd t
 \end{equation}
-où $\Omega = q \omega$. Le modèle de Lewenstein donne l'expression de $x(t_r)$ à l'instant de recombinaison:
+où $\Omega = \omega_q = q \omega$. Le modèle de Lewenstein donne l'expression de $x(t_r)$ à l'instant de recombinaison:
 \begin{equation}
 x(t_r) = i \int_0^{t_r} \rmd t_i \int \rmd^3 \vec{p} \: \vec{d}^*_{\vec{p}+\vec{A}(t_r)} \: \text{exp}\left[i S(\vec{p}, t_i, t_r) \right] \: \vec{E}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)} 
 \label{eq:x_Lew}
@@ -196,7 +196,7 @@ Les deux modèles présentés précédemment montrent que les différentes harmo
 \centering
 \def\svgwidth{0.7\columnwidth}
 \import{Figures/GHOE/}{MairessePRL.pdf_tex}
-\caption{(a) Intensité et (b) instant d'émission $t_e$ d'harmoniques générées dans le xénon à $3 \times 10^{13}$ W/cm$^2$ (rouge) et $6 \times 10^{13}$ W/cm$^2$ (vert), et dans l'argon à $9 \times 10^{13}$ W/cm$^2$ (bleu). Les traits continus correspondent aux instants de recollision pour la trajectoire courte calculée avec le modèle de Lewenstein. Extrait de \mycite{MairessePRL2004}.}
+\caption{(a) Intensité et (b) instant d'émission $t_e$ d'harmoniques générées dans le xénon à $3 \times 10^{13}$ W/cm$^2$ (rouge) et $6 \times 10^{13}$ W/cm$^2$ (vert), et dans l'argon à $9 \times 10^{13}$ W/cm$^2$ (bleu). Les symboles sont des valeurs mesurées par RABBIT. Les traits continus correspondent aux instants de recollision pour la trajectoire courte calculée avec le modèle de Lewenstein. Extrait de \mycite{MairessePRL2004}.}
 \label{fig:MairessePRL}
 \end{figure}
 
@@ -239,10 +239,11 @@ Lors de la GHOE avec une impulsion laser femtoseconde, l'intensité laser varie 
 \paragraph{Trajectoires courtes et longues} $\alpha_q^j$ étant très différent pour les trajectoires courte et longue, la dérive de fréquence est très différente pour les deux trajectoires. Pour une harmonique donnée, la trajectoire longue est alors plus décalée vers le rouge et vers le bleu que la trajectoire courte, ce qui permet de différencier ces deux contributions sur un spectromètre \mycite{ZairPRL2008}. Par ailleurs, pour un faisceau gaussien, l'intensité présente également une modulation radiale $I(r)$. La dépendance en intensité de la phase du dipôle introduit ici une courbure de phase, différente pour les trajectoires courte et longue. Pour les harmoniques les plus basses, les trajectoires courtes possèdent une divergence bien plus faible que les longues \mycite{BelliniPRL1998}. Quand l'ordre harmonique augmente, la divergence des trajectoires courtes (resp. longues) augmente (resp. diminue) jusqu'à ce confondre à la coupure. Ces deux effets sont bien visibles sur les spectres expérimentaux.
 
 \section{Réponse macroscopique}
+\label{sec:AccordDePhase}
 \subsection{Position du problème}
 Jusqu'à présent nous avons considéré les propriétés de l'émission harmonique d'un unique émetteur. Cependant, les propriétés spatio-temporelles des harmoniques dépendent également des variations d'amplitude et de phase dans les trois dimensions transverses $(x,y)$ et longitudinale $z$ du milieu non-linéaire de génération. Comme l'illustre la figure \ref{fig:PhaseMatchingHeyl}, si les différentes contributions ne sont pas en phase, alors des interférences destructives empêcheront l'émission macroscopique de rayonnement XUV.
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \def\svgwidth{0.7\columnwidth}
 \import{Figures/GHOE/}{PhaseMatching_Heyl.pdf_tex}
@@ -258,7 +259,7 @@ La quantité
 \begin{equation}
 \Delta \vec{k} (q) = q \vec{k_1} - \vec{k_q}
 \end{equation}
-est le désaccord de phase. L'influence du désaccord de phase sur la GHOE peut être illustrée simplement par un modèle unidimensionnel. Pour $A_q(z)$, le signal harmonique $S_q$ est la somme cohérente sur tous les atomes du milieu de longueur $L$:
+est le désaccord de phase\footnote{La convention opposée est parfois rencontrée dans la littérature}. L'influence du désaccord de phase sur la GHOE peut être illustrée simplement par un modèle unidimensionnel. Pour $A_q(z)$, le signal harmonique $S_q$ est la somme cohérente sur tous les atomes du milieu de longueur $L$:
 \begin{equation}
 S_q \propto \left| \int_0^L d_q \rme^{i(\Delta k + i \eta_q)(L-z)} \right|^2
 \end{equation}
@@ -277,10 +278,16 @@ Dans les gaz, le désaccord de phase est la somme de quatre contributions:
 \begin{equation}
 \Delta \vec{k} = \Delta \vec{k}_a + \Delta \vec{k}_{el} + \Delta \vec{k}_{foc} + \Delta \vec{k}_{dip}^{traj}
 \end{equation}
+Par commodité nous considérons dans la suite la seule composante de $\Delta \vec{k}$ selon la direction de propagation $z$ du champ.
 \begin{itemize}
-\item $\Delta \vec{k}_a$ est le désaccord de phase dû à la dispersion dans les atomes de gaz neutres, et s'exprime en fonction des indices de réfraction du milieu à la fréquence fondamentale $n_1$ et harmonique $n_q$: \begin{equation}
-\Delta \vec{k}_a = q \frac{\omega}{c}(n_1 - n_q) 
+\item $\Delta k_a$ est le désaccord de phase dû à la dispersion dans les atomes de gaz neutres, et s'exprime en fonction des indices de réfraction du milieu à la fréquence fondamentale $n_1$ et harmonique $n_q$: \begin{equation}
+\Delta k_a = q \frac{\omega}{c}(n_1 - n_q) 
 \end{equation}
+Généralement, $n_q < 1 < n_1$ \mycite{HenkeAtomicData1993}\mycite{CXRO}, d'où
+\begin{equation}
+\Delta k_a > 0
+\end{equation}
+Ce terme dépend de la densité d'atomes de gaz neutres dans le milieu, donc de la \textbf{pression} de génération.
 \item $\Delta \vec{k}_{el}$ est le désaccord de phase dû à la dispersion par les électrons libres du milieu (produits par l'ionisation), de densité $N_e$. Son expression est analogue au terme précédent en remplaçant les indices de réfraction par les indices de réfraction du plasma: 
 \begin{equation}
 \Delta k_{el} = q \frac{\omega}{c}(n_1^e - n_q^e)
@@ -294,24 +301,37 @@ où $\omega_p$ est la fréquence plasma, $\omega_p = \frac{e^2}{m \epsilon_0} N_
 \begin{equation}
 \Delta k_{el} \approx \frac{q \omega \omega_p^2}{2c}(\frac{1}{\omega_q^2} - \frac{1}{\omega^2}) < 0
 \end{equation}
+Ce terme dépend de la densité d'électrons libres dans le milieu, donc de la \textbf{pression} de génération et de l'\textbf{intensité}.
 \item $\Delta k_{foc}$ est le désaccord de phase dû à la phase de Gouy. La focalisation du faisceau laser utilisé pour la GHOE induit une courbure du front d'onde.
 \begin{equation}
-\Delta k_{foc} \approx -\frac{q}{z_0} < 0
+\Delta k_{foc} \approx -\frac{q}{z_R} < 0
 \end{equation}
-où $z_0$ est la longueur de Rayleigh du faisceau laser fondamental.
-\item $\Delta k_{dip}^{traj}$ est le désaccord de phase dû à la phase du dipôle $\phi_q^j$ (équation \ref{eq:PhaseHarmonique}).
+où $z_R$ est la longueur de Rayleigh du faisceau laser fondamental.
+\item $\Delta k_{dip}^{traj}$ est le désaccord de phase dû à la phase du dipôle $\phi_q^j$ (équation \ref{eq:PhaseHarmonique}). Il provient de la réponse de l'atome unique exposée précédemment et dépend de la trajectoire considérée.
+\begin{equation}
+\Delta k_{dip}^{traj} = - \alpha^j \frac{\partial I}{\partial z}
+\end{equation}
+Cette contribution change de signe de part et d'autre du point focal du faisceau de génération.
+\begin{align}
+\Delta k_{dip}^{traj} \propto \text{sign}(z) & > 0 \: \: \text{Après le point focal} \\
+& < 0 \: \: \text{Avant le point focal}
+\end{align}
+Ce terme dépend de la \textbf{position relative du milieu de génération et du point focal}, et est différent pour les deux familles de  \textbf{trajectoires}.
 \end{itemize}
 
+D'après ce qui précède, les paramètres expérimentaux pour optimiser l'accord de phase dans la GHOE sont la pression du gaz, l'intensité du laser et les conditions de focalisation \mycite{KazamiasPRA2011}. L'accord de phase est également un bon moyen pour isoler la contribution d'un type de trajectoires (en général les courtes): lorsque le jet de gaz est placé après le foyer les trajectoires courtes sont favorisées, tandis que les trajectoires longues sont favorisées lorsque le jet est placé avant le foyer \mycite{SalieresPRL1995}\mycite{AntoinePRL1996}\mycite{BalcouPRA1997}.
 
 
-\section{Génération d'harmoniques d'ordre élevé dans le moyen infrarouge}
-Une grande partie des expériences présentées dans cette thèse étant effectuée avec un laser de génération dans le moyen infra-rouge ($\lambda = 1.3 - 2 \: \mu$m ici), nous recensons ici les variations avec la longueur d'onde des différentes grandeurs définies précédemment.
+
+
+\section{Génération d'harmoniques d'ordre élevé dans l'infrarouge moyen}
+Une grande partie des expériences présentées dans cette thèse étant effectuée avec un laser de génération dans l'infrarouge moyen ($\lambda = 1.3 - 2 \: \mu$m ici), nous recensons ici les variations avec la longueur d'onde des différentes grandeurs définies précédemment.
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{0.7\columnwidth}
 \import{Figures/GHOE/}{TempsRecomb_800nm_vs_1300nm.pdf_tex}
-\caption{Calcul classique des temps d'ionisation (pointillés) et de recollision (trait continu) en fonction de l'énergie cinétique de l'électron pour un champ électrique à 800 nm en bleu et 1300 nm en orange d'intensité égale ($I = 2.2 \times 10^{14}$ W/cm$^2$).}
+\caption{Calcul classique des instants d'ionisation (pointillés) et de recollision (trait continu) en fonction de l'énergie cinétique de l'électron pour un champ électrique à 800 nm en bleu et 1300 nm en orange d'intensité égale ($I = 2.2 \times 10^{14}$ W/cm$^2$).}
 \label{fig:Recomb_vs_Lambda}
 \end{figure}
 
@@ -319,12 +339,20 @@ Une grande partie des expériences présentées dans cette thèse étant effectu
 \begin{equation}
 (\hbar \omega)^{\text{max}} \propto \lambda^2
 \end{equation}
-La GHOE à partir d'un laser dans le moyen-IR permet d'atteindre des énergies de photon plus élevées qu'à 800 nm \mycite{ChenPRL2010}\mycite{PopmintchevScience2012}. Cette observation est illustrée par le calcul semi-classique de la figure \ref{fig:Recomb_vs_Lambda}.
+Pour un même milieu de génération et à intensité égale, la GHOE à partir d'un laser dans l'IR moyen permet d'atteindre des énergies de photon plus élevées qu'à 800 nm \mycite{ChenPRL2010}\mycite{PopmintchevScience2012}.  Cette observation est illustrée par le calcul semi-classique de la figure \ref{fig:Recomb_vs_Lambda}. La GHOE dans l'IR moyen permet également d'atteindre des énergies de photons comparables au cas à 800 nm avec une intensité plus faible, donc de réduire l'ionisation du milieu.
 
 \paragraph{Chirp atto} Nous avons vu précédemment que le chirp atto est donné par la variation de l'instant de recombinaison avec l'énergie de photon. La figure \ref{fig:Recomb_vs_Lambda} montre le calcul semi-classique des instants de recombinaison en fonction de l'énergie cinétique de l'électron pour deux champs laser à 800 nm et 1300 nm d'intensité égale. La pente de $t_e(\omega_q)$ est plus faible à grande longueur d'onde. Plus quantitativement: l'instant de recombinaison $t_r$ augmente linéairement avec la période du laser $T = \lambda/c$. L'énergie de coupure varie elle quadratiquement avec $\lambda$. On a alors
 \begin{equation}
 t_e (\omega_q) \propto \frac{t_r}{(\hbar \omega)^{\text{max}}} \propto \frac{1}{\lambda}
 \end{equation}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\columnwidth}
+\import{Figures/GHOE/}{Alpha_MIR.pdf_tex}
+\caption{Calcul classique du chirp harmonique $\alpha_q^{\text{class}}$ en fonction de l'énergie cinétique de l'électron pour un champ électrique à 800 nm en bleu et 1300 nm en orange d'intensité égale ($I = 2.2 \times 10^{14}$ W/cm$^2$). Les trajectoires courtes sont indiquées en trait continu et les longues en pointillés.}
+\label{fig:AlphaMIR}
+\end{figure}
 
 \paragraph{Chirp harmonique} La phase harmonique est donnée par l'expression \ref{eq:PhaseHarmonique}. L'intégrale d'action peut être interprétée de manière classique comme l'intégrale de l'énergie cinétique de l'électron \mycite{TheseMairesse}
 \begin{equation}
@@ -338,7 +366,7 @@ La linéarité de la phase $\phi_q$ en fonction de l'intensité illustrée par l
 \begin{equation}
 \frac{\partial \phi_q}{\partial I} \approx \frac{S'}{I}
 \end{equation}
-La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale $S'$ pour chaque trajectoire électronique. On en déduit $\alpha_q^{\text{class}} = - S'/I$. La période d'un laser dans le moyen-IR étant plus grande qu'à 800 nm, l'électron passe plus de temps dans le continuum. On s'attend donc à calculer un $\alpha_q^j$ plus important dans le moyer-IR qu'à 800 nm. Les résultats de ce calcul pour deux champs laser d'intensité égale à 800 nm et 1300 nm sont présentés figure \ref{fig:AlphaMIR}. Les valeurs obtenues à 800 nm sont en bon accord avec les valeurs de $\alpha_q^j$ calculées de manière quantique \mycite{GaardePRA2002}. Le chirp harmonique est donc plus important dans le moyen-IR qu'à 800 nm.
+La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale $S'$ pour chaque trajectoire électronique. On en déduit $\alpha_q^{\text{class}} = - S'/I$. La période d'un laser dans le moyen-IR étant plus grande qu'à 800 nm, l'électron passe plus de temps dans le continuum. On s'attend donc à calculer un $\alpha_q^j$ plus important dans le moyer-IR qu'à 800 nm. Les résultats de ce calcul pour deux champs laser d'intensité égale à 800 nm et 1300 nm sont présentés figure \ref{fig:AlphaMIR}. Les valeurs obtenues à 800 nm sont en bon accord avec les valeurs de $\alpha_q^j$ calculées de manière quantique \mycite{GaardePRA2002}. Le chirp harmonique est donc plus important dans l'IR moyen qu'à 800 nm.
 
 \begin{figure}
 \centering
@@ -350,3 +378,118 @@ La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale
 
 % + gamma plus petit -> régime tunnel (LIED blablabla)
 % alpha. modèle classique mairesse + explication qualitative durée de l'électron dans le continuum (mairesse).
+
+\section*{Conclusion}
+Dans ce chapitre, nous avons étudié le principe de la génération d'harmoniques d'ordre élevé dans les gaz. Nous avons mis en évidence les effets de la phase spectrale des harmoniques sur la structure temporelle du train d'impulsions attosecondes, à la fois à l'échelle de l'impulsion et du train. Nous avons montré que l'efficacité de la GHOE dans les gaz dépend de l'accord de phase, qui est modifié en fonction des conditions expérimentales. Dans la suite, nous présentons le dispositif expérimental de GHOE utilisé dans les expériences de cette thèse, ainsi que la technique de mesure de phase spectrale RABBIT.
+
+
+\chapter{Aspects expérimentaux de la génération d'harmoniques d'ordre élevé}
+\section{Génération d'harmoniques d'ordre élevé}
+\label{sec:HHG}
+Les expériences de cette thèse ont été effectuées avec trois systèmes laser différents, au CEA-Saclay, à l'Université de Lund (Suède) et à l'Université de l'état de l'Ohio (\'{E}tats Unis). Ces trois lasers ont en commun d'être basés sur un milieu à gain composé de saphir dopé au titane et sur la technologie d'amplification à dérive de fréquence (\textit{Chirped Pulse Amplification, CPA}). \`{A} partir d'un oscillateur femtoseconde oscillant autour de 800 nm, le faisceau est étalé temporellement puis est amplifié avant d'être recomprimé dans un compresseur à réseaux \mycite{StricklandOptComm1985}. Les caractéristiques des trois systèmes laser sont résumés dans le tableau \ref{tab:Lasers}. Le laser PLFA (Plateforme Laser Femtoseconde Accordable) et la ligne de GHOE utilisés au CEA-Saclay sont décrits en détail par Weber \textit{et al.} \mycite{WeberRSI2015}. La longueur d'onde centrale peut être modifiée en utilisant différents dispositifs présentés au paragraphe \ref{sec:Accordabilité}.
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+Laser & Cadence & Puissance & Durée d'impulsion \\
+\hline
+Saclay & 1 kHz & 13 W & 50 fs \\
+\hline
+Lund & 1 kHz & 5 W & 20 fs  \\
+\hline
+Ohio State & 1 kHz & 13 W & 40 fs\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Principales caractéristiques des différents systèmes laser utilisés dans les expériences de cette thèse. La durée indiquée correspond à la largeur à mi-hauteur de l'impulsion.}
+\label{tab:Lasers}
+\end{table}
+
+Les conditions expérimentales précises sont détaillées avec chacune des expériences décrites par la suite. Nous présentons ici brièvement les principes d'une expérience de GHOE dans un gaz.
+
+Le faisceau laser est d'abord mis en forme: son diamètre est ajusté à l'aide d'un iris et son énergie peut être ajustée grâce à un atténuateur composé d'une lame demi-onde et de deux polariseurs. Si nécessaire, son état de polarisation est modifié (voir partie \ref{part:Polarimétrie}). Le faisceau est ensuite focalisé grâce à une lentille (si la largeur spectrale est étroite) ou un miroir sphérique (si la largeur spectrale est large, voir tableau \ref{tab:Lasers}) dans le gaz. Les ordres de grandeurs typiquement utilisés sont: diamètre de focalisation $\approx 10 - 15$ mm; énergie par impulsion $\approx 0.5 - 1$ mJ; distance focale $\approx 0.5 - 1$ m. Le gaz est délivré par un jet continu ou bien une cellule de gaz. Le jet, dont le diamètre de l'orifice est de 200 $\mu$m, permet de créer une extension supersonique du gaz qui garantit une courte longueur d'interaction avec le laser dans la dimension longitudinale. On limite ainsi l'importance des effets d'accord de phase discutés au paragraphe \ref{sec:AccordDePhase}. La cellule permet quant à elle d'augmenter la pression de gaz au niveau de l'interaction avec le laser tout en limitant la pression résiduelle dans la chambre à vide. Une pression plus élevée augmente le flux de photons XUV disponible. Le choix du gaz dépend de l'expérience réalisée: on peut par exemple utiliser une molécule dont on étudie la réponse, c'est le principe de la spectroscopie harmonique \mycite{TheseCamper}. Pour l'utilisation du rayonnement XUV pour la spectroscopie de photoionisation, on choisit un système simple, facile à se procurer et générant efficacement les harmoniques; généralement un gaz rare. Le gaz choisi dépend également de l'énergie de photon que l'on souhaite atteindre, d'après la loi de coupure (équation \ref{eq:LoiCoupure}).
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{SpectreHHGAr800.pdf_tex}
+\caption{Spectre d'harmoniques générées dans l'argon à 800 nm mesuré par le spectromètre XUV à Saclay. Image mesurée sur la caméra CCD (haut) et somme du signal dans la direction spatiale (bas). Un signal de fond, mesuré dans les mêmes conditions expérimentales mais sans jet de gaz, est soustrait. Les pics de part et d'autre des harmoniques 9 et 11 sont les harmoniques plus élevées diffractées par le second ordre du réseau de diffraction. Les trajectoires longues contribuent au faible signal de grande divergence visible sur les harmoniques 17 à 23.}
+\label{fig:SpectreAr800}
+\end{figure}
+
+Après génération, le rayonnement XUV peut être dispersé par un spectromètre à réseau et imagé par des galettes de micro-canaux couplées à un écran de phosphore. Le signal de phosphorescence est mesuré par une caméra CCD située à l'extérieur de l'enceinte à vide. L'imagerie du spectre XUV permet l'optimisation des paramètres expérimentaux pour atteindre l'énergie désirée, un flux de photons important et une bonne sélection des trajectoires courtes. La figure \ref{fig:SpectreAr800} montre un spectre harmonique typique généré dans l'argon mesuré avec ce dispositif. Un spectromètre XUV est disponible sur les lignes harmoniques de Saclay et de Lund. La caractérisation des harmoniques peut également être effectuée en focalisant le rayonnement XUV au point source d'un spectromètre de photoélectrons. Cette méthode est l'objet du paragraphe \ref{sec:CaracHHG}.
+
+
+
+
+\section{Accordabilité du laser}
+\label{sec:Accordabilité}
+Dans les expériences présentées dans cette thèse, deux méthodes ont été utilisées pour accorder la longueur d'onde du laser tout en conservant une durée d'impulsion femtoseconde et une énergie par impulsion élevée:
+\begin{itemize}[label=--,leftmargin=*]
+\item à Saclay et en Ohio, un amplificateur paramétrique optique permet de convertir la longueur d'onde de 800 nm du système laser vers l'infrarouge moyen. L'accordabilité est totale entre 1.2 et 2.6 $\mu$m et l'impulsion est légèrement allongée par rapport au laser fondamental. \`{A} partir d'une énergie de $\approx$ 8 mJ à 800 nm, on produit $\approx 1 - 1.5$ mJ à la longueur d'onde désirée.
+\item à Lund, une modulation acousto-optique met en forme le spectre du laser fondamental et permet de modifier la longueur d'onde centrale entre 780 et 810 nm. Pour permettre cette accordabilité, la largeur de bande spectrale est réduite, ce qui augmente la durée de l'impulsion.
+\end{itemize}
+Ces deux méthodes sont brièvement décrites dans la suite de ce paragraphe.
+\subsection{Amplificateur paramétrique optique}
+\paragraph{Principe} L'amplification paramétrique optique (figure \ref{fig:PrincipeOPA}) est un cas particulier de mélange à trois ondes dans un milieu à susceptibilité non linéaire d'ordre deux ($\chi^{(2)}$). Dans les conditions d'accord de phase pour le mélange à trois ondes, lorsque la pompe ($\omega_3$) intense et le signal ($\omega_2$) sont injectés dans le cristal, on montre que les amplitudes du signal et du complémentaire (\textit{idler} en anglais, $\omega_1 = \omega_3 - \omega_2$) augmentent exponentiellement avec la distance de propagation dans le milieu $z$ \mycite{Boyd}:
+\begin{align}
+A_1(z) & \propto A_2^*(0) \sinh(gz) \backsim \rme^{gz} \: (z \: \text{grand})\\
+A_2(z) & \propto A_2(0) \cosh(gz) \backsim \rme^{gz} \: (z \: \text{grand}) 
+\end{align}
+où $g$ est une constante positive dépendant des fréquences des trois ondes, des indices du milieu à ces trois fréquences, de la susceptibilité du milieu  et de l'amplitude de la pompe (considérée comme constante). Ainsi, on constate à la fois la production de la nouvelle fréquence $\omega_1$ et l'amplification du signal à la fréquence $\omega_2$.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.6\columnwidth}
+\import{Figures/GHOE/}{PrincipeOPA.pdf_tex}
+\caption{Principe de l'amplification paramétrique optique dans un milieu de susceptibilité non linéaire d'ordre deux.}
+\label{fig:PrincipeOPA}
+\end{figure}
+
+\paragraph{Dispositif expérimental} \`{A} Saclay et en Ohio, l'amplification paramétrique optique est réalisée grâce à un dispositif commercialisé par \textit{Light Conversion}: HE-TOPAS (\textit{High Energy Tunable Optical Parametric Amplifier System}). Le schéma de l'intérieur du HE-TOPAS est représenté sur la figure \ref{fig:HETOPAS}. Nous décrivons ici brièvement les différentes étapes d'amplification.
+
+Le faisceau de pompe (H1), préalablement mis en forme pour avoir le diamètre, la polarisation et l'énergie requis ($\approx$ 8 mJ), est séparé en deux par une lame séparatrice. 90 à 98\% de l'intensité est réfléchie (H2) et sera utilisée pour la dernière étape d'amplification à haute puissance du signal. 2 à 10 \% est transmise (H3). Une partie de (H3) est transmise par deux autres lames séparatrices pour former le faisceau (3). Le reste de (H3) forme les faisceaux (2) et (4). (3) est focalisé dans une lame de saphir pour produire un continuum de lumière blanche par filamentation (5). Le continuum (5) est superposé à la fraction de pompe (4) en géométrie non-colinéaire dans un cristal non linéaire pour pré-amplifier la longueur d'onde choisie. Cette longueur d'onde est le \textbf{signal} à la fréquence $\omega_2$ que l'on souhaite amplifier au cours du processus ($\lambda_2 = 1.2 - 1.6 \: \mu$m). L'énergie de signal à l'issue de cette étape est de l'ordre de 1 à 3 $\mu$J. Le signal (6) est superposé à l'autre fraction de pompe (2) dans un deuxième cristal non linéaire. Un premier étage d'amplification paramétrique optique se produit dans ce cristal, et l'\textbf{idler} à la fréquence $\omega_1$ est créé ($\lambda_1 = 1.6 - 2.6 \: \mu$m). Après cette étape l'énergie du signal est de l'ordre de 10 à 50 $\mu$J. Le signal de pompe restant est séparé par un miroir dichroïque et est bloqué en bas à gauche du schéma. Le signal et l'idler sont collimatés pour former le faisceau (H4). (H4) et la pompe de haute puissance (H2) sont focalisés dans un dernier cristal non linéaire de grande taille et un second étage d'amplification paramétrique optique a lieu. La pompe (plusieurs mJ restants) est séparée du signal et de l'idler par un miroir dichroïque et est bloquée. Le signal et l'idler sont colinéaires et de polarisation différentes: le signal est polarisé verticalement et l'idler horizontalement. Ils sont ensuite séparés par un miroir dichroïque (non représenté). L'énergie totale signal + idler à l'issue du processus complet est de l'ordre de 2 à 2.5 mJ. La durée de l'impulsion est 1 à 1.5 fois supérieure à la durée du fondamental pour le signal et $< 2$ fois supérieure pour l'idler. La longueur d'onde du signal est choisie en changeant le délai entre la pompe (4) et le supercontinuum (5). Tous les délais entre les impulsions, ainsi que les angles des cristaux (nécessaires à un bon accord de phase dans les processus non linéaires mis en jeu) sont contrôlés par un ordinateur.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{HETOPAS.pdf_tex}
+\caption{Schéma de l'intérieur du HE-TOPAS. Les différents étages sont décrits dans le texte. Les milieux non linéaires sont entourés en blanc. Il s'agit de saphir pour la génération de continuum de lumière blanche et de $\beta$-borate de baryum (BBO) pour les étapes d'amplification. Adapté du manuel utilisateur du HE-TOPAS.}
+\label{fig:HETOPAS}
+\end{figure}
+
+
+\subsection{Modulation acousto-optique: le Dazzler}
+
+
+\section{Caractérisation des harmoniques d'ordre élevé}
+\label{sec:CaracHHG}
+Au paragraphe \ref{sec:HHG}, nous avons indiqué que les harmoniques peuvent être caractérisées en amplitude grâce à un spectromètre de photons. L'amplitude et la phase du rayonnement XUV peuvent également être mesurées en photoionisant un gaz dans un spectromètre de photoélectrons. Nous présentons ici le principe de fonctionnement d'un spectromètre de photoélectrons à bouteille magnétique ainsi que la technique de mesure de la phase spectrale des harmoniques RABBIT. Ces deux éléments sont au c\oe ur du travail présenté dans ce manuscrit.
+\subsection{Spectromètre à temps de vol d'électrons à bouteille magnétique}
+Le principe du spectromètre de photoélectrons à bouteille magnétique a été développé par \mycite{KruitJPhysE1983}. Il permet de collecter le signal de photoélectrons avec une grande efficacité et une bonne résolution en énergie. Pour simplifier la discussion nous considérons que le spectre XUV est composé d'une seule énergie. Le rayonnement est focalisé dans un jet de gaz. Si l'énergie des photons est supérieure au potentiel d'ionisation du système, alors un électron est émis. La conservation de l'énergie implique
+\begin{equation}
+Ec = \hbar \omega - Ip 
+\end{equation}
+En supposant que les électrons parcourent la distance $L$ entre la zone d'interaction et le détecteur à vitesse constante, la mesure de la durée $t$ entre l'ionisation du système et la détection de l'électron (appelée \textbf{temps de vol}) permet de déterminer leur énergie.
+\begin{equation}
+Ec = \frac {1}{2}m \frac{L^2}{t^2}
+\end{equation}
+Ce principe est à la base de la spectroscopie à temps de vol d'électrons. La résolution en énergie relative est constante
+\begin{equation}
+\frac{\Delta Ec}{Ec} \approx \text{cste}
+\end{equation}
+La zone de meilleure résolution spectrale absolue $\Delta E$ correspond donc aux électrons de faible énergie cinétique, donc de temps de vol long. Dans une bouteille magnétique, un aimant permanent\footnote{L'aimant permanent courbe les trajectoires des électrons émis dans la direction opposée au tube à temps de vol pour les ramener vers le détecteur, ce qui permet la détection des électrons émis dans $4 \pi$ sr. Cependant des électrons de même énergie émis dans des directions différentes parcourent une distance différente donc n'arrivent pas en même temps sur le détecteur, ce qui élargit les pics et diminue la résolution spectrale. La résolution spectrale est améliorée si l'aimant est éloigné, mais dans ce cas les électrons émis dans la "mauvaise" direction ne sont pas collectés et l'intensité du signal diminue.} situé au voisinage du jet dans la zone d'interaction ainsi qu'un solénoïde entourant le tube de temps de vol guident les trajectoires électroniques et permettent d'augmenter l'efficacité de collection. Pour que ces champs magnétiques soient efficaces, le spectromètre doit être isolé des champs magnétiques extérieurs (en particulier du champ magnétique terrestre): le tube de temps de vol est donc entouré de mu-métal, un isolant magnétique. Les électrons sont détectés par des galettes de micro-canaux reliées à un oscilloscope ou un convertisseur analogique-numérique synchronisé sur l'impulsion laser d'ionisation. L'intensité du signal de photoélectrons mesurée est le produit de l'intensité du rayonnement par la section efficace d'absorption du gaz à l'énergie considérée. Elle permet donc de caractériser l'amplitude des harmoniques si la section efficace est connue, ou bien de déterminer une section efficace si l'intensité harmonique est mesurée avec un photomultiplicateur calibré \mycite{BalcouZPD1995}.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{TOF.pdf_tex}
+\caption{Schéma de la bouteille magnétique de Saclay et d'une partie de son bâti dessiné par Michel Bougeard au LIDYL. Le gaz est injecté par le dessus du spectromètre par une aiguille de 500 $\mu$m de diamètre. L'aiguille est entourée d'une résistance chauffante et d'un thermocouple destinés à l'utilisation de liquides. Le rayonnement est focalisé à l'extrémité de l'aiguille, où la densité de gaz est la plus importante. Un aimant permanent conique produit un champ magnétique permanent de 1 T dans la zone d'interaction, ce qui permet une détection des électrons émis dans un angle solide de $4 \pi$ sr. La position de l'aimant dans la direction de vol des électrons peut être variée pour améliorer l'efficacité de détection ou la résolution. Les électrons sont guidés dans le tube de temps de vol par le champ magnétique créé par un solénoïde entourant tout le tube (non représenté en entier par souci de clarté). Le courant à l'intérieur du solénoïde est ajustable pour optimiser la détection. Un champ électrique peut être appliqué au tube afin de ralentir ou accélérer les électrons, et ainsi placer une gamme d'énergie donnée dans la zone de meilleure résolution. Le détecteur est composé de deux galettes de micro-canaux et d'un écran de phosphore couplés à un convertisseur analogique-numérique Agilent DP1400 d'une résolution de 500 ps. L'écran de phosphore n'est pas nécessaire à la détection mais permet l'imagerie de la zone d'interaction lors de l'optimisation du signal.}
+\label{fig:TOF}
+\end{figure}
+
+La figure \ref{fig:TOF} représente le schéma de la bouteille magnétique de Saclay, mise à notre disposition par D. Cubaynes et M. Meyer. Pour une description détaillée du principe du spectromètre d'électrons à bouteille magnétique, le lecteur pourra consulter \mycite{TheseRoedig} ou \mycite{ChristinaYoutube}.
+
+\subsection{Mesure de la phase spectrale par RABBIT}
+

@@ -1,0 +1,73 @@
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'HETOPAS.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{593.3924881bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.77977628)%
+    \put(0,0){\includegraphics[width=\unitlength]{HETOPAS.pdf}}%
+    \put(0.00224159,0.73160939){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{Pompe $\omega_3$}}}%
+    \put(0.00006451,0.63591761){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{polarisation}}}%
+    \put(0.17259378,0.15863285){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Génération d'un continuum}}}%
+    \put(0.19561704,0.12988182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{de lumière blanche}}}%
+    \put(0.5987229,0.17077976){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Pré-amplification d'une}}}%
+    \put(0.58033777,0.14472509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{longueur d'onde du continuum}}}%
+    \put(0.00541896,0.69457306){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{800 nm, 8 mJ}}}%
+    \put(0.65144403,0.11916057){\color[rgb]{0.83137255,0.66666667,0}\makebox(0,0)[lb]{\smash{$\omega_2$}}}%
+    \put(0.39690487,0.04341907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Seconde amplification du signal}}}%
+    \put(0.40223357,0.00434406){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Production de l'idler }}}%
+    \put(0.56293996,0.76667102){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Amplification à haute puissance du signal }}}%
+    \put(0.90247582,0.49575572){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{$\omega_3$}}}%
+    \put(0.00180219,0.59999499){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{horizontale}}}%
+    \put(0.6717094,0.00407351){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[lb]{\smash{$\omega_1$ }}}%
+    \put(0.79261254,0.04459684){\color[rgb]{0.83137255,0.66666667,0}\makebox(0,0)[lb]{\smash{$\omega_2$}}}%
+    \put(0.84307303,0.44134704){\color[rgb]{0.83137255,0.66666667,0}\makebox(0,0)[lb]{\smash{$\omega_2$}}}%
+    \put(0.90673332,0.441347){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[lb]{\smash{$\omega_1$ }}}%
+    \put(0.88086988,0.44223215){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{et}}}%
+    \put(0.10727155,0.26897256){\color[rgb]{0.78431373,0.11372549,0.25098039}\makebox(0,0)[lb]{\smash{$\omega_3$}}}%
+  \end{picture}%
+\endgroup%
