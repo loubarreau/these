@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,15 @@ Bellini M, Lyng\aa{} C, Tozzi A, Gaarde MB, H\"ansch TW, L'Huillier A, et
 \newblock \emph{Temporal coherence of ultrashort high-order harmonic pulses}.
 \newblock Phys. Rev. Lett. \textbf{81},~297--300 (1998).
 
+\bibitem[Bourassin-Bouchet et~al.(2011)Bourassin-Bouchet, Diveki, De~Rossi,
+  English, Meltchakov, Gobert, Gu{\'e}not, Carre, Delmotte, Sali{\`e}res, et
+  Ruchon]{BourassinOE2011}
+Bourassin-Bouchet C, Diveki Z, De~Rossi S, English E, Meltchakov E, Gobert O,
+  Gu{\'e}not D, Carre B, Delmotte F, Sali{\`e}res P, et Ruchon T.
+\newblock \emph{Control of the attosecond synchronization of xuv radiation with
+  phase-optimized mirrors}.
+\newblock Optics express \textbf{19},~3809--3817 (2011).
+
 \bibitem[Boyd(2008)]{Boyd}
 Boyd R.
 \newblock \emph{Nonlinear Optics, Third edition}.
@@ -63,6 +72,13 @@ Camper A.
   Molecular Emission}}.
 \newblock Theses, {Universit{\'e} Paris Sud - Paris XI}, (2014).
 \newblock URL \url{https://tel.archives-ouvertes.fr/tel-01100464}.
+
+\bibitem[Chan et~al.(1992)Chan, Cooper, Guo, Burton, et Brion]{ChenPRA1992}
+Chan WF, Cooper G, Guo X, Burton GR, et Brion CE.
+\newblock \emph{Absolute optical oscillator strengths for the electronic
+  excitation of atoms at high resolution. iii. the photoabsorption of argon,
+  krypton, and xenon}.
+\newblock Phys. Rev. A \textbf{46},~149--171 (1992).
 
 \bibitem[Chen et~al.(2010)Chen, Arpin, Popmintchev, Gerrity, Zhang, Seaberg,
   Popmintchev, Murnane, et Kapteyn]{ChenPRL2010}
@@ -193,6 +209,34 @@ Mairesse Y, de~Bohan A, Frasinski LJ, Merdji H, Dinu LC, Monchicourt P, Breger
 \newblock \emph{Optimization of attosecond pulse generation}.
 \newblock Phys. Rev. Lett. \textbf{93},~163901 (2004).
 
+\bibitem[Morlens et~al.(2005)Morlens, Balcou, Zeitoun, Valentin, Laude, et
+  Kazamias]{MorlensOL2005}
+Morlens AS, Balcou P, Zeitoun P, Valentin C, Laude V, et Kazamias S.
+\newblock \emph{Compression of attosecond harmonic pulses by
+  extreme-ultraviolet chirped mirrors}.
+\newblock Optics letters \textbf{30},~1554--1556 (2005).
+
+\bibitem[Muller(2002)]{MullerAPB2002}
+Muller H.
+\newblock \emph{Reconstruction of attosecond harmonic beating by interference
+  of two-photon transitions}.
+\newblock Applied Physics B \textbf{74},~s17--s21 (2002).
+
+\bibitem[Oksenhendler et~al.(2006)Oksenhendler, Kaplan, Tournois, Greetham, et
+  Estable]{OksenhendlerAPB2006}
+Oksenhendler T, Kaplan D, Tournois P, Greetham G, et Estable F.
+\newblock \emph{Intracavity acousto-optic programmable gain control for
+  ultra-wide-band regenerative amplifiers}.
+\newblock Applied Physics B: Lasers and Optics \textbf{83},~491--494 (2006).
+
+\bibitem[Paul et~al.(2001)Paul, Toma, Breger, Mullot, Aug{\'e}, Balcou, Muller,
+  et Agostini]{PaulScience2001}
+Paul PM, Toma ES, Breger P, Mullot G, Aug{\'e} F, Balcou P, Muller HG, et
+  Agostini P.
+\newblock \emph{Observation of a train of attosecond pulses from high harmonic
+  generation}.
+\newblock Science \textbf{292},~1689--1692 (2001).
+
 \bibitem[Popmintchev et~al.(2015)Popmintchev, Hern{\'a}ndez-Garc{\'\i}a,
   Dollar, Mancuso, P{\'e}rez-Hern{\'a}ndez, Chen, Hankla, Gao, Shim, Gaeta,
   Tarazkar, Romanov, Levis, Gaffney, Foord, Libby, Jaron-Becker, Becker, Plaja,
@@ -251,6 +295,12 @@ Strickland D et Mourou G.
 \newblock \emph{Compression of amplified chirped optical pulses}.
 \newblock Optics communications \textbf{55},~447--449 (1985).
 
+\bibitem[Tournois(1997)]{TournoisOptComm1997}
+Tournois P.
+\newblock \emph{Acousto-optic programmable dispersive filter for adaptive
+  compensation of group delay time dispersion in laser systems}.
+\newblock Optics communications \textbf{140},~245--249 (1997).
+
 \bibitem[Varjú et~al.(2005)Varjú, Mairesse, Carré, Gaarde, Johnsson,
   Kazamias, López-Martens, Mauritsson, Schafer, Balcou, L'huillier, et
   Salières]{VarjuJMO2005}
@@ -259,6 +309,20 @@ Varjú K, Mairesse Y, Carré B, Gaarde MB, Johnsson P, Kazamias S,
   Salières P.
 \newblock \emph{Frequency chirp of harmonic and attosecond pulses}.
 \newblock Journal of Modern Optics \textbf{52},~379--394 (2005).
+
+\bibitem[V{\'e}niard et~al.(1996)V{\'e}niard, Ta{\"\i}eb, et
+  Maquet]{VeniardPRA1996}
+V{\'e}niard V, Ta{\"\i}eb R, et Maquet A.
+\newblock \emph{Phase dependence of (n+ 1)-color (n> 1) ir-uv photoionization
+  of atoms with higher harmonics}.
+\newblock Physical Review A \textbf{54},~721 (1996).
+
+\bibitem[Verluise et~al.(2000)Verluise, Laude, Cheng, Spielmann, et
+  Tournois]{VerluiseOL2000}
+Verluise F, Laude V, Cheng Z, Spielmann C, et Tournois P.
+\newblock \emph{Amplitude and phase control of ultrashort pulses by use of an
+  acousto-optic programmable dispersive filter: pulse compression and shaping}.
+\newblock Opt. Lett. \textbf{25},~575--577 (2000).
 
 \bibitem[Weber et~al.(2015)Weber, Manschwetus, Billon, Böttcher, Bougeard,
   Breger, Géléoc, Gruson, Huetz, Lin, Picard, Ruchon, Salières, et

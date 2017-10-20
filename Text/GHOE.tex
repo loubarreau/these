@@ -190,6 +190,7 @@ Si $\phi_q$ est constante quel que soit $q$, l'impulsion est dite limitée par t
 Comme l'illustre la figure \ref{fig:PeigneHH}, deux types de phases spectrales sont à considérer: la relation de phase entre harmoniques consécutives qui a une influence sur la durée des impulsions dans le train, et la phase spectrale d'une harmonique donnée qui modifie globalement le train. Ces deux phases sont respectivement la dérive de fréquence attoseconde (ou \textit{chirp} atto) et la dérive de fréquence harmonique (ou \textit{chirp} harmonique/femto).
 
 \subsection{Structure attoseconde: le chirp atto} 
+\label{subsec:ChirpAtto}
 Les deux modèles présentés précédemment montrent que les différentes harmoniques ne sont pas émises au même instant (figures \ref{fig:traj_class} et \ref{fig:SFA_vs_3step}): pour les trajectoires courtes (resp. longues), les hautes énergies sont émises après (resp. avant) les basses énergies. \mycite{TheseMairesse} montre que $t_e(\omega_q)$ est directement relié par l'instant de recombinaison $t_r(\omega_q)$. Dans le cadre du modèle de Lewenstein, la variation de $t_e$ avec l'ordre harmonique est linéaire dans le plateau, avec une pente opposée pour les deux familles de trajectoires, et constante dans la coupure. Ainsi, sous réserve de sélectionner un type de trajectoires, la différence de phase entre harmoniques est quadratique dans le plateau et linéaire dans la coupure. Cette phase spectrale peut être mesurée (par exemple avec la méthode RABBIT exposée dans la suite), et la mesure pour les trajectoires courtes est en très bon accord avec le modèle théorique (figure \ref{fig:MairessePRL}) \mycite{MairesseScience2003}\mycite{MairessePRL2004}. Le chirp atto est intrinsèquement lié au processus de GHOE: dans un demi-cycle, les fréquences émises correspondent à différentes trajectoires électroniques et ne sont donc pas synchronisées.  
 
 \begin{figure}
@@ -200,7 +201,7 @@ Les deux modèles présentés précédemment montrent que les différentes harmo
 \label{fig:MairessePRL}
 \end{figure}
 
-La dérive de fréquence linéaire dans le plateau correspond à une phase spectrale quadratique et donc à un élargissement spectral des harmoniques. Cependant, la sélection spectrale des harmoniques de la coupure uniquement, dont la phase spectrale est linéaire, permet d'optimiser la brièveté des impulsions attosecondes dans le train. Notons que le délai de groupe linéaire peut être partiellement compensé si l'impulsion est transmise par un filtre métallique de délai de groupe opposé. Cette méthode peut être utilisée pour comprimer les impulsions attosecondes \mycite{LopezMartensPRL2005}\mycite{GustafssonOptLett2007}. 
+La dérive de fréquence linéaire dans le plateau correspond à une phase spectrale quadratique et donc à un élargissement spectral des harmoniques. Cependant, la sélection spectrale des harmoniques de la coupure uniquement, dont la phase spectrale est linéaire, permet d'optimiser la brièveté des impulsions attosecondes dans le train. Notons que le délai de groupe linéaire peut être partiellement compensé si l'impulsion est transmise par un filtre métallique de délai de groupe opposé. Cette méthode peut être utilisée pour comprimer les impulsions attosecondes \mycite{LopezMartensPRL2005}\mycite{GustafssonOptLett2007}. Une autre possibilité pour compenser ce délai de groupe intrinsèque à la GHOE est d'utiliser une réflexion sur un miroir multicouche \mycite{MorlensOL2005}\mycite{BourassinOE2011}.
 
 \paragraph{Dépendance en intensité} Comme le montrent les résultats expérimentaux de \mycite{MairessePRL2004} reproduits figure \ref{fig:MairessePRL}, la pente de $t_e (\omega_q)$ diminue lorsque l'intensité de génération augmente (pour les trajectoires courtes). Ceci peut s'interpréter simplement grâce à la loi de la coupure: l'énergie de coupure est proportionnelle à $Up \propto I$. Ainsi lorsque l'intensité augmente, l'énergie de coupure augmente et la pente de $t_r (\omega_q)$ diminue en valeur absolue pour les deux familles de trajectoires: $t_e (\omega_q) \propto 1/I $. La productions d'impulsions attosecondes de plus courte durée est donc favorisée à haute intensité.
 
@@ -460,13 +461,25 @@ Le faisceau de pompe (H1), préalablement mis en forme pour avoir le diamètre, 
 \end{figure}
 
 
-\subsection{Modulation acousto-optique: le Dazzler}
+\subsection{Filtre dispersif acousto-optique programmable}
+\`{A} Lund, le laser titane saphir est accordable grâce à la présence de filtres dispersifs acousto-optiques programmables en sortie de compresseur et à l'intérieur de la cavité. Il s'agit de dispostifs commerciaux développés par Fastlite et Amplitude Technologies, vendus sous le nom de Dazzler\footnote{Dazzler est le nom d'un personnage de l'univers des comics X-men dont le pouvoir est de transformer le son en lumière.} et Mazzler respectivement. Le principe de fonctionnement détaillé de ces dispositifs est exposé par \mycite{TournoisOptComm1997}\mycite{VerluiseOL2000} (Dazzler) et
+\mycite{OksenhendlerAPB2006} (Mazzler).
+
+\begin{figure}
+\centering
+\def\svgwidth{0.5\columnwidth}
+\import{Figures/GHOE/}{Mazzler.pdf_tex}
+\caption{Spectre (haut) et intensité temporelle (bas) d'impulsions femtosecondes pour différentes modulations en amplitude et en phase induites par le Mazzler et le Dazzler. Extrait de \mycite{OksenhendlerAPB2006}.}
+\label{fig:Mazzler}
+\end{figure}
 
 
 \section{Caractérisation des harmoniques d'ordre élevé}
 \label{sec:CaracHHG}
 Au paragraphe \ref{sec:HHG}, nous avons indiqué que les harmoniques peuvent être caractérisées en amplitude grâce à un spectromètre de photons. L'amplitude et la phase du rayonnement XUV peuvent également être mesurées en photoionisant un gaz dans un spectromètre de photoélectrons. Nous présentons ici le principe de fonctionnement d'un spectromètre de photoélectrons à bouteille magnétique ainsi que la technique de mesure de la phase spectrale des harmoniques RABBIT. Ces deux éléments sont au c\oe ur du travail présenté dans ce manuscrit.
+
 \subsection{Spectromètre à temps de vol d'électrons à bouteille magnétique}
+\label{subsec:TOF}
 Le principe du spectromètre de photoélectrons à bouteille magnétique a été développé par \mycite{KruitJPhysE1983}. Il permet de collecter le signal de photoélectrons avec une grande efficacité et une bonne résolution en énergie. Pour simplifier la discussion nous considérons que le spectre XUV est composé d'une seule énergie. Le rayonnement est focalisé dans un jet de gaz. Si l'énergie des photons est supérieure au potentiel d'ionisation du système, alors un électron est émis. La conservation de l'énergie implique
 \begin{equation}
 Ec = \hbar \omega - Ip 
@@ -479,7 +492,7 @@ Ce principe est à la base de la spectroscopie à temps de vol d'électrons. La 
 \begin{equation}
 \frac{\Delta Ec}{Ec} \approx \text{cste}
 \end{equation}
-La zone de meilleure résolution spectrale absolue $\Delta E$ correspond donc aux électrons de faible énergie cinétique, donc de temps de vol long. Dans une bouteille magnétique, un aimant permanent\footnote{L'aimant permanent courbe les trajectoires des électrons émis dans la direction opposée au tube à temps de vol pour les ramener vers le détecteur, ce qui permet la détection des électrons émis dans $4 \pi$ sr. Cependant des électrons de même énergie émis dans des directions différentes parcourent une distance différente donc n'arrivent pas en même temps sur le détecteur, ce qui élargit les pics et diminue la résolution spectrale. La résolution spectrale est améliorée si l'aimant est éloigné, mais dans ce cas les électrons émis dans la "mauvaise" direction ne sont pas collectés et l'intensité du signal diminue.} situé au voisinage du jet dans la zone d'interaction ainsi qu'un solénoïde entourant le tube de temps de vol guident les trajectoires électroniques et permettent d'augmenter l'efficacité de collection. Pour que ces champs magnétiques soient efficaces, le spectromètre doit être isolé des champs magnétiques extérieurs (en particulier du champ magnétique terrestre): le tube de temps de vol est donc entouré de mu-métal, un isolant magnétique. Les électrons sont détectés par des galettes de micro-canaux reliées à un oscilloscope ou un convertisseur analogique-numérique synchronisé sur l'impulsion laser d'ionisation. L'intensité du signal de photoélectrons mesurée est le produit de l'intensité du rayonnement par la section efficace d'absorption du gaz à l'énergie considérée. Elle permet donc de caractériser l'amplitude des harmoniques si la section efficace est connue, ou bien de déterminer une section efficace si l'intensité harmonique est mesurée avec un photomultiplicateur calibré \mycite{BalcouZPD1995}.
+La zone de meilleure résolution spectrale absolue $\Delta E$ correspond donc aux électrons de faible énergie cinétique, donc de temps de vol long. Dans une bouteille magnétique, un aimant permanent situé au voisinage du jet dans la zone d'interaction ainsi qu'un solénoïde entourant le tube de temps de vol guident les trajectoires électroniques et permettent d'augmenter l'efficacité de collection\footnote{L'aimant permanent courbe les trajectoires des électrons émis dans la direction opposée au tube à temps de vol pour les ramener vers le détecteur, ce qui permet la détection des électrons émis dans $4 \pi$ sr. Cependant des électrons de même énergie émis dans des directions différentes parcourent une distance différente donc n'arrivent pas en même temps sur le détecteur, ce qui élargit les pics et diminue la résolution spectrale. La résolution spectrale est améliorée si l'aimant est éloigné, mais dans ce cas les électrons émis dans la "mauvaise" direction ne sont pas collectés et l'intensité du signal diminue.}. Pour que ces champs magnétiques soient efficaces, le spectromètre doit être isolé des champs magnétiques extérieurs (en particulier du champ magnétique terrestre): le tube de temps de vol est donc entouré de mu-métal, un isolant magnétique. Les électrons sont détectés par des galettes de micro-canaux reliées à un oscilloscope ou un convertisseur analogique-numérique synchronisé sur l'impulsion laser d'ionisation. L'intensité du signal de photoélectrons mesurée est le produit de l'intensité du rayonnement par la section efficace d'absorption du gaz à l'énergie considérée. Elle permet donc de caractériser l'amplitude des harmoniques si la section efficace est connue, ou bien de déterminer une section efficace si l'intensité harmonique est mesurée avec un photomultiplicateur calibré \mycite{BalcouZPD1995}. Lors de la photoionisation d'un gaz cible par un peigne d'harmoniques, on obtient un peigne de pics de photoélectrons reproduisant le spectre harmonique (multiplié par la section efficace de photoionisation).
 
 \begin{figure}
 \centering
@@ -492,4 +505,61 @@ La zone de meilleure résolution spectrale absolue $\Delta E$ correspond donc au
 La figure \ref{fig:TOF} représente le schéma de la bouteille magnétique de Saclay, mise à notre disposition par D. Cubaynes et M. Meyer. Pour une description détaillée du principe du spectromètre d'électrons à bouteille magnétique, le lecteur pourra consulter \mycite{TheseRoedig} ou \mycite{ChristinaYoutube}.
 
 \subsection{Mesure de la phase spectrale par RABBIT}
+\paragraph{Principe} Si l'on superpose dans la zone d'interaction du spectromètre un faible champ IR (dit "d'habillage") au rayonnement harmonique, de nouvelles transitions de photoionisation sont possibles. Il s'agit de transitions à deux photons et deux couleurs: absorption d'un photon harmonique et absorption ou émission stimulée d'un photon IR (figure \ref{fig:PrincipeRabbit2}). Les énergies des harmoniques étant séparées de deux fois l'énergie du photon IR, il apparaît de nouvelles composantes dans le spectre de photoélectrons situées entre les harmoniques (figure \ref{fig:JoliRabbit}(b)), appelées pics satellites (ou \textit{sidebands} en anglais). Chaque pic satellite (ordre $q+1$) est formé par l'interférence entre deux chemins quantiques: absorption de l'harmonique $q$ et abosorption d'un photon IR, et absorption de l'harmonique $q+2$ et émission stimulée d'un photon IR. Ainsi la présence du champ IR d'habillage permet de faire interférer deux harmoniques voisines.
 
+\begin{figure}[ht]
+\centering
+\def\svgwidth{0.5\columnwidth}
+\import{Figures/GHOE/}{Schema_Principe_Rabbit_simple.pdf_tex}
+\caption{Principe du RABBIT: interférences entre transitions à deux photons et deux couleurs. L'absorption de l'harmonique $q$ et d'un photon IR (chemin $a$) conduit à la même énergie que l'absorption de l'harmonique $q+2$ et l'émission stimulée d'un photon IR (chemin $e$).}
+\label{fig:PrincipeRabbit2}
+\end{figure}
+
+ \mycite{VeniardPRA1996} ont montré que  pour un champ harmonique
+\begin{equation}
+E_q(t) = A_q \: \rme^{-iq\omega t + i\phi_q}
+\end{equation}
+l'intensité du pic satellite $q+1$ est modulée en fonction du délai $\tau$ entre les impulsions XUV et IR selon:
+\begin{equation}
+S_{q+1}(\tau) = A + B \cos(2\omega \tau + \phi_{q+2} - \phi_q + \Delta \varphi_{at})
+\label{eq:Rabbit_simple}
+\end{equation}
+Le terme $\Delta \varphi_{at}$ est discuté dans les lignes qui suivent. Si on le suppose connu, la mesure de la phase des oscillations permet de déterminer la différence de phase entre deux harmoniques consécutives. La quantité $t_e (q\omega) = \Delta \phi / 2\omega$ est le délai de groupe des harmoniques défini au paragraphe \ref{subsec:ChirpAtto}. Cette méthode, baptisée RABBIT (\textit{Reconstruction of Attosecond Beatings by Interference of Two-photon transitions}) \mycite{MullerAPB2002}, a été utilisée expérimentalement pour la première fois par \mycite{PaulScience2001}. L'expérience de Paul \textit{et al.} a permis de démontrer la synthèse de trains d'impulsions attosecondes. Par la suite, les mesures de \mycite{MairesseScience2003} ont démontré le lien entre le délai de groupe des harmoniques et l'instant de recollision (voir paragraphe \ref{subsec:ChirpAtto}). 
+
+Le terme de phase supplémentaire $\Delta \varphi_{at}$ est dû au gaz photoionisé et est par conséquent appelé phase atomique. Il s'agit de la différence de phase entre les deux éléments de transition à deux photons mis en jeu. Dans les travaux pionniers cités précédemment, l'objectif était de caractériser la structure temporelle de l'émission harmonique. La phase $\Delta \varphi_{at}$ était considérée comme "petite" et calculable "par des théories établies avec une grande précision" \mycite{PaulScience2001}. Si l'on photoionise le gaz loin de toutes résonances, dans un continuum lisse, cette affirmation est vraie. Cependant cette phase se révéla plus tard une observable de grand intérêt pour étudier la photoionisation à l'échelle attoseconde. En particulier, elle peut prendre des valeurs significatives lorsque la photoionisation a lieu au voisinage de résonances. C'est l'objet d'étude des expériences des parties \ref{part:Helium} et \ref{part:Argon}, et l'expression de $\Delta \varphi_{at}$ sera détaillée dans la partie \ref{part:Delais}.
+
+\begin{figure}[ht]
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{SetupRABBIT.pdf_tex}
+\caption{Dispositif expérimental typiquement utilisé dans une expérience RABBIT.}
+\label{fig:SetupRabbit}
+\end{figure}
+
+\paragraph{Dispositif expérimental} Du point de vue expérimental, le dispositif utilisé pour réaliser une expérience de type RABBIT est présenté sur la figure \ref{fig:SetupRabbit}. Le faisceau laser est séparé en deux avec une lame séparatrice. La majeure partie est focalisé par une lentille L$_{hab}$ dans un gaz pour produire des harmoniques d'ordre élevé (paragraphe \ref{sec:HHG}). L'IR de génération est absorbé par un filtre métallique de $\approx$ 200 nm d'épaisseur, généralement en aluminium qui a une bande passante entre 20 et 70 eV \mycite{CXRO}. L'XUV passe au centre d'un miroir troué puis est focalisé par un miroir torique en or dans la zone d'interaction d'un spectromètre de photoélectrons (paragraphe \ref{subsec:TOF}). L'IR transmis par la lame séparatrice parcourt une ligne à retard puis est focalisé par une lentille L$_{hab}$ de manière à ré-imager le foyer de L$_{hab}$ par le miroir torique dans la bouteille magnétique. L'intensité du faisceau d'habillage est ajustée par un iris et/ou un atténuateur (non représenté) de manière à produire uniquement des transitions à deux photons avec l'XUV ($\approx 10^{11}$ W/cm$^2$). Si l'intensité ou la phase de l'IR d'habillage n'est pas homogène sur toute la zone d'interaction du spectromètre, les pics satellites produits à deux endroits distincts du gaz n'oscilleront pas en phase. Ceci brouille les oscillations des pics satellites mesurées. Le diamètre et la position du foyer d'habillage peuvent être ajustés grâce à l'iris et à la translation longitudinale de la lentille L$_{hab}$ pour s'assurer que les conditions d'homogénéité soient remplies. Un spectre de photoélectrons est mesuré pour chaque délai entre l'IR et l'XUV, moyenné sur plusieurs milliers de tirs laser (plusieurs secondes), pour former un spectrogramme.
+
+La figure \ref{fig:JoliRabbit}(a) montre un spectrogramme typique mesuré avec des harmoniques générées dans l'argon à 800 nm et détectées dans l'argon. Les harmoniques et les pics satellites sont clairement distinguables jusqu'à $q = 26$ ($\approx 40$ eV). Les ordres supérieurs ne sont pas visibles à cause de la faible section efficace de photoionisation de l'argon au-dessus de 40 eV (figure \ref{fig:ChenAr}), qui diminue à la fois le flux d'harmoniques générées et la quantité de photoélectrons détectés. Les harmoniques sont déplétées pour former les pics satellites et oscillent donc en opposition de phase. Le signal des pics satellites est sommé sur leur largeur spectrale ($\approx 400$ meV). L'exemple des pics satellites 16 et 20 est donné sur la figure \ref{fig:JoliRabbit}(c) et montre des oscillations à la fréquence $2 \omega$ (période 1.33 fs) déphasées. La phase des oscillations est extraite pour tous les pics satellites par transformée de Fourier. Le résultat de cet analyse est visible sur la figure \ref{fig:JoliRabbit}(d). Dans cette expérience, l'argon est photoionisé loin de toute résonance, le terme de phase atomique ne dépend pas de l'énergie et la pente de cette courbe peut directement être identifiée au délai de groupe des harmoniques. Dans le cas présenté on trouve $t_e (q\omega) = \Delta \phi / 2\omega = 90 \pm 6$ as. Cette valeur est typique de la GHOE dans l'argon à 800 nm aux intensités de l'ordre de $1 \times 10^{14}$ W/cm$^2$ \mycite{MairesseScience2003}\mycite{TheseMairesse}. \`{A} partir des intensités harmoniques mesurées, de la section efficace de photoionisation (figure \ref{fig:ChenAr}) et des phases mesurées par RABBIT (figure \ref{fig:JoliRabbit}(d)), on reconstruit le train d'impulsions attosecondes présenté en figure \ref{fig:TrainAtto}.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\import{Figures/GHOE/}{JoliRabbit_Ar_800.pdf_tex}
+\caption{(a) Spectrogramme RABBIT d'harmoniques générées à 800 nm dans l'argon et détectées dans l'argon. (b) Somme du spectrogramme (a) sur tous les délais, correspond au spectre de photoélectrons lors de la photoionsiation à deux photons et deux couleurs. (c) Somme sur leur largeur spectrale de deux pics satellites (indiqués en (a)) montrant des oscillations à la fréquence 2 $\omega$ déphasées. (d) Phase des oscillations des pics satellites 14 à 26 déterminée par transformée de Fourier.}
+\label{fig:JoliRabbit}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.6\columnwidth}
+\import{Figures/GHOE/}{Chen.pdf_tex}
+\caption{Section efficace d'absorption de l'argon entre 10 et 60 eV. Extrait de \mycite{ChenPRA1992}.}
+\label{fig:ChenAr}
+\end{figure}
+
+\begin{figure}
+\centering
+\def\svgwidth{0.5\columnwidth}
+\import{Figures/GHOE/}{TrainAtto.pdf_tex}
+\caption{Reconstruction du train d'impulsions attosecondes à partir du spectrogramme de la figure \ref{fig:JoliRabbit}. L'instant d'arrivée absolu des impulsions du train, c'est-à-dire la synchronisation des impulsions par rapport au laser, est inconnue car on mesure seulement le délai de groupe. La phase spectrale est considérée constante sur toute la largeur spectrale de l'harmonique, ce qui revient à négliger le chirp harmonique/la structure femtoseconde de l'impulsion.}
+\label{fig:TrainAtto}
+\end{figure}
