@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Bessel_Spheriques.pdf' (pdf, eps, ps)
 %%
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{711.80144865bp}%
+    \setlength{\unitlength}{711.80144073bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -49,9 +49,8 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.4935688)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{Bessel_Spheriques.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength]{Bessel_Spheriques.pdf}}%
     \put(0.27053724,0.00202638){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\rho$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{Bessel_Spheriques.pdf}}%
     \put(0.07306869,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
     \put(0.13906687,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
     \put(0.20506505,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
@@ -59,7 +58,6 @@
     \put(0.33706141,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{8}}}%
     \put(0.40306071,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10}}}%
     \put(0.46905889,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{12}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{Bessel_Spheriques.pdf}}%
     \put(0.06118897,0.04573633){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.4}}}%
     \put(0.06118897,0.10230716){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.2}}}%
     \put(0.06118897,0.15887687){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
@@ -68,15 +66,10 @@
     \put(0.06118897,0.32858711){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.6}}}%
     \put(0.06118897,0.38515682){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.8}}}%
     \put(0.06118897,0.44172765){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{Bessel_Spheriques.pdf}}%
     \put(0.40691459,0.41811433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_0$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{Bessel_Spheriques.pdf}}%
     \put(0.40691459,0.38978171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_1$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=6]{Bessel_Spheriques.pdf}}%
     \put(0.40691459,0.36249769){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_2$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{Bessel_Spheriques.pdf}}%
     \put(0.79157692,0.00202638){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\rho$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=8]{Bessel_Spheriques.pdf}}%
     \put(0.59410837,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{0}}}%
     \put(0.66010655,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
     \put(0.72610473,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
@@ -84,7 +77,6 @@
     \put(0.85810221,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{8}}}%
     \put(0.92410039,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10}}}%
     \put(0.99009857,0.02231968){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{12}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=9]{Bessel_Spheriques.pdf}}%
     \put(0.58222865,0.04573633){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
     \put(0.58222865,0.10230716){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.2}}}%
     \put(0.58222865,0.15887687){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.4}}}%
@@ -93,13 +85,9 @@
     \put(0.58222865,0.32858711){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
     \put(0.58222865,0.38515682){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1.2}}}%
     \put(0.58222865,0.44172765){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1.4}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=10]{Bessel_Spheriques.pdf}}%
     \put(0.81468336,0.41811433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho^2 j_0^2(\rho)$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=11]{Bessel_Spheriques.pdf}}%
     \put(0.81468336,0.38978171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho^2 j_1^2(\rho)$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{Bessel_Spheriques.pdf}}%
     \put(0.81468336,0.36249769){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho^2 j_2^2(\rho)$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=13]{Bessel_Spheriques.pdf}}%
     \put(0.0108522,0.47924966){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(a)}}}%
     \put(0.53839556,0.47924966){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{(b)}}}%
   \end{picture}%

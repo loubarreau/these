@@ -8,10 +8,10 @@
 \subsection{Modèle semi-classique en trois étapes}
 Le modèle semi-classique de la génération d'harmoniques d'ordre élevé est proposé en 1993 par \mycite{SchaferPRL1993} et \mycite{CorkumPRL1993}. Brièvement, l'interaction entre un champ laser intense et un atome ou une molécule déforme le potentiel ressenti par les électrons du système. Un paquet d'onde électronique peut alors être émis par ionisation tunnel (\textbf{1}). Le paquet d'onde électronique libéré est accéléré par le champ laser (\textbf{2}). Lorsque le champ change de signe, le paquet d'onde est ramené vers l'ion parent avec lequel il peut recombiner en émettant l'énergie cinétique accumulée dans le champ sous la forme d'un photon dans le domaine de l'extrême ultra-violet XUV (\textbf{3}). Dans la suite nous détaillons successivement ces trois étapes.
 
-\paragraph{Ionisation tunnel} Considérons un électron d'un atome\footnote{Par commodité nous parlerons d'atomes, tout en gardant à l'esprit qu'il est possible d'utiliser des molécules.} isolé dans son état fondamental. Son énergie est égale à l'opposé de son potentiel d'ionisation $Ip$. L'électron est soumis au potentiel coulombien du noyau, de la forme $V_0 (x) = - e^2 /4\pi \epsilon_0 |x|$ où $x$ est la distance électron-noyau (figure \ref{fig:potentials}(a)). En présence d'un champ électrique polarisé linéairement, de pulsation $\omega$, $\vec{E}(t) = E_0 \cos(\omega t) \vec{u_x}$, le potentiel effectif ressenti par l'électron devient
+\paragraph{Ionisation tunnel} Considérons un électron d'un atome\footnote{Par commodité nous parlerons d'atomes, tout en gardant à l'esprit qu'il est possible d'utiliser des molécules.} isolé dans son état fondamental. Son énergie est égale à l'opposé de son potentiel d'ionisation $Ip$. L'électron est soumis au potentiel coulombien du noyau, de la forme $V_0 (x) = - e^2 /4\pi \epsilon_0 |x|$ où $x$ est la distance électron-noyau (figure \ref{fig:potentials}(a)). En présence d'un champ électrique polarisé linéairement, de pulsation $\omega$, $\vec{\mathcal{E}}(t) = \mathcal{E}_0 \cos(\omega t) \vec{u_x}$, le potentiel effectif ressenti par l'électron devient
 \begin{align}
-V(x,t) & = V_0 (x) - e x E(t) \\
-& = -\frac{e^2}{4\pi \epsilon_0 |x|} - e x E_0 \cos(\omega t)
+V(x,t) & = V_0 (x) - e x \mathcal{E}(t) \\
+& = -\frac{e^2}{4\pi \epsilon_0 |x|} - e x \mathcal{E}_0 \cos(\omega t)
 \label{eq:PotentielEffectif}
 \end{align}
 
@@ -19,13 +19,13 @@ V(x,t) & = V_0 (x) - e x E(t) \\
 \centering
 \def\svgwidth{\columnwidth}
 \import{Figures/GHOE/}{potentials.pdf_tex}
-\caption{Potentiel ressenti par un électron dans l'argon ($Ip$ = 15.76 eV = 0.58 u. at.) (a) en l'absence de champ électrique, (b) en présence d'un champ $E_0 =$ 0.04 u. at. ($I = 5.5 \times 10^{13}$ W/cm$^2$), (c) en présence d'un champ à l'éclairement de saturation de l'argon $E_0 = E_{\text{sat}}$ = 0.084 u. at. ($I = 2.4 \times 10^{14}$ W/cm$^2$).}
+\caption{Potentiel ressenti par un électron dans l'argon ($Ip$ = 15.76 eV = 0.58 u. at.) (a) en l'absence de champ électrique, (b) en présence d'un champ $\mathcal{E}_0 =$ 0.04 u. at. ($I = 5.5 \times 10^{13}$ W/cm$^2$), (c) en présence d'un champ à l'éclairement de saturation de l'argon $\mathcal{E}_0 = \mathcal{E}_{\text{sat}}$ = 0.084 u. at. ($I = 2.4 \times 10^{14}$ W/cm$^2$).}
 \label{fig:potentials}
 \end{figure}
 
-Si le potentiel d'interaction avec le champ est négligeable devant le potentiel coulombien, l'influence du champ peut être traitée de manière perturbative. Le champ "intra-atomique" correspondant est de l'ordre de $E_{\text{atom}} \backsim e/4\pi \epsilon_0 a_0^2 \backsim 6 \times 10^9$ V/m, soit une intensité $I_\text{atom} \backsim 4 \times 10^{16}$ W/cm$^2$. Ainsi, en présence d'un champ laser intense ($I \backsim 10^{14}$ W/cm$^2$), l'interaction avec le champ électrique n'est plus perturbative. Comme illustré sur la figure \ref{fig:potentials}(b), le champ laser abaisse la barrière de potentiel ressentie par l'électron. Une partie du paquet d'onde électronique (POE) peut alors la traverser par effet tunnel, avec une probabilité qui dépend de la hauteur et de l'épaisseur de la barrière ainsi que de la durée pendant laquelle elle est abaissée. Dans le cas extrême de la figure \ref{fig:potentials}(c), le champ laser est suffisamment intense pour supprimer complètement la barrière \mycite{AugstPRL1989}\mycite{BauerPRA1999}. Dans ces conditions, la valeur maximale du potentiel est égale à $-Ip$. Cette valeur est atteinte en $x_0$ tel que $V'(x_0) = 0$. Considérons que ce maximum est atteint lorsque le champ électrique est maximal, $E = E_0$. En dérivant \ref{eq:PotentielEffectif}, il vient simplement:
+Si le potentiel d'interaction avec le champ est négligeable devant le potentiel coulombien, l'influence du champ peut être traitée de manière perturbative. Le champ "intra-atomique" correspondant est de l'ordre de $E_{\text{atom}} \backsim e/4\pi \epsilon_0 a_0^2 \backsim 6 \times 10^9$ V/m, soit une intensité $I_\text{atom} \backsim 4 \times 10^{16}$ W/cm$^2$. Ainsi, en présence d'un champ laser intense ($I \backsim 10^{14}$ W/cm$^2$), l'interaction avec le champ électrique n'est plus perturbative. Comme illustré sur la figure \ref{fig:potentials}(b), le champ laser abaisse la barrière de potentiel ressentie par l'électron. Une partie du paquet d'onde électronique (POE) peut alors la traverser par effet tunnel, avec une probabilité qui dépend de la hauteur et de l'épaisseur de la barrière ainsi que de la durée pendant laquelle elle est abaissée. Dans le cas extrême de la figure \ref{fig:potentials}(c), le champ laser est suffisamment intense pour supprimer complètement la barrière \mycite{AugstPRL1989}\mycite{BauerPRA1999}. Dans ces conditions, la valeur maximale du potentiel est égale à $-Ip$. Cette valeur est atteinte en $x_0$ tel que $V'(x_0) = 0$. Considérons que ce maximum est atteint lorsque le champ électrique est maximal, $\mathcal{E} = \mathcal{E}_0$. En dérivant \ref{eq:PotentielEffectif}, il vient simplement:
 \begin{equation}
-|x_0| = \frac{e}{4\pi \epsilon_0 \sqrt{E_0}}
+|x_0| = \frac{e}{4\pi \epsilon_0 \sqrt{\mathcal{E}_0}}
 \end{equation}
 Avec $V(x_0) = - Ip$, l'intensité du champ laser nécessaire à la suppression de la barrière est 
 \begin{equation}
@@ -55,26 +55,26 @@ Xe & 12.12 & $9 \times 10^{13}$ \\
 
 Cette approche doit être complétée par un aspect dynamique dans le cas d'un champ laser oscillant: pour que l'ionisation tunnel ait lieu il faut que la barrière tunnel soit abaissée pendant une durée suffisante. Cette durée est caractérisée par le paramètre de Keldysh \mycite{Keldysh1965} $\gamma = \sqrt{Ip/Up}$ où $Up$ est l'énergie pondéromotrice du champ:
 \begin{equation}
-Up = \frac{e^2 E_0^2}{4 m \omega^2} \propto I \lambda^2
+Up = \frac{e^2 \mathcal{E}_0^2}{4 m \omega^2} \propto I \lambda^2
 \label{eq:Up}
 \end{equation}
 Le régime d'ionisation tunnel correspond à $\gamma < 1$. Pour $\gamma > 1$, on parle de régime multiphotonique. Le régime de suppression de barrière correspond à $\gamma \ll 1$. Par exemple, pour l'argon avec un champ laser à 800 nm d'intensité $2 \times 10^{14}$ W/cm$^2$, $Up = 12$ eV soit $\gamma = 0.8$ et on se trouve dans le régime d'ionisation tunnel.
 
 \paragraph{Accélération du paquet d'onde électronique dans le champ laser} La dynamique de l'électron libéré dans le continuum par ionisation tunnel, en présence du champ électrique, est traitée classiquement. Les effets à longue portée du potentiel atomique sont négligés. La seule force agissant sur l'électron étant la force de Lorentz, on a:
 \begin{equation}
-m \ddot{x} = -e E_0 \cos(\omega t)
+m \ddot{x} = -e \mathcal{E}_0 \cos(\omega t)
 \label{eq:EDMelectron}
 \end{equation} 
 L'instant d'ionisation est noté $t_i$. On suppose que l'électron est émis en $x(t_i) = 0$, c'est-à-dire que l'on néglige le mouvement à travers la barrière tunnel, avec une vitesse initiale nulle $\dot{x}(t_i) = 0$. L'intégration de l'équation \ref{eq:EDMelectron} deux fois donne l'équation de la trajectoire de l'électron:
 \begin{equation}
-x(t) = \frac{e E_0}{m \omega^2} \left[ \cos(\omega t) - \cos(\omega t_i) \right] + \frac{e E_0}{m \omega}(t-t_i) \sin(\omega t_i)
+x(t) = \frac{e \mathcal{E}_0}{m \omega^2} \left[ \cos(\omega t) - \cos(\omega t_i) \right] + \frac{e \mathcal{E}_0}{m \omega}(t-t_i) \sin(\omega t_i)
 \label{eq:TrajElec}
 \end{equation}
 L'électron oscille dans le champ selon la direction $\vec{u_x}$ et, pour certains instants d'ionisation, peut retourner en $x = 0$ c'est-à-dire recombiner sur son atome parent. L'excursion de l'électron dans le continuum est de l'ordre de 50 u. at., soit 2.6 nm.
 
 \paragraph{Recombinaison} En recombinant, l'électron peut convertir l'énergie cinétique $Ec$ accumulée dans le continuum en un photon d'énergie $\hbar \omega = Ec + Ip$. L'équation \ref{eq:TrajElec} suggère que la recombinaison est possible à chaque oscillation de l'électron au voisinage de l'ion. Cependant, si la dynamique du POE dans la direction de polarisation du champ est bien décrite classiquement, elle l'est beaucoup moins dans la direction transverse à sa trajectoire. Le POE s'étale dans la direction transverse au cours de la propagation. La probabilité de recombinaison en $x = 0$ diminue donc à chaque période, ainsi on considère uniquement le premier retour en $x = 0$. La résolution numérique de l'équation \ref{eq:TrajElec} permet la détermination de cet instant de recombinaison $t_r$ tel que $x(t_r) = 0$. Les trajectoires électroniques correspondantes sont illustrées sur la figure \ref{fig:traj_class}(a). \`{A} la recombinaison, l'électron possède une énergie cinétique
 \begin{equation}
-Ec \: (t_r) = \frac{e^2 E_0^2}{2m\omega^2} \left[ \sin(\omega t_r) - \sin(\omega t_i) \right]^2
+Ec \: (t_r) = \frac{e^2 \mathcal{E}_0^2}{2m\omega^2} \left[ \sin(\omega t_r) - \sin(\omega t_i) \right]^2
 \end{equation}
 Le calcul de $Ec$ pour chaque couple $(t_i, t_r)$ est effectué pour les trajectoires de la figure \ref{fig:traj_class}(a), et est représenté figure \ref{fig:traj_class}(b). 
 
@@ -116,7 +116,7 @@ Dans ce modèle, l'étape d'ionisation tunnel est quantique tandis que la dynami
 \subsection{Modèle quantique de Lewenstein}
 Le traitement quantique de la GHOE est développé par Maciej Lewenstein en 1994 \mycite{LewensteinPRA1994}. Il donne une justification des hypothèses du modèle semi-classique et permet de prendre en compte les effets quantiques dûs à l'ionisation tunnel et à la diffusion du POE. Nous décrivons ici brièvement les bases de ce modèle. On considère un atome dans l'approximation d'un seul électron actif soumis au champ laser $\vec{E}(t)$ polarisé linéairement selon $\vec{u_x}$. La dynamique électronique est décrite par l'équation de Schrödinger (en unités atomiques):
 \begin{equation}
-i \frac{\partial}{\partial t} \ket{\psi(\vec{x},t)} = \left( -\frac{1}{2}\nabla^2 + V_0(\vec{x}) - E x \cos(\omega t) \right) \ket{\psi(\vec{x},t)}
+i \frac{\partial}{\partial t} \ket{\psi(\vec{x},t)} = \left( -\frac{1}{2}\nabla^2 + V_0(\vec{x}) - \mathcal{E} x \cos(\omega t) \right) \ket{\psi(\vec{x},t)}
 \end{equation} 
 On fait alors les approximations suivantes:
 \begin{enumerate}
@@ -130,14 +130,14 @@ x(\Omega) = \int_{-\infty}^{+\infty} x(t) \: \rme^{i \Omega t}  \: \rmd t
 \end{equation}
 où $\Omega$ est la pulsation de l'harmonique émise, notée dans la suite indifféremment $\Omega = \omega_q = q \omega$. Le modèle de Lewenstein donne l'expression de $x(t_r)$ à l'instant de recombinaison:
 \begin{equation}
-x(t_r) = i \int_0^{t_r} \rmd t_i \int \rmd^3 \vec{p} \: \vec{d}^*_{\vec{p}+\vec{A}(t_r)} \: \text{exp}\left[i S(\vec{p}, t_i, t_r) \right] \: \vec{E}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)} (+ c.c. ??)
+x(t_r) = i \int_0^{t_r} \rmd t_i \int \rmd^3 \vec{p} \: \vec{d}^*_{\vec{p}+\vec{A}(t_r)} \: \text{exp}\left[i S(\vec{p}, t_i, t_r) \right] \: \vec{\mathcal{E}}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)} (+ c.c. ??)
 \label{eq:x_Lew}
 \end{equation}
-Dans cette expression, $\vec{p}$ est le moment canonique, $\vec{d}$ est le moment dipolaire de la transition entre l'état fondamental et le continuum, et $\vec{A}$ est le potentiel vecteur associé au champ électrique $\vec{E}$. $S$ est appelée intégrale d'action le long de la trajectoire électronique. 
+Dans cette expression, $\vec{p}$ est le moment canonique, $\vec{d}$ est le moment dipolaire de la transition entre l'état fondamental et le continuum, et $\vec{A}$ est le potentiel vecteur associé au champ électrique $\vec{\mathcal{E}}$. Le terme $S$ est appelée intégrale d'action le long de la trajectoire électronique. 
 
 \paragraph{Interprétation} En lisant l'expression \ref{eq:x_Lew} de droite à gauche, on retrouve le modèle semi-classique en trois étapes:
 \begin{enumerate}[label=(\arabic*)]
-\item à l'instant d'ionisation $t_i$, une partie du POE passe de l'état fondamental au continuum \textit{via} une transition dipolaire électrique. $\vec{p}$ étant le moment canonique, l'impulsion à cet instant est égale à $\vec{p} + \vec{A}(t_i)$ et l'amplitude de la transition s'écrit $\vec{E}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)}$.
+\item à l'instant d'ionisation $t_i$, une partie du POE passe de l'état fondamental au continuum \textit{via} une transition dipolaire électrique. $\vec{p}$ étant le moment canonique, l'impulsion à cet instant est égale à $\vec{p} + \vec{A}(t_i)$ et l'amplitude de la transition s'écrit $\vec{\mathcal{E}}(t_i) \: \vec{d}_{\vec{p}+\vec{A}(t_i)}$.
 \item entre les instants $t_i$ et $t_r$, le POE se propage dans le continuum sous l'action du champ laser et acquiert une phase 
 \begin{equation}
 S(\vec{p}, t_i, t_r) = - \int_{t_i}^{t_r} Ip + \frac{(\vec{p} + \vec{A}(t))^2}{2} \rmd t
@@ -252,7 +252,7 @@ Jusqu'à présent nous avons considéré les propriétés de l'émission harmoni
 \label{fig:PhaseMatchingHeyl}
 \end{figure}
 
-Considérons simplement l'équation de propagation des champs harmoniques $E(\vec{r},t) = \sum_q A_q \rme^{i(\vec{k_q} \vec{r} - q\omega t)}$ dans le milieu de polarisation non linéaire $P_q^{\text{NL}}$. Dans les approximations paraxiale et de l'enveloppe lentement variable, on a:
+Considérons simplement l'équation de propagation des champs harmoniques $\mathcal{E}(\vec{r},t) = \sum_q A_q \rme^{i(\vec{k_q} \vec{r} - q\omega t)}$ dans le milieu de polarisation non linéaire $P_q^{\text{NL}}$. Dans les approximations paraxiale et de l'enveloppe lentement variable, on a:
 \begin{equation}
 \Delta_\bot A_q + 2 i k_q \frac{\partial A_q}{\partial z}= -\frac{q^2 \omega^2}{\epsilon_0 c^2} P_q^{\text{NL}} \rme^{i(q \vec{k_1} - \vec{k_q})z}
 \end{equation} 
@@ -518,16 +518,16 @@ La figure \ref{fig:TOF} représente le schéma de la bouteille magnétique de Sa
 
  \mycite{VeniardPRA1996} ont montré que  pour un champ harmonique
 \begin{equation}
-E_q(t) = A_q \: \rme^{-iq\omega t + i\phi_q}
+\mathcal{E}_q(t) = A_q \: \rme^{-iq\omega t + i\phi_q}
 \end{equation}
 l'intensité du pic satellite $q+1$ est modulée en fonction du délai $\tau$ entre les impulsions XUV et IR selon:
 \begin{equation}
-S_{q+1}(\tau) = A + B \cos(2\omega \tau + \phi_{q+2} - \phi_q + \Delta \varphi_{at})
+S_{q+1}(\tau) = A + B \cos(2\omega \tau + \phi_{q+2} - \phi_q + \Delta \theta_{at})
 \label{eq:Rabbit_simple}
 \end{equation}
-Le terme $\Delta \varphi_{at}$ est discuté dans les lignes qui suivent. Si on le suppose connu, la mesure de la phase des oscillations permet de déterminer la différence de phase entre deux harmoniques consécutives. La quantité $t_e (q\omega) = \Delta \phi / 2\omega$ est le délai de groupe des harmoniques défini au paragraphe \ref{subsec:ChirpAtto}. Cette méthode, baptisée RABBIT (\textit{Reconstruction of Attosecond Beatings by Interference of Two-photon transitions}) \mycite{MullerAPB2002}, a été utilisée expérimentalement pour la première fois par \mycite{PaulScience2001}. L'expérience de Paul \textit{et al.} a permis de démontrer la synthèse de trains d'impulsions attosecondes. Par la suite, les mesures de \mycite{MairesseScience2003} ont démontré le lien entre le délai de groupe des harmoniques et l'instant de recollision (voir paragraphe \ref{subsec:ChirpAtto}). 
+Le terme $\Delta \theta_{at}$ est discuté dans les lignes qui suivent. Si on le suppose connu, la mesure de la phase des oscillations permet de déterminer la différence de phase entre deux harmoniques consécutives. La quantité $t_e (q\omega) = \Delta \phi / 2\omega$ est le délai de groupe des harmoniques défini au paragraphe \ref{subsec:ChirpAtto}. Cette méthode, baptisée RABBIT (\textit{Reconstruction of Attosecond Beatings by Interference of Two-photon transitions}) \mycite{MullerAPB2002}, a été utilisée expérimentalement pour la première fois par \mycite{PaulScience2001}. L'expérience de Paul \textit{et al.} a permis de démontrer la synthèse de trains d'impulsions attosecondes. Par la suite, les mesures de \mycite{MairesseScience2003} ont démontré le lien entre le délai de groupe des harmoniques et l'instant de recollision (voir paragraphe \ref{subsec:ChirpAtto}). 
 
-Le terme de phase supplémentaire $\Delta \varphi_{at}$ est dû au gaz photoionisé et est par conséquent appelé phase atomique. Il s'agit de la différence de phase entre les deux éléments de transition à deux photons mis en jeu. Dans les travaux pionniers cités précédemment, l'objectif était de caractériser la structure temporelle de l'émission harmonique. La phase $\Delta \varphi_{at}$ était considérée comme "petite" et calculable "par des théories établies avec une grande précision" \mycite{PaulScience2001}. Si l'on photoionise le gaz loin de toutes résonances, dans un continuum lisse, cette affirmation est vraie. Cependant cette phase se révéla plus tard une observable de grand intérêt pour étudier la photoionisation à l'échelle attoseconde. En particulier, elle peut prendre des valeurs significatives lorsque la photoionisation a lieu au voisinage de résonances. C'est l'objet d'étude des expériences des parties \ref{part:Helium} et \ref{part:Argon}, et l'expression de $\Delta \varphi_{at}$ sera détaillée dans la partie \ref{part:Delais}.
+Le terme de phase supplémentaire $\Delta \theta_{at}$ est dû au gaz photoionisé et est par conséquent appelé phase atomique. Il s'agit de la différence de phase entre les deux éléments de transition à deux photons mis en jeu. Dans les travaux pionniers cités précédemment, l'objectif était de caractériser la structure temporelle de l'émission harmonique. La phase $\Delta \theta_{at}$ était considérée comme "petite" et calculable "par des théories établies avec une grande précision" \mycite{PaulScience2001}. Si l'on photoionise le gaz loin de toutes résonances, dans un continuum lisse, cette affirmation est vraie. Cependant cette phase se révéla plus tard une observable de grand intérêt pour étudier la photoionisation à l'échelle attoseconde. En particulier, elle peut prendre des valeurs significatives lorsque la photoionisation a lieu au voisinage de résonances. C'est l'objet d'étude des expériences des parties \ref{part:Helium} et \ref{part:Argon}, et l'expression de $\Delta \varphi_{at}$ sera détaillée dans la partie \ref{part:Delais}.
 
 \begin{figure}[ht]
 \centering

@@ -4,7 +4,7 @@
 % Police figures = Helvetica 17.5
 \chapter{Délai de photoionisation attoseconde}
 \label{chap:DelaiPI}
-Dans son premier article de l'\textit{annus mirabilis} 1905, Albert Einstein pose les fondements de la mécanique quantique moderne en expliquant l'effet photoélectrique \mycite{Einstein1905}. Lorsqu'un système absorbe un photon d'énergie supérieure à son potentiel d'ionisation, un électron est émis. Pendant longtemps, l'émission du photoélectron est considérée comme un phénomène quasi-instantané. Si la transition à un photon  elle-même est instantanée (saut quantique), le "temps de sortie" de l'électron du potentiel ne l'est pas. Ceci est devenu clair dans les années 1950 avec le développement de la théorie des collisions. Lorsqu'une particule (i.e. un électron) est diffusée par un potentiel , le paquet d'ondes correspondant est déphasé par rapport à une particule libre. La dérivée spectrale de cette phase est homogène à un temps et peut être interprétée comme un délai entre la particule diffusée et la particule libre \mycite{WignerPR1955}. Ces délais infimes sont restés très théoriques jusqu'à l'avènement de la spectroscopie attoseconde.
+Dans son premier article de l'\textit{annus mirabilis} 1905, Albert Einstein pose les fondements de la mécanique quantique moderne en expliquant l'effet photoélectrique \mycite{Einstein1905}. Lorsqu'un système absorbe un photon d'énergie supérieure à son potentiel d'ionisation, un électron est émis. Pendant longtemps, l'émission du photoélectron est considérée comme un phénomène quasi-instantané. Si la transition à un photon  elle-même est instantanée (saut quantique), le "temps de sortie" de l'électron du potentiel ne l'est pas. Ceci est devenu clair dans les années 1950 avec le développement de la théorie des collisions. Lorsqu'une particule (i.e. un électron) est diffusée par un potentiel , le paquet d'ondes associé est déphasé par rapport à celui d'une particule libre. La dérivée spectrale de cette phase est homogène à un temps et peut être interprétée comme un délai entre la particule diffusée et la particule libre \mycite{WignerPR1955}. Ces délais infimes sont restés très théoriques jusqu'à l'avènement de la spectroscopie attoseconde.
 
 Dans ce chapitre, nous présenterons les résultats de la théorie de la diffusion par un potentiel qui amènent à la définition du délai de Wigner. Ensuite, nous relierons ce délai aux quantités mesurées dans une expérience de photoionisation multicouleur. Enfin, nous détaillerons les principaux résultats expérimentaux de mesure de délais de photoionisation attoseconde dans les gaz.
 
@@ -133,7 +133,7 @@ Avec $\sin \beta_\ell = \frac{A}{\sqrt{A^2+B^2}}$ et $\cos \beta_\ell = \frac{B}
 \begin{equation}
 u(r \rightarrow + \infty) \sim C \sin(kr - \beta_\ell)
 \end{equation}
-La phase $\beta_\ell$ est déterminée par continuité de la solution de \ref{eq:Scrod_radiale_u} s'annulant en $r=0$. Dans le cas d'un potentiel $V$ identiquement nul, nous avons montré précédemment que la phase $\beta_\ell$ est égale à $\ell \pi/2$. On peut alors choisir cette valeur comme référence en définissant le déphasage $\delta_{E,\ell}$ tel que:
+La \textbf{phase de diffusion} $\beta_\ell$ est déterminée par continuité de la solution de \ref{eq:Scrod_radiale_u} s'annulant en $r=0$. Dans le cas d'un potentiel $V$ identiquement nul, nous avons montré précédemment que la phase de diffusion $\beta_\ell$ est égale à $\ell \pi/2$. On peut alors choisir cette valeur comme référence en définissant le déphasage $\delta_{E,\ell}$ tel que:
 \[ u(r \rightarrow + \infty) \sim C \sin(kr -\ell \frac{\pi}{2} + \delta_{E,\ell}) \]
 $\delta_{E,\ell}$ dépend de $\ell$ et de $k$, c'est-à-dire du moment angulaire et de l'énergie.
 
@@ -166,33 +166,33 @@ La théorie de la diffusion par un potentiel central exposée précédemment pro
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
-\Phi_{k,\ell}(r) = \frac{Z \: \ln 2kr}{k} - \ell \: \frac{\pi}{2} + \underbrace{\sigma_{k,\ell} + \delta_{k,\ell}}_{\eta_{k,\ell}}
+\Phi_{k,\ell}(r) = \frac{Z \: \ln (2kr)}{k} - \ell \: \frac{\pi}{2} + \underbrace{\sigma_{k,\ell} + \delta_{k,\ell}}_{\eta_{k,\ell}}
 }
 \label{eq:dephasage_Coulomb}
 \end{equation}
-avec $\delta_{k,\ell}$ décrivant le déphasage asymptotique avec une onde libre de Coulomb et
+où $\sigma_{k,\ell}$ est la phase de Coulomb, due à la longue portée du potentiel et définie par
 \begin{equation}
 \sigma_{k,\ell} = \arg [ \: \Gamma(\ell + 1 - \frac{i Z}{k} )]
 \end{equation}
-la fonction Gamma $\Gamma$ étant définie par
+avec la fonction Gamma $\Gamma$
 \begin{equation}
 \Gamma (z+1) = \int_{0}^{+ \infty} {t^z \: \rme^{-t} \: \rmd t}
 \label{eq:FonctionGamma}
 \end{equation}
-La phase $\Phi_{k,\ell}(r)$ dépend de la distance $r$ au centre diffusant. La longue portée du potentiel Coulombien déforme la fonction d'onde, même à grande distance de l'ion.
+et $\delta_{k,\ell}$ le déphasage introduit par le potentiel à courte portée. La phase $\Phi_{k,\ell}(r)$ dépend de la distance $r$ au centre diffusant, même pour $r \rightarrow + \infty$. Ainsi la longue portée du potentiel Coulombien déforme la fonction d'onde, même à grande distance de l'ion.
 
 \subsection{Délai de Wigner}
 %Définition
 %Dalhstrom p27
 %Cas du potentiel Coulombien (longue portée), Friedrich p21 ou calcul avec approx WKB Dahlstrom p26
-D'après ce qui précède, on peut réécrire pour la partie radiale du paquet d'onde électronique diffusé \ref{eq:PaquetDonde}
+Nous nous replaçons dans le cas du potentiel à courte portée. D'après ce qui précède, pour $r \rightarrow + \infty$ on peut réécrire la partie radiale de l'onde diffusée sortante comme
 \begin{equation}
-r \Psi(t, r) \propto \int_{0}^{+ \infty} {\mid A(E) \mid \rme^{i(kr+2\delta_{E,\ell})} \rme^{-iEt/\hbar} \rmd E}
+\Psi^-(t, r) \propto \frac{1}{r} \sum_{\ell} \int_{0}^{+ \infty} {\mid A_{\ell}(E) \mid \rme^{i(kr+2\delta_{E,\ell})} \rme^{-iEt/\hbar} \rmd E}
 \label{eq:POEdiffusé}
 \end{equation}
-qui est déphasée de $\delta_{E,\ell}$ par rapport au même paquet d'onde électronique non diffusé par le potentiel
+qui est déphasée de $2 \delta_{E,\ell}$ par rapport au même paquet d'onde électronique sortant non diffusé par le potentiel
 \begin{equation}
-r \Psi_{V=0}(t, r) \propto \int_{0}^{+ \infty} {\mid A(E) \mid \rme^{ikr} \rme^{-iEt/\hbar} \rmd E}
+\Psi_{V=0}^-(t, r) \propto \frac{1}{r} \sum_{\ell} \int_{0}^{+ \infty} {\mid A_{\ell}(E) \mid \rme^{ikr} \rme^{-iEt/\hbar} \rmd E}
 \label{eq:POEnondiffusé}
 \end{equation}
 Ces deux intégrales contiennent des termes oscillant rapidement avec l'énergie. La plus importante contribution sera donc apportée par les points où la phase est stationnaire. En dérivant les phases de \ref{eq:POEdiffusé} et \ref{eq:POEnondiffusé}, on obtient les relations suvantes:
@@ -227,7 +227,7 @@ Pour un potentiel faible ($V \ll E $), $\sqrt{2m(E-V(x')} \approx \sqrt{2mE}(1-\
 où l'on définit l'intégrale du potentiel $I_V$, indépendante de l'énergie.
 On calcule alors le délai de Wigner correspondant
 \begin{equation}
-\tau_W = \hbar \frac{\rmd \delta_{E,\ell}}{\rmd E} = \sqrt{\frac{m}{8}} \frac{I_V}{E^{3/2}}
+\tau_W = 2 \hbar \frac{\rmd \delta_{E,\ell}}{\rmd E} = \sqrt{\frac{m}{2}} \frac{I_V}{E^{3/2}}
 \end{equation}
 Pour un potentiel attractif, $I_V < 0$ donc $\tau_W < 0$. L'électron diffusé par le potentiel est en avance sur l'électron libre. En effet, à énergie constante, l'énergie cinétique de l'électron est plus grande lorsqu'il passe au voisinage d'un potentiel attractif par rapport à un potentiel nul. Le délai introduit est d'autant plus grand que le potentiel est important.
 On remarque également que le délai de Wigner est proportionnel à $E^{-3/2}$, c'est-à-dire qu'un électron sera plus affecté par le potentiel si son énergie est faible.
@@ -236,15 +236,15 @@ On remarque également que le délai de Wigner est proportionnel à $E^{-3/2}$, 
 \section{Mesure des délais de photoionisation}
 %Longtemps considéré comme accessible uniquement \textit{via} des expériences de pensée, le développement de sources XUV ultra-brèves a permis les premières mesures de délais de photoionisation durant les dix dernières années. Dans ce paragraphe, nous présentons les hypothèses sous-tendant la détermination expérimentale de délais de photoionisation attoseconde ainsi que les principaux résultats dans ce domaine.
 \subsection{Délai de photoionisation et matrice de transition à un photon}
-Lors de la photoionisation, l'électron est "libéré" dans le potentiel de l'ion et diffuse hors de celui-ci. La mesure du délai de photoionisation consiste à déterminer le temps mis par l'électron pour être émis, c'est-à-dire le délai entre l'absorption du photon et la sortie de l'électron du potentiel atomique. Comment relier ce délai au délai de Wigner et à la phase de diffusion? \mycite{DahlstromJPB2012} \mycite{GuenotPRA2012}\mycite{ArgentiPRA2017}
+Lors de la photoionisation, l'électron est "libéré" dans le potentiel de l'ion et diffuse hors de celui-ci. La mesure du délai de photoionisation consiste à déterminer le temps mis par l'électron pour être émis, c'est-à-dire le délai entre l'absorption du photon et la sortie de l'électron du potentiel atomique. Comment relier ce délai au délai de Wigner et à la phase de diffusion? Dans la suite les unités atomiques sont utilisées \mycite{DahlstromJPB2012} \mycite{GuenotPRA2012}\mycite{ArgentiPRA2017}
 
-Considérons le cas d'un atome dans son état fondamental $\ket{g}$ ionisé par une impulsion XUV $\mathcal{E}(t)$, centrée en $t_{XUV}=0$. $\mathcal{E}$ est polarisée selon $z$, monochromatique et limitée par transformée de Fourier; son spectre est centré en $E_0 - E_g$, où $E_0$ et $E_g$ sont respectivement les énergies de l'état final et fondamental. La transformée de Fourier de $\mathcal{E}(t)$ est notée $\tilde{\mathcal{E}}(\Omega)$. On choisit comme fonctions propres du continuum (d'énergie $E = \hbar^2 k^2 / 2m >0$) en absence de champ électrique les fonctions $\ket{\psi_{\vec{k}}^{-}}$. Le paquet d'onde électronique ionisé par l'impulsion s'écrit alors
+Considérons le cas d'un atome dans son état fondamental $\ket{g}$ ionisé par une impulsion XUV $\mathcal{E}(t)$, centrée en $t_{XUV}=0$. $\mathcal{E}$ est polarisée selon $z$, monochromatique et limitée par transformée de Fourier; son spectre est centré en $E_0 - E_g$, où $E_0$ et $E_g$ sont respectivement les énergies de l'état final et fondamental. La transformée de Fourier de $\mathcal{E}(t)$ est notée $\tilde{\mathcal{E}}(\Omega)$. On choisit comme fonctions propres du continuum (d'énergie $E = k^2 / 2 >0$) en absence de champ électrique les fonctions $\ket{\psi_{\vec{k}}^{-}}$, correspondant aux ondes sortantes. Le paquet d'ondes électronique ionisé par l'impulsion s'écrit alors
 \begin{equation}
 \ket{\Psi (t)} = - i \sqrt{2\pi} \int{ \ket{\psi_{\vec{k}}^{-}} \: \rme^{-iEt} \: M^{(1)}_{k} \rmd E}
 \end{equation}
-où $M^{(1)}_{k}$ est l'élément de matrice de transition dipolaire entre $\ket{g}$ et $\ket{\psi_{\vec{k}}}$. Au premier ordre de la théorie des perturbations et dans l'approximation dipolaire, on a 
+où $M^{(1)}_{k}$ est l'amplitude de transition dipolaire entre $\ket{g}$ et $\ket{\psi_{\vec{k}}}$. Au premier ordre de la théorie des perturbations et dans l'approximation dipolaire, on a 
 \begin{equation}
- M^{(1)}_{k} = i \bra{\psi_{\vec{k}}} -e \: z \: \tilde{\mathcal{E}}(\Omega)\ket{g} = -i \: e \: \tilde{\mathcal{E}}(\Omega) \bra{\psi_{\vec{k}}} z \ket{g}
+ M^{(1)}_{k} = i \bra{\psi_{\vec{k}}} - z \: \tilde{\mathcal{E}}(\Omega)\ket{g} = -i \: \tilde{\mathcal{E}}(\Omega) \bra{\psi_{\vec{k}}} z \ket{g}
  \label{eq:M1phot}
 \end{equation}
 La fonction d'onde de l'état fondamental est séparée en une partie radiale et une partie angulaire: 
@@ -259,7 +259,7 @@ Nous avons vu précédemment que les fonctions $\ket{\psi_{\vec{k}}}$ ne sont pa
 \end{equation}
 En injectant \ref{eq:M1phot_g} et \ref{eq:M1phot_k} dans \ref{eq:M1phot}, en utilisant l'expression de l'opérateur en coordonnées sphériques $ z = r \cos \theta $ et en séparant les parties angulaire et radiale, il vient
 \begin{multline}
- M^{(1)}_{k} = -i \: e \: \tilde{\mathcal{E}}(\Omega) (8 \pi)^{3/2} \sum_{L,M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M \: \ast} (\vec{k}) \bra{Y_{L}^{M} (\theta, \phi)} \cos \theta \ket{Y_{\ell_g}^{m_g}(\theta, \phi)} \times \\\bra{R_{k,L}(r)} r \ket{R_{n_g,\ell_g}(r)}
+ M^{(1)}_{k} = -i \: \tilde{\mathcal{E}}(\Omega) (8 \pi)^{3/2} \sum_{L,M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M} (\vec{k}) \bra{Y_{L}^{M} (\theta, \phi)} \cos \theta \ket{Y_{\ell_g}^{m_g}(\theta, \phi)} \times \\\bra{R_{k,L}(r)} r \ket{R_{n_g,\ell_g}(r)}
 \end{multline}
 Comme $\cos \theta = \sqrt{\frac{4 \pi}{3}} Y_1^0(\theta) $, on obtient en fonction des symboles $3j$ de Wigner \mycite{LandauLifshitz}%p412
 \begin{multline}
@@ -274,7 +274,7 @@ Comme $\cos \theta = \sqrt{\frac{4 \pi}{3}} Y_1^0(\theta) $, on obtient en fonct
 \end{multline}
 Les règles de sélection pour la transition à un photon imposent $L = \ell_g \pm 1$ et $M = m_g$. Le moment de transition $M^{(1)}_{k}$ s'écrit alors
 \begin{multline}
- M^{(1)}_{k} \propto \sum_{L = \ell_g \pm 1; M = m_g} (-1)^{-M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M \: \ast} (\vec{k}) \sqrt{2 L +1} \sqrt {2 \ell_g +1} \\
+ M^{(1)}_{k} \propto \sum_{L = \ell_g \pm 1; M = m_g} (-1)^{-M} i^{-L} \rme^{i \delta_{k,L}} \: Y_{L}^{M} (\vec{k}) \sqrt{2 L +1} \sqrt {2 \ell_g +1} \\
 \times
 \begin{pmatrix}
    L & 1 & \ell_g \\
@@ -286,9 +286,9 @@ Les règles de sélection pour la transition à un photon imposent $L = \ell_g \
 \end{pmatrix} \bra{R_{k,L}(r)} r \ket{R_{n_g,\ell_g}(r)}
 \label{eq:M1phot_final}
 \end{multline}
-L'élément de matrice radial ainsi que les symboles $3j$ sont réels \mycite{CohenT2}. Si l'on ne considère qu'un unique canal d'ionisation, cet élément de matrice se simplifie. Cette situation se rencontre dans le cas de l'ionisation d'un électron $s$ ou bien si la transition vers $L = \ell_g + 1$ est favorisée par rapport à la transition vers $L = \ell_g - 1$ \mycite{FanoPRA1985}. On a alors la relation simple entre l'élément de matrice de transition et la phase de diffusion de l'état du continuum:
+L'élément de matrice radial ainsi que les symboles $3j$ sont réels \mycite{CohenT2}. Si l'on ne considère qu'un unique canal d'ionisation, cet élément de matrice se simplifie. Cette situation se rencontre dans le cas de l'ionisation d'un électron $s$ ou bien si la transition vers $L = \ell_g + 1$ est favorisée par rapport à la transition vers $L = \ell_g - 1$ (règle de propension) \mycite{FanoPRA1985}. On a alors la relation simple entre l'élément de matrice de transition et la phase de diffusion de l'état du continuum:
 \begin{equation}
-\delta_{k,L} = \arg M^{(1)}_{k} 
+\arg M^{(1)}_{k} = \delta_{k,L} + \text{cste}
 \end{equation}
 Soit le délai de photoionisation \footnote{Notons que bien que le délai de photoionisation soit relié à l'élément de matrice de transition, il n'est pas correct d'interpréter ce dernier comme "le temps qu'il faut pour absorber un photon", ce phénomène étant instantané. Pour éviter cette confusion, un autre choix de fonctions du continuum, les fonctions d'onde \textit{sélectionnées par la transition}, permet d'avoir un élément de transition réel et la phase est alors uniquement contenue dans l'expression de la fonction d'onde \mycite{GaillacPRA2016}.}
 \begin{equation}
@@ -297,11 +297,11 @@ Soit le délai de photoionisation \footnote{Notons que bien que le délai de pho
 \tau = \frac{\partial \arg M^{(1)}_{k}}{\partial \omega} = \frac{1}{2} \tau_W
 }
 \end{equation}
-\`A un facteur 2 près, le délai de photoionisation à un photon coïncide avec le délai de Wigner. La photoionisation peut alors être interprétée comme une demie collision. Ce délai est bien plus faible que la limite de résolution des détecteurs électroniques utilisés expérimentalement. Il ne peut donc pas être mesuré directement, et a longtemps été considéré comme accessible uniquement \textit{via} des expériences de pensée.
+\`A un facteur 2 près, le délai de photoionisation à un photon coïncide avec le délai de Wigner. La photoionisation peut alors être interprétée comme une demi-collision. Ce délai est bien plus faible que la limite de résolution des détecteurs électroniques utilisés expérimentalement. Il ne peut donc pas être mesuré directement, et a longtemps été considéré comme accessible uniquement \textit{via} des expériences de pensée.
 
 \subsection{Matrice de transition à deux photons}
 \label{sec:Matrice2photons}
-Les premières mesures de délais de photoionisation ont été possibles grâce au développement de techniques d'interférométrie électronique attoseconde telles que le RABBIT \mycite{VeniardPRL1995}\mycite{PaulScience2001} ou le streaking attoseconde \mycite{KienbergerScience2004}\mycite{GoulielmakisScience2004}. Ces deux méthodes font intervenir un second champ électrique sonde dans le processus de photoionisation. Comment obtenir les informations sur l'ionisation à un photon à partir de mesures à deux photons? Par la suite nous nous limiterons au cas de l'interférométrie RABBIT, détaillée au chapitre \ref{chap:ExpHHG}, pour lequel le champ d'habillage peut être traité de manière perturbative. On utilise le formalisme et les développements de Marcus Dahlström et des théoriciens du LCPMR Paris \mycite{DahlstromChemPhys2013}.
+Les premières mesures de délais de photoionisation ont été possibles grâce au développement de techniques d'interférométrie électronique attoseconde telles que le RABBIT \mycite{VeniardPRL1995}\mycite{PaulScience2001}\mycite{MullerAPB2002} ou le streaking attoseconde \mycite{KienbergerScience2004}\mycite{GoulielmakisScience2004}. Ces deux méthodes font intervenir un second champ électrique sonde dans le processus de photoionisation. Comment obtenir les informations sur l'ionisation à un photon à partir de mesures à deux photons? Par la suite nous nous limiterons au cas de l'interférométrie RABBIT, détaillée au chapitre \ref{chap:ExpHHG}, pour lequel le champ d'habillage peut être traité de manière perturbative. On utilise le formalisme et les développements de Marcus Dahlström et des théoriciens du LCPMR Paris \mycite{DahlstromChemPhys2013}.
 
 \begin{figure}
 \centering
@@ -314,17 +314,17 @@ Les premières mesures de délais de photoionisation ont été possibles grâce 
 On considère l'ionisation à deux couleurs décrite par le schéma \ref{fig:Schema_2photons}: le système d'énergie initiale $E_g$ est ionisé par l'absorption d'un photon d'énergie $\Omega$ et d'un photon d'énergie $\omega$. En général dans l'interférométrie RABBIT on a $\Omega > \omega$, le premier étant un photon XUV et le second un photon IR. Le photon IR peut être absorbé en premier ou en second. Cependant, il existe très peu d'états sous le seuil d'ionisation, ce qui rend l'absorption du photon IR en premier beaucoup moins probable qu'en second. On se concentrera donc par la suite sur les processus à deux photons décrits par le schéma \ref{fig:Schema_2photons} (a).\\
 Les champs XUV et IR sont polarisés selon la même direction $z$ qui est choisie comme axe de quantification. Au second ordre de la théorie des perturbations, l'élément de transition à deux photons correspondant à l'absorption du photon XUV suivie du photon IR s'écrit comme la somme-intégrale sur tous les états intermédiaires d'énergie $E_\nu$ (discrets pour $E_\nu < 0$ et du continuum pour $E_\nu > 0$):
 \begin{equation}
-M_{\vec{k}}^{(2)} = \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\epsilon \rightarrow 0^+} \sum_{\nu} \! \! \! \! \! \! \! \! \! \int \frac{\bra{\vec{k}} z\ket{\nu} \bra{\nu} z \ket{g}} {E_g + \Omega - E_{\nu} + i \epsilon}
+M_{\vec{k}}^{(2)} = -i \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\epsilon \rightarrow 0^+} \sum_{\nu} \! \! \! \! \! \! \! \! \! \int \frac{\bra{\vec{k}} z\ket{\nu} \bra{\nu} z \ket{g}} {E_g + \Omega - E_{\nu} + i \epsilon}
 \label{eq:MatriceDeuxPhotons}
 \end{equation}
-De la même manière que précédemment, on utilise la décomposition en ondes partielles des fonctions d'onde du continuum \ref{eq:M1phot_k} et la séparation de la fonction d'onde de l'état fondamental en partie radiale et angulaire \ref{eq:M1phot_g}. 
+De la même manière que précédemment, on utilise la décomposition en ondes partielles, et la séparation de la fonction d'onde de l'état fondamental en partie radiale et angulaire \ref{eq:M1phot_g}. 
 \begin{multline}
 M_{\vec{k}}^{(2)} = \frac{4 \pi}{3 i} (8 \pi)^{3/2} \: \mathcal{E}_\Omega \mathcal{E}_\omega \:  \sum_{L, M} (-i)^L \rme^{i \eta_L (\vec{k})} Y_{L}^{M}(\vec{k}) \sum_{\lambda, \mu} \bra{Y_{L}^{M}} Y_{1}^{0} \ket{Y_{\lambda}^{\mu}} \bra{Y_{\lambda}^{\mu}} Y_{1}^{0} \ket{Y_{\ell_g}^{m_g} } \times \\
 \biggl[ \sum_{\nu, E_\nu <0} \frac{\bra{R_{k,L}} r \ket{R_{\nu,\lambda}} \bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_g + \Omega - E_{\nu}} \\
 + \lim \limits_{\epsilon \rightarrow 0^+} \int_{0}^{+\infty} \rmd E_\nu \frac{\bra{R_{k,L}} r \ket{R_{\nu,\lambda}} \bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_g + \Omega - E_{\nu} +i \epsilon} \biggr]
 \label{eq:M2phot}
 \end{multline}
-Les états intermédiaires sont caractérisés par les nombres quantiques $\nu$, $\lambda$ et $\mu$. Les moments angulaires intermédiaire et final obéissent aux règles de sélection, rendant accessibles par transition dipolaire uniquement les états $\lambda = \ell_g \pm 1$; $L = \ell_g$ ou $\ell_g \pm 2$ et $M = \mu = m_g$. Le terme entre crochets dans \ref{eq:M2phot} sera noté par la suite $T_{L,\lambda,\ell_g}(k)$. Il correspond à la partie radiale de l'amplitude de transition, dans laquelle on a séparé la contribution des états discrets sous le seuil d'ionisation (dans la somme) des états du continuum (dans l'intégrale). Dans l'interférométrie RABBIT, l'énergie du photon XUV est supérieure au potentiel d'ionisation de l'atome $\Omega > |E_g|$, donc supérieure à l'énergie des états discrets sous le seuil. On a alors le dénominateur du premier terme $E_g + \Omega - E_\nu$ positif et grand, ce qui rend la contribution des états discrets dans $T_{L,\lambda,\ell_g}(k)$ négligeable devant celle des états du continuum. Dans l'intégrale, le dénominateur est imaginaire pur pour le moment $\kappa$ tel que $E_\kappa = \hbar^2 \kappa^2 / 2m = E_g + \Omega$. On obtient alors pour l'intégrale l'expression suivante, où $ \mathcal{P}$ représente la valeur principale de Cauchy:
+Les états intermédiaires sont caractérisés par les nombres quantiques $\nu$, $\lambda$ et $\mu$. Les moments angulaires intermédiaire et final obéissent aux règles de sélection, rendant accessibles par transition dipolaire uniquement les états $\lambda = \ell_g \pm 1$; $L = \ell_g$ ou $\ell_g \pm 2$ et $M = \mu = m_g$. Le terme entre crochets dans \ref{eq:M2phot} sera noté par la suite $T_{L,\lambda,\ell_g}(k)$. Il correspond à la partie radiale de l'amplitude de transition, dans laquelle on a séparé la contribution des états discrets sous le seuil d'ionisation (dans la somme) de celle des états du continuum (dans l'intégrale). Dans l'interférométrie RABBIT, l'énergie du photon XUV est supérieure au potentiel d'ionisation de l'atome $\Omega > |E_g|$, donc supérieure à l'énergie des états discrets sous le seuil. On a alors le dénominateur du premier terme $E_g + \Omega - E_\nu$ positif et grand, ce qui rend la contribution des états discrets dans $T_{L,\lambda,\ell_g}(k)$ négligeable devant celle des états du continuum. Dans l'intégrale, le dénominateur est imaginaire pur pour le moment $\kappa$ tel que $E_\kappa = \kappa^2 / 2 = E_g + \Omega$. On obtient alors pour l'intégrale l'expression suivante, où $ \mathcal{P}$ représente la valeur principale de Cauchy:
 \begin{multline}
  \lim \limits_{\epsilon \rightarrow 0^+} \int_{0}^{+\infty} \rmd E_\nu \frac{\bra{R_{k,L}} r \ket{R_{\nu,\lambda}} \bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_g + \Omega - E_{\nu} +i \epsilon} = \\
  \mathcal{P} \int_{0}^{+\infty} \rmd E_\nu \frac{\bra{R_{k,L}} r \ket{R_{\nu,\lambda}} \bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_g + \Omega - E_{\nu}} - i \pi \bra{R_{k,L}} r \ket{R_{\kappa,\lambda}} \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}}
@@ -354,7 +354,7 @@ D'après le paragraphe précédent, la contribution des états discrets à $\rho
 \end{equation}
 On étend l'intégration jusqu'à $- \infty$ et on remplace $R_{\nu,\lambda}$ par sa forme asymptotique
 \begin{equation}
-\mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx \mathcal{P} \int_{-\infty}^{+\infty} \rmd E_\nu \frac{C_k}{r} \sin (kr + \Phi_{k,\lambda}(r)) \frac{\bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_\kappa - E_{\nu}}
+\mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx \mathcal{P} \int_{-\infty}^{+\infty} \rmd E_\nu \frac{C_\kappa}{r} \sin (\kappa r + \Phi_{\kappa,\lambda}(r)) \frac{\bra{R_{\nu,\lambda}} r \ket{R_{n_g,\ell_g}}} {E_\kappa - E_{\nu}}
 \end{equation}
 \begin{equation}
 \mathcal{R} \text{\textit{e}} \: [ \rho_{\kappa,\lambda} (r \rightarrow + \infty)] \approx - \frac{\pi C_\kappa}{r} \: \cos (\kappa r + \Phi_{\kappa,\lambda}(r)) \: \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}}.
@@ -373,36 +373,36 @@ Avec \ref{eq:ExpressionAsymptotiqueRho} et \ref{eq:fonctionAsymptotiqueContinnum
 \begin{equation}
 T_{L,\lambda,\ell_g}(k) \approx - \pi C_k C_\kappa \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}} \int_{0}^{+ \infty} \frac{\sin (kr + \Phi_{k,L}(r))}{r} \: r \: \frac{\rme^{i(\kappa r + \Phi_{\kappa,\lambda}(r))}}{r} r^2 \rmd r
 \end{equation}
-En exprimant le sinus sous forme exponentielle, on obtient dans l'intégrale la somme de deux termes oscillants en $\rme^{i((\kappa + k) r + \Phi_{\kappa,\lambda}(r) + \Phi_{k,L}(r))}$ et $\rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda}(r) - \Phi_{k,L}(r))}$. Dans l'interférométrie RABBIT, l'énergie $\omega$ du photon IR absorbé en second est égale à la différence d'énergie entre les états intermédiaire et final, et est beaucoup plus petite que l'énergie de l'état final $\hbar^2 k^2 / 2m - \hbar^2 \kappa^2 / 2m = \omega \ll \hbar^2 k^2 / 2m$. Ainsi le terme $\propto \rme^{i((\kappa + k)}$ oscille bien plus rapidement que le second terme $\propto \rme^{i((\kappa - k)}$, et l'intégrale se simplifie
+En exprimant le sinus sous forme exponentielle, on obtient dans l'intégrale la somme de deux termes oscillants en $\rme^{i((\kappa + k) r + \Phi_{\kappa,\lambda}(r) + \Phi_{k,L}(r))}$ et $\rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda}(r) - \Phi_{k,L}(r))}$. Dans l'interférométrie RABBIT, l'énergie $\hbar \omega$ du photon IR absorbé en second est égale à la différence d'énergie entre les états intermédiaire et final, et est beaucoup plus petite que l'énergie de l'état final $ k^2 / 2 - \kappa^2 / 2 = \omega \ll k^2 / 2$. Ainsi le terme $\propto \rme^{i(\kappa + k)}$ oscille bien plus rapidement que le second terme $\propto \rme^{i(\kappa - k)}$, et l'intégrale se simplifie
 \begin{equation}
 T_{L,\lambda,\ell_g}(k) \approx - \pi C_k C_\kappa \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}} \int_{0}^{+ \infty} -\frac{1}{2i} \rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda}(r) - \Phi_{k,L}(r))} \: r \: \rmd r
 \end{equation}
-En remplaçant les déphasages par leurs expressions,
+En remplaçant les déphasages par leurs expressions, après changement de variable et en utilisant l'expression intégrale de la fonction Gamma définie par l'équation \ref{eq:FonctionGamma}, on a:
 \begin{align}
 \int_{0}^{+ \infty} \rme^{i((\kappa - k) r + \Phi_{\kappa,\lambda} - \Phi_{k,L})} \: r \: \rmd r & = \int_{0}^{+ \infty} r \: \rme^{i(\kappa-k)r} \rme^{i(\frac{Z \ln 2 \kappa r}{\kappa } - \frac{Z \ln 2 k r}{k})} \: \rme^{i(\eta_\lambda - \eta_L)} \rme^{i\frac{\pi}{2}(L - \lambda)} \rmd r \\
 & = \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \int_{0}^{+ \infty} r^{1+iZ(\frac{1}{\kappa}-\frac{1}{k})} \rme^{i(\kappa-k)r} \rmd r \\
 & = \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda} \left( \frac{i}{\kappa-k} \right)^{2+iZ(\frac{1}{\kappa}-\frac{1}{k})} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k}))
 \end{align}
-Après changement de variable et en utilisant l'expression intégrale de la fonction Gamma définie par l'équation \ref{eq:FonctionGamma}. En remarquant que $i^{iZ(\frac{1}{\kappa}-\frac{1}{k})} = \rme^{-\frac{\pi}{2}Z(\frac{1}{\kappa}-\frac{1}{k})}$, on obtient l'expression asymptotique finale de l'élément de transition radial:
+En remarquant que $i^{iZ(\frac{1}{\kappa}-\frac{1}{k})} = \rme^{-\frac{\pi}{2}Z(\frac{1}{\kappa}-\frac{1}{k})}$, on obtient l'expression asymptotique finale de l'élément de transition radial:
 \begin{multline}
-T_{L,\lambda,\ell_g}(k) \approx \frac{\pi}{2} C_k C_\kappa \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}} \frac{\rme^{-\frac{\pi}{2}Z(\frac{1}{\kappa}-\frac{1}{k})}}{(\kappa - k)^2} \\ \times \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda -1} \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k}))
+T_{L,\lambda,\ell_g}(k) \approx \frac{\pi}{2} C_k C_\kappa \bra{R_{\kappa,\lambda}} r \ket{R_{n_g,\ell_g}} \frac{\rme^{-\frac{\pi}{2}Z(\frac{1}{\kappa}-\frac{1}{k})}}{(\kappa - k)^2} \\ \times \rme^{i(\eta_\lambda - \eta_L)} i^{L-\lambda +1} \frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k})) (\kappa - k)^{-iZ(\frac{1}{\kappa}-\frac{1}{k})}
 \end{multline}
-Remarquons que la première ligne de cette expression est réelle et contient un terme exponentiel décrivant la transition entre deux états du continuum $\kappa$ et $k$. L'exponentielle décroit avec l'énergie du photon d'habillage $\omega = \hbar^2 k^2 / 2m - \hbar^2 \kappa^2$, et à énergie de photon $\omega$ fixée l'exponentielle augmente avec le moment final $k$. Expérimentalement, il sera alors plus facile d'habiller les photoélectrons avec un faisceau dans le moyen IR plutôt qu'avec 800nm, et d'habiller les photoélectrons de plus grande énergie.
+Remarquons que la première ligne de cette expression est réelle et contient un terme exponentiel décrivant la transition entre deux états du continuum $\kappa$ et $k$. L'exponentielle décroit avec l'énergie du photon d'habillage $\omega = k^2 / 2 - \kappa^2/2$, et à énergie de photon $\omega$ fixée l'exponentielle augmente avec le moment final $k$. Expérimentalement, il sera alors plus facile d'habiller les photoélectrons avec un faisceau dans le moyen IR plutôt qu'avec 800nm, et d'habiller les photoélectrons de plus grande énergie.
 
 \paragraph*{Phase} \`{A} partir de l'expression précédente, on déduit la phase de l'élément de transition radial
 \begin{equation}
-\arg T_{L,\lambda,\ell_g}(k) = \frac{\pi}{2} (L-\lambda -1) + \eta_\lambda - \eta_L + \underbrace{\arg \left(\frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k})) \right)}_{\phi_{cc}(k,\kappa)}
+\arg T_{L,\lambda,\ell_g}(k) = \frac{\pi}{2} (L-\lambda +1) + \eta_\lambda - \eta_L + \underbrace{\arg \left(\frac{(2\kappa)^{iZ/\kappa}}{(2k)^{iZ/k}} \frac{\Gamma(2+iZ(\frac{1}{\kappa}-\frac{1}{k}))}{(\kappa - k)^{iZ(\frac{1}{\kappa}-\frac{1}{k})}}\right)}_{\phi_{cc}(k,\kappa) }
 \end{equation}
 où la phase $\phi_{cc}$ est associée uniquement à la transition entre deux états intermédiaire et final du continuum d'un potentiel coulombien. C'est-à-dire qu'elle ne dépend ni de l'état initial ni du champ XUV. Elle est considérée comme universelle \mycite{DahlstromChemPhys2013} et est induite par la mesure.
 Il est désormais possible d'exprimer la phase de l'élément de matrice de transition à deux photons total \ref{eq:M2phot}:
 \begin{equation}
 \setlength\fboxrule{1pt}
 \boxed{
-\arg M_{\vec{k}}^{(2)} = \pi + \arg Y_{L}^{m_g}(k) + \phi_\Omega + \phi_\omega - \lambda \frac{\pi}{2} + \eta_\lambda (\kappa) + \phi_{cc}(k,\kappa)
+\arg M_{\vec{k}}^{(2)} = \arg Y_{L}^{m_g}(k) + \phi_\Omega + \phi_\omega - \lambda \frac{\pi}{2} + \eta_\lambda (\kappa) + \phi_{cc}(k,\kappa)
 }
 \label{eq:PhaseMatrice2phot}
 \end{equation}
-où $\phi_\Omega$ et $\phi_\omega$ sont les phases des champs XUV et IR respectivement. Les phases de diffusion de l'état final $\eta_L$ s'annulent et n'interviennent pas dans l'expression finale \ref{eq:PhaseMatrice2phot}. Ainsi, de manière surprenante, exceptée la contribution de l'harmonique sphérique, les termes contenus dans \ref{eq:PhaseMatrice2phot} dépendent uniquement de l'état intermédiaire c'est-à-dire de la transition à un photon.
+où $\phi_\Omega$ et $\phi_\omega$ sont les phases des champs XUV et IR respectivement. Les termes de phase dûs à l'état final $L$ se compensent et n'interviennent pas dans l'expression finale \ref{eq:PhaseMatrice2phot}. Ainsi, de manière surprenante, exceptée la contribution de l'harmonique sphérique, les termes contenus dans \ref{eq:PhaseMatrice2phot} dépendent uniquement de l'état intermédiaire c'est-à-dire de la transition à un photon.
 
 \subsection{Phase et délai mesurés par l'interférométrie RABBIT}
 \label{subsec:PhaseRabbit}
@@ -447,7 +447,7 @@ L'équation \ref{eq:DelaiRabbitTotal} fait apparaître le délai de groupe de l'
 \label{fig:Schultze}
 \end{figure}
 
-Historiquement, la première expérience mesurant un délai de photoionisation attoseconde n'utilisait pas la technique RABBIT mais le streaking attoseconde, dans le laboratoire du Prof. F. Krausz au MPQ - Garching \mycite{SchultzeScience2010}. Une impulsion attoseconde unique, centrée spectralement à 106 eV grâce à l'utilisation de miroirs multicouches et de filtres métalliques, photoionise simultanément les électrons $2s$ et $2p$ du néon. Une impulsion IR intense habille les électrons qui suivent alors les oscillations du potentiel vecteur associé au champ électrique. La différence entre les traces des électrons $2s$ et $2p$ permet la mesure de la différence de délai de photoionisation entre les deux niveaux électroniques à cette énergie: $\tau_{2p} - \tau_{2s} =$21 $\pm$ 5 as (figure \ref{fig:Schultze}). Pour interpréter cette valeur, les auteurs ont également effectué des calculs Hartree-Fock et estimé le délai de Wigner entre les deux sous-couches du néon, qui dans ce modèle est de 6.5 as. Le désaccord entre l'expérience et la simulation a entraîné de nombreux travaux théoriques \mycite{MoorePRA2011}\mycite{DahlstromPRA2012}\mycite{KheifetsPRA2013} plus raffinés mais conduisant également à des délais plus faibles ($\sim 10$ as) que le délai mesuré. Récemment, des mesures RABBIT effectuées dans le groupe du Prof. A. L'Huillier à Lund à des énergies légèrement inférieures se sont révélées en bon accord avec la théorie \mycite{IsingerArXiv2017}. Ces expériences ont identifié des processus de shake-up (émission d'un électron $2p$ et excitation simultanée d'un second électron $2p$ vers un état $3p$) conduisant à la même énergie de photoélectron que l'ionisation directe. Isinger \textit{et al.} attribuent l'écart entre la théorie et l'expérience de \mycite{SchultzeScience2010} à la contribution du shake-up au spectrogramme de streaking attoseconde.
+Historiquement, la première expérience mesurant un délai de photoionisation attoseconde n'utilisait pas la technique RABBIT mais le streaking attoseconde, dans le laboratoire du Prof. F. Krausz au MPQ - Garching \mycite{SchultzeScience2010}. Une impulsion attoseconde unique, centrée spectralement à 106 eV grâce à l'utilisation de miroirs multicouches et de filtres métalliques, photoionise simultanément les électrons $2s$ et $2p$ du néon. Une impulsion IR intense habille les électrons qui suivent alors les oscillations du potentiel vecteur associé au champ électrique. La différence entre les traces des électrons $2s$ et $2p$ permet la mesure de la différence de délai de photoionisation entre les deux niveaux électroniques à cette énergie: $\Delta t =$21 $\pm$ 5 as (figure \ref{fig:Schultze}). Pour interpréter cette valeur, les auteurs ont également effectué des calculs Hartree-Fock et estimé le délai de Wigner entre les deux sous-couches du néon, qui dans ce modèle est de 6.5 as. Le désaccord entre l'expérience et la simulation a entraîné de nombreux travaux théoriques \mycite{MoorePRA2011}\mycite{DahlstromPRA2012}\mycite{KheifetsPRA2013} plus raffinés mais conduisant également à des délais plus faibles ($\sim 10$ as) que le délai mesuré. Récemment, des mesures RABBIT effectuées dans le groupe du Prof. A. L'Huillier à Lund à des énergies légèrement inférieures se sont révélées en bon accord avec la théorie \mycite{IsingerArXiv2017}. Ces expériences ont identifié des processus de shake-up (émission d'un électron $2p$ et excitation simultanée d'un second électron $2p$ vers un état $3p$) conduisant à la même énergie de photoélectron que l'ionisation directe, mais en impliquant une harmonique différente. Isinger \textit{et al.} attribuent l'écart entre la théorie et l'expérience de \mycite{SchultzeScience2010} à la contribution du shake-up au spectrogramme de streaking attoseconde.
 
 \begin{figure}[h]
 \centering
@@ -457,9 +457,9 @@ Historiquement, la première expérience mesurant un délai de photoionisation a
 \label{fig:Klunder}
 \end{figure}
 
-Par ailleurs, le délai de photoionisation entre les électrons $3p$ et $3s$ de l'argon a été mesuré avec l'interférométrie RABBIT par l'équipe d'Anne L'Huiller \mycite{KlunderPRL2011}. Une sélection spectrale par un filtre de chrome des harmoniques 21 à 27 du 800 nm photoionise à la fois les électrons $3p$ et $3s$ de l'argon, qui sont alors bien séparés dans les spectre de photoélectrons (figure \ref{fig:Klunder}). \`A partir de la mesure de la phase des pics satellites et de calculs pour estimer les phases continuum-continuum $\phi_{cc}$, la différence de délai $\tau_{3s} - \tau_{3p}$ a été obtenue. Les valeurs mesurées ont été confirmées par une expérience ultérieure du même groupe \mycite{GuenotPRA2012}. Cependant la comparaison directe avec des calculs de délai de photoionisation à un photon pour l'argon est délicate dans cette gamme d'énergie proche du minimum de Cooper \mycite{CooperPR1962}\mycite{SamsonJESRP2002}. En effet, les fortes corrélations entre les électrons $3s$ et $3p$ dans le minimum de Cooper sont à prendre en compte dans la modélisation du délai à un photon, ainsi qu'un effet du potentiel ionique sur les transitions continuum-continuum pour les électrons $s$ de faible énergie cinétique, entre autres \mycite{DahlstromJPB2014}. Notons également que plusieurs voies d'ionisation vers des états de moment angulaire différent sont à inclure dans les simulations.
+Par ailleurs, le délai de photoionisation entre les électrons $3p$ et $3s$ de l'argon a été mesuré avec l'interférométrie RABBIT par l'équipe d'Anne L'Huiller \mycite{KlunderPRL2011}. Une sélection spectrale par un filtre de chrome des harmoniques 21 à 27 du 800 nm photoionise à la fois les électrons $3p$ et $3s$ de l'argon, qui sont alors bien séparés dans les spectre de photoélectrons (figure \ref{fig:Klunder}). \`A partir de la mesure de la phase des pics satellites et de calculs pour estimer les phases continuum-continuum $\phi_{cc}$, la différence de délai $\tau_{3s} - \tau_{3p}$ a été obtenue. Les valeurs mesurées ont été confirmées par une expérience ultérieure du même groupe \mycite{GuenotPRA2012}. Cependant la comparaison directe avec des calculs de délai de photoionisation à un photon pour l'argon est délicate dans cette gamme d'énergie proche d'un minimum de type Cooper dans la voie $3s \leftarrow kp$ \mycite{MobusPRA1993}. En effet, les fortes corrélations entre les électrons $3s$ et $3p$ sont à prendre en compte dans la modélisation du délai à un photon, ainsi qu'un effet du potentiel ionique sur les transitions continuum-continuum pour les électrons $s$ de faible énergie cinétique, entre autres \mycite{DahlstromJPB2014}\mycite{GuenotPRA2012}. Notons également que plusieurs voies d'ionisation vers des états de moment angulaire différent sont à inclure dans les simulations.
 
-En stabilisant activement l'interféromètre RABBIT, l'équipe de Lund a pu par la suite mesurer des délais relatifs entre les électrons de valence de plusieurs gaz rares entre 31 et 37 eV \mycite{GuenotJPB2014}. La robustesse de la méthode expérimentale a été vérifiée en comparant la mesure directe de  $\tau_{Ne} - \tau_{He}$ avec le calcul de $\tau_{Ne} - \tau_{He}$ à partir de mesures croisées avec l'argon $\tau_{Ne} - \tau_{He} = (\tau_{Ar} - \tau_{He}) - (\tau_{Ar} - \tau_{Ne})$. La figure \ref{fig:Guenot} présente la comparaison des résultats expérimentaux avec les calculs de la différence de délais à deux photons $(\tau_W + \tau_{cc})^{\mathrm{gaz} 1} - (\tau_W + \tau_{cc})^{\mathrm{gaz} 2}$ à différents niveaux de théorie: RPAE "\textit{Random Phase Approximation with Exchange}" \mycite{KheifetsPRA2013} et MCHF "\textit{Multi-Configurational Hartree Fock}" \mycite{CarettePRA2013} plus le calcul du terme continuum-continuum CC. Le calcul RPAE inclut les corrélations entre les orbitales de valence. L'approche MCHF permet de prendre en compte les effets d'états doublement excités ou d'excitation des électrons $3s$ dans l'argon. Cette nouvelle observable expérimentale permet donc de révéler des effets -notamment de corrélation électronique- très fins qui permettent de tester les théories les plus avancées. Une expérience similaire a été effectué dans le groupe de Lou Di Mauro à Ohio State \mycite{PalatchiJPB2014}.
+En stabilisant activement l'interféromètre RABBIT, l'équipe de Lund a pu par la suite mesurer des délais relatifs entre les électrons de valence de plusieurs gaz rares entre 31 et 37 eV \mycite{GuenotJPB2014}. La robustesse de la méthode expérimentale a été vérifiée en comparant la mesure directe de  $\tau_{Ne} - \tau_{He}$ avec le calcul de $\tau_{Ne} - \tau_{He}$ à partir de mesures croisées avec l'argon $\tau_{Ne} - \tau_{He} = (\tau_{Ar} - \tau_{He}) - (\tau_{Ar} - \tau_{Ne})$. La figure \ref{fig:Guenot} présente la comparaison des résultats expérimentaux avec les calculs de la différence de délais à deux photons $(\tau_W + \tau_{cc})^{\mathrm{gaz} 1} - (\tau_W + \tau_{cc})^{\mathrm{gaz} 2}$ à différents niveaux de théorie: RPAE "\textit{Random Phase Approximation with Exchange}" \mycite{KheifetsPRA2013} et MCHF "\textit{Multi-Configurational Hartree Fock}" \mycite{CarettePRA2013} plus le calcul du terme continuum-continuum CC. Le calcul RPAE inclut les corrélations entre les orbitales de valence. L'approche MCHF permet de prendre en compte les effets d'états doublement excités ou d'excitation des électrons $3s$ dans l'argon. Cette nouvelle observable expérimentale permet donc de révéler des effets -notamment de corrélation électronique- très fins qui permettent de tester les théories les plus avancées. Une expérience similaire a été effectué dans le groupe de Lou DiMauro à Ohio State \mycite{PalatchiJPB2014}.
 
 \begin{figure}
 \centering
@@ -478,7 +478,7 @@ Mentionnons également les travaux récents de \mycite{JordanPRA2017}, publiés 
 \label{fig:Jordan}
 \end{figure}
 
-Le développement de la physique attoseconde a donc permis les premières mesures de délais associés au processus de photoionisation, intrinsèquement liés à la diffusion de l'électron sur le potentiel atomique. Cependant, les potentiels réels contiennent de nombreuses interactions multiélectroniques qui ne sont pas prises en compte dans les calculs théoriques, rendant alors difficile la comparaison directe entre la quantité mesurée et les délais de photoionisation à un photon. Les expériences, complexes à mettre en \oe{uvre}, permettent une mesure dans une gamme spectrale limitée et échantillonnée uniquement aux énergies harmoniques. Il apparaît donc ici la nécessité d'un meilleur échantillonnage, par exemple en utilisant de plus grandes longueurs d'onde pour la génération d'harmoniques, et d'une certaine accordabilité pour enrichir les mesures et améliorer la comparaison avec les modèles existants. En particulier en présence de résonances ou de structures dans le continuum.
+Le développement de la physique attoseconde a donc permis les premières mesures de délais associés au processus de photoionisation, intrinsèquement liés à la diffusion de l'électron sur le potentiel atomique et permettant donc d'en révéler les moindres détails. Le cas de l'ionisation au voisinage de résonances ou de structures dans le continuum apparait particulièrement intéressant à étudier. En effet, au voisinage de ces points particuliers, on s'attend à une variation rapide de la phase de diffusion. La dynamique d'ionisation ne peut alors être simplement caractérisée par un simple délai du paquet d'onde émis. Il est nécessaire de mesurer toute l'évolution spectrale de la phase de diffusion autour de la structure pour pouvoir reconstruire cette dynamique d'ionisation.
 
 \begin{figure}
 \centering
@@ -488,7 +488,7 @@ Le développement de la physique attoseconde a donc permis les premières mesure
 \label{fig:Swoboda}
 \end{figure}
 
-En effet, des variations de phase au voisinage d'une résonance sous le seuil d'ionisation de l'hélium et d'une résonance de Hopfield dans $N_2$ ont été mesurées. L'harmonique H15 du laser titane:saphir est résonante avec l'état de Rydberg $1s3p$ de l'hélium à 23.09 eV, tout en permettant l'ionisation à deux photons et deux couleurs avec un photon IR à 800 nm. Ainsi, \mycite{SwobodaPRL2010} ont observé que le pic satellite 16 avait une phase bien différente des pics satellites supérieurs. Ils ont pu mesurer avec la technique RABBIT la phase de l'oscillation en fonction de l'écart entre l'énergie de H15 et la résonance. Un écart négatif à la résonance ne permettant pas l'ionisation à deux couleurs, seul un côté de la résonance a pu être exploré. La variation de phase correspondante, au voisinage de la résonance $1s3p$ est de 1.5 rad ($\approx \pi/2$).
+Des variations de phase au voisinage de résonances ont en effet été mesurées. Dans l'hélium, l'harmonique H15 du laser titane:saphir est résonante avec l'état de Rydberg $1s3p$ de l'hélium à 23.09 eV, tout en permettant l'ionisation à deux photons et deux couleurs avec un photon IR à 800 nm. Ainsi, \mycite{SwobodaPRL2010} ont observé que le pic satellite 16 avait une phase bien différente des pics satellites supérieurs. Ils ont pu mesurer avec la technique RABBIT la phase de l'oscillation en fonction de l'écart entre l'énergie de H15 et la résonance. Un écart négatif à la résonance ne permettant pas l'ionisation à deux couleurs, seul un côté de la résonance a pu être exploré. La variation de phase correspondante, au voisinage de la résonance $1s3p$ est de 1.5 rad ($\approx \pi/2$).
 
 \begin{figure}
 \centering
@@ -498,9 +498,9 @@ En effet, des variations de phase au voisinage d'une résonance sous le seuil d'
 \label{fig:Haessler}
 \end{figure}
 
-Finalement, notons que la technique RABBIT est également adaptée à la mesure de délais de photoionisation dans les molécules. \`A Saclay en 2009, \mycite{HaesslerPRA2009} ont effectué des mesures de phase dans $N_2$ au voisinage d'un état autoionisant. L'harmonique 11 du 800 nm est résonante avec l'état $n=3$ de la série de Hopfield de $N_2$ (figure \ref{fig:Haessler} (a-b)), état de Rydberg moléculaire convergeant vers l'état B de l'ion couplé fortement avec le continuum de l'état X et plus faiblement avec celui de l'état A. La photoionisation de $N_2$ avec un peigne d'harmoniques 11 à 15 donne un riche spectre de photoélectrons composé des états X et A de l'ion dans plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (c)). Ces deux états étant séparés de 1.11 eV, les pics satellites de l'un recouvrent partiellement les harmoniques de l'autre et il faut alors soustraire à chaque délai un spectre sans habillage pour analyser le spectrogramme RABBIT. Cette astuce a permis de déterminer la phase des pics satellites des deux états électroniques pour plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (d)). Pour le pic satellite 12 (résonant), une variation de phase de $\approx \pi$ rad est mesurée dans le canal X pour $\nu^{'} = 1$ et $\nu^{'} = 2$. Une variation de phase beaucoup plus faible pour ce pic satellite est mesurée dans le canal A, en accord avec le faible couplage entre ce continuum et l'état autoionisant résonant avec H11. Le laser n'était pas accordable dans cette expérience, ce qui n'a pas permis de déterminer la variation de phase complète au voisinage de la résonance. Des calculs TDSE ultérieurs \mycite{CaillatPRL2011} ont pu déterminer cette évolution complète.
+La technique RABBIT a également permis la mesure de délais de photoionisation dans les molécules. \`A Saclay en 2009, \mycite{HaesslerPRA2009} ont effectué des mesures de phase dans $N_2$ au voisinage d'un état autoionisant. L'harmonique 11 du 800 nm est résonante avec l'état $n=3$ de la série de Hopfield de $N_2$ (figure \ref{fig:Haessler} (a-b)), état de Rydberg moléculaire convergeant vers l'état B de l'ion couplé fortement avec le continuum de l'état X et plus faiblement avec celui de l'état A. La photoionisation de $N_2$ avec un peigne d'harmoniques 11 à 15 donne un riche spectre de photoélectrons composé des états X et A de l'ion dans plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (c)). Ces deux états étant séparés de 1.11 eV, les pics satellites de l'un recouvrent partiellement les harmoniques de l'autre et il faut alors soustraire à chaque délai un spectre sans habillage pour analyser le spectrogramme RABBIT. Cette astuce a permis de déterminer la phase des pics satellites des deux états électroniques pour plusieurs niveaux vibrationnels (figure \ref{fig:Haessler} (d)). Pour le pic satellite 12 (résonant), une variation de phase de $\approx \pi$ rad est mesurée dans le canal X pour $\nu^{'} = 1$ et $\nu^{'} = 2$. Une variation de phase beaucoup plus faible pour ce pic satellite est mesurée dans le canal A, en accord avec le faible couplage entre ce continuum et l'état autoionisant résonant avec H11. Le laser n'était pas accordable dans cette expérience, ce qui n'a pas permis de déterminer la variation de phase complète au voisinage de la résonance. Des calculs TDSE ultérieurs \mycite{CaillatPRL2011} ont pu déterminer cette évolution complète.
 
-Enfin par souci d'exhaustivité, mentionnons ici l'expérience de \mycite{KoturNatComm2016} mesurant la variation de phase au voisinage d'une résonance de Fano dans l'argon, publiée pendant ma thèse et étroitement liée à mes travaux. Ces résultats seront présentés en détail dans le chapitre \textbf{ref}.
+Enfin par souci d'exhaustivité, mentionnons ici l'expérience de \mycite{KoturNatComm2016} mesurant la variation de phase au voisinage d'une résonance de Fano dans l'argon, publiée pendant ma thèse et étroitement liée à mes travaux. Ces résultats seront présentés en détail dans la partie \ref{part:Argon}.
 
 \chapter{Résonances autoionisantes de Fano}
 \label{chap:ResonancesFano}
@@ -540,12 +540,12 @@ On considère un système atomique constitué d'un état du continuum $\ket{\psi
 
 On a:
 \begin{align}
-\bra{\varphi}\hat{H}\ket{\varphi} & = E_\varphi \\
-\bra{\psi_{E'}}\hat{H}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
-\bra{\psi_{E'}}\hat{H}\ket{\varphi} & = V_{E'}
+\bra{\varphi}\hat{H_0}\ket{\varphi} & = E_\varphi \\
+\bra{\psi_{E'}}\hat{H_0}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
+\bra{\psi_{E'}}\hat{H_0}\ket{\varphi} & = V_{E'}
 \label{eq:Hamiltonien_Fano}
 \end{align}
-où $\delta$ est la distribution de Dirac. On cherche les fonctions propres du système sous la forme
+où $\delta$ est la distribution de Dirac. On cherche les fonctions propres de $\hat{H} = \hat{H_0} + V$ sous la forme
 \begin{equation}
 \ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
 \label{eq:BaseDesConfigurations}
@@ -567,7 +567,7 @@ a_E \: E_\varphi +  a_E \mathcal{P} \int \frac{1}{E-E'} \: V_{E'} V^*_{E'} \: \r
 z(E) = \frac{E - E_\varphi - \mathcal{P} \int \frac{|V_{E'}|^2}{E-E'} \rmd E'}{|V_{E}|^2}
 \end{equation}
 $\mathcal{P} \int \frac{|V_{E'}|^2}{E-E'} \rmd E'$, noté $F(E)$ par Fano, est l'écart en énergie entre la position de la résonance et $E_\varphi$. Si $V_{E'}$ est indépendant de l'énergie, $F(E) = 0$.
-$a_E$ est déterminée en normalisant $\ket{\Psi_E}$, on a alors
+$a_E$ est déterminée en normalisant $\ket{\Psi_E}$. Après plusieurs étapes de calcul, on a:
 \begin{equation}
 |a_E|^2 = \frac{1}{|V_E|^2 \left( \pi^2 + z(E)^2 \right)} = \frac{|V_E|^2}{\left( E - E_\varphi - F(E) \right) ^2 + \pi^2 |V_E|^4}
 \label{eq:Expression_aE}
@@ -581,15 +581,15 @@ On reconnaît dans l'expression de $a_E$ une fonction lorentzienne de largeur à
 
 \paragraph*{Comportement asymptotique} \`A large distance $r$, la fonction d'onde du continuum non modifiée $\psi_{E'}$ s'écrit, d'après le paragraphe \ref{sec:DiffusionPotentielCentral}
 \begin{equation}
-\psi_{E'}(r \rightarrow + \infty) \propto \sin \left( k(E') + \delta \right)
+\psi_{E'}(r \rightarrow + \infty) \propto \frac{1}{r} \sin \left( k(E') r + \delta \right)
 \end{equation}
 On a alors
 \begin{equation}
 \int b_{E'} \ket{\psi_{E'}} \rmd E' \propto \int b_{E'} \sin \left( k(E')r + \delta \right) \rmd E'
 \end{equation}
-\begin{equation}
-\propto \mathcal{P} \int V_{E'} a_E \frac{1}{E - E'} \sin \left( k(E')r + \delta \right) \rmd E' + \int V_{E'} a_E \sin \left( k(E')r + \delta \right) z(E) \delta(E-E') \rmd E'
-\end{equation}
+\begin{multline}
+\propto \mathcal{P} \int V_{E'} a_E \frac{1}{E - E'} \sin \left( k(E')r  + \delta \right) \rmd E' \\ + \int V_{E'} a_E \sin \left( k(E')r + \delta \right) z(E) \delta(E-E') \rmd E'
+\end{multline}
 Si $V_{E'}$ s'annule rapidement pour $E' \neq E$, la valeur principale est donnée par l'équation \ref{eq:PartieReelleDeRho} et on a alors
 \begin{equation}
 \int b_{E'} \ket{\psi_{E'}} \rmd E' \propto V_E a_E \left[ - \pi \cos (k(E)r + \delta) + z(E) \sin(k(E)r + \delta) \right]
@@ -607,6 +607,11 @@ d'où
 a_E = \frac{\sin \Delta}{\pi V_E} \: \: \: ; \: \: \: b_{E'} = \frac{V_{E'} \sin \Delta}{\pi V_E} \frac{1}{E - E'} - \cos \Delta \: \delta(E-E')
 \label{eq:Expressions_aE_bE}
 \end{equation}
+L'expression de la fonction d'onde $\ket{\Psi_E}$ est alors
+\begin{equation}
+\ket{\Psi_E} = \frac{\sin \Delta}{\pi V_E} \ket{\varphi} + \int \left[ \frac{V_{E'} \sin \Delta}{\pi V_E} \frac{1}{E - E'} - \cos \Delta \: \delta(E-E') \right] \ket{\psi_{E'}} \rmd E'
+\end{equation}
+
 
 \subsection{Section efficace}
 Nous nous intéressons essentiellement aux transitions dipolaires électriques, mais les profils de Fano se rencontrent également dans d'autres types d'expériences comme la diffusion de particules. Par souci de généralité, l'opérateur de transition sera donc noté ici $\hat{T}$. La transition entre un état initial $\ket{g}$ et la résonance de Fano $\ket{\Psi_E}$ s'écrit, d'après \ref{eq:Expressions_aE_bE}
@@ -675,17 +680,51 @@ Une expression différente de la section efficace permet de rendre compte de l'i
 \label{eq:SectionEfficaceFano3termes}
 \end{equation}
 
+\subsection{Phase de l'amplitude de transition vers une résonance de Fano}
+En utilisant une normalisation quelque peu différente de celle utilisée pour obtenir l'équation \ref{eq:Expression_aE}, la fonction d'onde caractérisant la résonance de Fano peut s'écrire
+\begin{equation}
+\ket{\Psi_E} = \frac{\epsilon}{\epsilon - i} \ket{\psi_E} + \frac{1}{\pi V_E} \frac{1}{\epsilon - i} \ket{\Phi}
+\end{equation} 
+Ainsi, l'amplitude de transition de l'état fondamental $\ket{g}$ vers $\ket{\Psi_E}$ est
+\begin{align}
+M^{(1)}_E = \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\epsilon}{\epsilon + i} \bra{\psi_E} \hat{T} \ket{g} + \frac{1}{\pi V_E^*} \frac{1}{\epsilon + i} \bra{\Phi} \hat{T} \ket{g} \\
+\label{eq:TransitionEnFonctiondeR_e}
+& = \bra{\psi_E} \hat{T} \ket{g} \left( \frac{\epsilon + q}{\epsilon + i} \right) \\
+& = \bra{\psi_E} \hat{T} \ket{g} \times \mathcal{R}(\epsilon)
+\end{align}
+Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}). Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
+\begin{equation}
+\setlength\fboxrule{1pt}
+\boxed{
+\arg M^{(1)}_E = \arg \mathcal{R}(\epsilon) = \arctan \epsilon - \pi \: \Theta (\epsilon + q) + \frac{\pi}{2}
+}
+\label{eq:Arg1photonFano}
+\end{equation}
+où $\Theta$ désigne la fonction de Heaviside. La phase de l'amplitude de transition présente donc un saut de $\pi$ en $\epsilon = -q$ (figure \ref{fig:FanoPlanComplexeFinal}(b)). Ce saut de phase n'est pas une discontinuité physique de l'amplitude de transition $M^{(1)}_E$ (qui est une fonction continue de $\epsilon$), mais reflète simplement la discontinuité de la fonction $\arg$ à l'origine. En effet, le facteur résonant $\mathcal{R}(\epsilon)$ peut être représenté sous la forme d'un cercle dans le plan complexe:
+\begin{equation}
+\mathcal{R}(\epsilon) = \frac{1-iq}{2} + \frac{1+iq}{2} \: \frac{\epsilon - i}{\epsilon + i}
+\end{equation}
+$\mathcal{R}(\epsilon)$ est un cercle de centre $\left(\frac{1}{2};- \frac{q}{2} \right)$ et de rayon $\frac{\sqrt{1+q^2}}{2}$ (figure \ref{fig:FanoPlanComplexeFinal}(a)). Il intercepte l'origine en $\epsilon = - q$.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/DelaisPI/}{Fano_plan_complexe_final.pdf_tex}
+\caption{(a) Trajectoire de $\mathcal{R}(\epsilon)$ dans le plan complexe ($\epsilon$ variant de -15 à +15). (b) Phase de $\mathcal{R}(\epsilon)$ pour différentes valeurs du paramètre $q$.}
+\label{fig:FanoPlanComplexeFinal}
+\end{figure}
+
 \section{Interaction entre un état discret et plusieurs continua}
 \label{sec:PlusieursContinua}
 Cette situation se rencontre lorsque plusieurs voies d'ionisation sont possibles, par exemple l'ionisation d'un électron $p$ peut conduire à l'émission d'un électron dans les continua $s$ ou $d$. Un état discret d'énergie supérieure au potentiel d'ionisation du système peut alors être couplé différemment aux deux continua.\\
 Les fonctions d'onde des continua sont notées $\ket{\psi_{E'}}$ et $\ket{\chi_{E'}}$ et sont orthogonales. Le système est caractérisé par les équations suivantes:
 \begin{align}
-\bra{\varphi}\hat{H}\ket{\varphi} & = E_\varphi \\
-\bra{\psi_{E'}}\hat{H}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
-\bra{\chi_{E'}}\hat{H}\ket{\chi_{E''}} & = E' \delta(E''-E') \\
-\bra{\psi_{E'}}\hat{H}\ket{\varphi} & = V_{E'} \\
-\bra{\chi_{E'}}\hat{H}\ket{\varphi} & = W_{E'} \\
-\bra{\psi_{E'}}\hat{H}\ket{\chi_{E''}} & = 0
+\bra{\varphi}\hat{H_0}\ket{\varphi} & = E_\varphi \\
+\bra{\psi_{E'}}\hat{H_0}\ket{\psi_{E''}} & = E' \delta(E''-E') \\
+\bra{\chi_{E'}}\hat{H_0}\ket{\chi_{E''}} & = E' \delta(E''-E') \\
+\bra{\psi_{E'}}\hat{H_0}\ket{\varphi} & = V_{E'} \\
+\bra{\chi_{E'}}\hat{H_0}\ket{\varphi} & = W_{E'} \\
+\bra{\psi_{E'}}\hat{H_0}\ket{\chi_{E''}} & = 0
 \end{align}
 Les fonctions propres sont cherchées sous la forme
 \begin{equation}
@@ -751,7 +790,7 @@ Ar $3s3p^64p$ & 26.606 & -0.28 & 80 & 8 & 0.84 &\mycite{BerrahJPB1996} \\
 \label{tab:ParamètresFano}
 \end{table}
 
-En 2002, \mycite{DrescherNature2002} s'intéressent à la dynamique d'un autre processus de désexcitation électronique: la relaxation Auger. Une impulsion attoseconde unique centrée à 97 eV excite le krypton qui émet des électrons Auger. Sous l'influence d'une seconde impulsion IR brève et intense, les électrons Auger sont redistribués dans des bandes latérales. L'évolution temporelle du signal des bandes latérales permet d'obtenir une estimation de la durée de vie de la lacune, tout à fait comparable à la valeur obtenue grâce à la largeur de raie. Par la suite, \mycite{ZhaoPRA2005} étudient théoriquement la possibilité de mesurer directement dans le domaine temporel les durées de vie d'états autoionisants par la même méthode. La première mesure directe de la durée de vie de la résonance de Fano $2s2p$ de l'hélium avec cette technique est effectuée quelques années plus tard \mycite{GilbertsonPRL2010}. La figure \ref{fig:Gilbertson} montre le spectre d'électrons en fonction du délai entre une impulsion attoseconde unique et une impulsion IR de 9 fs. Conformément aux prédictions de \mycite{ZhaoPRA2005}, des bandes latérales sont observées de part et d'autre de la résonance lorsque les deux impulsions sont simultanées. Le signal total d'électrons au voisinage de la résonance est asymétrique autour de $\Delta t = 0$. Son évolution pour $\Delta t > 0$ (IR après XUV) est en très bon accord avec l'ajustement exponentiel de durée de vie $\tau = 17$ fs (voir tableau \ref{tab:ParamètresFano}).
+En 2002, \mycite{DrescherNature2002} s'intéressent à la dynamique d'un autre processus de désexcitation électronique: la relaxation Auger. Une impulsion attoseconde unique centrée à 97 eV photoionise le krypton en couche interne puis un électron de valence comble la lacune tandis qu'un autre électron de valence est éjecté pour assurer la conservation d'énergie, électron appelé "Auger" \mycite{Auger1925}. Sous l'influence d'une seconde impulsion IR brève et intense, les électrons Auger sont redistribués dans des bandes latérales. L'évolution temporelle du signal des bandes latérales permet d'obtenir une estimation de la durée de vie de la lacune, tout à fait comparable à la valeur obtenue grâce à la largeur de raie. Par la suite, \mycite{ZhaoPRA2005} étudient théoriquement la possibilité de mesurer directement dans le domaine temporel les durées de vie d'états autoionisants par la même méthode. La première mesure directe de la durée de vie de la résonance de Fano $2s2p$ de l'hélium avec cette technique\footnote{Gilbertson \textit{et al.} utilisent directement le signal de l'état autoionisant et non pas des bandes latérales, mais le dispositif expérimental est similaire.} est effectuée quelques années plus tard dans le groupe ed Z. Chang \mycite{GilbertsonPRL2010}. La figure \ref{fig:Gilbertson} montre le spectre d'électrons en fonction du délai entre une impulsion attoseconde unique et une impulsion IR de 9 fs. Conformément aux prédictions de \mycite{ZhaoPRA2005}, des bandes latérales sont observées de part et d'autre de la résonance lorsque les deux impulsions sont simultanées. Le signal total d'électrons au voisinage de la résonance est asymétrique autour de $\Delta t = 0$. Son évolution pour $\Delta t > 0$ (IR après XUV) est en très bon accord avec l'ajustement exponentiel de durée de vie $\tau = 17$ fs (voir tableau \ref{tab:ParamètresFano}).
 
 \begin{figure}
 \centering
@@ -771,52 +810,21 @@ Le groupe de Zenghu Chang a également mesuré la durée de vie de la résonance
 \label{fig:Wang}
 \end{figure}
 
-Cependant, la seule mesure de la durée de vie de la résonance ne permet pas de caractériser entièrement la dynamique électronique qui a lieu lors de l'autoionisation. En effet, la transformée de Fourier d'une décroissance exponentielle dans le temps est un profil de raie Lorentzien, très différent de l'asymétrie caractéristique des résonances de Fano. En 2005, \mycite{WickenhauserPRL2005} s'intéressent théoriquement à la dynamique complète de la construction de la résonance de Fano. L'interaction d'une résonance de Fano (décrite par le modèle présenté au paragraphe \ref{sec:UniqueContinuum}) avec une impulsion XUV de durée inférieure à la durée de vie de la résonance ($\tau_X < \tau_r$) et un champ laser est étudiée par la résolution de l'équation de Schrödinger dépendante du temps. Les auteurs calculent l'expression de la probabilité d'ionisation $P(E, t) = |\bra{E}\ket{\Psi (t)}|^2$ dépendant de l'énergie et du temps. L'expression analytique obtenue pour l'amplitude d'ionisation$\bra{E}\ket{\Psi (t)}$ (équation (11) de \mycite{WickenhauserPRL2005}) est à rapprocher de l'expression de la section efficace \ref{eq:SectionEfficaceFano3termes}. En effet, elle contient trois termes: l'excitation directe de l'état fondamental vers le continuum en l'absence de résonance, la transition indirecte vers le continuum \textit{via} la résonance, et un terme de couplage. $P(E, t)$ représente la construction du profil de raie au cours du temps, et est reproduit figure \ref{fig:Wickenhauser}. Pour $t \leq \tau_r$, le spectre large reflète la durée ultra-brève de l'impulsion de pompe $\tau_X$, seule l'excitation directe contribuant au spectre. Lorsque $t$ augmente, les interférences avec le chemin résonant ont lieu et modifient le spectre d'absorption, qui converge pour $t \rightarrow + \infty$ vers le profil de raie de la résonance. 
+Cependant, la seule mesure de la durée de vie de la résonance ne permet pas de caractériser entièrement la dynamique électronique qui a lieu lors de l'autoionisation. En effet, la transformée de Fourier d'une décroissance exponentielle dans le temps est un profil de raie Lorentzien, très différent de l'asymétrie caractéristique des résonances de Fano. Cette asymétrie est directement reliée à l'interférence entre les chemins direct et résonant qui se produit, comme nous allons le voir, aux premiers instants de l'ionisation. En 2005, \mycite{WickenhauserPRL2005} s'intéressent théoriquement à la dynamique complète de la construction de la résonance de Fano. L'interaction d'une résonance de Fano (décrite par le modèle présenté au paragraphe \ref{sec:UniqueContinuum}) avec une impulsion XUV de durée inférieure à la durée de vie de la résonance ($\tau_X < \tau_r$) est étudiée par la résolution de l'équation de Schrödinger dépendante du temps. Les auteurs calculent l'expression de la probabilité d'ionisation $P(E, t) = |\braket{E|\Psi (t)}|^2$ dépendant de l'énergie et du temps. L'expression analytique obtenue pour l'amplitude d'ionisation$\braket{E|\Psi (t)}$ (équation (11) de \mycite{WickenhauserPRL2005}) est à rapprocher de l'expression de la section efficace \ref{eq:SectionEfficaceFano3termes}. En effet, elle contient trois termes: l'excitation directe de l'état fondamental vers le continuum en l'absence de résonance, la transition indirecte vers le continuum \textit{via} la résonance, et un terme de couplage. $P(E, t)$ représente la construction du profil de raie au cours du temps, et est reproduit figure \ref{fig:Wickenhauser}. Pour $t \leq \tau_r$, le spectre large reflète la durée ultra-brève de l'impulsion de pompe $\tau_X$, seule l'excitation directe contribuant au spectre. Lorsque $t$ augmente, l'état résonant peuplé par l'excitation XUV commence à se "vider" dans le continuum par interaction de configuration. Les interférences entre ce chemin résonant et le chemin direct modifient le spectre d'absorption, qui converge pour $t \rightarrow + \infty$ vers le profil de raie de la résonance. 
 
 \begin{figure}[h]
 \centering
 \def\svgwidth{0.6\textwidth}
 \import{Figures/DelaisPI/}{Wickenhauser.pdf_tex}
-\caption{Représentation temporo-spectrale de la probabilité d'ionisation $P(E, t)$: calcul de la construction du profil de Fano au cours du temps. (1) Spectre pour $t \leq \tau_r$ répliquant l'impulsion de pompe. (2) Spectre pour $t \rightarrow + \infty$ correspondant au profil de raie ($q = 1$). Extrait de \mycite{WickenhauserPRL2005}.}
+\caption{Représentation temporo-spectrale de la probabilité d'ionisation $P(E, t)$: calcul de la construction du profil de Fano au cours du temps. (1) Spectre pour $t \leq \tau_r$ répliquant le spectre de l'impulsion de pompe. (2) Spectre pour $t \rightarrow + \infty$ correspondant au profil de raie ($q = 1$). Extrait de \mycite{WickenhauserPRL2005}.}
 \label{fig:Wickenhauser}
 \end{figure}
 
-L'observation de la dynamique complète d'autoionisation à l'échelle attoseconde requiert donc la mesure de l'amplitude \textbf{et} de la phase de la transition, ce qui n'était pas accessible jusqu'alors.
+L'observation résulue en temps de la dynamique complète d'autoionisation requiert donc la mesure des électrons émis dès les premiers instants de l'ionisation afin de résoudre le processus direct et les interférences avec le chemin indirect. \'{E}tant donnée l'échelle ultra-rapide (attoseconde) de cette dynamique initiale, elle est très difficile à observer "en temps réel" (et ne l'avait pas été jusqu'au début de ma thèse, soit 10 ans après les prédictions de Wickenhauser \textit{et al}). Nous avons choisi une autre approche, inspirée de l'optique ultra-rapide, qui a été de mesurer dans le domaine spectral l'amplitude et la phase de la transition résonante. L'accès à la phase de diffusion est en effet devenue possible grâce à la technique RABBIT, comme nous l'avons vu au chapitre \ref{chap:DelaiPI}. L'utilisation de la transformée de Fourier permet ensuite le passage dans le domaine temporel.
 
 \chapter{Transitions résonantes à deux photons}
 \label{chap:2photons_et_Fano}
-Dans la mesure de la section efficace d'absorption au voisinage d'une résonance de Fano (équation \ref{eq:ProfilFano}), l'information sur la phase de la transition est perdue. Nous avons vu précédemment que l'interférométrie RABBIT est une technique utilisée pour mesurer les phases d'éléments de transition à deux photons, que l'on peut interpréter en termes de phases d'éléments de transition à un photon. Dans quelle mesure cette méthode s'applique-t-elle lorsque l'on souhaite mesurer la phase d'une transition vers une résonance de Fano? Dans ce chapitre nous nous appuierons sur les travaux du groupe de Fernando Mart\'{i}n \mycite{JimenezGalanPRL2014}, \mycite{JimenezGalanPRA2016}, \mycite{ArgentiPRA2017}.
-
-\section{Phase de l'amplitude de transition vers une résonance de Fano}
-En utilisant une normalisation quelque peu différente de celle utilisée pour obtenir l'équation \ref{eq:Expression_aE}, la fonction d'onde caractérisant la résonance de Fano peut s'écrire, avec les notations du chapitre \ref{chap:ResonancesFano}
-\begin{equation}
-\ket{\Psi_E} = \frac{\epsilon}{\epsilon - i} \ket{\psi_E} + \frac{1}{\pi V_E} \frac{1}{\epsilon - i} \ket{\Phi}
-\end{equation} 
-Ainsi, l'amplitude de transition de l'état fondamental $\ket{g}$ vers $\ket{\Psi_E}$ est
-\begin{align}
-M^{(1)}_E = \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\epsilon}{\epsilon + i} \bra{\psi_E} \hat{T} \ket{g} + \frac{1}{\pi V_E^*} \frac{1}{\epsilon + i} \bra{\Phi} \hat{T} \ket{g} \\
-\label{eq:TransitionEnFonctiondeR_e}
-& = \bra{\psi_E} \hat{T} \ket{g} \left( \frac{\epsilon + q}{\epsilon + i} \right) \\
-& = \bra{\psi_E} \hat{T} \ket{g} \times \mathcal{R}(\epsilon)
-\end{align}
-Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}). Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
-\begin{equation}
-\arg M^{(1)}_E = \arg \mathcal{R}(\epsilon) = \arctan \epsilon - \pi \: \Theta (\epsilon + q) + \frac{\pi}{2}
-\label{eq:Arg1photonFano}
-\end{equation}
-où $\Theta$ désigne la fonction de Heaviside. La phase de l'amplitude de transition présente donc un saut de $\pi$ en $\epsilon = -q$ (figure \ref{fig:FanoPlanComplexeFinal}(b)). Ce saut de phase n'est pas une discontinuité physique de l'amplitude de transition $M^{(1)}_E$ (qui est une fonction continue de $\epsilon$), mais reflète simplement la discontinuité de la fonction $\arg$ à l'origine. En effet, le facteur résonant $\mathcal{R}(\epsilon)$ peut être représenté sous la forme d'un cercle dans le plan complexe:
-\begin{equation}
-\mathcal{R}(\epsilon) = \frac{1-iq}{2} + \frac{1+iq}{2} \: \frac{\epsilon - i}{\epsilon + i}
-\end{equation}
-$\mathcal{R}(\epsilon)$ est un cercle de centre $\left(\frac{1}{2};- \frac{q}{2} \right)$ et de rayon $\frac{\sqrt{1+q^2}}{2}$ (figure \ref{fig:FanoPlanComplexeFinal}(a)).
-
-\begin{figure}
-\centering
-\def\svgwidth{\textwidth}
-\import{Figures/DelaisPI/}{Fano_plan_complexe_final.pdf_tex}
-\caption{(a) Trajectoire de $\mathcal{R}(\epsilon)$ dans le plan complexe ($\epsilon$ variant de -15 à +15). (b) Phase de $\mathcal{R}(\epsilon)$ pour différentes valeurs du paramètre $q$.}
-\label{fig:FanoPlanComplexeFinal}
-\end{figure}
+Dans la mesure de la section efficace d'absorption au voisinage d'une résonance de Fano (équation \ref{eq:ProfilFano}), l'information sur la phase de la transition est perdue. Nous avons vu précédemment que l'interférométrie RABBIT est une technique utilisée pour mesurer les phases d'éléments de transition à deux photons, que l'on peut interpréter en termes de phases d'éléments de transition à un photon dans le cas d'un continuum "lisse", c'est-à-dire sans structure. Dans quelle mesure cette méthode s'applique-t-elle lorsque l'on souhaite mesurer la phase d'une transition vers une résonance de Fano? Dans ce chapitre nous nous appuierons sur les travaux du groupe de Fernando Mart\'{i}n \mycite{JimenezGalanPRL2014}, \mycite{JimenezGalanPRA2016}, \mycite{ArgentiPRA2017}.
 
 \section{Amplitude de transition à deux photons}
 Il s'agit de combiner l'approche du chapitre \ref{chap:DelaiPI} avec le modèle de Fano présenté au chapitre \ref{chap:ResonancesFano}. Ainsi, on réécrit l'équation \ref{eq:MatriceDeuxPhotons}:
@@ -854,7 +862,7 @@ où l'on introduit le paramètre $\gamma$ tel que:
 \end{equation}
 $\gamma$ mesure le rapport des deux transitions entre la résonance et le continuum final: la transition directe entre l'état lié et le continuum $\bra{\vec{k}} z \ket{\varphi}$, et la transition indirecte passant par le continuum intermédiaire faisant intervenir le couplage entre l'état lié $\ket{\varphi}$ et $\ket{\psi_E}$ puis la transition radiative entre $\ket{\psi_E}$ et $\ket{\vec{k}}$, $\bra{\vec{k}} z \ket{\psi_E} V_E / \omega$.
 
-L'expression \ref{eq:M2phot_Fano} est très similaire à l'équation \ref{eq:TransitionEnFonctiondeR_e}. On peut introduire un paramètre $q$ effectif conmplexe
+L'expression \ref{eq:M2phot_Fano} est très similaire à l'équation \ref{eq:TransitionEnFonctiondeR_e}. On peut introduire un paramètre $q$ effectif complexe
 \begin{equation}
 q_{\text{eff}} = q(1-\gamma) + i \gamma
 \end{equation}
@@ -864,7 +872,7 @@ ainsi qu'un facteur résonant effectif
 & = \gamma + (1 - \gamma) \frac{\epsilon + q}{\epsilon + i}\\
 & = \gamma + (1 - \gamma) \times \mathcal{R}(\epsilon) 
 \end{align}
-$\mathcal{R}_{\text{eff}}(\epsilon)$ décrit toujours un cercle dans le plan complexe, mais multiplié par $1 - \gamma$ et décalé de $\gamma$ sur l'axe des réels (figure \ref{fig:FanoComplexeEffectif}(a)). Ainsi, en général $\mathcal{R}_{\text{eff}}(\epsilon)$ n'intercepte plus l'origine et la variation de phase correspondante est différente. On retrouve le cas de $\mathcal{R}(\epsilon)$ uniquement pour $\gamma = 0$, c'est-à-dire si l'état discret n'est pas couplé radiativement au continuum final. Pour $\gamma > 0$, le cercle est contracté et la variation de phase est adoucie par rapport à la transition à un photon. Pour $\gamma < 0$, le cercle est au contraire agrandi et la phase varie alors sur $2 \pi$. Enfin, remarquons que $\gamma$ est proportionnel à $\omega$ donc d'une part il est de signe opposé pour l'absorption et l'émission du second photon, les variations de phase correspondantes sont alors différentes dans les deux cas. D'autre part la phase est a priori différente si le photon d'habillage est à 800 nm ou dans l'infrarouge moyen.
+$\mathcal{R}_{\text{eff}}(\epsilon)$ décrit toujours un cercle dans le plan complexe, mais multiplié par $1 - \gamma$ et décalé de $\gamma$ sur l'axe des réels (figure \ref{fig:FanoComplexeEffectif}(a)). Ainsi, en général $\mathcal{R}_{\text{eff}}(\epsilon)$ n'intercepte plus l'origine et la variation de phase correspondante est différente. On retrouve le cas de $\mathcal{R}(\epsilon)$ uniquement pour $\gamma = 0$, c'est-à-dire si l'état discret n'est pas couplé radiativement au continuum final. Pour $\gamma > 0$, le cercle est contracté et la variation de phase est adoucie par rapport à la transition à un photon. Pour $\gamma < 0$, le cercle est au contraire agrandi et la phase varie alors sur $2 \pi$. Enfin, remarquons que $\gamma$ est proportionnel à $\omega$, ce qui a deux conséquences importantes. D'une part il est de signe opposé pour l'absorption et l'émission du second photon, les variations de phase correspondantes sont alors différentes dans les deux cas. D'autre part l'évolution de la phase est a priori différente si le photon d'habillage est à 800 nm ou dans le moyen infrarouge.
 
 \begin{figure}
 \centering
@@ -897,6 +905,6 @@ avec
 \begin{equation}
 r = \frac{\bra{\vec{k}} z \ket{\Psi_E^{\text{non int}}} \bra{\Psi_E^{\text{non int}}} z \ket{g}}{\bra{\vec{k}} z \ket{\Psi_E^{\text{int}}} \bra{\Psi_E^{\text{int}}} z \ket{g}}
 \end{equation}
-Ce qui revient à déplacer $\mathcal{R}_{\text{eff}}(\epsilon)$ dans le plan complexe d'une quantité $r$ ($r \in \mathbb{C}$). La phase de $M_{\vec{k}, \text{Fano, multicanaux}}^{(2)}$ dépend alors des couplages avec les différents continua et est quelconque \textit{a priori}.
+Le terme r exprime la force du couplage dipolaire au continuum final à travers le continuum intermédiaire "non interactif" par rapport à celui passant par le continuum "interactif". Ceci qui revient à déplacer $\mathcal{R}_{\text{eff}}(\epsilon)$ dans le plan complexe d'une quantité $r$ ($r \in \mathbb{C}$). La phase de $M_{\vec{k}, \text{Fano, multicanaux}}^{(2)}$ dépend alors des couplages avec les différents continua et est quelconque \textit{a priori} \mycite{JimenezGalanPRA2016}.
 
 

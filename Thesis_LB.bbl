@@ -1,4 +1,4 @@
-\begin{thebibliography}{189}
+\begin{thebibliography}{191}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -49,6 +49,11 @@ Argenti L, Jim{\'e}nez-Gal{\'a}n A, Caillat J, Ta{\"i}eb R, Maquet A, et
 \newblock \emph{Control of photoemission delay in resonant two-photon
   transitions}.
 \newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Auger(1925)]{Auger1925}
+Auger P.
+\newblock \emph{Sur l'effet photo{\'e}lectrique compos{\'e}}.
+\newblock Journal de Physique et le Radium \textbf{6},~205--208 (1925).
 
 \bibitem[Augst et~al.(1989)Augst, Strickland, Meyerhofer, Chin, et
   Eberly]{AugstPRL1989}
@@ -619,6 +624,15 @@ Iida Y, Carnovale F, Daviel S, et Brion C.
   molecular and dissociative photoionization of nitric oxide}.
 \newblock Chemical physics \textbf{105},~211--225 (1986).
 
+\bibitem[Isinger et~al.(2017)Isinger, Squibb, Busto, Zhong, Harth, Kroon,
+  Nandi, Arnold, Miranda, Dahlström, Lindroth, Feifel, Gisselbrecht, et
+  L'Huillier]{IsingerArXiv2017}
+Isinger M, Squibb R, Busto D, Zhong S, Harth A, Kroon D, Nandi S, Arnold CL,
+  Miranda M, Dahlström J, Lindroth E, Feifel R, Gisselbrecht M, et L'Huillier
+  A.
+\newblock \emph{Photoionization in the time and frequency domain}.
+\newblock arXiv preprint arXiv:1709.01780 (2017).
+
 \bibitem[Jahnke et~al.(2002)Jahnke, Weber, Landers, Knapp, Sch\"ossler,
   Nickles, Kammer, Jagutzki, Schmidt, Czasch, Osipov, Arenholz, Young,
   D\'{\i}ez Mui\~no, Rolles, Garc\'{\i}a~de Abajo, Fadley, Van~Hove, Semenov,
@@ -956,6 +970,13 @@ Miroshnichenko A, Flach S, et Kivshar Y.
 \newblock \emph{Fano resonances in nanoscale structures}.
 \newblock Reviews of Modern Physics (2010).
 
+\bibitem[M\"obus et~al.(1993)M\"obus, Magel, Schartner, Langer, Becker,
+  Wildberger, et Schmoranzer]{MobusPRA1993}
+M\"obus B, Magel B, Schartner KH, Langer B, Becker U, Wildberger M, et
+  Schmoranzer H.
+\newblock \emph{Measurements of absolute ar 3s photoionization cross sections}.
+\newblock Phys. Rev. A \textbf{47},~3888--3893 (1993).
+
 \bibitem[Moore et~al.(2011)Moore, Lysaght, Parker, van~der Hart, et
   Taylor]{MoorePRA2011}
 Moore LR, Lysaght MA, Parker JS, van~der Hart HW, et Taylor KT.
@@ -1013,6 +1034,14 @@ Pabst S, Sytcheva A, Moulet A, Wirth A, Goulielmakis E, et Santra R.
   krypton for overlapping pump and probe pulses}.
 \newblock Phys. Rev. A \textbf{86},~063411 (2012).
 
+\bibitem[Palatchi et~al.(2014)Palatchi, Dahlstr{\"o}m, Kheifets, Ivanov,
+  Canaday, Agostini, et DiMauro]{PalatchiJPB2014}
+Palatchi C, Dahlstr{\"o}m JM, Kheifets A, Ivanov I, Canaday D, Agostini P, et
+  DiMauro L.
+\newblock \emph{Atomic delay in helium, neon, argon and krypton}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~245003 (2014).
+
 \bibitem[Pasteur(1848)]{Pasteur1848}
 Pasteur L.
 \newblock \emph{Recherches sur les relations qui peuvent exister entre la forme
@@ -1027,11 +1056,6 @@ Paul PM, Toma ES, Breger P, Mullot G, Aug{\'e} F, Balcou P, Muller HG, et
 \newblock \emph{Observation of a train of attosecond pulses from high harmonic
   generation}.
 \newblock Science \textbf{292},~1689--1692 (2001).
-
-\bibitem[Pauli(1980)]{Pauli1933}
-Pauli W.
-\newblock \emph{General principles of quantum mechanics}.
-\newblock Springer Science \& Business Media (1980).
 
 \bibitem[Popmintchev et~al.(2015)Popmintchev, Hern{\'a}ndez-Garc{\'\i}a,
   Dollar, Mancuso, P{\'e}rez-Hern{\'a}ndez, Chen, Hankla, Gao, Shim, Gaeta,
@@ -1103,15 +1127,6 @@ Sali{\`e}res P et Lewenstein M.
 Sali\`eres P, L'Huillier A, et Lewenstein M.
 \newblock \emph{Coherence control of high-order harmonics}.
 \newblock Phys. Rev. Lett. \textbf{74},~3776--3779 (1995).
-
-\bibitem[Samson et Stolte(2002)]{SamsonJESRP2002}
-Samson J et Stolte W.
-\newblock \emph{Precision measurements of the total photoionization
-  cross-sections of helium, neon, argon, krypton, and xenon}.
-\newblock Journal of Electron Spectroscopy and Related Phenomena
-  \textbf{123},~265 -- 276 (2002).
-\newblock Determination of cross-sections and momentum profiles of atoms,
-  molecules and condensed matter.
 
 \bibitem[Schafer et~al.(1993)Schafer, Yang, DiMauro, et
   Kulander]{SchaferPRL1993}
