@@ -4,10 +4,14 @@
 %% Mesures RABBIT Néon + Simuls Madrid
 %% Mesures Rainbow Argon. MZurch.m séparation des composantes SO
 %% Reconstruction?
-\chapter*{Introduction}
+
 % Spectroscopie : \mycite{MaddenPR1969} \mycite{CodlingJphysB1980} différence SO, \mycite{SvenssonJPhysB1987},\mycite{SorensenPRA1994}, \mycite{BerrahJPB1996}, \mycite{ZhangJPhysB2009}
 % citer Kotur
 % citer Rothardt
+
+
+
+\chapter[Mesure de la phase de la transition au voisinage de la résonance $3s3p^64p$ de l'argon par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$3s3p^64p$} de l'argon par RABBIT et Rainbow RABBIT}
 
 \begin{figure}
 \centering
@@ -16,8 +20,6 @@
 \caption{Rendement de photoélectron résolu en spin-orbite au voisinage des résonances $3s^2 3p^6 \rightarrow 3s 3p^6 np \: (n = 4 - 9) $ de l'argon. La ligne pointillée noire est une mesure non résolue en spin-orbite mais avec une meilleure résolution \mycite{BerrahJPB1996}. Extrait de \mycite{ZhangJPhysB2009}.}
 \label{fig:Zhang_SpectreAr}
 \end{figure}
-
-\chapter[Mesure de la phase de la transition au voisinage de la résonance $3s3p^64p$ de l'argon par RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$3s3p^64p$} de l'argon par RABBIT}
 
 \begin{figure}
 \centering
@@ -60,13 +62,27 @@
 
 \chapter[Mesure de la phase de la transition au voisinage de la résonance $2s2p^63p$ du néon par RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$2s2p^63p$} du néon par RABBIT}
 
+\section{Section efficace}
+Le néon est le gaz noble le plus léger pour lequel le cation a un caractère polyélectronique. Les dynamiques de photoionisation sont donc plus riches que dans l'hélium, mais les effets relativistes ne sont pas à prendre en compte pour décrire les états autoionisants simplement excités \mycite{SchulzPRA1996}. La figure \ref{fig:SchulzNe} montre la section efficace de photoionisation du néon pour des énergies de photon de 44 à 53 eV. Cette région spectrale est très riche: on observe une série d'états simplement excités du néon $2s2p^{6}np$ ainsi que des séries d'états doublement excités $2s^{2}2p^{4}3snp$, $2s^{2}2p^{4}3pns$ et $2s^{2}2p^{4}3pnd$. 
+
+Dans la suite nous nous intéressons à l'état simplement excité $2s2p^{6}3p$, pour lequel la section efficace est la plus importante. Cet état est couplé aux continua $s$ et $d$. Les paramètres de cette résonance de Fano sont données dans le tableau \ref{tab:ParamètresFano}: $E_R = 45.54$ eV; $q = -1.58$; $\Gamma =  16$ meV; $\tau = 41$ fs; $\rho^2 = 0.75$.
+
 \begin{figure}
 \centering
 \def\svgwidth{0.6\textwidth}
 \import{Figures/Argon/}{SchulzNe.pdf_tex}
-\caption{ezfezf.}
+\caption{(a) Rendement de photoionisation mesuré et (b) section efficace de photoionisation du néon calculée par la méthode R-matrix. Extrait de \mycite{SchulzPRA1996}.}
 \label{fig:SchulzNe}
 \end{figure}
+
+\section{Mesure de la phase par interférométrie RABBIT}
+Les mesures RABBIT présentées ici ont été effectuées en collaboration avec Antoine Camper, Timothy Gorman et Dietrich Kiesewetter dans le laboratoire de Louis DiMauro et Pierre Agostini à l'université de l'état de l'Ohio. Le spectromètre de photoélectrons à bouteille magnétique utilisé, d'une longueur de 1 m, ne possède pas une résolution suffisante pour le Rainbow RABBIT. Aucune structure dans l'amplitude ou la phase des pics satellites n'a été mesurée. Les mesures de phases ont donc été effectuées en appliquant la technique RABBIT pour différentes longueurs d'onde de génération.
+
+La longueur d'onde de génération est modifiée grâce à un amplificateur paramétrique optique (paragraphe \ref{subsec:OPA}). Pour échantillonner suffisamment la résonance, de faible largeur spectrale, on choisit une longueur d'onde de génération au voisinage de 1700 nm ($\hbar \omega \approx 0.73$ eV). Dans ces conditions, l'harmonique 63 est résonante avec la transition vers l'état $2s3p$. L'impulsion de l'idler est séparée en deux avec un miroir troué de diamètre 8 mm. Le faisceau réfléchi est focalisé avec une lentille $f = 50$ cm dans un jet de CO$_2$ émis par une vanne pulsée Even-Lavie pour la GHOE. Le faisceau de génération restant, annulaire en champ lointain, est bloqué par un iris. L'XUV est refocalisé grâce à un miroir torique en or dans la zone d'interaction d'un spectromètre de photoélectrons à bouteille magnétique d'une longueur de 1 m. Le faisceau transmis par le miroir troué est recombiné avec l'XUV sur un second miroir troué de diamètre 6 mm. On mesure les spectres de photoionisation à deux photons et deux couleurs du néon en fonction du délai MIR-XUV. L'intensité de chaque pic satellite est sommée spectralement et on extrait la phase des oscillations par transformée de Fourier (équation \ref{eq:PhaseMoyenneHe}):
+\begin{equation}
+\bar{\Theta} = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} \left( \int_{\text{largeur SB}} S_{\text{SB}}(\tau,E) \rmd E \right) \right]
+\label{eq:PhaseMoyenneNe}
+\end{equation} 
 
 \begin{figure}
 \centering
@@ -76,8 +92,6 @@
 \label{fig:ResultatsNe}
 \end{figure}
 
-
-%\chapter[Mesure résolue en spin-orbite de la phase de la transition au voisinage de la résonance $3s3p^64p$ de l'argon par Rainbow RABBIT]{Mesure résolue en spin-orbite de la phase de la transition au voisinage de la résonance \MakeLowercase{$3s3p^64p$} de l'argon par Rainbow RABBIT}
 
 
 %% Conclusion, perspectives: Résolution angulaire, beta qui varie autour de résonances.  Doughty, B., Haber, L. H., Hackett, C. & Leone, S. R. Photoelectron angular distributions from autoionizing 4s14p66p1 states in atomic krypton probed with femtosecond time resolution. J. Chem. Phys. 134, 094307 (2011). Angularly resolved Rabbit Hockett JPhysB + Science Villeneuve

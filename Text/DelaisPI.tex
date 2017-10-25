@@ -614,7 +614,7 @@ L'expression de la fonction d'onde $\ket{\Psi_E}$ est alors
 
 
 \subsection{Section efficace}
-Nous nous intéressons essentiellement aux transitions dipolaires électriques, mais les profils de Fano se rencontrent également dans d'autres types d'expériences comme la diffusion de particules. Par souci de généralité, l'opérateur de transition sera donc noté ici $\hat{T}$. La transition entre un état initial $\ket{g}$ et la résonance de Fano $\ket{\Psi_E}$ s'écrit, d'après \ref{eq:Expressions_aE_bE}
+Ici nous développons le calcul original de Fano \mycite{FanoPR1961}, qui permet de faire apparaitre l'énergie réduite $\epsilon$ et le paramètre d'asymétrie $q$ bien connus. Nous nous intéressons essentiellement aux transitions dipolaires électriques, mais les profils de Fano se rencontrent également dans d'autres types d'expériences comme la diffusion de particules. Par souci de généralité, l'opérateur de transition sera donc noté ici $\hat{T}$. La transition entre un état initial $\ket{g}$ et la résonance de Fano $\ket{\Psi_E}$ s'écrit, d'après \ref{eq:Expressions_aE_bE}
 \begin{align}
 \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\sin \Delta}{\pi V^*_E} \bra{\varphi} \hat{T} \ket{g} + \frac{\sin \Delta}{\pi V^*_E} \: \mathcal{P} \int \rmd E' \frac{V_{E'}}{E-E'} \bra{\psi_{E'}} \hat{T} \ket{g} - \cos \Delta \bra{\psi_E} \hat{T} \ket{g} \\
 & = \frac{\sin \Delta}{\pi V^*_E} \bra{\Phi} \hat{T} \ket{g} -  \cos \Delta \bra{\psi_E} \hat{T} \ket{g} 
@@ -674,14 +674,8 @@ $q$ caractérise donc le rapport entre les probabilités de transition vers l'é
 
 La figure \ref{fig:ProfilsFano} présente l'allure de la section efficace d'absorption en fonction de l'énergie réduite $\epsilon$ pour plusieurs valeurs de $q$. Le profil de raie est d'autant plus asymétrique que $|q|$ est grand. Le sens de l'asymétrie est donné par le signe de $q$. D'après l'expression \ref{eq:ProfilFano}, la section efficace est minimale pour $\epsilon = - q$ et maximale pour $\epsilon = 1/q$. Remarquons ici que la position de la résonance ($\epsilon = 0$), ne correspond en général ni au maximum ni au minimum de la section efficace. Le cas particulier $q = 0$ est propre aux résonances de Fano et conduit à un trou dans le spectre d'absorption, parfois appelé "anti-résonance".
 
-Une expression différente de la section efficace permet de rendre compte de l'interprétation physique du phénomène de résonance de Fano:
-\begin{equation}
-\sigma = \sigma_0 \: \frac{\left(q + \epsilon \right) ^2}{1+\epsilon^2} = \sigma_0 \left( \underbrace{1}_\textrm{Continuum} + \underbrace{\frac{q^2 - 1}{1 + \epsilon^2}}_\textrm{Lorentzienne: \'Etat discret} + \underbrace{\frac{2 q \epsilon}{1 + \epsilon^2}}_\textrm{Couplage} \right)
-\label{eq:SectionEfficaceFano3termes}
-\end{equation}
-
 \subsection{Phase de l'amplitude de transition vers une résonance de Fano}
-En utilisant une normalisation quelque peu différente de celle utilisée pour obtenir l'équation \ref{eq:Expression_aE}, la fonction d'onde caractérisant la résonance de Fano peut s'écrire
+En utilisant une normalisation quelque peu différente de celle utilisée pour obtenir l'équation \ref{eq:Expression_aE}, la fonction d'onde caractérisant la résonance de Fano peut s'écrire \mycite{JimenezGalanPRA2016}:
 \begin{equation}
 \ket{\Psi_E} = \frac{\epsilon}{\epsilon - i} \ket{\psi_E} + \frac{1}{\pi V_E} \frac{1}{\epsilon - i} \ket{\Phi}
 \end{equation} 
@@ -692,7 +686,17 @@ M^{(1)}_E = \bra{\Psi_E} \hat{T} \ket{g} & = \frac{\epsilon}{\epsilon + i} \bra{
 & = \bra{\psi_E} \hat{T} \ket{g} \left( \frac{\epsilon + q}{\epsilon + i} \right) \\
 & = \bra{\psi_E} \hat{T} \ket{g} \times \mathcal{R}(\epsilon)
 \end{align}
-Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}). Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
+Le module carré de l'expression précédente est évidemment identique à la section efficace de Fano (équation \ref{eq:ProfilFano}), mais permet de faire apparaître son interprétation physique:
+\begin{equation}
+\mathcal{R}(\epsilon) = \frac{\epsilon + q}{\epsilon + i} = 1 + \frac{q - i}{\epsilon + i}
+\end{equation}
+d'où
+\begin{equation}
+|\mathcal{R}(\epsilon)|^2 = \left( \underbrace{1}_\textrm{Continuum} + \underbrace{\frac{q^2 + 1}{1 + \epsilon^2}}_\textrm{Lorentzienne: \'Etat discret} + \underbrace{\frac{2 (q \epsilon - 1)}{1 + \epsilon^2}}_\textrm{Couplage} \right)
+\label{eq:SectionEfficaceFano3termes}
+\end{equation}
+
+Le facteur résonant $\mathcal{R}(\epsilon)$ introduit une phase dans l'amplitude de transition:
 \begin{equation}
 \setlength\fboxrule{1pt}
 \boxed{
@@ -780,7 +784,7 @@ He $2s2p$ & 60.147 & -2.77 & 36 & 17 & - &\mycite{DomkePRA1996} \\
 \hline
 He $sp3^+$ & 63.66 & -2.58 & 8 & 82 & - &\mycite{DomkePRA1996} \\
 \hline
-Ne $2s2p^63p$ & 45.54 & -1.58 & 16 & 41 & - &\mycite{SchulzPRA1996} \\
+Ne $2s2p^63p$ & 45.54 & -1.58 & 16 & 41 & 0.75 &\mycite{SchulzPRA1996} \\
 \hline
 Ar $3s3p^64p$ & 26.606 & -0.28 & 80 & 8 & 0.84 &\mycite{BerrahJPB1996} \\
 \hline

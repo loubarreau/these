@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  23 OCT 2017 18:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  25 OCT 2017 19:36
 entering extended mode
 **Thesis_LB.tex
 (C:\Users\lbarreau\Documents\these\Thesis_LB.tex
@@ -1712,11 +1712,7 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 \logocealength=\skip292
 )
 (C:\Users\lbarreau\Documents\these\Misc/Hyphen.tex)
-(C:\Users\lbarreau\Documents\these\Thesis_LB.aux
-
-LaTeX Warning: Label `fig:AlphaMIR' multiply defined.
-
-)
+(C:\Users\lbarreau\Documents\these\Thesis_LB.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
@@ -1731,7 +1727,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 56.
@@ -1845,7 +1842,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\lbarreau\Documents\these\Misc/Prel_Matter.tex
 (C:\Users\lbarreau\Documents\these\Misc/style-pagedegarde.tex
-<Figures/Logos/UPSac.png, id=387, 440.95174pt x 148.72957pt>
+<Figures/Logos/UPSac.png, id=135, 440.95174pt x 148.72957pt>
 File: Figures/Logos/UPSac.png Graphic file (type png)
 
 <use Figures/Logos/UPSac.png>
@@ -1856,7 +1853,7 @@ Overfull \hbox (114.49495pt too wide) in paragraph at lines 9--11
 [][]
  []
 
-<Figures/Logos/UPS.png, id=389, 80.154pt x 73.9125pt>
+<Figures/Logos/UPS.png, id=137, 80.154pt x 73.9125pt>
 File: Figures/Logos/UPS.png Graphic file (type png)
 
 <use Figures/Logos/UPS.png>
@@ -1869,7 +1866,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 56.
 
-Underfull \hbox (badness 10000) in alignment at lines 95--95
+Overfull \hbox (26.42441pt too wide) in alignment at lines 95--95
 [][][] 
  []
 
@@ -1892,14 +1889,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<Figures/Logos/lidyl.png, id=400, 139.2402pt x 85.0377pt>
+<Figures/Logos/lidyl.png, id=148, 139.2402pt x 85.0377pt>
 File: Figures/Logos/lidyl.png Graphic file (type png)
 
 <use Figures/Logos/lidyl.png>
 Package pdftex.def Info: Figures/Logos/lidyl.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 52.13242pt.
 
-<Figures/Logos/CEA.png, id=401, 789.95125pt x 644.4075pt>
+<Figures/Logos/CEA.png, id=149, 789.95125pt x 644.4075pt>
 File: Figures/Logos/CEA.png Graphic file (type png)
 
 <use Figures/Logos/CEA.png>
@@ -1923,1424 +1920,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--48
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
- [5] [6])) [7] [8
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+)) [5] [6
 
 ]
-(C:\Users\lbarreau\Documents\these\Text/Introduction.tex)
-(C:\Users\lbarreau\Documents\these\Text/GHOE.texpdfTeX warning (ext4): destinat
-ion with the same identifier (name{page.1}) has been already used, duplicate ig
-nored
+(C:\Users\lbarreau\Documents\these\Text/Argon.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \part
-         {La génération d'harmoniques d'ordre élevé} [1
-
+l.1 ... d'autoionisation dans l'argon et le néon}
+                                                   [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \part
-         {La génération d'harmoniques d'ordre élevé} [2
-
-]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 ...génération d'harmoniques d'ordre élevé}
-                                                   [3]pdfTeX warning (ext4): de
-stination with the same identifier (name{page.4}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.3 ...génération d'harmoniques d'ordre élevé}
-                                                   [4]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/potentials.pdf_tex
-<Figures/GHOE/potentials.pdf, id=564, 1484.14436pt x 439.50809pt>
-File: Figures/GHOE/potentials.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/potentials.pdf>
-Package pdftex.def Info: Figures/GHOE/potentials.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 118.45416pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 \begin{equation}
-                      [5
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 
-      [6 <C:/Users/lbarreau/Documents/these/Figures/GHOE/potentials.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Trajectoires_Classique_Final.pd
-f_tex
-<Figures/GHOE/Trajectoires_Classique_Final.pdf, id=609, 390.1932pt x 807.764pt>
-File: Figures/GHOE/Trajectoires_Classique_Final.pdf Graphic file (type pdf)
-<use Figures/GHOE/Trajectoires_Classique_Final.pdf>
-Package pdftex.def Info: Figures/GHOE/Trajectoires_Classique_Final.pdf used on 
-input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 496.8397pt.
-)
-LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 96.
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.96 \item u
-            tiliser un gaz de plus haut potentiel d'ionisation. [7]pdfTeX warni
-ng (ext4): destination with the same identifier (name{page.8}) has been already
- used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.96 \item u
-            tiliser un gaz de plus haut potentiel d'ionisation. [8 <C:/Users/lb
-arreau/Documents/these/Figures/GHOE/Trajectoires_Classique_Final.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/SpectreSalieres.pdf_tex
-<Figures/GHOE/SpectreSalieres.pdf, id=827, 415.96092pt x 269.83066pt>
-File: Figures/GHOE/SpectreSalieres.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/SpectreSalieres.pdf>
-Package pdftex.def Info: Figures/GHOE/SpectreSalieres.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 240.00244pt x 155.68666pt.
-) [9] [10 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SpectreSalieres.pdf>]
- [11]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/SFA_vs_3stepmodel.pdf_tex
-<Figures/GHOE/SFA_vs_3stepmodel.pdf, id=947, 330.84697pt x 191.6538pt>
-File: Figures/GHOE/SFA_vs_3stepmodel.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/SFA_vs_3stepmodel.pdf>
-Package pdftex.def Info: Figures/GHOE/SFA_vs_3stepmodel.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 400.0pt x 231.71169pt.
-) [12 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SFA_vs_3stepmodel.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/PeigneHH.pdf_tex
-<Figures/GHOE/PeigneHH.pdf, id=965, 541.57924pt x 257.99506pt>
-File: Figures/GHOE/PeigneHH.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/PeigneHH.pdf>
-Package pdftex.def Info: Figures/GHOE/PeigneHH.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 190.5551pt.
-) [13]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/MairessePRL.pdf_tex
-<Figures/GHOE/MairessePRL.pdf, id=989, 517.64136pt x 381.04247pt>
-File: Figures/GHOE/MairessePRL.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/MairessePRL.pdf>
-Package pdftex.def Info: Figures/GHOE/MairessePRL.pdf used on input line 52.
-(pdftex.def)             Requested size: 279.99878pt x 206.11452pt.
-) [14 <C:/Users/lbarreau/Documents/these/Figures/GHOE/PeigneHH.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Varju.pdf_tex
-<Figures/GHOE/Varju.pdf, id=1023, 538.20354pt x 225.5058pt>
-File: Figures/GHOE/Varju.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Varju.pdf>
-Package pdftex.def Info: Figures/GHOE/Varju.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 167.60115pt.
-) [15 <C:/Users/lbarreau/Documents/these/Figures/GHOE/MairessePRL.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Varju_atto_harmo.pdf_tex
-<Figures/GHOE/Varju_atto_harmo.pdf, id=1048, 302.60701pt x 408.20415pt>
-File: Figures/GHOE/Varju_atto_harmo.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Varju_atto_harmo.pdf>
-Package pdftex.def Info: Figures/GHOE/Varju_atto_harmo.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 200.0pt x 269.80174pt.
-) [16 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Varju.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/PhaseMatching_Heyl.pdf_tex
-<Figures/GHOE/PhaseMatching_Heyl.pdf, id=1097, 526.73859pt x 417.55997pt>
-File: Figures/GHOE/PhaseMatching_Heyl.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/PhaseMatching_Heyl.pdf>
-Package pdftex.def Info: Figures/GHOE/PhaseMatching_Heyl.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 279.99878pt x 221.96834pt.
-) [17 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Varju_atto_harmo.pdf>] [1
-8 <C:/Users/lbarreau/Documents/these/Figures/GHOE/PhaseMatching_Heyl.pdf>] [19]
-
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf
-_tex
-<Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf, id=1187, 647.60843pt x 645.64902
-pt>
-File: Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf Graphic file (type pdf)
- <use Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf>
-Package pdftex.def Info: Figures/GHOE/TempsRecomb_800nm_vs_1300nm.pdf used on i
-nput line 52.
-(pdftex.def)             Requested size: 279.99878pt x 279.15068pt.
-) [20]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Alpha_MIR.pdf_tex
-<Figures/GHOE/Alpha_MIR.pdf, id=1209, 659.10388pt x 651.47154pt>
-File: Figures/GHOE/Alpha_MIR.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Alpha_MIR.pdf>
-Package pdftex.def Info: Figures/GHOE/Alpha_MIR.pdf used on input line 52.
-(pdftex.def)             Requested size: 279.99878pt x 276.75743pt.
-) [21 <C:/Users/lbarreau/Documents/these/Figures/GHOE/TempsRecomb_800nm_vs_1300
-nm.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Alpha_MIR.pdf_tex
-File: Figures/GHOE/Alpha_MIR.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Alpha_MIR.pdf>
-Package pdftex.def Info: Figures/GHOE/Alpha_MIR.pdf used on input line 52.
-(pdftex.def)             Requested size: 279.99878pt x 276.75743pt.
-) [22 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Alpha_MIR.pdf>] [23] [24
-
-] [25]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/SpectreHHGAr800.pdf_tex
-<Figures/GHOE/SpectreHHGAr800.pdf, id=1315, 1051.14839pt x 593.37456pt>
-File: Figures/GHOE/SpectreHHGAr800.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/SpectreHHGAr800.pdf>
-Package pdftex.def Info: Figures/GHOE/SpectreHHGAr800.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 225.80156pt.
-) [26 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SpectreHHGAr800.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/PrincipeOPA.pdf_tex
-<Figures/GHOE/PrincipeOPA.pdf, id=1339, 299.85071pt x 109.74507pt>
-File: Figures/GHOE/PrincipeOPA.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/PrincipeOPA.pdf>
-Package pdftex.def Info: Figures/GHOE/PrincipeOPA.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 87.84138pt.
-) [27]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/HETOPAS.pdf_tex
-<Figures/GHOE/HETOPAS.pdf, id=1350, 595.61774pt x 464.44855pt>
-File: Figures/GHOE/HETOPAS.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/HETOPAS.pdf>
-Package pdftex.def Info: Figures/GHOE/HETOPAS.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 311.91595pt.
-) [28 <C:/Users/lbarreau/Documents/these/Figures/GHOE/PrincipeOPA.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Mazzler.pdf_tex
-<Figures/GHOE/Mazzler.pdf, id=1403, 296.47913pt x 414.1185pt>
-File: Figures/GHOE/Mazzler.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Mazzler.pdf>
-Package pdftex.def Info: Figures/GHOE/Mazzler.pdf used on input line 52.
-(pdftex.def)             Requested size: 200.0pt x 279.36626pt.
-) [29 <C:/Users/lbarreau/Documents/these/Figures/GHOE/HETOPAS.pdf>] [30 <C:/Use
-rs/lbarreau/Documents/these/Figures/GHOE/Mazzler.pdf>] (C:\Users\lbarreau\Docum
-ents\these\Figures/GHOE/TOF.pdf_tex
-<Figures/GHOE/TOF.pdf, id=1504, 561.46199pt x 301.1352pt>
-File: Figures/GHOE/TOF.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/TOF.pdf>
-Package pdftex.def Info: Figures/GHOE/TOF.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 214.54266pt.
-) [31] [32 <C:/Users/lbarreau/Documents/these/Figures/GHOE/TOF.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Schema_Principe_Rabbit_simple.p
-df_tex
-<Figures/GHOE/Schema_Principe_Rabbit_simple.pdf, id=1640, 125.54839pt x 103.055
-33pt>
-File: Figures/GHOE/Schema_Principe_Rabbit_simple.pdf Graphic file (type pdf)
- <use Figures/GHOE/Schema_Principe_Rabbit_simple.pdf>
-Package pdftex.def Info: Figures/GHOE/Schema_Principe_Rabbit_simple.pdf used on
- input line 52.
-(pdftex.def)             Requested size: 200.0pt x 164.16853pt.
-) [33 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Schema_Principe_Rabbit_si
-mple.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/SetupRABBIT.pdf_tex
-<Figures/GHOE/SetupRABBIT.pdf, id=1670, 585.50923pt x 329.34894pt>
-File: Figures/GHOE/SetupRABBIT.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/SetupRABBIT.pdf>
-Package pdftex.def Info: Figures/GHOE/SetupRABBIT.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 224.9996pt.
-) [34 <C:/Users/lbarreau/Documents/these/Figures/GHOE/SetupRABBIT.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/JoliRabbit_Ar_800.pdf_tex
-<Figures/GHOE/JoliRabbit_Ar_800.pdf, id=1686, 1076.77673pt x 682.16814pt>
-File: Figures/GHOE/JoliRabbit_Ar_800.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/JoliRabbit_Ar_800.pdf>
-Package pdftex.def Info: Figures/GHOE/JoliRabbit_Ar_800.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 400.0pt x 253.40793pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/Chen.pdf_tex
-<Figures/GHOE/Chen.pdf, id=1687, 556.5341pt x 372.9112pt>
-File: Figures/GHOE/Chen.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/Chen.pdf>
-Package pdftex.def Info: Figures/GHOE/Chen.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 160.81528pt.
-) [35 <C:/Users/lbarreau/Documents/these/Figures/GHOE/JoliRabbit_Ar_800.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/GHOE/TrainAtto.pdf_tex
-<Figures/GHOE/TrainAtto.pdf, id=1728, 682.94043pt x 668.13304pt>
-File: Figures/GHOE/TrainAtto.pdf Graphic file (type pdf)
-
-<use Figures/GHOE/TrainAtto.pdf>
-Package pdftex.def Info: Figures/GHOE/TrainAtto.pdf used on input line 52.
-(pdftex.def)             Requested size: 200.0pt x 195.66005pt.
-) [36 <C:/Users/lbarreau/Documents/these/Figures/GHOE/Chen.pdf> <C:/Users/lbarr
-eau/Documents/these/Figures/GHOE/TrainAtto.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/GHOE/T
-rainAtto.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->]) (C:\Users\lbarreau\Documents\these\Text/DelaisPI.tex [37] [38
-
-] [39]
-[40] [41
-
-] [42]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Bessel_Spheriques.pdf_tex
-<Figures/DelaisPI/Bessel_Spheriques.pdf, id=2039, 714.4707pt x 352.64043pt>
-File: Figures/DelaisPI/Bessel_Spheriques.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Bessel_Spheriques.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Bessel_Spheriques.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 400.0pt x 197.42348pt.
-) [43] [44 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Bessel_Spherique
-s.pdf>]
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 128
-.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ufplmbb.fd"
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [45]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_delais_Wigner.pdf_te
-x
-<Figures/DelaisPI/Schema_delais_Wigner.pdf, id=2102, 370.79471pt x 233.77083pt>
-File: Figures/DelaisPI/Schema_delais_Wigner.pdf Graphic file (type pdf)
-<use Figures/DelaisPI/Schema_delais_Wigner.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schema_delais_Wigner.pdf used on inpu
-t line 52.
-(pdftex.def)             Requested size: 400.0pt x 252.19049pt.
-) [46] [47 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_delais_Wi
-gner.pdf>] [48] [49]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_2photons.pdf_tex
-<Figures/DelaisPI/Schema_2photons.pdf, id=2237, 230.91249pt x 119.08788pt>
-File: Figures/DelaisPI/Schema_2photons.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Schema_2photons.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schema_2photons.pdf used on input lin
-e 52.
-(pdftex.def)             Requested size: 279.99878pt x 144.40567pt.
-) [50] [51 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_2photons.
-pdf>] [52] [53]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_Principe_Rabbit_simp
-le.pdf_tex
-<Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf, id=2309, 125.54839pt x 103
-.05533pt>
-File: Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf Graphic file (type pdf
-)
- <use Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schema_Principe_Rabbit_simple.pdf use
-d on input line 52.
-(pdftex.def)             Requested size: 200.0pt x 164.16853pt.
-) [54 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_Principe_Rabbi
-t_simple.pdf>] (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schultze.pdf
-_tex
-<Figures/DelaisPI/Schultze.pdf, id=2327, 374.99062pt x 327.01892pt>
-File: Figures/DelaisPI/Schultze.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Schultze.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schultze.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 209.30136pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[55] (C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Klunder.pdf_tex
-<Figures/DelaisPI/Klunder.pdf, id=2354, 279.49481pt x 423.54347pt>
-File: Figures/DelaisPI/Klunder.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Klunder.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Klunder.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 363.70386pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[56 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schultze.pdf>] [57 <C:/
-Users/lbarreau/Documents/these/Figures/DelaisPI/Klunder.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Guenot.pdf_tex
-<Figures/DelaisPI/Guenot.pdf, id=2406, 590.43143pt x 180.07585pt>
-File: Figures/DelaisPI/Guenot.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Guenot.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Guenot.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 121.99931pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Jordan.pdf_tex
-<Figures/DelaisPI/Jordan.pdf, id=2415, 222.31631pt x 257.57613pt>
-File: Figures/DelaisPI/Jordan.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Jordan.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Jordan.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 278.06801pt.
-) [58 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Guenot.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Swoboda.pdf_tex
-<Figures/DelaisPI/Swoboda.pdf, id=2442, 460.76242pt x 250.14993pt>
-File: Figures/DelaisPI/Swoboda.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Swoboda.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Swoboda.pdf used on input line 52.
-(pdftex.def)             Requested size: 320.00122pt x 173.73346pt.
-) [59 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Jordan.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Haessler.pdf_tex
-<Figures/DelaisPI/Haessler.pdf, id=2460, 411.58553pt x 353.91702pt>
-File: Figures/DelaisPI/Haessler.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Haessler.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Haessler.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 343.96873pt.
-) [60 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Swoboda.pdf>] [61 <C:
-/Users/lbarreau/Documents/these/Figures/DelaisPI/Haessler.pdf>] [62
-
-]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/PhotoFano.pdf_tex
-<Figures/DelaisPI/PhotoFano.pdf, id=2511, 341.275pt x 417.56pt>
-File: Figures/DelaisPI/PhotoFano.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/PhotoFano.pdf>
-Package pdftex.def Info: Figures/DelaisPI/PhotoFano.pdf used on input line 52.
-(pdftex.def)             Requested size: 120.00122pt x 146.82355pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Beutler.pdf_tex
-<Figures/DelaisPI/Beutler.pdf, id=2525, 408.32549pt x 317.1967pt>
-File: Figures/DelaisPI/Beutler.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Beutler.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Beutler.pdf used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 310.73447pt.
-) [63 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/PhotoFano.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_Fano.pdf_tex
-<Figures/DelaisPI/Schema_Fano.pdf, id=2553, 177.14381pt x 123.28102pt>
-File: Figures/DelaisPI/Schema_Fano.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Schema_Fano.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schema_Fano.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 200.0pt x 139.1893pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[64 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Beutler.pdf>] [65 <C:/U
-sers/lbarreau/Documents/these/Figures/DelaisPI/Schema_Fano.pdf>] [66]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/ProfilsFano.pdf_tex
-<Figures/DelaisPI/ProfilsFano.pdf, id=2612, 427.62788pt x 430.36691pt>
-File: Figures/DelaisPI/ProfilsFano.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/ProfilsFano.pdf>
-Package pdftex.def Info: Figures/DelaisPI/ProfilsFano.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 240.00244pt x 241.53574pt.
-) [67] [68 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/ProfilsFano.pdf>
-]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Fano_plan_complexe_final.pd
-f_tex
-<Figures/DelaisPI/Fano_plan_complexe_final.pdf, id=2661, 622.33841pt x 351.5280
-3pt>
-File: Figures/DelaisPI/Fano_plan_complexe_final.pdf Graphic file (type pdf)
- <use Figures/DelaisPI/Fano_plan_complexe_final.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Fano_plan_complexe_final.pdf used on 
-input line 52.
-(pdftex.def)             Requested size: 400.0pt x 225.94803pt.
-) [69 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Fano_plan_complexe_fi
-nal.pdf>] [70] [71]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Gilbertson.pdf_tex
-<Figures/DelaisPI/Gilbertson.pdf, id=2764, 520.05534pt x 204.47824pt>
-File: Figures/DelaisPI/Gilbertson.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Gilbertson.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Gilbertson.pdf used on input line 52.
-
-(pdftex.def)             Requested size: 359.99756pt x 141.5519pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Wang.pdf_tex
-<Figures/DelaisPI/Wang.pdf, id=2773, 559.07755pt x 225.6113pt>
-File: Figures/DelaisPI/Wang.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Wang.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Wang.pdf used on input line 52.
-(pdftex.def)             Requested size: 359.99756pt x 145.27545pt.
-) [72 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Gilbertson.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Wickenhauser.pdf_tex
-<Figures/DelaisPI/Wickenhauser.pdf, id=2798, 460.34843pt x 370.95145pt>
-File: Figures/DelaisPI/Wickenhauser.pdf Graphic file (type pdf)
-
-<use Figures/DelaisPI/Wickenhauser.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Wickenhauser.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 240.00244pt x 193.39395pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[73 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Wang.pdf>] [74 <C:/User
-s/lbarreau/Documents/these/Figures/DelaisPI/Wickenhauser.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Schema_2photons_Fano.pdf_te
-x
-<Figures/DelaisPI/Schema_2photons_Fano.pdf, id=2841, 137.08658pt x 109.47931pt>
-File: Figures/DelaisPI/Schema_2photons_Fano.pdf Graphic file (type pdf)
-<use Figures/DelaisPI/Schema_2photons_Fano.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Schema_2photons_Fano.pdf used on inpu
-t line 52.
-(pdftex.def)             Requested size: 200.0pt x 159.73154pt.
-) [75
-
- <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Schema_2photons_Fano.pdf>]
-
-(C:\Users\lbarreau\Documents\these\Figures/DelaisPI/Fano_plan_complexe_eff_fina
-l.pdf_tex
-<Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf, id=2861, 587.6193pt x 378.0
-216pt>
-File: Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf Graphic file (type pdf)
-
- <use Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf>
-Package pdftex.def Info: Figures/DelaisPI/Fano_plan_complexe_eff_final.pdf used
- on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 257.33392pt.
-) [76] [77 <C:/Users/lbarreau/Documents/these/Figures/DelaisPI/Fano_plan_comple
-xe_eff_final.pdf>]) (C:\Users\lbarreau\Documents\these\Text/Helium.tex [78] [79
-
-] [80]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Domke.pdf_tex
-<Figures/Helium/Domke.pdf, id=2956, 491.04735pt x 385.63918pt>
-File: Figures/Helium/Domke.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Domke.pdf>
-Package pdftex.def Info: Figures/Helium/Domke.pdf used on input line 52.
-(pdftex.def)             Requested size: 200.0pt x 157.07155pt.
-) [81
-
-] [82 <C:/Users/lbarreau/Documents/these/Figures/Helium/Domke.pdf>]
+l.1 ... d'autoionisation dans l'argon et le néon}
+                                                   [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `math shift' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
-
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/SpectresSansHabillage.pdf_tex
-<Figures/Helium/SpectresSansHabillage.pdf, id=2989, 435.8667pt x 291.04688pt>
-File: Figures/Helium/SpectresSansHabillage.pdf Graphic file (type pdf)
-
-<use Figures/Helium/SpectresSansHabillage.pdf>
-Package pdftex.def Info: Figures/Helium/SpectresSansHabillage.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 267.1091pt.
-) [83
-
- <C:/Users/lbarreau/Documents/these/Figures/Helium/SpectresSansHabillage.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Schema_2s2p.pdf_tex
-<Figures/Helium/Schema_2s2p.pdf, id=3034, 127.71104pt x 126.44478pt>
-File: Figures/Helium/Schema_2s2p.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Schema_2s2p.pdf>
-Package pdftex.def Info: Figures/Helium/Schema_2s2p.pdf used on input line 52.
-(pdftex.def)             Requested size: 179.99878pt x 178.22346pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/TracesRabbitHe.pdf_tex
-<Figures/Helium/TracesRabbitHe.pdf, id=3039, 406.72334pt x 830.30011pt>
-File: Figures/Helium/TracesRabbitHe.pdf Graphic file (type pdf)
-
-<use Figures/Helium/TracesRabbitHe.pdf>
-Package pdftex.def Info: Figures/Helium/TracesRabbitHe.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 279.99878pt x 571.60275pt.
-) [84 <C:/Users/lbarreau/Documents/these/Figures/Helium/Schema_2s2p.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/ExtractionPhaseInter.pdf_tex
-<Figures/Helium/ExtractionPhaseInter.pdf, id=3057, 443.34912pt x 273.90613pt>
-File: Figures/Helium/ExtractionPhaseInter.pdf Graphic file (type pdf)
-
-<use Figures/Helium/ExtractionPhaseInter.pdf>
-Package pdftex.def Info: Figures/Helium/ExtractionPhaseInter.pdf used on input 
-line 52.
-(pdftex.def)             Requested size: 400.0pt x 247.12341pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/VariationPhaseInter.pdf_tex
-<Figures/Helium/VariationPhaseInter.pdf, id=3062, 563.42863pt x 354.53897pt>
-File: Figures/Helium/VariationPhaseInter.pdf Graphic file (type pdf)
-
-<use Figures/Helium/VariationPhaseInter.pdf>
-Package pdftex.def Info: Figures/Helium/VariationPhaseInter.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 400.0pt x 251.70819pt.
-) [85]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/TracesExp_Sim_He.pdf_tex
-<Figures/Helium/TracesExp_Sim_He.pdf, id=3090, 689.1996pt x 353.60521pt>
-File: Figures/Helium/TracesExp_Sim_He.pdf Graphic file (type pdf)
-
-<use Figures/Helium/TracesExp_Sim_He.pdf>
-Package pdftex.def Info: Figures/Helium/TracesExp_Sim_He.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 400.0pt x 205.22604pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/DataRainbowHe.pdf_tex
-<Figures/Helium/DataRainbowHe.pdf, id=3094, 580.85593pt x 355.80727pt>
-File: Figures/Helium/DataRainbowHe.pdf Graphic file (type pdf)
-
-<use Figures/Helium/DataRainbowHe.pdf>
-Package pdftex.def Info: Figures/Helium/DataRainbowHe.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 245.02408pt.
-) [86] [87 <C:/Users/lbarreau/Documents/these/Figures/Helium/TracesRabbitHe.pdf
->] [88 <C:/Users/lbarreau/Documents/these/Figures/Helium/ExtractionPhaseInter.p
-df>] [89 <C:/Users/lbarreau/Documents/these/Figures/Helium/VariationPhaseInter.
-pdf> <C:/Users/lbarreau/Documents/these/Figures/Helium/TracesExp_Sim_He.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/TracesExp_Sim_He.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->] [90 <C:/Users/lbarreau/Documents/these/Figures/Helium/DataRainbowHe.pdf>]
-[91
-
-] [92]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Phases1photon2photons.pdf_tex
-<Figures/Helium/Phases1photon2photons.pdf, id=3246, 570.7193pt x 581.66345pt>
-File: Figures/Helium/Phases1photon2photons.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Phases1photon2photons.pdf>
-Package pdftex.def Info: Figures/Helium/Phases1photon2photons.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 200.0pt x 203.83377pt.
-) [93] [94 <C:/Users/lbarreau/Documents/these/Figures/Helium/Phases1photon2phot
-ons.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/ProfilTemporel.pdf_tex
-<Figures/Helium/ProfilTemporel.pdf, id=3274, 476.10622pt x 349.93684pt>
-File: Figures/Helium/ProfilTemporel.pdf Graphic file (type pdf)
-
-<use Figures/Helium/ProfilTemporel.pdf>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 279.99878pt x 205.79883pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/ProfilTemporel_th.pdf_tex
-<Figures/Helium/ProfilTemporel_th.pdf, id=3280, 279.9014pt x 256.97595pt>
-File: Figures/Helium/ProfilTemporel_th.pdf Graphic file (type pdf)
-
-<use Figures/Helium/ProfilTemporel_th.pdf>
-Package pdftex.def Info: Figures/Helium/ProfilTemporel_th.pdf used on input lin
-e 52.
-(pdftex.def)             Requested size: 279.99878pt x 257.0851pt.
-) [95 <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel.pdf>] [9
-6 <C:/Users/lbarreau/Documents/these/Figures/Helium/ProfilTemporel_th.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Wickenhauserisation.pdf_tex
-<Figures/Helium/Wickenhauserisation.pdf, id=3318, 618.53833pt x 269.47934pt>
-File: Figures/Helium/Wickenhauserisation.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Wickenhauserisation.pdf>
-Package pdftex.def Info: Figures/Helium/Wickenhauserisation.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 479.99878pt x 209.11981pt.
-)
-Overfull \hbox (79.99878pt too wide) in paragraph at lines 81--313
- [][] 
- []
-
-[97 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wickenhauserisation.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Spectre_norm.pdf_tex
-<Figures/Helium/Spectre_norm.pdf, id=3371, 580.42744pt x 247.36456pt>
-File: Figures/Helium/Spectre_norm.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Spectre_norm.pdf>
-Package pdftex.def Info: Figures/Helium/Spectre_norm.pdf used on input line 52.
-
-(pdftex.def)             Requested size: 400.0pt x 170.47412pt.
-) [98] [99 <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectre_norm.pdf>]
- [100
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 335.
+(hyperref)                removing `superscript' on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 335.
+(hyperref)                removing `math shift' on input line 14.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 335.
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Schema_2s2p_sp3.pdf_tex
-<Figures/Helium/Schema_2s2p_sp3.pdf, id=3408, 199.44878pt x 162.31517pt>
-File: Figures/Helium/Schema_2s2p_sp3.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Schema_2s2p_sp3.pdf>
-Package pdftex.def Info: Figures/Helium/Schema_2s2p_sp3.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 279.99878pt x 227.87866pt.
-) [101]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/HeLund_WLscan.pdf_tex
-<Figures/Helium/HeLund_WLscan.pdf, id=3421, 1264.725pt x 703.12688pt>
-File: Figures/Helium/HeLund_WLscan.pdf Graphic file (type pdf)
-
-<use Figures/Helium/HeLund_WLscan.pdf>
-Package pdftex.def Info: Figures/Helium/HeLund_WLscan.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 222.37663pt.
-) [102 <C:/Users/lbarreau/Documents/these/Figures/Helium/Schema_2s2p_sp3.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf_
-tex
-<Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf, id=3468, 1069.5009pt x 642.87228p
-t>
-File: Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf Graphic file (type pdf)
- <use Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf>
-Package pdftex.def Info: Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf used on in
-put line 52.
-(pdftex.def)             Requested size: 279.99878pt x 168.31017pt.
-) [103 <C:/Users/lbarreau/Documents/these/Figures/Helium/HeLund_WLscan.pdf> <C:
-/Users/lbarreau/Documents/these/Figures/Helium/Axes_Rabbit_HeLund_NeHe2.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Axes_Rabbit_HeLund_NeHe2.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Rabbit_deconv_NeHe2.pdf_tex
-<Figures/Helium/Rabbit_deconv_NeHe2.pdf, id=3565, 932.9191pt x 651.50017pt>
-File: Figures/Helium/Rabbit_deconv_NeHe2.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Rabbit_deconv_NeHe2.pdf>
-Package pdftex.def Info: Figures/Helium/Rabbit_deconv_NeHe2.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 379.99878pt x 265.36717pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Compare_avant_apres_deconv_Ne
-He2.pdf_tex
-<Figures/Helium/Compare_avant_apres_deconv_NeHe2.pdf, id=3566, 1058.63216pt x 6
-78.83716pt>
-File: Figures/Helium/Compare_avant_apres_deconv_NeHe2.pdf Graphic file (type pd
-f)
- <use Figures/Helium/Compare_avant_apres_deconv_NeHe2.pdf>
-Package pdftex.def Info: Figures/Helium/Compare_avant_apres_deconv_NeHe2.pdf us
-ed on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 256.48993pt.
-) [104 <C:/Users/lbarreau/Documents/these/Figures/Helium/Rabbit_deconv_NeHe2.pd
-f>]
-[105 <C:/Users/lbarreau/Documents/these/Figures/Helium/Compare_avant_apres_deco
-nv_NeHe2.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/FinitePulses_Alvaro.pdf_tex
-<Figures/Helium/FinitePulses_Alvaro.pdf, id=3768, 262.50269pt x 205.71368pt>
-File: Figures/Helium/FinitePulses_Alvaro.pdf Graphic file (type pdf)
-
-<use Figures/Helium/FinitePulses_Alvaro.pdf>
-Package pdftex.def Info: Figures/Helium/FinitePulses_Alvaro.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 240.00244pt x 188.08179pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Resultats_NeHe6_deconv.pdf_te
-x
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3775, page=1, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page1 used 
-on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3776, page=2, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page2 used 
-on input line 58.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3777, page=3, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 3>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page3 used 
-on input line 65.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3778, page=4, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 4>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page4 used 
-on input line 71.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3779, page=5, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 5>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page5 used 
-on input line 76.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3780, page=6, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 6>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page6 used 
-on input line 82.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3781, page=7, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 7>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page7 used 
-on input line 88.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3782, page=8, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 8>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page8 used 
-on input line 93.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3783, page=9, 1336.75803pt x 758
-.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 9>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page9 used 
-on input line 98.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3784, page=10, 1336.75803pt x 75
-8.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 10>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page10 used
- on input line 104.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3785, page=11, 1336.75803pt x 75
-8.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 11>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page11 used
- on input line 111.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3786, page=12, 1336.75803pt x 75
-8.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 12>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page12 used
- on input line 117.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-
-<Figures/Helium/Resultats_NeHe6_deconv.pdf, id=3787, page=13, 1336.75803pt x 75
-8.773pt>
-File: Figures/Helium/Resultats_NeHe6_deconv.pdf Graphic file (type pdf)
- <use Figures/Helium/Resultats_NeHe6_deconv.pdf, page 13>
-Package pdftex.def Info: Figures/Helium/Resultats_NeHe6_deconv.pdf, page13 used
- on input line 123.
-(pdftex.def)             Requested size: 400.0pt x 227.04317pt.
-) [106 <C:/Users/lbarreau/Documents/these/Figures/Helium/FinitePulses_Alvaro.pd
-f>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Temporel_38_Lund.pdf_tex
-<Figures/Helium/Temporel_38_Lund.pdf, id=3824, 840.00433pt x 631.8387pt>
-File: Figures/Helium/Temporel_38_Lund.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Temporel_38_Lund.pdf>
-Package pdftex.def Info: Figures/Helium/Temporel_38_Lund.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 259.99756pt x 195.55945pt.
-) [107 <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv
-.pdf> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.
-pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Resultats_NeHe6_deconv.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Resultats_NeHe6_deconv.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Helium/Wicken_38_Lund.pdf_tex
-<Figures/Helium/Wicken_38_Lund.pdf, id=3841, 1431.68935pt x 677.68385pt>
-File: Figures/Helium/Wicken_38_Lund.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Wicken_38_Lund.pdf>
-Package pdftex.def Info: Figures/Helium/Wicken_38_Lund.pdf used on input line 5
-2.
-(pdftex.def)             Requested size: 400.0pt x 189.33655pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/LundGabors_38.pdf_tex
-<Figures/Helium/LundGabors_38.pdf, id=3845, 572.52095pt x 558.16978pt>
-File: Figures/Helium/LundGabors_38.pdf Graphic file (type pdf)
-
-<use Figures/Helium/LundGabors_38.pdf>
-Package pdftex.def Info: Figures/Helium/LundGabors_38.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 389.98372pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[108 <C:/Users/lbarreau/Documents/these/Figures/Helium/Temporel_38_Lund.pdf>]
-[109 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wicken_38_Lund.pdf>]
-[110 <C:/Users/lbarreau/Documents/these/Figures/Helium/LundGabors_38.pdf>]
-Underfull \hbox (badness 7759) in paragraph at lines 500--501
-[]\T1/ppl/m/n/10.95 (+20) L'int�grale de la dis-tri-bu-tion sur le temps est �g
-ale au spectre,
- []
-
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Wigner_SB38_square_SpectreDiv
-isePar3.pdf_tex
-<Figures/Helium/Wigner_SB38_square_SpectreDivisePar3.pdf, id=3895, 577.9359pt x
- 501.19531pt>
-File: Figures/Helium/Wigner_SB38_square_SpectreDivisePar3.pdf Graphic file (typ
-e pdf)
- <use Figures/Helium/Wigner_SB38_square_SpectreDivisePar3.pdf>
-Package pdftex.def Info: Figures/Helium/Wigner_SB38_square_SpectreDivisePar3.pd
-f used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 346.89581pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[111] (C:\Users\lbarreau\Documents\these\Figures/Helium/SB38et42_AmpPha.pdf_tex
-<Figures/Helium/SB38et42_AmpPha.pdf, id=3914, 424.43263pt x 791.44511pt>
-File: Figures/Helium/SB38et42_AmpPha.pdf Graphic file (type pdf)
-
-<use Figures/Helium/SB38et42_AmpPha.pdf>
-Package pdftex.def Info: Figures/Helium/SB38et42_AmpPha.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 140.00244pt x 261.069pt.
-) [112 <C:/Users/lbarreau/Documents/these/Figures/Helium/Wigner_SB38_square_Spe
-ctreDivisePar3.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/SB38et42_vs_44et44_temporel.p
-df_tex
-<Figures/Helium/SB38et42_vs_44et44_temporel.pdf, id=4060, 1316.73755pt x 723.54
-918pt>
-File: Figures/Helium/SB38et42_vs_44et44_temporel.pdf Graphic file (type pdf)
- <use Figures/Helium/SB38et42_vs_44et44_temporel.pdf>
-Package pdftex.def Info: Figures/Helium/SB38et42_vs_44et44_temporel.pdf used on
- input line 52.
-(pdftex.def)             Requested size: 400.0pt x 219.79341pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/SB38et42_vs_44et44_temporel_z
-oom2-10.pdf_tex
-<Figures/Helium/SB38et42_vs_44et44_temporel_zoom2-10.pdf, id=4065, 1303.41263pt
- x 722.27673pt>
-File: Figures/Helium/SB38et42_vs_44et44_temporel_zoom2-10.pdf Graphic file (typ
-e pdf)
- <use Figures/Helium/SB38et42_vs_44et44_temporel_zoom2-10.pdf>
-Package pdftex.def Info: Figures/Helium/SB38et42_vs_44et44_temporel_zoom2-10.pd
-f used on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 221.65518pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Gabor_SB38et42_axes.pdf_tex
-<Figures/Helium/Gabor_SB38et42_axes.pdf, id=4068, 732.86664pt x 647.89839pt>
-File: Figures/Helium/Gabor_SB38et42_axes.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Gabor_SB38et42_axes.pdf>
-Package pdftex.def Info: Figures/Helium/Gabor_SB38et42_axes.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 279.99878pt x 247.53857pt.
-) [113 <C:/Users/lbarreau/Documents/these/Figures/Helium/SB38et42_AmpPha.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/2resonances_Sim_Rabbit.pdf_te
-x
-<Figures/Helium/2resonances_Sim_Rabbit.pdf, id=4084, 428.59145pt x 376.97983pt>
-File: Figures/Helium/2resonances_Sim_Rabbit.pdf Graphic file (type pdf)
-<use Figures/Helium/2resonances_Sim_Rabbit.pdf>
-Package pdftex.def Info: Figures/Helium/2resonances_Sim_Rabbit.pdf used on inpu
-t line 52.
-(pdftex.def)             Requested size: 400.0pt x 351.8531pt.
-) [114 <C:/Users/lbarreau/Documents/these/Figures/Helium/SB38et42_vs_44et44_tem
-porel.pdf>] [115 <C:/Users/lbarreau/Documents/these/Figures/Helium/SB38et42_vs_
-44et44_temporel_zoom2-10.pdf> <C:/Users/lbarreau/Documents/these/Figures/Helium
-/Gabor_SB38et42_axes.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Gabor_SB38et42_axes.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Helium/POEt_LCPMR.pdf_tex
-<Figures/Helium/POEt_LCPMR.pdf, id=4119, 344.4826pt x 524.26204pt>
-File: Figures/Helium/POEt_LCPMR.pdf Graphic file (type pdf)
-
-<use Figures/Helium/POEt_LCPMR.pdf>
-Package pdftex.def Info: Figures/Helium/POEt_LCPMR.pdf used on input line 52.
-(pdftex.def)             Requested size: 359.99756pt x 547.89151pt.
-) [116 <C:/Users/lbarreau/Documents/these/Figures/Helium/2resonances_Sim_Rabbit
-.pdf>] [117 <C:/Users/lbarreau/Documents/these/Figures/Helium/POEt_LCPMR.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Ott_Science.pdf_tex
-<Figures/Helium/Ott_Science.pdf, id=4152, page=1, 514.3189pt x 196.7532pt>
-File: Figures/Helium/Ott_Science.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Ott_Science.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Ott_Science.pdf, page1 used on input li
-ne 52.
-(pdftex.def)             Requested size: 400.0pt x 153.01955pt.
-) [118 <C:/Users/lbarreau/Documents/these/Figures/Helium/Ott_Science.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Spectres_vs_Phab.pdf_tex
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4186, page=1, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page1 used on inp
-ut line 53.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4187, page=2, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page2 used on inp
-ut line 58.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4188, page=3, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 3>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page3 used on inp
-ut line 67.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4189, page=4, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 4>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page4 used on inp
-ut line 69.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4190, page=5, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 5>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page5 used on inp
-ut line 71.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4191, page=6, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 6>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page6 used on inp
-ut line 73.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4192, page=7, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 7>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page7 used on inp
-ut line 75.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4193, page=8, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 8>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page8 used on inp
-ut line 77.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4194, page=9, 1275.91574pt x 698.73608
-pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 9>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page9 used on inp
-ut line 79.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4195, page=10, 1275.91574pt x 698.7360
-8pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 10>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page10 used on in
-put line 81.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-
-<Figures/Helium/Spectres_vs_Phab.pdf, id=4196, page=11, 1275.91574pt x 698.7360
-8pt>
-File: Figures/Helium/Spectres_vs_Phab.pdf Graphic file (type pdf)
- <use Figures/Helium/Spectres_vs_Phab.pdf, page 11>
-Package pdftex.def Info: Figures/Helium/Spectres_vs_Phab.pdf, page11 used on in
-put line 83.
-(pdftex.def)             Requested size: 400.0pt x 219.0475pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/fitPSF_H41_Phab01mW.pdf_tex
-<Figures/Helium/fitPSF_H41_Phab01mW.pdf, id=4198, page=1, 791.86649pt x 720.102
-52pt>
-File: Figures/Helium/fitPSF_H41_Phab01mW.pdf Graphic file (type pdf)
- <use Figures/Helium/fitPSF_H41_Phab01mW.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/fitPSF_H41_Phab01mW.pdf, page1 used on 
-input line 52.
-(pdftex.def)             Requested size: 200.0pt x 181.87114pt.
-
-<Figures/Helium/fitPSF_H41_Phab01mW.pdf, id=4199, page=2, 791.86649pt x 720.102
-52pt>
-File: Figures/Helium/fitPSF_H41_Phab01mW.pdf Graphic file (type pdf)
- <use Figures/Helium/fitPSF_H41_Phab01mW.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/fitPSF_H41_Phab01mW.pdf, page2 used on 
-input line 57.
-(pdftex.def)             Requested size: 200.0pt x 181.87114pt.
-
-<Figures/Helium/fitPSF_H41_Phab01mW.pdf, id=4200, page=3, 791.86649pt x 720.102
-52pt>
-File: Figures/Helium/fitPSF_H41_Phab01mW.pdf Graphic file (type pdf)
- <use Figures/Helium/fitPSF_H41_Phab01mW.pdf, page 3>
-Package pdftex.def Info: Figures/Helium/fitPSF_H41_Phab01mW.pdf, page3 used on 
-input line 63.
-(pdftex.def)             Requested size: 200.0pt x 181.87114pt.
-
-<Figures/Helium/fitPSF_H41_Phab01mW.pdf, id=4201, page=4, 791.86649pt x 720.102
-52pt>
-File: Figures/Helium/fitPSF_H41_Phab01mW.pdf Graphic file (type pdf)
- <use Figures/Helium/fitPSF_H41_Phab01mW.pdf, page 4>
-Package pdftex.def Info: Figures/Helium/fitPSF_H41_Phab01mW.pdf, page4 used on 
-input line 66.
-(pdftex.def)             Requested size: 200.0pt x 181.87114pt.
-) [119 <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf> 
-<C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_vs_Phab.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Spectres_vs_Phab.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Helium/fit_q.pdf_tex
-<Figures/Helium/fit_q.pdf, id=4214, page=1, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page1 used on input line 52.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-
-<Figures/Helium/fit_q.pdf, id=4215, page=2, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page2 used on input line 61.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-
-<Figures/Helium/fit_q.pdf, id=4216, page=3, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 3>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page3 used on input line 73.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-
-<Figures/Helium/fit_q.pdf, id=4217, page=4, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 4>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page4 used on input line 81.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-
-<Figures/Helium/fit_q.pdf, id=4218, page=5, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 5>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page5 used on input line 88.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-
-<Figures/Helium/fit_q.pdf, id=4219, page=6, 841.4082pt x 738.9305pt>
-File: Figures/Helium/fit_q.pdf Graphic file (type pdf)
-
-<use Figures/Helium/fit_q.pdf, page 6>
-Package pdftex.def Info: Figures/Helium/fit_q.pdf, page6 used on input line 95.
-
-(pdftex.def)             Requested size: 400.0pt x 351.28879pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Spectres_fit_q_NeHe33.pdf_tex
-
-<Figures/Helium/Spectres_fit_q_NeHe33.pdf, id=4220, 1162.67908pt x 698.13753pt>
-File: Figures/Helium/Spectres_fit_q_NeHe33.pdf Graphic file (type pdf)
-<use Figures/Helium/Spectres_fit_q_NeHe33.pdf>
-Package pdftex.def Info: Figures/Helium/Spectres_fit_q_NeHe33.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 240.17593pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Helium/qbest_RABBIT_NeHe33.pdf_tex
-<Figures/Helium/qbest_RABBIT_NeHe33.pdf, id=4221, 734.19736pt x 652.252pt>
-File: Figures/Helium/qbest_RABBIT_NeHe33.pdf Graphic file (type pdf)
-
-<use Figures/Helium/qbest_RABBIT_NeHe33.pdf>
-Package pdftex.def Info: Figures/Helium/qbest_RABBIT_NeHe33.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 320.00122pt x 284.28467pt.
-) [120 <C:/Users/lbarreau/Documents/these/Figures/Helium/fitPSF_H41_Phab01mW.pd
-f> <C:/Users/lbarreau/Documents/these/Figures/Helium/fitPSF_H41_Phab01mW.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fitPSF_H41_Phab01mW.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fitPSF_H41_Phab01mW.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fitPSF_H41_Phab01mW.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fitPSF_H41_Phab01mW.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fitPSF_H41_Phab01mW.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
->] [121 <C:/Users/lbarreau/Documents/these/Figures/Helium/fit_q.pdf> <C:/Users/
-lbarreau/Documents/these/Figures/Helium/fit_q.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fit_q.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fit_q.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fit_q.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fit_q.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fit_q.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fit_q.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fit_q.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
-> <C:/Users/lbarreau/Documents/these/Figures/Helium/fit_q.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/fit_q.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
->] [122 <C:/Users/lbarreau/Documents/these/Figures/Helium/Spectres_fit_q_NeHe33
-.pdf> <C:/Users/lbarreau/Documents/these/Figures/Helium/qbest_RABBIT_NeHe33.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/qbest_RABBIT_NeHe33.pdf): PDF inclusion: multiple pdfs with page group include
-d in a single page
->] (C:\Users\lbarreau\Documents\these\Figures/Helium/Kaldun.pdf_tex
-<Figures/Helium/Kaldun.pdf, id=4256, page=1, 223.54414pt x 261.36041pt>
-File: Figures/Helium/Kaldun.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Kaldun.pdf, page 1>
-Package pdftex.def Info: Figures/Helium/Kaldun.pdf, page1 used on input line 52
-.
-(pdftex.def)             Requested size: 200.0pt x 233.84232pt.
-
-<Figures/Helium/Kaldun.pdf, id=4257, page=2, 223.54414pt x 261.36041pt>
-File: Figures/Helium/Kaldun.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Kaldun.pdf, page 2>
-Package pdftex.def Info: Figures/Helium/Kaldun.pdf, page2 used on input line 59
-.
-(pdftex.def)             Requested size: 200.0pt x 233.84232pt.
-) [123
-
- <C:/Users/lbarreau/Documents/these/Figures/Helium/Kaldun.pdf> <C:/Users/lbarre
-au/Documents/these/Figures/Helium/Kaldun.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Helium
-/Kaldun.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
->] [124]
-Underfull \hbox (badness 1168) in paragraph at lines 761--763
-\T1/ppl/m/n/10.95 (+20) En sup-po-sant connues les condi-tions ini-tiales $\OML
-/zplm/m/it/10.95 c[] \U/MnSymbolD/m/n/10.95   []$ \T1/ppl/m/n/10.95 (+20) et $\
-OML/zplm/m/it/10.95 c[] \U/MnSymbolD/m/n/10.95  $
- []
-
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (13.6pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 776.
-
-
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[125] [126]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[127]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/SectionEfficace_Kaldun_axes.p
-df_tex
-<Figures/Helium/SectionEfficace_Kaldun_axes.pdf, id=4372, 1072.68858pt x 685.33
-182pt>
-File: Figures/Helium/SectionEfficace_Kaldun_axes.pdf Graphic file (type pdf)
- <use Figures/Helium/SectionEfficace_Kaldun_axes.pdf>
-Package pdftex.def Info: Figures/Helium/SectionEfficace_Kaldun_axes.pdf used on
- input line 52.
-(pdftex.def)             Requested size: 400.0pt x 255.55568pt.
-) [128 <C:/Users/lbarreau/Documents/these/Figures/Helium/SectionEfficace_Kaldun
-_axes.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Chu.pdf_tex
-<Figures/Helium/Chu.pdf, id=5129, 430.19464pt x 599.69199pt>
-File: Figures/Helium/Chu.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Chu.pdf>
-Package pdftex.def Info: Figures/Helium/Chu.pdf used on input line 52.
-(pdftex.def)             Requested size: 240.00244pt x 334.56244pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[129] [130 <C:/Users/lbarreau/Documents/these/Figures/Helium/Chu.pdf>]
-Underfull \hbox (badness 1005) in paragraph at lines 928--929
-\T1/ppl/m/n/10.95 (+20) fet Stark du la-ser d�-cale les �ner-gies des �tats r�-
-so-nants de $\OT1/zplm/m/n/10.95 \OML/zplm/m/it/10.95 E\OMX/MnSymbolE/m/n/10.9
-5 �\OML/zplm/m/it/10.95 t\OMX/MnSymbolE/m/n/10.95 � \U/MnSymbolD/m/n/10.95  $
- []
-
-(C:\Users\lbarreau\Documents\these\Figures/Helium/Gruson_vs_Kaldun.pdf_tex
-<Figures/Helium/Gruson_vs_Kaldun.pdf, id=5205, 578.24571pt x 497.2521pt>
-File: Figures/Helium/Gruson_vs_Kaldun.pdf Graphic file (type pdf)
-
-<use Figures/Helium/Gruson_vs_Kaldun.pdf>
-Package pdftex.def Info: Figures/Helium/Gruson_vs_Kaldun.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 320.00122pt x 275.18909pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[131]) (C:\Users\lbarreau\Documents\these\Text/Argon.tex [132 <C:/Users/lbarrea
-u/Documents/these/Figures/Helium/Gruson_vs_Kaldun.pdf>] [133
-
-] [134]
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Zhang_SpectreAr.pdf_tex
-<Figures/Argon/Zhang_SpectreAr.pdf, id=5281, 436.32658pt x 279.12097pt>
+<Figures/Argon/Zhang_SpectreAr.pdf, id=218, 436.32658pt x 279.12097pt>
 File: Figures/Argon/Zhang_SpectreAr.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Zhang_SpectreAr.pdf>
 Package pdftex.def Info: Figures/Argon/Zhang_SpectreAr.pdf used on input line 5
 2.
 (pdftex.def)             Requested size: 340.00244pt x 217.50478pt.
-) [135
-
- <C:/Users/lbarreau/Documents/these/Figures/Argon/Zhang_SpectreAr.pdf>] [136
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 20.
-
+)
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Kotur.pdf_tex
-<Figures/Argon/Kotur.pdf, id=5317, 341.98529pt x 576.8457pt>
+<Figures/Argon/Kotur.pdf, id=227, 341.98529pt x 576.8457pt>
 File: Figures/Argon/Kotur.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Kotur.pdf>
@@ -3348,7 +1972,7 @@ Package pdftex.def Info: Figures/Argon/Kotur.pdf used on input line 52.
 (pdftex.def)             Requested size: 200.0pt x 337.34335pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Spectres_Argon_Saclay.pdf_tex
-<Figures/Argon/Spectres_Argon_Saclay.pdf, id=5322, 1071.02379pt x 655.83746pt>
+<Figures/Argon/Spectres_Argon_Saclay.pdf, id=232, 1071.02379pt x 655.83746pt>
 File: Figures/Argon/Spectres_Argon_Saclay.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Spectres_Argon_Saclay.pdf>
@@ -3357,7 +1981,7 @@ line 52.
 (pdftex.def)             Requested size: 400.0pt x 244.93771pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_Saclay.pdf_tex
-<Figures/Argon/Fano_Argon_Saclay.pdf, id=5323, 686.80663pt x 653.2297pt>
+<Figures/Argon/Fano_Argon_Saclay.pdf, id=233, 686.80663pt x 653.2297pt>
 File: Figures/Argon/Fano_Argon_Saclay.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Fano_Argon_Saclay.pdf>
@@ -3366,789 +1990,121 @@ Package pdftex.def Info: Figures/Argon/Fano_Argon_Saclay.pdf used on input line
 (pdftex.def)             Requested size: 400.0pt x 380.44835pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_OSU_These.pdf_tex
-<Figures/Argon/Fano_Argon_OSU_These.pdf, id=5324, 681.61432pt x 660.46376pt>
+<Figures/Argon/Fano_Argon_OSU_These.pdf, id=234, 681.61432pt x 660.46376pt>
 File: Figures/Argon/Fano_Argon_OSU_These.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Fano_Argon_OSU_These.pdf>
 Package pdftex.def Info: Figures/Argon/Fano_Argon_OSU_These.pdf used on input l
 ine 52.
 (pdftex.def)             Requested size: 400.0pt x 387.59421pt.
-) [137] [138 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>] [139 
-<C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pdf> <C:
-/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_Saclay.pdf
+)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[3
+
+ <C:/Users/lbarreau/Documents/these/Figures/Argon/Zhang_SpectreAr.pdf>]pdfTeX w
+arning (ext4): destination with the same identifier (name{page.4}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[4 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>]
+LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <10> not available
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 63.
+
+
+Class memoir Warning: The material used in the headers is too large
+(27.2pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 63.
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[5 <C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pdf> 
+<C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_Saclay.pdf
 
 pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Argon/
 Fano_Argon_Saclay.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [140 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_OSU_These.p
-df>]
+>]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \chapter
+             [Mesure de la phase de la transition au voisinage de la résona...
+[6 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_OSU_These.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+(hyperref)                removing `math shift' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 61.
+(hyperref)                removing `superscript' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+(hyperref)                removing `math shift' on input line 63.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 65.
+
+LaTeX Warning: Reference `tab:Param\IeC {\`e}tresFano' on page 7 undefined on i
+nput line 68.
 
 (C:\Users\lbarreau\Documents\these\Figures/Argon/SchulzNe.pdf_tex
-<Figures/Argon/SchulzNe.pdf, id=5541, 417.22281pt x 565.01292pt>
+<Figures/Argon/SchulzNe.pdf, id=475, 417.22281pt x 565.01292pt>
 File: Figures/Argon/SchulzNe.pdf Graphic file (type pdf)
 
 <use Figures/Argon/SchulzNe.pdf>
 Package pdftex.def Info: Figures/Argon/SchulzNe.pdf used on input line 52.
 (pdftex.def)             Requested size: 240.00244pt x 325.01784pt.
 )
+
+LaTeX Warning: Reference `subsec:OPA' on page 7 undefined on input line 81.
+
+[7
+
+]
 (C:\Users\lbarreau\Documents\these\Figures/Argon/ResultatsNeon_These.pdf_tex
-<Figures/Argon/ResultatsNeon_These.pdf, id=5542, 683.83257pt x 643.84074pt>
+<Figures/Argon/ResultatsNeon_These.pdf, id=488, 683.83257pt x 643.84074pt>
 File: Figures/Argon/ResultatsNeon_These.pdf Graphic file (type pdf)
 
 <use Figures/Argon/ResultatsNeon_These.pdf>
 Package pdftex.def Info: Figures/Argon/ResultatsNeon_These.pdf used on input li
 ne 52.
 (pdftex.def)             Requested size: 400.0pt x 376.61093pt.
-))
-(C:\Users\lbarreau\Documents\these\Text/Polarimetrie.tex [141
-
-] [142 <C:/Users/lbarreau/Documents/these/Figures/Argon/SchulzNe.pdf>] [143 <C:
-/Users/lbarreau/Documents/these/Figures/Argon/ResultatsNeon_These.pdf>] [144
-
-] [145] [146]
-[147
-
-] [148] [149
+)) [8 <C:/Users/lbarreau/Documents/these/Figures/Argon/SchulzNe.pdf>] [9 <C:/Us
+ers/lbarreau/Documents/these/Figures/Argon/ResultatsNeon_These.pdf>] [10
 
 ]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/polarellipse.pdf_tex
-<Figures/Polarimetrie/polarellipse.pdf, id=5711, 310.63551pt x 201.65335pt>
-File: Figures/Polarimetrie/polarellipse.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/polarellipse.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/polarellipse.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 279.99878pt x 181.76941pt.
-) [150 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/polarellipse.pdf
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Budil.pdf_tex
-<Figures/Polarimetrie/Budil.pdf, id=5748, 437.21408pt x 326.16579pt>
-File: Figures/Polarimetrie/Budil.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Budil.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Budil.pdf used on input line 52.
-(pdftex.def)             Requested size: 320.00122pt x 238.73607pt.
-) [151] [152 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Budil.pdf>
-]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/antoinePRA.pdf_tex
-<Figures/Polarimetrie/antoinePRA.pdf, id=5788, 817.89807pt x 462.55206pt>
-File: Figures/Polarimetrie/antoinePRA.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/antoinePRA.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/antoinePRA.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 400.0pt x 226.21489pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ZhouMairesse.pdf_tex
-<Figures/Polarimetrie/ZhouMairesse.pdf, id=5797, page=1, 514.38573pt x 198.8730
-6pt>
-File: Figures/Polarimetrie/ZhouMairesse.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ZhouMairesse.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ZhouMairesse.pdf, page1 used on i
-nput line 52.
-(pdftex.def)             Requested size: 400.0pt x 154.65pt.
-) [153 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/antoinePRA.pdf>]
- [154 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ZhouMairesse.pdf>
-]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/FerreAr.pdf_tex
-<Figures/Polarimetrie/FerreAr.pdf, id=5927, page=1, 555.16988pt x 196.61234pt>
-File: Figures/Polarimetrie/FerreAr.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/FerreAr.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/FerreAr.pdf, page1 used on input 
-line 52.
-(pdftex.def)             Requested size: 400.0pt x 141.65976pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/FerreSF6.pdf_tex
-<Figures/Polarimetrie/FerreSF6.pdf, id=5932, page=1, 540.80217pt x 345.81908pt>
-File: Figures/Polarimetrie/FerreSF6.pdf Graphic file (type pdf)
-<use Figures/Polarimetrie/FerreSF6.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/FerreSF6.pdf, page1 used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 255.79129pt.
-) [155] [156 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/FerreAr.pd
-f> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/FerreSF6.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/FerreSF6.pdf): PDF inclusion: multiple pdfs with page group included in 
-a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/BordeldeVeyrinas.pdf_te
-x
-<Figures/Polarimetrie/BordeldeVeyrinas.pdf, id=5973, page=1, 557.55489pt x 277.
-88712pt>
-File: Figures/Polarimetrie/BordeldeVeyrinas.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/BordeldeVeyrinas.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/BordeldeVeyrinas.pdf, page1 used 
-on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 199.36621pt.
-
-<Figures/Polarimetrie/BordeldeVeyrinas.pdf, id=5974, page=2, 557.55489pt x 277.
-88712pt>
-File: Figures/Polarimetrie/BordeldeVeyrinas.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/BordeldeVeyrinas.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/BordeldeVeyrinas.pdf, page2 used 
-on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 199.36621pt.
-) [157 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/BordeldeVeyrinas
-.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/BordeldeVeyrinas.
-pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/BordeldeVeyrinas.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Trajectoires_Milosevic.
-pdf_tex
-<Figures/Polarimetrie/Trajectoires_Milosevic.pdf, id=6000, 589.5999pt x 255.875
-32pt>
-File: Figures/Polarimetrie/Trajectoires_Milosevic.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/Trajectoires_Milosevic.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Trajectoires_Milosevic.pdf used o
-n input line 52.
-(pdftex.def)             Requested size: 400.0pt x 173.59076pt.
-) [158]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/CitationsEichmann.pdf_t
-ex
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=6024, page=1, 477.57309pt x 385
-.82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page1 used
- on input line 53.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=6025, page=2, 477.57309pt x 385
-.82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page2 used
- on input line 60.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-
-<Figures/Polarimetrie/CitationsEichmann.pdf, id=6026, page=3, 477.57309pt x 385
-.82771pt>
-File: Figures/Polarimetrie/CitationsEichmann.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/CitationsEichmann.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/CitationsEichmann.pdf, page3 used
- on input line 68.
-(pdftex.def)             Requested size: 200.0pt x 161.58144pt.
-) [159 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Trajectoires_Mil
-osevic.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SM_Kfir.pdf_tex
-<Figures/Polarimetrie/SM_Kfir.pdf, id=6108, 560.27353pt x 351.28566pt>
-File: Figures/Polarimetrie/SM_Kfir.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/SM_Kfir.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/SM_Kfir.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 250.80286pt.
-) [160 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichman
-n.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichman
-n.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/CitationsEichmann.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CitationsEichmann.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/CitationsEichmann.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
->] [161 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SM_Kfir.pdf>]
-[162] [163
-
-] [164]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/dessin_emission_t3.pdf_
-tex
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6244, page=1, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page1 use
-d on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6245, page=2, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page2 use
-d on input line 57.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6246, page=3, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page3 use
-d on input line 59.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6247, page=4, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page4 use
-d on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6248, page=5, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 5>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page5 use
-d on input line 65.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6249, page=6, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 6>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page6 use
-d on input line 75.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6250, page=7, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 7>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page7 use
-d on input line 80.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-
-<Figures/Polarimetrie/dessin_emission_t3.pdf, id=6251, page=8, 588.19818pt x 45
-2.97675pt>
-File: Figures/Polarimetrie/dessin_emission_t3.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/dessin_emission_t3.pdf, page 8>
-Package pdftex.def Info: Figures/Polarimetrie/dessin_emission_t3.pdf, page8 use
-d on input line 92.
-(pdftex.def)             Requested size: 400.0pt x 308.04774pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ReslutatsHe.pdf_tex
-<Figures/Polarimetrie/ReslutatsHe.pdf, id=6264, page=1, 593.27942pt x 616.39035
-pt>
-File: Figures/Polarimetrie/ReslutatsHe.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ReslutatsHe.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ReslutatsHe.pdf, page1 used on in
-put line 61.
-(pdftex.def)             Requested size: 400.0pt x 415.59407pt.
-) [165] [166 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emi
-ssion_t3.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_em
-ission_t3.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/dessin_emission_t3.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/dessin_emission_t3.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
->] [167 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ReslutatsHe.pdf
->] [168]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Decroissance_exponentie
-lle_ionisation.pdf_tex
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=6397, page=
-1, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page1 used on input line 52.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=6398, page=
-2, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page2 used on input line 64.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=6399, page=
-3, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page3 used on input line 76.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-
-<Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, id=6400, page=
-4, 793.66594pt x 560.27121pt>
-File: Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf Graphic fi
-le (type pdf)
-
-<use Figures/Polarimetrie/Decroissance_exponentielle_ionisation.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/Decroissance_exponentielle_ionisa
-tion.pdf, page4 used on input line 81.
-(pdftex.def)             Requested size: 320.00122pt x 225.89981pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ResultatsArIonisation.p
-df_tex
-<Figures/Polarimetrie/ResultatsArIonisation.pdf, id=6403, page=1, 596.96396pt x
- 569.848pt>
-File: Figures/Polarimetrie/ResultatsArIonisation.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsArIonisation.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsArIonisation.pdf, page1 
-used on input line 61.
-(pdftex.def)             Requested size: 400.0pt x 381.83966pt.
-)
-[169]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Schema_petit_modele.pdf
-_tex
-<Figures/Polarimetrie/Schema_petit_modele.pdf, id=6418, 187.37135pt x 154.03024
-pt>
-File: Figures/Polarimetrie/Schema_petit_modele.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/Schema_petit_modele.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Schema_petit_modele.pdf used on i
-nput line 52.
-(pdftex.def)             Requested size: 200.0pt x 164.42055pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[170 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_expon
-entielle_ionisation.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetri
-e/Decroissance_exponentielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_exponent
-ielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Decroissance_exponent
-ielle_ionisation.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Decroissance_exponentielle_ionisation.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [171 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsArIoni
-sation.pdf>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SpectresVSepsilon.pdf_t
-ex
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=6483, page=1, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page1 used
- on input line 73.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=6484, page=2, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page2 used
- on input line 84.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=6485, page=3, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page3 used
- on input line 103.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-
-<Figures/Polarimetrie/SpectresVSepsilon.pdf, id=6486, page=4, 318.85687pt x 607
-.99608pt>
-File: Figures/Polarimetrie/SpectresVSepsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/SpectresVSepsilon.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresVSepsilon.pdf, page4 used
- on input line 124.
-(pdftex.def)             Requested size: 300.0pt x 572.05446pt.
-) [172 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Schema_petit_mod
-ele.pdf>]
-[173 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.
-pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.
-pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresVSepsilon.pdf
-
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/SpectresVSepsilon.pdf): PDF inclusion: multiple pdfs with page group inc
-luded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/ResultatsEpsilon.pdf_te
-x
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=6525, page=1, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page1 used 
-on input line 52.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=6526, page=2, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 2>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page2 used 
-on input line 74.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=6527, page=3, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 3>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page3 used 
-on input line 77.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-
-<Figures/Polarimetrie/ResultatsEpsilon.pdf, id=6528, page=4, 483.15672pt x 253.
-44078pt>
-File: Figures/Polarimetrie/ResultatsEpsilon.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/ResultatsEpsilon.pdf, page 4>
-Package pdftex.def Info: Figures/Polarimetrie/ResultatsEpsilon.pdf, page4 used 
-on input line 84.
-(pdftex.def)             Requested size: 400.0pt x 209.83371pt.
-) [174 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon
-.pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.
-pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
-> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/ResultatsEpsilon.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/ResultatsEpsilon.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/MoyenneAngles.pdf_tex
-<Figures/Polarimetrie/MoyenneAngles.pdf, id=6537, page=1, 565.61778pt x 229.322
-66pt>
-File: Figures/Polarimetrie/MoyenneAngles.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/MoyenneAngles.pdf, page 1>
-Package pdftex.def Info: Figures/Polarimetrie/MoyenneAngles.pdf, page1 used on 
-input line 52.
-(pdftex.def)             Requested size: 400.0pt x 162.17986pt.
-) [175 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/MoyenneAngles.pd
-f>] [176]
-Overfull \hbox (1.46645pt too wide) detected at line 431
- []$[] \U/MnSymbolC/m/n/10.95  \OML/zplm/m/it/10.95 F[]\OMX/MnSymbolE/m/n/10.9
-5 �\OML/zplm/m/it/10.95 []\OMX/MnSymbolE/m/n/10.95 � []$ 
- []
-
-[177
-
-]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Referentiels.pdf_tex
-<Figures/Polarimetrie/Referentiels.pdf, id=6606, 439.24101pt x 346.72144pt>
-File: Figures/Polarimetrie/Referentiels.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Referentiels.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Referentiels.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 200.0pt x 157.87488pt.
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 449.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 449.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 449.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 449.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 449.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 449.
-
-[178 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Referentiels.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 461.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 461.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 461.
-
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/F11_ref_H17.pdf_tex
-<Figures/Polarimetrie/F11_ref_H17.pdf, id=6719, 368.56528pt x 281.434pt>
-File: Figures/Polarimetrie/F11_ref_H17.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/F11_ref_H17.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/F11_ref_H17.pdf used on input lin
-e 52.
-(pdftex.def)             Requested size: 240.00244pt x 183.26488pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/2couleurs_Setup.pdf_tex
-
-<Figures/Polarimetrie/2couleurs_Setup.pdf, id=6724, 539.93626pt x 461.31909pt>
-File: Figures/Polarimetrie/2couleurs_Setup.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/2couleurs_Setup.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/2couleurs_Setup.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 341.772pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[179] [180 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/F11_ref_H17.
-pdf> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/2couleurs_Setup.pd
-f
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/2couleurs_Setup.pdf): PDF inclusion: multiple pdfs with page group inclu
-ded in a single page
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 489.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 489.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 489.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 489.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 489.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 489.
-
-
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[181]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/SpectresPE_pm1.pdf_tex
-<Figures/Polarimetrie/SpectresPE_pm1.pdf, id=6843, 568.25047pt x 225.16736pt>
-File: Figures/Polarimetrie/SpectresPE_pm1.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/SpectresPE_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/SpectresPE_pm1.pdf used on input 
-line 52.
-(pdftex.def)             Requested size: 400.0pt x 158.50592pt.
-) [182 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/SpectresPE_pm1.p
-df>]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/MFPAD_pm1.pdf_tex
-<Figures/Polarimetrie/MFPAD_pm1.pdf, id=6935, 532.11584pt x 586.68336pt>
-File: Figures/Polarimetrie/MFPAD_pm1.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/MFPAD_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/MFPAD_pm1.pdf used on input line 
-52.
-(pdftex.def)             Requested size: 320.00122pt x 352.82736pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/CoupeMFPAD.pdf_tex
-<Figures/Polarimetrie/CoupeMFPAD.pdf, id=6936, 543.47218pt x 548.57358pt>
-File: Figures/Polarimetrie/CoupeMFPAD.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/CoupeMFPAD.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/CoupeMFPAD.pdf used on input line
- 52.
-(pdftex.def)             Requested size: 279.99878pt x 282.62317pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/F11_pm1.pdf_tex
-<Figures/Polarimetrie/F11_pm1.pdf, id=6939, 542.34015pt x 228.90988pt>
-File: Figures/Polarimetrie/F11_pm1.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/F11_pm1.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/F11_pm1.pdf used on input line 52
-.
-(pdftex.def)             Requested size: 400.0pt x 168.83878pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Resultatsbu2H19.pdf_tex
-<Figures/Polarimetrie/Resultatsbu2H19.pdf, id=6940, 538.7119pt x 220.982pt>
-File: Figures/Polarimetrie/Resultatsbu2H19.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Resultatsbu2H19.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Resultatsbu2H19.pdf used on input
- line 52.
-(pdftex.def)             Requested size: 400.0pt x 164.08722pt.
-)
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Determination_s1s2_bu2.
-pdf_tex
-<Figures/Polarimetrie/Determination_s1s2_bu2.pdf, id=6942, 569.35158pt x 284.29
-742pt>
-File: Figures/Polarimetrie/Determination_s1s2_bu2.pdf Graphic file (type pdf)
- <use Figures/Polarimetrie/Determination_s1s2_bu2.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Determination_s1s2_bu2.pdf used o
-n input line 52.
-(pdftex.def)             Requested size: 400.0pt x 199.73561pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[183 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/MFPAD_pm1.pdf>]
-[184 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/CoupeMFPAD.pdf> <C
-:/Users/lbarreau/Documents/these/Figures/Polarimetrie/F11_pm1.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/F11_pm1.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[185 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Resultatsbu2H19.pd
-f> <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Determination_s1s2_b
-u2.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/lbarreau/Documents/these/Figures/Polari
-metrie/Determination_s1s2_bu2.pdf): PDF inclusion: multiple pdfs with page grou
-p included in a single page
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 575.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 575.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[186]
-(C:\Users\lbarreau\Documents\these\Figures/Polarimetrie/Resultats_084.pdf_tex
-<Figures/Polarimetrie/Resultats_084.pdf, id=7243, 572.45215pt x 619.12463pt>
-File: Figures/Polarimetrie/Resultats_084.pdf Graphic file (type pdf)
-
-<use Figures/Polarimetrie/Resultats_084.pdf>
-Package pdftex.def Info: Figures/Polarimetrie/Resultats_084.pdf used on input l
-ine 52.
-(pdftex.def)             Requested size: 400.0pt x 432.61908pt.
-)
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[187] [188 <C:/Users/lbarreau/Documents/these/Figures/Polarimetrie/Resultats_08
-4.pdf>]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[189]) [190] (C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
+(C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
 (C:\Users\lbarreau\Documents\these\Thesis_LB.brf)
 \tf@brf=\write7
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 12.
 
-Underfull \hbox (badness 1014) in paragraph at lines 13--13
+Underfull \hbox (badness 1014) in paragraph at lines 18--18
 []\T1/ppl/m/n/9 (+20) Alexandridi C.  Me-dea - how-to for be-gin-ners - time of
  flight elec-tron spec-tro-me-ter (cea).
  []
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 32.
-[191
+[11
 
-
-] [192] [193] [194] [195] [196] [197] [198] [199]
+] [12] [13] [14] [15] [16] [17] [18] [19] [20]
 Missing character: There is no l in font MnSymbolS9!
- [200]) [201] [202
+ [21]) [22] [23
 
-]
-[203
 
 ]
 
@@ -4164,52 +2120,193 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 (C:\Users\lbarreau\Documents\these\Thesis_LB.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
-Package rerunfilecheck Info: File `Thesis_LB.out' has not changed.
-(rerunfilecheck)             Checksum: E0C45D83704071732D5FC5F49704E64A;10100.
-Package rerunfilecheck Info: File `Thesis_LB.brf' has not changed.
-(rerunfilecheck)             Checksum: 4436171302F4A41D32F230FFC3FC579B;19096.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `Thesis_LB.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_LB.out':
+(rerunfilecheck)             Before: F2CF9CA3DCC0DD40B9836E2B7D72A71F;3272
+(rerunfilecheck)             After:  E23C0AB8056F06F5CC8766F22BF6D8F9;734.
+
+Package rerunfilecheck Warning: File `Thesis_LB.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Thesis_LB.brf':
+(rerunfilecheck)             Before: 2F1736A4E8170FBC892B099C4D4CBB2F;3518
+(rerunfilecheck)             After:  809B9AC8F49D5636D3EAD07244FBDFE3;251.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 34234 strings out of 493921
- 607877 string characters out of 3147273
- 806122 words of memory out of 3000000
- 34803 multiletter control sequences out of 15000+200000
- 160333 words of font info for 816 fonts, out of 3000000 for 9000
+ 31534 strings out of 493921
+ 538496 string characters out of 3147273
+ 703136 words of memory out of 3000000
+ 33583 multiletter control sequences out of 15000+200000
+ 120919 words of font info for 499 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 46i,18n,38p,10394b,1262s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymb
-olC.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/
-MnSymbolA.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
-ymbol/MnSymbolS.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvi
-ps/mnsymbol/MnSymbolE.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/e
-nc/dvips/mnsymbol/MnSymbolD.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
-ntname/8r.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
-ymbol/MnSymbolF.enc} <C:\Users\lbarreau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ectt0900.pk><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/public/mnsymbol/MnSymbol10.pfb><C:/Users/lbarreau/AppData/Roaming/M
-iKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol5.pfb><C:/Users/lbarreau/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol6.pfb><C:/Users/lbarreau
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol7.pfb><C:/Users
-/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol8.pfb>
-<C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSym
-bol9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplm
-bb.pfb><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mathpaz
-o/fplmr.pfb><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ma
-thpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
-no/uplri8a.pfb>
-Output written on Thesis_LB.pdf (211 pages, 41455746 bytes).
+ 46i,14n,40p,10394b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{page.32} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{page.62} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.61} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.49} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.58} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.50} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.48} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.46} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.28} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.27} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.45} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.40} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.52} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.51} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.47} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.57} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.53} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{equation.1.1.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.6.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.19} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{part.2} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymbol
+C.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/Mn
+SymbolE.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsym
+bol/MnSymbolF.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
+{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymbol
+D.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/Mn
+SymbolA.enc} <C:\Users\lbarreau\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ectt0900.pk><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/public/mnsymbol/MnSymbol10.pfb><C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/public/mnsymbol/MnSymbol7.pfb><C:/Users/lbarreau/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol9.pfb><C:/Users/lbarreau/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/lbarreau/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
+r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Thesis_LB.pdf (29 pages, 1945266 bytes).
 PDF statistics:
- 8060 PDF objects out of 8907 (max. 8388607)
- 1006 named destinations out of 1200 (max. 500000)
- 92755 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 294 named destinations out of 1000 (max. 500000)
+ 82752 words of extra memory for PDF output out of 89155 (max. 10000000)
 
