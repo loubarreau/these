@@ -26,6 +26,7 @@ Ces résonances étroites peuvent être excitées sélectivement grâce à l'acc
 \chapter[Mesure de la phase de la transition au voisinage de la résonance $2s2p$ par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$2s2p$} par RABBIT et Rainbow RABBIT}
 \label{chap:HeSaclay_res}
 \section{Mesures RABBIT}
+\label{sec:RabbitHeSaclay}
 L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. 
 
 \begin{figure} [ht]
@@ -66,13 +67,13 @@ avec $+ \arg \mathcal{R}_{\text{eff}}$ si la résonance de Fano se trouve dans l
 \label{fig:TracesRabbitHe}
 \end{figure}
 
-Pour chaque longueur d'onde de génération, on obtient une courbe similaire à la figure \ref{fig:ExtractionPhaseInter}. Hors résonance, la phase du pic satellite augmente linéairement avec l'ordre à cause du terme $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ en suivant la dispersion de délai de groupe intrinsèque au processus de génération, l'\textit{attochirp} (chapitre \textbf{ref}, \mycite{MairesseScience2003}). Lorsque l'harmonique est résonante, on observe des déviations du comportement linéaire symétriques pour les pics satellites du dessous et du dessus (dû au $\pm$ dans l'expression \ref{eq:SB_He}) \mycite{TheseChirla}. L'\textit{attochirp} étant dû au processus de génération et dépendant peu de la longueur d'onde, on mesure une pente linéaire quasiment identique pour toutes les longueurs d'onde ($\approx$ 20 as/eV ou 0.06 rad/eV). En soustrayant un ajustement de cette pente (pointillés figure \ref{fig:ExtractionPhaseInter}), on obtient la phase due uniquement au processus de photoionisation à deux photons \textit{via} la résonance.
+Pour chaque longueur d'onde de génération, on obtient une courbe similaire à la figure \ref{fig:ExtractionPhaseInter}. Hors résonance, la phase du pic satellite augmente linéairement avec l'ordre à cause du terme $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ en suivant la dispersion de délai de groupe intrinsèque au processus de génération, le chirp atto (voir paragraphe \ref{subsec:ChirpAtto}). Lorsque l'harmonique est résonante, on observe des déviations du comportement linéaire symétriques pour les pics satellites du dessous et du dessus (dû au $\pm$ dans l'expression \ref{eq:SB_He}) \mycite{TheseChirla}. Le chirp atto étant dû au processus de génération et dépendant peu de la longueur d'onde (lorsqu'elle varie de quelques nanomètres comme c'est le cas ici), on mesure une pente linéaire quasiment identique pour toutes les longueurs d'onde ($\approx$ 20 as/eV ou 0.06 rad/eV). En soustrayant un ajustement de cette pente (pointillés figure \ref{fig:ExtractionPhaseInter}), on obtient la phase due uniquement au processus de photoionisation à deux photons \textit{via} la résonance.
 
 \begin{figure}
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{ExtractionPhaseInter.pdf_tex}
-\caption{Phase des pics satellites intégrés spectralement pour deux longueurs d'onde de génération. Quand l'harmonique 63 n'est pas résonante ($\lambda$ = 1275 nm), la phase est une fonction linéaire croissante de l'énergie, signature de la dispersion de délai de groupe intrinsèque aux harmoniques ("\textit{attochirp}") \mycite{MairesseScience2003}. Cette phase linéaire dépend peu de l'énergie dans la gamme de longueurs d'onde explorées. Lorsque $\text{H}_{63}$ est résonante, des déviations du comportement linéaire apparaissent de manière symétrique pour les pics satellites au-dessous et au-dessus de l'harmonique résonante.}
+\caption{Phase des pics satellites intégrés spectralement pour deux longueurs d'onde de génération. Quand l'harmonique 63 n'est pas résonante ($\lambda$ = 1275 nm), la phase est une fonction linéaire croissante de l'énergie, signature de la dispersion de délai de groupe intrinsèque aux harmoniques (chirp atto) \mycite{MairesseScience2003}. Cette phase linéaire dépend peu de l'énergie dans la gamme de longueurs d'onde explorées. Lorsque $\text{H}_{63}$ est résonante, des déviations du comportement linéaire apparaissent de manière symétrique pour les pics satellites au-dessous et au-dessus de l'harmonique résonante.}
 \label{fig:ExtractionPhaseInter}
 \end{figure}
 

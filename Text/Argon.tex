@@ -1,4 +1,4 @@
-\part{Dynamiques d'autoionisation dans l'argon et le néon}
+\part{Dynamiques d'autoionisation dans le néon et l'argon}
 \label{part:Argon}
 %% Mesures RABBIT Argon Saclay et OSU - Simuls Madrid - Discussion de l'influence du gaz de génération
 %% Mesures RABBIT Néon + Simuls Madrid
@@ -9,10 +9,59 @@
 % citer Kotur
 % citer Rothardt
 
+\chapter[Mesure de la phase de la transition au voisinage de la résonance $2s2p^63p$ du néon par RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$2s2p^63p$} du néon par RABBIT}
+\label{chap:Neon}
+
+\section{Section efficace}
+\begin{figure}[ht]
+\centering
+\def\svgwidth{0.6\textwidth}
+\import{Figures/Argon/}{SchulzNe.pdf_tex}
+\caption{(a) Rendement de photoionisation mesuré et (b) section efficace de photoionisation du néon calculée par la méthode R-matrix. Extrait de \mycite{SchulzPRA1996}.}
+\label{fig:SchulzNe}
+\end{figure}
+
+Le néon est le gaz noble le plus léger pour lequel le cation a un caractère polyélectronique. Les dynamiques de photoionisation sont donc plus riches que dans l'hélium, mais les effets relativistes ne sont pas à prendre en compte pour décrire les états autoionisants simplement excités \mycite{SchulzPRA1996}. La figure \ref{fig:SchulzNe} montre la section efficace de photoionisation du néon pour des énergies de photon de 44 à 53 eV. Cette région spectrale est très riche: on observe une série d'états simplement excités du néon $2s2p^{6}np$ ainsi que des séries d'états doublement excités $2s^{2}2p^{4}3snp$, $2s^{2}2p^{4}3pns$ et $2s^{2}2p^{4}3pnd$. 
+
+Dans la suite nous nous intéressons à l'état simplement excité $2s2p^{6}3p$, pour lequel la section efficace est la plus importante dans cette région spectrale. Cet état est couplé aux continua $s$ et $d$. Les paramètres de cette résonance de Fano sont données dans le tableau \ref{tab:ParamètresFano}: $E_R = 45.54$ eV; $q = -1.58$; $\Gamma =  16$ meV; $\tau = 41$ fs; $\rho^2 = 0.75$.
+
+\section{Mesure de la phase par interférométrie RABBIT}
+Les mesures RABBIT présentées ici ont été effectuées en collaboration avec Antoine Camper, Timothy Gorman et Dietrich Kiesewetter dans le laboratoire de Louis DiMauro et Pierre Agostini à l'université de l'état de l'Ohio. Le spectromètre de photoélectrons à bouteille magnétique utilisé, d'une longueur de 1 m, ne possède pas une résolution suffisante pour le Rainbow RABBIT. Aucune structure dans l'amplitude ou la phase des pics satellites n'a été mesurée. Les mesures de phases ont donc été effectuées en appliquant la technique RABBIT pour différentes longueurs d'onde de génération.
+
+Le dispositif expérimental est similaire à celui présenté sur la figure \ref{fig:SetupRabbit}. La longueur d'onde de génération est modifiée grâce à un amplificateur paramétrique optique (paragraphe \ref{subsec:OPA}). Pour échantillonner suffisamment la résonance, de faible largeur spectrale, on choisit une longueur d'onde de génération au voisinage de 1700 nm ($\hbar \omega \approx 0.73$ eV). Dans ces conditions, l'harmonique 63 est résonante avec la transition vers l'état $2s3p$. Les impulsions ont une durée de $\approx 50$ fs, soit une largeur spectrale $\approx 36$ meV et les effets d'impulsions brèves sont négligeables. L'impulsion de l'idler est séparée en deux avec un miroir troué de diamètre 8 mm. Le faisceau réfléchi est focalisé avec une lentille $f = 50$ cm dans un jet de CO$_2$ émis par une vanne pulsée Even-Lavie pour la GHOE. Le faisceau de génération restant, annulaire en champ lointain, est bloqué par un iris. L'XUV est refocalisé grâce à un miroir torique en or dans la zone d'interaction d'un spectromètre de photoélectrons à bouteille magnétique d'une longueur de 1 m. Le faisceau transmis par le miroir troué est recombiné avec l'XUV sur un second miroir troué de diamètre 6 mm. On mesure les spectres de photoionisation à deux photons et deux couleurs du néon en fonction du délai MIR-XUV. L'intensité de chaque pic satellite est sommée spectralement et on extrait la phase des oscillations par transformée de Fourier (équation \ref{eq:PhaseMoyenneHe}):
+\begin{equation}
+\bar{\Theta} = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} \left( \int_{\text{largeur SB}} S_{\text{SB}}(\tau,E) \rmd E \right) \right]
+\label{eq:PhaseMoyenneNe}
+\end{equation} 
+
+De manière similaire à la procédure employée au chapitre \ref{chap:HeSaclay_res}, on soustrait le chirp atto linéaire ($\approx 0.04$ rad/eV ou 18 as/eV) pour obtenir la phase due uniquement au processus de photoionisation à deux photons \textit{via} la résonance de Fano. Cette procédure est appliquée pour chaque longueur d'onde de génération afin d'obtenir la variation complète de la phase au voisinage de la résonance. La figure \ref{fig:ResultatsNe} montre les résultats obtenus pour les pics satellites SB$_{62}$ et SB$_{64}$ de part et d'autre de l'harmonique résonante. On observe une variation de $\approx$ 0.2 rad quand l'énergie de l'harmonique varie de 0.6 eV autour de la résonance. On remarque que, contrairement au cas de l'hélium, les deux pics satellites n'ont pas une variation de phase opposée. Cette observation est discutée dans le paragraphe suivant. Pour calibrer ces courbes en énergie, on utilise l'intensité de l'harmonique résonante H$_{63}$ (figure \ref{fig:ResultatsNe}(c)). Pour chaque longueur d'onde, un spectre de photoélectrons sans habillage est mesuré dans les conditions de génération et de détection identiques au RABBIT. Le rapport entre l'intensité de H$_{63}$ et le signal total de photoélectrons est calculé et est tracé en fonction de $63 \times \hbar \omega$. La différence entre la position du maximum de cette courbe et du maximum de la section efficace de photoionisation du néon au voisinage de la résonance (figure \ref{fig:SchulzNe}) donne un offset qui est appliqué à tous les points expérimentaux.
+
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Argon/}{ResultatsNeon_These.pdf_tex}
+\caption{Différence de phase atomique $\bar{\Delta \theta}^{\text{at}}$ mesurée dans les pics satellites SB$_{62}$ (a) et SB$_{64}$ (b), et rapport de l'intensité de photoélectrons dans l'harmonique résonante et dans le spectre complet (c) pour les longueurs d'onde de génération indiquées dans la légende. Les phases sont comparées avec un calcul effectué par Carlos Marante à l'université autonome de Madrid (en noir). Les barres d'erreur sont calculées à partir du rapport signal sur bruit de la transformée de Fourier des oscillations des pics satellites.}
+\label{fig:ResultatsNe}
+\end{figure}
+
+\section{Discussion}
+Les phases $\bar{\Delta \theta}^{\text{at}}$ mesurées sont comparées au résultat d'un calcul effectué dans le groupe de Fernando Mart\'{i}n à Madrid. Le modèle utilisé est identique à celui développé dans l'hélium (partie \ref{part:Helium}, \mycite{JimenezGalanPRL2014}\mycite{JimenezGalanPRA2016}). Les éléments de matrice de transition sont calculés avec le code XCHEM \mycite{MaranteJCTC2017}. Ce code a été préalablement testé en calculant les sections efficaces de photoionisation et les paramètres d'asymétrie $\beta$ au voisinage de la résonance de Fano \mycite{MarantePRA2017}. Les résultats des calculs sont en excellent accord avec les données spectroscopiques. Les amplitudes de transition sont calculées en utilisant les largeurs spectrales de l'XUV et de l'habillage issues de l'expérience. Dans le cas du néon, l'amplitude de transition totale est la somme incohérente des amplitudes de transition impliquant tous les canaux d'ionisation possibles. Enfin, les oscillations des pics satellites sont calculées par interférence des deux chemins à deux photons, convoluées spectralement pour tenir compte de la résolution du spectromètre de photoélectrons ($\approx 200$ meV), et la phase des oscillations à $2 \omega$ est déterminée pour différentes énergies XUV.
+
+Pour cette résonance et avec cette énergie de photon d'habillage, le paramètre de couplage direct entre la partie liée de la résonance et le continuum final (introduit au chapitre \ref{chap:2photons_et_Fano}) est $\gamma = 0.27$. Dans ces conditions, l'absorption et l'émission du photon MIR dans la transition à deux photons ne sont pas équivalentes (voir figure \ref{fig:FanoComplexeEffectif}(b)). Ainsi les phases calculées par le modèle et tracées figure \ref{fig:ResultatsNe}(a-b) ne sont pas opposées l'une de l'autre.
+
+Pour le pic satellite SB$_{62}$, les résultats expérimentaux sont très bien reproduits par le calcul. En revanche, ce n'est pas le cas pour SB$_{64}$: l'accord est bon pour la partie à basse énergie, mais l'expérience est significativement différente de la simulation pour $45.5 < 63 \times \hbar \omega < 46$ eV. Dans ce domaine, l'harmonique H$_{65}$ possède une énergie $46.9 < 65 \times \hbar \omega < 47.4$ eV, elle est donc résonante avec l'état autoionisant $2s2p^{5}4p$ situé à $E_R = 47.12$ eV qui introduit un terme supplémentaire dans la phase du pic satellite SB$_{64}$. La résonance $2s4p$ n'est pas incluse dans la simulation, ce qui explique le désaccord avec les mesures.
+
+Nos mesures de phase fournissent des données expérimentales supplémentaires à comparer aux codes de chimie quantique \mycite{MarantePRA2017}. L'excellent accord entre l'expérience et le calcul pour SB$_{62}$ montre que la méthode XCHEM décrit les corrélations électroniques pour la résonance d'autoionisation $2s3p$ dans le système polyélectronique du néon de manière satisfaisante. Ces résultats donnent confiance dans la capacité de ce code à simuler la photoionisation résonante dans le cas de molécules.
+
+Par ailleurs, \mycite{SchulzPRA1996} ont montré que la région autour de 50 eV dans le néon est très riches en états simplement et doublement excités. Par exemple, la résonance $2s2p^{5}5p$ ($E_R = 47.69$ eV) est perturbée par les résonances doublement excitées $2p^{4}3s4p$ (figure \ref{fig:SchulzNe}). Les états $2p^{4}3s4p$ ne sont en outre pas décrits par le couplage LS mais par le couplage $jj$. Les calculs avec la méthode R-matrix de Schulz \textit{et al.} ne reproduisent pas la section efficace expérimentale dans cette région. Une mesure de phase par la méthode Rainbow RABBIT, avec une impulsion d'habillage monochromatique, pourrait donner de nouvelles informations sur ces résonances impliquant des interactions entre de nombreuses configurations. 
+
+
+
 
 
 \chapter[Mesure de la phase de la transition au voisinage de la résonance $3s3p^64p$ de l'argon par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$3s3p^64p$} de l'argon par RABBIT et Rainbow RABBIT}
 
+\section{Section efficace}
 \begin{figure}
 \centering
 \def\svgwidth{0.85\textwidth}
@@ -21,7 +70,17 @@
 \label{fig:Zhang_SpectreAr}
 \end{figure}
 
-\begin{figure}
+L'argon est un gaz noble plus lourd que le néon, le couplage spin-orbite y joue donc un rôle plus important. La photoionisation d'un électron de valence $p$ de l'argon produit un ion dans deux états spin-orbite différents $3p^{-1}$ $^{2}P_{1/2}$ et $3p^{-1}$ $^{2}P_{3/2}$ séparés de $\Delta E_{SO} = 178$ meV \mycite{Moore1949}. Si la résolution expérimentale est meilleure que cet écart énergétique, l'absorption d'un photon d'énergie $\hbar \Omega > Ip$ produit deux pics de photoélectrons séparés de $\Delta E_{SO}$. La figure \ref{fig:Zhang_SpectreAr} montre le rendement de photoélectrons en fonction de l'énergie du photon incident pour les deux composantes spin-orbite de Ar$^+$ mesuré grâce au rayonnement synchrotron par Zhang \textit{et al.}. On remarque une série de résonances de Fano simplement excitées $3s3p^{6}np$ entre 26.5 et 29 eV couplées aux deux états de l'ion. De la même manière que pour le néon ces états autoionisants sont couplés aux continua de symétrie $s$ et $d$. Remarquons ici la section efficace de photoionisation diminue à l'énergie de la résonance, ce qui est caractéristique d'un paramètre de Fano $|q| < 1$. Ce type de résonance est parfois appelé "résonance fenêtre" ou "anti-résonance".
+
+Dans la suite de ce chapitre nous nous intéresserons à la mesure de la phase de la transition vers la résonance $3s4p$ dont les paramètres sont donnés par le tableau \ref{tab:ParamètresFano}: $E_R = 26.606$ eV; $q = -0.28$; $\Gamma =  80$ meV; $\tau = 8$ fs; $\rho^2 = 0.84$. Deux types d'expériences ont été effectuées:
+\begin{enumerate}
+\item des mesures RABBIT à Saclay et à Ohio State en générant les harmoniques à partir d'un laser dans l'infrarouge moyen.
+\item des mesures Rainbow RABBIT à Lund en générant les harmoniques à 800 nm et avec un spectromètre de photoélectrons de meilleure résolution. Dans ces conditions les résonances dans les deux états de l'ion ont pu être isolées.
+\end{enumerate}
+
+\section{Mesure de la phase par interférométrie RABBIT}
+\subsection{Données de la littérature avec la GHOE à 800 nm}
+\begin{figure}[ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Argon/}{Kotur.pdf_tex}
@@ -29,22 +88,35 @@
 \label{fig:Kotur}
 \end{figure}
 
+Parallèlement aux mesures effectuées à Saclay et présentées au paragraphe suivant, le groupe d'Anne L'Huillier à Lund a publié les résultats d'une expérience similaire \mycite{KoturNatComm2016}. Cette expérience est la première à avoir mesuré la phase de la transition au voisinage d'une résonance de Fano en utilisant l'interférométrie RABBIT avec des harmoniques accordables. La longueur d'onde centrale du laser de génération est modifiée avec des filtres acousto-optiques programmables (paragraphe \ref{sec:Accordabilité}). Les harmoniques sont générées dans l'argon. L'analyse des spectrogrammes RABBIT pour chaque longueur d'onde est identique à la méthode présentée aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:Neon}. La variation de phase (que nous notons $\bar{\Delta \theta}^{\text{at}}$) en fonction de l'énergie de l'harmonique résonante mesurée par Kotur \textit{et al.} est présentée sur la figure \ref{fig:Kotur}. Les auteurs mesurent une variation de phase de $\sim 0.6$ rad autour de la résonance, qui n'est pas opposée pour les deux pics satellites de part et d'autre de l'harmonique résonante. Les mesures sont en accord avec les résultats de simulations (lignes rouge et pointillée verte sur la figure \ref{fig:Kotur}) de manière satisfaisante. Cependant, les variations de phase dans les deux pics satellites ne sont pas opposées. Dans les simulations, basées sur le modèle de \mycite{JimenezGalanPRA2016}, la largeur spectrale de l'impulsion IR d'habillage (durée $\approx 25$ fs; largeur spectrale $\approx 95$ meV) est prise en compte.
+
+\subsection{Résultats expérimentaux avec la GHOE dans l'infrarouge moyen}
+Sans avoir eu connaissance des résultats de Kotur \textit{et al.}, nous avons effectué la même expérience à Saclay. Le dispositif expérimental utilisé est similaire à celui présenté sur la figure \ref{fig:SetupRabbit} et décrit au paragraphe \ref{sec:RabbitHeSaclay}. Brièvement, la longueur d'onde de génération est modifiée grâce à un amplificateur paramétrique optique afin que l'harmonique 27 soit résonante avec la transition vers l'état $3s4p$ ($\lambda \approx 1260$ nm). L'impulsion MIR est focalisée dans une cellule de krypton pour la GHOE. Nous avons choisi un gaz de génération qui ne possède pas de résonances dans la région spectrale qui nous intéresse.  La durée de l'impulsion est $\approx 70$ fs, soit une largeur spectrale $\approx 26$ meV. Dans ces conditions, les effets d'impulsions brèves sont négligeables. Un spectrogramme RABBIT est mesuré pour chaque longueur d'onde de génération. Les pics satellites sont intégrés sur leur largeur spectrale et la phase des oscillations est extraite par transformée de Fourier (équation \ref{eq:PhaseMoyenneNe}). En dehors des résonances de Fano, la section efficace de photoionisation de l'argon n'est pas "plate" (figure \ref{fig:ChenAr},\mycite{ChenPRA1992}). La présence du minimum de Cooper \mycite{CooperPR1962} modifie la phase des transitions vers le continuum, comme le montre le calcul de \mycite{MauritssonPRA2005}. Ainsi, nous n'utilisons pas la totalité des pics satellites mesurés pour déterminer le chirp atto (figure \ref{fig:ExtractionPhaseInter}) mais seulement les pics satellites voisins: ici SB$_{24}$ et SB$_{30}$. La différence avec le chirp atto est $\bar{\Delta \theta}^{\text{at}}$.
+
+La figure \ref{fig:Phases_Argon_Saclay} montre les résultats obtenus pour les pics satellites SB$_{26}$ et SB$_{28}$ de part et d'autre de l'harmonique résonante. On observe une variation de $\approx$ 0.5 rad quand l'énergie de l'harmonique varie de 0.4 eV autour de la résonance. Les deux pics satellites ont une variation de phase quasiment opposée, à la différence des résultats de la figure \ref{fig:Kotur}. Cette observation est discutée dans le paragraphe suivant. Pour calibrer ces courbes en énergie, on utilise l'intensité de l'harmonique résonante H$_{27}$ (figure \ref{fig:Phases_Argon_Saclay}(c)). Pour chaque longueur d'onde, un spectre de photoélectrons sans habillage est mesuré dans les conditions de génération et de détection identiques au RABBIT (figure \ref{fig:Spectres_Argon_Saclay}). Le rapport entre l'intensité de H$_{27}$ et le signal total de photoélectrons est calculé et est tracé en fonction de $27 \times \hbar \omega$. La différence entre la position du minimum de cette courbe et du minimum de la section efficace de photoionisation de l'argon au voisinage de la résonance (figure \ref{fig:Zhang_SpectreAr}) donne un offset qui est appliqué à tous les points expérimentaux.
+
 \begin{figure}
 \centering
 \def\svgwidth{1\textwidth}
 \import{Figures/Argon/}{Spectres_Argon_Saclay.pdf_tex}
-\caption{fez}
+\caption{Spectres de photoélecctrons de l'argon ionisé par les harmoniques d'ordre élevé générées dans le krypton pour plusieurs longueurs d'onde de 1245 à 1285 nm. Les spectres sont décalés verticalement pour une meilleure visibilité. Les pointillés noirs matérialisent la position de la résonance. Bien que la résonance fenêtre soit visible dans l'intensité de l'harmonique 27, aucune structure dans l'amplitude ou la phase des pics satellites 26 et 28 n'a été observée.}
 \label{fig:Spectres_Argon_Saclay}
 \end{figure}
 
+La même expérience a été reproduite dans le laboratoire de Louis DiMauro et Pierre Agostini à l'université d'état de l'Ohio, en collaboration avec Antoine Camper, Timothy Gorman et Dietrich Kiesewetter. Les différences avec l'expérience de Saclay sont simplement:
+\begin{itemize}
+\item la longueur d'onde de génération se situe autour de 1700 nm.
+\item la durée de l'impulsion d'habillage est légèrement inférieure ($\approx 50$ fs), mais les effets d'impulsions brèves sont toujours négligeables.
+\item la GHOE est effectuée dans le CO$_2$, avec une vanne pulsée Even-Lavie.
+\end{itemize}
+Les résultats, représentés sur la figure \ref{fig:Phases_Argon_OSU}, sont qualitativement en accord avec les résultats de Saclay. En générant avec une vanne pulsée, le flux de photons XUV est plus faible qu'en générant dans une cellule. Les barres d'erreur sont donc plus importantes que sur la figure \ref{fig:Phases_Argon_Saclay}.
 
-% Pour le fit du group delay on ne prend que les points autour de la résonance parce que dans l'argon à cause du min de Cooper c'est le bazar !!
 
 \begin{figure}
 \centering
 \def\svgwidth{1\textwidth}
 \import{Figures/Argon/}{Fano_Argon_Saclay.pdf_tex}
-\caption{fez}
+\caption{Différence de phase atomique $\bar{\Delta \theta}^{\text{at}}$ mesurée dans les pics satellites SB$_{26}$ (a) et SB$_{28}$ (b), et rapport de l'intensité de photoélectrons dans l'harmonique résonante et dans le spectre complet (c) pour les longueurs d'onde de génération indiquées dans la légende. Les phases sont comparées avec un calcul effectué par \'{A}lvaro Jiménez-Gal\'{a}n à l'université autonome de Madrid (en noir). Pour certaines longueurs d'onde, l'expérience a été effectuée plusieurs fois et les différents résultats sont représentés, indiquant la variabilité statistique de nos mesures. Les barres d'erreur sont calculées à partir du rapport signal sur bruit de la transformée de Fourier des oscillations des pics satellites.}
 \label{fig:Phases_Argon_Saclay}
 \end{figure}
 
@@ -52,46 +124,16 @@
 \centering
 \def\svgwidth{1\textwidth}
 \import{Figures/Argon/}{Fano_Argon_OSU_These.pdf_tex}
-\caption{fez}
+\caption{Différence de phase atomique $\bar{\Delta \theta}^{\text{at}}$ mesurée dans les pics satellites SB$_{36}$ (a) et SB$_{38}$ (b), et rapport de l'intensité de photoélectrons dans l'harmonique résonante et dans le spectre complet (c) pour les longueurs d'onde de génération indiquées dans la légende. Les phases sont comparées avec un calcul effectué par \'{A}lvaro Jiménez-Gal\'{a}n à l'université autonome de Madrid (en noir). Les barres d'erreur sont calculées à partir du rapport signal sur bruit de la transformée de Fourier des oscillations des pics satellites.}
 \label{fig:Phases_Argon_OSU}
 \end{figure}
 
+\subsection{Discussion}
+La comparaison des résultats obtenus à Saclay et Ohio State avec les données de \mycite{KoturNatComm2016} font apparaître deux choses. D'une part, les phases que nous avons mesurées sont quasiment opposées pour les pics satellites de part et d'autre de la résonance, contrairement aux mesures de Koture \textit{et al.}. D'après le chapitre \ref{chap:2photons_et_Fano}, le paramètre $\gamma$ est proportionnel à $\omega$ c'est-à-dire à l'énergie du photon d'habillage. Les phases des deux pics satellites sont donc plus symétriques lorsque le photon d'habillage se situe dans l'infrarouge moyen. Notons également que les effets d'impulsions brèves sont négligeables dans nos expériences. 
 
 
 
-
-\chapter[Mesure de la phase de la transition au voisinage de la résonance $2s2p^63p$ du néon par RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$2s2p^63p$} du néon par RABBIT}
-
-\section{Section efficace}
-Le néon est le gaz noble le plus léger pour lequel le cation a un caractère polyélectronique. Les dynamiques de photoionisation sont donc plus riches que dans l'hélium, mais les effets relativistes ne sont pas à prendre en compte pour décrire les états autoionisants simplement excités \mycite{SchulzPRA1996}. La figure \ref{fig:SchulzNe} montre la section efficace de photoionisation du néon pour des énergies de photon de 44 à 53 eV. Cette région spectrale est très riche: on observe une série d'états simplement excités du néon $2s2p^{6}np$ ainsi que des séries d'états doublement excités $2s^{2}2p^{4}3snp$, $2s^{2}2p^{4}3pns$ et $2s^{2}2p^{4}3pnd$. 
-
-Dans la suite nous nous intéressons à l'état simplement excité $2s2p^{6}3p$, pour lequel la section efficace est la plus importante. Cet état est couplé aux continua $s$ et $d$. Les paramètres de cette résonance de Fano sont données dans le tableau \ref{tab:ParamètresFano}: $E_R = 45.54$ eV; $q = -1.58$; $\Gamma =  16$ meV; $\tau = 41$ fs; $\rho^2 = 0.75$.
-
-\begin{figure}
-\centering
-\def\svgwidth{0.6\textwidth}
-\import{Figures/Argon/}{SchulzNe.pdf_tex}
-\caption{(a) Rendement de photoionisation mesuré et (b) section efficace de photoionisation du néon calculée par la méthode R-matrix. Extrait de \mycite{SchulzPRA1996}.}
-\label{fig:SchulzNe}
-\end{figure}
-
-\section{Mesure de la phase par interférométrie RABBIT}
-Les mesures RABBIT présentées ici ont été effectuées en collaboration avec Antoine Camper, Timothy Gorman et Dietrich Kiesewetter dans le laboratoire de Louis DiMauro et Pierre Agostini à l'université de l'état de l'Ohio. Le spectromètre de photoélectrons à bouteille magnétique utilisé, d'une longueur de 1 m, ne possède pas une résolution suffisante pour le Rainbow RABBIT. Aucune structure dans l'amplitude ou la phase des pics satellites n'a été mesurée. Les mesures de phases ont donc été effectuées en appliquant la technique RABBIT pour différentes longueurs d'onde de génération.
-
-La longueur d'onde de génération est modifiée grâce à un amplificateur paramétrique optique (paragraphe \ref{subsec:OPA}). Pour échantillonner suffisamment la résonance, de faible largeur spectrale, on choisit une longueur d'onde de génération au voisinage de 1700 nm ($\hbar \omega \approx 0.73$ eV). Dans ces conditions, l'harmonique 63 est résonante avec la transition vers l'état $2s3p$. L'impulsion de l'idler est séparée en deux avec un miroir troué de diamètre 8 mm. Le faisceau réfléchi est focalisé avec une lentille $f = 50$ cm dans un jet de CO$_2$ émis par une vanne pulsée Even-Lavie pour la GHOE. Le faisceau de génération restant, annulaire en champ lointain, est bloqué par un iris. L'XUV est refocalisé grâce à un miroir torique en or dans la zone d'interaction d'un spectromètre de photoélectrons à bouteille magnétique d'une longueur de 1 m. Le faisceau transmis par le miroir troué est recombiné avec l'XUV sur un second miroir troué de diamètre 6 mm. On mesure les spectres de photoionisation à deux photons et deux couleurs du néon en fonction du délai MIR-XUV. L'intensité de chaque pic satellite est sommée spectralement et on extrait la phase des oscillations par transformée de Fourier (équation \ref{eq:PhaseMoyenneHe}):
-\begin{equation}
-\bar{\Theta} = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} \left( \int_{\text{largeur SB}} S_{\text{SB}}(\tau,E) \rmd E \right) \right]
-\label{eq:PhaseMoyenneNe}
-\end{equation} 
-
-\begin{figure}
-\centering
-\def\svgwidth{\textwidth}
-\import{Figures/Argon/}{ResultatsNeon_These.pdf_tex}
-\caption{ezfezf.}
-\label{fig:ResultatsNe}
-\end{figure}
-
+\section{Mesure de la phase par Rainbow RABBIT}
 
 
 %% Conclusion, perspectives: Résolution angulaire, beta qui varie autour de résonances.  Doughty, B., Haber, L. H., Hackett, C. & Leone, S. R. Photoelectron angular distributions from autoionizing 4s14p66p1 states in atomic krypton probed with femtosecond time resolution. J. Chem. Phys. 134, 094307 (2011). Angularly resolved Rabbit Hockett JPhysB + Science Villeneuve

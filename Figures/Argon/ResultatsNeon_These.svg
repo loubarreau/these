@@ -502,9 +502,9 @@
      inkscape:window-height="988"
      id="namedview12979"
      showgrid="false"
-     inkscape:zoom="0.96761905"
-     inkscape:cx="408.9356"
-     inkscape:cy="391.36163"
+     inkscape:zoom="1.9352381"
+     inkscape:cx="522.38313"
+     inkscape:cy="246.67659"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2113,208 +2113,208 @@
      id="ID000024-7"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,779.13693)"
-     style="stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill:#ffffff;fill-opacity:0">
     <polyline
        points="1452.969,66.875 1490.469,66.875 "
        id="polyline3850"
-       style="fill:none;stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#ffffff;stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:0" />
     <g
        id="g3852"
-       style="stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill:#ffffff;fill-opacity:0" />
   </g>
   <g
      id="ID000027-4"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,776.87913)"
-     style="stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.75294119;stroke-dasharray:none;fill:#000000;fill-opacity:0">
     <polyline
        points="1452.969,90.938 1490.469,90.938 "
        id="polyline3865"
-       style="fill:none;stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.75294119;stroke-dasharray:none;fill-opacity:0" />
     <g
        id="g3867"
-       style="stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.75294119;stroke-dasharray:none;fill:#000000;fill-opacity:0" />
   </g>
   <g
      id="ID000030-0"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,774.62033)"
-     style="stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,115.000 1490.469,115.000 "
        id="polyline3880"
-       style="fill:none;stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3882"
-       style="stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000033-9"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,772.36153)"
-     style="stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,139.062 1490.469,139.062 "
        id="polyline3895"
-       style="fill:none;stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3897"
-       style="stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000036"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,770.10373)"
-     style="stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,163.125 1490.469,163.125 "
        id="polyline3910"
-       style="fill:none;stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3912"
-       style="stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000039"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,767.84593)"
-     style="stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,187.188 1490.469,187.188 "
        id="polyline3925"
-       style="fill:none;stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3927"
-       style="stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000042"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,765.58713)"
-     style="stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,211.250 1490.469,211.250 "
        id="polyline3940"
-       style="fill:none;stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3942"
-       style="stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000045"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-751.02957,763.32833)"
-     style="stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,235.312 1490.469,235.312 "
        id="polyline3955"
-       style="fill:none;stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3957"
-       style="stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000048"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,972.99377)"
-     style="stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,259.375 1490.469,259.375 "
        id="polyline3970"
-       style="fill:none;stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3972"
-       style="stroke:#01ffcc;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#01ff79;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000051"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,970.73497)"
-     style="stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,283.437 1490.469,283.437 "
        id="polyline3985"
-       style="fill:none;stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g3987"
-       style="stroke:#01d2ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#01ff1f;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000054"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,968.47716)"
-     style="stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,307.500 1490.469,307.500 "
        id="polyline4000"
-       style="fill:none;stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g4002"
-       style="stroke:#017fff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#3dff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000057"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,966.21937)"
-     style="stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,331.563 1490.469,331.563 "
        id="polyline4015"
-       style="fill:none;stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g4017"
-       style="stroke:#0125ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:#96ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
      id="ID000060"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,963.96055)"
-     style="fill:#000000;fill-opacity:1;stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="fill:#000000;fill-opacity:1;stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,355.625 1490.469,355.625 "
        id="polyline4030"
-       style="fill:#000000;fill-opacity:1;stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g4032"
-       style="fill:#000000;fill-opacity:1;stroke:#3701ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;stroke:#f0ff01;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
-     style="fill:#000000;fill-opacity:1;stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#000000;fill-opacity:1;stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      transform="matrix(1,0,0,-1,-856.26042,961.70176)"
      clip-path="url(#ID000022-1-4)"
      id="g16032">
     <polyline
-       style="fill:#000000;fill-opacity:1;stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="polyline16034"
        points="1452.969,379.687 1490.469,379.687 " />
     <g
-       style="fill:#000000;fill-opacity:1;stroke:#9001ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#ffb401;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="g16036" />
   </g>
   <g
      id="g16038"
      clip-path="url(#ID000022-1-4)"
      transform="matrix(1,0,0,-1,-856.26042,935.38096)"
-     style="fill:#000000;fill-opacity:1;stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+     style="fill:#000000;fill-opacity:1;stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
     <polyline
        points="1452.969,379.687 1490.469,379.687 "
        id="polyline16040"
-       style="fill:#000000;fill-opacity:1;stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        id="g16042"
-       style="fill:#000000;fill-opacity:1;stroke:#ea01ff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;stroke:#ff6101;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <g
-     style="fill:#000000;fill-opacity:1;stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#ff0701;fill-opacity:1;stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      transform="matrix(1,0,0,-1,-856.26042,909.06015)"
      clip-path="url(#ID000022-1-4)"
      id="g16044">
     <polyline
-       style="fill:#000000;fill-opacity:1;stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ff0701;fill-opacity:1;stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="polyline16046"
        points="1452.969,379.687 1490.469,379.687 " />
     <g
-       style="fill:#000000;fill-opacity:1;stroke:#ff01ba;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ff0701;fill-opacity:1;stroke:#ff0701;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="g16048" />
   </g>
   <text
