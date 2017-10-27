@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  26 OCT 2017 20:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.10)  27 OCT 2017 18:41
 entering extended mode
 **Thesis_LB.tex
 (C:\Users\lbarreau\Documents\these\Thesis_LB.tex
@@ -1842,7 +1842,7 @@ Package microtype Info: Loading generic settings for font family
 
 (C:\Users\lbarreau\Documents\these\Misc/Prel_Matter.tex
 (C:\Users\lbarreau\Documents\these\Misc/style-pagedegarde.tex
-<Figures/Logos/UPSac.png, id=63, 440.95174pt x 148.72957pt>
+<Figures/Logos/UPSac.png, id=75, 440.95174pt x 148.72957pt>
 File: Figures/Logos/UPSac.png Graphic file (type png)
 
 <use Figures/Logos/UPSac.png>
@@ -1853,7 +1853,7 @@ Overfull \hbox (114.49495pt too wide) in paragraph at lines 9--11
 [][]
  []
 
-<Figures/Logos/UPS.png, id=65, 80.154pt x 73.9125pt>
+<Figures/Logos/UPS.png, id=77, 80.154pt x 73.9125pt>
 File: Figures/Logos/UPS.png Graphic file (type png)
 
 <use Figures/Logos/UPS.png>
@@ -1889,14 +1889,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<Figures/Logos/lidyl.png, id=76, 139.2402pt x 85.0377pt>
+<Figures/Logos/lidyl.png, id=88, 139.2402pt x 85.0377pt>
 File: Figures/Logos/lidyl.png Graphic file (type png)
 
 <use Figures/Logos/lidyl.png>
 Package pdftex.def Info: Figures/Logos/lidyl.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 52.13242pt.
 
-<Figures/Logos/CEA.png, id=77, 789.95125pt x 644.4075pt>
+<Figures/Logos/CEA.png, id=89, 789.95125pt x 644.4075pt>
 File: Figures/Logos/CEA.png Graphic file (type png)
 
 <use Figures/Logos/CEA.png>
@@ -1957,7 +1957,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
 (C:\Users\lbarreau\Documents\these\Figures/Argon/SchulzNe.pdf_tex
-<Figures/Argon/SchulzNe.pdf, id=125, 417.22281pt x 565.01292pt>
+<Figures/Argon/SchulzNe.pdf, id=140, 417.22281pt x 565.01292pt>
 File: Figures/Argon/SchulzNe.pdf Graphic file (type pdf)
 
 <use Figures/Argon/SchulzNe.pdf>
@@ -1998,7 +1998,7 @@ been already used, duplicate ignored
 l.38 
       [4]
 (C:\Users\lbarreau\Documents\these\Figures/Argon/ResultatsNeon_These.pdf_tex
-<Figures/Argon/ResultatsNeon_These.pdf, id=158, 683.83257pt x 643.84074pt>
+<Figures/Argon/ResultatsNeon_These.pdf, id=173, 683.83257pt x 643.84074pt>
 File: Figures/Argon/ResultatsNeon_These.pdf Graphic file (type pdf)
 
 <use Figures/Argon/ResultatsNeon_These.pdf>
@@ -2047,7 +2047,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 62.
 
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Zhang_SpectreAr.pdf_tex
-<Figures/Argon/Zhang_SpectreAr.pdf, id=243, 436.32658pt x 279.12097pt>
+<Figures/Argon/Zhang_SpectreAr.pdf, id=258, 436.32658pt x 279.12097pt>
 File: Figures/Argon/Zhang_SpectreAr.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Zhang_SpectreAr.pdf>
@@ -2056,12 +2056,15 @@ Package pdftex.def Info: Figures/Argon/Zhang_SpectreAr.pdf used on input line 5
 (pdftex.def)             Requested size: 340.00244pt x 217.50478pt.
 )
 
-LaTeX Warning: Reference `tab:Param\IeC {\`e}tresFano' on page 9 undefined on i
-nput line 75.
+LaTeX Warning: Reference `chap:DelaiPI' on page 9 undefined on input line 73.
 
 [9 <C:/Users/lbarreau/Documents/these/Figures/Argon/Zhang_SpectreAr.pdf>]
+
+LaTeX Warning: Reference `tab:Param\IeC {\`e}tresFano' on page 10 undefined on 
+input line 75.
+
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Kotur.pdf_tex
-<Figures/Argon/Kotur.pdf, id=282, 341.98529pt x 576.8457pt>
+<Figures/Argon/Kotur.pdf, id=300, 341.98529pt x 576.8457pt>
 File: Figures/Argon/Kotur.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Kotur.pdf>
@@ -2076,45 +2079,44 @@ nput line 91.
 LaTeX Warning: Reference `chap:HeSaclay_res' on page 10 undefined on input line
  91.
 
-
-LaTeX Warning: Reference `fig:SetupRabbit' on page 10 undefined on input line 9
-4.
-
-
-LaTeX Warning: Reference `sec:RabbitHeSaclay' on page 10 undefined on input lin
-e 94.
-
-
-LaTeX Warning: Reference `fig:ChenAr' on page 10 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:ExtractionPhaseInter' on page 10 undefined on inp
-ut line 94.
-
-[10]
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (13.6pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 97.
-
-
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
-
-[11 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Spectres_Argon_Saclay.pdf_tex
-<Figures/Argon/Spectres_Argon_Saclay.pdf, id=330, 1071.02379pt x 655.83746pt>
+<Figures/Argon/Spectres_Argon_Saclay.pdf, id=312, 1071.02379pt x 655.83746pt>
 File: Figures/Argon/Spectres_Argon_Saclay.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Spectres_Argon_Saclay.pdf>
 Package pdftex.def Info: Figures/Argon/Spectres_Argon_Saclay.pdf used on input 
 line 52.
 (pdftex.def)             Requested size: 400.0pt x 244.93771pt.
-) [12 <C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pd
-f>]
+)
+
+LaTeX Warning: Reference `fig:SetupRabbit' on page 10 undefined on input line 1
+02.
+
+
+LaTeX Warning: Reference `sec:RabbitHeSaclay' on page 10 undefined on input lin
+e 102.
+
+
+LaTeX Warning: Reference `fig:ChenAr' on page 10 undefined on input line 102.
+
+
+LaTeX Warning: Reference `fig:ExtractionPhaseInter' on page 10 undefined on inp
+ut line 102.
+
+[10]
+
+Class memoir Warning: The material used in the headers is too large
+(27.2pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 103.
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+
+[11 <C:/Users/lbarreau/Documents/these/Figures/Argon/Kotur.pdf>]
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_Saclay.pdf_tex
-<Figures/Argon/Fano_Argon_Saclay.pdf, id=433, 686.80663pt x 653.2297pt>
+<Figures/Argon/Fano_Argon_Saclay.pdf, id=348, 686.80663pt x 653.2297pt>
 File: Figures/Argon/Fano_Argon_Saclay.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Fano_Argon_Saclay.pdf>
@@ -2123,40 +2125,90 @@ Package pdftex.def Info: Figures/Argon/Fano_Argon_Saclay.pdf used on input line
 (pdftex.def)             Requested size: 400.0pt x 380.44835pt.
 )
 (C:\Users\lbarreau\Documents\these\Figures/Argon/Fano_Argon_OSU_These.pdf_tex
-<Figures/Argon/Fano_Argon_OSU_These.pdf, id=434, 681.61432pt x 660.46376pt>
+<Figures/Argon/Fano_Argon_OSU_These.pdf, id=349, 681.61432pt x 660.46376pt>
 File: Figures/Argon/Fano_Argon_OSU_These.pdf Graphic file (type pdf)
 
 <use Figures/Argon/Fano_Argon_OSU_These.pdf>
 Package pdftex.def Info: Figures/Argon/Fano_Argon_OSU_These.pdf used on input l
 ine 52.
 (pdftex.def)             Requested size: 400.0pt x 387.59421pt.
-)
-
-LaTeX Warning: Reference `chap:2photons_et_Fano' on page 13 undefined on input 
-line 132.
-
-
+) [12 <C:/Users/lbarreau/Documents/these/Figures/Argon/Spectres_Argon_Saclay.pd
+f>]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
 [13 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_Saclay.pdf>]
 [14 <C:/Users/lbarreau/Documents/these/Figures/Argon/Fano_Argon_OSU_These.pdf>]
+
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Compare_Ar_Saclay_Lund_These.p
+df_tex
+<Figures/Argon/Compare_Ar_Saclay_Lund_These.pdf, id=561, 1040.80066pt x 304.551
+38pt>
+File: Figures/Argon/Compare_Ar_Saclay_Lund_These.pdf Graphic file (type pdf)
+ <use Figures/Argon/Compare_Ar_Saclay_Lund_These.pdf>
+Package pdftex.def Info: Figures/Argon/Compare_Ar_Saclay_Lund_These.pdf used on
+ input line 52.
+(pdftex.def)             Requested size: 400.0pt x 117.04584pt.
 )
+
+LaTeX Warning: Reference `part:GHOE' on page 15 undefined on input line 141.
+
+
+LaTeX Warning: Reference `chap:2photons_et_Fano' on page 15 undefined on input 
+line 144.
+
+
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
-[15] [16
+[15 <C:/Users/lbarreau/Documents/these/Figures/Argon/Compare_Ar_Saclay_Lund_The
+se.pdf>]
 
-] (C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
+LaTeX Warning: Reference `chap:He_Lund' on page 16 undefined on input line 150.
+
+
+(C:\Users\lbarreau\Documents\these\Figures/Argon/SpectreAr_Lund_786.pdf_tex
+<Figures/Argon/SpectreAr_Lund_786.pdf, id=611, 1098.45502pt x 655.8937pt>
+File: Figures/Argon/SpectreAr_Lund_786.pdf Graphic file (type pdf)
+
+<use Figures/Argon/SpectreAr_Lund_786.pdf>
+Package pdftex.def Info: Figures/Argon/SpectreAr_Lund_786.pdf used on input lin
+e 52.
+(pdftex.def)             Requested size: 400.0pt x 238.84377pt.
+) [16]
+
+LaTeX Warning: Reference `chap:HeSaclay_res' on page 17 undefined on input line
+ 180.
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+
+[17 <C:/Users/lbarreau/Documents/these/Figures/Argon/SpectreAr_Lund_786.pdf>]
+
+LaTeX Warning: Reference `subsec:SeparationSO' on page 18 undefined on input li
+ne 182.
+
+(C:\Users\lbarreau\Documents\these\Figures/Argon/Pha_Amp_SO_Argon.pdf_tex
+<Figures/Argon/Pha_Amp_SO_Argon.pdf, id=647, 699.89832pt x 617.64853pt>
+File: Figures/Argon/Pha_Amp_SO_Argon.pdf Graphic file (type pdf)
+
+<use Figures/Argon/Pha_Amp_SO_Argon.pdf>
+Package pdftex.def Info: Figures/Argon/Pha_Amp_SO_Argon.pdf used on input line 
+52.
+(pdftex.def)             Requested size: 400.0pt x 352.99635pt.
+)) [18 <C:/Users/lbarreau/Documents/these/Figures/Argon/Pha_Amp_SO_Argon.pdf>]
+(C:\Users\lbarreau\Documents\these\Thesis_LB.bbl
 (C:\Users\lbarreau\Documents\these\Thesis_LB.brf)
 \tf@brf=\write7
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
-) [17
+) [19
 
-] [18
 
-] [19
+] [20
+
+] [21
 
 ]
 
@@ -2173,23 +2225,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `Thesis_LB.out' has not changed.
-(rerunfilecheck)             Checksum: 42355EC23BC9F27EA40691E123180030;1370.
+(rerunfilecheck)             Checksum: 182A53BEA045203D1128950440E76000;1637.
 Package rerunfilecheck Info: File `Thesis_LB.brf' has not changed.
-(rerunfilecheck)             Checksum: 4435148712727B13F3889A6F7A34165D;961.
+(rerunfilecheck)             Checksum: D4642AD9C20288C4D76027434A0ADAE6;1163.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 29762 strings out of 493921
- 503635 string characters out of 3147273
- 652573 words of memory out of 3000000
- 32114 multiletter control sequences out of 15000+200000
- 115943 words of font info for 452 fonts, out of 3000000 for 9000
+ 29846 strings out of 493921
+ 505748 string characters out of 3147273
+ 659545 words of memory out of 3000000
+ 32161 multiletter control sequences out of 15000+200000
+ 118895 words of font info for 464 fonts, out of 3000000 for 9000
  847 hyphenation exceptions out of 8191
- 46i,14n,38p,10394b,842s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,38p,10394b,862s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymb
 olA.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/
 MnSymbolE.enc}{C:/Users/lbarreau/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mns
@@ -2206,9 +2261,9 @@ eX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Thesis_LB.pdf (25 pages, 1847706 bytes).
+Output written on Thesis_LB.pdf (27 pages, 1926859 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 84144 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 84183 words of extra memory for PDF output out of 89155 (max. 10000000)
 
