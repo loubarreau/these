@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Pha_Amp_SO_Argon.pdf' (pdf, eps, ps)
 %%
@@ -49,57 +49,69 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.88248324)%
-    \put(0,0){\includegraphics[width=\unitlength]{Pha_Amp_SO_Argon.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.01535722,0.67902922){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Amplitude (u.arb.)}}}}%
     \put(0.28119915,0.86678757){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SB$_{16}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.09060466,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{24.8}}}%
     \put(0.18643827,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25}}}%
     \put(0.28227189,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.2}}}%
     \put(0.37810665,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.4}}}%
     \put(0.47394026,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.07910403,0.50147505){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.05}}}%
     \put(0.07910403,0.58715956){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.1}}}%
     \put(0.07910403,0.67284408){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.15}}}%
     \put(0.07910403,0.75852744){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.2}}}%
     \put(0.07910403,0.84421196){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.25}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.78967639,0.86678757){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SB$_{18}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.59800801,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28}}}%
     \put(0.69384277,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.2}}}%
     \put(0.78967639,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.4}}}%
     \put(0.88551,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.6}}}%
     \put(0.98134362,0.47941573){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.58650853,0.50147505){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.05}}}%
     \put(0.58650853,0.5700222){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.1}}}%
     \put(0.58650853,0.6385705){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.15}}}%
     \put(0.58650853,0.70711765){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.2}}}%
     \put(0.58650853,0.7756648){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.25}}}%
     \put(0.58650853,0.84421196){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.3}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.01569568,0.24147292){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Phase $\Delta \theta^\text{at} (E)$ (rad)}}}}%
     \put(0.28119915,0.00422538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie de photon (eV)}}}%
     \put(0.13025832,0.80578963){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
     \put(0.13147586,0.36275359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
     \put(0.63608498,0.80763235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
     \put(0.63239957,0.36476957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.09060466,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{24.8}}}%
     \put(0.18643827,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25}}}%
     \put(0.28227189,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.2}}}%
     \put(0.37810665,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.4}}}%
     \put(0.47394026,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{25.6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.07910403,0.06446142){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2}}}%
     \put(0.07910403,0.15014479){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2.5}}}%
     \put(0.07910403,0.2358293){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3}}}%
     \put(0.07910403,0.32151382){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3.5}}}%
     \put(0.07910403,0.40719719){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.78860251,0.00422538){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie de photon (eV)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.59800801,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28}}}%
     \put(0.69384277,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.2}}}%
     \put(0.78967639,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.4}}}%
     \put(0.88551,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.6}}}%
     \put(0.98134362,0.04240096){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{28.8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Pha_Amp_SO_Argon.pdf}}%
     \put(0.58650853,0.06446142){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2}}}%
     \put(0.58650853,0.15014479){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{2.5}}}%
     \put(0.58650853,0.2358293){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3}}}%
     \put(0.58650853,0.32151382){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{3.5}}}%
     \put(0.58650853,0.40719719){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Pha_Amp_SO_Argon.pdf}}%
   \end{picture}%
 \endgroup%

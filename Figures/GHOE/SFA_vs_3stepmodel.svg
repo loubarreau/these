@@ -11,11 +11,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2985"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    width="418.25691"
    height="236.54585"
    xml:space="preserve"
-   sodipodi:docname="SFA_vs_3stepmodel.pdf"><metadata
+   sodipodi:docname="SFA_vs_3stepmodel.svg"><metadata
      id="metadata2991"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
@@ -32,15 +32,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="988"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
      id="namedview2987"
      showgrid="false"
      inkscape:zoom="2.3047512"
      inkscape:cx="209.12845"
      inkscape:cy="118.27293"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="g3011" /><g
      id="g2993"
@@ -655,16 +655,16 @@
                y="-162.13762">Modèle semi-classique</tspan></text>
 <text
              xml:space="preserve"
-             style="font-size:8.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
-             x="77.515923"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80000019px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="72.715927"
              y="10.439899"
              id="text3845"
              sodipodi:linespacing="125%"
              transform="matrix(0,1,1,0,0,0)"><tspan
                sodipodi:role="line"
                id="tspan3847"
-               x="77.515923"
-               y="10.439899">$\mathcal{R}e \left[t\right]$</tspan></text>
+               x="72.715927"
+               y="10.439899">$\mathcal{R}e \left[t\right]$ (fs)</tspan></text>
 <text
              xml:space="preserve"
              style="font-size:11.19999981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"

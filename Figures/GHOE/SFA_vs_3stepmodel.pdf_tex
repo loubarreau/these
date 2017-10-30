@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.48.3.1, www.inkscape.org
+%% Creator: Inkscape 0.91_64bit, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'SFA_vs_3stepmodel.pdf' (pdf, eps, ps)
 %%
@@ -49,28 +49,46 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.57928228)%
-    \put(0,0){\includegraphics[width=\unitlength]{SFA_vs_3stepmodel.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{SFA_vs_3stepmodel.pdf}}%
     \put(0.05136133,0.06170638){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{SFA_vs_3stepmodel.pdf}}%
     \put(0.03149429,0.15523428){\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{SFA_vs_3stepmodel.pdf}}%
     \put(0.05136133,0.24876218){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{SFA_vs_3stepmodel.pdf}}%
     \put(0.03149429,0.34229008){\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{SFA_vs_3stepmodel.pdf}}%
     \put(0.05136133,0.43581717){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{SFA_vs_3stepmodel.pdf}}%
     \put(0.03149429,0.52934507){\makebox(0,0)[lb]{\smash{2.5}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{SFA_vs_3stepmodel.pdf}}%
     \put(0.07056613,0.035217){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{SFA_vs_3stepmodel.pdf}}%
     \put(0.23683795,0.035217){\makebox(0,0)[lb]{\smash{15}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{SFA_vs_3stepmodel.pdf}}%
     \put(0.40331557,0.035217){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{SFA_vs_3stepmodel.pdf}}%
     \put(0.56958333,0.035217){\makebox(0,0)[lb]{\smash{25}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{SFA_vs_3stepmodel.pdf}}%
     \put(0.73606297,0.035217){\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{SFA_vs_3stepmodel.pdf}}%
     \put(0.9023348,0.035217){\makebox(0,0)[lb]{\smash{35}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.06170638){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.16155098){\makebox(0,0)[lb]{\smash{0.2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.26139558){\makebox(0,0)[lb]{\smash{0.4}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.36124018){\makebox(0,0)[lb]{\smash{0.6}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.46108396){\makebox(0,0)[lb]{\smash{0.8}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{SFA_vs_3stepmodel.pdf}}%
     \put(0.93478224,0.56092855){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{SFA_vs_3stepmodel.pdf}}%
     \put(0.6077582,0.52643909){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Modèle quantique}}}%
     \put(0.60914265,0.49475116){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Modèle semi-classique}}}%
-    \put(0.01916322,0.23801909){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\mathcal{R}e \left[t\right]$}}}}%
+    \put(0.01916322,0.22345648){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\mathcal{R}e \left[t\right]$ (fs)}}}}%
     \put(0.36976048,0.00726709){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ordre harmonique}}}%
     \put(0.97640684,0.40165318){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Temps (cycles)}}}}%
   \end{picture}%
