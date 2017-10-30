@@ -303,16 +303,6 @@
        style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica">58.2</text>
   </g>
   <g
-     id="g4002"
-     transform="translate(304.985,417.958)">
-    <text
-       x="0"
-       y="0"
-       font-size="14pt"
-       id="text4004"
-       style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica">58.4</text>
-  </g>
-  <g
      id="g4008"
      transform="translate(371.808,417.958)">
     <text
@@ -321,16 +311,6 @@
        font-size="14pt"
        id="text4010"
        style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica">58.6</text>
-  </g>
-  <g
-     id="g4014"
-     transform="translate(438.632,417.958)">
-    <text
-       x="0"
-       y="0"
-       font-size="14pt"
-       id="text4016"
-       style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica">58.8</text>
   </g>
   <g
      id="g4020"
@@ -579,19 +559,6 @@
     </g>
   </g>
   <g
-     id="g4147"
-     transform="translate(713.829,417.958)">
-    <g
-       id="g4149">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4151"
-         font-size="14pt"
-         y="0"
-         x="0">61.4</text>
-    </g>
-  </g>
-  <g
      id="g4153"
      transform="translate(780.652,417.958)">
     <g
@@ -605,19 +572,6 @@
     </g>
   </g>
   <g
-     id="g4159"
-     transform="translate(847.476,417.958)">
-    <g
-       id="g4161">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4163"
-         font-size="14pt"
-         y="0"
-         x="0">61.8</text>
-    </g>
-  </g>
-  <g
      id="g4165"
      transform="translate(914.299,417.958)">
     <g
@@ -628,19 +582,6 @@
          font-size="14pt"
          y="0"
          x="0">62</text>
-    </g>
-  </g>
-  <g
-     id="g4171"
-     transform="translate(981.122,417.958)">
-    <g
-       id="g4173">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4175"
-         font-size="14pt"
-         y="0"
-         x="0">62.2</text>
     </g>
   </g>
   <polyline
@@ -879,19 +820,6 @@
     </g>
   </g>
   <g
-     id="g4296"
-     transform="translate(1189.496,417.958)">
-    <g
-       id="g4298">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4300"
-         font-size="14pt"
-         y="0"
-         x="0">64.6</text>
-    </g>
-  </g>
-  <g
      id="g4302"
      transform="translate(1256.319,417.958)">
     <g
@@ -902,19 +830,6 @@
          font-size="14pt"
          y="0"
          x="0">64.8</text>
-    </g>
-  </g>
-  <g
-     id="g4308"
-     transform="translate(1323.143,417.958)">
-    <g
-       id="g4310">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4312"
-         font-size="14pt"
-         y="0"
-         x="0">65</text>
     </g>
   </g>
   <g
@@ -1222,19 +1137,6 @@
     </g>
   </g>
   <g
-     id="g4606"
-     transform="translate(713.829,818.862)">
-    <g
-       id="g4608">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4610"
-         font-size="14pt"
-         y="0"
-         x="0">61.4</text>
-    </g>
-  </g>
-  <g
      id="g4612"
      transform="translate(780.652,818.862)">
     <g
@@ -1248,19 +1150,6 @@
     </g>
   </g>
   <g
-     id="g4618"
-     transform="translate(847.476,818.862)">
-    <g
-       id="g4620">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4622"
-         font-size="14pt"
-         y="0"
-         x="0">61.8</text>
-    </g>
-  </g>
-  <g
      id="g4624"
      transform="translate(914.299,818.862)">
     <g
@@ -1271,19 +1160,6 @@
          font-size="14pt"
          y="0"
          x="0">62</text>
-    </g>
-  </g>
-  <g
-     id="g4630"
-     transform="translate(981.122,818.862)">
-    <g
-       id="g4632">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4634"
-         font-size="14pt"
-         y="0"
-         x="0">62.2</text>
     </g>
   </g>
   <polyline
@@ -1576,19 +1452,6 @@
     </g>
   </g>
   <g
-     id="g4439"
-     transform="translate(304.985,818.862)">
-    <g
-       id="g4441">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4443"
-         font-size="14pt"
-         y="0"
-         x="0">58.4</text>
-    </g>
-  </g>
-  <g
      id="g4445"
      transform="translate(371.808,818.862)">
     <g
@@ -1599,19 +1462,6 @@
          font-size="14pt"
          y="0"
          x="0">58.6</text>
-    </g>
-  </g>
-  <g
-     id="g4451"
-     transform="translate(438.632,818.862)">
-    <g
-       id="g4453">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4455"
-         font-size="14pt"
-         y="0"
-         x="0">58.8</text>
     </g>
   </g>
   <g
@@ -1880,19 +1730,6 @@
     </g>
   </g>
   <g
-     id="g4775"
-     transform="translate(1189.496,818.862)">
-    <g
-       id="g4777">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4779"
-         font-size="14pt"
-         y="0"
-         x="0">64.6</text>
-    </g>
-  </g>
-  <g
      id="g4781"
      transform="translate(1256.319,818.862)">
     <g
@@ -1903,19 +1740,6 @@
          font-size="14pt"
          y="0"
          x="0">64.8</text>
-    </g>
-  </g>
-  <g
-     id="g4787"
-     transform="translate(1323.143,818.862)">
-    <g
-       id="g4789">
-      <text
-         style="font-size:17.5px;text-anchor:middle;fill:#000000;font-family:Helvetica"
-         id="text4791"
-         font-size="14pt"
-         y="0"
-         x="0">65</text>
     </g>
   </g>
   <g

@@ -74,9 +74,9 @@
     \put(0.21289326,0.28979126){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_0 = 0$}}}%
     \put(0.53220961,0.28979126){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$0<E_0<E_\text{sat}$}}}%
     \put(0.85733823,0.28979126){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$E_0=E_\text{sat}$}}}%
-    \put(0.21356299,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (u. at.)}}}%
-    \put(0.53228688,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (u. at.)}}}%
-    \put(0.8574155,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (u. at.)}}}%
+    \put(0.21356299,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (ua)}}}%
+    \put(0.53228688,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (ua)}}}%
+    \put(0.8574155,0.00170796){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$ (ua)}}}%
     \put(0.08754747,0.2448629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
     \put(0.40926432,0.2448629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
     \put(0.7317202,0.24566933){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
@@ -86,6 +86,6 @@
     \put(0.03779899,0.1930488){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[b]{\smash{-0.2}}}%
     \put(0.04383142,0.23348014){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[b]{\smash{0}}}%
     \put(0.03941004,0.27391153){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[b]{\smash{0.2}}}%
-    \put(0.00590851,0.16668234){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{\'Energie (u. at.)}}}}%
+    \put(0.00590851,0.16668234){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{\'Energie (ua)}}}}%
   \end{picture}%
 \endgroup%

@@ -3,14 +3,15 @@
 \part{La génération d'harmoniques d'ordre élevé}
 \label{part:GHOE}
 \chapter{Théorie de la génération d'harmoniques d'ordre élevé}
+\label{chap:ThHHG}
 % Une intro...
 \section{Réponse de l'atome unique}
 \subsection{Modèle semi-classique en trois étapes}
 Le modèle semi-classique de la génération d'harmoniques d'ordre élevé est proposé en 1993 par \mycite{SchaferPRL1993} et \mycite{CorkumPRL1993}. Brièvement, l'interaction entre un champ laser intense et un atome ou une molécule déforme le potentiel ressenti par les électrons du système. Un paquet d'onde électronique peut alors être émis par ionisation tunnel (\textbf{1}). Le paquet d'onde électronique libéré est accéléré par le champ laser (\textbf{2}). Lorsque le champ change de signe, le paquet d'onde est ramené vers l'ion parent avec lequel il peut recombiner en émettant l'énergie cinétique accumulée dans le champ sous la forme d'un photon dans le domaine de l'extrême ultra-violet XUV (\textbf{3}). Dans la suite nous détaillons successivement ces trois étapes.
 
-\paragraph{Ionisation tunnel} Considérons un électron de l'atome d'hydrogène\footnote{Par commodité nous présentons le cas de l'atome le plus simple, qui peut être généralisé aux autres atomes et aux molécules.} isolé dans son état fondamental, d'énergie $-Ip$ où $Ip$ est le potentiel d'ionisation. L'électron est soumis au potentiel coulombien du noyau, de la forme $V_0 (x) = - e^2 /4\pi \epsilon_0 |x|$ où $x$ est la distance électron-noyau (figure \ref{fig:potentials}(a)), $e$ la charge de l'électron et $\epsilon_0$ la permittivité du vide. En présence d'un champ électrique polarisé linéairement, de pulsation $\omega$, $\vec{\mathcal{E}}(t) = \mathcal{E}_0 \cos(\omega t) \vec{u_x}$, le potentiel effectif ressenti par l'électron devient
+\paragraph{Ionisation tunnel} Considérons un électron de l'atome d'hydrogène\footnote{Par commodité nous présentons le cas de l'atome le plus simple, qui peut être généralisé aux autres atomes et aux molécules.} isolé dans son état fondamental, d'énergie $-Ip$ où $Ip$ est le potentiel d'ionisation. L'électron est soumis au potentiel coulombien du noyau, de la forme $V_0 (x) = - e /4\pi \epsilon_0 |x|$ où $x$ est la distance électron-noyau (figure \ref{fig:potentials}(a)), $e$ la charge de l'électron et $\epsilon_0$ la permittivité du vide. En présence d'un champ électrique polarisé linéairement, de pulsation $\omega$, $\vec{\mathcal{E}}(t) = \mathcal{E}_0 \cos(\omega t) \vec{u_x}$, l'énergie totale de l'électron devient
 \begin{align}
-V(x,t) & = V_0 (x) - e x \mathcal{E}(t) \\
+V(x,t) & = e V_0 (x) - e x \mathcal{E}(t) \\
 & = -\frac{e^2}{4\pi \epsilon_0 |x|} - e x \mathcal{E}_0 \cos(\omega t)
 \label{eq:PotentielEffectif}
 \end{align}
@@ -19,11 +20,11 @@ V(x,t) & = V_0 (x) - e x \mathcal{E}(t) \\
 \centering
 \def\svgwidth{\columnwidth}
 \import{Figures/GHOE/}{potentials.pdf_tex}
-\caption{Potentiel ressenti par un électron dans l'argon ($Ip$ = 15.76 eV = 0.58 u. at.) (a) en l'absence de champ électrique, (b) en présence d'un champ $\mathcal{E}_0 =$ 0.04 u. at. ($I = 5.5 \times 10^{13}$ W/cm$^2$), (c) en présence d'un champ à l'éclairement de saturation de l'argon $\mathcal{E}_0 = \mathcal{E}_{\text{sat}}$ = 0.084 u. at. ($I = 2.4 \times 10^{14}$ W/cm$^2$).}
+\caption{Potentiel ressenti par un électron dans l'argon ($Ip$ = 15.76 eV = 0.58 ua) (a) en l'absence de champ électrique, (b) en présence d'un champ $\mathcal{E}_0 =$ 0.04 ua ($I = 5.5 \times 10^{13}$ W/cm$^2$), (c) en présence d'un champ à l'éclairement de saturation de l'argon $\mathcal{E}_0 = \mathcal{E}_{\text{sat}}$ = 0.084 ua ($I = 2.4 \times 10^{14}$ W/cm$^2$).}
 \label{fig:potentials}
 \end{figure}
 
-Si le potentiel d'interaction avec le champ est négligeable devant le potentiel coulombien, l'influence du champ peut être traitée de manière perturbative. Le champ "intra-atomique" peut être estimé en prenant $x = a_0$ le rayon de l'orbite de Bohr, et est de l'ordre de $E_{\text{atom}} \backsim e/4\pi \epsilon_0 a_0^2 \backsim 6 \times 10^9$ V/m, soit une intensité $I_\text{atom} \backsim 4 \times 10^{16}$ W/cm$^2$. Ainsi, en présence d'un champ laser intense ($I \backsim 10^{14}$ W/cm$^2$), l'interaction avec le champ électrique n'est plus perturbative. Comme illustré sur la figure \ref{fig:potentials}(b), le champ laser abaisse la barrière de potentiel ressentie par l'électron. Une partie du paquet d'onde électronique (POE) peut alors la traverser par effet tunnel, avec une probabilité qui dépend de la hauteur et de l'épaisseur de la barrière ainsi que de la durée pendant laquelle elle est abaissée. Dans le cas extrême de la figure \ref{fig:potentials}(c), le champ laser est suffisamment intense pour supprimer complètement la barrière \mycite{AugstPRL1989}\mycite{BauerPRA1999}. Dans ces conditions, la valeur maximale du potentiel est égale à $-Ip$. Cette valeur est atteinte en $x_0$ tel que $V'(x_0) = 0$. Considérons que ce maximum est atteint lorsque le champ électrique est maximal, $\mathcal{E} = \mathcal{E}_0$. En dérivant \ref{eq:PotentielEffectif}, il vient simplement:
+Si le potentiel d'interaction avec le champ est négligeable devant le potentiel coulombien, l'influence du champ peut être traitée de manière perturbative. Le champ "intra-atomique" peut être estimé en prenant $x = a_0$ le rayon de l'orbite de Bohr, et est de l'ordre de $E_{\text{atom}} \backsim e/4\pi \epsilon_0 a_0^2 \backsim 6 \times 10^9$ V/m, soit une intensité $I_\text{atom} \backsim 4 \times 10^{16}$ W/cm$^2$. Ainsi, en présence d'un champ laser intense ($I \backsim 10^{14}$ W/cm$^2$), l'interaction avec le champ électrique n'est plus perturbative. Comme illustré sur la figure \ref{fig:potentials}(b), le champ laser abaisse la barrière de potentiel ressentie par l'électron. Une partie du paquet d'onde électronique (POE) peut alors la traverser par effet tunnel, avec une probabilité qui dépend de la hauteur et de l'épaisseur de la barrière ainsi que de la durée pendant laquelle elle est abaissée. Dans le cas extrême de la figure \ref{fig:potentials}(c), le champ laser est suffisamment intense pour supprimer complètement la barrière \mycite{AugstPRL1989}\mycite{BauerPRA1999}. Dans ces conditions, la valeur maximale de l'énergie est égale à $-Ip$. Cette valeur est atteinte en $x_0$ tel que $V'(x_0) = 0$. Considérons que ce maximum est atteint lorsque le champ électrique est maximal, $\mathcal{E} = \mathcal{E}_0$. En dérivant \ref{eq:PotentielEffectif}, il vient simplement:
 \begin{equation}
 |x_0| = \frac{e}{4\pi \epsilon_0 \sqrt{\mathcal{E}_0}}
 \end{equation}
@@ -248,7 +249,7 @@ Jusqu'à présent nous avons considéré les propriétés de l'émission harmoni
 \centering
 \def\svgwidth{0.7\columnwidth}
 \import{Figures/GHOE/}{PhaseMatching_Heyl.pdf_tex}
-\caption{Illustration de l'émission harmonique avec et sans accord de phase, pour l'exemple de la seconde harmonique. Les parties rosées correspondent à l'intensité du champ laser fondamental. Extrait de \mycite{TheseHeyl}.}
+\caption{Illustration de l'émission harmonique avec et sans accord de phase, pour l'exemple de la seconde harmonique. Les parties rosées correspondent aux oscillations de la polarisation non linéaire. Extrait de \mycite{TheseHeyl}.}
 \label{fig:PhaseMatchingHeyl}
 \end{figure}
 
@@ -330,9 +331,6 @@ Ce terme dépend de la \textbf{position relative du milieu de génération et du
 
 D'après ce qui précède, les paramètres expérimentaux pour optimiser l'accord de phase dans la GHOE sont la pression du gaz, l'intensité du laser et les conditions de focalisation \mycite{KazamiasPRA2011}. L'accord de phase est également un bon moyen pour isoler la contribution d'un type de trajectoires (en général les courtes): lorsque le jet de gaz est placé après le foyer les trajectoires courtes sont favorisées, tandis que les trajectoires longues sont favorisées lorsque le jet est placé avant le foyer \mycite{SalieresPRL1995}\mycite{AntoinePRL1996}\mycite{BalcouPRA1997}.
 
-
-
-
 \section{Génération d'harmoniques d'ordre élevé dans l'infrarouge moyen}
 \label{sec:GHOE_MIR}
 Une grande partie des expériences présentées dans cette thèse étant effectuée avec un laser de génération dans l'infrarouge moyen ($\lambda = 1.3 - 2 \: \mu$m ici), nous discutons ici les variations avec la longueur d'onde des différentes grandeurs définies précédemment.
@@ -376,8 +374,15 @@ La linéarité de la phase $\phi_q$ en fonction de l'intensité illustrée par l
 \begin{equation}
 \frac{\partial \phi_q}{\partial I} \approx \frac{S'}{I}
 \end{equation}
-La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale $S'$ pour chaque trajectoire électronique. On en déduit $\alpha_q^{\text{class}} = - S'/I$. La période d'un laser dans le moyen-IR étant plus grande qu'à 800 nm, l'électron passe plus de temps dans le continuum. On s'attend donc à calculer un $\alpha_q^j$ plus important dans le moyer-IR qu'à 800 nm. Les résultats de ce calcul pour deux champs laser d'intensité égale à 800 nm et 1300 nm sont présentés figure \ref{fig:AlphaMIR}. Les valeurs obtenues à 800 nm sont en bon accord avec les valeurs de $\alpha_q^j$ calculées de manière quantique \mycite{GaardePRA2002}. Le chirp harmonique est donc plus important dans l'IR moyen qu'à 800 nm.
-
+La quantité $S'/I$ peut être calculée classiquement en calculant l'intégrale $S'$ pour chaque trajectoire électronique. On en déduit $\alpha_q^{\text{class}} = - S'/I$. Les résultats de ce calcul pour deux champs laser d'intensité égale à 800 nm et 1300 nm sont présentés figure \ref{fig:AlphaMIR}. Les valeurs obtenues à 800 nm sont en bon accord avec les valeurs de $\alpha_q^j$ calculées de manière quantique \mycite{GaardePRA2002}. Le chirp harmonique est donc plus important dans l'IR moyen qu'à 800 nm. Plus quantitativement, pour les trajectoires longues la durée de l'excursion de l'électron est de l'ordre de la période $T \propto \lambda$, et l'énergie est de l'ordre de $Up$, d'où
+\begin{equation}
+S' \propto Up \times T
+\end{equation}
+et
+\begin{equation}
+\alpha_q \propto \lambda^3
+\end{equation}
+Cette relation se retrouve dans le calcul de la figure \ref{fig:AlphaMIR} au voisinage de la coupure et pour les trajectoires longues.
 
 % + gamma plus petit -> régime tunnel (LIED blablabla)
 % alpha. modèle classique mairesse + explication qualitative durée de l'électron dans le continuum (mairesse).
@@ -410,7 +415,7 @@ Ohio State & 1 kHz & 13 W & 40 fs\\
 \label{tab:Lasers}
 \end{table}
 
-Les conditions expérimentales précises sont détaillées avec chacune des expériences décrites par la suite. Nous présentons ici brièvement les principes d'une expérience de GHOE dans un gaz.
+Les conditions expérimentales précises sont détaillées avec chacune des expériences décrites par la suite. Nous présentons ici brièvement les principes d'une expérience de GHOE dans un gaz. Un schéma expérimental typique est visible sur la figure \ref{fig:SetupRabbit}.
 
 Le faisceau laser est d'abord mis en forme: son diamètre est contôlé à l'aide d'un iris et son énergie peut être ajustée grâce à un atténuateur composé d'une lame demi-onde et de deux polariseurs. Si nécessaire, son état de polarisation est modifié (voir partie \ref{part:Polarimétrie}). Le faisceau est ensuite focalisé grâce à une lentille (si la largeur spectrale est étroite) ou un miroir sphérique (si la largeur spectrale est large, voir tableau \ref{tab:Lasers}) dans le gaz. Les ordres de grandeurs typiquement utilisés sont: diamètre de focalisation $\approx 10 - 15$ mm; énergie par impulsion $\approx 0.5 - 1$ mJ; distance focale $\approx 0.5 - 1$ m. Le gaz est délivré par un jet continu ou bien une cellule de gaz. Le jet, dont le diamètre de l'orifice est de 200 $\mu$m, permet de créer une extension supersonique du gaz qui garantit une courte longueur d'interaction avec le laser dans la dimension longitudinale. On limite ainsi l'importance des effets d'accord de phase discutés au paragraphe \ref{sec:AccordDePhase}. La cellule permet quant à elle d'augmenter la pression de gaz au niveau de l'interaction avec le laser tout en limitant la pression résiduelle dans la chambre à vide, ainsi que d'augmenter la longueur d'interaction $L$. Le choix du gaz dépend de l'expérience réalisée: on peut par exemple utiliser un gaz moléculaire dont on étudie la réponse non-linéaire, c'est le principe de la spectroscopie harmonique \mycite{TheseCamper}. Pour l'utilisation du rayonnement XUV en spectroscopie de photoionisation, on choisit un système simple, facile à se procurer et générant efficacement les harmoniques; généralement un gaz rare. Le gaz choisi dépend également de l'énergie de photon que l'on souhaite atteindre (équation \ref{eq:LoiCoupure}) et de l'efficacité de génération: les gaz rares légers peuvent générer des harmoniques plus élevées mais avec une efficacité typique dans le plateau bien inférieure aux gaz plus lourds, qui sont plus polarisables.
 
@@ -418,11 +423,12 @@ Le faisceau laser est d'abord mis en forme: son diamètre est contôlé à l'aid
 \centering
 \def\svgwidth{\columnwidth}
 \import{Figures/GHOE/}{SpectreHHGAr800.pdf_tex}
-\caption{Spectre d'harmoniques générées dans l'argon à 800 nm mesuré par le spectromètre XUV à Saclay. Image mesurée sur la caméra CCD (haut) et somme du signal dans la direction spatiale (bas). Un signal de fond, mesuré dans les mêmes conditions expérimentales mais sans jet de gaz, est soustrait. Les pics de part et d'autre des harmoniques 9 et 11 sont les harmoniques plus élevées diffractées par le second ordre du réseau de diffraction. Les trajectoires longues contribuent au faible signal de grande divergence visible sur les harmoniques 17 à 23.}
+\caption{Spectre d'harmoniques générées dans l'argon à 800 nm mesuré par le spectromètre XUV à Saclay. Image mesurée sur la caméra CCD (haut) et somme du signal dans la direction spatiale (bas). Un signal de fond, mesuré dans les mêmes conditions expérimentales mais sans jet de gaz, est soustrait. Les pics de part et d'autre des harmoniques 9 et 11 sont les harmoniques plus élevées diffractées par le second ordre du réseau de diffraction. Les trajectoires longues contribuent au faible signal de grande divergence visible sur les harmoniques 17 à 23. Le faisceau harmonique se propage à travers un filtre d'aluminium de 200 nm qui absorbe significativement les harmoniques 9 et 11. Le spectre ne présente donc pas l'allure typique "plateau-coupure" présenté au chapitre \ref{chap:ThHHG}.}
 \label{fig:SpectreAr800}
 \end{figure}
+% Spectre du 10 avril 2014
 
-Après génération, le rayonnement XUV peut être dispersé par un spectromètre à réseau et imagé avec des galettes de micro-canaux couplées à un écran de phosphore. Le signal de phosphorescence est mesuré par une caméra CCD située à l'extérieur de l'enceinte à vide. L'imagerie du spectre XUV permet l'optimisation des paramètres expérimentaux pour atteindre l'énergie désirée, un flux de photons important et une bonne sélection des trajectoires courtes. La figure \ref{fig:SpectreAr800} montre un spectre harmonique typique généré dans l'argon mesuré avec ce dispositif. Un spectromètre XUV est disponible sur les lignes harmoniques de Saclay et de Lund. La caractérisation des harmoniques peut également être effectuée en focalisant le rayonnement XUV au point source d'un spectromètre de photoélectrons. Cette méthode est l'objet du paragraphe \ref{sec:CaracHHG}.
+Après génération, le rayonnement XUV peut être dispersé par un spectromètre à réseau (réseau focalisant à pas variable Hitachi 0266 en incidence rasante) et imagé avec des galettes de micro-canaux couplées à un écran de phosphore. Le signal de phosphorescence est mesuré par une caméra CCD située à l'extérieur de l'enceinte à vide. L'imagerie du spectre XUV permet l'optimisation des paramètres expérimentaux pour atteindre l'énergie désirée, un flux de photons important et une bonne sélection des trajectoires courtes. La figure \ref{fig:SpectreAr800} montre un spectre harmonique typique généré dans l'argon mesuré avec ce dispositif. Un spectromètre XUV est disponible sur les lignes harmoniques de Saclay et de Lund. La caractérisation des harmoniques peut également être effectuée en focalisant le rayonnement XUV au point source d'un spectromètre de photoélectrons. Cette méthode est l'objet du paragraphe \ref{sec:CaracHHG}.
 
 
 
@@ -459,15 +465,15 @@ Le faisceau de pompe (H1), préalablement mis en forme pour avoir le diamètre, 
 \begin{figure}
 \centering
 \def\svgwidth{\columnwidth}
-\import{Figures/GHOE/}{HETOPAS.pdf_tex}
-\caption{Schéma de l'intérieur du HE-TOPAS. Les différents étages sont décrits dans le texte. Les milieux non linéaires sont entourés en blanc. Il s'agit de saphir pour la génération de continuum de lumière blanche et de $\beta$-borate de baryum (BBO) pour les étapes d'amplification. Adapté du manuel utilisateur du HE-TOPAS.}
+\import{Figures/GHOE/}{HETOPAS_2.pdf_tex}
+\caption{Schéma de l'intérieur du HE-TOPAS. Les différents étages sont décrits dans le texte. Les milieux non linéaires sont entourés en blanc. Il s'agit de saphir pour la génération de continuum de lumière blanche (bleu) et de $\beta$-borate de baryum (BBO) pour les étapes d'amplification (vert). Par souci de clarté tous les miroirs ne sont pas représentés. Seuls sont indiqués les lames séparatrices (tirets) et les miroirs dichroïques (pointillés). Adapté du manuel utilisateur du HE-TOPAS.}
 \label{fig:HETOPAS}
 \end{figure}
 
 
 \subsection{Filtre dispersif acousto-optique programmable}
 \`{A} Lund, le laser titane saphir est accordable grâce à la présence de filtres dispersifs acousto-optiques programmables en sortie d'oscillateur et à l'intérieur de la cavité de l'amplificateur régénératif. Il s'agit de dispostifs commerciaux développés par \textit{Fastlite} et \textit{Amplitude Technologies}, vendus sous le nom de Dazzler\footnote{Dazzler est le nom d'un personnage de l'univers des comics X-men dont le pouvoir est de transformer le son en lumière.} et Mazzler respectivement. Le principe de fonctionnement détaillé de ces dispositifs est exposé par \mycite{TournoisOptComm1997}\mycite{VerluiseOL2000} (Dazzler) et
-\mycite{OksenhendlerAPB2006} (Mazzler). Très brièvement, ces dispositifs utilisent le couplage entre une onde acoustique et l'impulsion laser dans un cristal biréfringeant (TeO$_2$) pour transférer les propriétés de phase et d'amplitude acoustiques à l'onde lumineuse. Dans le cristal, la propagation dépend de la fréquence de l'onde. Il est ainsi possible de façonner le spectre et la phase spectrale (ou bien le profil temporel) de l'impulsion laser. Plusieurs exemples de spectres et les impulsions correspondantes sont donnés sur la figure \ref{fig:Mazzler}. En pratique ces dispositifs sont entièrement programmés par ordinateur et il est très facile pour l'expérimentateur de choisir, par exemple, la longueur d'onde centrale désirée.
+\mycite{OksenhendlerAPB2006} (Mazzler). Très brièvement, ces dispositifs utilisent le couplage entre une onde acoustique et l'impulsion laser dans un cristal biréfringeant (TeO$_2$) pour transférer les propriétés de phase et d'amplitude acoustiques à l'onde lumineuse. Dans le cristal, la propagation dépend de la fréquence de l'onde. Il est ainsi possible de façonner le spectre et la phase spectrale (ou bien le profil temporel) de l'impulsion laser. Pour permettre l'accordabilité, il faut réduire la largeur de bande spectrale disponible. Les impulsions sont donc plus longues, comme nous le verrons au chapitre \ref{chap:He_Lund}. Plusieurs exemples de spectres et les impulsions correspondantes sont donnés sur la figure \ref{fig:Mazzler}. En pratique ces dispositifs sont entièrement programmés par ordinateur et il est très facile pour l'expérimentateur de choisir, par exemple, la longueur d'onde centrale désirée.
 
 \begin{figure}
 \centering
@@ -476,7 +482,6 @@ Le faisceau de pompe (H1), préalablement mis en forme pour avoir le diamètre, 
 \caption{Spectre (haut) et intensité temporelle (bas) d'impulsions femtosecondes pour différentes modulations en amplitude et en phase induites par le Mazzler et le Dazzler. Extrait de \mycite{OksenhendlerAPB2006}.}
 \label{fig:Mazzler}
 \end{figure}
-
 
 \section{Caractérisation des harmoniques d'ordre élevé}
 \label{sec:CaracHHG}
@@ -504,13 +509,14 @@ La figure \ref{fig:TOF} représente le schéma du spectromètre de photoélectro
 \centering
 \def\svgwidth{\columnwidth}
 \import{Figures/GHOE/}{TOF.pdf_tex}
-\caption{Schéma de la bouteille magnétique de Saclay et d'une partie de son bâti dessiné par Michel Bougeard au LIDYL. Le gaz est injecté par le dessus du spectromètre par une aiguille de 500 $\mu$m de diamètre. L'aiguille est entourée d'une résistance chauffante et d'un thermocouple destinés à l'utilisation de liquides. Le rayonnement est focalisé à l'extrémité de l'aiguille, où la densité de gaz est la plus importante. Un aimant permanent conique produit un champ magnétique permanent de 1 T dans la zone d'interaction, ce qui permet une détection des électrons émis dans un angle solide de $4 \pi$ sr. La position de l'aimant dans la direction de vol des électrons peut être variée pour améliorer l'efficacité de détection ou la résolution. Les électrons sont guidés dans le tube de temps de vol par le champ magnétique créé par un solénoïde entourant tout le tube (non représenté en entier par souci de clarté). Le courant à l'intérieur du solénoïde est ajustable pour optimiser la détection. Un champ électrique peut être appliqué au tube afin de ralentir ou accélérer les électrons, et ainsi placer une gamme d'énergie donnée dans la zone de meilleure résolution. Le détecteur est composé de deux galettes de micro-canaux et d'un écran de phosphore couplés à un convertisseur analogique-numérique Agilent DP1400 d'une résolution de 500 ps. L'écran de phosphore n'est pas nécessaire à la détection mais permet l'imagerie de la zone d'interaction lors de l'optimisation du signal.}
+\caption{Schéma de la bouteille magnétique de Saclay et d'une partie de son bâti dessiné par Michel Bougeard au LIDYL. Le gaz est injecté par le dessus du spectromètre par une aiguille de 500 $\mu$m de diamètre. L'aiguille est entourée d'une résistance chauffante et d'un thermocouple destinés à l'utilisation de liquides. Le rayonnement est focalisé à l'extrémité de l'aiguille, où la densité de gaz est la plus importante. Un aimant permanent conique produit un champ magnétique permanent de 1 T dans la zone d'interaction, ce qui permet une détection des électrons émis dans un angle solide de $4 \pi$ sr. La position de l'aimant dans la direction de vol des électrons peut être variée pour améliorer l'efficacité de détection ou la résolution. Les électrons sont guidés dans le tube de temps de vol par le champ magnétique créé par un solénoïde entourant tout le tube (non représenté en entier par souci de clarté). Le courant à l'intérieur du solénoïde est ajustable pour optimiser la détection. Un champ électrique peut être appliqué au tube afin de ralentir ou accélérer les électrons, et ainsi placer une gamme d'énergie donnée dans la zone de meilleure résolution. Le détecteur est composé de deux galettes de micro-canaux et d'un écran de phosphore couplés à un convertisseur analogique-numérique Agilent DP1400 d'une résolution de 500 ps. L'écran de phosphore n'est pas nécessaire à la détection mais permet l'imagerie du faisceau d'électrons.}
 \label{fig:TOF}
 \end{figure}
 
 La figure \ref{fig:TOF} représente le schéma de la bouteille magnétique de Saclay, mise à notre disposition par D. Cubaynes et M. Meyer. Pour une description détaillée du principe du spectromètre d'électrons à bouteille magnétique, le lecteur pourra consulter \mycite{TheseRoedig} ou \mycite{ChristinaYoutube}.
 
 \subsection{Mesure de la phase spectrale par RABBIT}
+\label{subsec:RABBIT}
 \paragraph{Principe} Si l'on superpose dans la zone d'interaction du spectromètre un faible champ IR (dit "d'habillage") au rayonnement harmonique, de nouvelles transitions de photoionisation sont possibles. Il s'agit de transitions à deux photons et deux couleurs: absorption d'un photon harmonique et absorption ou émission stimulée d'un photon IR (figure \ref{fig:PrincipeRabbit2}). Les énergies des harmoniques étant séparées de deux fois l'énergie du photon IR, il apparaît de nouvelles composantes dans le spectre de photoélectrons situées entre les harmoniques (figure \ref{fig:JoliRabbit}(b)), appelées pics satellites (ou \textit{sidebands} en anglais). Chaque pic satellite (ordre $q+1$) est formé par l'interférence entre deux chemins quantiques: absorption de l'harmonique $q$ et abosorption d'un photon IR, et absorption de l'harmonique $q+2$ et émission stimulée d'un photon IR. Ainsi la présence du champ IR d'habillage permet de faire "interférer" deux harmoniques voisines.
 
 \begin{figure}[ht]
@@ -560,7 +566,7 @@ Le terme de phase supplémentaire $\Delta \theta_{at}$ est dû au gaz photoionis
 \label{fig:ChenAr}
 \end{figure}
 
-La figure \ref{fig:JoliRabbit}(a) montre un spectrogramme typique mesuré avec des harmoniques générées dans l'argon à 800 nm et détectées dans l'argon. Les harmoniques et les pics satellites sont clairement distinguables jusqu'à $q = 26$ ($\approx 40$ eV). Les ordres supérieurs ne sont pas visibles à cause de la faible section efficace de photoionisation de l'argon au-dessus de 40 eV (figure \ref{fig:ChenAr}), qui diminue à la fois le flux d'harmoniques générées et la quantité de photoélectrons détectés. Les harmoniques sont déplétées pour former les pics satellites et oscillent donc en opposition de phase. Le signal des pics satellites est sommé sur leur largeur spectrale ($\approx 400$ meV). L'exemple des pics satellites 16 et 20 est donné sur la figure \ref{fig:JoliRabbit}(c) et montre des oscillations à la fréquence $2 \omega$ (période 1.33 fs) déphasées. La phase des oscillations est extraite pour tous les pics satellites par transformée de Fourier. Le résultat de cet analyse est visible sur la figure \ref{fig:JoliRabbit}(d). Dans cette expérience, l'argon est photoionisé loin de toute résonance donc le terme de phase atomique est faible et varie lentement, et la pente de cette courbe peut directement être identifiée au délai de groupe des harmoniques. Dans le cas présenté on trouve $t_e (q\omega) = \Delta \phi / 2\omega = 90 \pm 6$ as. Cette valeur est typique de la GHOE dans l'argon à 800 nm aux intensités de l'ordre de $1 \times 10^{14}$ W/cm$^2$ \mycite{MairesseScience2003}\mycite{TheseMairesse}. \`{A} partir des intensités harmoniques mesurées, de la section efficace de photoionisation (figure \ref{fig:ChenAr}) et des phases mesurées par RABBIT (figure \ref{fig:JoliRabbit}(d)), on reconstruit le train d'impulsions attosecondes présenté en figure \ref{fig:TrainAtto}.
+La figure \ref{fig:JoliRabbit}(a) montre un spectrogramme typique mesuré avec des harmoniques générées dans l'argon à 800 nm et détectées dans l'argon. Les harmoniques et les pics satellites sont clairement distinguables jusqu'à $q = 26$ ($\approx 40$ eV). Les ordres supérieurs ne sont pas visibles à cause de la faible section efficace de photoionisation de l'argon au-dessus de 40 eV (figure \ref{fig:ChenAr}), qui diminue à la fois le flux d'harmoniques générées et la quantité de photoélectrons détectés. Les harmoniques sont déplétées pour former les pics satellites et oscillent donc en opposition de phase. Le signal des pics satellites est sommé sur leur largeur spectrale ($\approx 400$ meV). L'exemple des pics satellites 16 et 20 est donné sur la figure \ref{fig:JoliRabbit}(c) et montre des oscillations à la fréquence $2 \omega$ (période 1.33 fs) déphasées. La phase des oscillations est extraite pour tous les pics satellites par transformée de Fourier. Le résultat de cet analyse est visible sur la figure \ref{fig:JoliRabbit}(d). Dans cette expérience, l'argon est photoionisé loin de toute résonance donc le terme de phase atomique est faible et varie lentement, et la pente de cette courbe peut directement être identifiée au délai de groupe des harmoniques en négligeant l'influence de la transmission par le filtre en aluminium \mycite{LopezMartensPRL2005}. Dans le cas présenté on trouve $t_e (q\omega) = \Delta \phi / 2\omega = 90 \pm 6$ as. Cette valeur est typique de la GHOE dans l'argon à 800 nm aux intensités de l'ordre de $1 \times 10^{14}$ W/cm$^2$ \mycite{MairesseScience2003}\mycite{TheseMairesse}. \`{A} partir des intensités harmoniques mesurées, de la section efficace de photoionisation (figure \ref{fig:ChenAr}) et des phases mesurées par RABBIT (figure \ref{fig:JoliRabbit}(d)), on reconstruit le train d'impulsions attosecondes présenté en figure \ref{fig:TrainAtto}.
 
 \begin{figure}
 \centering

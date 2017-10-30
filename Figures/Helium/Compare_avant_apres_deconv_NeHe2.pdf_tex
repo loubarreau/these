@@ -51,9 +51,7 @@
   \begin{picture}(1,0.64123984)%
     \put(0,0){\includegraphics[width=\unitlength]{Compare_avant_apres_deconv_NeHe2.pdf}}%
     \put(0.09844885,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.2}}}%
-    \put(0.14913583,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.4}}}%
     \put(0.19982281,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.6}}}%
-    \put(0.25051055,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.8}}}%
     \put(0.30119753,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{59}}}%
     \put(0.06550151,0.38119195){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
     \put(0.06550151,0.43784094){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.01}}}%
@@ -61,20 +59,15 @@
     \put(0.06550151,0.55113817){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.03}}}%
     \put(0.06550151,0.60778717){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.04}}}%
     \put(0.40856688,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.2}}}%
-    \put(0.45925462,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.4}}}%
     \put(0.5099416,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.6}}}%
-    \put(0.56062934,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.8}}}%
     \put(0.61131632,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{62}}}%
-    \put(0.6620033,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{62.2}}}%
     \put(0.40096417,0.38119195){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
     \put(0.40096417,0.43784094){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.01}}}%
     \put(0.40096417,0.49448994){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.02}}}%
     \put(0.40096417,0.55113817){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.03}}}%
     \put(0.40096417,0.60778717){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.04}}}%
     \put(0.7693734,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.4}}}%
-    \put(0.82006039,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.6}}}%
     \put(0.87074737,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.8}}}%
-    \put(0.9214351,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{65}}}%
     \put(0.97212208,0.34536904){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{65.2}}}%
     \put(0.73642607,0.38119195){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
     \put(0.73642607,0.43784094){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.01}}}%
@@ -82,11 +75,8 @@
     \put(0.73642607,0.55113817){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.03}}}%
     \put(0.73642607,0.60778717){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.04}}}%
     \put(0.40856688,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.2}}}%
-    \put(0.45925462,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.4}}}%
     \put(0.5099416,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.6}}}%
-    \put(0.56062934,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{61.8}}}%
     \put(0.61131632,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{62}}}%
-    \put(0.6620033,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{62.2}}}%
     \put(0.40096417,0.07158365){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1.5}}}%
     \put(0.40096417,0.10764701){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%
     \put(0.40096417,0.14371037){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-0.5}}}%
@@ -95,9 +85,7 @@
     \put(0.40096417,0.25190196){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
     \put(0.40096417,0.28796532){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1.5}}}%
     \put(0.09844885,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.2}}}%
-    \put(0.14913583,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.4}}}%
     \put(0.19982281,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.6}}}%
-    \put(0.25051055,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{58.8}}}%
     \put(0.30119753,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{59}}}%
     \put(0.06550151,0.07158365){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1.5}}}%
     \put(0.06550151,0.10764701){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%
@@ -107,9 +95,7 @@
     \put(0.06550151,0.25190196){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
     \put(0.06550151,0.28796532){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1.5}}}%
     \put(0.7693734,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.4}}}%
-    \put(0.82006039,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.6}}}%
     \put(0.87074737,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{64.8}}}%
-    \put(0.9214351,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{65}}}%
     \put(0.97212208,0.04127295){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{65.2}}}%
     \put(0.73642607,0.07158365){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1.5}}}%
     \put(0.73642607,0.10764701){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{-1}}}%

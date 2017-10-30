@@ -147,8 +147,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="1037.3789"
+     inkscape:zoom="1.4"
+     inkscape:cx="390.65131"
      inkscape:cy="305.19351"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -823,7 +823,7 @@
          sodipodi:role="line"
          id="tspan5886"
          x="423.03113"
-         y="736.93365">$x$ (u. at.)</tspan></text>
+         y="736.93365">$x$ (ua)</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5888"
@@ -834,7 +834,7 @@
          y="736.93365"
          x="1012.1124"
          id="tspan5890"
-         sodipodi:role="line">$x$ (u. at.)</tspan></text>
+         sodipodi:role="line">$x$ (ua)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:15px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
@@ -845,7 +845,7 @@
          sodipodi:role="line"
          id="tspan5894"
          x="1613.0313"
-         y="736.93365">$x$ (u. at.)</tspan></text>
+         y="736.93365">$x$ (ua)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
@@ -926,6 +926,6 @@
          sodipodi:role="line"
          id="tspan5886-0"
          x="-432.01984"
-         y="39.233841">\'Energie (u. at.)</tspan></text>
+         y="39.233841">\'Energie (ua)</tspan></text>
   </g>
 </svg>

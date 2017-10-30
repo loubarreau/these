@@ -10,36 +10,37 @@
 %% Comparaison avec l'absorption transitoire. Gruson vs Kaldun.
 
 \chapter*{Introduction}
-Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{via} les états se trouvant sous le seuil $N=2$ de He$^+$. Ces états autoionisants ont la particularité d'être doublement excités. Leur observation par Madden et Codling en 1963 démontra les limitations du modèle des électrons indépendants pour décrire les états doublement excités: pour l'hélium de configuration électronique fondamentale $1s^2$, dans cette approximation trois séries d'états convergeant vers le seuil $N=2$ de He$^+$, $2snp$, $2pns$ et $2pnd$ accessibles par spectroscopie d'absorption sont attendues. \mycite{MaddenCodlingPRL1963} ne mesurent qu'une unique série de raies intenses, dont la position en énergie ne correspond pas aux énergies calculés dans les modèles disponibles. En effet, dans l'hélium les états $2s$ et $2p$ sont dégénérés, ainsi les états doublement excités $2snp$ et $2pns$ sont quasiment dégénérés et interagissent pour former des états où les électrons ne sont pas indépendants, notés $spn\pm$ \mycite{CooperPRL1963}. Les états $spn+$ sont observés mais la transition vers les états $spn-$ depuis l'état fondamental est quasiment interdite. Ces mesures ont entraîné un travail théorique considérable pour comprendre les corrélations électroniques et leur rôle dans les états doublement excités \mycite{TannerRevModPhys2000}. L'hélium est désormais modélisable \textit{ab initio}, ce qui rend l'expérience facilement confrontable à la théorie. Par ailleurs avec le développement de la spectroscopie de photoélectrons à haute résolution dans les synchrotrons, de nouvelles séries d'états autoionisants de l'hélium ont été mises en évidence, et leurs paramètres $E_r$, $q$ et $\Gamma$ ont pu être déterminés avec une grande précision \mycite{MaddenCodling1965}\mycite{MorganPRA1984}\mycite{KossmannJPhysB1988}\mycite{DomkePRA1996}.
+Cette partie s'intéresse à la dynamique d'autoionisation de l'hélium \textit{via} les états se trouvant sous le seuil $N=2$ de He$^+$. Ces états autoionisants ont la particularité d'être doublement excités. Leur observation par Madden et Codling en 1963 démontra les limitations du modèle des électrons indépendants pour décrire les états doublement excités: pour l'hélium de configuration électronique fondamentale $1s^2$, cette approximation prévoit trois séries d'états convergeant vers le seuil $N=2$ de He$^+$, $2snp$, $2pns$ et $2pnd$ accessibles par spectroscopie d'absorption. \mycite{MaddenCodlingPRL1963} ne mesurent qu'une unique série de raies intenses, dont la position en énergie ne correspond pas aux énergies calculées dans les modèles disponibles. En effet, dans l'hélium les états $2s$ et $2p$ sont dégénérés, ainsi les états doublement excités $2snp$ et $2pns$ sont quasiment dégénérés et interagissent pour former des états où les électrons ne sont pas indépendants, notés $spn\pm$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CooperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$.} \mycite{CooperPRL1963}. Les transitions depuis l'état fondamental vers les états $spn+$ sont observées mais pas celles vers les états $spn-$ qui sont quasiment interdites (figure \ref{fig:Domke}). Ces mesures ont entraîné un travail théorique considérable pour comprendre les corrélations électroniques et leur rôle dans les états doublement excités \mycite{TannerRevModPhys2000}. L'hélium est désormais modélisable \textit{ab initio}, ce qui rend l'expérience facilement confrontable à la théorie. Par ailleurs avec le développement de la spectroscopie de photoélectrons à haute résolution sur les sources synchrotrons, de nouvelles séries d'états autoionisants de l'hélium ont été mises en évidence, et leurs paramètres $E_r$, $q$ et $\Gamma$ ont pu être déterminés avec une grande précision \mycite{MaddenCodling1965}\mycite{MorganPRA1984}\mycite{KossmannJPhysB1988}\mycite{DomkePRA1996}.
 
-Ces résonances étroites peuvent être excitées sélectivement grâce à l'accordabilité du laser de génération, offrant l'accordabilité dans l'XUV \textit{via} la GHOE. Dans cette partie, nous présenterons d'abord les résultats des mesures de phase de la transition vers la résonance $2s2p$ effectuées à Saclay par interférométrie RABBIT puis par une nouvelle méthode de RABBIT résolue spectralement ("Rainbow RABBIT"). Ensuite, nous montrerons comment les mesures de Rainbow RABBIT permettent d'obtenir toute la dynamique d'autoionisation ainsi que la construction du profil de la résonance au cours du temps. Dans un troisième chapitre, nous présenterons les résultats que nous avons obtenus en exportant la technique Rainbow RABBIT dans l'équipe d'Anne L'Huillier à Lund, en particulier l'étude d'une seconde résonance d'autoionisation ($sp3^+$) et de l'influence de l'intensité d'habillage sur le profil de raie. Enfin, nous comparerons le Rainbow RABBIT et l'absorption transitoire attoseconde pour l'étude des dynamiques d'autoionisation.
+Dans cette partie, nous présenterons d'abord au chapitre \ref{chap:HeSaclay_res} les résultats des mesures de phase de la transition vers la résonance $2s2p$ effectuées à Saclay par interférométrie RABBIT puis par une nouvelle méthode de RABBIT résolue spectralement ("Rainbow RABBIT"). Ensuite, nous montrerons dans le chapitre \ref{chap:HeSaclay_reconstruction} comment les mesures de Rainbow RABBIT permettent d'obtenir toute la dynamique d'autoionisation, et en particulier la construction du profil de la résonance au cours du temps. Dans un \hyperref[chap:He_Lund]{troisième} chapitre, nous présenterons les résultats que nous avons obtenus en implantant la technique Rainbow RABBIT sur la source attoseconde du laboratoire d'Anne L'Huillier à Lund, en particulier l'étude d'une seconde résonance d'autoionisation ($sp3^+$) et de l'influence de l'intensité d'habillage sur le profil de raie. Enfin, au chapitre \ref{chap:PI_vs_ATAS} nous comparerons le Rainbow RABBIT et l'absorption transitoire attoseconde pour l'étude des dynamiques d'autoionisation. 
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{Domke.pdf_tex}
-\caption{Section efficace d'absorption de l'hélium entre 60 et 65 eV correspondant aux résonances doublement excitées $^1P^o$ convergeant vers le seuil d'ionisation $N=2$ de He$^+$ à 65.40 eV. Cette partie s'intéresse à la dynamique d'ionisation au voisinage des résonances $2s2p$ et $sp3^+$, dont les caractéristiques spectroscopiques sont rappelées dans le tableau \ref{tab:ParamètresFano}. Adapté de \mycite{DomkePRA1996}.}
+\caption{Rendement de photoionisation de l'hélium entre 60 et 65 eV correspondant aux résonances doublement excitées $spn\pm$ convergeant vers le seuil d'ionisation $N=2$ de He$^+$ à 65.40 eV. Dans cette partie nous allons nous intéresser à la dynamique d'ionisation au voisinage des résonances $2s2p$ (ici appelée $sp2^+$, voir la note de bas de page précédente) et $sp3^+$, dont les caractéristiques spectroscopiques sont rappelées dans le tableau \ref{tab:ParamètresFano}. Extrait de \mycite{DomkePRA1996}.}
 \label{fig:Domke}
 \end{figure}
 
 
 \chapter[Mesure de la phase de la transition au voisinage de la résonance $2s2p$ par RABBIT et Rainbow RABBIT]{Mesure de la phase de la transition au voisinage de la résonance \MakeLowercase{$2s2p$} par RABBIT et Rainbow RABBIT}
 \label{chap:HeSaclay_res}
+Ce chapitre et le suivant sont basés sur les résultats de l'article \ref{pap:GrusonScience} disponible à la fin de ce manuscrit.
 \section{Mesures RABBIT}
 \label{sec:RabbitHeSaclay}
-L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. 
+L'amplificateur paramétrique optique (\textit{Optical Parametric Amplifier}, OPA, voir le principe au paragraphe \ref{subsec:OPA}) installé sur la ligne PLFA \mycite{WeberRSI2015} permet d'accorder la longueur d'onde de génération entre 1200 et 2000 nm (moyen infra-rouge, MIR), et de choisir ainsi l'énergie des harmoniques d'ordre élevé. Ainsi, en variant la longueur d'onde du laser entre 1285 et 1305 nm, l'harmonique 63 balaye le voisinage de la résonance autoionisante $2s2p$ de l'hélium. Comme nous l'avons discuté au paragraphe \ref{sec:GHOE_MIR}, l'utilisation d'une longueur d'onde dans le MIR nous permet d'atteindre une énergie de photon de 60 eV en générant dans l'argon. Ceci n'est pas possible à 800 nm (voir le calcul à la suite de l'équation \ref{eq:LoiCoupure}).
 
-\begin{figure} [ht]
+\begin{figure}
 \centering
-\def\svgwidth{\textwidth}
+\def\svgwidth{0.8\textwidth}
 \import{Figures/Helium/}{SpectresSansHabillage.pdf_tex}
 \caption{Spectres de photoélectrons de l'hélium ionisé par les harmoniques 61 à 67 générées dans l'argon par un amplificateur paramétrique optique (OPA) de longueur d'onde variant de 1285 à 1305 nm. Les spectres sont décalés verticalement pour une meilleure visibilité. Les pointillés noirs matérialisent la position de la résonance $2s2p$.}
 \label{fig:SpectresSansHabillageHe}
 \end{figure}
 
-L'impulsion MIR, d'une durée de $\approx$ 70 fs, est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. L'XUV est refocalisé dans un spectromètre à temps de vol d'électrons à bouteille magnétique grâce à un miroir torique en or pour photoioniser un gaz d'hélium. Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:SpectresSansHabillageHe}. Le signal de photoélectrons reproduit le spectre harmonique. Un signal plus intense, dû à la section efficace de photoionisation plus importante au voisinage de la résonance \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
+Le dispositif expérimental utilisé est identique à celui de la figure \ref{fig:SetupRabbit}. L'impulsion MIR, d'une durée de $\approx$ 70 fs, est focalisée avec une lentille $f$ = 400 mm dans une cellule d'argon pour générer les harmoniques d'ordre élevé. Le rayonnement XUV est refocalisé à l'aide d'un miroir torique recouvert d'or dans un jet d'hélium placé dans la zone d'interaction d'un spectromètre d'électrons à temps de vol à bouteille magnétique (voir paragraphe \ref{subsec:TOF}). Les spectres de photoélectrons obtenus pour $\lambda_{\text{OPA}}$ variant de 1285 à 1305 nm sont représentés sur la figure \ref{fig:TracesRabbitHe}. Le signal de photoélectrons est proportionnel au produit du spectre harmonique par la section efficace d'absorption de l'hélium. Un signal plus intense, dû à la section efficace plus importante au voisinage de la résonance$2s2p$ \mycite{DomkePRA1996}, est identifié vers 60 eV. En changeant la longueur d'onde de génération on modifie la position de l'harmonique 63 par rapport à la résonance. 
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \def\svgwidth{0.45\textwidth}
 \import{Figures/Helium/}{Schema_2s2p.pdf_tex}
@@ -47,50 +48,59 @@ L'impulsion MIR, d'une durée de $\approx$ 70 fs, est focalisée avec une lentil
 \label{fig:Schema_2s2p}
 \end{figure}
 
-Une partie du faisceau MIR initial est superposée à l'XUV au point source de la bouteille magnétique. Un spectrogramme RABBIT est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
+Une partie du faisceau MIR initial est superposée à l'XUV au point source de la bouteille magnétique. Un spectrogramme RABBIT (voir paragraphe \ref{subsec:RABBIT}) est enregistré pour chaque longueur d'onde du fondamental (figure \ref{fig:TracesExp_Sim_He}). De part et d'autre de la résonance, les pics satellites sont formés par l'interférence entre un chemin résonant impliquant l'harmonique 63 $\pm$ 1 photon MIR, et un chemin non résonant qui sert alors de référence (figure \ref{fig:Schema_2s2p}). On rappelle ici l'expression du signal du pic satellite en fonction du délai entre les impulsions de génération et d'habillage $\tau$, en présence d'une résonance de Fano intermédiaire (paragraphe \ref{subsec:PhaseRabbit} et chapitre \ref{chap:2photons_et_Fano}):
 \begin{multline}
 S_{\text{SB}}(\tau,q) \propto |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \\
-\times \cos[2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \underbrace{\eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q) \pm \arg \mathcal{R}_{\text{eff}}}_{\Delta \theta^{\text{at}}_q}]
+\times \cos[2 \omega \tau + \phi_{\Omega_{q}} - \phi_{\Omega_{q+2}} + \underbrace{\eta_{\lambda}(\kappa_{q}) - \eta_{\lambda}(\kappa_{q+2}) + \phi_{cc}(\kappa_{q}) - \phi_{cc}(\kappa_{q+2}) \pm \arg \mathcal{R}_{\text{eff}}}_{\Delta \theta^{\text{at}}_q}]
 \label{eq:SB_He}
 \end{multline}
-avec $+ \arg \mathcal{R}_{\text{eff}}$ si la résonance de Fano se trouve dans le chemin correspondant à l'émission du photon MIR ou $- \arg \mathcal{R}_{\text{eff}}$ si elle se trouve dans le chemin absorbant un photon MIR. $\Delta \theta^{\text{at}}_q$ correspond à la différence de phase entre les deux éléments de transition à deux photons ("phase atomique"). En sommant spectralement l'intensité de chaque pic satellite, on obtient un signal oscillant à deux fois la fréquence fondamentale ($2 \omega$), dont on extrait la phase par transformée de Fourier. La quantité mesurée est donc
+avec $+ \arg \mathcal{R}_{\text{eff}}$ si la résonance de Fano se trouve dans le chemin correspondant à l'absorption du photon MIR ou $- \arg \mathcal{R}_{\text{eff}}$ si elle se trouve dans le chemin émettant un photon MIR. $\Delta \theta^{\text{at}}_q$ correspond à la différence de phase entre les deux éléments de transition à deux photons ("phase atomique"). En sommant spectralement l'intensité de chaque pic satellite, on obtient un signal oscillant à deux fois la fréquence fondamentale ($2 \omega$), dont on extrait la phase par transformée de Fourier. La quantité mesurée est donc
 \begin{equation}
 \bar{\Theta} = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} \left( \int_{\text{largeur SB}} S_{\text{SB}}(\tau,E) \rmd E \right) \right]
 \label{eq:PhaseMoyenneHe}
 \end{equation} 
 
-\begin{figure}[!ht]
+Pour chaque longueur d'onde de génération, on obtient une courbe similaire à la figure \ref{fig:ExtractionPhaseInter}. Hors résonance, la phase du pic satellite augmente linéairement avec l'ordre à cause du terme $\phi_{\Omega_{q}} - \phi_{\Omega_{q+2}}$ en suivant la dispersion de délai de groupe intrinsèque au processus de génération associée au chirp atto (voir paragraphe \ref{subsec:ChirpAtto}). Lorsque l'harmonique est résonante, on observe des déviations au comportement linéaire, qui sont symétriques pour les pics satellites de part et d'autre de la résonance (dû au $\pm$ dans l'expression \ref{eq:SB_He}) \mycite{TheseChirla}. Le chirp atto étant dû au processus de génération et dépendant peu de la longueur d'onde du laser fondamental (lorsqu'elle varie de quelques nanomètres comme c'est le cas ici, sinon voir le paragraphe \ref{sec:GHOE_MIR}), on mesure une pente linéaire quasiment identique pour toutes les longueurs d'onde ($\approx$ 20 as/eV ou 0.06 rad/eV). En soustrayant un ajustement de cette pente (pointillés figure \ref{fig:ExtractionPhaseInter}), on obtient la phase $\bar{\Delta \theta^{\text{at}}}$ due uniquement au processus de photoionisation à deux photons \textit{via} la résonance. Ici la notation $\Delta \bar{\theta}$ indique que l'on mesure la différence de phase atomique moyennée sur la largeur spectrale du pic satellite ($\approx 400$ meV, voir la largeur des harmoniques figure \ref{fig:SpectresSansHabillageHe}), à l'énergie moyenne de ce dernier. La largeur spectrale mesurée ici est supérieure aux valeurs "usuelles" dans la coupure en générant à 800 nm à cause de la variation en $\lambda^3$ du chirp harmonique (paragraphe \ref{sec:GHOE_MIR}).
+
+En appliquant cette procédure à toutes les longueurs d'onde de génération \mycite{KoturNatComm2016}, on obtient la variation complète de la phase au voisinage de la résonance (figure  \ref{fig:VariationPhaseInter}). La phase des pics satellites varie de près de 0.5 rad lorsque l'énergie de l'harmonique varie de 0.5 eV autour de la résonance d'autoionisation. Les évolutions sont symétriques dans les pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ en raison du signe + ou - dans l'équation \ref{eq:SB_He} évoqué précédemment. Les résultats obtenus sont en très bon accord avec les calculs du groupe de F. Mart\'{i}n, dont le principe est basé sur la théorie présentée au chapitre \ref{chap:2photons_et_Fano}, plus la prise en compte des durées des impulsions XUV et MIR et de la résolution du spectromètre d'électrons \mycite{JimenezGalanPRA2016}.
+
+\begin{figure}
 \centering
 \def\svgwidth{0.70\textwidth}
 \import{Figures/Helium/}{TracesRabbitHe.pdf_tex}
-\caption{Spectrogrammes RABBIT mesurés dans l'hélium pour plusieurs longueurs d'onde de génération. \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. La résonance de Fano $2s2p$ se situe à 60.15 - 24.56 = 35.59 eV et est de plus en plus visible à mesure que l'énergie de l'harmonique 63 se rapproche de l'énergie de la résonance. Elle est élargie spectralement par la résolution du spectromètre ($\approx$ 200 meV à cette énergie).}
+\caption{Spectrogrammes RABBIT mesurés dans l'hélium pour plusieurs longueurs d'onde de génération (et d'habillage). \`{A} chaque pas de délai le spectre est normalisé par le signal total d'électrons. La résonance de Fano $2s2p$ se situe à 60.15 - 24.56 = 35.59 eV et est de plus en plus visible à mesure que l'énergie de l'harmonique 63 se rapproche de l'énergie de la résonance. Elle est élargie spectralement par la résolution du spectromètre ($\approx$ 200 meV à cette énergie).}
 \label{fig:TracesRabbitHe}
 \end{figure}
 
-Pour chaque longueur d'onde de génération, on obtient une courbe similaire à la figure \ref{fig:ExtractionPhaseInter}. Hors résonance, la phase du pic satellite augmente linéairement avec l'ordre à cause du terme $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ en suivant la dispersion de délai de groupe intrinsèque au processus de génération, le chirp atto (voir paragraphe \ref{subsec:ChirpAtto}). Lorsque l'harmonique est résonante, on observe des déviations du comportement linéaire symétriques pour les pics satellites du dessous et du dessus (dû au $\pm$ dans l'expression \ref{eq:SB_He}) \mycite{TheseChirla}. Le chirp atto étant dû au processus de génération et dépendant peu de la longueur d'onde (lorsqu'elle varie de quelques nanomètres comme c'est le cas ici), on mesure une pente linéaire quasiment identique pour toutes les longueurs d'onde ($\approx$ 20 as/eV ou 0.06 rad/eV). En soustrayant un ajustement de cette pente (pointillés figure \ref{fig:ExtractionPhaseInter}), on obtient la phase due uniquement au processus de photoionisation à deux photons \textit{via} la résonance.
-
-\begin{figure}
+\begin{figure}[ht]
 \centering
-\def\svgwidth{\textwidth}
+\def\svgwidth{0.8\textwidth}
 \import{Figures/Helium/}{ExtractionPhaseInter.pdf_tex}
-\caption{Phase des pics satellites intégrés spectralement pour deux longueurs d'onde de génération. Quand l'harmonique 63 n'est pas résonante ($\lambda$ = 1275 nm), la phase est une fonction linéaire croissante de l'énergie, signature de la dispersion de délai de groupe intrinsèque aux harmoniques (chirp atto) \mycite{MairesseScience2003}. Cette phase linéaire dépend peu de l'énergie dans la gamme de longueurs d'onde explorées. Lorsque $\text{H}_{63}$ est résonante, des déviations du comportement linéaire apparaissent de manière symétrique pour les pics satellites au-dessous et au-dessus de l'harmonique résonante.}
+\caption{Phase des pics satellites intégrés spectralement pour deux longueurs d'onde de génération. Quand l'harmonique 63 n'est pas résonante ($\lambda$ = 1275 nm), la phase est une fonction linéaire croissante de l'énergie, signature de la dispersion de délai de groupe intrinsèque aux harmoniques (chirp atto, paragraphe \ref{subsec:ChirpAtto}). Cette phase linéaire dépend peu de l'énergie du laser fondamental dans la gamme de longueurs d'onde explorées. Lorsque $\text{H}_{63}$ est résonante, des déviations du comportement linéaire apparaissent de manière symétrique pour les pics satellites au-dessous et au-dessus de l'harmonique résonante.}
 \label{fig:ExtractionPhaseInter}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{VariationPhaseInter.pdf_tex}
-\caption{RABBIT. Différence de phase atomique $\bar{\Delta \theta^{\text{at}}}$ expérimentale (points colorés, les couleurs correspondent à la légende de la figure \ref{fig:SpectresSansHabillageHe}) des pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ intégrés spectralement extraite de spectrogrammes RABBIT effectués à différentes longueurs d'onde, et calculée théoriquement (pointillés gris). L'axe d'énergie correspond à l'énergie centrale du pic satellite dans chaque spectrogramme.}
+\caption{RABBIT. Différence de phase atomique $\bar{\Delta \theta^{\text{at}}}$ expérimentale des pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ intégrés spectralement extraite dans les spectrogrammes RABBIT effectués à différentes longueurs d'onde (points colorés, les couleurs correspondent à la légende de la figure \ref{fig:SpectresSansHabillageHe}), et calculée théoriquement (pointillés gris). L'axe d'énergie correspond à l'énergie centrale du pic satellite dans chaque spectrogramme.}
 \label{fig:VariationPhaseInter}
 \end{figure}
 
-En appliquant cette procédure à toutes les longueurs d'onde de génération \mycite{KoturNatComm2016}, on obtient la variation complète de la phase au voisinage de la résonance (figure  \ref{fig:VariationPhaseInter}). La phase des pics satellites varie de près de 0.5 rad lorsque l'énergie de l'harmonique varie de 0.8 eV autour de la résonance d'autoionisation. Les évolutions sont symétriques dans les pics satellites $\text{SB}_{62}$ et $\text{SB}_{64}$ en raison du signe + ou - dans l'équation \ref{eq:SB_He} évoqué précédemment. Les résultats obtenus sont en très bon accord avec les calculs du groupe de F. Mart\'{i}n, dont le principe est basé sur la théorie présentée au chapitre \ref{chap:2photons_et_Fano}, plus la prise en compte des durées des impulsions XUV et MIR et de la résolution du spectromètre d'électrons \mycite{JimenezGalanPRA2016}.
-
+\newpage
 \section{Mesures Rainbow RABBIT}
-L'intégration spectrale du signal de photoélectrons sur toute la largeur du pic satellite est généralement effectuée pour obtenir un meilleur rapport signal sur bruit. Cependant, cette intégration, apparaissant dans l'expression de la phase extraite \ref{eq:PhaseMoyenneHe}, n'est pas satisfaisante lorsque l'on cherche des variations de phase autour de résonances de largeur très inférieure à la largeur d'un pic satellite. En effet, la quantité \ref{eq:PhaseMoyenneHe} se rapproche plutôt d'une phase moyennée sur la largeur spectrale \mycite{TheseGruson} que de la phase de la transition résonante. 
+\begin{figure}
+\centering
+\def\svgwidth{\textwidth}
+\import{Figures/Helium/}{TracesExp_Sim_He.pdf_tex}
+\caption{Spectrogramme expérimental (a) et théorique (b) pour une longueur d'onde de génération de 1295 nm. L'harmonique 63 est résonante avec l'état autoionisant $2s2p$. Un zoom sur une oscillation du pic satellite $\text{SB}_{62}$ montre la structure due à la résonance et le déphasage des deux composantes spectrales observées. Le pic satellite $\text{SB}_{66}$, non résonant, ne présente pas cette structure.}
+\label{fig:TracesExp_Sim_He}
+\end{figure}
 
-De manière surprenante, on remarque que le signal des pics satellites résonants présente une structure spectrale lorsque l'harmonique 63 est résonante (figures \ref{fig:TracesRabbitHe} et \ref{fig:TracesExp_Sim_He}, zoom). Le profil de la résonance est transféré sur le pic satellite voisin et donne lieu à deux composantes spectrales qui oscillent à la fréquence $2 \omega$ mais ne sont pas en phase. Au lieu de sommer spectralement le signal du pic satellite, nous avons analysé les oscillations à $2 \omega$ à chaque énergie de photoélectrons à l'intérieur du pic satellite. Ceci correspond à effectuer une analyse RABBIT résolue spectralement, méthode que nous avons appelée \textit{Rainbow} RABBIT. On obtient ainsi toute la variation spectrale de la phase dans un seul spectrogramme. 
+L'intégration spectrale du signal de photoélectrons sur toute la largeur du pic satellite est généralement effectuée pour obtenir un meilleur rapport signal sur bruit. Cependant, cette intégration, apparaissant dans l'expression de la phase extraite \ref{eq:PhaseMoyenneHe}, n'est pas satisfaisante lorsque l'on cherche des variations de phase autour de résonances dont la largeur est très inférieure à la largeur d'un pic satellite. En effet, la quantité \ref{eq:PhaseMoyenneHe} se rapproche plutôt d'une phase moyennée sur la largeur spectrale et pondérée par l'intensité \mycite{TheseGruson} que de la phase de la transition résonante. 
+
+Lorsque l'on regarde attentivement les spectrogrammes RABBIT, on remarque que le signal des pics satellites résonants présente une structure spectrale (figures \ref{fig:TracesRabbitHe} et \ref{fig:TracesExp_Sim_He}, zoom). Le profil de la résonance est transféré sur les pics satellites voisins et donne lieu à deux composantes spectrales qui oscillent à la fréquence $2 \omega$ mais ne sont pas en phase. Au lieu de sommer spectralement le signal du pic satellite, nous avons analysé les oscillations à $2 \omega$ à chaque énergie de photoélectrons à l'intérieur du pic satellite. Ceci correspond à effectuer une analyse RABBIT résolue spectralement, méthode que nous avons appelée \textit{Rainbow} RABBIT. On obtient ainsi toute la variation spectrale de la phase autour de la résonance dans un seul spectrogramme. 
 \begin{equation}
 \Theta (E) = \arg_{2 \omega} \left[ \int \rmd \tau \rme^{i \omega \tau} S_{\text{SB}}(\tau,E) \right]
 \label{eq:PhaseRainbow}
@@ -100,22 +110,29 @@ La même analyse permet d'obtenir également les variations de l'amplitude à $2
 \begin{figure}
 \centering
 \def\svgwidth{\textwidth}
-\import{Figures/Helium/}{TracesExp_Sim_He.pdf_tex}
-\caption{Spectrogramme expérimental (a) et théorique (b) pour une longueur d'onde de génération de 1295 nm. L'harmonique 63 est résonante avec l'état autoionisant $2s2p$. Un zoom sur une oscillation du pic satellite $\text{SB}_{62}$ montre la structure due à la résonance et le déphasage des deux composantes spectrales observées. Le pic satellite $\text{SB}_{66}$, non résonant, ne présente pas cette structure.}
-\label{fig:TracesExp_Sim_He}
-\end{figure}
-
-Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme enregistré avec une longueur d'onde de génération de 1295 nm sont présentés figure \ref{fig:DataRainbowHe}. L'évolution de la phase est toujours symétrique pour les deux pics satellites résonants mais cette fois la phase varie de $\approx$ 1 rad sur 200 meV. Cet élargissement spectral de la résonance (de largeur naturelle $\Gamma$ = 17 meV, voir tableau \ref{tab:ParamètresFano}) est dû au spectromètre de photoélectrons dont la résolution est de $\approx$ 200 meV à cette énergie. On observe un saut de phase à la position de la résonance décalée de 1 photon MIR et à la position du minimum dans l'amplitude, conformément aux résultats du modèle de Fano présentés au chapitre \ref{chap:ResonancesFano}. En comparaison, l'amplitude du pic satellite non résonant $\text{SB}_{66}$ reproduit le spectre gaussien des harmoniques, et sa phase est plate.
-
-\begin{figure}
-\centering
-\def\svgwidth{\textwidth}
 \import{Figures/Helium/}{DataRainbowHe.pdf_tex}
-\caption{Rainbow RABBIT. Amplitude (haut) et phase (bas) spectrales de la composante à 2$\omega$ des pics satellites, issues de l'expérience (traits pleins violets) et simulées (pointillés noirs) pour les deux pics satellites résonants $\text{SB}_{62}$ et $\text{SB}_{64}$ et un pic satellite non résonant $\text{SB}_{66}$. L'origine des phases est à zéro après soustraction de la composante linéaire due au délai de groupe des harmoniques (voir figure \ref{fig:ExtractionPhaseInter}). La position de la résonance $\pm$ un photon est matérialisée par le trait vertical gris.} 
+\caption{Rainbow RABBIT. Amplitude (haut) et phase (bas) spectrales de la composante à 2$\omega$ des pics satellites, issues de l'expérience (traits pleins violets) et simulées (pointillés noirs) pour les deux pics satellites résonants $\text{SB}_{62}$ et $\text{SB}_{64}$ et un pic satellite non résonant $\text{SB}_{66}$. L'origine des phases est à zéro après soustraction de la composante linéaire due au délai de groupe des harmoniques (voir figure \ref{fig:ExtractionPhaseInter}). La position de la résonance $\pm$ l'énergie d'un photon MIR d'habillage est matérialisée par le trait vertical gris.} 
 \label{fig:DataRainbowHe}
 \end{figure}
 
-\paragraph*{Comparaison du RABBIT et du Rainbow RABBIT} Si la largeur spectrale de l'harmonique est suffisante pour couvrir toute la largeur de la résonance, la variation complète de la phase est ici obtenue en un unique spectrogramme enregistré à une longueur d'onde résonante. La quantité mesurée correspond aux réelles variations spectrales de la phase et non à une valeur moyennée sur la largeur du pic satellite. De plus, si la phase varie très rapidement à l'intérieur du pic satellite, les oscillations à 2 $\omega$ peuvent être brouillées, ce qui rend la procédure d'extraction de phase plus difficile dans le signal intégré (RABBIT). Enfin, dans le Rainbow RABBIT, la résolution spectrale est déterminée par la fonction d'appareil du spectromètre à électrons utilisé. Dans les expériences présentées ici, un potentiel retard de 26 V était appliqué aux électrons, soit une énergie cinétique de l'ordre de 10 eV pour les photoélectrons au voisinage de la résonance. Les pics satellites de plus basse énergie que la résonance étaient nécessaire pour déterminer précisément l'\textit{attochirp} dans l'analyse RABBIT. Cependant, en ajoutant plus de potentiel retard il aurait été possible de décaler les pics satellites résonants à plus basse énergie cinétique et ainsi augmenter la résolution spectrale.
+Les résultats obtenus en appliquant l'analyse Rainbow RABBIT au spectrogramme enregistré avec une longueur d'onde de génération de 1295 nm sont présentés figure \ref{fig:DataRainbowHe}. Les amplitudes des pics satellites résonants dupliquent la forme du pic harmonique résonant, avec une double structure correspondant au produit du spectre gaussien d'excitation par le profil de Fano de la section efficace de photoionisation. L'évolution de la phase est toujours symétrique pour les deux pics satellites résonants mais cette fois la phase varie de $\approx$ 1 rad sur 200 meV. Plus précisément, la phase augmente régulièrement de 1 rad puis s'effondre de 1.5 rad à la position du minimum d'amplitude. C'est ce saut de phase qui est responsable du déphasage des oscillations des deux sous-structures observées sur la figure \ref{fig:TracesExp_Sim_He}. En comparaison, l'amplitude du pic satellite non résonant $\text{SB}_{66}$ reproduit le spectre gaussien des harmoniques, et sa phase est relativement plate.
+
+\section{Comparaison du RABBIT et du Rainbow RABBIT}
+Les avantages du Rainbow RABBIT sont la simplicité, la robustesse et la haute résolution.
+
+Si la largeur spectrale de l'harmonique est suffisante pour couvrir toute la largeur de la résonance, la variation complète de la phase est ici simplement obtenue en un \textbf{unique} spectrogramme enregistré à une longueur d'onde résonante. La quantité mesurée correspond aux réelles variations spectrales de la phase et non à une valeur moyennée sur la largeur du pic satellite.
+
+Nous avons appliqué l'analyse Rainbow RABBIT aux spectrogrammes mesurées pour différentes longueurs d'onde de génération. Les résultats pour cinq différentes longueurs d'onde sont indiquées sur   la figure \ref{fig:Phase_Rainbow_vs_lambda}. La même variation de phase est mesurée à la position de la résonance. La phase du pic satellite dépend uniquement de son énergie relativement à la résonance\footnote{Remarquons ici que les variations de phase et d'amplitude bien visibles et induits par la résonance peuvent être un moyen de contrôler le paquet d'onde électronique en modifiant l'énergie de l'harmonique 63.}. En dehors de la résonance, la phase du pic satellite est plate, ce qui montre que la différence de phase harmonique $\phi_{\Omega_{q}}(E) - \phi_{\Omega_{q+2}}(E)$ varie peu avec l'énergie. Ceci a des implications que nous verrons au chapitre \ref{chap:HeSaclay_reconstruction}.  
+
+Enfin, dans le Rainbow RABBIT, la \textbf{résolution spectrale} est déterminée par la fonction d'appareil du spectromètre à électrons utilisé. Ici la résolution du spectromètre au voisinage de la résonance est de $\approx 200$ meV, ce qui conduit à un élargissement spectral de la résonance (de largeur naturelle $\Gamma$ = 17 meV, voir tableau \ref{tab:ParamètresFano}) dans les résultats de la figure \ref{fig:DataRainbowHe}. Dans les expériences présentées ici, un potentiel retard de 26 V était appliqué aux électrons, soit une énergie cinétique de l'ordre de 10 eV pour les photoélectrons au voisinage de la résonance. Les pics satellites de plus basse énergie que la résonance étaient nécessaire pour déterminer précisément le chirp atto dans l'analyse RABBIT. Cependant, en ajoutant plus de potentiel retard il aurait été possible de décaler les pics satellites résonants à plus basse énergie cinétique et ainsi augmenter la résolution spectrale. Par ailleurs nous verrons au chapitre \ref{chap:He_Lund} comment s'affranchir numériquement de la réponse du spectromètre.
+
+\begin{figure}
+\centering
+\def\svgwidth{0.7\textwidth}
+\import{Figures/Helium/}{Phase_Rainbow_vs_lambda.pdf_tex}
+\caption{Variation de phase $\Delta \theta^{at}$ mesurée dans le pic satellite SB$_{62}$ pour différentes longueurs d'onde du fondamental. Les couleurs correspondent à la légende de la figure \ref{fig:SpectresSansHabillageHe}. Le contenu spectral de H$_{63}$ est  indiqué pour chaque longueur d'onde par une ligne au bas de la figure. La courbe de phase théorique est reproduite en arrière plan (noir). La position en énergie de la résonance $2s2p$ est indiquée par des pointillés noirs en bas de la figure.} 
+\label{fig:Phase_Rainbow_vs_lambda}
+\end{figure}
 
 \chapter{Reconstruction de la dynamique d'autoionisation}
 \label{chap:HeSaclay_reconstruction}
@@ -126,15 +143,15 @@ Pour simplifier la discussion, considérons uniquement le pic satellite $\text{S
 \begin{multline}
 S_{\text{SB}_{64}}(\tau,E) \propto \left| M^{63+1}(E)\right|^2 + \left| M^{65-1}(E)\right|^2 + 2 \left| M^{63+1}(E)\right| \left| M^{65-1}(E)\right| \\ \times \cos[2 \omega \tau + \phi_{\Omega_{65}}(E) - \phi_{\Omega_{63}}(E) + \theta^{\text{at}}_{65-1}(E) - \theta^{\text{at}}_{63+1}(E)]
 \end{multline}
-L'absorption des deux photons XUV et MIR (chemin "63+1") créé le paquet d'onde électronique résonant. Dans le pic satellite, il interfère avec un paquet d'onde électronique de référence créé par le chemin non résonant "65-1". On cherche ici à déterminer, à partir des mesures, l'amplitude $\left| M^{63+1}(E)\right|$ et la phase $\theta^{\text{at}}_{63+1}(E)$ du paquet d'onde électronique à deux photons qui serait créé par une excitation limitée par transformée de Fourier:
+L'absorption des deux photons XUV et MIR (chemin "63+1") crée le paquet d'onde électronique résonant. Dans le pic satellite, il interfère avec un paquet d'onde électronique de référence créé par le chemin non résonant "65-1". On cherche ici à déterminer, à partir des mesures, l'amplitude $\left| M^{63+1}(E)\right|$ et la phase $\theta^{\text{at}}_{63+1}(E)$ du paquet d'onde électronique à deux photons qui serait créé par une excitation limitée par transformée de Fourier:
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
-M^{63+1}(E) = \left| M^{63+1}(E)\right| \times \mathrm{exp} \left( \theta^{\text{at}}_{63+1}(E) \right)
+M^{63+1}(E) = \left| M^{63+1}(E)\right| \times \mathrm{exp} \left(i \theta^{\text{at}}_{63+1}(E) \right)
 }
 \end{equation}
 
-\paragraph*{Phase} Dans l'expérience, les harmoniques sont générées dans l'argon. Autour de 60 eV (au-delà du minimum de Cooper de l'argon \mycite{CooperPR1962}), \mycite{SchounPRL2014} ont mesuré de très faibles variations pour la phase spectrale des harmoniques. De plus, la mesure de phase du pic satellite non résonant $\text{SB}_{66}$ (figure \ref{fig:DataRainbowHe}) montre que la différence $\phi_{\Omega_{67}}(E) - \phi_{\Omega_{65}}(E)$ varie peu sur la largeur d'un pic satellite. Par conséquent nous pouvons considérer que pour le pic satellite résonant les variations spectrales de la différence de phase harmonique sont négligeables devant les variations de phase atomique, mettant en jeu la résonance. Nous pouvons alors approximer la phase mesurée par Rainbow RABBIT (équation \ref{eq:PhaseRainbow})
+\paragraph*{Phase} Dans l'expérience, les harmoniques sont générées dans l'argon. Autour de 60 eV (au-delà du minimum de Cooper de l'argon \mycite{CooperPR1962}), \mycite{SchounPRL2014} ont mesuré pour la phase spectrale des harmoniques de très faibles variations au comportement quadratique dû au chirp atto. De plus, la mesure de phase du pic satellite non résonant $\text{SB}_{66}$ (figure \ref{fig:DataRainbowHe}) montre que la différence $\phi_{\Omega_{67}}(E) - \phi_{\Omega_{65}}(E)$ varie peu sur la largeur d'un pic satellite. Ceci est confirmé par les mesures Rainbow RABBIT effectuées à différentes longueurs d'onde de la figure \ref{fig:Phase_Rainbow_vs_lambda}. Par conséquent nous pouvons considérer que pour le pic satellite résonant les variations spectrales de la différence de phase harmonique sont négligeables devant les variations de phase atomique, mettant en jeu la résonance. Nous pouvons alors approximer la phase mesurée par Rainbow RABBIT (équation \ref{eq:PhaseRainbow})
 \begin{align}
 \Theta_{64} (E) & = \phi_{\Omega_{65}}(E) - \phi_{\Omega_{63}}(E) + \theta^{\text{at}}_{65-1}(E) - \theta^{\text{at}}_{63+1}(E) \\
 & \approx \theta^{\text{at}}_{65-1}(E) - \theta^{\text{at}}_{63+1}(E)
@@ -150,7 +167,7 @@ Par ailleurs, la transition à deux photons non résonante fait intervenir un co
 \end{equation}
 L'excellent accord entre la théorie (calculant uniquement $\theta^{\text{at}}_{63+1}(E)$) et l'expérience montré figure \ref{fig:DataRainbowHe} prouve la validité des approximations utilisées.
 
-\paragraph*{Amplitude} Le dispositif interférométrique permet d'accéder à l'intensité du pic satellite moyennée sur le temps: 
+\paragraph*{Amplitude} Le dispositif interférométrique permet d'accéder à l'intensité du pic satellite moyennée sur le délai MIR-XUV $\tau$: 
 \begin{equation}
 I_{64}(E) = \left| M^{63+1}(E)\right|^2 + \left| M^{65-1}(E)\right|^2
 \label{eq:I}
@@ -162,7 +179,7 @@ A_{64}(E) = 2 \left| M^{63+1}(E)\right| \left| M^{65-1}(E)\right|
 \end{equation}
 En principe, ces deux équations donnent accès aux modules des deux paquets d'onde qui interfèrent $\left| M^{63+1}(E)\right|$ et $\left| M^{65-1}(E)\right|$. Cependant la présence d'un fond dans les spectres de photoélectrons ne nous permet pas d'utiliser la composante continue $I_{64}(E)$, et nous avons donc uniquement utilisé la composante à 2 $\omega$ $A_{64}(E)$ pour déterminer l'amplitude résonante $\left| M^{63+1}(E)\right|$.
 
-En première approximation, et au regard des variations spectrales de l'intensité à 2 $\omega$ du pic satellite non résonant $\text{SB}_{66}$ présentées en figure \ref{fig:DataRainbowHe}, on peut considérer que l'amplitude du paquet d'onde non résonant varie peu sur la largeur du pic satellite. $\left| M^{65-1}(E)\right|$ est alors une constante et on a:
+En première approximation, et au regard des variations spectrales de l'intensité à 2 $\omega$ du pic satellite non résonant $\text{SB}_{66}$ présentées en figure \ref{fig:DataRainbowHe}, on peut considérer que l'amplitude du paquet d'onde non résonant varie lentement sur la largeur du pic satellite par rapport aux variations rapides de l'amplitude résonante. On a alors:
 \begin{equation}
 \setlength\fboxrule{0.25pt}
 \boxed{
@@ -170,30 +187,26 @@ A_{64}(E) \propto \left| M^{63+1}(E)\right|
 }
 \label{eq:M_A64}
 \end{equation}
-Plus rigoureusement, les variations spectrales de $\left| M^{65-1}(E)\right|$ peuvent être évaluées à partir du pic satellite non résonant $\text{SB}_{66}$ en utilisant des hypothèses de l'approximation \textit{soft photon} \mycite{MaquetJMO2007}. Pour le pic satellite $\text{SB}_{66}$, les équations \ref{eq:I} et \ref{eq:A} s'écrivent:
-\begin{equation}
-I_{66}(E + 2 \hbar \omega) = \left| M^{65+1}(E + 2 \hbar \omega)\right|^2 + \left| M^{67-1}(E + 2 \hbar \omega)\right|^2
-\end{equation}
-et
+Plus rigoureusement, les variations spectrales de $\left| M^{65-1}(E)\right|$ peuvent être évaluées à partir du pic satellite non résonant $\text{SB}_{66}$ en utilisant des hypothèses de l'approximation \textit{soft photon} \mycite{MaquetJMO2007}. Pour le pic satellite $\text{SB}_{66}$, l'équation \ref{eq:A} s'écrit:
 \begin{equation}
 A_{66}(E + 2 \hbar \omega) = 2 \left| M^{65+1}(E + 2 \hbar \omega)\right| \left| M^{67-1}(E + 2 \hbar \omega)\right|
 \end{equation}
-les deux chemins "65+1" et "67-1" étant non résonants. Loin du seuil d'ionisation et si les harmoniques 65 et 67 ont des profils similaires, on peut considérer les amplitudes des deux chemins impliquant la même harmonique égales et simplement décalées en énergie de deux photons MIR
+les deux chemins "65+1" et "67-1" étant non résonants. Loin du seuil d'ionisation, on peut considérer les amplitudes des deux chemins impliquant la même harmonique égales et simplement décalées en énergie de deux photons MIR
 \begin{equation}
 \left| M^{65-1}(E)\right| \approx \left| M^{65+1}(E + 2 \hbar \omega)\right|
 \label{eq:AsoftPhoton}
 \end{equation}
-et également égales à la transition non résonante impliquant l'harmonique voisine
+Si, de plus, les harmoniques 65 et 67 ont des profils similaires, on peut approximer
 \begin{equation}
 \left| M^{65+1}(E + 2 \hbar \omega)\right| \approx \left| M^{67-1}(E + 2 \hbar \omega)\right|
 \end{equation}
 Ainsi, l'amplitude de l'oscillation à 2 $\omega$ de $\text{SB}_{66}$ s'écrit
 \begin{equation}
-A_{66}(E + 2 \hbar \omega) \approx  2 \left| M^{65+1}(E + 2 \hbar \omega)\right|^2
+A_{66}(E + 2 \hbar \omega) \approx  2 \left| M^{65-1}(E + 2 \hbar \omega)\right|^2
 \end{equation}
-Et en insérant \ref{eq:AsoftPhoton} dans \ref{eq:A}, il vient:
+Et en insérant dans \ref{eq:A}, il vient:
 \begin{equation}
-\left| M^{63+1}(E)\right| = \frac{A_{64}(E)}{2 \left| M^{65+1}(E + 2 \hbar \omega)\right|} 
+\left| M^{63+1}(E)\right| = \frac{A_{64}(E)}{2 \left| M^{65-1}(E + 2 \hbar \omega)\right|} 
 \end{equation}
 \begin{equation}
 \setlength\fboxrule{0.25pt}
@@ -202,7 +215,7 @@ Et en insérant \ref{eq:AsoftPhoton} dans \ref{eq:A}, il vient:
 }
 \label{eq:M_A66}
 \end{equation}
-Cette approche est plus exacte en principe, mais l'on s'attend à ce que le module calculé dépende de l'amplitude de l'oscillation du pic satellite non résonant de référence, et donc soit plus sensible au bruit expérimental et la la variation spectrale de résolution du spectromètre d'électrons.
+Cette approche est plus exacte en principe, mais l'on s'attend à ce que le module calculé soit plus sensible au bruit expérimental et à la variation spectrale de résolution du spectromètre d'électrons.
 
 \subsection{Paquet d'onde à un photon}
 Dans le chapitre \ref{chap:2photons_et_Fano}, nous avons exprimé la phase de l'élément de transition à deux photons \textit{via} une résonance de Fano (équation \ref{eq:Arg2photonsFano})
@@ -215,11 +228,11 @@ qui diffère de la phase de la transition résonante à un photon (équation \re
 \end{equation}
 par le terme "continuum-continuum" (chapitre \ref{chap:DelaiPI} paragraphe \ref{sec:Matrice2photons}), et la présence du facteur résonant effectif.
 
-Pour $\gamma \ll 1$, $\mathcal{R}_{\text{eff}}(\epsilon) \approx \mathcal{R}(\epsilon)$. Dans nos conditions expérimentales, on calcule 
+Pour $\gamma \ll 1$, $\mathcal{R}_{\text{eff}}(\epsilon) \approx \mathcal{R}(\epsilon)$. Dans nos conditions expérimentales, on calcule \mycite{JimenezGalanPRA2016} 
 \begin{equation}
 \gamma = 0.0154
 \end{equation}
-indiquant un faible couplage de la résonance au continuum final, par rapport au couplage entre les continua intermédiaire et final. Cette petite valeur de $\gamma$ nous permet de considérer, dans nos conditions expérimentales
+indiquant un faible couplage dipolaire de la résonance au continuum final, par rapport au couplage entre les continua intermédiaire et final. Cette petite valeur de $\gamma$ nous permet de considérer, dans nos conditions expérimentales
 \begin{equation}
 \mathcal{R}_{\text{eff}}(\epsilon) \approx \mathcal{R}(\epsilon)
 \end{equation}
@@ -228,19 +241,18 @@ indiquant un faible couplage de la résonance au continuum final, par rapport au
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{Phases1photon2photons.pdf_tex}
-\caption{Phase simulée pour la transition à un photon résonante (gris), la transition à deux photons avec une impulsion MIR monochromatique et $\gamma = 0.0154$ (bleu foncé), la transition à deux photons prenant en compte la largeur spectrale de l'impulsion MIR (bleu clair), et la transition à deux photons  prenant en compte la largeur spectrale de l'impulsion MIR et la résolution du spectromètre de photoélectrons (pointillés noirs). La courbe pointillée est identique à celle présentée figure \ref{fig:DataRainbowHe}.} 
+\caption{Phase simulée pour la transition à un photon résonante (gris), la transition à deux photons avec une impulsion MIR monochromatique et $\gamma = 0.0154$ (bleu foncé), la transition à deux photons prenant en compte la largeur spectrale MIR (bleu clair), et la transition à deux photons  prenant en compte la largeur spectrale de l'impulsion MIR et la résolution du spectromètre de photoélectrons (pointillés noirs). La courbe pointillée est identique à celle présentée figure \ref{fig:DataRainbowHe}.} 
 \label{fig:Phases1photon2photons}
 \end{figure}
 
-La figure \ref{fig:Phases1photon2photons} montre la phase calculée pour la transition à un photon et la transition à deux photons avec $\gamma = 0.0154$. La similarité des deux courbes montre que l'on peut ici approximer la transition à deux photons par la transition à un photon
+La figure \ref{fig:Phases1photon2photons} montre la phase calculée pour la transition à un photon et la transition à deux photons avec $\gamma = 0.0154$. La similarité des deux courbes indique de plus que $\arg M_{\vec{k}}^{(2)}$ (équation \ref{eq:Arg2photonsFano}) est négligeable, en particulier le terme continuum-continuum. On peut donc approximer la transition à deux photons par la transition à un photon:
 \begin{equation}
 \arg M_{\vec{k}, \text{Fano}}^{(2)} \approx \arg M^{(1)}_E
 \end{equation}
-et indique une contribution négligeable du terme "continuum-continuum".
 
-Par ailleurs, la phase de la transition à deux photons calculée en prenant en compte l'effet de la bande spectrale de l'impulsion d'habillage (\mycite{JimenezGalanPRA2016},courbe bleu clair de la figure \ref{fig:Phases1photon2photons}) diffère peu de la phase de la transition à deux photons dans le cas monochromatique. Ceci montre que dans nos conditions expérimentales avec une durée de l'impulsion MIR de 70 fs soit une largeur spectrale de 26 meV, les effets d'impulsion finie sont négligeables. La principale distorsion de la phase observée dans nos mesures provient de l'élargissement spectral dû à la résolution du spectromètre ($\approx$ 200 meV). 
+Par ailleurs, la phase de la transition à deux photons calculée en prenant en compte l'effet de la bande spectrale de l'impulsion d'habillage (paragraphe \ref{sec:ImpulsionsBreves}, courbe bleu clair de la figure \ref{fig:Phases1photon2photons}) diffère peu de la phase de la transition à deux photons dans le cas monochromatique. Ceci montre que dans nos conditions expérimentales avec une durée de l'impulsion MIR de 70 fs soit une largeur spectrale de 26 meV, les effets d'impulsion finie sont négligeables. La principale distorsion de la phase observée dans nos mesures provient de l'élargissement spectral dû à la résolution du spectromètre ($\approx$ 200 meV). 
 
-En conclusion, nous pouvons estimer que dans les conditions expérimentales utilisées le paquet d'onde électronique à deux photons caractérisé par Rainbow RABBIT est une réplique fidèle du paquet d'onde électronique résonant qui aurait été créé par une excitation harmonique à un photon. Son amplitude et sa phase peuvent être déterminées à partir des observables du Rainbow RABBIT:
+En conclusion, nous pouvons estimer que dans les conditions expérimentales utilisées le paquet d'onde électronique à deux photons caractérisé par Rainbow RABBIT est une réplique fidèle du paquet d'onde électronique résonant qui aurait été créé par une excitation harmonique à un photon et limitée par Fourier. Son amplitude et sa phase peuvent être déterminées à partir des observables du Rainbow RABBIT:
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
@@ -265,21 +277,21 @@ Notons qu'un raisonnement similaire s'applique au pic satellite $\text{SB}_{62}$
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/Helium/}{ProfilTemporel.pdf_tex}
-\caption{Profil temporel du paquet d'onde électronique obtenu à partir de la transformée de Fourier du pic satellite $\text{SB}_{64}$ (équations \ref{eq:POE_1ph_sp} et \ref{eq:POE_1ph_temp}; trait plein) et phase correspondante (pointillés). La zone coloriée correspond au profil temporel obtenu à partir du pic satellite non résonant $\text{SB}_{66}$.}
+\caption{Profil temporel du paquet d'onde électronique obtenu à partir de la transformée de Fourier du pic satellite $\text{SB}_{64}$ expérimental (équations \ref{eq:POE_1ph_sp} et \ref{eq:POE_1ph_temp}; trait plein) et phase correspondante (pointillés). La zone coloriée correspond au profil temporel obtenu à partir du pic satellite non résonant $\text{SB}_{66}$ expérimental.}
 \label{fig:ProfilTemporel}
 \end{figure}
 
-Le profil temporel calculé pour le pic satellite $\text{SB}_{64}$ est présenté figure \ref{fig:ProfilTemporel}. Il s'agit de la dynamique d'un paquet d'onde électronique résonant qui aurait été excité par une impulsion XUV de durée correspondant à la limite de Fourier de l'harmonique résonante (400 meV soit 5 fs). Il est comparé au profil temporel obtenu à partir du pic satellite non résonant $\text{SB}_{66}$, qui est une gaussienne répliquant l'impulsion d'excitation et sert à déterminer le temps $t = 0$. Le profil temporel résonant présente un maximum à l'origine des temps, puis un minimum vers $\approx$ 4 fs et une oscillation avant une décroissance rapide. La présence d'un saut de phase de $\approx$ 2 rad associé au minimum d'intensité indique qu'il résulte d'une interférence entre deux composantes du paquet d'onde: la partie correspondant à l'ionisation directe et celle correspondant à l'ionisation \textit{via} la résonance $2s2p$. 
+Le profil temporel calculé pour le pic satellite $\text{SB}_{64}$ expérimental est présenté figure \ref{fig:ProfilTemporel}. Il s'agit de la dynamique d'un paquet d'onde électronique résonant qui aurait été excité par une impulsion XUV de durée correspondant à la limite de Fourier de l'harmonique résonante (400 meV soit 4.5 fs). Il est comparé au profil temporel obtenu à partir du pic satellite non résonant $\text{SB}_{66}$, qui est une gaussienne répliquant l'impulsion d'excitation et sert à déterminer le temps $t = 0$. Le profil temporel résonant présente un maximum à l'origine des temps, puis un minimum vers $\approx$ 4 fs et une oscillation avant une décroissance plus lente. La présence d'un saut de phase de $\approx$ 2 rad associé au minimum d'intensité indique qu'il résulte d'une interférence entre deux composantes du paquet d'onde: la partie correspondant à l'ionisation directe et celle correspondant à l'ionisation \textit{via} la résonance $2s2p$. 
 
 \begin{figure}
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/Helium/}{ProfilTemporel_th.pdf_tex}
-\caption{Profil temporel du paquet d'onde électronique obtenu à partir de la transformée de Fourier du pic satellite $\text{SB}_{64}$ (figure \ref{fig:ProfilTemporel}, trait plein violet) comparé à différents paquets d'onde électroniques calculés: à partir de spectrogrammes simulés prenant en compté (pointillés orange) ou non (pointillés noirs) la résolution du spectromètre, et à partir de la détermination analytique du profil temporel du paquet d'onde électronique résonant à un photon (trait plein gris). Les interférences entre l'ionisation directe et résonante observées dans le paquet d'onde électronique expérimental sont également observées dans les paquets d'onde simulés. Lorsque la simulation prend en compte l'élargissement spectral dû au spectromètre, la durée de vie effective de la décroissance du paquet d'onde aux temps longs est réduite, et correspond à la décroissance observée expérimentalement.} 
+\caption{Profil temporel du paquet d'onde électronique obtenu à partir de la transformée de Fourier du pic satellite $\text{SB}_{64}$ expérimental (figure \ref{fig:ProfilTemporel}, trait plein violet) comparé à différents paquets d'onde électroniques calculés: à partir de spectrogrammes simulés prenant en compté (pointillés orange) ou non (pointillés noirs) la résolution du spectromètre, et à partir de la détermination analytique du profil temporel du paquet d'onde électronique résonant à un photon (trait plein gris). Les interférences entre l'ionisation directe et résonante observées dans le paquet d'onde électronique expérimental sont également observées dans les paquets d'onde simulés. Lorsque la simulation prend en compte l'élargissement spectral dû au spectromètre, la durée de vie effective de la décroissance du paquet d'onde aux temps longs est réduite, et correspond à la décroissance observée expérimentalement.} 
 \label{fig:ProfilTemporel_th}
 \end{figure}
 
-Dans le domaine spectral, le paquet d'onde électronique correspond au produit de l'amplitude de l'harmonique par le facteur résonant de Fano:
+Dans le domaine spectral, le paquet d'onde électronique à un photon correspond au produit de l'amplitude de l'harmonique par le facteur résonant de Fano:
 \begin{equation}
 M^{\text{res}}(E) = \mathcal{R}(\epsilon) \times \mathcal{H} (E)
 \label{eq:Mres_E}
@@ -292,8 +304,9 @@ Dans le domaine temporel, il s'agit donc du produit de convolution de l'amplitud
 D'après le chapitre \ref{chap:2photons_et_Fano}, la transformée de Fourier de $\mathcal{R}(\epsilon)$ s'écrit
 \begin{equation}
 \tilde{\mathcal{R}}(t) = \delta(t) - i \frac{\Gamma}{2 \hbar} (q - i) \times \mathrm{exp} \left(-\frac{i E_R}{\hbar} - \frac{\Gamma}{2 \hbar} \right) \vartheta (t)
+\label{eq:R_t}
 \end{equation}
-où l'on utilise les notations du chapitre \ref{chap:ResonancesFano}, et $\delta$ et $\vartheta$ représentent respectivement la distribution de Dirac et la fonction de Heaviside. Ainsi, $\tilde{M}^{\text{res}}(t)$ possède deux composantes: une gaussienne centrée à l'origine qui reproduit l'impulsion d'excitation, et une partie résonante, comme nos données expérimentales. Cette interprétation est appuyée par le calcul analytique du paquet d'onde électronique résonant, représenté en gris sur la figure \ref{fig:ProfilTemporel_th}, qui reproduit fidèlement l'interférence destructive observée. Les données expérimentales ne contiennent pas la décroissance exponentielle du paquet d'onde aux temps longs caractéristique de la durée de vie de la résonance, mais ceci est dû à l'élargissement spectral de la résonance par le spectromètre de photoélectrons (figure \ref{fig:ProfilTemporel_th}).
+où l'on utilise les notations du chapitre \ref{chap:ResonancesFano}, et $\delta$ et $\vartheta$ représentent respectivement la distribution de Dirac et la fonction de Heaviside. Ainsi, $\tilde{M}^{\text{res}}(t)$ possède deux composantes: une gaussienne centrée à l'origine qui reproduit l'impulsion d'excitation, et une partie résonante, comme l'indiquent nos données expérimentales. Cette interprétation est appuyée par le calcul analytique du paquet d'onde électronique résonant à un photon (pour le calcul détaillé, le lecteur pourra consulter la section 4 du \textit{Supplementary Material} de \mycite{GrusonScience2016}), représenté en gris sur la figure \ref{fig:ProfilTemporel_th}, qui reproduit fidèlement l'interférence destructive observée. La décroissance exponentielle aux temps longs du paquet d'ondes expérimental es plus rapide que la durée de vie de la résonance, mais ceci est dû à l'élargissement spectral de la résonance par la résolution finie du spectromètre de photoélectrons (figure \ref{fig:ProfilTemporel_th}).
 
 \section{Construction du profil spectral de la résonance au cours du temps}
 \label{sec:ConstructionResonance}
@@ -311,31 +324,31 @@ qui montre comment le profil spectral se construit jusqu'à un temps d'accumulat
 \centering
 \def\svgwidth{1.2\textwidth}
 \import{Figures/Helium/}{Wickenhauserisation.pdf_tex}
-\caption{(a) Reconstruction du profil spectral de la résonance au cours du temps calculée en utilisant l'analyse temps-énergie \ref{eq:Wicken}. Le spectre de photoélectrons est trancé en fonction de la limite supérieure de l'intégration utilisée dans la transformée de Fourier inverse, le temps d'accumulation $t_{\text{acc}}$. Les lignes grise, bleue et rouge indiquent des temps d'accumulation de 0, 3 et 20 fs respectivement. (b) Profil spectral de (a) toutes les 1 fs. On distingue d'abord la construction du profil de l'ionisation directe jusqu'à un maximum vers 3 fs (courbes bleues), puis l'apparition d'interférences spectrales convergeant vers le profil de raie de Fano (courbes rouges). Le cercle noir indique un point "isobestique" où toutes les courbes se croisent à partir de $t_{\text{acc}}$ = 3 fs, indiquant une énergie du spectre final à laquelle seule l'ionisation directe contribue.} 
+\caption{(a) Reconstruction du profil spectral de la résonance au cours du temps calculée en appliquant l'analyse temps-énergie \ref{eq:Wicken} au paquet d'ondes expérimental de la figure  \ref{fig:ProfilTemporel}. Le spectre de photoélectrons est tracé en fonction de la limite supérieure de l'intégration utilisée dans la transformée de Fourier inverse, le temps d'accumulation $t_{\text{acc}}$. Les lignes grise, bleue et rouge indiquent des temps d'accumulation de 0, 3 et 20 fs respectivement. (b) Profil spectral de (a) toutes les 1 fs. On distingue d'abord la construction du profil de l'ionisation directe jusqu'à un maximum vers 3 fs (courbes bleues), puis l'apparition d'interférences spectrales convergeant vers le profil de raie de Fano (courbes rouges). Le cercle noir indique un point quasi-"isobestique" où toutes les courbes se croisent à partir de $t_{\text{acc}}$ = 3 fs, indiquant une énergie du spectre final à laquelle seule l'ionisation directe contribue.} 
 \label{fig:Wickenhauserisation}
 \end{figure}
 
-La figure \ref{fig:Wickenhauserisation} montre l'évolution du profil de la résonance $\left| W(E, \: t_{\text{acc}}) \right|^2$ en fontion du temps d'accumulation $t_{\text{acc}}$. Jusqu'à $t_{\text{acc}}$ = 3 fs, le spectre est quasi-Gaussien et reproduit le spectre de l'impulsion d'ionisation. \`{A} ces temps courts, seule l'ionisation directe contribue au spectre de photoélectrons. Lorsque $t_{\text{acc}}$ augmente, la contribution de la résonance d'autoionisation est de plus en plus importante et on observe l'apparition progressive d'interférences spectrales. Après 20 fs, le spectre converge vers l'intensité spectrale mesurée par l'expérience (figure \ref{fig:DataRainbowHe}), conformément au profil temporel de la figure \ref{fig:ProfilTemporel} qui montre une intensité nulle pour $t > $20 fs. Remarquons ici que le temps de 3 fs n'est pas "intrinsèque" au processus mais dépend des caractéristiques de l'impulsion d'excitation et de la détection. Cependant, cette représentation temporo-spectrale permet de visualiser les deux processus d'ionisation directe et résonante du modèle de Fano, qui ont lieu à des échelles de temps différentes. 
+La figure \ref{fig:Wickenhauserisation} montre l'évolution du profil de la résonance $\left| W(E, \: t_{\text{acc}}) \right|^2$ en fontion du temps d'accumulation $t_{\text{acc}}$. Jusqu'à $t_{\text{acc}}$ = 3 fs, le spectre est quasi-Gaussien et reproduit le spectre de l'impulsion d'ionisation. \`{A} ces temps courts, seule l'ionisation directe contribue au spectre de photoélectrons. Lorsque $t_{\text{acc}}$ augmente, la contribution de la résonance d'autoionisation est de plus en plus importante et on observe l'apparition progressive d'interférences spectrales. Après 20 fs, le spectre converge vers l'intensité spectrale mesurée par l'expérience (figure \ref{fig:DataRainbowHe}), conformément au profil temporel de la figure \ref{fig:ProfilTemporel} qui montre une intensité nulle pour $t > $20 fs. Remarquons ici que le temps de 3 fs n'est pas "intrinsèque" au processus mais dépend des caractéristiques de l'impulsion d'excitation (convolution par $\tilde{\mathcal{H}}$ des deux amplitudes qui interfèrent dans l'équation \ref{eq:R_t}) et de la détection (convolution du spectrogramme RABBIT par la réponse du spectromètre). Cependant, cette représentation temporo-spectrale permet de visualiser les deux processus d'ionisation directe et résonante du modèle de Fano, qui ont lieu à des échelles de temps différentes. 
 
 Enfin, remarquons un point particulier dans la figure \ref{fig:Wickenhauserisation} (b) où tous les spectres se croisent \footnote{Par analogie avec ce qui est observé dans le spectre d'absorption lorsqu'une espèce chimique est transformée en une autre de même coefficient d'absorption à une certaine longueur d'onde, en gardant la somme des concentrations constantes \mycite{IUPAC}, nous avons qualifié ce point de "quasi-isobestique".} à partir de $t_{\text{acc}}$ = 3 fs, c'est-à-dire à partir du moment où l'on observe la contribution de l'ionisation résonante. Ce point est identifié en utilisant l'expression de la section efficace de Fano  \ref{eq:SectionEfficaceFano3termes} établie au chapitre \ref{chap:ResonancesFano}. On remarque que pour 
 \begin{equation}
 \epsilon_{\text{iso}} = \frac{1}{2} \left( \frac{1}{q} - 1 \right)
 \end{equation}
-les contributions de l'état discret et du couplage s'annule, ne laissant que la contribution du continuum, constante quelle que soit la population de la résonance.
+les contributions de l'état discret et du couplage s'annulent, ne laissant que la contribution du continuum, constante quelle que soit la population de la résonance.
 
-\paragraph*{Construction du profil spectral de la résonance en utilisant la normalisation par le pic satellite non résonant} Au paragraphe \ref{subsec:POE_2phot_spec}, nous avons présenté deux méthodes permettant d'extraire le module du paquet d'onde résonant à partir des données de Rainbow RABBIT. Tous les résultats présentés aux paragraphes \ref{sec:POE_temporel} et \ref{sec:ConstructionResonance} sont obtenus en utilisant l'équation \ref{eq:M_A64}. La figure \ref{fig:Spectre_norm} compare la construction du profil spectral en utilisant les expressions \ref{eq:M_A64} ou bien \ref{eq:M_A66} pour le calcul du module résonant. On observe que la division par l'amplitude du pic satellite voisin (équation \ref{eq:M_A66}, figure \ref{fig:Spectre_norm}(b)) élargit spectralement les profils de raie, qui possèdent des structures additionnelles dues au bruit sur le pic satellite  $\text{SB}_{66}$. Cependant, la dynamique observée est très similaire avec les deux méthodes, ce qui valide les approximations utilisées précédemment. En particulier, l'énergie $\epsilon_{\text{iso}}$ est identique dans les deux familles de spectres \ref{fig:Spectre_norm}(a) et \ref{fig:Spectre_norm}(b).
+\paragraph*{Construction du profil spectral de la résonance en utilisant la normalisation par le pic satellite non résonant} Au paragraphe \ref{subsec:POE_2phot_spec}, nous avons présenté deux méthodes permettant d'extraire le module du paquet d'onde résonant à partir des données de Rainbow RABBIT. Tous les résultats présentés aux paragraphes \ref{sec:POE_temporel} et \ref{sec:ConstructionResonance} sont obtenus en utilisant l'équation \ref{eq:M_A64}. La figure \ref{fig:Spectre_norm} compare la construction du profil spectral en utilisant les expressions \ref{eq:M_A64} ou bien \ref{eq:M_A66} pour le calcul du module résonant. On observe que la division par l'amplitude du pic satellite voisin (équation \ref{eq:M_A66}, figure \ref{fig:Spectre_norm}(b)) élargit spectralement les profils de raie, qui possèdent des structures additionnelles dues au bruit sur le pic satellite  $\text{SB}_{66}$. Cependant, les dynamiques reconstruites avec les deux méthodes sont très similaires, ce qui valide les approximations utilisées précédemment. En particulier, l'énergie $\epsilon_{\text{iso}}$ est identique dans les deux familles de spectres \ref{fig:Spectre_norm}(a) et \ref{fig:Spectre_norm}(b).
 
 \begin{figure}
 \centering
 \def\svgwidth{1\textwidth}
 \import{Figures/Helium/}{Spectre_norm.pdf_tex}
-\caption{Construction du profil spectral de la résonance calculée par l'équation \ref{eq:Wicken} avec les deux méthodes d'extraction de l'amplitude spectrale: sans normaliser par le pic satellite voisin (a) (figure identitque à \ref{fig:Wickenhauserisation}(b)), ou en normalisant par l'amplitude de $\text{SB}_{66}$ (b). Les dynamiques observées sont similaires dans les deux approches.} 
+\caption{Construction du profil spectral de la résonance calculée par l'équation \ref{eq:Wicken} avec les deux méthodes d'extraction de l'amplitude spectrale: sans normaliser par le pic satellite voisin (a) (figure identique à \ref{fig:Wickenhauserisation}(b)), ou en normalisant par l'amplitude de $\text{SB}_{66}$ (b). Les dynamiques observées sont similaires dans les deux approches.} 
 \label{fig:Spectre_norm}
 \end{figure}
 
 \chapter[Etude de la résonance $sp3^+$ et de l'influence de paramètres expérimentaux]{Etude de la résonance \MakeLowercase{$sp3^+$} et de l'influence de paramètres expérimentaux}
 \label{chap:He_Lund}
-Les résultats présentés dans ce chapitre ont été obtenus lors de deux campagnes expérimentales menées à Lund en collaboration avec l'équipe du professeur Anne L'Huillier (David Busto, Mathieu Gisselbrecht, Anne Harth, Marcus Isinger, David Kroon, Shiyang Zhong) et le spectromètre de temps de vol d'électrons à bouteille magnétique de l'Université de Gothenburg (Raimund Feifel, Richard Squibb).
+Les résultats présentés dans ce chapitre ont été obtenus lors de deux campagnes expérimentales menées à Lund en collaboration avec l'équipe du professeur Anne L'Huillier (David Busto, Mathieu Gisselbrecht, Anne Harth, Marcus Isinger, David Kroon, Shiyang Zhong) et en utilisant le spectromètre  d'électrons à temps de vol à bouteille magnétique prêté par Richard Squibb et Raimund Feifel de l'Université de Gothenburg. Une partie des résultats présentés ici s'appuie sur l'article \ref{pap:BustoArxiv} disponible à la fin de ce manuscrit.
 
 % Spectromètre qui résoud mieux. on voit la sp3+ (youpi), la 2s2p et les deux dans la même SB. Mais dommage on peut pas les coupler à 2 photons.
 % Déconvolution du spectromètre. Mince on avait plein d'effets de finite pulse... Le POE n'est donc pas exactement une réplique du POE à 1 photon, c'est le POE à deux photons.
@@ -343,7 +356,7 @@ Les résultats présentés dans ce chapitre ont été obtenus lors de deux campa
 % Le poe à deux électrons (les SB ne sont pas vraiment des répliques mais bon). + calculs Richard
 % Influence de l'intensité d'habillage sur q
 
-Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance sont significativement élargies par convolution avec la résolution du spectromètre de photoélectrons. Ainsi, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$\footnote{La nomenclature des états doublement excités de l'hélium est proposée par Cooper, Fano et Prats en 1963 \mycite{CooperPRL1963}. Les états autoionisants dans la région 60 - 65 eV convergent vers le niveau $n = 2$ de He$^+$. Les états $2s$ et $2p$ de He$^+$ étant dégénérés, deux séries d'états doublement excités convergent vers cette limite: $2snp$ et $2pns$, quasi dégénérées, qui interagissent alors pour former des états où les électrons ne sont plus indépendants et que l'on note $\ket{spn \pm} = \frac{1}{\sqrt{2}} \left( \ket{2snp} \pm \ket{2pns} \right)$. L'état $2s2p$ appartient à la série "+", et est parfois noté $sp2+$. La transition dipolaire depuis l'état fondamental de l'hélium vers les états "-" est quasi-interdite, ils n'avaient donc pas encore observés en 1963 mais sont visibles sur la figure \ref{fig:Domke}.}, et d'exciter simultanément les deux résonances avec deux harmoniques consécutives. Nous avons également développé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
+Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}, la phase et l'amplitude spectrales au voisinage de la résonance étaient significativement élargies par convolution avec la réponse du spectromètre de photoélectrons. \`{A} Lund, nous avons approfondi l'étude des résonances d'autoionisation de l'hélium avec une bouteille magnétique de meilleure résolution et en utilisant plus de potentiel retard pour diminuer l'énergie cinétique des photoélectrons étudiés. Ces conditions expérimentales différentes nous ont également permis de mesurer la phase de la transition vers la résonance $sp3+$ et d'exciter simultanément les deux résonances avec deux harmoniques consécutives. Nous avons ensuite développé plusieurs méthodes de représentation temps-énergie pour observer la dynamique des résonances d'autoionisation. Enfin, nous avons étudié l'influence de l'intensité du faisceau d'habillage sur le profil de raie.
 
 \section{Mesures Rainbow RABBIT à Lund}
 \subsection{Dispositif expérimental}
@@ -352,13 +365,13 @@ Dans les expériences présentées aux chapitres \ref{chap:HeSaclay_res} et \ref
 \centering
 \def\svgwidth{0.7\textwidth}
 \import{Figures/Helium/}{Schema_2s2p_sp3.pdf_tex}
-\caption{Schéma des états de l'hélium et des interférences à deux photons mises en jeu dans le RABBIT. Lorsque la longueur d'onde du laser est variée, les harmoniques 39 et 41 peuvent exciter séparément ou simultanément les deux résonances $2s2p$ et $sp3+$. L'écart entre ces deux niveaux est de 3.51 eV, il est donc impossible de les coupler avec deux photons IR. Cependant, la largeur spectrale des harmoniques ($\approx$ 230 meV) et de l'infrarouge ($\approx$ 130 meV) rend possible l'excitation simultanée des deux résonances par deux harmoniques consécutives.} 
+\caption{Schéma des états de l'hélium et des interférences à deux photons mises en jeu dans le RABBIT. Lorsque la longueur d'onde du laser est variée, les harmoniques 39 et 41 peuvent exciter une seule ou simultanément les deux résonances $2s2p$ et $sp3+$. L'écart entre ces deux niveaux est de 3.51 eV, il est donc impossible de les coupler directement avec deux photons IR (de largeur spectrale $\approx$ 130 meV). Cependant, la largeur spectrale des harmoniques ($\approx$ 230 meV) rend possible l'excitation simultanée des deux résonances par deux harmoniques consécutives.} 
 \label{fig:Schema_2res}
 \end{figure}
 
-Les expériences ont été effectuées avec un laser titane:saphir à 1 kHz délivrant des impulsions de 20 fs à 800 nm avec une énergie de 5 mJ par impulsion. Le faisceau, stabilisé activement en position, est séparé en deux dans un interféromètre de type Mach-Zehnder. Une partie est focalisée par un miroir sphérique ($f = 50$ cm) dans une cellule de néon (10 mm) pour générer des harmoniques d'ordre élevé. L'infrarouge résiduel est filtré par 200 nm d'aluminium puis les impulsions XUV sont focalisées par un miroir torique ($f = 30$ cm) dans un spectromètre à temps de vol d'électrons à bouteille magnétique d'une longueur de 2 m. L'autre partie du faisceau, dont l'intensité est réglée avec une lame $\lambda /2$ et un polariseur large bande, est superposée temporellement et spatialement à l'XUV au foyer du spectromètre après un trajet dans une ligne à retard. Les spectres de photoélectrons sont mesurés en fonction du délai entre l'IR et l'XUV, stabilisé activement. La longueur d'onde du laser peut-être variée grâce à des filtres acousto-optiques (DAZZLER, voir partie \ref{part:GHOE}), au détriment de la bande spectrale et donc de la durée de l'impulsion. Par exemple, pour varier la longueur d'onde entre 790 et 810 nm, la bande spectrale est réduite de 100 à 70 nm ($\approx$ 190 à 130 meV).
+Les expériences ont été effectuées avec un laser titane:saphir à 1 kHz délivrant des impulsions de 20 fs à 800 nm avec une énergie de 5 mJ par impulsion. Le faisceau, stabilisé activement en position, est séparé en deux dans un interféromètre de type Mach-Zehnder. Une partie est focalisée par un miroir sphérique ($f = 50$ cm) dans une cellule de néon (10 mm) pour générer des harmoniques d'ordre élevé. L'infrarouge résiduel est filtré par 200 nm d'aluminium puis les impulsions XUV sont focalisées par un miroir torique ($f = 30$ cm) dans un spectromètre à temps de vol d'électrons à bouteille magnétique d'une longueur de 2 m (résolution $\approx 100$ meV jusqu'à 6 eV). L'autre partie du faisceau, dont l'intensité est réglée avec une lame $\lambda /2$ et un polariseur large bande, est superposée temporellement et spatialement à l'XUV au foyer du spectromètre après un trajet dans une ligne à retard. Les spectres de photoélectrons sont mesurés en fonction du délai entre l'IR et l'XUV, stabilisé activement. La longueur d'onde du laser peut-être variée grâce à des filtres acousto-optiques (DAZZLER, voir partie \ref{part:GHOE}), au détriment de la bande spectrale et donc de la durée de l'impulsion. Par exemple, pour varier la longueur d'onde entre 790 et 810 nm, la bande spectrale est réduite de 100 à 70 nm ($\approx$ 190 à 130 meV).
 
-Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus que l'écart énergétique entre deux harmoniques consécutives dans la gamme spectrale accessible ici (il faudrait une longueur d'onde autour de 720 nm pour coupler les deux résonances avec deux photons IR). Cependant grâce à la largeur spectrale des harmoniques, autour de 200 meV, il est possible d'exciter simultanément les deux résonances avec les harmoniques 39 et 41 dans certaines conditions (figures \ref{fig:Schema_2res} et \ref{fig:HeLund_WLscan}).
+Les résonances de Fano $2s2p$ et $sp3+$ sont séparées de 3.51 eV, soit plus que l'écart énergétique entre deux harmoniques consécutives dans la gamme spectrale accessible ici (il faudrait une longueur d'onde autour de 720 nm pour coupler les deux résonances avec deux photons IR). Cependant grâce à la largeur spectrale des harmoniques, autour de 230 meV, il est possible d'exciter simultanément les deux résonances avec les harmoniques 39 et 41 dans certaines conditions (figures \ref{fig:Schema_2res} et \ref{fig:HeLund_WLscan}).
 
 \begin{figure}
 \centering
@@ -379,21 +392,21 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Rabbit_HeLund_2s2p}
 \end{figure}
 
-\paragraph*{Déconvolution du spectromètre de photoélectrons} La principale raison de l'élargissement spectral de la phase dans les mesures de Saclay est la convolution du spectre de photoélectrons par la résolution du spectromètre (figure \ref{fig:Phases1photon2photons}). Ici nous choisissons d'appliquer un algorithme de déconvolution afin de s'affranchir de cet effet. La résolution du spectromètre dépend de l'énergie cinétique des photoélectrons avec $\frac{\Delta E}{E} \approx \text{constante}$, ainsi chaque pic satellite est traité séparément. L'effet du spectromètre est modélisé par une convolution par une fonction gaussienne de largeur $\Delta E$:
+\paragraph*{Déconvolution du spectre de photoélectrons} La principale raison de l'élargissement spectral de la courbe de phase dans les mesures de Saclay était la convolution du spectre de photoélectrons par la fonction d'appareil du spectromètre (figure \ref{fig:Phases1photon2photons}). Ici nous choisissons d'appliquer un algorithme de déconvolution afin de s'affranchir de cet effet. La résolution du spectromètre dépend de l'énergie cinétique des photoélectrons avec $\frac{\Delta E}{E} \approx \text{constante}$, ainsi chaque pic satellite est traité séparément. L'effet du spectromètre est modélisé par une convolution avec une fonction gaussienne de largeur $\Delta E$:
 \begin{equation}
-S(E) = \int \left[ \sigma(E) \times \mathcal{H} (E) \right] \rme^{-\frac{4 \ln 2 (E-E')^2}{(\Delta E)^2}} \rmd E'
+S(E) = \int \mathcal{S} (E)  \rme^{-\frac{4 \ln 2 (E-E')^2}{(\Delta E)^2}} \rmd E'
 \end{equation}
-où $\sigma(E)$ est la section efficace d'absorption et $\mathcal{H}(E)$ le spectre harmonique.
+où $\mathcal{S} (E)$ est le spectre à un délai donné, incluant les harmoniques et les pics satellites.
 
 La largeur $\Delta E$ est d'abord déterminée en déconvoluant le spectre sans habillage (figure \ref{fig:HeLund_WLscan}).......
 
-La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué" (figure \ref{fig:Rabbit_HeLund_2s2p_deconv}). Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par le spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
+La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué" (figure \ref{fig:Rabbit_HeLund_2s2p_deconv}). Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par la réponse du spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
 
 \begin{figure}
 \centering
 \def\svgwidth{0.95\textwidth}
 \import{Figures/Helium/}{Rabbit_deconv_NeHe2.pdf_tex}
-\caption{Spectrogrammes RABBIT déconvolués de l'élargissement spectral par le spectromètre de photoélectrons pour les pics satellites 38, 40 et 42.}
+\caption{Spectrogrammes RABBIT déconvolués de l'élargissement spectral par la réponse du spectromètre de photoélectrons pour les pics satellites 38, 40 et 42.}
 \label{fig:Rabbit_HeLund_2s2p_deconv}
 \end{figure}
 
@@ -401,17 +414,17 @@ La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de re
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Compare_avant_apres_deconv_NeHe2.pdf_tex}
-\caption{Amplitude (haut) et phase (bas) des pics satellites 38, 40 et 42 extraites par la méthode Rainbow RABBIT avant (bleu) et après (rouge) déconvolution de la fonction d'appareil du spectromètre. La phase du pic satellite non résonant SB$_{42}$ extraite des mesures est représentée en gris, son origine est discutée dans le texte. Un ajustement de cette phase linéaire est soustrait aux phases mesurées dans les trois pics satellites étudiés pour obtenir les courbes bleues. La même procédure est appliquée aux phases obtenues après déconvolution (non représenté).}
+\caption{Amplitude (haut) et phase (bas) des pics satellites 38, 40 et 42 extraites par la méthode Rainbow RABBIT avant (bleu) et après (orange) déconvolution de la fonction d'appareil du spectromètre. La phase du pic satellite non résonant SB$_{42}$ extraite des mesures est représentée en gris. Elle présente une composante linéaire dont l'origine est discutée dans le texte. Un ajustement de cette phase linéaire est soustrait aux phases mesurées dans les trois pics satellites étudiés pour obtenir les courbes bleues. La même procédure est appliquée aux phases obtenues après déconvolution (non représenté).}
 \label{fig:Resultats_NeHe2_deconv}
 \end{figure}
 
-\paragraph*{Effets d'impulsions brèves} En effet, l'impulsion d'habillage utilisée est plus large spectralement qu'à Saclay: une largeur de bande de 70 nm correspond ici à $\approx$ 130 meV, à opposer aux 26 meV (TF) de l'impulsion d'habillage du chapitre \ref{chap:HeSaclay_res}.  \mycite{JimenezGalanPRA2016} ont complété le modèle des amplitudes de transitions à deux photons \textit{via} une résonance de Fano présenté au chapitre \ref{chap:2photons_et_Fano} pour inclure l'effet de la largeur de bande de l'impulsion d'habillage. Si l'harmonique et l'impulsion d'habillage sont larges spectralement, une énergie particulière du pic satellite peut être obtenue par différentes combinaisons $\omega + \Omega$ de photons IR et XUV, respectivement. Ainsi les amplitudes de transitions à deux photons sont "mélangées" dans le pic satellite, ce qui déforme la phase $\arg[M^{(2)}_{\text{Fano, ib}}]$. La figure \ref{fig:FinitePulses_Alvaro} présente la phase de l'amplitude de transition à deux photons calculée par \mycite{JimenezGalanPRA2016} pour une résonance de Fano avec $q = 1$ et $\gamma = 0$ pour différentes largeurs spectrales de l'impulsion d'habillage. Plus le spectre IR est large, plus la phase du moment de transition est déformée: les variations de phase sont plus faibles et étalées spectralement. Cet effet est plus complexe qu'une simple convolution par la largeur de l'impulsion IR, il n'est donc pas possible de s'en affranchir avec un algorithme de déconvolution. Dans ces conditions, le paquet d'onde électronique du pic satellite n'est pas une exacte réplique du paquet d'onde électronique résonant, comme nous l'avons considéré au chapitre \ref{chap:HeSaclay_reconstruction}. Par ailleurs, si le couplage entre la résonance et le continuum final \textit{via} le photon IR (quantifié par $\gamma$) est fort, la phase mesurée dans le pic satellite est encore plus déformée par la largeur de bande IR (figure \ref{fig:FinitePulses_Alvaro}). %+ commenter Alvaro, + les finite pulses ont aussi un effet sur l'amplitude
+\paragraph*{Effets d'impulsions brèves} L'impulsion d'habillage utilisée à Lund est plus large spectralement qu'à Saclay: une largeur de bande de 70 nm correspond ici à $\approx$ 130 meV, à opposer aux 26 meV (TF) de l'impulsion d'habillage du chapitre \ref{chap:HeSaclay_res}.  \mycite{JimenezGalanPRA2016} ont complété le modèle des amplitudes de transitions à deux photons \textit{via} une résonance de Fano présenté au chapitre \ref{chap:2photons_et_Fano} pour inclure l'effet de la largeur de bande de l'impulsion d'habillage (paragraphe \ref{sec:ImpulsionsBreves}). Si l'harmonique et l'impulsion d'habillage sont larges spectralement, une énergie particulière du pic satellite peut être obtenue par différentes combinaisons $\omega + \Omega$ de photons IR et XUV, respectivement. Ainsi les amplitudes de transitions à deux photons sont "mélangées" dans le pic satellite, ce qui déforme la phase $\arg[M^{(2)}_{\text{Fano, ib}}]$ (équation \ref{eq:M2FanoIB}). La figure \ref{fig:FinitePulses_Alvaro} présente la phase de l'amplitude de transition à deux photons calculée par \mycite{JimenezGalanPRA2016} pour une résonance de Fano avec $q = 1$ et $\gamma = 0$ pour différentes largeurs spectrales de l'impulsion d'habillage. Plus le spectre IR est large, plus la phase du moment de transition est déformée: les variations de phase sont plus faibles et étalées spectralement. Cet effet est plus complexe qu'une simple convolution par la largeur de l'impulsion IR, il n'est donc pas possible de s'en affranchir avec un algorithme de déconvolution. Dans ces conditions, le paquet d'onde électronique du pic satellite n'est pas une exacte réplique du paquet d'onde électronique résonant, comme nous l'avons considéré au chapitre \ref{chap:HeSaclay_reconstruction}. Par ailleurs, si le couplage dipolaire entre la résonance et le continuum final avec le photon IR (quantifié par $\gamma$) est fort, la phase mesurée dans le pic satellite est encore plus déformée par la largeur de bande IR (figure \ref{fig:FinitePulses_Alvaro}). %+ commenter Alvaro, + les finite pulses ont aussi un effet sur l'amplitude
 
 \begin{figure}
 \centering
 \def\svgwidth{0.6\textwidth}
 \import{Figures/Helium/}{FinitePulses_Alvaro.pdf_tex}
-\caption{Phase de l'amplitude de transition à deux photons \textit{via} une résonance de Fano avec $q = 1$ et $\gamma = 0$ (à gauche) et $q = 1$ et $\gamma = 0.2$ (à droite) en fonction de la largeur spectrale à mi-hauteur de l'impulsion d'habillage: monochromatique (bleu), $\approx$ 60 meV (vert), $\approx$ 90 meV (jaune), $\approx$ 125 meV (rouge). Extrait de \mycite{JimenezGalanPRA2016}.}
+\caption{Phase de l'amplitude de transition à deux photons \textit{via} une résonance de Fano avec $q = 1$ et $\gamma = 0$ (à gauche) et $q = 1$ et $\gamma = 0.2$ (à droite) pour différentes largeurs spectrales à mi-hauteur de l'impulsion d'habillage: monochromatique (bleu), $\approx$ 60 meV (vert), $\approx$ 90 meV (jaune), $\approx$ 125 meV (rouge). Extrait de \mycite{JimenezGalanPRA2016}.}
 \label{fig:FinitePulses_Alvaro}
 \end{figure}
 
@@ -421,19 +434,19 @@ La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de re
 \subsection{Excitation simultanée des résonances 2s2p et sp3+}
 Afin d'exciter les résonances $2s2p$ et $sp3+$ avec deux harmoniques consécutives, la longueur d'onde de génération est accordée à 795 nm et la largeur de bande est augmentée à 90 nm ($\approx$ 170 meV). La procédure de déconvolution est appliquée de la même manière que précédemment. Les conclusions sur les effets d'impulsions brèves s'appliquent ici également, d'autant plus que la largeur de bande IR est plus grande dans ces conditions. La figure \ref{fig:Resultats_NeHe6_deconv} montre les amplitudes et phases de l'oscillation à $2\omega$ des pics satellites 38 à 44. Les pics satellites 38 et 42 contiennent les variations de phase et d'amplitude dues à la présence des résonances $2s2p$ et $sp3+$ respectivement. Le pic satellite 40 contient les variations dues aux deux résonances. Le pic satellite 44, non résonant, possède une amplitude gaussienne et une phase plate, pouvant ainsi servir de référence.
 
-Ces mesures montrent que la méthode Rainbow RABBIT est sensible aux résonances plus étroites ($\Gamma_{sp3+} = 8$ meV). Elle peut donc être appliquée dans une grande variété de systèmes. Avec une longueur d'onde de génération adéquate, il serait possible de coupler les deux résonances dans le pic satellite intermédiaire. Cependant, l'excitation cohérente des deux résonances par les harmoniques 39 et 41 produit un paquet d'onde électronique complexe qui sera décrit en détail dans le paragraphe \ref{subsec:Lund2resonances}.
+Ces mesures montrent que la méthode Rainbow RABBIT est capable d'accéder à des résonances plus étroites ($\Gamma_{sp3+} = 8$ meV) si l'impulsion IR d'habillage et la fonction d'appareil du spectromètre sont suffisamment étroites spectralement (on note ici que l'amplitude de la variation de phase à la résonance est nettement plus faible pour $sp3^+$ que pour $2s2p$ du fait de sa largeur $\approx 5$ fois plus faible qui la rend plus sensible aux effets d'élargissement mentionnés ci-dessus). Le fait que l'on puisse, dans le pic satellite 40, "suivre" la phase d'une structure résonante à l'autre démontre que l'on a effectué une excitation cohérente des deux résonances par les harmoniques 39 et 41. Ceci produit un paquet d'onde électronique complexe qui sera décrit en détail dans le paragraphe \ref{subsec:Lund2resonances}.
 
 \begin{figure}
 \centering
 \def\svgwidth{\textwidth}
-\import{Figures/Helium/}{Resultats_NeHe6_deconv.pdf_tex}
-\caption{Moche: à changer!}
+\import{Figures/Helium/}{Deconv_NeHe6.pdf_tex}
+\caption{Amplitude (haut) et phase (bas) des pics satellites 38, 40, 42 et 44 extraites par la méthode Rainbow RABBIT avant (bleu) et après (orange) déconvolution de la fonction d'appareil du spectromètre.}
 \label{fig:Resultats_NeHe6_deconv}
 \end{figure}
 
 \section{Dynamiques d'autoionisation}
-\subsection{Représentations temps-énergie de la résonance 2s2p}
-\paragraph*{Domaine temporel} Les mesures d'amplitude et phase spectrales nous permettent de calculer le paquet d'onde électronique issu de l'état autoionisant $2s2p$ dans le domaine temporel, à partir de l'expression \ref{eq:POE_1ph_temp}:
+\subsection{Représentations temps-énergie du paquet d'ondes résonant à deux photons issu de l'état 2s2p}
+\paragraph*{Domaine temporel} Les mesures d'amplitude et phase spectrales nous permettent de calculer le paquet d'ondes électronique à deux photons issu de l'état autoionisant $2s2p$ dans le domaine temporel, à partir de l'expression \ref{eq:POE_1ph_temp}:
 \begin{equation}
 \tilde{M}^{\text{res}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty} \left| M^{\text{res}}(E) \right| \rme^{i \: \theta^{\text{at}}_{39-1}(E)} \times \rme^{-i E t / \hbar} \: \rmd E
 \label{eq:POE2photons_2s2p_Lund}
@@ -445,23 +458,23 @@ où l'on utilise les mêmes approximations qu'au paragraphe \ref{subsec:POE_2pho
 \begin{equation}
 \left| M^{\text{res}}(E) \right| \approx A_{38}(E)
 \end{equation}
-à partir des phases et amplitudes déconvoluées du spectromètre (figure \ref{fig:Resultats_NeHe2_deconv}). L'intensité et la phase temporelles du paquet d'onde \ref{eq:POE2photons_2s2p_Lund} sont représentés figure \ref{fig:ProfilTemporel_Lund}.
+à partir des phases et amplitudes déconvoluées de la fonction d'appareil du spectromètre (figure \ref{fig:Resultats_NeHe2_deconv}). L'intensité et la phase temporelles du paquet d'ondes \ref{eq:POE2photons_2s2p_Lund} sont représentées figure \ref{fig:ProfilTemporel_Lund}.
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{0.65\textwidth}
 \import{Figures/Helium/}{Temporel_38_Lund.pdf_tex}
-\caption{Profil temporel du paquet d'onde électronique obtenu à partir de la transformée de Fourier du pic satellite SB$_{38}$ déconvolué du spectromètre (trait plein), et phase correspondante (pointillés).}
+\caption{Profil temporel du paquet d'ondes électronique à deux photons obtenu à partir de la transformée de Fourier du pic satellite SB$_{38}$ déconvolué de la fonction d'appareil du spectromètre (trait continu), et phase correspondante (pointillés).}
 \label{fig:ProfilTemporel_Lund}
 \end{figure}
 
 On retrouve les caractéristiques associées au processus d'autoionisation. Ces résultats peuvent être comparés à ceux de Saclay (figure \ref{fig:ProfilTemporel}):
 \begin{enumerate}[label=\textbullet]
-\item Une intensité gaussienne centrée en $t = 0$ correspondant à l'ionisation directe. La largeur temporelle associée est la durée limitée par transformée de Fourier de l'harmonique excitatrice: Saclay 5 fs $\leftrightarrow$ 400 meV, Lund 7.7 fs $\leftrightarrow$ 230 meV.
-\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement avec le temps, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par le spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
+\item Un pic d'intensité gaussien centré en $t = 0$ correspondant à l'ionisation directe. La largeur temporelle associée est la durée limitée par transformée de Fourier de l'harmonique excitatrice: Saclay 4.5 fs $\leftrightarrow$ 400 meV, Lund 7.7 fs $\leftrightarrow$ 230 meV.
+\item Une intensité non nulle en dehors de l'excitation directe, décroissant rapidement avec le temps, correspondant à l'ionisation \textit{via} la résonance. Dans les résultats de Saclay, la durée de vie apparente était réduite à cause de l'élargissement spectral par la réponse du spectromètre de photoélectrons. Les résultats de Lund sont déconvolués de cet effet, mais la durée de vie apparente est ici réduite par l'influence de la largeur de bande de l'habillage.
 \item Un minimum d'intensité associé à un saut de phase de $\approx$ 2 rad vers $t = 7$ fs, signature de l'interférence entre les deux processus d'ionisation aux temps courts. La position exacte dans le temps de cette interférence dépend des conditions d'excitation et d'habillage, et est différente dans les deux expériences. 
 \end{enumerate}
-Dans les conditions de l'expérience de Lund, le paquet d'onde électronique à deux photons reconstruit à partir du pic satellite n'est pas rigoureusement la réplique du paquet d'onde résonant. Cependant, la dynamique observée est très semblable à la dynamique d'autoionisation à un photon mise en évidence à Saclay (chapitre \ref{chap:HeSaclay_reconstruction}).
+Dans les conditions de l'expérience de Lund, le paquet d'ondes électronique à deux photons reconstruit à partir du pic satellite n'est pas rigoureusement la réplique du paquet d'ondes résonant à un photon. Cependant, la dynamique observée est très semblable à la dynamique d'autoionisation à un photon mise en évidence à Saclay (chapitre \ref{chap:HeSaclay_reconstruction}). En fait, les deux effets différents mentionnés ci-dessus aboutissent par coïncidence à des élargissements et diminutions d'amplitude et de la phase résonantes très similaires.
 
 \begin{figure}[h]
 \centering
@@ -475,7 +488,7 @@ Dans les conditions de l'expérience de Lund, le paquet d'onde électronique à 
 \begin{equation}
 W(E, \: t_{\text{acc}}) = \int_{- \infty}^{t_{\text{acc}}} \tilde{M}^{\text{res}}(t) \times \rme^{i E t / \hbar} \: \rmd t
 \end{equation}
-Le résultat, présenté figure \ref{fig:Wicken_38_Lund} est ici également similaire à la figure \ref{fig:Wickenhauserisation}: le spectre de photoélectrons reproduit d'abord le spectre gaussien de l'impulsion d'excitation, puis l'on observe progressivement l'apparition du profil de raie caractéristique de la résonance de Fano (vers 36.6-36.7 eV).
+Le résultat, présenté figure \ref{fig:Wicken_38_Lund} est ici également similaire à la figure \ref{fig:Wickenhauserisation}: le spectre de photoélectrons reproduit d'abord le spectre gaussien de l'impulsion d'excitation, puis l'on observe progressivement l'apparition du profil de raie caractéristique de la résonance de Fano (vers 35.6-35.7 eV).
 
 \begin{figure}[h]
 \centering
@@ -485,14 +498,14 @@ Le résultat, présenté figure \ref{fig:Wicken_38_Lund} est ici également simi
 \label{fig:LundGabors_38}
 \end{figure}
 
-\paragraph*{Spectre de photoélectrons instantané} En utilisant une transformée de Fourier locale différente, il est possible d'obtenir le spectre de photoélectrons émis à différents instants de l'interaction. On utilise ici la transformation de Gabor du paquet d'onde électronique, transformée de Fourier inverse de $\tilde{M}^{\text{res}}(t)$ multiplié par une fenêtre temporelle $g$:
+\paragraph*{Spectre de photoélectrons "instantané"} En utilisant une transformée de Fourier locale différente, il est possible d'obtenir le spectre de photoélectrons émis à différents instants de l'interaction. On utilise ici la transformation de Gabor du paquet d'onde électronique, transformée de Fourier inverse de $\tilde{M}^{\text{res}}(t)$ multiplié par une fenêtre temporelle $g$:
 \begin{equation}
 G(E, \: \tau) =  \int_{- \infty}^{+\infty} g(t - \tau) \tilde{M}^{\text{res}}(t) \: \rme^{i E t / \hbar} \: \rmd t
 \label{eq:Gabor}
 \end{equation} 
-On choisit ici une fonction gaussienne pour la fenêtre $g$. La figure \ref{fig:LundGabors_38} montre $|G(E, \: \tau)|^2$ pour différentes largeurs à mi-hauteur de $g$. Naturellement, la largeur de la fenêtre est choisie pour optimiser le compromis entre résolution temporelle et spectrale. Une fenêtre de petite largeur temporelle (5 fs, figure \ref{fig:LundGabors_38}a) montre que l'émission est confinée temporellement entre -10 et 20 fs, mais ne permet pas de distinguer les fréquences émises aux différents instants. Au contraire une fenêtre de grande largeur temporelle (50 fs, figure \ref{fig:LundGabors_38}b) montre que l'émission possède un spectre asymétrique, mais ne permet pas de résoudre le processus temporellement. On choisit alors une fenêtre de largeur 20 fs (figure \ref{fig:LundGabors_38}c), qui permet d'observer le spectre des photoélectrons émis à différents instants. La figure \ref{fig:LundGabors_38}d montre ces spectres toutes les 3 fs entre -10 et +23 fs. Aux temps négatifs, le spectre émis est gaussien et reproduit le spectre d'excitation. Lorsque $\tau$ augmente au-delà de la durée de l'impulsion XUV (durée limitée par transformée de Fourier de l'harmonique 40), seuls les photoélectrons issus de l'autoionisation sont émis, ce qui est visible sur le spectre très asymétrique à $\tau =$ 8 et 11 fs. Une fois que toute la population de la résonance est vidée, plus aucun photoélectron n'est émis.
+On choisit ici une fonction gaussienne pour la fenêtre $g$. La figure \ref{fig:LundGabors_38} montre $|G(E, \: \tau)|^2$ pour différentes largeurs à mi-hauteur de $g$. Naturellement, la largeur de la fenêtre est choisie pour optimiser le compromis entre résolution temporelle et spectrale. Une fenêtre de petite largeur temporelle (5 fs, figure \ref{fig:LundGabors_38}(a)) montre que l'émission est confinée temporellement entre -10 et 20 fs, mais ne permet pas de distinguer les fréquences émises aux différents instants. Au contraire une fenêtre de grande largeur temporelle (50 fs, figure \ref{fig:LundGabors_38}(b)) montre que l'émission possède un spectre asymétrique, mais ne permet pas de résoudre le processus temporellement. On choisit alors une fenêtre de largeur 20 fs (figure \ref{fig:LundGabors_38}(c)), qui permet d'observer le spectre des photoélectrons émis à différents instants. La figure \ref{fig:LundGabors_38}d montre ces spectres toutes les 3 fs entre -10 et +23 fs. Aux temps négatifs, le spectre émis est gaussien et reproduit le spectre d'excitation. Lorsque $\tau$ augmente, les photoélectrons proviennent de l'ionisation directe et de l'ionisation résonante qui interfèrent spectralement pour produire le spectre asymétrique pour $\tau =$ 5 à 11 fs. \`{A} partir de $\tau = 17$ fs, seuls les photoélectrons issus de l'autoionisation sont émis d'où un spectre de nouveau régulier dont l'intensité diminue au fur et à mesure que la résonance se vide, et dont la position du maximum est légèrement décalée par rapport à $\tau < 0$.
 
-\paragraph*{Distribution de Wigner-Ville} Les deux représentations temps-énergie précédentes reposent sur des transformées de Fourier locales. La première permet d'observer la modification progressive du spectre de photoélectrons au cours du temps due à l'interférence entre les chemins d'ionisation direct et résonant; elle ne permet pas de distinguer temporellement ces deux processus. La seconde montre le spectre de photoélectrons instantané et met en évidence la forte asymétrie du spectre émis lorsque l'impulsion excitatrice est passée, résultant de l'émission de photoélectrons résonants uniquement, mais les résolutions temporelle et spectrale sont limitées par le principe d'incertitude (ou de Fourier). David Busto de l'université de Lund a alors proposé de représenter la dynamique du paquet d'onde électronique résonant par une distribution de pseudo-probabilité de Wigner-Ville \mycite{WignerPR1932}\mycite{Ville1948}. Cette distribution est définie dans les domaines temporel et fréquentiel: 
+\paragraph*{Distribution de Wigner-Ville} Les deux représentations temps-énergie précédentes reposent sur des transformées de Fourier locales. La première permet d'observer la modification progressive du spectre de photoélectrons au cours du temps due à l'interférence entre les chemins d'ionisation direct et résonant; elle ne permet pas de séparer temporellement ces deux processus (sauf aux temps courts dominés par le chemin direct). La seconde montre le spectre de photoélectrons instantané et met en évidence les spectres symétriques aux temps courts et longs dus respectivement aux chemins direct et résonant et les spectres asymétriques aux temps intermédiaires dus à leur interférence, mais les résolutions temporelle et spectrale sont limitées par le principe d'incertitude (ou de Fourier). David Busto de l'université de Lund a alors proposé de représenter la dynamique du paquet d'onde électronique résonant par une distribution de pseudo-probabilité de Wigner-Ville \mycite{WignerPR1932}\mycite{Ville1948}. Cette distribution est définie dans les domaines temporel et fréquentiel: 
 \begin{align}
 WV(t, E) & = \int_{-\infty}^{+\infty} \tilde{M}^{\text{res}}(t + \tau/2) \: \tilde{M}^{\text{res *}}(t - \tau/2) \: \rme^{- i\omega \tau} \rmd \tau \\ & = \frac{1}{2\pi} \int_{-\infty}^{+\infty} M^{\text{res}}(E + \xi/2) \: M^{\text{res *}}(E - \xi/2) \: \rme^{- i\xi t} \rmd \xi
 \end{align}
@@ -507,7 +520,7 @@ et peut être interprétée comme la transformée de Fourier de la fonction d'au
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Wigner_SB38_square_SpectreDivisePar3.pdf_tex}
-\caption{Distribution de Wigner-Ville du paquet d'onde électronique résonant WV(t, E) et intégration de cette distribution sur le temps (orange, $\times 1/3$) et l'énergie (violet). Ces sommes sont identiques aux profils présentés figures \ref{fig:Resultats_NeHe2_deconv} et \ref{fig:ProfilTemporel_Lund}, respectivement. Les zones a, b et c sont discutées dans le texte.}
+\caption{Distribution de Wigner-Ville du paquet d'onde électronique résonant WV(t, E) et intégration de cette distribution sur le temps (orange, $\times 1/3$) et l'énergie (violet). Ces sommes sont identiques aux profils présentés figures \ref{fig:Resultats_NeHe2_deconv} (ici au carré) et \ref{fig:ProfilTemporel_Lund}, respectivement. Les zones a, b et c sont discutées dans le texte.}
 \label{fig:Wigner_SB38}
 \end{figure}
 
@@ -520,7 +533,7 @@ La fonction d'autocorrélation de cette fonction d'onde possède donc trois term
 
 \subsection{Paquet d'onde à deux résonances}
 \label{subsec:Lund2resonances}
-On s'intéresse désormais aux dynamiques induites lorsque la longueur d'onde est choisie afin d'exciter simultanément les résonances $2s2p$ et $sp3+$. Les harmoniques 39 et 41 excitent alors de manière cohérente les deux résonances autoionisantes, créant un paquet d'onde électronique complexe. Nous avons vu précédemment que dans les conditions de l'expérience de Lund, \textit{a fortiori} dans les conditions d'excitation simultanée avec une largeur de bande IR de 90 nm, le pic satellite n'est en toute rigueur pas une réplique du paquet d'onde à un photon. Cependant, les similitudes entre les dynamiques reconstruites au paragraphe précédent et celles du chapitre \ref{chap:HeSaclay_reconstruction} (ou les calculs du LCPMR??) nous indiquent que cette approximation reste qualitativement valable et que l'élargissement spectral par le photon d'habillage modifie uniquement les durées de vie.
+On s'intéresse désormais aux dynamiques induites lorsque la longueur d'onde est choisie afin d'exciter simultanément les résonances $2s2p$ et $sp3+$. Les harmoniques 39 et 41 excitent alors de manière cohérente les deux résonances autoionisantes, créant un paquet d'onde électronique complexe, à deux électrons dans l'atome d'hélium. Il peut être sondé grâce à l'absorption transitoire \mycite{OttNature2014}, ou bien en mesurant la photoémission lorsque ce paquet se "vide" dans le continuum à un électron ionisé. Nous avons vu précédemment que dans les conditions de l'expérience de Lund, \textit{a fortiori} dans les conditions d'excitation simultanée avec une largeur de bande IR de 90 nm, le pic satellite n'est en toute rigueur pas une réplique du paquet d'onde à un photon. Cependant, les similitudes entre les dynamiques reconstruites au paragraphe précédent et celles du chapitre \ref{chap:HeSaclay_reconstruction} nous indiquent que cette approximation reste qualitativement valable et que l'élargissement spectral par le photon d'habillage modifie principalement les durées de vie.
 
 \begin{figure}[ht]
 \centering
@@ -530,13 +543,14 @@ On s'intéresse désormais aux dynamiques induites lorsque la longueur d'onde es
 \label{fig:2res_AmpPha}
 \end{figure}
 
-On approxime donc les amplitudes et phases du paquet d'onde à celles des pics satellites, comme défini au chapitre \ref{chap:HeSaclay_reconstruction}:
+On approxime donc les amplitudes et phases du paquet d'ondes à un photon à celles des pics satellites, comme défini au chapitre \ref{chap:HeSaclay_reconstruction}:
 \begin{align}
 M^{2 \text{res}}(E) & = M_{39}(E) + M_{41}(E) \\
 & = A_{39}(E) \: \rme^{i \theta^{at}_{39}(E)} + A_{41}(E) \: \rme^{i \theta^{at}_{41}(E)} \\
-& \approx A_{38}(E + \hbar \omega) \: \rme^{i \Theta_{38}(E + \hbar \omega)} + A_{42}(E - \hbar \omega) \: \rme^{-i \Theta_{42}(E - \hbar \omega)}
+& \approx A_{38}(E - \hbar \omega) \: \rme^{i \Theta_{38}(E - \hbar \omega)} + A_{42}(E + \hbar \omega) \: \rme^{-i \Theta_{42}(E + \hbar \omega)}
+\label{eq:POE2res}
 \end{align}
-L'amplitude et la phase spectrales du paquet d'onde doublement résonant $M^{2 \text{res}}$ sont représentées figure \ref{fig:2res_AmpPha} (déconvoluées du spectromètre). La dynamique de ce paquet d'onde est décrite par l'évolution temporelle de $\tilde{M}^{2 \text{res}}(t)$ tel que
+Dans l'équation \ref{eq:POE2res}, les répliques extraites des pics satellites 38 et 42 sont repositionnées aux énergies des harmoniques H$_{39}$ et H$_{41}$. L'amplitude et la phase spectrales du paquet d'onde doublement résonant $M^{2 \text{res}}$ sont représentées figure \ref{fig:2res_AmpPha} (déconvoluées de la réponse du spectromètre). La dynamique de ce paquet d'onde est décrite par l'évolution temporelle de $\tilde{M}^{2 \text{res}}(t)$ tel que
 \begin{equation}
 \tilde{M}^{2 \text{res}}(t) = \frac{1}{2 \pi} \int_{- \infty}^{+ \infty}  M^{2 \text{res}}(E) \rme^{-i E t / \hbar} \: \rmd E
 \label{eq:TF_M2res}
@@ -547,7 +561,8 @@ Afin d'étudier l'influence des résonances sur le paquet d'onde, on le compare 
 \end{equation}
 et 
 \begin{equation}
-M^{\text{ref}}(E) \approx A_{44}(E - \hbar \omega) \: \rme^{i \Theta_{44}(E - \hbar \omega)} + A_{44}(E + \hbar \omega) \: \rme^{i \Theta_{44}(E + \hbar \omega)}
+M^{\text{ref}}(E) \approx A_{44}(E + 5 \hbar \omega) \: \rme^{i \Theta_{44}(E + 5 \hbar \omega)} + A_{44}(E + 3 \hbar \omega) \: \rme^{i \Theta_{44}(E + 3 \hbar \omega)}
+\label{eq:POE2res_ref}
 \end{equation}
 
 \begin{figure}[ht]
@@ -558,7 +573,7 @@ M^{\text{ref}}(E) \approx A_{44}(E - \hbar \omega) \: \rme^{i \Theta_{44}(E - \h
 \label{fig:2res_temporel}
 \end{figure}
 
-La figure \ref{fig:2res_temporel} montre l'évolution temporelle de $|\tilde{M}^{\text{ref}}(t)|^2$ et $|\tilde{M}^{2 \text{res}}(t)|^2$. La largeur spectrale des harmoniques augmentant avec l'ordre, le paquet d'onde de référence produit à partir des données du pic satellite SB$_{44}$ possède une largeur temporelle à mi-hauteur plus petite que le paquet d'onde à deux résonances, provenant des pics satellites 38 et 40. Les deux paquets d'onde présentent des battements. On constate que les deux paquets d'onde se déphasent progressivement pour $t > 0$. Ce déphasage est plus clairement visible sur la figure \ref{fig:2res_temporel_zoom}.
+Dans l'équation \ref{eq:POE2res_ref}, on construit un paquet d'ondes non résonant de référence en dupliquant le paquet issu du pic satellite 44 et en positionnant les deux répliques aux énergies des harmoniques 39 et 41. Ceci suppose que les harmoniques 39 à 45 ont des caractéristiques assez proches et que la résolution spectrale ne varie pas trop sur cette gamme d'énergie d'électrons. La figure \ref{fig:2res_temporel} montre l'évolution temporelle de $|\tilde{M}^{\text{ref}}(t)|^2$ et $|\tilde{M}^{2 \text{res}}(t)|^2$. La largeur spectrale des harmoniques augmentant avec l'ordre, le paquet d'onde de référence produit à partir des données du pic satellite SB$_{44}$ possède une largeur temporelle à mi-hauteur plus petite que le paquet d'onde à deux résonances, provenant des pics satellites 38 et 40. Les deux paquets d'onde présentent des battements. On constate que les deux paquets d'onde se déphasent progressivement pour $t > 0$. Ce déphasage est plus clairement visible sur la figure \ref{fig:2res_temporel_zoom}.
 
 \begin{figure}
 \centering
@@ -576,7 +591,7 @@ La figure \ref{fig:2res_temporel} montre l'évolution temporelle de $|\tilde{M}^
 \label{fig:2res_temporel_Gabor}
 \end{figure}
 
-Une analyse temps-fréquence des oscillations permet de rationaliser le déphasage observé entre le paquet d'onde à deux résonances et le paquet d'onde de référence (figure \ref{fig:2res_temporel_Gabor}). Le profil temporel de la figure \ref{fig:2res_temporel} est multiplié par une fenêtre gaussienne de largeur à mi-hauteur 20 fs puis sa transformée de Fourier est calculée. Aux temps négatifs, la fréquence des ocsillations correspond à $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$. Lorsque $t$ augmente, on observe un changement de la fréquence d'oscillations et l'apparition d'un pic à $\Delta E \approx 3.6$ eV, correspondant à l'écart énergétique entre les deux résonances. Ainsi, on observe trois dynamiques dans le paquet d'onde à deux résonances: autour de $t = 0$, les deux continua sont excités par les harmoniques et les deux chemins d'ionisation directs interfèrent, on observe des battements à $\Delta E = 2 \hbar \omega$. Pour $t$ supérieur à la largeur de l'impulsion, on observe les battements entre les deux chemins résonants à $\Delta E = E_{sp3+} - E_{2s2p}$. Entre les deux, tous les chemins d'ionisation interfèrent et la fréquence des oscillations correspond à une transition entre ces deux fréquences limites. Lorsque $t$ augmente, la période des battements du paquet d'onde à deux résonances diminue, ce qui se traduit dans la figure \ref{fig:2res_temporel_zoom} par un déphasage avec le paquet d'onde de référence. Notons ici que les durées de vie des résonances sont raccourcies par l'élargissement spectral dû à l'habillage.
+Une analyse temps-fréquence des oscillations permet de rationaliser le déphasage observé entre le paquet d'onde à deux résonances et le paquet d'onde de référence (figure \ref{fig:2res_temporel_Gabor}). Le profil temporel de la figure \ref{fig:2res_temporel} est multiplié par une fenêtre gaussienne de largeur à mi-hauteur 20 fs puis sa transformée de Fourier est calculée. Aux temps négatifs, la fréquence des oscillations correspond à $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$. Lorsque $t$ augmente, on observe un changement de la fréquence d'oscillation et l'apparition d'un pic à $\Delta E \approx 3.6$ eV, correspondant à l'écart énergétique entre les deux résonances. Ainsi, on observe trois dynamiques dans le paquet d'onde à deux résonances: autour de $t = 0$, les deux continua sont excités par les harmoniques et les deux chemins d'ionisation directs interfèrent, on observe des battements à $\Delta E = 2 \hbar \omega$. Pour $t$ supérieur à la largeur de l'impulsion, on observe les battements entre les deux chemins résonants à $\Delta E = E_{sp3+} - E_{2s2p}$. Entre les deux, tous les chemins d'ionisation interfèrent et la fréquence des oscillations correspond à une transition entre ces deux fréquences limites. Lorsque $t$ augmente, la période des battements du paquet d'onde à deux résonances diminue, ce qui se traduit dans la figure \ref{fig:2res_temporel_zoom} par un déphasage avec le paquet d'onde de référence. Notons ici que les durées de vie des résonances sont raccourcies par l'élargissement spectral dû à l'habillage.
 
 \begin{figure}
 \centering
@@ -592,45 +607,39 @@ Les différentes oscillations sont plus visibles sur un paquet d'onde simulé à
 \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} = 0 \\
 \Delta \theta_{q}^{at} = \arg \mathcal{R}(E)
 \end{align}
-$\mathcal{H} (E)$ représente une harmonique et est une gaussienne de largeur à mi-hauteur en intensité 290 meV; $\sigma (E)$ est la section efficace de Fano et contient les deux résonances à leurs énergies respectives; on considère uniquement la phase de l'amplitude de transition vers la résonance de Fano et on néglige l'influence du photon d'habillage. Pour des raisons numériques, le spectre est convolué à chaque délai $\tau$ par une gaussienne de largeur à mi-hauteur en intensité 20 meV représentant le spectromètre. Le spectrogramme obtenu est analysé de la même manière que les données expérimentales avec la méthode Rainbow RABBIT et les amplitudes et phases sont représentées figure \ref{fig:2resonances_Sim_Rabbit}a. La transformée de Fourier (équation \ref{eq:TF_M2res}) est appliquée pour obtenir le profil temporel de la figure \ref{fig:2resonances_Sim_Rabbit}b. Sans l'élargissement spectral causé par le spectromètre ou l'IR d'habillage, on observe des oscillations bien après la fin de l'impulsion d'excitation, jusqu'à plus de 40 fs. L'analyse temps-fréquence de ces oscillations par la même procédure que figure \ref{fig:2res_temporel_Gabor} est représentée figure \ref{fig:2resonances_Sim_Rabbit}c et montre clairement les deux fréquences d'oscillation discutées précédemment:  $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$ centrée autour de $t = 0$ et $\Delta E \approx 3.5$ eV persistant jusqu'à $t > 60$ fs.
-
-De manière plus raffinée, le paquet d'onde électronique à deux résonances peut être simulé en résolvant l'équation de Schrödinger dépendante du temps dans un potentiel modèle reproduisant les deux résonances de Fano. L'équipe de Richard Taïeb du LCPMR (Paris) a calculé le flux de photoélectrons...
-\textit{A compléter !}
-
-\begin{figure}
-\centering
-\def\svgwidth{0.9\textwidth}
-\import{Figures/Helium/}{POEt_LCPMR.pdf_tex}
-\caption{A modifier. (a) Flux d'électrons détecté à ??? u.a. lors de la photoionisation d'un système modèle contenant deux résonances de Fano calculé par TDSE (vert) comparé au paquet d'onde électronique calculé grâce aux pics satellites 38 et 42 simulés (bleu). (b) Flux d'électrons détecté à ??? u.a. calculé par TDSE dans le cas de deux résonances (vert) ou d'un continuum lisse (bleu).}
-\label{fig:POEt_LCPMR}
-\end{figure}
+$\mathcal{H} (E)$ représente l'intensité du peigne d'harmoniques, supposées toutes identiques et de forme gaussienne avec une largeur à mi-hauteur en intensité 290 meV; $\sigma (E)$ est la section efficace de Fano et contient les deux résonances à leurs énergies respectives; pour les termes de phase, on considère uniquement la phase de l'amplitude de transition vers la résonance de Fano et on néglige l'influence du photon d'habillage. Pour bien mettre en évidence les différentes dynamiques, le spectre est convolué à chaque délai $\tau$ par une gaussienne de largeur à mi-hauteur en intensité 20 meV représentant la fonction d'appareil du spectromètre, au lieu des 100 meV expérimentaux. Le spectrogramme obtenu est analysé de la même manière que les données expérimentales avec la méthode Rainbow RABBIT et les amplitudes et phases sont représentées figure \ref{fig:2resonances_Sim_Rabbit}a. La transformée de Fourier (équation \ref{eq:TF_M2res}) est appliquée pour obtenir le profil temporel de la figure \ref{fig:2resonances_Sim_Rabbit}b. Sans l'élargissement spectral causé par le spectromètre ou l'IR d'habillage, on observe des oscillations bien après la fin de l'impulsion d'excitation, jusqu'à plus de 40 fs. L'analyse temps-fréquence de ces oscillations par la même procédure que figure \ref{fig:2res_temporel_Gabor} est représentée figure \ref{fig:2resonances_Sim_Rabbit}c et montre clairement les deux fréquences d'oscillation discutées précédemment:  $\Delta E \approx 3.1$ eV $= 2 \hbar \omega$ centrée autour de $t = 0$ et $\Delta E \approx 3.5$ eV persistant jusqu'à $t > 60$ fs avec un trou vers $t \approx 20$ fs matérialisant l'interférence.
 
 \section{Influence de l'intensité d'habillage sur le profil de raie}
 % J'utilise les données du 6 avril 2016
-La modification des profils de raie induite par laser est un phénomène très étudié par l'optique quantique. Un champ laser peut modifier les propriétés d'absorption et de dispersion d'un milieu, par exemple pour donner lieu à de la transparence induite électromagnétiquement \mycite{FleischhauerRevModPhys2005}, ou bien permettre de changer un profil de raie Lorentien en un profil de Fano \mycite{SzymanowskiJModOpt1995}. \mycite{OttScience2013} ont montré qu'il existe une correspondance directe entre le déphasage pondéromoteur induit par le laser $\varphi$ et le paramètre $q$ du profil de Fano:
+La modification des profils de raie induite par laser est un phénomène très étudié par l'optique quantique. Un champ laser peut modifier les propriétés d'absorption et de dispersion d'un milieu, par exemple pour donner lieu à de la transparence induite électromagnétiquement \mycite{FleischhauerRevModPhys2005}, ou bien permettre de changer un profil de raie lorentzien en un profil de Fano \mycite{SzymanowskiJModOpt1995}. En utilisant la spectroscopie d'absorption transitoire (voir chapitre \ref{chap:PI_vs_ATAS}), \mycite{OttScience2013} ont montré que dans le cas d'une résonance de Fano excitée en présence d'un champ laser intense, la réponse dipolaire\footnote{Dans le chapitre \ref{chap:PI_vs_ATAS}, nous verrons que la spectroscopie d'absorption transitoire est sensible à la partie imaginaire de la réponse dipolaire $d = \bra{\psi(t)}\hat{d}\ket{psi(t)}$.} s'écrit:
 \begin{equation}
-q_{\text{pond}} = - \cot (\frac{\varphi}{2})
+d_{Fano}(t) \propto c_q \delta(t) + \text{exp}[-\frac{\Gamma}{2}t + i \left( -\frac{E_R}{\hbar}t + \varphi(q) + \varphi_{\text{pond}} \right) ]
 \end{equation}
-avec
+où la phase $\varphi (q)$ est relié au paramètre d'asymétrie de Fano $q$ par
 \begin{equation}
-\varphi = \int \frac{\Delta E (t)}{\hbar} \rmd t
+\varphi (q) = 2 \arg(q-i)
 \end{equation}
-et le décalage en énergie pondéromoteur, pour un champ laser bref $F(t)$
+et la phase pondéromotrice $\varphi_{\text{pond}}$ est induite par le laser,
 \begin{equation}
-\Delta E (t) = \frac{1}{2} m \left[ - \frac{e}{m} \int_{- \infty}^{t} F(t') \rmd t' \right]^2 
+\varphi_{\text{pond}} = \int \frac{\Delta E (t)}{\hbar} \rmd t
 \end{equation}
+et le décalage en énergie pondéromoteur, pour un champ laser bref $\mathcal{E}(t)$
+\begin{equation}
+\Delta E (t) = \frac{1}{2} m \left[ - \frac{e}{m} \int_{- \infty}^{t} \mathcal{E}(t') \rmd t' \right]^2 
+\end{equation}
+C'est-à-dire que le déplacement pondéromoteur de la résonance induit une phase supplémentaire qui s'ajoute à $\varphi (q)$ et modifie donc le paramètre $q$ apparent; la forme du profil de raie. 
 
 \begin{figure} [ht]
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Ott_Science.pdf_tex}
-\caption{Modification du profil d'absorption des résonances doublement excitées de l'hélium. (a) Spectre d'absorption d'une impulsion attoseconde unique large bande de l'hélium en l'absence de champ laser. (b) Spectre d'absorption de l'hélium lorsqu'une impulsion de 7 fs à 730 nm est focalisée à une intenisté de $\approx 2 \times 10^{12}$ W/cm$^2$ 5 fs après l'impulsion XUV. Extrait de \mycite{OttScience2013}.}
+\caption{Modification du profil d'absorption des résonances doublement excitées de l'hélium. (a) Spectre d'absorption d'une impulsion attoseconde unique large bande de l'hélium en l'absence de champ laser. (b) Spectre d'absorption de l'hélium lorsqu'une impulsion de 7 fs à 730 nm est focalisée à une intensité de $\approx 2 \times 10^{12}$ W/cm$^2$ 5 fs après l'impulsion XUV. Extrait de \mycite{OttScience2013}.}
 \label{fig:Ott_Science}
 \end{figure}
 
-La figure \ref{fig:Ott_Science}(a) montre le spectre d'absorption de l'hélium lorsque les auteurs focalisent une impulsion attoseconde unique de large bande spectrale au voisinage des résonances doublement excitées sous le seuil N = 2 de He$^+$. On observe les profils de Fano caractéristiques avec $q_{\text{Fano}} = -2.55$. Lorsque une impulsion laser à 730 nm de largeur à mi-hauteur 7 fs est focalisée dans l'hélium à une intensité de $\approx 2 \times 10^{12}$ W/cm$^2$ juste après l'impulsion attoseconde unique, les profils de raie d'absorption sont modifiés en conséquence (figure \ref{fig:Ott_Science}). Le calcul de la phase pondéromotrice dans ces conditions donne $\varphi = -0.85$ rad, soit $q_{\text{pond}} = 2.36$. Le paramètre $q$ observé est la somme du paramètre $q_{\text{Fano}}$ intrinsèque et du paramètre $q_{\text{pond}}$ induit par le laser, soit $q = -0.21$: le profil de raie observé est quasiment Lorentzien ($q_{\text{Lorentz}} = 0$).
+La figure \ref{fig:Ott_Science}(a) montre le spectre d'absorption de l'hélium lorsque les auteurs focalisent une impulsion attoseconde unique de large bande spectrale au voisinage des résonances doublement excitées sous le seuil N = 2 de He$^+$. On observe les profils de Fano caractéristiques avec par exemple $q_{sp4^+} = -2.55$. Lorsque une impulsion laser à 730 nm de largeur à mi-hauteur 7 fs est focalisée dans l'hélium à une intensité de $\approx 2 \times 10^{12}$ W/cm$^2$ juste après l'impulsion attoseconde unique, les profils de raie d'absorption sont modifiés en conséquence (figure \ref{fig:Ott_Science}). Le calcul de la phase pondéromotrice dans ces conditions donne $\varphi = -0.85$ rad, le profil de raie observé est quasiment lorentzien ($q_{\text{Lorentz}} = 0$).
 
-Cette correspondance entre $q$ et $\varphi$ est valable pour des impulsions XUV et IR ultra-brèves. Que se passe-t-il avec un train d'impulsions attosecondes et une impulsion laser plus longue? Est-il possible d'observer une modification du profil de raie dans un schéma de type RABBIT? L'interprétation en terme de phase pondéromotrice s'applique-t-elle toujours?
+Cette correspondance entre $q$ et $\varphi$ est valable pour des impulsions XUV et IR ultra-brèves. Que se passe-t-il avec un train d'impulsions attosecondes et une impulsion laser plus longue? Est-il possible d'observer une modification du profil de raie dans un schéma de type RABBIT, c'est-à-dire en spectroscopie de photoionisation plutôt qu'en spectroscopie d'absorption transitoire? L'interprétation en terme de phase pondéromotrice s'applique-t-elle toujours?
 
 \paragraph*{Modification du paramètre $q$ avec l'intensité d'habillage}
 \begin{figure}[ht]
@@ -641,13 +650,13 @@ Cette correspondance entre $q$ et $\varphi$ est valable pour des impulsions XUV 
 \label{fig:Spectres_vs_Phab}
 \end{figure}
 
-\`{A} Lund nous avons pu tirer profit de la stabilisation active du délai entre les impulsions XUV et IR d'habillage pour mesurer des spectres de photoélectrons à délai constant en faisant varier l'intensité de l'impulsion d'habillage. Le dispositif expérimental est identique au dispositif RABBIT. L'intensité de l'habillage est variée en tournant une lame demie-onde devant un polariseur, ce qui ne modifie pas le délai ni la taille de la tâche focale dans le spectromètre de photoélectrons. La figure \ref{fig:Spectres_vs_Phab} montre les spectres de photoélectrons mesurés lorsque l'harmonique 39 est résonante avec l'état $2s2p$ de l'hélium ($\lambda = 797$ nm, largeur de bande IR 85 nm) pour plusieurs intensités d'habillage. Dans ces conditions, l'harmonique 41 n'est pas résonante avec l'état $sp3+$. La grandeur P est la puissance mesurée derrière le hublot après le spectromètre de photoélectrons, en mW. Malheureusement nous n'avons pas de correspondance exacte entre P et l'intensité de l'IR d'habillage dans l'hélium, ce qui ne permet pas d'étude quantitative. Lorsque P augmente, on observe évidemment l'augmentation du signal des pics satellites et la diminution du signal de l'harmonique non résonante 41 jusqu'à $P = 22$ mW. Le signal des pics satellites et de H$_{41}$ reste identique alors que l'intensité augmente de 22 à 30 mW. La forme du pic de photoélectrons correspondant à l'harmonique 41 n'est pas modifiée lorsque P augmente. Cependant, on observe une grande modification de la forme du pic résonant avec l'intensité d'habillage. 
+\`{A} Lund nous avons pu tirer profit de la stabilisation active du délai entre les impulsions XUV et IR d'habillage pour mesurer des spectres de photoélectrons à délai constant en faisant varier l'intensité de l'impulsion d'habillage. Le dispositif expérimental est identique au dispositif RABBIT. L'intensité de l'habillage est variée en tournant une lame demie-onde devant un polariseur, ce qui ne modifie pas le délai ni la taille de la tâche focale dans le spectromètre de photoélectrons. La figure \ref{fig:Spectres_vs_Phab} montre les spectres de photoélectrons mesurés lorsque l'harmonique 39 est résonante avec l'état $2s2p$ de l'hélium ($\lambda = 797$ nm, largeur de bande IR 85 nm) pour plusieurs intensités d'habillage. Dans ces conditions, l'harmonique 41 n'est pas résonante avec l'état $sp3+$. La grandeur P est la puissance mesurée derrière le hublot après le spectromètre de photoélectrons, en mW. Malheureusement nous n'avons pas de correspondance exacte entre P et l'intensité de l'IR d'habillage dans l'hélium, ce qui ne permet pas d'étude quantitative. Lorsque P augmente, on observe évidemment l'augmentation du signal des pics satellites et la diminution du signal de l'harmonique non résonante 41 jusqu'à $P = 22$ mW. Le signal des pics satellites et de H$_{41}$ reste  alors identique lorsque l'intensité augmente de 22 à 30 mW. La forme du pic de photoélectrons correspondant à l'harmonique 41 n'est pas modifiée lorsque P augmente. Cependant, on observe une grande modification de la forme du pic résonant avec l'intensité d'habillage. 
 
 \begin{figure}[ht]
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{fitPSF_H41_Phab01mW.pdf_tex}
-\caption{Fonction d'appareil obtenue par l'algorithme de déconvolution aveugle de l'harmonique 41 à la puissance minimale (P = 01 mW).}
+\caption{Fonction d'appareil obtenue par l'algorithme de déconvolution aveugle de l'harmonique 41 à la puissance minimale (P = 1 mW).}
 \label{fig:fitPSF_H41}
 \end{figure}
 
@@ -657,7 +666,11 @@ Le profil harmonique est décalé de deux photons à la position de l'harmonique
 \begin{equation}
 S = \text{Conv} \left[ \text{H}(E_{41} - 2\hbar \omega) \times \left( \frac{(q+\epsilon)^2}{1+\epsilon^2}\right), \rme^{-(E_{41} - 2\hbar \omega)^2/(\sqrt{2 \ln 2} \Delta E)^2} \right]
 \end{equation}
-Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}a, et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}b. \`{A} intensité minimale, $q = q_{2s2p} = -2.77$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$. 
+Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}a, et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}b. \`{A} intensité minimale, $q = q_{2s2p} = -2.77$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$.
+
+Par ailleurs, nous avons également effectué un spectrogramme RABBIT dans les conditions de forte intensité d'habillage. Nous avons appliqué la procédure de détermination du paramètre $q$ effectif de l'harmonique résonante décrite ci-dessus à chaque spectre du spectrogramme. Les profils harmoniques à chaque délai sont visibles sur la figure \ref{fig:Spectres_fit_q_NeHe33}, et le paramètre $q$ correspondant est indiqué sur la figure \ref{fig:qbest_RABBIT_NeHe33}(a). $q$ varie en fonction du délai IR-XUV $\tau$, et semble osciller à la fréquence $2 \omega$. Les oscillations de $q$ semblent légèrement déphasées par rapport aux oscillations du signal de l'harmonique non résonante 41 tracées sur la figure \ref{fig:qbest_RABBIT_NeHe33}(b).
+
+L'interprétation de ces observations reste ouverte pour le moment. Des simulations dans l'approximation du champ fort sont en cours, en collaboration avec M. Dahlström de l'université de Lund.
 
 \begin{figure}
 \centering
@@ -667,9 +680,8 @@ Les spectres mesurés sont comparés aux résultats de l'optimisation sur la fig
 \label{fig:fit_q}
 \end{figure}
 
-\paragraph*{Modification du paramètre $q$ avec le délai IR-XUV}
 % Rabbits: données NeHe33 05/04/2016
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{Spectres_fit_q_NeHe33.pdf_tex}
@@ -677,7 +689,7 @@ Les spectres mesurés sont comparés aux résultats de l'optimisation sur la fig
 \label{fig:Spectres_fit_q_NeHe33}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \def\svgwidth{0.8\textwidth}
 \import{Figures/Helium/}{qbest_RABBIT_NeHe33.pdf_tex}
@@ -686,13 +698,9 @@ Les spectres mesurés sont comparés aux résultats de l'optimisation sur la fig
 \end{figure}
 % a cos (bt+c) + d; a=0.2 +/-0.1; b=4.75 +/-0.56; c=5.08 +/-0.47; d=-1.92 +/-0.06
 
-
-
-
-
-
-\chapter{Comparaison entre la spectroscopie de photoionisation et d'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
-Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés simultanément. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
+\chapter{Comparaison des spectroscopies de photoionisation et d'absorption transitoire attoseconde pour l'étude de la dynamique d'autoionisation de l'hélium}
+\label{chap:PI_vs_ATAS}
+Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
 
 Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs très intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
 
@@ -700,33 +708,33 @@ Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorpti
 \centering
 \def\svgwidth{0.5\textwidth}
 \import{Figures/Helium/}{Kaldun.pdf_tex}
-\caption{\'{E}volution du profil d'absorption au voisinage de la résonance $2s2p$ de l'hélium en fonction du délai entre une impulsion XUV attoseconde qui excite la résonance et une impulsion IR brève et intense qui modifie le processus d'autoionisation. Adapté de \mycite{KaldunScience2016}.}
+\caption{\'{E}volution du profil d'absorption au voisinage de la résonance $2s2p$ de l'hélium en fonction du délai entre une impulsion XUV attoseconde qui excite la résonance et une impulsion IR brève et intense qui interrompt le processus d'autoionisation. Adapté de \mycite{KaldunScience2016}.}
 \label{fig:Kaldun}
 \end{figure}
 
-Si ces deux expériences s'intéressent au même processus: l'autoionisation de l'hélium \textit{via} la résonance $2s2p$, les observables mesurées sont en revanche différentes. La première mesure l'amplitude et la phase du paquet d'onde électronique qui nait dans le continuum, et reconstruit la modification de son spectre au cours du temps (figure \ref{fig:Wickenhauserisation}), soit l'autoionisation \textit{de l'extérieur}. La seconde observe l'évolution temporelle de la réponse dipolaire (figure \ref{fig:Kaldun}), soit l'autoionisation \textit{de l'intérieur}. Dans ce chapitre, on souhaite déterminer analytiquement et numériquement si ces deux dynamiques sont identiques à l'échelle attoseconde.
+Si ces deux expériences s'intéressent au même processus: l'autoionisation de l'hélium \textit{via} la résonance $2s2p$, les observables mesurées sont en revanche différentes. La première mesure l'amplitude et la phase du paquet d'ondes électronique qui nait dans le continuum et est "éjecté" de l'atome, et reconstruit la modification de son spectre au cours du temps (figure \ref{fig:Wickenhauserisation}). En quelque sorte, l'autoionisation est étudiée \textit{de l'extérieur}. La seconde observe l'évolution temporelle de la réponse dipolaire (figure \ref{fig:Kaldun}), qui est déterminée par la dynamique électronique près du noyau et fournit donc une vision de l'autoionisation \textit{de l'intérieur} de l'atome. Dans ce chapitre, on souhaite déterminer analytiquement et numériquement si ces deux dynamiques sont identiques à l'échelle attoseconde. Pour ces développements, nous nous appuierons sur \mycite{ChuPRA2010}, \mycite{KaldunScience2016} et \mycite{Caillat2017}.
 
 \section{Absorption transitoire attoseconde}
-\subsection{Section efficace et dipôle induit}
-La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, l'intensité du champ XUV $F(t,z) = F_0 \: \rme^{i \omega t - k z}$ après propagation sur une distance $l$ dans un milieu de densité $\rho$ est donnée par
+\subsection{Section efficace et réponse dipolaire}
+La spectroscopie d'absorption mesure la section efficace d'absorption $\sigma (\omega)$. D'après la loi de Beer-Lambert, l'intensité du champ XUV $\mathcal{E}(t,z) = \mathcal{E}_0 \: \rme^{i (\omega t - k z)}$ après propagation sur une distance $l$ dans un milieu de densité $\rho$ est donnée par
 \begin{equation}
 I_T (t, l) = I_0 \: \rme^{- \sigma(\omega) \rho l}
 \end{equation}
 \begin{equation}
-\frac{\epsilon_0 \epsilon_r}{2}  \left| F_0  \rme^{i \omega t - \mathcal{R} \text{\textit{e}} [k] l} \rme^{- \mathcal{I} \text{\textit{m}}[k]l} \right|^2 = I_0 \: \rme^{-\sigma(\omega) \rho l}
+\frac{\epsilon_0 \epsilon_r}{2}  \left| \mathcal{E}_0  \rme^{i (\omega t + \mathcal{R} \text{\textit{e}} [k] l)} \rme^{- \mathcal{I} \text{\textit{m}}[k]l} \right|^2 = I_0 \: \rme^{-\sigma(\omega) \rho l}
 \end{equation}
 \begin{equation}
 2 \: \mathcal{I} \text{\textit{m}}[k] = \sigma(\omega) \rho
 \end{equation}
 Avec $\mathcal{I} \text{\textit{m}}[k] = \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[n(\omega)] = \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[\sqrt{1+\chi(\omega)}]$, après un développement limité au premier ordre de l'indice de réfraction \mycite{TheseKaldun}, on a 
 \begin{equation}
-\sigma(\omega) \approx \frac{\omega}{c} \mathcal{I} \text{\textit{m}}[\chi(\omega)]
+\sigma(\omega) \approx \frac{\omega}{c \rho} \mathcal{I} \text{\textit{m}}[\chi(\omega)]
 \end{equation}
 Soit finalement:
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
-\sigma(\omega) \approx \frac{\rho \omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{F(\omega)} \right]
+\sigma(\omega) \approx \frac{\omega}{\epsilon_0 c} \: \mathcal{I} \text{\textit{m}} \left[ \frac{<d(\omega)>}{\mathcal{E}(\omega)} \right]
 }
 \label{eq:SectionEfficace_dipole}
 \end{equation}
@@ -737,7 +745,7 @@ où $<d(\omega)>$ est la valeur moyenne de l'opérateur dipolaire dans l'état c
 \end{align}
 en supposant le champ polarisé selon l'axe $z$. % \Omega ou \omega pour le champ F ???
 
-\subsection{Dipôle dépendant du temps au voisinage d'une résonance de Fano}
+\subsection{Réponse dipolaire dépendante du temps au voisinage d'une résonance de Fano}
 \paragraph{Fonction d'onde dans la base des configurations} D'après le chapitre \ref{chap:ResonancesFano}, les fonctions propres de l'hamiltonien décrit par les équations \ref{eq:Hamiltonien_Fano} s'écrivent, en fonction des configurations de l'état lié $\ket{\varphi}$ et du continuum $ \ket{\psi_{E'}}$
 \begin{equation}
 \ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
@@ -757,17 +765,17 @@ Pour faire apparaître les aspects dépendants du temps, \mycite{ChuPRA2010} pro
 \end{equation}
 L'évolution temporelle des coefficients $c_{\varphi} (t)$ et $c_{E'} (t)$ est gouvernée par l'équation de Schrödinger dépendante du temps $i \frac{\partial}{\partial t} \ket{\Phi (t)} = H \ket{\Phi (t)}$, ce qui conduit aux équations différentielles couplées
 \begin{align}
-i \: \frac{\rmd c_{\varphi}}{\rmd t} & = E_r \: c_{\varphi} (t) + \int V \: c_{E'}(t) \: \rmd E' \\
+i \: \frac{\rmd c_{\varphi}}{\rmd t} & = E_R \: c_{\varphi} (t) + \int V \: c_{E'}(t) \: \rmd E' \\
 i \: \frac{\rmd c_{E'}}{\rmd t} & = V \: c_{\varphi}(t) + E'\: c_{E'}(t)
 \end{align}
 En supposant connues les conditions initiales $c_{\varphi}^{(0)}=\braket{\varphi|\Phi (t = 0)}$ et $c_{E'}^{(0)}=\braket{\psi_{E'}|\Phi (t = 0)}$, la solution est donnée par
 \begin{align}
-c_{\varphi} (t) & = \left( c_{\varphi}^{(0)} \rme^{-\frac{\Gamma}{2}t} + \int c_{E'}^{(0)} g_{E'} (t) \rmd E' \right) \rme^{-i E_r t} \\
-c_{E'}(t) & = \left( c_{\varphi}^{(0)} g_{E'} (t) + \int c_{E}^{(0)} f_{EE'} (t) \rmd E \right) \rme^{-i E_r t} + c_{E'}^{(0)} \rme^{-i E' t}
+c_{\varphi} (t) & = \left( c_{\varphi}^{(0)} \rme^{-\frac{\Gamma}{2}t} + \int c_{E'}^{(0)} g_{E'} (t) \rmd E' \right) \rme^{-i E_R t} \\
+c_{E'}(t) & = \left( c_{\varphi}^{(0)} g_{E'} (t) + \int c_{E}^{(0)} f_{EE'} (t) \rmd E \right) \rme^{-i E_R t} + c_{E'}^{(0)} \rme^{-i E' t}
 \end{align}
 Avec les fonctions $g_E$ et $f_{EE'}$
 \begin{align}
-g_E (t) & = \frac{V}{E - E_r + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_r)t} - \rme^{-\frac{\Gamma}{2} t} \right) \\
+g_E (t) & = \frac{V}{E - E_R + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_R)t} - \rme^{-\frac{\Gamma}{2} t} \right) \\
 f_{EE'} (t) & = \frac{V}{E'-E} \left(g_{E'}(t) - g_{E}(t) \right)
 \end{align}
 Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^{(0)}$ est une constante et ne dépend pas de l'énergie au voisinage de la résonance, les expressions précédentes se simplifient. En utilisant l'énergie réduite $\epsilon$ définie au chapitre \ref{chap:ResonancesFano}, et le paramètre $q$ dans le cas d'un couplage $V$ constant
@@ -775,51 +783,51 @@ Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^
 q = \frac{\bra{\varphi} z \ket{g}}{\pi V \bra{\psi_{E'}} z \ket{g}} = \frac{c_{\varphi}^{(0)}}{\pi V c_{E'}^{(0)}}
 \label{eq:q_en_fonction_des_c0}
 \end{equation}
-on a \footnote{On remarque ici que les limites de $c_{\varphi} (t)$ et $c_{\epsilon}(t)$ pour $t \rightarrow 0$ ne sont pas égales à $c_{\varphi}^{(0)}$ et $c_{\epsilon}^{(0)}$, $c_{\varphi}$ et $c_{\epsilon}$ sont donc discontinues en $t = 0$. Ceci est dû à l'intégration des fonctions $g_E$ et $f_{EE'}$ sur une gamme spectrale infinie alors qu'en pratique seule une gamme d'énergie de largeur de l'ordre de $\Gamma$ doit être pris en compte.} 
+on a \footnote{On remarque ici que la limite de $c_{\varphi} (t)$ pour $t \rightarrow 0$ n'est pas égale à $c_{\varphi}^{(0)}$, $c_{\varphi}$ est donc discontinue en $t = 0$. Ceci est dû à l'intégration de $g_E$ sur une gamme spectrale infinie alors qu'en pratique seule une gamme d'énergie de largeur de l'ordre de $\Gamma$ doit être prise en compte.} 
 \begin{align}
-c_{\varphi} (t) & = c_{\varphi}^{(0)} \left( 1 - \frac{i}{q} \right) \rme^{-\frac{\Gamma}{2}t} \: \rme^{-i E_r t} \label{eq:c_varphi} \\
-c_{\epsilon}(t) & = \frac{c_{\epsilon}^{(0)}}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \: \rme^{-i E_r t} \label{eq:c_eprime}
+c_{\varphi} (t) & = c_{\varphi}^{(0)} \left( 1 - \frac{i}{q} \right) \rme^{-\frac{\Gamma}{2}t} \: \rme^{-i E_R t} \label{eq:c_varphi} \\
+c_{\epsilon}(t) & = \frac{c_{\epsilon}^{(0)}}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \: \rme^{-i E_R t} \label{eq:c_eprime}
 \end{align}
 $|c_{\varphi}(t)|^2 $ décroit exponentiellement avec la durée de vie $1/\Gamma$, reflétant la décroissance de l'état lié. Les variations temporelles de $|c_{\epsilon}(t)|^2$ sont plus complexes et contiennent la dynamique complète de l'autoionisation, incluant les couplages entre l'état lié et le continuum ainsi qu'entre différentes énergies du continuum \textit{via} l'état lié. Le comportement aux temps longs de $|c_{\epsilon}(t)|^2$ converge vers le profil de raie de Fano:
 \begin{equation}
 \lim\limits_{t \rightarrow + \infty} |c_{\epsilon}(t)|^2 = |c_{\epsilon}^{(0)}|^2 \frac{\left( \epsilon + q \right) ^2 }{1+ \epsilon^2}
 \end{equation}
 
-\paragraph{Calcul du dipôle} \`{A} partir des équations \ref{eq:c_varphi} et \ref{eq:c_eprime}, on peut calculer le dipôle temporel induit pour la fonction d'onde $\ket{\Phi (t)}$ (équation \ref{eq:ExpressionDePhi}) \mycite{KaldunScience2016}
+\paragraph{Calcul de la réponse dipolaire} \`{A} partir des équations \ref{eq:c_varphi} et \ref{eq:c_eprime}, on peut calculer la réponse dipolaire temporelle pour la fonction d'onde $\ket{\Phi (t)}$ (équation \ref{eq:ExpressionDePhi}) \mycite{KaldunScience2016}
 \begin{equation}
 <\tilde{d}(t)> = \bra{\Phi(t)} z \ket{\Phi(t)}
 \end{equation} % \Omega ou \omega pour le champ F ??
-Seuls $\ket{g}$ et $\ket{\varphi}$, et $\ket{g}$ et $\ket{\psi_E}$ sont couplés radiativement. On note $ \Omega_r = E_r - E_g$. D'où
+Seuls $\ket{g}$ et $\ket{\varphi}$, et $\ket{g}$ et $\ket{\psi_E}$ sont couplés radiativement. On note $ \Omega_R = E_R - E_g$. D'où
 \begin{multline}
-<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{-i \Omega_r t}  \bra{g}  z \ket{\varphi} \\
- + c_g^{*} \: c_{\epsilon}^{(0)} \: \rme^{-i \Omega_r t} \int \frac{1}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E} \rmd E \\
-+ c_g \: c_{\varphi}^{(0)*} \left( 1+\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{i \Omega_) t}  \bra{g}  z \ket{\varphi}^{*} \\
-+c_g \: c_{\epsilon}^{(0)*} \: \rme^{i \Omega_r t} \int \frac{1}{\epsilon - i} \left[ (q+\epsilon ) \rme^{i \frac{\Gamma}{2} \epsilon t } - (q + i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E}^{*} \rmd E
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{-i \Omega_R t}  \bra{g}  z \ket{\varphi} \\
+ + c_g^{*} \: c_{\epsilon}^{(0)} \: \rme^{-i \Omega_R t} \int \frac{1}{\epsilon + i} \left[ (q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E} \rmd E \\
++ c_g \: c_{\varphi}^{(0)*} \left( 1+\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} \: \rme^{i \Omega_R t}  \bra{g}  z \ket{\varphi}^{*} \\
++c_g \: c_{\epsilon}^{(0)*} \: \rme^{i \Omega_R t} \int \frac{1}{\epsilon - i} \left[ (q+\epsilon ) \rme^{i \frac{\Gamma}{2} \epsilon t } - (q + i) \rme^{-\frac{\Gamma}{2}t} \right] \bra{g} z \ket{\psi_E}^{*} \rmd E
 \label{eq:DipoleRayonneTotal}
 \end{multline}
-On s'intéresse au champ rayonné au voisinage de la résonance, soit $\Omega \approx \Omega_r$. Les deux derniers termes de l'expression \ref{eq:DipoleRayonneTotal} oscillent à la fréquence $\Omega + \Omega_r \gg \Omega - \Omega_r$ et se moyennent rapidement à zéro. En appliquant l'approximation de l'onde tournante, on peut négliger ces deux derniers termes devant les deux premiers.
+On s'intéresse au champ rayonné au voisinage de la résonance, soit $\Omega \approx \Omega_R$. Les deux derniers termes de l'expression \ref{eq:DipoleRayonneTotal} oscillent à la fréquence $\Omega + \Omega_R \gg \Omega - \Omega_R$ et se moyennent rapidement à zéro. En appliquant l'approximation de l'onde tournante, on peut négliger ces deux derniers termes devant les deux premiers.
 \begin{multline}
-<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{c_{\epsilon}^{(0)}}{c_{\varphi}^{(0)}} \int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \frac{\bra{g} z \ket{\psi_E}}{\bra{g}  z \ket{\varphi}} \rmd E \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_R t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{c_{\epsilon}^{(0)}}{c_{\varphi}^{(0)}} \int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \frac{\bra{g} z \ket{\psi_E}}{\bra{g}  z \ket{\varphi}} \rmd E \right]
 \end{multline}
 En utilisant l'expression \ref{eq:q_en_fonction_des_c0},
 \begin{multline}
-<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{1}{(\pi q V)^2} \underbrace{\int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \rmd E}_{I} \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_R t} \\ \times \left[ \left( 1-\frac{i}{q} \right) \rme^{-\frac{\Gamma}{2} t} + \frac{1}{(\pi q V)^2} \underbrace{\int \frac{(q+\epsilon ) \rme^{- i \frac{\Gamma}{2} \epsilon t } - (q - i) \rme^{-\frac{\Gamma}{2}t}}{\epsilon + i} \rmd E}_{I} \right]
 \end{multline}
 Par souci de clarté l'intégrale est calculée ici séparément:
 \begin{align}
 I & = \int \frac{q + \epsilon + i - i }{\epsilon + i} \: \rme^{- i \frac{\Gamma}{2} \epsilon t} \: \rmd E - (q-i) \rme^{-\frac{\Gamma}{2}t} \int \frac{\rmd E}{\epsilon + i} \\
-& = \frac{\Gamma}{2} \left[ \int \rme^{- i \frac{\Gamma}{2} \epsilon t} \: \rmd \epsilon + (q-i) \int \frac{\rme^{- i \frac{\Gamma}{2} \epsilon t}}{\epsilon + i} \: \rmd \epsilon - (q-i) \rme^{-\frac{\Gamma}{2}t} \int \frac{\rmd \epsilon}{\epsilon + i} \right]\\
+& =\int \rme^{- i \frac{\Gamma}{2} \epsilon t} \: \rmd \epsilon + (q-i) \int \frac{\rme^{- i \frac{\Gamma}{2} \epsilon t}}{\epsilon + i} \: \rmd \epsilon - (q-i) \rme^{-\frac{\Gamma}{2}t} \int \frac{\rmd \epsilon}{\epsilon + i} \\
 & = \frac{\Gamma}{2} \left[ \frac{2}{\Gamma} \times 2 \pi \delta(t) + (q-i) \times (-2 i \pi \rme^{-\frac{\Gamma}{2} t}) - (q-i) \rme^{-\frac{\Gamma}{2} t} \times (-i \pi) \right] \\
 & = 2 \pi \delta(t) - \frac{\Gamma}{2} i \pi \: (q-i) \rme^{-\frac{\Gamma}{2} t} 
 \end{align}
 D'où 
 \begin{multline}
-<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \frac{1}{q^2} \\ \times \left[ q(q-i) \rme^{-\frac{\Gamma}{2} t} + \frac{2}{\Gamma \pi} \left( 2 \pi \delta(t) - \frac{\Gamma}{2} i \pi \: (q-i) \rme^{-\frac{\Gamma}{2} t} \right) \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_R t} \frac{1}{q^2} \\ \times \left[ q(q-i) \rme^{-\frac{\Gamma}{2} t} + \frac{2}{\Gamma \pi} \left( 2 \pi \delta(t) - \frac{\Gamma}{2} i \pi \: (q-i) \rme^{-\frac{\Gamma}{2} t} \right) \right]
 \end{multline}
 \begin{equation}
 \setlength\fboxrule{0.25pt}
 \boxed{
-<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_r t} \frac{1}{q^2} \left[ \frac{4}{\Gamma} \delta(t) + (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \right]
+<\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_R t} \frac{1}{q^2} \left[ \frac{4}{\Gamma} \delta(t) + (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \right]
 }
 \end{equation}
 \textit{Ici on suppose que $\bra{ \varphi}  z \ket{g}$ est réel. On considère que l'excitation XUV est infiniment brève, donc son spectre est réel. Donc d'après la théorie des perturbations au premier ordre, $c_{\varphi}^{(0)}$ est imaginaire pur. }% C'est ce qu'écrit Kaldun mais je comprends pas! Voir page 2 du "autocorrelation vs rate" du LCPMR : dc/dt = V/i E(t) e^iwt
@@ -827,21 +835,21 @@ On obtient alors\footnote{\mycite{OttScience2013} proposent un calcul différent
 \begin{equation}
 \setlength\fboxrule{0.25pt}
 \boxed{
-<\tilde{d}(t)> \propto i \left[ 2 \delta(t) + \frac{\Gamma}{2} (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_r t} \right]
+<\tilde{d}(t)> \propto i \left[ 2 \delta(t) + \frac{\Gamma}{2} (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_R t} \right]
 }
 \label{eq:KaldunDipoleTemporel}
 \end{equation}
 
-\paragraph{Section efficace d'absorption dépendante du temps} On calcule maintenant la section efficace d'absorption à partir de la relation \ref{eq:SectionEfficace_dipole}. On considère une excitation temporelle de type Dirac, soit $F(\Omega) \approx \text{constante}$. On s'intéresse à la section efficace au voisinage de la résonance et on a alors le facteur $\Omega$ de l'expression \ref{eq:SectionEfficace_dipole} $\approx$ constante également. D'où
+\paragraph{Section efficace d'absorption dépendante du temps} On calcule maintenant la section efficace d'absorption à partir de la relation \ref{eq:SectionEfficace_dipole}. On considère une excitation temporelle de type Dirac, soit $\mathcal{E}(\Omega) \approx \text{constante}$. On s'intéresse à la section efficace au voisinage de la résonance et on a alors le facteur $\Omega$ de l'expression \ref{eq:SectionEfficace_dipole} $\approx$ constante également. D'où
 \begin{equation}
 \sigma(\Omega) \propto \mathcal{I} \text{\textit{m}} <d(\Omega)>
 \end{equation}
 \begin{align}
-\int_{0}^{+\infty} \rme^{i \Omega t} <\tilde{d}(t)> \rmd t & = 2i \int_{0}^{+\infty} \rme^{i \Omega t} \delta(t) \rmd t + \frac{\Gamma}{2} \: i \: (q-i)^2 \int_{0}^{+\infty} \rme^{i \Omega t} \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_r t} \rmd t \\
+\int_{0}^{+\infty} \rme^{i \Omega t} <\tilde{d}(t)> \rmd t & = 2i \int_{0}^{+\infty} \rme^{i \Omega t} \delta(t) \rmd t + \frac{\Gamma}{2} \: i \: (q-i)^2 \int_{0}^{+\infty} \rme^{i \Omega t} \rme^{-\frac{\Gamma}{2} t} \rme^{-i \Omega_R t} \rmd t \\
 & = i + \frac{\Gamma}{2} \: i \: (q-i)^2 \times \frac{2}{\Gamma} \frac{1}{1 - i \epsilon}
 \end{align}
 % Disparition du facteur 2 du 2i \delta(t) ??
-Avec $\epsilon = \frac{\Omega - \Omega_r}{\Gamma /2}$. Finalement, on retrouve l'expression du profil de Fano 
+Avec $\epsilon = \frac{\Omega - \Omega_R}{\Gamma /2}$. Finalement, on retrouve l'expression du profil de Fano 
 \begin{equation}
 \sigma(\epsilon) \propto \frac{(q+\epsilon)^2}{1+\epsilon^2}
 \end{equation}
@@ -850,7 +858,7 @@ Avec $\epsilon = \frac{\Omega - \Omega_r}{\Gamma /2}$. Finalement, on retrouve l
 \centering
 \def\svgwidth{\textwidth}
 \import{Figures/Helium/}{SectionEfficace_Kaldun_axes.pdf_tex}
-\caption{(a) Section efficace d'absorption $\sigma(\epsilon, \tau)$ calculée à partir de l'expression \ref{eq:SectionEfficace_t_Kaldun} dans le cas de la résonance $2s2p$ de l'hélium ($\Gamma = 37$ meV, $q = -2.77$, voir tableau \ref{tab:ParamètresFano}). (b) Coupes de (a) toutes les 10 fs (courbes orange à rouge) et section efficace de Fano (noir). Quand $\tau$ augmente,  $\sigma(\epsilon, \tau)$ converge vers la section efficace de Fano. Ces courbes sont directement comparables aux mesures de \mycite{KaldunScience2016} présentées figure \ref{fig:Kaldun}.}
+\caption{(a) Section efficace d'absorption $\sigma(\epsilon, \tau)$ calculée à partir de l'expression \ref{eq:SectionEfficace_t_Kaldun_final} dans le cas de la résonance $2s2p$ de l'hélium ($\Gamma = 37$ meV, $q = -2.77$, voir tableau \ref{tab:ParamètresFano}). (b) Coupes de (a) toutes les 10 fs (courbes orange à rouge) et section efficace de Fano (noir). Quand $\tau$ augmente,  $\sigma(\epsilon, \tau)$ converge vers la section efficace de Fano. Ces courbes sont directement comparables aux mesures de \mycite{KaldunScience2016} présentées figure \ref{fig:Kaldun}.}
 \label{fig:SectionEfficace_Kaldun}
 \end{figure}
 
@@ -869,7 +877,7 @@ Si l'on s'intéresse à l'observable d'une expérience d'absorption transitoire,
 }
 \label{eq:SectionEfficace_t_Kaldun_final}
 \end{equation}
-Soit la somme du profil de Fano et d'un terme oscillant dont la fréquence spectrale augmente avec $\tau$ et qui décroit avec la durée de vie $2/ \Gamma$. On retrouve évidemment que cette quantité converge vers le profil de Fano aux temps longs
+L'équation \ref{eq:SectionEfficace_t_Kaldun_final} s'écrit comme la somme du profil de Fano et d'un terme oscillant dont la fréquence spectrale d'oscillation augmente avec $\tau$, et dont l'amplitude décroit avec une durée de vie $2/ \Gamma$ c'est-à-dire deux fois la durée de vie de la résonance. Ces oscillations sont la manifestation de la perturbation de la décroissance libre de l'induction ("\textit{free induction decay}") due à l'interruption brutale de la réponse dipolaire \mycite{BeckCPL2015}. On retrouve évidemment que cette quantité converge vers le profil de Fano aux temps longs
 \begin{equation}
 \lim\limits_{\tau \rightarrow + \infty} \sigma(\epsilon, \tau) = \frac{(q+\epsilon)^2}{1+\epsilon^2}
 \end{equation}
@@ -891,7 +899,7 @@ $\mathcal{R}(\epsilon)$ étant le facteur résonant introduit au chapitre \ref{c
 Afin de faciliter la comparaison avec la partie précédente, on considère une impulsion d'excitation XUV infiniment brève $\tilde{\mathcal{H}}(t) = \delta(t)$. On a alors $\tilde{M}^{\text{res}}(t) = \tilde{\mathcal{R}} (t)$.
 \begin{align}
 W(E, \: \tau) & = \int_{- \infty}^{ \tau} \tilde{\mathcal{R}} (t) \times \rme^{i E t} \: \rmd t \\
-& = \int_{- \infty}^{ \tau} \left[ \delta(t) - i \frac{\Gamma}{2} (q - i) \times \mathrm{exp} \left(-i E_R - \frac{\Gamma}{2} \right) \vartheta (t) \right] \rme^{i E t} \: \rmd t \\
+& = \int_{- \infty}^{ \tau} \left[ \delta(t) - i \frac{\Gamma}{2} (q - i) \times \mathrm{exp} \left(-i E_R - \frac{\Gamma}{2} \right) \times \vartheta (t) \right] \rme^{i E t} \: \rmd t \\
 & = 1 - i \frac{\Gamma}{2} (q - i) \int_{- \infty}^{ \tau}  \rme^{-\frac{\Gamma}{2}(1-i \epsilon)t} \: \vartheta (t) \rmd t \\
 & = 1 + i(q-i) \frac{1}{1-i\epsilon} \left(\rme^{-\frac{\Gamma}{2}(1-i\epsilon)  \tau} - 1 \right) \\
 & = 1 + \frac{q-i}{\epsilon + i} \left(1- \rme^{-\frac{\Gamma}{2}(1-i\epsilon)  \tau} \right) \\
@@ -907,7 +915,7 @@ L'observable est le module carré de cette quantité,
 }
 \label{eq:W_Gruson}
 \end{equation}
-Dans cette expression, on retrouve un terme oscillant multiplié par une exponentielle décroissante de durée de vie $2/\Gamma$, mais également un terme constant décroissant avec une durée de vie $1/\Gamma$. $|W(E, \:  \tau)|^2$ converge vers le profil de Fano aux temps longs
+Dans cette expression, on retrouve un terme oscillant multiplié par une exponentielle décroissante de durée de vie $2/\Gamma$, mais également un terme non oscillant décroissant avec une durée de vie $1/\Gamma$. $|W(E, \:  \tau)|^2$ converge vers le profil de Fano aux temps longs
 \begin{equation}
 \lim\limits_{\tau \rightarrow + \infty} |W(E, \:  \tau)|^2 = \frac{(q+\epsilon)^2}{1+\epsilon^2}
 \end{equation}
@@ -923,11 +931,11 @@ Dans cette expression, on retrouve un terme oscillant multiplié par une exponen
 On remarque que l'expression \ref{eq:W_Gruson} est identique à $|c_{\epsilon}(t)|^2$ obtenu avec l'équation \ref{eq:c_eprime}, dont l'évolution temporelle est étudiée par \mycite{ChuPRA2010} dans le cas d'une impulsion $\delta(t)$ et d'une impulsion gaussienne. Cette quantité est également identique à $P(E,t)=|\braket{\psi_E | \Phi(t)}|^2$ de \mycite{WickenhauserPRL2005}. La figure \ref{fig:Chu} montre la construction du profil de la résonance d'après les résultats des calculs de \mycite{ChuPRA2010} dans le cas d'une résonance autoionisante du béryllium excitée par une impulsion gaussienne. Ces résultats sont à mettre en parallèle de la construction de la résonance mesurée par \mycite{GrusonScience2016} et présentés figure \ref{fig:Wickenhauserisation}. 
 
 \section{Conclusions}
-Les expressions de la section efficace d'absorption dépendante du temps $\sigma(\epsilon,\tau)$ (équation \ref{eq:SectionEfficace_t_Kaldun_final}), mesurée par \mycite{KaldunScience2016}, et de l'intensité du spectre de photoélectrons $|W(E, \:  \tau)|^2$ (équation \ref{eq:W_Gruson}), observable de \mycite{GrusonScience2016}, ne sont pas identiques. Ces deux observables convergent naturellement vers le profil de Fano mais leurs dynamiques sont différentes, comme l'illustre la figure \ref{fig:Gruson_vs_Kaldun}. $\sigma(\epsilon,\tau)$ peut prendre des valeurs négatives contrairement à $|W(E, \:  \tau)|^2$. Le temps caractéristique associé à $\sigma(\epsilon,\tau)$ étant $2/\Gamma$, l'absorption transitoire peut être utilisée directement pour mesurer la durée de vie d'un état autoionisant \mycite{WangPRL2010}\mycite{BernhardtPRA2014}. En revanche, les conditions expérimentales utilisées dans les expériences d'absorption transitoires peuvent modifier la dynamique intrinsèque d'autoionisation:
+Les expressions de la section efficace d'absorption dépendante du temps $\sigma(\epsilon,\tau)$ (équation \ref{eq:SectionEfficace_t_Kaldun_final}), mesurée par \mycite{KaldunScience2016}, et de l'intensité du spectre de photoélectrons $|W(E, \:  \tau)|^2$ (équation \ref{eq:W_Gruson}), observable de \mycite{GrusonScience2016}, ne sont pas identiques. Ces deux observables convergent naturellement vers le profil de Fano mais leurs dynamiques sont différentes, comme l'illustre la figure \ref{fig:Gruson_vs_Kaldun}. En particulier, les termes oscillants, bien que de même fréquence, ne présentent ni la même phase ni la même amplitude. $\sigma(\epsilon,\tau)$ peut prendre des valeurs négatives contrairement à $|W(E, \:  \tau)|^2$, qui par ailleurs est beaucoup plus "isobestique". Le temps caractéristique associé à $\sigma(\epsilon,\tau)$ étant $2/\Gamma$, l'absorption transitoire peut être utilisée directement pour mesurer la durée de vie d'un état autoionisant \mycite{WangPRL2010}\mycite{BernhardtPRA2014}. En revanche, les conditions expérimentales utilisées dans les expériences d'absorption transitoires peuvent modifier la dynamique intrinsèque d'autoionisation:
 \begin{enumerate}[label=\textbullet]
-\item \`{A} forte intensité ($\approx 10^{13}$ W/cm$^2$), l'impulsion IR ionise complètement la résonance, ce qui permet d'accéder à la durée de vie de la résonance et à la construction du profil de raie, comme vu précedemment \mycite{KaldunScience2016}.
+\item \`{A} forte intensité ($\approx 10^{13}$ W/cm$^2$), l'impulsion IR ionise complètement la résonance, ce qui permet d'accéder à la durée de vie de la résonance et à la construction du profil de raie, comme vu précédemment \mycite{KaldunScience2016}. Cependant, même ultra-bref, l'IR ne peut pas interrompre instantanément la réponse dipolaire. Ce "temps de montée" diminue la résolution temporelle.
 \item Comme observé au chapitre \ref{chap:He_Lund}, à intensité moyenne ($\approx 10^{12}$ W/cm$^2$), l'effet Stark du laser décale les énergies des états résonants de $\Delta E (t) = -\frac{e^2}{2m} \int_{- \infty}^{t} F_L(t') \rmd t'$ , ce qui conduit à un déphasage de l'émission dipolaire de $\Delta \phi = - \int_{\text{Impulsion}} \frac{\Delta E (t)}{\hbar} \rmd t$ et une modification du profil de raie $\Delta q = - \text{cotan} \frac{ \Delta \phi}{2}$ \mycite{PabstPRA2012}\mycite{ChenPRA2013}\mycite{ChuPRA2013}\mycite{OttScience2013}.
-\item \`{A} intensité faible ($\approx 10 ^{10}$ W/cm$^2$), le champ laser peut coupler plusieurs états si la largeur de bande le permet, à un ou plusieurs photons selon l'intensité utilisée \mycite{BeckCPL2015}. Ce couplage ajoute des oscillations temporelles supplémentaires au signal d'absorption, de fréquence $\frac{\Delta E}{\hbar}$, et peut créer un doublet Autler-Townes \mycite{AutlerTownesPR1955}.
+\item \`{A} intensité faible ($\approx 10 ^{10}$ W/cm$^2$), le champ laser peut coupler plusieurs états si la largeur de bande le permet, à un ou plusieurs photons selon l'intensité utilisée \mycite{BeckCPL2015}. Ce couplage ajoute des oscillations temporelles supplémentaires au signal d'absorption, de fréquence $\frac{\Delta E}{\hbar}$.
 \item L'impulsion XUV peut être modifiée au cours de sa propagation dans le milieu dense absorbant, causant l'élargissement des raies d'absorption ou l'apparition de nouvelles composantes spectrales  \mycite{LiaoPRL2015}\mycite{LiaoPRA2016}.
 \item \`{A} haute pression, les collisions peuvent diminuer la durée de vie radiative des résonances, en particulier pour les états de Rydberg \mycite{BeaulieuPRA2017}.
 \end{enumerate}
@@ -936,10 +944,10 @@ Les expressions de la section efficace d'absorption dépendante du temps $\sigma
 \centering
 \def\svgwidth{0.8\textwidth}
 \import{Figures/Helium/}{Gruson_vs_Kaldun.pdf_tex}
-\caption{$|W(E, \:  \tau)|^2$ (couleurs pâles) et $\sigma(\epsilon,\tau)$ (couleurs foncées) calculées dans le cas de la résonance $2s2p$ de l'hélium excitée par une impulsion $\delta(t)$.}
+\caption{$|W(\epsilon, \:  \tau)|^2$ (couleurs pâles) et $\sigma(\epsilon,\tau)$ (couleurs foncées) calculées dans le cas de la résonance $2s2p$ de l'hélium excitée par une impulsion $\delta(t)$.}
 \label{fig:Gruson_vs_Kaldun}
 \end{figure}
 
 \section*{Conclusions de la partie \ref{part:Helium}}
-Dans cette partie, nous avons présenté une méthode expérimentale dérivée du RABBIT et permettant de résoudre spectralement la phase d'éléments de transition au voisinage de résonances étroites, le Rainbow RABBIT. Nous avons utilisé cette méthode pour étudier la résonance doublement excitée $2s2p$ de l'hélium. Nous avons montré que ces mesures donnent accès à la dynamique électronique complexe au cours de l'autoionisation: la décroissance de la résonance d'une durée de vie typique de l'ordre de la dizaine de femtosecondes, et également les interférences électroniques entre les processus d'ionisation direct et résonant à l'échelle de quelques femtosecondes. Ces processus n'étaient jusqu'alors pas accessibles en spectroscopie. Nous avons ensuite montré que cette méthode s'applique à d'autres résonances en étudiant une résonance plus étroite dans l'hélium, la résonance $sp3+$. L'utilisation du rayonnement harmonique cohérent nous a permis d'exciter simultanément les deux résonances étudiées. Enfin nous avons comparé cette technique de spectroscopie de photoionisation avec la spectroscopie d'absorption transitoire et montré que ces deux expériences permettent d'accéder à des dynamiques électroniques différentes.
+Dans cette partie, nous avons présenté une méthode expérimentale dérivée du RABBIT et permettant de résoudre spectralement la phase d'éléments de transition au voisinage de résonances étroites, le Rainbow RABBIT. Nous avons utilisé cette méthode pour étudier la résonance doublement excitée $2s2p$ de l'hélium. Nous avons montré que ces mesures donnent accès à la dynamique électronique complexe au cours de l'autoionisation: la décroissance de la résonance d'une durée de vie typique de l'ordre de la dizaine de femtosecondes, et également les interférences électroniques entre les processus d'ionisation direct et résonant à l'échelle de quelques femtosecondes. Ces interférences temporelles n'étaient jusqu'alors pas accessibles en spectroscopie. Nous avons ensuite montré que cette méthode s'applique à d'autres résonances en étudiant une résonance plus étroite dans l'hélium, la résonance $sp3+$. L'utilisation du rayonnement harmonique cohérent nous a permis d'exciter simultanément les deux résonances étudiées, produisant ainsi un paquet d'ondes à deux électrons. Remarquons ici que la longueur d'onde utilisée ne permettait pas de coupler directement les deux résonances avec deux photons IR dans le pic satellite intermédiaire. Ce serait possible avec une longueur d'onde de génération (et d'habillage) adéquate. Dans ce cas, on s'attend à observer des oscillations dans le pic satellite à la fréquence de battement entre les deux états lorsque l'habillage arrive après la fin de l'impulsion XUV, pendant une durée intermédiaire entre les deux durées de vies mises en jeu \mycite{JimenezGalanPRL2014}. La phase de ces oscillations est caractéristique du paquet d'ondes à deux électrons formé \mycite{OttNature2014}. Enfin, nous avons comparé cette technique de spectroscopie de photoionisation avec la spectroscopie d'absorption transitoire et montré que ces deux expériences permettent d'accéder à des dynamiques électroniques différentes.
 

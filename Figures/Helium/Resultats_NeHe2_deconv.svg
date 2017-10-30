@@ -12,7 +12,7 @@
    height="944"
    id="svg3336"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="Resultats_NeHe2_deconv.svg">
   <rect
      y="527"
@@ -29,7 +29,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,15 +42,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1003"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
      id="namedview3615"
      showgrid="true"
-     inkscape:zoom="2.065341"
+     inkscape:zoom="0.51633525"
      inkscape:cx="1021.1629"
-     inkscape:cy="118.97887"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:cy="661.2622"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3336">
     <inkscape:grid
@@ -253,17 +253,6 @@
          id="line3411" />
     </g>
     <g
-       transform="translate(250,399.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3413">
-      <text
-         x="-16.543501"
-         xml:space="preserve"
-         y="51.091301"
-         style="stroke:none"
-         id="text3415">58.2</text>
-    </g>
-    <g
        transform="translate(352.25,399.6667)"
        style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g3417">
@@ -275,17 +264,6 @@
          id="text3419">58.4</text>
     </g>
     <g
-       transform="translate(454.5,399.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3421">
-      <text
-         x="-16.543501"
-         xml:space="preserve"
-         y="51.091301"
-         style="stroke:none"
-         id="text3423">58.6</text>
-    </g>
-    <g
        transform="translate(556.75,399.6667)"
        style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g3425">
@@ -295,17 +273,6 @@
          y="51.091301"
          style="stroke:none"
          id="text3427">58.8</text>
-    </g>
-    <g
-       transform="translate(659,399.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3429">
-      <text
-         x="-9.4546003"
-         xml:space="preserve"
-         y="51.091301"
-         style="stroke:none"
-         id="text3431">59</text>
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;stroke-width:3.33330011;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
@@ -581,17 +548,6 @@
          id="line3533" />
     </g>
     <g
-       transform="translate(250.0004,846.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3535">
-      <text
-         x="-16.543501"
-         xml:space="preserve"
-         y="47.091301"
-         style="stroke:none"
-         id="text3537">58.2</text>
-    </g>
-    <g
        transform="translate(352.2508,846.6667)"
        style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g3539">
@@ -603,17 +559,6 @@
          id="text3541">58.4</text>
     </g>
     <g
-       transform="translate(454.4992,846.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3543">
-      <text
-         x="-16.543501"
-         xml:space="preserve"
-         y="47.091301"
-         style="stroke:none"
-         id="text3545">58.6</text>
-    </g>
-    <g
        transform="translate(556.7496,846.6667)"
        style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g3547">
@@ -623,17 +568,6 @@
          y="47.091301"
          style="stroke:none"
          id="text3549">58.8</text>
-    </g>
-    <g
-       transform="translate(659,846.6667)"
-       style="font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g3551">
-      <text
-         x="-9.4546003"
-         xml:space="preserve"
-         y="47.091301"
-         style="stroke:none"
-         id="text3553">59</text>
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;stroke-width:3.33330011;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
@@ -925,17 +859,6 @@
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(862.775,407.82472)" />
   <g
-     id="g4344"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(975.9,407.82472)">
-    <text
-       id="text4346"
-       style="stroke:none"
-       y="51.091301"
-       xml:space="preserve"
-       x="-16.543501">61.6</text>
-  </g>
-  <g
      id="g4348"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(965.025,407.82472)" />
@@ -954,17 +877,6 @@
      id="g4356"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(1067.275,407.82472)" />
-  <g
-     id="g4360"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(1180.4,407.82472)">
-    <text
-       id="text4362"
-       style="stroke:none"
-       y="51.091301"
-       xml:space="preserve"
-       x="-9.4546003">62</text>
-  </g>
   <g
      transform="translate(546.96252,8.1580249)"
      id="g4376"
@@ -1295,17 +1207,6 @@
        x="-16.543501">61.4</text>
   </g>
   <g
-     id="g4514"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(975.8992,854.82472)">
-    <text
-       id="text4516"
-       style="stroke:none"
-       y="47.091301"
-       xml:space="preserve"
-       x="-16.543501">61.6</text>
-  </g>
-  <g
      id="g4522"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(1078.1496,854.82472)">
@@ -1315,17 +1216,6 @@
        y="47.091301"
        xml:space="preserve"
        x="-16.543501">61.8</text>
-  </g>
-  <g
-     id="g4530"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(1180.4,854.82472)">
-    <text
-       id="text4532"
-       style="stroke:none"
-       y="47.091301"
-       xml:space="preserve"
-       x="-9.4546003">62</text>
   </g>
   <g
      transform="translate(546.96252,8.1580249)"
@@ -1699,17 +1589,6 @@
        y2="75.089996" />
   </g>
   <g
-     id="g5468"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(1349.8991,407.82477)">
-    <text
-       id="text5470"
-       style="stroke:none"
-       y="51.091301"
-       xml:space="preserve"
-       x="-16.543501">64.4</text>
-  </g>
-  <g
      id="g5472"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(1440.788,407.82477)">
@@ -1721,17 +1600,6 @@
        x="-16.543501">64.6</text>
   </g>
   <g
-     id="g5476"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(1531.6769,407.82477)">
-    <text
-       id="text5478"
-       style="stroke:none"
-       y="51.091301"
-       xml:space="preserve"
-       x="-16.543501">64.8</text>
-  </g>
-  <g
      id="g5480"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      transform="translate(1622.5658,407.82477)">
@@ -1741,17 +1609,6 @@
        y="51.091301"
        xml:space="preserve"
        x="-9.4546003">65</text>
-  </g>
-  <g
-     id="g5484"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     transform="translate(1713.4546,407.82477)">
-    <text
-       id="text5486"
-       style="stroke:none"
-       y="51.091301"
-       xml:space="preserve"
-       x="-16.543501">65.2</text>
   </g>
   <g
      transform="translate(1099.8991,8.1580758)"
@@ -2068,17 +1925,6 @@
        id="line7350" />
   </g>
   <g
-     transform="translate(1351.2815,888.09798)"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     id="g7352">
-    <text
-       x="-16.543501"
-       xml:space="preserve"
-       y="17.091299"
-       style="stroke:none"
-       id="text7354">64.4</text>
-  </g>
-  <g
      transform="translate(1442.169,856.09798)"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      id="g7356">
@@ -2090,17 +1936,6 @@
        id="text7358">64.6</text>
   </g>
   <g
-     transform="translate(1533.06,856.09798)"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     id="g7360">
-    <text
-       x="-16.543501"
-       xml:space="preserve"
-       y="49.091301"
-       style="stroke:none"
-       id="text7362">64.8</text>
-  </g>
-  <g
      transform="translate(1623.9475,856.09798)"
      style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
      id="g7364">
@@ -2110,17 +1945,6 @@
        y="49.091301"
        style="stroke:none"
        id="text7366">65</text>
-  </g>
-  <g
-     transform="translate(1714.835,856.09798)"
-     style="font-style:normal;font-weight:normal;font-size:17px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-     id="g7368">
-    <text
-       x="-16.543501"
-       xml:space="preserve"
-       y="49.091301"
-       style="stroke:none"
-       id="text7370">65.2</text>
   </g>
   <g
      transform="translate(1101.2808,9.43133)"

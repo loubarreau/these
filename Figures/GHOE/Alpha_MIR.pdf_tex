@@ -61,18 +61,18 @@
     \put(0.88943526,0.04319776){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
     \put(0.98603958,0.04319776){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4.5}}}%
     \put(0.09052011,0.09640793){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0}}}%
-    \put(0.09052011,0.18335096){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.1}}}%
-    \put(0.09052011,0.270294){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.2}}}%
-    \put(0.09052011,0.35723825){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.3}}}%
-    \put(0.09052011,0.44418128){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.4}}}%
-    \put(0.09052011,0.53112554){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.5}}}%
-    \put(0.09052011,0.61806857){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.6}}}%
-    \put(0.09052011,0.70501282){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.7}}}%
-    \put(0.09052011,0.79195586){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.8}}}%
-    \put(0.09052011,0.87890011){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{0.9}}}%
-    \put(0.09052011,0.96584314){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{1}}}%
-    \put(0.57773013,0.00448691){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie Cinétique (u. at.)}}}%
-    \put(0.0122427,0.37179622){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\alpha_q^j$ (10$^{-12}$ rad.cm$^2$/W)}}}}%
+    \put(0.09052011,0.18335096){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{10}}}%
+    \put(0.09052011,0.270294){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{20}}}%
+    \put(0.09052011,0.35723825){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{30}}}%
+    \put(0.09052011,0.44418128){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{40}}}%
+    \put(0.09052011,0.53112554){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{50}}}%
+    \put(0.09052011,0.61806857){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{60}}}%
+    \put(0.09052011,0.70501282){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{70}}}%
+    \put(0.09052011,0.79195586){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{80}}}%
+    \put(0.09052011,0.87890011){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{90}}}%
+    \put(0.09052011,0.96584314){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{100}}}%
+    \put(0.57773013,0.00448691){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Energie Cinétique (ua)}}}%
+    \put(0.0122427,0.37179622){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\alpha_q^j$ (10$^{-14}$ rad.cm$^2$/W)}}}}%
     \put(0.82905162,0.92362208){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{800nm}}}%
     \put(0.82905162,0.86404375){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1300nm}}}%
   \end{picture}%

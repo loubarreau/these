@@ -415,16 +415,16 @@ où $\phi_\Omega$ et $\phi_\omega$ sont les phases des champs XUV et IR respecti
 \end{figure}
 Comme vu chapitre \ref{chap:ExpHHG}, la technique RABBIT permet de mesurer une \textit{différence de phase} entre deux transitions à deux photons: l'absorption d'une harmonique suivie de l'absorption d'un photon d'habillage interférant avec l'absorption de l'harmonique suivante suivie de l'émission stimulée d'un photon d'habillage. Les chemins quantiques et les notations utilisées sont représentées figure \ref{fig:PrincipeRabbitSimple}. Le signal du pic satellite ('\textit{sideband}') s'exprime alors en fonction des éléments de transition à deux photons
 \begin{equation}
-S_{SB} \propto |M^{a}+M^{e}|^2 = |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \cos[\arg (M^{a \: *} M^{e})]
+S_{SB} \propto |M^{a}+M^{e}|^2 = |M^{a}|^2 + |M^{e}|^2 + 2 |M^{a}||M^{e}| \cos[\arg (M^{a} M^{e \: *})]
 \end{equation}
 En supposant qu'un seul moment angulaire intermédiaire contribue à la transition dans les deux chemins $a$ et $e$ \footnote{Dans le cas général pour l'ionisation d'un électron ne se trouvant pas en couche $s$, plusieurs moments angulaires intermédiaires contribuent. Le délai de Wigner \textit{apparent} correspond à la somme de toutes les contributions.}, grâce à \ref{eq:PhaseMatrice2phot} on a:
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
-\arg (M^{a \: *} M^{e}) \approx 2 \omega \tau + \phi_{\Omega_{q+2}} - \phi_{\Omega_{q}} + \eta_{\lambda}(\kappa_{q+2}) - \eta_{\lambda}(\kappa_{q}) + \phi_{cc}(\kappa_{q+2}) - \phi_{cc}(\kappa_q)
+\arg (M^{a} M^{e \: *}) \approx 2 \omega \tau + \phi_{\Omega_{q}} - \phi_{\Omega_{q+2}} + \eta_{\lambda}(\kappa_{q}) - \eta_{\lambda}(\kappa_{q+2}) + \phi_{cc}(\kappa_q) - \phi_{cc}(\kappa_{q+2})
 }
 \end{equation} 
-avec $\phi_{\Omega_{q+2}} - \phi_{\Omega_{q}}$ la différence de phase spectrale entre deux harmoniques consécutives et $\tau$ le délai entre les impulsions IR et XUV. On retrouve l'expression présentée au chapitre \textbf{ref} permettant la caractérisation de trains d'impulsions attosecondes. Ainsi, en divisant par $2 \omega$ la phase de la composante oscillant à $2 \omega$ dans un spectrogramme RABBIT, on obtient une approximation des délais de groupe 
+avec $\phi_{\Omega_{q}} - \phi_{\Omega_{q+2}}$ la différence de phase spectrale entre deux harmoniques consécutives et $\tau$ le délai entre les impulsions IR et XUV. On retrouve l'expression présentée au chapitre \textbf{ref} permettant la caractérisation de trains d'impulsions attosecondes. Ainsi, en divisant par $2 \omega$ la phase de la composante oscillant à $2 \omega$ dans un spectrogramme RABBIT, on obtient une approximation des délais de groupe 
 \begin{equation}
 \setlength\fboxrule{0.5pt}
 \boxed{
@@ -850,6 +850,7 @@ Ici l'état intermédiaire $\ket{\nu}$ n'est pas une fonction du continuum mais 
 De la même manière qu'au chapitre \ref{chap:DelaiPI}, on ne s'intéresse qu'à la contribution des états intermédiaires du continuum, soit 
 \begin{equation}
 M_{\vec{k}, \text{Fano}}^{(2)} \approx \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \lim \limits_{\alpha \rightarrow 0^+} \int \rmd E \frac{\bra{\vec{k}} z\ket{\Psi_E} \bra{\Psi_E} z \ket{g}} {E_g + \Omega - E + i \alpha}
+\label{eq:Matrice2photon_continuum}
 \end{equation}
 D'après l'équation \ref{eq:TransitionEnFonctiondeR_e},
 \begin{equation}
@@ -857,7 +858,7 @@ M_{\vec{k}, \text{Fano}}^{(2)} \approx \frac{1}{i} \: \mathcal{E}_\Omega \mathca
 \end{equation}
 En insérant l'expression de $\ket{\Psi_E}$ puis en effectuant les intégrations sur les contours adéquats \mycite{JimenezGalanPRA2016}, on montre que pour la transition où le photon $\Omega$ est absorbé en premier (cas (a) de la figure \ref{fig:Schema_2photons}), si la durée des impulsions correspondantes est plus longue que la durée de vie de la résonance, on a:
 \begin{equation}
-M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \frac{\epsilon + q(1-\gamma) + i \gamma}{\epsilon + i}
+M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \frac{\epsilon + q(1-\gamma) + i \gamma}{\epsilon + i}
 \label{eq:M2phot_Fano}
 \end{equation}
 où l'on introduit le paramètre $\gamma$ tel que:
@@ -888,7 +889,7 @@ $\mathcal{R}_{\text{eff}}(\epsilon)$ décrit toujours un cercle dans le plan com
 
 Ainsi,
 \begin{equation}
-M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \mathcal{R}_{\text{eff}}(\epsilon)
+M_{\vec{k}, \text{Fano}}^{(2)} \approx - \frac{1}{i} \: \mathcal{E}_\Omega \mathcal{E}_\omega \: \frac{\bra{\vec{k}} z \ket{\psi_E} \bra{\psi_E} z \ket{g}}{\omega} \times \mathcal{R}_{\text{eff}}(\epsilon)
 \end{equation}
 et la phase
 \begin{equation}
@@ -911,4 +912,11 @@ r = \frac{\bra{\vec{k}} z \ket{\Psi_E^{\text{non int}}} \bra{\Psi_E^{\text{non i
 \end{equation}
 Le terme r exprime la force du couplage dipolaire au continuum final à travers le continuum intermédiaire "non interactif" par rapport à celui passant par le continuum "interactif". Ceci qui revient à déplacer $\mathcal{R}_{\text{eff}}(\epsilon)$ dans le plan complexe d'une quantité $r$ ($r \in \mathbb{C}$). La phase de $M_{\vec{k}, \text{Fano, multicanaux}}^{(2)}$ dépend alors des couplages avec les différents continua et est quelconque \textit{a priori} \mycite{JimenezGalanPRA2016}.
 
+\section{Cas d'impulsions non monochromatiques}
+\label{sec:ImpulsionsBreves}
+Dans le cas où les impulsions XUV et d'habillage ne sont pas monochromatiques (Jiménez-Gal\'{a}n \textit{et al.} parlent d'impulsions brèves), plusieurs combinaisons d'énergies $\Omega + \omega$ peuvent conduire à la même énergie finale $E_f$. Ainsi dans un pic satellite de multiples interférences entre transitions à deux photons ont lieu à une énergie identique, et on assiste à un "repliement" de la phase. Dans l'équation \ref{eq:Matrice2photon_continuum}, les amplitudes $\mathcal{E}_\Omega$ et $\mathcal{E}_\omega$ des champs d'ionisation et d'habillage respectivement dépendent de l'énergie et ne peuvent plus être en facteur de l'intégrale. L'élément de transition à deux photons à considérer est désormais \mycite{JimenezGalanPRA2016}:
+\begin{equation}
+M_{\vec{k}, \text{Fano, ib}}^{(2)} \approx \frac{1}{i} \: \lim \limits_{\alpha \rightarrow 0^+} \int \rmd E \: \mathcal{E}_\omega (E_f - E) \mathcal{E}_\Omega (E) \: \frac{\bra{\vec{k}} z\ket{\Psi_E} \bra{\Psi_E} z \ket{g}} {E_g + \Omega - E + i \alpha}
+\label{eq:M2FanoIB}
+\end{equation}
 
