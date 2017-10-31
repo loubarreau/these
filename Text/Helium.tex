@@ -392,13 +392,15 @@ D'après la figure \ref{fig:HeLund_WLscan}, pour une longueur d'onde de 799 nm s
 \label{fig:Rabbit_HeLund_2s2p}
 \end{figure}
 
-\paragraph*{Déconvolution du spectre de photoélectrons} La principale raison de l'élargissement spectral de la courbe de phase dans les mesures de Saclay était la convolution du spectre de photoélectrons par la fonction d'appareil du spectromètre (figure \ref{fig:Phases1photon2photons}). Ici nous choisissons d'appliquer un algorithme de déconvolution afin de s'affranchir de cet effet. La résolution du spectromètre dépend de l'énergie cinétique des photoélectrons avec $\frac{\Delta E}{E} \approx \text{constante}$, ainsi chaque pic satellite est traité séparément. L'effet du spectromètre est modélisé par une convolution avec une fonction gaussienne de largeur $\Delta E$:
+\paragraph*{Déconvolution du spectre de photoélectrons} La principale raison de l'élargissement spectral de la courbe de phase dans les mesures de Saclay était la convolution du spectre de photoélectrons par la fonction d'appareil du spectromètre (figure \ref{fig:Phases1photon2photons}). Ici nous choisissons d'appliquer un algorithme\footnote{Nous présentons ici la méthode développée par Margherita Turconi au LIDYL, différent de l'algorithme décrit dans l'article \ref{pap:BustoArxiv} mais donnant des résultats semblables. Remarquons cependant que la largeur spectrale de la fonction d'appareil n'est pas optimisée dans la méthode présentée ici.} de déconvolution afin de s'affranchir de cet effet. La résolution du spectromètre dépend de l'énergie cinétique des photoélectrons avec $\frac{\Delta E}{E} \approx \text{constante}$, ainsi chaque pic satellite est traité séparément. L'effet du spectromètre est modélisé par une convolution avec une fonction gaussienne $\mathcal{S}$ de largeur $\Delta E$ (on choisit $\Delta E = 100$ meV ici):
 \begin{equation}
-S(E) = \int \mathcal{S} (E)  \rme^{-\frac{4 \ln 2 (E-E')^2}{(\Delta E)^2}} \rmd E'
+G = \mathcal{S} \ast \mathcal{F}
 \end{equation}
-où $\mathcal{S} (E)$ est le spectre à un délai donné, incluant les harmoniques et les pics satellites.
-
-La largeur $\Delta E$ est d'abord déterminée en déconvoluant le spectre sans habillage (figure \ref{fig:HeLund_WLscan}).......
+où $G$ est le spectre mesuré et $\mathcal{F}$ le spectre à déterminer. Dans le domaine de Fourier, la relation précédente est une multiplication et on a \textit{a priori} la relation suivante entre les transformées de Fourier des grandeurs définies précédemment (notées avec un tilde):
+\begin{equation}
+\tilde{\mathcal{F}} = \frac{\tilde{G}}{\tilde{\mathcal{S}}}
+\end{equation}
+En pratique, le bruit expérimental fait diverger cette fraction au delà d'un certain intervalle. On utilise alors la méthode de Biraud \mycite{Biraud1976} pour extrapoler la fonction $\tilde{\mathcal{F}}$ sur un plus grand intervalle.Le spectre déconvolué $\mathcal{F}$ est calculé par transformée de Fourier inverse de la fonction extrapolée.
 
 La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de reconstituer un spectrogramme "déconvolué" (figure \ref{fig:Rabbit_HeLund_2s2p_deconv}). Ce spectrogramme est analysé par la méthode Rainbow RABBIT. La figure \ref{fig:Resultats_NeHe2_deconv} présente la comparaison des amplitudes et phases avant et après déconvolution pour les pics satellites 38 à 42. La déconvolution permet de révéler les détails de la résonance dans les amplitudes, mais n'a qu'un effet très faible sur la phase. L'élargissement spectral par la réponse du spectromètre n'est donc pas le processus dominant dans cette expérience, contrairement aux résultats du chapitre \ref{chap:HeSaclay_res}. 
 
@@ -413,10 +415,11 @@ La procédure est appliquée à chaque délai du spectrogramme RABBIT afin de re
 \begin{figure}
 \centering
 \def\svgwidth{\textwidth}
-\import{Figures/Helium/}{Compare_avant_apres_deconv_NeHe2.pdf_tex}
-\caption{Amplitude (haut) et phase (bas) des pics satellites 38, 40 et 42 extraites par la méthode Rainbow RABBIT avant (bleu) et après (orange) déconvolution de la fonction d'appareil du spectromètre. La phase du pic satellite non résonant SB$_{42}$ extraite des mesures est représentée en gris. Elle présente une composante linéaire dont l'origine est discutée dans le texte. Un ajustement de cette phase linéaire est soustrait aux phases mesurées dans les trois pics satellites étudiés pour obtenir les courbes bleues. La même procédure est appliquée aux phases obtenues après déconvolution (non représenté).}
+\import{Figures/Helium/}{Compare_avant_apres_deconv_NeHe2_sansCourbeGrise.pdf_tex}
+\caption{Amplitude (haut) et phase (bas) des pics satellites 38, 40 et 42 extraites par la méthode Rainbow RABBIT avant (bleu) et après (orange) déconvolution de la fonction d'appareil du spectromètre.}
 \label{fig:Resultats_NeHe2_deconv}
 \end{figure}
+% La phase du pic satellite non résonant SB$_{42}$ extraite des mesures est représentée en gris. Elle présente une composante linéaire dont l'origine est discutée dans le texte. Un ajustement de cette phase linéaire est soustrait aux phases mesurées dans les trois pics satellites étudiés pour obtenir les courbes bleues. La même procédure est appliquée aux phases obtenues après déconvolution (non représenté).
 
 \paragraph*{Effets d'impulsions brèves} L'impulsion d'habillage utilisée à Lund est plus large spectralement qu'à Saclay: une largeur de bande de 70 nm correspond ici à $\approx$ 130 meV, à opposer aux 26 meV (TF) de l'impulsion d'habillage du chapitre \ref{chap:HeSaclay_res}.  \mycite{JimenezGalanPRA2016} ont complété le modèle des amplitudes de transitions à deux photons \textit{via} une résonance de Fano présenté au chapitre \ref{chap:2photons_et_Fano} pour inclure l'effet de la largeur de bande de l'impulsion d'habillage (paragraphe \ref{sec:ImpulsionsBreves}). Si l'harmonique et l'impulsion d'habillage sont larges spectralement, une énergie particulière du pic satellite peut être obtenue par différentes combinaisons $\omega + \Omega$ de photons IR et XUV, respectivement. Ainsi les amplitudes de transitions à deux photons sont "mélangées" dans le pic satellite, ce qui déforme la phase $\arg[M^{(2)}_{\text{Fano, ib}}]$ (équation \ref{eq:M2FanoIB}). La figure \ref{fig:FinitePulses_Alvaro} présente la phase de l'amplitude de transition à deux photons calculée par \mycite{JimenezGalanPRA2016} pour une résonance de Fano avec $q = 1$ et $\gamma = 0$ pour différentes largeurs spectrales de l'impulsion d'habillage. Plus le spectre IR est large, plus la phase du moment de transition est déformée: les variations de phase sont plus faibles et étalées spectralement. Cet effet est plus complexe qu'une simple convolution par la largeur de l'impulsion IR, il n'est donc pas possible de s'en affranchir avec un algorithme de déconvolution. Dans ces conditions, le paquet d'onde électronique du pic satellite n'est pas une exacte réplique du paquet d'onde électronique résonant, comme nous l'avons considéré au chapitre \ref{chap:HeSaclay_reconstruction}. Par ailleurs, si le couplage dipolaire entre la résonance et le continuum final avec le photon IR (quantifié par $\gamma$) est fort, la phase mesurée dans le pic satellite est encore plus déformée par la largeur de bande IR (figure \ref{fig:FinitePulses_Alvaro}). %+ commenter Alvaro, + les finite pulses ont aussi un effet sur l'amplitude
 
@@ -524,12 +527,21 @@ et peut être interprétée comme la transformée de Fourier de la fonction d'au
 \label{fig:Wigner_SB38}
 \end{figure}
 
-La distribution de Wigner-Ville calculée à partir des résultats expérimentaux du pic satellite SB$_{38}$ est représentée figure \ref{fig:Wigner_SB38}. On distingue trois zones dans cette distribution: WV est maximale et positive sur toute la largeur spectrale d'intérêt autour de $t = 0$ (zone a); WV est positive sur une gamme spectrale étroite autour de $E = 35.7$ eV et $0 < t < 15$ fs (zone b); WV oscille et prend des valeurs positives et négatives pour $3 < t < 20$ fs et $35.4 < E < 35.7$ eV (zone c). Afin d'interpréter ces trois domaines, rappelons ici l'expression de la fonction d'onde de l'état autoionisant dans la base des configurations: (équation \ref{eq:BaseDesConfigurations})
-\begin{equation}
-\ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
-\end{equation}
-La fonction d'autocorrélation de cette fonction d'onde possède donc trois termes:  l'autocorrélation des fonctions du continuum, l'autocorrélation de la partie liée, et la corrélation croisée entre l'état lié et les états du continuum. Les zones a, b et c définies précédemment correspondent donc à ces trois termes, respectivement. Cette représentation permet ainsi de distinguer les trois phénomènes dans l'espace temps-énergie.
+La distribution de Wigner-Ville calculée à partir des résultats expérimentaux du pic satellite SB$_{38}$ est représentée figure \ref{fig:Wigner_SB38}. On distingue trois zones dans cette distribution: $WV$ est maximale et positive sur toute la largeur spectrale d'intérêt autour de $t = 0$ (zone a); $WV$ est positive sur une gamme spectrale étroite autour de $E = 35.7$ eV et $0 < t < 15$ fs (zone b); $WV$ oscille et prend des valeurs positives et négatives pour $3 < t < 20$ fs et $35.4 < E < 35.7$ eV (zone c).
 
+Afin d'interpréter ces trois domaines, calculons analytiquement l'expression de $WV$ dans le cas où les impulsions d'excitation et d'habillage sont toutes deux des fonctions de Dirac. C'est-à-dire que le paquet d'ondes résonant s'identifie à la transformée de Fourier du facteur résonant de Fano $\mathcal{R}(\epsilon)$ dont on rappelle ici l'expression donnée par l'équation \ref{eq:R_t}:
+\begin{equation}
+\tilde{M}^{\text{res}}(t) = \tilde{\mathcal{R}}(t) = \delta(t) - i \frac{\Gamma}{2 \hbar} (q - i) \times \mathrm{exp} \left(-\frac{i E_R}{\hbar} - \frac{\Gamma}{2 \hbar} \right) \vartheta (t)
+\end{equation}
+La distribution de Wigner-Ville s'écrit ici comme la somme de trois contributions provenant du chemin direct, du chemin indirect et de leur interférence: $WV(t, E) = WV_{D}(t, E) + WV_{I}(t, E) + 2 \mathcal{R} \text{\textit{e}} \left[WV_{ID}(t, E) \right]$ avec
+\begin{align}
+& WV_{D}(t, E) = \delta(t) \\
+& WV_{I}(t, E) = \frac{\Gamma^2}{2\hbar}(q^2 + 1) \rme^{-\Gamma t \hbar} \:\frac{\sin \left[2 (E-E_R)t/\hbar \right]}{E - E_R} \\
+& 2 \mathcal{R} \text{\textit{e}} \left[WV_{ID}(t, E) \right] = - \frac{\Gamma}{\hbar} \rme^{-\Gamma t/\hbar} \vartheta(t) \left(q \sin \left[2 (E-E_R)t/\hbar \right] + \cos \left[2 (E-E_R)t/\hbar \right] \right)
+\end{align}
+$WV_{D}$ n'est non nul qu'en $t = 0$ et ne dépend pas de l'énergie. Il s'agit de la contribution de l'ionisation directe visible dans le domaine a. $WV_{I}$ comporte la décroissance exponentielle au cours du temps de la résonance, multiplié par un sinus cardinal. $WV_{I}$ a donc une contribution significative seulement en $E = E_R$. Il s'agit de la contribution de l'ionisation \textit{via} l'état autoionisant, correspondant au domaine b. Enfin $\mathcal{R} \text{\textit{e}} \left[WV_{ID} \right]$ comporte un terme oscillant en fonction de l'écart à la résonance et une décroissance exponentielle. Il s'agit du terme d'interférences entre les deux processus qui est visible dans le domaine c.
+
+Ainsi, la distribution de Wigner-Ville permet de distinguer dans le domaine temporo-spectral les deux chemins d'ionisation qui interfèrent dans le processus d'autoionisation. Dans nos mesures, la durée de vie de la résonance est réduite à cause des effets d'impulsions brèves discutés précédemment. Avec une impulsion d'habillage plus longue (plus étroite spectralement), la décroissance de l'intensité dans le domaine b et les interférences du domaine c seraient visible jusqu'à des valeurs de $t$ plus grandes.
 
 \subsection{Paquet d'onde à deux résonances}
 \label{subsec:Lund2resonances}
@@ -611,9 +623,9 @@ $\mathcal{H} (E)$ représente l'intensité du peigne d'harmoniques, supposées t
 
 \section{Influence de l'intensité d'habillage sur le profil de raie}
 % J'utilise les données du 6 avril 2016
-La modification des profils de raie induite par laser est un phénomène très étudié par l'optique quantique. Un champ laser peut modifier les propriétés d'absorption et de dispersion d'un milieu, par exemple pour donner lieu à de la transparence induite électromagnétiquement \mycite{FleischhauerRevModPhys2005}, ou bien permettre de changer un profil de raie lorentzien en un profil de Fano \mycite{SzymanowskiJModOpt1995}. En utilisant la spectroscopie d'absorption transitoire (voir chapitre \ref{chap:PI_vs_ATAS}), \mycite{OttScience2013} ont montré que dans le cas d'une résonance de Fano excitée en présence d'un champ laser intense, la réponse dipolaire\footnote{Dans le chapitre \ref{chap:PI_vs_ATAS}, nous verrons que la spectroscopie d'absorption transitoire est sensible à la partie imaginaire de la réponse dipolaire $d = \bra{\psi(t)}\hat{d}\ket{psi(t)}$.} s'écrit:
+La modification des profils de raie induite par laser est un phénomène très étudié par l'optique quantique. Un champ laser peut modifier les propriétés d'absorption et de dispersion d'un milieu, par exemple pour donner lieu à de la transparence induite électromagnétiquement \mycite{FleischhauerRevModPhys2005}, ou bien permettre de changer un profil de raie lorentzien en un profil de Fano \mycite{SzymanowskiJModOpt1995}. En utilisant la spectroscopie d'absorption transitoire (voir chapitre \ref{chap:PI_vs_ATAS}), \mycite{OttScience2013} ont montré que dans le cas d'une résonance de Fano excitée en présence d'un champ laser intense, la réponse dipolaire\footnote{Dans le chapitre \ref{chap:PI_vs_ATAS}, nous verrons que la spectroscopie d'absorption transitoire est sensible à la partie imaginaire de la réponse dipolaire $d = \bra{\psi(t)}\hat{d}\ket{\psi(t)}$.} s'écrit:
 \begin{equation}
-d_{Fano}(t) \propto c_q \delta(t) + \text{exp}[-\frac{\Gamma}{2}t + i \left( -\frac{E_R}{\hbar}t + \varphi(q) + \varphi_{\text{pond}} \right) ]
+d_{Fano}(t) \propto c_q \delta(t) + \text{exp}\left[-\frac{\Gamma}{2}t + i \left( -\frac{E_R}{\hbar}t + \varphi(q) + \varphi_{\text{pond}} \right) \right]
 \end{equation}
 où la phase $\varphi (q)$ est relié au paramètre d'asymétrie de Fano $q$ par
 \begin{equation}
@@ -664,9 +676,9 @@ Afin de quantifier cette modification du profil, nous avons calculé le paramèt
 et possède une largeur à mi-hauteur de 150 meV, soit $\Delta E / E = 0.150 / 5.9 = 0.025$.
 Le profil harmonique est décalé de deux photons à la position de l'harmonique résonante 39, puis multiplié par un profil de Fano avec $\Gamma = 37$ meV et l'énergie de la résonance fixés, et enfin convolué avec une gaussienne correspondant à la fonction d'appareil à l'énergie de l'harmonique 39 ($\Delta E / E = 0.025$ et $E = 2.8$ eV soit $\Delta E = 70$ meV). La valeur de $q$ est optimisée sur la différence entre le profil calculé et le spectre mesuré.
 \begin{equation}
-S = \text{Conv} \left[ \text{H}(E_{41} - 2\hbar \omega) \times \left( \frac{(q+\epsilon)^2}{1+\epsilon^2}\right), \rme^{-(E_{41} - 2\hbar \omega)^2/(\sqrt{2 \ln 2} \Delta E)^2} \right]
+S = \left[ \text{H}(E_{41} - 2\hbar \omega) \times \left( \frac{(q+\epsilon)^2}{1+\epsilon^2}\right) \right] \ast \left[ \rme^{-(E_{41} - 2\hbar \omega)^2/(\sqrt{2 \ln 2} \Delta E)^2} \right]
 \end{equation}
-Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}a, et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}b. \`{A} intensité minimale, $q = q_{2s2p} = -2.77$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$.
+Les spectres mesurés sont comparés aux résultats de l'optimisation sur la figure \ref{fig:fit_q}(a), et les valeurs de $q$ correspondantes pour les différentes intensités sont représentées figure \ref{fig:fit_q}(b). \`{A} l'intensité minimale, $q = q_{2s2p} = -2.77$. Lorsque l'intensité d'habillage augmente, le spectre de photoélectrons devient moins asymétrique, ce qui correspond à une diminution de la valeur absolue de $q$.
 
 Par ailleurs, nous avons également effectué un spectrogramme RABBIT dans les conditions de forte intensité d'habillage. Nous avons appliqué la procédure de détermination du paramètre $q$ effectif de l'harmonique résonante décrite ci-dessus à chaque spectre du spectrogramme. Les profils harmoniques à chaque délai sont visibles sur la figure \ref{fig:Spectres_fit_q_NeHe33}, et le paramètre $q$ correspondant est indiqué sur la figure \ref{fig:qbest_RABBIT_NeHe33}(a). $q$ varie en fonction du délai IR-XUV $\tau$, et semble osciller à la fréquence $2 \omega$. Les oscillations de $q$ semblent légèrement déphasées par rapport aux oscillations du signal de l'harmonique non résonante 41 tracées sur la figure \ref{fig:qbest_RABBIT_NeHe33}(b).
 
@@ -702,7 +714,7 @@ L'interprétation de ces observations reste ouverte pour le moment. Des simulati
 \label{chap:PI_vs_ATAS}
 Dans le même numéro de la revue $Science$, deux articles étudiant la construction du profil de Fano de la résonance$2s2p$ de l'hélium au cours du temps par deux méthodes différentes ont été publiés. Le premier, \mycite{GrusonScience2016}, utilise la photoionisation et la technique Rainbow RABBIT, et ses résultats ont été présentés aux chapitres \ref{chap:HeSaclay_res} et \ref{chap:HeSaclay_reconstruction}. 
 
-Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs très intense ($\approx$ $10^{13}$ W/cm$^2$) modifie le dipôle induit en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire du dipôle, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
+Une seconde méthode proposée par \mycite{KaldunScience2016} utilise l'absorption transitoire attoseconde. La génération d'harmoniques d'ordre élevé dans un premier gaz à partir d'une impulsion visible-IR de 7 fs produit un spectre XUV large autour de 60 eV. L'impulsion XUV attoseconde est focalisée dans une cellule d'hélium et excite la transition vers l'état autoionisant. Une seconde impulsion IR de 7 fs très intense ($\approx$ $10^{13}$ W/cm$^2$) modifie la réponse dipolaire en interrompant brutalement l'autoionisation par ionisation multiphotonique. L'absorbance, reliée à la partie imaginaire de la réponse dipolaire, est mesurée grâce à un spectromètre à réseau en fonction du délai XUV - IR (figure \ref{fig:Kaldun}).
 
 \begin{figure} [ht!]
 \centering
@@ -750,7 +762,7 @@ en supposant le champ polarisé selon l'axe $z$. % \Omega ou \omega pour le cham
 \begin{equation}
 \ket{\Psi_E} = a_E \ket{\varphi} + \int b_{E'} \ket{\psi_{E'}} \rmd E'
 \end{equation}
-avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}. Dans la suite on suppose que le couplage entre l'état lié et le continuum noté $V_{E'}$ au chapitre  \ref{chap:ResonancesFano} est indépendant de l'énergie et égal à $V$. On utilise les unités atomiques.
+avec les expressions des coefficients $a_E$ et $b_{E'}$ données au chapitre \ref{chap:ResonancesFano}. Dans la suite on suppose que le couplage entre l'état lié et le continuum noté $V_{E'}$ au chapitre  \ref{chap:ResonancesFano} est indépendant de l'énergie, réel et égal à $V$. On utilise les unités atomiques.
 
 Considérons que le système est ionisé depuis son état fondamental $\ket{g}$ par une impulsion XUV ultra-brève. Après le passage de cette impulsion, la fonction d'onde dépendante du temps caractérisant le système est donnée par
 \begin{equation}
@@ -778,7 +790,11 @@ Avec les fonctions $g_E$ et $f_{EE'}$
 g_E (t) & = \frac{V}{E - E_R + i \frac{\Gamma}{2} } \left( \rme^{-i(E-E_R)t} - \rme^{-\frac{\Gamma}{2} t} \right) \\
 f_{EE'} (t) & = \frac{V}{E'-E} \left(g_{E'}(t) - g_{E}(t) \right)
 \end{align}
-Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^{(0)}$ est une constante et ne dépend pas de l'énergie au voisinage de la résonance, les expressions précédentes se simplifient. En utilisant l'énergie réduite $\epsilon$ définie au chapitre \ref{chap:ResonancesFano}, et le paramètre $q$ dans le cas d'un couplage $V$ constant
+Si l'on considère que le continuum initial est plat, c'est-à-dire que $c_{E'}^{(0)}$ est une constante et ne dépend pas de l'énergie au voisinage de la résonance, les expressions précédentes se simplifient. En utilisant l'énergie réduite $\epsilon$ définie au chapitre \ref{chap:ResonancesFano}, et le paramètre $q$:
+\begin{equation}
+q = \frac{\bra{\Phi} z \ket{g}}{\pi V^* \bra{\psi_{E'}} z \ket{g}}
+\end{equation}
+Dans le cas d'un couplage $V$ constant et réel, l'état lié "modifié par le continuum" $\ket{\Phi}$ s'identifie à l'état lié $\ket{\varphi}$ et on a:
 \begin{equation}
 q = \frac{\bra{\varphi} z \ket{g}}{\pi V \bra{\psi_{E'}} z \ket{g}} = \frac{c_{\varphi}^{(0)}}{\pi V c_{E'}^{(0)}}
 \label{eq:q_en_fonction_des_c0}
@@ -830,7 +846,7 @@ D'où
 <\tilde{d}(t)> = c_g^{*} \: c_{\varphi}^{(0)} \bra{g}  z \ket{\varphi} \rme^{-i \Omega_R t} \frac{1}{q^2} \left[ \frac{4}{\Gamma} \delta(t) + (q-i)^2 \: \rme^{-\frac{\Gamma}{2} t} \right]
 }
 \end{equation}
-\textit{Ici on suppose que $\bra{ \varphi}  z \ket{g}$ est réel. On considère que l'excitation XUV est infiniment brève, donc son spectre est réel. Donc d'après la théorie des perturbations au premier ordre, $c_{\varphi}^{(0)}$ est imaginaire pur. }% C'est ce qu'écrit Kaldun mais je comprends pas! Voir page 2 du "autocorrelation vs rate" du LCPMR : dc/dt = V/i E(t) e^iwt
+Ici on suppose que $\bra{ \varphi}  z \ket{g}$ est réel. On considère que l'excitation XUV est infiniment brève, donc son spectre est réel. Donc d'après la théorie des perturbations au premier ordre, $c_{\varphi}^{(0)}$ est imaginaire pur.% C'est ce qu'écrit Kaldun mais je comprends pas! Voir page 2 du "autocorrelation vs rate" du LCPMR : dc/dt = V/i E(t) e^iwt
 On obtient alors\footnote{\mycite{OttScience2013} proposent un calcul différent de cette expression du dipôle temporel en appliquant le théorème de Kramers-Kronig à la section efficace d'absorption et en calculant la transformée de Fourier du dipôle spectral obtenu. Remarquons cependant que les expressions de \mycite{OttScience2013} et \ref{eq:KaldunDipoleTemporel} diffèrent d'un facteur 2 devant le terme $\delta(t)$.}
 \begin{equation}
 \setlength\fboxrule{0.25pt}
@@ -934,9 +950,9 @@ On remarque que l'expression \ref{eq:W_Gruson} est identique à $|c_{\epsilon}(t
 Les expressions de la section efficace d'absorption dépendante du temps $\sigma(\epsilon,\tau)$ (équation \ref{eq:SectionEfficace_t_Kaldun_final}), mesurée par \mycite{KaldunScience2016}, et de l'intensité du spectre de photoélectrons $|W(E, \:  \tau)|^2$ (équation \ref{eq:W_Gruson}), observable de \mycite{GrusonScience2016}, ne sont pas identiques. Ces deux observables convergent naturellement vers le profil de Fano mais leurs dynamiques sont différentes, comme l'illustre la figure \ref{fig:Gruson_vs_Kaldun}. En particulier, les termes oscillants, bien que de même fréquence, ne présentent ni la même phase ni la même amplitude. $\sigma(\epsilon,\tau)$ peut prendre des valeurs négatives contrairement à $|W(E, \:  \tau)|^2$, qui par ailleurs est beaucoup plus "isobestique". Le temps caractéristique associé à $\sigma(\epsilon,\tau)$ étant $2/\Gamma$, l'absorption transitoire peut être utilisée directement pour mesurer la durée de vie d'un état autoionisant \mycite{WangPRL2010}\mycite{BernhardtPRA2014}. En revanche, les conditions expérimentales utilisées dans les expériences d'absorption transitoires peuvent modifier la dynamique intrinsèque d'autoionisation:
 \begin{enumerate}[label=\textbullet]
 \item \`{A} forte intensité ($\approx 10^{13}$ W/cm$^2$), l'impulsion IR ionise complètement la résonance, ce qui permet d'accéder à la durée de vie de la résonance et à la construction du profil de raie, comme vu précédemment \mycite{KaldunScience2016}. Cependant, même ultra-bref, l'IR ne peut pas interrompre instantanément la réponse dipolaire. Ce "temps de montée" diminue la résolution temporelle.
-\item Comme observé au chapitre \ref{chap:He_Lund}, à intensité moyenne ($\approx 10^{12}$ W/cm$^2$), l'effet Stark du laser décale les énergies des états résonants de $\Delta E (t) = -\frac{e^2}{2m} \int_{- \infty}^{t} F_L(t') \rmd t'$ , ce qui conduit à un déphasage de l'émission dipolaire de $\Delta \phi = - \int_{\text{Impulsion}} \frac{\Delta E (t)}{\hbar} \rmd t$ et une modification du profil de raie $\Delta q = - \text{cotan} \frac{ \Delta \phi}{2}$ \mycite{PabstPRA2012}\mycite{ChenPRA2013}\mycite{ChuPRA2013}\mycite{OttScience2013}.
-\item \`{A} intensité faible ($\approx 10 ^{10}$ W/cm$^2$), le champ laser peut coupler plusieurs états si la largeur de bande le permet, à un ou plusieurs photons selon l'intensité utilisée \mycite{BeckCPL2015}. Ce couplage ajoute des oscillations temporelles supplémentaires au signal d'absorption, de fréquence $\frac{\Delta E}{\hbar}$.
-\item L'impulsion XUV peut être modifiée au cours de sa propagation dans le milieu dense absorbant, causant l'élargissement des raies d'absorption ou l'apparition de nouvelles composantes spectrales  \mycite{LiaoPRL2015}\mycite{LiaoPRA2016}.
+\item Comme observé au chapitre \ref{chap:He_Lund}, à intensité moyenne ($\approx 10^{12}$ W/cm$^2$), l'effet Stark du laser décale les énergies des états résonants de $\Delta E (t) = -\frac{e^2}{2m} \int_{- \infty}^{t} \mathcal{E}(t') \rmd t'$ , ce qui conduit à un déphasage de l'émission dipolaire de $\Delta \phi = - \int_{\text{Impulsion}} \frac{\Delta E (t)}{\hbar} \rmd t$ et une modification du profil de raie \mycite{PabstPRA2012}\mycite{ChenPRA2013}\mycite{ChuPRA2013}\mycite{OttScience2013}.
+\item \`{A} intensité faible ($\approx 10 ^{10}$ W/cm$^2$), le champ laser peut coupler plusieurs états si la largeur de bande le permet, à un ou plusieurs photons selon l'intensité utilisée \mycite{BeckCPL2015}. Ce couplage ajoute des oscillations \textit{temporelles} supplémentaires au signal d'absorption, de fréquence $\frac{\Delta E}{\hbar}$.
+\item L'impulsion XUV peut être modifiée au cours de sa propagation dans le milieu dense absorbant\footnote{Pour l'absorption transitoire, la pression de gaz en amont du jet est de l'ordre de 30 à 100 mbar, soit plusieurs ordres de grandeurs au dessus des pressions utilisées pour la photoionisation \mycite{TheseKaldun}.}, causant l'élargissement des raies d'absorption ou l'apparition de nouvelles composantes spectrales  \mycite{LiaoPRL2015}\mycite{LiaoPRA2016}.
 \item \`{A} haute pression, les collisions peuvent diminuer la durée de vie radiative des résonances, en particulier pour les états de Rydberg \mycite{BeaulieuPRA2017}.
 \end{enumerate}
 

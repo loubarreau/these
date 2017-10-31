@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% Creator: Inkscape 0.48.3.1, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'dessin_emission_t3.pdf' (pdf, eps, ps)
 %%
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{586.00066833bp}%
+    \setlength{\unitlength}{581.4625824bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,53 +48,46 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.77010909)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{dessin_emission_t3.pdf}}%
-    \put(0.28043951,0.19530797){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{$t$}}}%
-    \put(0.23492929,0.1383359){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$t+2T/3$}}}%
-    \put(0.20099193,0.23923128){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[b]{\smash{$t+T/3$}}}%
-    \put(0.2359747,0.20741766){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{120°}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{dessin_emission_t3.pdf}}%
-    \put(0.6033713,0.29508263){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{$\rmd I$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{dessin_emission_t3.pdf}}%
-    \put(0.89342441,0.29726814){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\rmd I''$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{dessin_emission_t3.pdf}}%
-    \put(0.70919277,0.21661559){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha '$}}}%
-    \put(0.75619608,0.17718817){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha$}}}%
-    \put(0.6420763,0.18177743){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha ''$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{dessin_emission_t3.pdf}}%
-    \put(0.0969416,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
-    \put(0.13487129,0.58091073){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.17280103,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
-    \put(0.21073073,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.24866046,0.58099165){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
-    \put(0.2865902,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.32451995,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{7}}}%
-    \put(0.36244961,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{8}}}%
-    \put(0.40037935,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{9}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=6]{dessin_emission_t3.pdf}}%
-    \put(0.43860456,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
-    \put(0.43893128,0.53893007){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t/T$}}}%
-    \put(0.92655375,0.54024232){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t/T$}}}%
-    \put(0.05598601,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{dessin_emission_t3.pdf}}%
-    \put(0.59828372,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
-    \put(0.63621343,0.58091073){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.67414313,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
-    \put(0.71207287,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.75000262,0.58099165){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
-    \put(0.78793228,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.82586202,0.58094975){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{7}}}%
-    \put(0.86379168,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{8}}}%
-    \put(0.90172143,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{9}}}%
-    \put(0.93721627,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
-    \put(0.56005851,0.58095263){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=8]{dessin_emission_t3.pdf}}%
-    \put(0.50438843,0.49234534){\color[rgb]{0,0.44705882,0.74117647}\makebox(0,0)[lb]{\smash{$E_x (t)$}}}%
-    \put(0.50438843,0.44865938){\color[rgb]{0.85098039,0.3254902,0.09803922}\transparent{0.97254902}\makebox(0,0)[lb]{\smash{$E_y (t)$}}}%
-    \put(-0.00322632,0.74160383){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
-    \put(-0.00322632,0.29674816){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
-    \put(0.49445017,0.29672983){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
-    \put(0.49445017,0.74158549){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+  \begin{picture}(1,0.77493876)%
+    \put(0,0){\includegraphics[width=\unitlength]{dessin_emission_t3.pdf}}%
+    \put(0.2835889,0.19683391){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{$t$}}}%
+    \put(0.23772349,0.1394172){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$t+2T/3$}}}%
+    \put(0.20352126,0.24110002){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[b]{\smash{$t+T/3$}}}%
+    \put(0.23877706,0.20903812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{120°}}}%
+    \put(0.60904105,0.29738728){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{$\rmd I$}}}%
+    \put(0.9013579,0.29958985){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{$\rmd I''$}}}%
+    \put(0.69917832,0.22656288){\color[rgb]{0.83137255,0.33333333,0}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha '$}}}%
+    \put(0.77779972,0.16579705){\color[rgb]{0,0.50196078,0}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha$}}}%
+    \put(0.60972111,0.15882572){\color[rgb]{0.50196078,0,0.50196078}\makebox(0,0)[lb]{\smash{120°+$\rmd \alpha ''$}}}%
+    \put(0.09865886,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.13688458,0.58544615){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.17511035,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.21333608,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.25156183,0.5855277){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.2897876,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.32801337,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{7}}}%
+    \put(0.36623905,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{8}}}%
+    \put(0.40446482,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.44298837,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.44331763,0.54313785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t/T$}}}%
+    \put(0.93474581,0.54446035){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t/T$}}}%
+    \put(0.05738363,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.60391376,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.64213949,0.58544615){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.68036522,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.71859099,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.75681676,0.5855277){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.79504245,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.83326822,0.58548547){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{7}}}%
+    \put(0.87149391,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{8}}}%
+    \put(0.90971968,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{9}}}%
+    \put(0.94549154,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.56539022,0.58548838){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.50928565,0.49618955){\color[rgb]{0,0.44705882,0.74117647}\makebox(0,0)[lb]{\smash{$E_x (t)$}}}%
+    \put(0.50928565,0.45216264){\color[rgb]{0.85098039,0.3254902,0.09803922}\transparent{0.97254902}\makebox(0,0)[lb]{\smash{$E_y (t)$}}}%
+    \put(-0.00229083,0.74739339){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(-0.00229083,0.2990658){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.49926983,0.29904733){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0.49926983,0.74737492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
   \end{picture}%
 \endgroup%

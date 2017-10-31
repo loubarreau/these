@@ -1,9 +1,20 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{230}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{\AA}berg(1967)]{AabergPR1967}
+{\AA}berg T.
+\newblock \emph{Theory of x-ray satellites}.
+\newblock Physical Review \textbf{156},~35 (1967).
+
+\bibitem[Alexandridi(2015)]{ChristinaYoutube}
+Alexandridi C.
+\newblock Medea - how-to for beginners - time of flight electron spectrometer
+  (cea).
+\newblock https://www.youtube.com/watch?v=hOyG84Gp9tw, (2015).
 
 \bibitem[Allaria et~al.(2014)Allaria, Diviacco, Callegari, Finetti, Mahieu,
   Viefhaus, Zangrando, Ninno, Lambert, Ferrari, Buck, Ilchen, Vodungbo, Mahne,
@@ -24,11 +35,37 @@ Allaria E, Diviacco B, Callegari C, Finetti P, Mahieu B, Viefhaus J, Zangrando
   {High-Gain,} {Free-Electron} laser}.
 \newblock Phys Rev X \textbf{4},~041040 (2014).
 
+\bibitem[Antoine et~al.(1996)Antoine, L'Huillier, et
+  Lewenstein]{AntoinePRL1996}
+Antoine P, L'Huillier A, et Lewenstein M.
+\newblock \emph{Attosecond pulse trains using high\char21{}order harmonics}.
+\newblock Phys. Rev. Lett. \textbf{77},~1234--1237 (1996).
+
 \bibitem[Antoine et~al.(1997)Antoine, Carr{\'e}, L'Huillier, et
   Leweinstein]{AntoinePRA1997}
 Antoine P, Carr{\'e} B, L'Huillier A, et Leweinstein M.
 \newblock \emph{Polarization of high-order harmonics}.
 \newblock Phys. Rev. A \textbf{55},~1314–1324 (1997).
+
+\bibitem[Argenti et~al.(2017)Argenti, Jim{\'e}nez-Gal{\'a}n, Caillat,
+  Ta{\"i}eb, Maquet, et Mart{\'i}n]{ArgentiPRA2017}
+Argenti L, Jim{\'e}nez-Gal{\'a}n A, Caillat J, Ta{\"i}eb R, Maquet A, et
+  Mart{\'i}n F.
+\newblock \emph{Control of photoemission delay in resonant two-photon
+  transitions}.
+\newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Auger(1925)]{Auger1925}
+Auger P.
+\newblock \emph{Sur l'effet photo{\'e}lectrique compos{\'e}}.
+\newblock Journal de Physique et le Radium \textbf{6},~205--208 (1925).
+
+\bibitem[Augst et~al.(1989)Augst, Strickland, Meyerhofer, Chin, et
+  Eberly]{AugstPRL1989}
+Augst S, Strickland D, Meyerhofer DD, Chin SL, et Eberly JH.
+\newblock \emph{Tunneling ionization of noble gases in a high-intensity laser
+  field}.
+\newblock Phys. Rev. Lett. \textbf{63},~2212--2215 (1989).
 
 \bibitem[Ayuso et~al.(2017)Ayuso, Jiménez-Galán, Morales, Ivanov, et
   Smirnova]{AyusoNJP2017}
@@ -37,11 +74,32 @@ Ayuso D, Jiménez-Galán A, Morales F, Ivanov M, et Smirnova O.
   recollision driven by intense tailored fields}.
 \newblock New Journal of Physics \textbf{19},~073007 (2017).
 
+\bibitem[Balcou et~al.(1995)Balcou, Salieres, Budil, Ditmire, Perry, et
+  L'Huillier]{BalcouZPD1995}
+Balcou P, Salieres P, Budil K, Ditmire T, Perry M, et L'Huillier A.
+\newblock \emph{High-order harmonic generation in rare gases: a new source in
+  photoionization spectroscopy}.
+\newblock Zeitschrift f{\"u}r Physik D Atoms, Molecules and Clusters
+  \textbf{34},~107--110 (1995).
+
+\bibitem[Balcou et~al.(1997)Balcou, Sali`eres, L'Huillier, et
+  Lewenstein]{BalcouPRA1997}
+Balcou P, Sali`eres P, L'Huillier A, et Lewenstein M.
+\newblock \emph{Generalized phase-matching conditions for high harmonics: The
+  role of field-gradient forces}.
+\newblock Phys. Rev. A \textbf{55},~3204--3210 (1997).
+
 \bibitem[Barth et Lein(2014)]{BarthJPB2014}
 Barth I et Lein M.
 \newblock \emph{Numerical verification of the theory of nonadiabatic tunnel
   ionization in strong circularly polarized laser fields}.
 \newblock J Phys B Atomic Mol Opt Phys \textbf{47},~204016 (2014).
+
+\bibitem[Bauer et Mulser(1999)]{BauerPRA1999}
+Bauer D et Mulser P.
+\newblock \emph{Exact field ionization rates in the barrier-suppression regime
+  from numerical time-dependent schr{\"o}dinger-equation calculations}.
+\newblock Physical Review A \textbf{59},~569 (1999).
 
 \bibitem[Baykusheva et~al.(2016)Baykusheva, Ahsan, Lin, et
   W{\"o}rner]{BaykushevaPRL2016}
@@ -50,16 +108,79 @@ Baykusheva D, Ahsan M, Lin N, et W{\"o}rner H.
   symmetries of atoms and molecules}.
 \newblock Phys Rev Lett \textbf{116} (2016).
 
+\bibitem[Beaulieu et~al.(2017)Beaulieu, Bloch, Barreau, Comby, Descamps,
+  G{\'e}neaux, L{\'e}gar{\'e}, Petit, et Mairesse]{BeaulieuPRA2017}
+Beaulieu S, Bloch E, Barreau L, Comby A, Descamps D, G{\'e}neaux R,
+  L{\'e}gar{\'e} F, Petit S, et Mairesse Y.
+\newblock \emph{Phase-resolved two-dimensional spectroscopy of electronic wave
+  packets by laser-induced {XUV} free induction decay}.
+\newblock Phys Rev A \textbf{95} (2017).
+
 \bibitem[Beaurepaire et~al.(1996)Beaurepaire, Merle, Daunois, et
   Bigot]{BeaurepairePRL1996}
 Beaurepaire E, Merle JC, Daunois A, et Bigot JY.
 \newblock \emph{Ultrafast spin dynamics in ferromagnetic nickel}.
 \newblock Phys. Rev. Lett. \textbf{76},~4250--4253 (1996).
 
+\bibitem[Beck et~al.(2015)Beck, Neumark, et Leone]{BeckCPL2015}
+Beck A, Neumark D, et Leone S.
+\newblock \emph{Probing ultrafast dynamics with attosecond transient
+  absorption}.
+\newblock Chem Phys Lett \textbf{624},~119--130 (2015).
+
+\bibitem[Bellini et~al.(1998)Bellini, Lyng\aa{}, Tozzi, Gaarde, H\"ansch,
+  L'Huillier, et Wahlstr\"om]{BelliniPRL1998}
+Bellini M, Lyng\aa{} C, Tozzi A, Gaarde MB, H\"ansch TW, L'Huillier A, et
+  Wahlstr\"om CG.
+\newblock \emph{Temporal coherence of ultrashort high-order harmonic pulses}.
+\newblock Phys. Rev. Lett. \textbf{81},~297--300 (1998).
+
+\bibitem[Bernhardt et~al.(2014)Bernhardt, Beck, Li, Warrick, Bell, Haxton,
+  McCurdy, Neumark, et Leone]{BernhardtPRA2014}
+Bernhardt B, Beck AR, Li X, Warrick ER, Bell MJ, Haxton DJ, McCurdy CW, Neumark
+  DM, et Leone SR.
+\newblock \emph{High-spectral-resolution attosecond absorption spectroscopy of
+  autoionization in xenon}.
+\newblock Phys. Rev. A \textbf{89},~023408 (2014).
+
+\bibitem[Berrah et~al.(1996)Berrah, Langer, Bozek, Gorczyca, Hemmers, Lindle,
+  et Toader]{BerrahJPB1996}
+Berrah N, Langer B, Bozek J, Gorczyca TW, Hemmers O, Lindle DW, et Toader O.
+\newblock \emph{Angular-distribution parameters and r -matrix calculations of
+  ar resonances}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{29},~5351 (1996).
+
+\bibitem[Beutler(1935)]{Beutler1935}
+Beutler H.
+\newblock \emph{\"uber absorptionsserien von argon, krypton und xenon zu termen
+  zwischen den beiden ionisierungsgrenzen $^2p_{3}^{2/0}$ und $^2p_{1}^{2/0}$}.
+\newblock Zeitschrift f{\"u}r Physik \textbf{93},~177--196 (1935).
+
+\bibitem[Biraud(1976)]{Biraud1976}
+Biraud Y.
+\newblock \emph{Les m{\'e}thodes de d{\'e}convolution et leurs limitations
+  fondamentales}.
+\newblock Revue de physique appliqu{\'e}e \textbf{11},~203--214 (1976).
+
+\bibitem[Bonzel et Kleint(1995)]{BonzelProgSurfSci1995}
+Bonzel HP et Kleint C.
+\newblock \emph{On the history of photoemission}.
+\newblock Progress in surface science \textbf{49},~107--153 (1995).
+
 \bibitem[Born et Wolf(1980)]{BornWolf}
 Born M et Wolf E.
 \newblock \emph{Principles of Optics (Sixth Edition)}.
 \newblock Cambridge University Press (1980).
+
+\bibitem[Bourassin-Bouchet et~al.(2011)Bourassin-Bouchet, Diveki, De~Rossi,
+  English, Meltchakov, Gobert, Gu{\'e}not, Carre, Delmotte, Sali{\`e}res, et
+  Ruchon]{BourassinOE2011}
+Bourassin-Bouchet C, Diveki Z, De~Rossi S, English E, Meltchakov E, Gobert O,
+  Gu{\'e}not D, Carre B, Delmotte F, Sali{\`e}res P, et Ruchon T.
+\newblock \emph{Control of the attosecond synchronization of xuv radiation with
+  phase-optimized mirrors}.
+\newblock Optics express \textbf{19},~3809--3817 (2011).
 
 \bibitem[B\"owering et~al.(2001)B\"owering, Lischke, Schmidtke, M\"uller,
   Khalil, et Heinzmann]{BoweringPRL2001}
@@ -68,11 +189,39 @@ B\"owering N, Lischke T, Schmidtke B, M\"uller N, Khalil T, et Heinzmann U.
   induced by circularly polarized light}.
 \newblock Phys. Rev. Lett. \textbf{86},~1187--1190 (2001).
 
+\bibitem[Boyd(2008)]{Boyd}
+Boyd R.
+\newblock \emph{Nonlinear Optics, Third edition}.
+\newblock Academic Press (2008).
+
 \bibitem[Budil et~al.(1993)Budil, Sali{\`e}res, Anne, Ditmire, et
   Perry]{BudilPRA1993}
 Budil K, Sali{\`e}res P, Anne L, Ditmire T, et Perry M.
 \newblock \emph{Influence of ellipticity on harmonic generation}.
 \newblock Physical Review A \textbf{48},~R3437 (1993).
+
+\bibitem[Caillat et Taïeb(2017)]{Caillat2017}
+Caillat J et Taïeb R.
+\newblock \emph{Gruson meets kaldun}.
+\newblock Communication Privée (2017).
+
+\bibitem[Caillat et~al.(2011)Caillat, Maquet, Haessler, Fabre, Ruchon,
+  Sali{\`e}res, Mairesse, et Ta{\"i}eb]{CaillatPRL2011}
+Caillat J, Maquet A, Haessler S, Fabre B, Ruchon T, Sali{\`e}res P, Mairesse Y,
+  et Ta{\"i}eb R.
+\newblock \emph{Attosecond resolved electron release in {Two-Color}
+  {Near-Threshold} photoionization {ofN2}}.
+\newblock Phys. Rev. Lett. \textbf{106} (2011).
+
+\bibitem[Calegari et~al.(2014)Calegari, Ayuso, Trabattoni, Belshaw,
+  De~Camillis, Anumula, Frassetto, Poletto, Palacios, Decleva, Greenwood,
+  Mart{\'\i}n, et Nisoli]{CalegariScience2014}
+Calegari F, Ayuso D, Trabattoni A, Belshaw L, De~Camillis S, Anumula S,
+  Frassetto F, Poletto L, Palacios A, Decleva P, Greenwood JB, Mart{\'\i}n F,
+  et Nisoli M.
+\newblock \emph{Ultrafast electron dynamics in phenylalanine initiated by
+  attosecond pulses}.
+\newblock Science \textbf{346},~336--339 (2014).
 
 \bibitem[Camper(2014)]{TheseCamper}
 Camper A.
@@ -80,6 +229,27 @@ Camper A.
   Molecular Emission}}.
 \newblock Theses, {Universit{\'e} Paris Sud - Paris XI}, (2014).
 \newblock URL \url{https://tel.archives-ouvertes.fr/tel-01100464}.
+
+\bibitem[Canton-Rogan et~al.(2000)Canton-Rogan, Wills, Gorczyca, Wiedenhoeft,
+  Nayandin, Liu, et Berrah]{CantonRoganPRL2000}
+Canton-Rogan SE, Wills AA, Gorczyca TW, Wiedenhoeft M, Nayandin O, Liu CN, et
+  Berrah N.
+\newblock \emph{Mirroring doubly excited resonances in argon}.
+\newblock Phys. Rev. Lett. \textbf{85},~3113--3116 (2000).
+
+\bibitem[Carette et~al.(2013)Carette, Dahlstr\"om, Argenti, et
+  Lindroth]{CarettePRA2013}
+Carette T, Dahlstr\"om JM, Argenti L, et Lindroth E.
+\newblock \emph{Multiconfigurational hartree-fock close-coupling ansatz:
+  Application to the argon photoionization cross section and delays}.
+\newblock Phys. Rev. A \textbf{87},~023420 (2013).
+
+\bibitem[Chan et~al.(1992)Chan, Cooper, Guo, Burton, et Brion]{ChenPRA1992}
+Chan WF, Cooper G, Guo X, Burton GR, et Brion CE.
+\newblock \emph{Absolute optical oscillator strengths for the electronic
+  excitation of atoms at high resolution. iii. the photoabsorption of argon,
+  krypton, and xenon}.
+\newblock Phys. Rev. A \textbf{46},~149--171 (1992).
 
 \bibitem[Chen et~al.(2016)Chen, Tao, Carlos, Matyba, Carr, Knut, Kfir, Zusin,
   Gentry, Grychtol, Cohen, Plaja, Becker, Agnieszka, Kapteyn, et
@@ -89,6 +259,56 @@ Chen C, Tao Z, Carlos H, Matyba P, Carr A, Knut R, Kfir O, Zusin D, Gentry C,
 \newblock \emph{Tomographic reconstruction of circularly polarized
   high-harmonic fields: {3D} attosecond metrology}.
 \newblock Science Advances \textbf{2},~e1501333 (2016).
+
+\bibitem[Chen et~al.(2010)Chen, Arpin, Popmintchev, Gerrity, Zhang, Seaberg,
+  Popmintchev, Murnane, et Kapteyn]{ChenPRL2010}
+Chen MC, Arpin P, Popmintchev T, Gerrity M, Zhang B, Seaberg M, Popmintchev D,
+  Murnane MM, et Kapteyn HC.
+\newblock \emph{Bright, coherent, ultrafast soft x-ray harmonics spanning the
+  water window from a tabletop light source}.
+\newblock Phys. Rev. Lett. \textbf{105},~173901 (2010).
+
+\bibitem[Chen et~al.(2013)Chen, Wu, Gaarde, et Schafer]{ChenPRA2013}
+Chen S, Wu M, Gaarde MB, et Schafer KJ.
+\newblock \emph{Laser-imposed phase in resonant absorption of an isolated
+  attosecond pulse}.
+\newblock Phys. Rev. A \textbf{88},~033409 (2013).
+
+\bibitem[Chirla(2011)]{TheseChirla}
+Chirla R.
+\newblock \emph{Attosecond Pulse Generation and Characterization}.
+\newblock PhD thesis, The Ohio State University, (2011).
+\newblock Thèse de doctorat dirigée par Louis F. Di Mauro.
+
+\bibitem[Chu et Lin(2010)]{ChuPRA2010}
+Chu WC et Lin CD.
+\newblock \emph{Theory of ultrafast autoionization dynamics of fano
+  resonances}.
+\newblock Phys. Rev. A \textbf{82},~053415 (2010).
+
+\bibitem[Chu et Lin(2013)]{ChuPRA2013}
+Chu WC et Lin CD.
+\newblock \emph{Absorption and emission of single attosecond light pulses in an
+  autoionizing gaseous medium dressed by a time-delayed control field}.
+\newblock Phys. Rev. A \textbf{87},~013415 (2013).
+
+\bibitem[Clark(2001)]{ClarkNature2001}
+Clark CW.
+\newblock \emph{Obituary: Ugo fano (1912–2001)}.
+\newblock Nature \textbf{410},~164--164 (2001).
+
+\bibitem[Codling et~al.(1980)Codling, West, Parr, et Dehmer]{CodlingJphysB1980}
+Codling K, West J, Parr A, et Dehmer J.
+\newblock \emph{Measurement of beta values and branching ratios in the region
+  of the 3s3p64p {1P10} resonance in ar and the 5s5p66p {1P10} resonance in
+  xe}.
+\newblock Journal of Physics B: Atomic Molecular and Optical Physics (1980).
+
+\bibitem[Cohen-Tannoudji et~al.(1973)Cohen-Tannoudji, Diu, et
+  Lalo{\"{e}}]{CohenT2}
+Cohen-Tannoudji C, Diu B, et Lalo{\"{e}} F.
+\newblock \emph{M\'{e}canique quantique II}.
+\newblock Hermann (1973).
 
 \bibitem[Comby et~al.(2016)Comby, Beaulieu, Boggio-Pasqua, Descamps,
   L{\'e}gar{\'e}, Nahon, Petit, Pons, Fabre, Mairesse, et
@@ -101,10 +321,90 @@ Comby A, Beaulieu S, Boggio-Pasqua M, Descamps D, L{\'e}gar{\'e} F, Nahon L,
 \newblock The journal of physical chemistry letters \textbf{7},~4514--4519
   (2016).
 
+\bibitem[Constant et~al.(1999)Constant, Garzella, Breger, M\'evel, Dorrer,
+  Le~Blanc, Salin, et Agostini]{ConstantPRL1999}
+Constant E, Garzella D, Breger P, M\'evel E, Dorrer C, Le~Blanc C, Salin F, et
+  Agostini P.
+\newblock \emph{Optimizing high harmonic generation in absorbing gases: Model
+  and experiment}.
+\newblock Phys. Rev. Lett. \textbf{82},~1668--1671 (1999).
+
+\bibitem[Cooper(1962)]{CooperPR1962}
+Cooper JW.
+\newblock \emph{Photoionization from outer atomic subshells. a model study}.
+\newblock Phys. Rev. \textbf{128},~681--693 (1962).
+
+\bibitem[Cooper et~al.(1963)Cooper, Fano, et Prats]{CooperPRL1963}
+Cooper JW, Fano U, et Prats F.
+\newblock \emph{Classification of two-electron excitation levels of helium}.
+\newblock Phys. Rev. Lett. \textbf{10},~518--521 (1963).
+
+\bibitem[Corkum(1993)]{CorkumPRL1993}
+Corkum PB.
+\newblock \emph{Plasma perspective on strong field multiphoton ionization}.
+\newblock Phys. Rev. Lett. \textbf{71},~1994--1997 (1993).
+
 \bibitem[Cryan et~al.(2009)Cryan, Bucksbaum, et Coffee]{CryanPRA2009}
 Cryan JP, Bucksbaum PH, et Coffee RN.
 \newblock \emph{Field-free alignment in repetitively kicked nitrogen gas}.
 \newblock Phys. Rev. A \textbf{80},~063412 (2009).
+
+\bibitem[CXRO(2017)]{CXRO}
+CXRO.
+\newblock Cxro x-ray database - the index of refraction for a compound
+  material.
+\newblock \url{http://henke.lbl.gov/optical_constants/getdb2.html}, (2017).
+\newblock Consulté le 19 Oct 2017.
+
+\bibitem[Dahlström et~al.(2012)Dahlström, L’Huillier, et
+  Maquet]{DahlstromJPB2012}
+Dahlström JM, L’Huillier A, et Maquet A.
+\newblock \emph{Introduction to attosecond delays in photoionization}.
+\newblock Journal of Physics B : Atomic, Molecular and Optical Physics
+  \textbf{45},~183001 (2012).
+
+\bibitem[Dahlstr{\"o}m et Lindroth(2014)]{DahlstromJPB2014}
+Dahlstr{\"o}m J et Lindroth E.
+\newblock \emph{Study of attosecond delays using perturbation diagrams and
+  exterior complex scaling}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~124012 (2014).
+
+\bibitem[Dahlstr\"om et~al.(2012)Dahlstr\"om, Carette, et
+  Lindroth]{DahlstromPRA2012}
+Dahlstr\"om JM, Carette T, et Lindroth E.
+\newblock \emph{Diagrammatic approach to attosecond delays in photoionization}.
+\newblock Phys. Rev. A \textbf{86},~061402 (2012).
+
+\bibitem[Dahlstr{\"o}m et~al.(2013)Dahlstr{\"o}m, Gu{\'e}not, Kl{\"u}nder,
+  Gisselbrecht, Mauritsson, L’Huillier, Maquet, et
+  Ta{\"\i}eb]{DahlstromChemPhys2013}
+Dahlstr{\"o}m JM, Gu{\'e}not D, Kl{\"u}nder K, Gisselbrecht M, Mauritsson J,
+  L’Huillier A, Maquet A, et Ta{\"\i}eb R.
+\newblock \emph{Theory of attosecond delays in laser-assisted photoionization}.
+\newblock Chemical Physics \textbf{414},~53--64 (2013).
+
+\bibitem[Denise~Caldwell et~al.(2000)Denise~Caldwell, Whitfield, et
+  Krause]{CaldwellMolPhys2000}
+Denise~Caldwell C, Whitfield S, et Krause M.
+\newblock \emph{Manifestation of spin-orbit interactions in photoemission from
+  free atoms}.
+\newblock Molecular Physics \textbf{98},~1075--1082 (2000).
+
+\bibitem[Dinu et~al.(2003)Dinu, Muller, Kazamias, Mullot, Aug\'e, Balcou, Paul,
+  Kova\ifmmode~\check{c}\else \v{c}\fi{}ev, Breger, et Agostini]{DinuPRL2003}
+Dinu LC, Muller HG, Kazamias S, Mullot G, Aug\'e F, Balcou P, Paul PM,
+  Kova\ifmmode~\check{c}\else \v{c}\fi{}ev M, Breger P, et Agostini P.
+\newblock \emph{Measurement of the subcycle timing of attosecond xuv bursts in
+  high-harmonic generation}.
+\newblock Phys. Rev. Lett. \textbf{91},~063901 (2003).
+
+\bibitem[Domke et~al.(1996)Domke, Schulz, Remmers, Kaindl, et
+  Wintgen]{DomkePRA1996}
+Domke M, Schulz K, Remmers G, Kaindl G, et Wintgen D.
+\newblock \emph{High-resolution study of 1 p o double-excitation states in
+  helium}.
+\newblock Phys. Rev. A (1996).
 
 \bibitem[Dowek et Lucchese(2012)]{DowekBook2012}
 Dowek D et Lucchese R.
@@ -119,6 +419,14 @@ Dowek D, P\'erez-Torres JF, Picard YJ, Billaud P, Elkharrat C, Houver JC,
   Sanz-Vicario JL, et Mart\'{\i}n F.
 \newblock \emph{Circular dichroism in photoionization of ${\mathrm{h}}_{2}$}.
 \newblock Phys. Rev. Lett. \textbf{104},~233003 (2010).
+
+\bibitem[Drescher et~al.(2002)Drescher, Hentschel, Kienberger, Uiberacker,
+  Yakovlev, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann, et
+  Krausz]{DrescherNature2002}
+Drescher M, Hentschel M, Kienberger R, Uiberacker M, Yakovlev V, Scrinzi A,
+  Westerwalbesloh T, Kleineberg U, Heinzmann U, et Krausz F.
+\newblock \emph{Time-resolved atomic inner-shell spectroscopy}.
+\newblock Nature \textbf{419},~803 (2002).
 
 \bibitem[Eckart et~al.(2016)Eckart, Richter, Kunitski, Hartung, Rist, Henrichs,
   Schlott, Kang, Bauer, Sann, Schmidt, Sch{\"o}ffler, Jahnke, et
@@ -135,6 +443,12 @@ Eichmann H, Egbert A, Nolte S, et Momma C.
 \newblock \emph{Polarization-dependent high-order two-color mixing}.
 \newblock Physical Review A (1995).
 
+\bibitem[Einstein(1905)]{Einstein1905}
+Einstein A.
+\newblock \emph{{\"U}ber einen die erzeugung und verwandlung des lichtes
+  betreffenden heuristischen gesichtspunkt}.
+\newblock Annalen der physik \textbf{322},~132--148 (1905).
+
 \bibitem[Eisebitt et~al.(2004)Eisebitt, Luning, Schlotter, Lorgen, et
   al]{EisebittNature2004}
 Eisebitt S, Luning J, Schlotter WF, Lorgen M, et al e.
@@ -144,6 +458,11 @@ Eisebitt S, Luning J, Schlotter WF, Lorgen M, et al e.
 \newblock Copyright - Copyright Macmillan Journals Ltd. Dec 16, 2004;
   Caractéristique du document - diagrams; references; photographs; Dernière
   mise à jour - 2014-04-30; CODEN - NATUAS.
+
+\bibitem[Eisenbud(1948)]{Eisenbud}
+Eisenbud L.
+\newblock \emph{The formal properties of nuclear collisions}.
+\newblock Th{\`e}ses, Princeton University, (1948).
 
 \bibitem[Fan et~al.(2015)Fan, Grychtol, Knut, Carlos, Hickstein, Zusin, Gentry,
   Dollar, Mancuso, Hogle, Kfir, Legut, Carva, Ellis, Dorney, Chen, Shpyrko,
@@ -157,10 +476,47 @@ Fan T, Grychtol P, Knut R, Carlos H, Hickstein DD, Zusin D, Gentry C, Dollar
   magnetic circular dichroism}.
 \newblock PNAS \textbf{112},~14206--14211 (2015).
 
+\bibitem[Fano(1935)]{Fano1935}
+Fano U.
+\newblock \emph{Sullo spettro di assorbimento dei gas nobili presso il limite
+  dello spettro d'arco}.
+\newblock Il Nuovo Cimento (1924-1942) \textbf{12},~154--161 (1935).
+
+\bibitem[Fano(1961)]{FanoPR1961}
+Fano U.
+\newblock \emph{Effects of configuration interaction on intensities and phase
+  shifts}.
+\newblock Phys. Rev. \textbf{124},~1866--1878 (1961).
+
+\bibitem[Fano(1985)]{FanoPRA1985}
+Fano U.
+\newblock \emph{Propensity rules: An analytical approach}.
+\newblock Phys. Rev. A \textbf{32},~617--618 (1985).
+
+\bibitem[Fano et Cooper(1965)]{FanoCooperPR1965}
+Fano U et Cooper JW.
+\newblock \emph{Line profiles in the far-uv absorption spectra of the rare
+  gases}.
+\newblock Phys. Rev. \textbf{137},~A1364--A1379 (1965).
+
+\bibitem[Farkas et T{\'o}th(1992)]{FarkasPhysLettA1992}
+Farkas G et T{\'o}th C.
+\newblock \emph{Proposal for attosecond light pulse generation using laser
+  induced multiple-harmonic conversion processes in rare gases}.
+\newblock Physics Letters A \textbf{168},~447--450 (1992).
+
 \bibitem[Feit et~al.(1982)Feit, Fleck, et Steiger]{FEITJCP1982}
 Feit M, Fleck J, et Steiger A.
 \newblock \emph{Solution of the schrödinger equation by a spectral method}.
 \newblock Journal of Computational Physics \textbf{47},~412 -- 433 (1982).
+
+\bibitem[Ferray et~al.(1988)Ferray, L'Huillier, Li, Lompre, Mainfray, et
+  Manus]{FerrayJPhysB1988}
+Ferray M, L'Huillier A, Li X, Lompre L, Mainfray G, et Manus C.
+\newblock \emph{Multiple-harmonic conversion of 1064 nm radiation in rare
+  gases}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{21},~L31 (1988).
 
 \bibitem[Ferr{\'e} et~al.(2015{\natexlab{a}})Ferr{\'e}, Boguslavskiy, Dagan,
   Blanchet, Bruner, Burgy, Camper, Descamps, Fabre, Fedorov, Gaudin, Geoffroy,
@@ -192,11 +548,38 @@ Fleischer A, Kfir O, Diskin T, Sidorenko P, et Cohen O.
   generation}.
 \newblock Nat Photonics \textbf{8},~543--549 (2014).
 
+\bibitem[Fleischhauer et~al.(2005)Fleischhauer, Imamoglu, et
+  Marangos]{FleischhauerRevModPhys2005}
+Fleischhauer M, Imamoglu A, et Marangos JP.
+\newblock \emph{Electromagnetically induced transparency: Optics in coherent
+  media}.
+\newblock Rev. Mod. Phys. \textbf{77},~633--673 (2005).
+
+\bibitem[Friedrich(1991)]{Friedrich}
+Friedrich H.
+\newblock \emph{Theoretical Atomic Physics}.
+\newblock Springer-Verlag (1991).
+
 \bibitem[Gaarde et Schafer(2002)]{GaardePRA2002}
 Gaarde MB et Schafer KJ.
 \newblock \emph{Quantum path distributions for high-order harmonics in rare gas
   atoms}.
 \newblock Phys. Rev. A \textbf{65},~031406 (2002).
+
+\bibitem[Gaillac et~al.(2016)Gaillac, Vacher, Maquet, Ta\"{\i}eb, et
+  Caillat]{GaillacPRA2016}
+Gaillac R, Vacher M, Maquet A, Ta\"{\i}eb R, et Caillat J.
+\newblock \emph{Attosecond photoemission dynamics encoded in real-valued
+  continuum wave functions}.
+\newblock Phys. Rev. A \textbf{93},~013410 (2016).
+
+\bibitem[Gaumnitz et~al.(2017)Gaumnitz, Jain, Pertot, Huppert, Jordan,
+  Ardana-Lamas, et W{\"o}rner]{GaumnitzOE2017}
+Gaumnitz T, Jain A, Pertot Y, Huppert M, Jordan I, Ardana-Lamas F, et
+  W{\"o}rner HJ.
+\newblock \emph{Streaking of 43-attosecond soft-x-ray pulses generated by a
+  passively cep-stable mid-infrared driver}.
+\newblock Optics Express \textbf{25},~27506--27518 (2017).
 
 \bibitem[G\'{e}neaux(2016)]{TheseGeneaux}
 G\'{e}neaux R.
@@ -207,6 +590,29 @@ G\'{e}neaux R.
 \newblock Thèse de doctorat dirigée par Carré, Bertrand et Ruchon, Thierry.
   Spécialité Lasers, molécules, rayonnement atmosphérique.
 
+\bibitem[Gilbertson et~al.(2010)Gilbertson, Chini, Feng, Khan, Wu, et
+  Chang]{GilbertsonPRL2010}
+Gilbertson S, Chini M, Feng X, Khan S, Wu Y, et Chang Z.
+\newblock \emph{Monitoring and controlling the electron dynamics in helium with
+  isolated attosecond pulses}.
+\newblock Phys. Rev. Lett. \textbf{105} (2010).
+
+\bibitem[Goulielmakis et~al.(2004)Goulielmakis, Uiberacker, Kienberger,
+  Baltuska, Yakovlev, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann,
+  Drescher, et Krausz]{GoulielmakisScience2004}
+Goulielmakis E, Uiberacker M, Kienberger R, Baltuska A, Yakovlev V, Scrinzi A,
+  Westerwalbesloh T, Kleineberg U, Heinzmann U, Drescher M, et Krausz F.
+\newblock \emph{Direct measurement of light waves}.
+\newblock Science \textbf{305},~1267 (2004).
+
+\bibitem[Goulielmakis et~al.(2010)Goulielmakis, Loh, Wirth, Santra, Rohringer,
+  Yakovlev, Zherebtsov, Pfeifer, Azzeer, Kling, Leone, et
+  Krausz]{GoulielmakisNature2010}
+Goulielmakis E, Loh ZH, Wirth A, Santra R, Rohringer N, Yakovlev VS, Zherebtsov
+  S, Pfeifer T, Azzeer AM, Kling MF, Leone ST, et Krausz F.
+\newblock \emph{Real-time observation of valence electron motion}.
+\newblock Nature \textbf{466},~739--743 (2010).
+
 \bibitem[Gruson(2015)]{TheseGruson}
 Gruson V.
 \newblock \emph{Polarimétrie Harmonique et Spectroscopie de Photoionisation
@@ -216,11 +622,124 @@ Gruson V.
 \newblock Thèse de doctorat dirigée par Salières, Pascal. Spécialité
   Lasers, molécules, rayonnement atmosphérique.
 
+\bibitem[Gruson et~al.(2016)Gruson, Barreau, Jim{\'e}nez-Galan, Risoud,
+  Caillat, Maquet, Carr{\'e}, Lepetit, Hergott, Ruchon, Argenti, Ta{\"\i}eb,
+  Mart{\'\i}n, et Sali{\`e}res]{GrusonScience2016}
+Gruson V, Barreau L, Jim{\'e}nez-Galan {\'A}, Risoud F, Caillat J, Maquet A,
+  Carr{\'e} B, Lepetit F, Hergott JF, Ruchon T, Argenti L, Ta{\"\i}eb R,
+  Mart{\'\i}n F, et Sali{\`e}res P.
+\newblock \emph{Attosecond dynamics through a fano resonance: Monitoring the
+  birth of a photoelectron}.
+\newblock Science \textbf{354},~734--738 (2016).
+
+\bibitem[Gu\'enot et~al.(2012)Gu\'enot, Kl\"under, Arnold, Kroon, Dahlstr\"om,
+  Miranda, Fordell, Gisselbrecht, Johnsson, Mauritsson, Lindroth, Maquet,
+  Ta\"{\i}eb, L'Huillier, et Kheifets]{GuenotPRA2012}
+Gu\'enot D, Kl\"under K, Arnold CL, Kroon D, Dahlstr\"om JM, Miranda M, Fordell
+  T, Gisselbrecht M, Johnsson P, Mauritsson J, Lindroth E, Maquet A, Ta\"{\i}eb
+  R, L'Huillier A, et Kheifets AS.
+\newblock \emph{Photoemission-time-delay measurements and calculations close to
+  the 3$s$-ionization-cross-section minimum in argon}.
+\newblock Phys. Rev. A \textbf{85},~053424 (2012).
+
+\bibitem[Gu\'enot et~al.(2014)Gu\'enot, Kroon, Balogh, Larsen, Kotur, Miranda,
+  Fordell, Johnsson, Mauritsson, Gisselbrecht, Varju, Arnold, Carette,
+  Kheifets, Lindroth, L'Huillier, et Dahlström]{GuenotJPB2014}
+Gu\'enot D, Kroon D, Balogh E, Larsen EW, Kotur M, Miranda M, Fordell T,
+  Johnsson P, Mauritsson J, Gisselbrecht M, Varju K, Arnold CL, Carette T,
+  Kheifets AS, Lindroth E, L'Huillier A, et Dahlström JM.
+\newblock \emph{Measurements of relative photoemission time delays in noble gas
+  atoms}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~245602 (2014).
+
+\bibitem[Gustafsson et~al.(2007)Gustafsson, Ruchon, Swoboda, Remetter, Pourtal,
+  L\'{o}pez-Martens, Balcou, et L'Huillier]{GustafssonOptLett2007}
+Gustafsson E, Ruchon T, Swoboda M, Remetter T, Pourtal E, L\'{o}pez-Martens R,
+  Balcou P, et L'Huillier A.
+\newblock \emph{Broadband attosecond pulse shaping}.
+\newblock Opt. Lett. \textbf{32},~1353--1355 (2007).
+
+\bibitem[Haessler et~al.(2009)Haessler, Fabre, Higuet, Caillat, Ruchon, Breger,
+  Carr{\'e}, Constant, Maquet, M{\'e}vel, Sali{\`e}res, Ta{\"i}eb, et
+  Mairesse]{HaesslerPRA2009}
+Haessler S, Fabre B, Higuet J, Caillat J, Ruchon T, Breger P, Carr{\'e} B,
+  Constant E, Maquet A, M{\'e}vel E, Sali{\`e}res P, Ta{\"i}eb R, et Mairesse
+  Y.
+\newblock \emph{Phase-resolved attosecond near-threshold photoionization of
+  molecular nitrogen}.
+\newblock Phys. Rev. A \textbf{80} (2009).
+
+\bibitem[Harris et~al.(1993)Harris, Macklin, et H{\"a}nsch]{HarrisOptComm1993}
+Harris S, Macklin J, et H{\"a}nsch T.
+\newblock \emph{Atomic scale temporal structure inherent to high-order harmonic
+  generation}.
+\newblock Optics communications \textbf{100},~487--490 (1993).
+
+\bibitem[Henke et~al.(1993)Henke, Gullikson, et Davis]{HenkeAtomicData1993}
+Henke BL, Gullikson EM, et Davis JC.
+\newblock \emph{X-ray interactions: photoabsorption, scattering, transmission,
+  and reflection at e= 50-30,000 ev, z= 1-92}.
+\newblock Atomic data and nuclear data tables \textbf{54},~181--342 (1993).
+
+\bibitem[Hentschel et~al.(2001)Hentschel, Kienberger, Spielmann, Reider,
+  Milosevic, Brabec, Corkum, Heinzmann, Drescher, et
+  Krausz]{HentschelNature2001}
+Hentschel M, Kienberger R, Spielmann C, Reider GA, Milosevic N, Brabec T,
+  Corkum P, Heinzmann U, Drescher M, et Krausz F.
+\newblock \emph{Attosecond metrology}.
+\newblock Nature \textbf{414},~509--513 (2001).
+
+\bibitem[Hergott(2001)]{TheseHergott}
+Hergott JF.
+\newblock \emph{Optimisation de la génération d'harmoniques d'ordre élevé
+  et application à l'interférométrie UVX résolue en temps}.
+\newblock PhD thesis, Université Paris XI, (2001).
+
+\bibitem[Hertz(1887)]{Hertz1887}
+Hertz H.
+\newblock \emph{Ueber einen einfluss des ultravioletten lichtes auf die
+  electrische entladung}.
+\newblock Annalen der Physik \textbf{267},~983--1000 (1887).
+
+\bibitem[Heyl(2014)]{TheseHeyl}
+Heyl C.
+\newblock \emph{Scaling and gating attosecond pulse generation}.
+\newblock PhD thesis, Lund University, (2014).
+\newblock URL \url{https://lup.lub.lu.se/search/ws/files/3028441/4937902.pdf}.
+
+\bibitem[Hockett(2017)]{HockettJPhysB2017}
+Hockett P.
+\newblock \emph{Angle-resolved rabbitt: theory and numerics}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{50},~154002 (2017).
+
+\bibitem[Huppert et~al.(2016)Huppert, Jordan, Baykusheva, von Conta, et
+  W\"orner]{HuppertPRL2016}
+Huppert M, Jordan I, Baykusheva D, von Conta A, et W\"orner HJ.
+\newblock \emph{Attosecond delays in molecular photoionization}.
+\newblock Phys. Rev. Lett. \textbf{117},~093001 (2016).
+
+\bibitem[Iaconis et Walmsley(1998)]{IaconisOL1998}
+Iaconis C et Walmsley IA.
+\newblock \emph{Spectral phase interferometry for direct electric-field
+  reconstruction of ultrashort optical pulses}.
+\newblock Optics Letters \textbf{23},~792--794 (1998).
+
 \bibitem[Iida et~al.(1986)Iida, Carnovale, Daviel, et Brion]{IidaChemPhys1986}
 Iida Y, Carnovale F, Daviel S, et Brion C.
 \newblock \emph{Absolute oscillator strengths for photoabsorption and the
   molecular and dissociative photoionization of nitric oxide}.
 \newblock Chemical physics \textbf{105},~211--225 (1986).
+
+\bibitem[Isinger et~al.(2017)Isinger, Squibb, Busto, Zhong, Harth, Kroon,
+  Nandi, Arnold, Miranda, Dahlström, Lindroth, Feifel, Gisselbrecht, et
+  L'Huillier]{IsingerArXiv2017}
+Isinger M, Squibb R, Busto D, Zhong S, Harth A, Kroon D, Nandi S, Arnold CL,
+  Miranda M, Dahlström J, Lindroth E, Feifel R, Gisselbrecht M, et L'Huillier
+  A.
+\newblock \emph{Photoionization in the time and frequency domain}.
+\newblock arXiv preprint arXiv:1709.01780 (2017).
 
 \bibitem[Jahnke et~al.(2002)Jahnke, Weber, Landers, Knapp, Sch\"ossler,
   Nickles, Kammer, Jagutzki, Schmidt, Czasch, Osipov, Arenholz, Young,
@@ -236,12 +755,60 @@ Jahnke T, Weber T, Landers AL, Knapp A, Sch\"ossler S, Nickles J, Kammer S,
   fixed-in-space co and ${N}_{2}$ molecules}.
 \newblock Phys. Rev. Lett. \textbf{88},~073002 (2002).
 
+\bibitem[Jim\'enez-Gal\'an et~al.(2014)Jim\'enez-Gal\'an, Argenti, et
+  Mart\'{\i}n]{JimenezGalanPRL2014}
+Jim\'enez-Gal\'an A, Argenti L, et Mart\'{\i}n F.
+\newblock \emph{Modulation of attosecond beating in resonant two-photon
+  ionization}.
+\newblock Phys. Rev. Lett. \textbf{113},~263001 (2014).
+
+\bibitem[Jim{\'e}nez-Gal{\'a}n et~al.(2016)Jim{\'e}nez-Gal{\'a}n, Mart{\'i}n,
+  et Argenti]{JimenezGalanPRA2016}
+Jim{\'e}nez-Gal{\'a}n {\'A}, Mart{\'i}n F, et Argenti L.
+\newblock \emph{Two-photon finite-pulse model for resonant transitions in
+  attosecond experiments}.
+\newblock Phys. Rev. A \textbf{93} (2016).
+
 \bibitem[Jim{\'e}nez-Gal{\'a}n et~al.(2017)Jim{\'e}nez-Gal{\'a}n, Zhavoronkov,
   Schloz, Morales, et Ivanov]{JimenezGalanArXiv2017}
 Jim{\'e}nez-Gal{\'a}n {\'A}, Zhavoronkov N, Schloz M, Morales F, et Ivanov M.
 \newblock \emph{Time-resolved high harmonic spectroscopy of dynamical symmetry
   breaking in bi-circular laser fields}.
 \newblock arXiv preprint arXiv:1707.05590 (2017).
+
+\bibitem[Jordan et~al.(2017)Jordan, Huppert, Pabst, Kheifets, Baykusheva, et
+  W{\"o}rner]{JordanPRA2017}
+Jordan I, Huppert M, Pabst S, Kheifets A, Baykusheva D, et W{\"o}rner H.
+\newblock \emph{Spin-orbit delays in photoemission}.
+\newblock Phys. Rev. A \textbf{95} (2017).
+
+\bibitem[Kaldun(2014)]{TheseKaldun}
+Kaldun A.
+\newblock \emph{Fano Resonances in the Time Domain - understanding and
+  controlling the absorption and emission of light}.
+\newblock PhD thesis, University of Heidelberg, (2014).
+\newblock URL \url{http://www.ub.uni-heidelberg.de/archiv/16775}.
+\newblock Thèse de doctorat dirigée par Thomas Pfeifer.
+
+\bibitem[Kaldun et~al.(2016)Kaldun, Bl{\"a}ttermann, Stoo{\ss}, Donsa, Wei,
+  Pazourek, Nagele, Ott, Lin, Burgd{\"o}rfer, et Pfeifer]{KaldunScience2016}
+Kaldun A, Bl{\"a}ttermann A, Stoo{\ss} V, Donsa S, Wei H, Pazourek R, Nagele S,
+  Ott C, Lin CD, Burgd{\"o}rfer J, et Pfeifer T.
+\newblock \emph{Observing the ultrafast buildup of a fano resonance in the time
+  domain}.
+\newblock Science \textbf{354},~738--741 (2016).
+
+\bibitem[Kazamias et~al.(2011)Kazamias, Daboussi, Guilbaud, Cassou, Ros, Cros,
+  et Maynard]{KazamiasPRA2011}
+Kazamias S, Daboussi S, Guilbaud O, Cassou K, Ros D, Cros B, et Maynard G.
+\newblock \emph{Pressure-induced phase matching in high-order harmonic
+  generation}.
+\newblock Physical Review A \textbf{83},~063405 (2011).
+
+\bibitem[Keldysh et~al.(1965)]{Keldysh1965}
+Keldysh L et~al.
+\newblock \emph{Ionization in the field of a strong electromagnetic wave}.
+\newblock Sov. Phys. JETP \textbf{20},~1307--1314 (1965).
 
 \bibitem[Kfir et~al.(2015)Kfir, Grychtol, Turgut, Knut, Zusin, Popmintchev,
   Popmintchev, Nembach, Shaw, Fleischer, Kapteyn, Murnane, et
@@ -268,6 +835,61 @@ Kfir O, Grychtol P, Turgut E, Knut R, Zusin D, Fleischer A, Bordo E, Fan T,
 \newblock Journal of Physics B: Atomic, Molecular and Optical Physics
   \textbf{49},~123501 (2016){\natexlab{b}}.
 
+\bibitem[Kheifets(2013)]{KheifetsPRA2013}
+Kheifets AS.
+\newblock \emph{Time delay in valence-shell photoionization of noble-gas
+  atoms}.
+\newblock Phys. Rev. A \textbf{87},~063404 (2013).
+
+\bibitem[Kienberger et~al.(2004)Kienberger, Goulielmakis, Uiberacker, Baltuska,
+  Yakovlev, Bammer, Scrinzi, Westerwalbesloh, Kleineberg, Heinzmann, Drescher,
+  et Krausz]{KienbergerScience2004}
+Kienberger R, Goulielmakis E, Uiberacker M, Baltuska A, Yakovlev V, Bammer F,
+  Scrinzi A, Westerwalbesloh T, Kleineberg U, Heinzmann U, Drescher M, et
+  Krausz F.
+\newblock \emph{Atomic transient recorder}.
+\newblock Nature \textbf{427},~817--821 (2004).
+
+\bibitem[Kl\"under et~al.(2011)Kl\"under, Dahlstr\"om, Gisselbrecht, Fordell,
+  Swoboda, Gu\'enot, Johnsson, Caillat, Mauritsson, Maquet, Ta\"{\i}eb, et
+  L'Huillier]{KlunderPRL2011}
+Kl\"under K, Dahlstr\"om JM, Gisselbrecht M, Fordell T, Swoboda M, Gu\'enot D,
+  Johnsson P, Caillat J, Mauritsson J, Maquet A, Ta\"{\i}eb R, et L'Huillier A.
+\newblock \emph{Probing single-photon ionization on the attosecond time scale}.
+\newblock Phys. Rev. Lett. \textbf{106},~143002 (2011).
+
+\bibitem[Kossmann et~al.(1988)Kossmann, Krassig, et
+  Schmidt]{KossmannJPhysB1988}
+Kossmann H, Krassig B, et Schmidt V.
+\newblock \emph{New determination of beutler-fano parameters for the 3s3p 1p1
+  resonance in helium}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{21},~1489 (1988).
+
+\bibitem[Kotur et~al.(2016)Kotur, Gu{\'e}not, Jim{\'e}nez-Gal{\'a}n, Kroon,
+  Larsen, Louisy, Bengtsson, Miranda, Mauritsson, Arnold, Canton, Gisselbrecht,
+  Carette, Dahlstr{\"o}m, Lindroth, Maquet, Argenti, Mart{\'i}n, et
+  L’Huillier]{KoturNatComm2016}
+Kotur M, Gu{\'e}not D, Jim{\'e}nez-Gal{\'a}n {\'A}, Kroon D, Larsen E, Louisy
+  M, Bengtsson S, Miranda M, Mauritsson J, Arnold C, Canton S, Gisselbrecht M,
+  Carette T, Dahlstr{\"o}m J, Lindroth E, Maquet A, Argenti L, Mart{\'i}n F, et
+  L’Huillier A.
+\newblock \emph{Spectral phase measurement of a fano resonance using tunable
+  attosecond pulses}.
+\newblock Nat. Commun. \textbf{7},~10566 (2016).
+
+\bibitem[Krause et~al.(1992)Krause, Schafer, et Kulander]{KrausePRL1992}
+Krause JL, Schafer KJ, et Kulander KC.
+\newblock \emph{High-order harmonic generation from atoms and ions in the high
+  intensity regime}.
+\newblock Phys. Rev. Lett. \textbf{68},~3535--3538 (1992).
+
+\bibitem[Kruit et Read(1983)]{KruitJPhysE1983}
+Kruit P et Read F.
+\newblock \emph{Magnetic field paralleliser for 2$\pi$ electron-spectrometer
+  and electron-image magnifier}.
+\newblock Journal of Physics E: Scientific Instruments \textbf{16},~313 (1983).
+
 \bibitem[Lafosse et~al.(2000)Lafosse, Lebech, Brenot, Guyon, Jagutzki,
   Spielberger, Vervloet, Houver, et Dowek]{LafossePRL2000}
 Lafosse A, Lebech M, Brenot JC, Guyon PM, Jagutzki O, Spielberger L, Vervloet
@@ -276,6 +898,11 @@ Lafosse A, Lebech M, Brenot JC, Guyon PM, Jagutzki O, Spielberger L, Vervloet
   molecules in the vuv range: Strong anisotropies in electron emission from
   spatially oriented no molecules}.
 \newblock Phys. Rev. Lett. \textbf{84},~5987--5990 (2000).
+
+\bibitem[Landau et Lifshitz(1965)]{LandauLifshitz}
+Landau L et Lifshitz E.
+\newblock \emph{Quantum Mechanics : Nonrelativistic Theory, 3rd edition}.
+\newblock Pergamon (1965).
 
 \bibitem[Le et~al.(2009)Le, Lucchese, Tonzani, Morishita, et Lin]{LePRA2009}
 Le AT, Lucchese RR, Tonzani S, Morishita T, et Lin CD.
@@ -290,6 +917,40 @@ Lebech M, Houver JC, Lafosse A, Dowek D, Alcaraz C, Nahon L, et Lucchese RR.
   achieved by vector correlations using the light of a single circular
   polarization}.
 \newblock The Journal of Chemical Physics \textbf{118},~9653--9663 (2003).
+
+\bibitem[Lenard(1902)]{Lenard1902}
+Lenard P.
+\newblock \emph{Ueber die lichtelektrische wirkung}.
+\newblock Annalen der Physik \textbf{313},~149--198 (1902).
+
+\bibitem[Lewenstein et~al.(1994)Lewenstein, Balcou, Ivanov, L'Huillier, et
+  Corkum]{LewensteinPRA1994}
+Lewenstein M, Balcou P, Ivanov MY, L'Huillier A, et Corkum PB.
+\newblock \emph{Theory of high-harmonic generation by low-frequency laser
+  fields}.
+\newblock Phys. Rev. A \textbf{49},~2117--2132 (1994).
+
+\bibitem[Liao et~al.(2015)Liao, Sandhu, Camp, Schafer, et Gaarde]{LiaoPRL2015}
+Liao C, Sandhu A, Camp S, Schafer KJ, et Gaarde MB.
+\newblock \emph{Beyond the {Single-Atom} response in absorption line shapes:
+  Probing a dense, {Laser-Dressed} helium gas with attosecond pulse trains}.
+\newblock Phys Rev Lett \textbf{114},~143002 (2015).
+
+\bibitem[Liao et~al.(2016)Liao, Sandhu, Camp, Schafer, et Gaarde]{LiaoPRA2016}
+Liao CT, Sandhu A, Camp S, Schafer KJ, et Gaarde MB.
+\newblock \emph{Attosecond transient absorption in dense gases: Exploring the
+  interplay between resonant pulse propagation and laser-induced line-shape
+  control}.
+\newblock Phys. Rev. A \textbf{93},~033405 (2016).
+
+\bibitem[L\'opez-Martens et~al.(2005)L\'opez-Martens, Varj\'u, Johnsson,
+  Mauritsson, Mairesse, Sali\`eres, Gaarde, Schafer, Persson, Svanberg,
+  Wahlstr\"om, et L'Huillier]{LopezMartensPRL2005}
+L\'opez-Martens R, Varj\'u K, Johnsson P, Mauritsson J, Mairesse Y, Sali\`eres
+  P, Gaarde MB, Schafer KJ, Persson A, Svanberg S, Wahlstr\"om CG, et
+  L'Huillier A.
+\newblock \emph{Amplitude and phase control of attosecond light pulses}.
+\newblock Phys. Rev. Lett. \textbf{94},~033001 (2005).
 
 \bibitem[Lucchese et~al.(2002)Lucchese, Lafosse, Brenot, Guyon, Houver, Lebech,
   Raseev, et Dowek]{LucchesePRA2002}
@@ -311,6 +972,40 @@ Lutman A, James M, Ilchen M, Lindahl A, Buck J, Coffee R, Dakovski G, Dammann
   Viefhaus J, Walter P, Wolf Z, Huang Z, et Nuhn H.
 \newblock \emph{Polarization control in an x-ray free-electron laser}.
 \newblock Nat Photonics \textbf{10},~468--472 (2016).
+
+\bibitem[Madden et Codling(1963)]{MaddenCodlingPRL1963}
+Madden RP et Codling K.
+\newblock \emph{New autoionizing atomic energy levels in he, ne, and ar}.
+\newblock Phys. Rev. Lett. \textbf{10},~516--518 (1963).
+
+\bibitem[Madden et Codling(1965)]{MaddenCodling1965}
+Madden RP et Codling K.
+\newblock \emph{Two-electron excitation states in helium}.
+\newblock Astrophysical Journal \textbf{141},~364 (1965).
+
+\bibitem[Mairesse(2005)]{TheseMairesse}
+Mairesse Y.
+\newblock \emph{Génération et caractérisation d'impulsions attosecondes}.
+\newblock PhD thesis, Université Paris XI, (2005).
+\newblock URL \url{https://tel.archives-ouvertes.fr/tel-00011620}.
+
+\bibitem[Mairesse et~al.(2003)Mairesse, de~Bohan, Frasinski, Merdji, Dinu,
+  Monchicourt, Breger, Kova{\v c}ev, Ta{\"\i}eb, Carr{\'e}, Muller, Agostini,
+  et Sali{\`e}res]{MairesseScience2003}
+Mairesse Y, de~Bohan A, Frasinski LJ, Merdji H, Dinu LC, Monchicourt P, Breger
+  P, Kova{\v c}ev M, Ta{\"\i}eb R, Carr{\'e} B, Muller HG, Agostini P, et
+  Sali{\`e}res P.
+\newblock \emph{Attosecond synchronization of high-harmonic soft x-rays}.
+\newblock Science \textbf{302},~1540--1543 (2003).
+
+\bibitem[Mairesse et~al.(2004)Mairesse, de~Bohan, Frasinski, Merdji, Dinu,
+  Monchicourt, Breger, Kova\ifmmode~\check{c}\else \v{c}\fi{}ev, Auguste,
+  Carr\'e, Muller, Agostini, et Sali\`eres]{MairessePRL2004}
+Mairesse Y, de~Bohan A, Frasinski LJ, Merdji H, Dinu LC, Monchicourt P, Breger
+  P, Kova\ifmmode~\check{c}\else \v{c}\fi{}ev M, Auguste T, Carr\'e B, Muller
+  HG, Agostini P, et Sali\`eres P.
+\newblock \emph{Optimization of attosecond pulse generation}.
+\newblock Phys. Rev. Lett. \textbf{93},~163901 (2004).
 
 \bibitem[Mairesse et~al.(2010)Mairesse, Higuet, Dudovich, Shafir, Fabre,
   M\'evel, Constant, Patchkovskii, Walters, Ivanov, et
@@ -340,6 +1035,55 @@ Mancuso C, Hickstein D, Dorney K, Ellis J, Hasović E, Knut R, Grychtol P,
   polarized femtosecond laser fields}.
 \newblock Phys Rev A \textbf{93} (2016){\natexlab{b}}.
 
+\bibitem[Maquet(2015)]{Maquet2015}
+Maquet A.
+\newblock \emph{Notes sur fano phys. rev. 124, 1866 (1961)}.
+\newblock Communication Privée (2015).
+
+\bibitem[Maquet et Ta{\"i}eb(2007)]{MaquetJMO2007}
+Maquet A et Ta{\"i}eb R.
+\newblock \emph{Two-colour {IR+XUV} spectroscopies: the soft-photon
+  approximation}.
+\newblock Journal of Modern Optics \textbf{54},~1847–1857 (2007).
+
+\bibitem[Marante et~al.(2017{\natexlab{a}})Marante, Klinker, Corral,
+  Gonzalez-Vazquez, Argenti, et Mart{\'\i}n]{MaranteJCTC2017}
+Marante C, Klinker M, Corral I, Gonzalez-Vazquez J, Argenti L, et Mart{\'\i}n
+  F.
+\newblock \emph{Hybrid-basis close-coupling interface to quantum chemistry
+  packages for the treatment of ionization problems}.
+\newblock Journal of chemical theory and computation \textbf{13},~499--514
+  (2017){\natexlab{a}}.
+
+\bibitem[Marante et~al.(2017{\natexlab{b}})Marante, Klinker, Kjellsson,
+  Lindroth, Gonz\'alez-V\'azquez, Argenti, et Mart\'{\i}n]{MarantePRA2017}
+Marante C, Klinker M, Kjellsson T, Lindroth E, Gonz\'alez-V\'azquez J, Argenti
+  L, et Mart\'{\i}n F.
+\newblock \emph{Photoionization using the xchem approach: Total and partial
+  cross sections of ne and resonance parameters above the $2{s}^{2}2{p}^{5}$
+  threshold}.
+\newblock Phys. Rev. A \textbf{96},~022507 (2017){\natexlab{b}}.
+
+\bibitem[Mauritsson et~al.(2005)Mauritsson, Gaarde, et
+  Schafer]{MauritssonPRA2005}
+Mauritsson J, Gaarde MB, et Schafer KJ.
+\newblock \emph{Accessing properties of electron wave packets generated by
+  attosecond pulse trains through time-dependent calculations}.
+\newblock Phys. Rev. A \textbf{72},~013401 (2005).
+
+\bibitem[McNaught et Wilkinson(1997)]{IUPAC}
+McNaught AD et Wilkinson A.
+\newblock \emph{Compendium of Chemical Terminology, 2nd ed. (the "Gold Book")}.
+\newblock Blackwell Scientific Publications, Oxford (1997).
+
+\bibitem[McPherson et~al.(1987)McPherson, Gibson, Jara, Johann, Luk, McIntyre,
+  Boyer, et Rhodes]{McphersonJOSAB1987}
+McPherson A, Gibson G, Jara H, Johann U, Luk TS, McIntyre I, Boyer K, et Rhodes
+  CK.
+\newblock \emph{Studies of multiphoton production of vacuum-ultraviolet
+  radiation in the rare gases}.
+\newblock JOSA B \textbf{4},~595--601 (1987).
+
 \bibitem[Medi\v{s}auskas et~al.(2015)Medi\v{s}auskas, Wragg, Hart, et
   Ivanov]{MedisauskasPRL2015}
 Medi\v{s}auskas L, Wragg J, Hart H, et Ivanov M.
@@ -366,6 +1110,50 @@ Milo\v{s}evi\'{c} D, Becker W, et Kopold R.
   two-color coplanar field mixing}.
 \newblock Physical Review A (2000).
 
+\bibitem[Miroshnichenko et~al.(2010)Miroshnichenko, Flach, et
+  Kivshar]{MiroshnichenkoRevModPhys2010}
+Miroshnichenko A, Flach S, et Kivshar Y.
+\newblock \emph{Fano resonances in nanoscale structures}.
+\newblock Reviews of Modern Physics (2010).
+
+\bibitem[M\"obus et~al.(1993)M\"obus, Magel, Schartner, Langer, Becker,
+  Wildberger, et Schmoranzer]{MobusPRA1993}
+M\"obus B, Magel B, Schartner KH, Langer B, Becker U, Wildberger M, et
+  Schmoranzer H.
+\newblock \emph{Measurements of absolute ar 3s photoionization cross sections}.
+\newblock Phys. Rev. A \textbf{47},~3888--3893 (1993).
+
+\bibitem[Moore(1949)]{Moore1949}
+Moore CE.
+\newblock \emph{Ce moore atomic energy levels, 1 (1949)}.
+\newblock Atomic energy levels \textbf{1},~212 (1949).
+
+\bibitem[Moore et~al.(2011)Moore, Lysaght, Parker, van~der Hart, et
+  Taylor]{MoorePRA2011}
+Moore LR, Lysaght MA, Parker JS, van~der Hart HW, et Taylor KT.
+\newblock \emph{Time delay between photoemission from the $2p$ and $2s$
+  subshells of neon}.
+\newblock Phys. Rev. A \textbf{84},~061404 (2011).
+
+\bibitem[Morgan et Ederer(1984)]{MorganPRA1984}
+Morgan HD et Ederer DL.
+\newblock \emph{Photoionization cross section of helium for photon energies
+  59-67 ev: The $(sp,2n+)^{1}p^{o}$ rydberg series of autoionizing resonances}.
+\newblock Phys. Rev. A \textbf{29},~1901--1906 (1984).
+
+\bibitem[Morlens et~al.(2005)Morlens, Balcou, Zeitoun, Valentin, Laude, et
+  Kazamias]{MorlensOL2005}
+Morlens AS, Balcou P, Zeitoun P, Valentin C, Laude V, et Kazamias S.
+\newblock \emph{Compression of attosecond harmonic pulses by
+  extreme-ultraviolet chirped mirrors}.
+\newblock Optics letters \textbf{30},~1554--1556 (2005).
+
+\bibitem[Muller(2002)]{MullerAPB2002}
+Muller H.
+\newblock \emph{Reconstruction of attosecond harmonic beating by interference
+  of two-photon transitions}.
+\newblock Applied Physics B \textbf{74},~s17--s21 (2002).
+
 \bibitem[Nahon et~al.(2012)Nahon, de~Oliveira, Garcia, Gil, Pilette,
   Marcouill{\'{e}}, Lagarde, et Polack]{NahonJSR2012}
 Nahon L, de~Oliveira N, Garcia GA, Gil JF, Pilette B, Marcouill{\'{e}} O,
@@ -375,6 +1163,64 @@ Nahon L, de~Oliveira N, Garcia GA, Gil JF, Pilette B, Marcouill{\'{e}} O,
   SOLEIL}}.
 \newblock Journal of Synchrotron Radiation \textbf{19},~508--520 (2012).
 
+\bibitem[Neufeld et~al.(2017)Neufeld, Podolsky, et Cohen]{NeufeldArXiv2017}
+Neufeld O, Podolsky D, et Cohen O.
+\newblock \emph{Symmetries and selection rules in high harmonic generation and
+  other floquet systems}.
+\newblock arXiv preprint arXiv:1706.01087 (2017).
+
+\bibitem[Nisoli et~al.(1996)Nisoli, Silvestri, et Svelto]{NisoliAPL1996}
+Nisoli M, Silvestri SD, et Svelto O.
+\newblock \emph{Generation of high energy 10 fs pulses by a new pulse
+  compression technique}.
+\newblock Applied Physics Letters \textbf{68},~2793--2795 (1996).
+
+\bibitem[Oksenhendler et~al.(2006)Oksenhendler, Kaplan, Tournois, Greetham, et
+  Estable]{OksenhendlerAPB2006}
+Oksenhendler T, Kaplan D, Tournois P, Greetham G, et Estable F.
+\newblock \emph{Intracavity acousto-optic programmable gain control for
+  ultra-wide-band regenerative amplifiers}.
+\newblock Applied Physics B: Lasers and Optics \textbf{83},~491--494 (2006).
+
+\bibitem[Ossiander et~al.(2017)Ossiander, Siegrist, Shirvanyan, Pazourek,
+  Sommer, Latka, Guggenmos, Nagele, Feist, Burgd{\"o}rfer, Kienberger, et
+  Schultze]{OssianderNatPhys2017}
+Ossiander M, Siegrist F, Shirvanyan V, Pazourek R, Sommer A, Latka T, Guggenmos
+  A, Nagele S, Feist J, Burgd{\"o}rfer J, Kienberger R, et Schultze M.
+\newblock \emph{Attosecond correlation dynamics}.
+\newblock Nature Physics \textbf{13},~280--285 (2017).
+
+\bibitem[Ott et~al.(2013)Ott, Kaldun, Raith, Meyer, Laux, Evers, Keitel,
+  Greene, et Pfeifer]{OttScience2013}
+Ott C, Kaldun A, Raith P, Meyer K, Laux M, Evers J, Keitel CH, Greene CH, et
+  Pfeifer T.
+\newblock \emph{Lorentz meets fano in spectral line shapes: A universal phase
+  and its laser control}.
+\newblock Science \textbf{340},~716--720 (2013).
+
+\bibitem[Ott et~al.(2014)Ott, Kaldun, Argenti, Raith, Meyer, Laux, Zhang,
+  Bl{\"a}ttermann, Hagstotz, Ding, et~al.]{OttNature2014}
+Ott C, Kaldun A, Argenti L, Raith P, Meyer K, Laux M, Zhang Y, Bl{\"a}ttermann
+  A, Hagstotz S, Ding T, et~al.
+\newblock \emph{Reconstruction and control of a time-dependent two-electron
+  wave packet}.
+\newblock Nature \textbf{516},~374--378 (2014).
+
+\bibitem[Pabst et~al.(2012)Pabst, Sytcheva, Moulet, Wirth, Goulielmakis, et
+  Santra]{PabstPRA2012}
+Pabst S, Sytcheva A, Moulet A, Wirth A, Goulielmakis E, et Santra R.
+\newblock \emph{Theory of attosecond transient-absorption spectroscopy of
+  krypton for overlapping pump and probe pulses}.
+\newblock Phys. Rev. A \textbf{86},~063411 (2012).
+
+\bibitem[Palatchi et~al.(2014)Palatchi, Dahlstr{\"o}m, Kheifets, Ivanov,
+  Canaday, Agostini, et DiMauro]{PalatchiJPB2014}
+Palatchi C, Dahlstr{\"o}m JM, Kheifets A, Ivanov I, Canaday D, Agostini P, et
+  DiMauro L.
+\newblock \emph{Atomic delay in helium, neon, argon and krypton}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics
+  \textbf{47},~245003 (2014).
+
 \bibitem[Pasteur(1848)]{Pasteur1848}
 Pasteur L.
 \newblock \emph{Recherches sur les relations qui peuvent exister entre la forme
@@ -382,17 +1228,59 @@ Pasteur L.
   rotatoire}.
 \newblock Impr. Bachelier (1848).
 
+\bibitem[Paul et~al.(2001)Paul, Toma, Breger, Mullot, Aug{\'e}, Balcou, Muller,
+  et Agostini]{PaulScience2001}
+Paul PM, Toma ES, Breger P, Mullot G, Aug{\'e} F, Balcou P, Muller HG, et
+  Agostini P.
+\newblock \emph{Observation of a train of attosecond pulses from high harmonic
+  generation}.
+\newblock Science \textbf{292},~1689--1692 (2001).
+
+\bibitem[Popmintchev et~al.(2015)Popmintchev, Hern{\'a}ndez-Garc{\'\i}a,
+  Dollar, Mancuso, P{\'e}rez-Hern{\'a}ndez, Chen, Hankla, Gao, Shim, Gaeta,
+  Tarazkar, Romanov, Levis, Gaffney, Foord, Libby, Jaron-Becker, Becker, Plaja,
+  Murnane, Kapteyn, et Popmintchev]{PopmintchevScience2015}
+Popmintchev D, Hern{\'a}ndez-Garc{\'\i}a C, Dollar F, Mancuso C,
+  P{\'e}rez-Hern{\'a}ndez JA, Chen MC, Hankla A, Gao X, Shim B, Gaeta AL,
+  Tarazkar M, Romanov DA, Levis RJ, Gaffney JA, Foord M, Libby SB, Jaron-Becker
+  A, Becker A, Plaja L, Murnane MM, Kapteyn HC, et Popmintchev T.
+\newblock \emph{Ultraviolet surprise: Efficient soft x-ray high-harmonic
+  generation in multiply ionized plasmas}.
+\newblock Science \textbf{350},~1225--1231 (2015).
+
+\bibitem[Popmintchev et~al.(2012)Popmintchev, Chen, Popmintchev, Arpin, Brown,
+  Ali{\v{s}}auskas, Andriukaitis, Bal{\v{c}}iunas, M{\"u}cke, Pugzlys,
+  et~al.]{PopmintchevScience2012}
+Popmintchev T, Chen MC, Popmintchev D, Arpin P, Brown S, Ali{\v{s}}auskas S,
+  Andriukaitis G, Bal{\v{c}}iunas T, M{\"u}cke OD, Pugzlys A, et~al.
+\newblock \emph{Bright coherent ultrahigh harmonics in the kev x-ray regime
+  from mid-infrared femtosecond lasers}.
+\newblock Science \textbf{336},~1287--1291 (2012).
+
 \bibitem[Powis(2000)]{PowisJPCA2000}
 Powis I.
 \newblock \emph{Photoelectron spectroscopy and circular dichroism in chiral
   biomolecules: L-alanine}.
 \newblock The Journal of Physical Chemistry A \textbf{104},~878--882 (2000).
 
+\bibitem[Raoult et~al.(1983)Raoult, Le~Rouzo, Raseev, et
+  Lefebvre-Brion]{RaoultJPB1983}
+Raoult M, Le~Rouzo H, Raseev G, et Lefebvre-Brion H.
+\newblock \emph{Ab initio approach to the multichannel quantum defect
+  calculation of the electronic autoionisation in the hopfield series of n2}.
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics (1983).
+
 \bibitem[Reich et Madsen(2016)]{ReichPRL2016}
 Reich D et Madsen L.
 \newblock \emph{Illuminating molecular symmetries with bicircular
   {High-Order-Harmonic} generation}.
 \newblock Phys Rev Lett \textbf{117} (2016).
+
+\bibitem[Roedig(2012)]{TheseRoedig}
+Roedig C.
+\newblock \emph{Application of strong field physics techinques to x-ray free
+  electron laser science}.
+\newblock PhD thesis, The Ohio State University, (2012).
 
 \bibitem[Rosca-Pruna et Vrakking(2001)]{RoscaPrunaPRL2001}
 Rosca-Pruna F et Vrakking MJJ.
@@ -407,17 +1295,110 @@ Ruf H, Handschin C, Cireasa R, Thir{\'e} N, Ferr{\'e} A, Petit S, Descamps D,
 \newblock \emph{Inhomogeneous high harmonic generation in krypton clusters}.
 \newblock Phys Rev Lett \textbf{110},~083902 (2013).
 
+\bibitem[Sabbar et~al.(2015)Sabbar, Heuser, Boge, Lucchini, Carette, Lindroth,
+  Gallmann, Cirelli, et Keller]{SabbarPRL2015}
+Sabbar M, Heuser S, Boge R, Lucchini M, Carette T, Lindroth E, Gallmann L,
+  Cirelli C, et Keller U.
+\newblock \emph{Resonance effects in photoemission time delays}.
+\newblock Phys. Rev. Lett. \textbf{115},~133001 (2015).
+
+\bibitem[Sali{\`e}res et Lewenstein(2001)]{SalieresMST2001}
+Sali{\`e}res P et Lewenstein M.
+\newblock \emph{Generation of ultrashort coherent xuv pulses by harmonic
+  conversion of intense laser pulses in gases: towards attosecond pulses}.
+\newblock Measurement Science and Technology \textbf{12},~1818 (2001).
+
 \bibitem[Sali\`eres et~al.(1995)Sali\`eres, L'Huillier, et
   Lewenstein]{SalieresPRL1995}
 Sali\`eres P, L'Huillier A, et Lewenstein M.
 \newblock \emph{Coherence control of high-order harmonics}.
 \newblock Phys. Rev. Lett. \textbf{74},~3776--3779 (1995).
 
+\bibitem[Salières et~al.(1999)Salières, L'huillier, Antoine, et
+  Lewenstein]{Salieres1999}
+Salières P, L'huillier A, Antoine P, et Lewenstein M.
+\newblock \emph{Study of the spatial and temporal coherence of high order
+  harmonics}.
+\newblock Adv. At. Mol. Opt. Phys. pages 41--83 (1999).
+
+\bibitem[Sansone et~al.(2010)Sansone, Kelkensberg, P{\'e}rez-Torres, Morales,
+  Kling, Siu, Ghafur, Johnsson, Swoboda, Benedetti, et~al.]{SansoneNature2010}
+Sansone G, Kelkensberg F, P{\'e}rez-Torres J, Morales F, Kling MF, Siu W,
+  Ghafur O, Johnsson P, Swoboda M, Benedetti E, et~al.
+\newblock \emph{Electron localization following attosecond molecular
+  photoionization}.
+\newblock Nature \textbf{465},~763--766 (2010).
+
+\bibitem[Schafer et~al.(1993)Schafer, Yang, DiMauro, et
+  Kulander]{SchaferPRL1993}
+Schafer K, Yang B, DiMauro L, et Kulander K.
+\newblock \emph{Above threshold ionization beyond the high harmonic cutoff}.
+\newblock Physical Review Letters \textbf{70},~1599 (1993).
+
+\bibitem[Schoun et~al.(2014)Schoun, Chirla, Wheeler, Roedig, Agostini, DiMauro,
+  Schafer, et Gaarde]{SchounPRL2014}
+Schoun SB, Chirla R, Wheeler J, Roedig C, Agostini P, DiMauro LF, Schafer KJ,
+  et Gaarde MB.
+\newblock \emph{Attosecond pulse shaping around a cooper minimum}.
+\newblock Phys. Rev. Lett. \textbf{112},~153001 (2014).
+
+\bibitem[Schultze et~al.(2010)Schultze, Fie{\ss}, Karpowicz, Gagnon, Korbman,
+  Hofstetter, Neppl, Cavalieri, Komninos, Mercouris, Nicolaides, Pazourek,
+  Nagele, Feist, Burgd{\"o}rfer, Azzeer, Ernstorfer, Kienberger, Kleineberg,
+  Goulielmakis, Krausz, et Yakovlev]{SchultzeScience2010}
+Schultze M, Fie{\ss} M, Karpowicz N, Gagnon J, Korbman M, Hofstetter M, Neppl
+  S, Cavalieri AL, Komninos Y, Mercouris T, Nicolaides CA, Pazourek R, Nagele
+  S, Feist J, Burgd{\"o}rfer J, Azzeer AM, Ernstorfer R, Kienberger R,
+  Kleineberg U, Goulielmakis E, Krausz F, et Yakovlev VS.
+\newblock \emph{Delay in photoemission}.
+\newblock Science \textbf{328},~1658--1662 (2010).
+
+\bibitem[Schultze et~al.(2014)Schultze, Ramasesha, Pemmaraju, Sato, Whitmore,
+  Gandman, Prell, Borja, Prendergast, Yabana, Neumark, et
+  Leone]{SchultzeScience2014}
+Schultze M, Ramasesha K, Pemmaraju C, Sato S, Whitmore D, Gandman A, Prell JS,
+  Borja L, Prendergast D, Yabana K, Neumark D, et Leone S.
+\newblock \emph{Attosecond band-gap dynamics in silicon}.
+\newblock Science \textbf{346},~1348--1352 (2014).
+
+\bibitem[Schulz et~al.(1996)Schulz, Domke, P{\"u}ttner, Guti{\'e}rrez, Kaindl,
+  Miecznik, et Greene]{SchulzPRA1996}
+Schulz, Domke, P{\"u}ttner, Guti{\'e}rrez, Kaindl, Miecznik, et Greene C.
+\newblock \emph{High-resolution experimental and theoretical study of singly
+  and doubly excited resonances in ground-state photoionization of neon.}
+\newblock Phys. Rev. A \textbf{54},~3095--3112 (1996).
+
+\bibitem[Seres et~al.(2005)Seres, Seres, Verhoef, Tempea, Streli, Wobrauschek,
+  Yakovlev, Scrinzi, Spielmann, et Krausz]{SeresNature2005}
+Seres J, Seres E, Verhoef AJ, Tempea G, Streli C, Wobrauschek P, Yakovlev V,
+  Scrinzi A, Spielmann C, et Krausz F.
+\newblock \emph{Laser technology: Source of coherent kiloelectronvolt x-rays}.
+\newblock Nature \textbf{433},~596--596 (2005).
+
+\bibitem[Siegbahn(1982)]{SiegbahnRevModPhys1982}
+Siegbahn K.
+\newblock \emph{Electron spectroscopy for atoms, molecules, and condensed
+  matter}.
+\newblock Reviews of Modern Physics \textbf{54},~709 (1982).
+
+\bibitem[Smith(1960)]{SmithPR1960}
+Smith F.
+\newblock \emph{Lifetime matrix in collision theory}.
+\newblock Phys. Rev. (1960).
+
 \bibitem[SOLEIL(2010)]{PLEIADES}
 SOLEIL S.
 \newblock Ligne de lumière pleiades, (2010).
 \newblock URL
   \url{https://www.synchrotron-soleil.fr/fr/lignes-de-lumiere/pleiades}.
+
+\bibitem[Spielmann et~al.(1997)Spielmann, Burnett, Sartania, Koppitsch,
+  Schn{\"u}rer, Kan, Lenzner, Wobrauschek, et Krausz]{SpielmannScience1997}
+Spielmann C, Burnett NH, Sartania S, Koppitsch R, Schn{\"u}rer M, Kan C,
+  Lenzner M, Wobrauschek P, et Krausz F.
+\newblock \emph{Generation of coherent x-rays in the water window using
+  5-femtosecond laser pulses}.
+\newblock Science \textbf{278},~661--664 (1997).
 
 \bibitem[St{\"o}hr(1995)]{StohrJElecSpec1995}
 St{\"o}hr J.
@@ -441,6 +1422,45 @@ Strelkov V, Khokhlova M, Gonoskov A, Gonoskov I, et Ryabikin MY.
   ellipticity}.
 \newblock Physical Review A \textbf{86},~013404 (2012).
 
+\bibitem[Strickland et Mourou(1985)]{StricklandOptComm1985}
+Strickland D et Mourou G.
+\newblock \emph{Compression of amplified chirped optical pulses}.
+\newblock Optics communications \textbf{55},~447--449 (1985).
+
+\bibitem[Swoboda et~al.(2010)Swoboda, Fordell, Kl{\"u}nder, Dahlstr{\"o}m,
+  Miranda, Buth, Schafer, Mauritsson, A., et Gisselbrecht]{SwobodaPRL2010}
+Swoboda M, Fordell T, Kl{\"u}nder K, Dahlstr{\"o}m J, Miranda M, Buth C,
+  Schafer K, Mauritsson J, A. L, et Gisselbrecht M.
+\newblock \emph{Phase measurement of resonant {Two-Photon} ionization in
+  helium}.
+\newblock Phys. Rev. Lett. \textbf{104},~103003 (2010).
+
+\bibitem[Szymanowski et~al.(1995)Szymanowski, Keitel, Dalton, et
+  Knight]{SzymanowskiJModOpt1995}
+Szymanowski C, Keitel CH, Dalton BJ, et Knight PL.
+\newblock \emph{Switching between rayleigh-like and lorentzian lineshapes of
+  the dispersion in driven two-level atoms}.
+\newblock Journal of Modern Optics \textbf{42},~985--1003 (1995).
+
+\bibitem[Takahashi et~al.(2013)Takahashi, Lan, M{\"u}cke, Nabekawa, et
+  Midorikawa]{TakahashiNatComm2013}
+Takahashi EJ, Lan P, M{\"u}cke OD, Nabekawa Y, et Midorikawa K.
+\newblock \emph{Attosecond nonlinear optics using gigawatt-scale isolated
+  attosecond pulses}.
+\newblock Nature communications \textbf{4} (2013).
+
+\bibitem[Tanner et~al.(2000)Tanner, Richter, et Rost]{TannerRevModPhys2000}
+Tanner G, Richter K, et Rost JM.
+\newblock \emph{The theory of two-electron atoms: between ground state and
+  complete fragmentation}.
+\newblock Rev. Mod. Phys. \textbf{72},~497--544 (2000).
+
+\bibitem[Tournois(1997)]{TournoisOptComm1997}
+Tournois P.
+\newblock \emph{Acousto-optic programmable dispersive filter for adaptive
+  compensation of group delay time dispersion in laser systems}.
+\newblock Optics communications \textbf{140},~245--249 (1997).
+
 \bibitem[Travnikova et~al.(2010)Travnikova, Liu, Lindblad, Nicolas,
   S\"oderstr\"om, Kimberg, Gel'mukhanov, et Miron]{TravnikovaPRL2010}
 Travnikova O, Liu JC, Lindblad A, Nicolas C, S\"oderstr\"om J, Kimberg V,
@@ -448,6 +1468,43 @@ Travnikova O, Liu JC, Lindblad A, Nicolas C, S\"oderstr\"om J, Kimberg V,
 \newblock \emph{Circularly polarized x rays: Another probe of ultrafast
   molecular decay dynamics}.
 \newblock Phys. Rev. Lett. \textbf{105},~233001 (2010).
+
+\bibitem[Tzallas et~al.(2011)Tzallas, Skantzakis, Nikolopoulos, Tsakiris, et
+  Charalambidis]{TzallasNatPhys2011}
+Tzallas P, Skantzakis E, Nikolopoulos L, Tsakiris GD, et Charalambidis D.
+\newblock \emph{Extreme-ultraviolet pump-probe studies of one-femtosecond-scale
+  electron dynamics}.
+\newblock Nature Physics \textbf{7},~781--784 (2011).
+
+\bibitem[Varjú et~al.(2005)Varjú, Mairesse, Carré, Gaarde, Johnsson,
+  Kazamias, López-Martens, Mauritsson, Schafer, Balcou, L'huillier, et
+  Salières]{VarjuJMO2005}
+Varjú K, Mairesse Y, Carré B, Gaarde MB, Johnsson P, Kazamias S,
+  López-Martens R, Mauritsson J, Schafer KJ, Balcou P, L'huillier A, et
+  Salières P.
+\newblock \emph{Frequency chirp of harmonic and attosecond pulses}.
+\newblock Journal of Modern Optics \textbf{52},~379--394 (2005).
+
+\bibitem[V{\'e}niard et~al.(1995)V{\'e}niard, Ta{\"i}eb, et
+  Maquet]{VeniardPRL1995}
+V{\'e}niard V, Ta{\"i}eb R, et Maquet A.
+\newblock \emph{{Two-Color} multiphoton ionization of atoms using {High-Order}
+  harmonic radiation}.
+\newblock Phys. Rev. Lett. \textbf{74},~4161 (1995).
+
+\bibitem[V{\'e}niard et~al.(1996)V{\'e}niard, Ta{\"\i}eb, et
+  Maquet]{VeniardPRA1996}
+V{\'e}niard V, Ta{\"\i}eb R, et Maquet A.
+\newblock \emph{Phase dependence of (n+ 1)-color (n> 1) ir-uv photoionization
+  of atoms with higher harmonics}.
+\newblock Physical Review A \textbf{54},~721 (1996).
+
+\bibitem[Verluise et~al.(2000)Verluise, Laude, Cheng, Spielmann, et
+  Tournois]{VerluiseOL2000}
+Verluise F, Laude V, Cheng Z, Spielmann C, et Tournois P.
+\newblock \emph{Amplitude and phase control of ultrashort pulses by use of an
+  acousto-optic programmable dispersive filter: pulse compression and shaping}.
+\newblock Opt. Lett. \textbf{25},~575--577 (2000).
 
 \bibitem[Veyrinas(2015)]{TheseVeyrinas}
 Veyrinas K.
@@ -474,6 +1531,17 @@ Veyrinas K, Gruson V, Weber S, Barreau L, Ruchon T, Hergott JF, Houver JC,
   complete polarization state}.
 \newblock Faraday discussions \textbf{194},~161--183 (2016).
 
+\bibitem[Ville(1948)]{Ville1948}
+Ville J.
+\newblock \emph{Th{\'e}orie et applications de la notion de signal analytique}.
+\newblock Cables et transmission \textbf{2},~61--74 (1948).
+
+\bibitem[Villeneuve et~al.(2017)Villeneuve, Hockett, Vrakking, et
+  Niikura]{VilleneuveScience2017}
+Villeneuve DM, Hockett P, Vrakking MJJ, et Niikura H.
+\newblock \emph{Coherent imaging of an attosecond electron wave packet}.
+\newblock Science \textbf{356},~1150--1153 (2017).
+
 \bibitem[Vodungbo et~al.(2011)Vodungbo, Sardinha, Gautier, Lambert, Valentin,
   Lozano, Iaquaniello, Delmotte, Sebban, L\"{u}ning, et
   Zeitoun]{VodungboOE2011}
@@ -483,6 +1551,12 @@ Vodungbo B, Sardinha AB, Gautier J, Lambert G, Valentin C, Lozano M,
   energy range}.
 \newblock Opt. Express \textbf{19},~4346--4356 (2011).
 
+\bibitem[Wang et~al.(2010)Wang, Chini, Chen, Zhang, He, Cheng, Wu, Thumm, et
+  Chang]{WangPRL2010}
+Wang H, Chini M, Chen S, Zhang C, He F, Cheng Y, Wu Y, Thumm U, et Chang Z.
+\newblock \emph{Attosecond time-resolved autoionization of argon}.
+\newblock Phys. Rev. Lett. \textbf{105} (2010).
+
 \bibitem[Weber et~al.(2015)Weber, Manschwetus, Billon, Böttcher, Bougeard,
   Breger, Géléoc, Gruson, Huetz, Lin, Picard, Ruchon, Salières, et
   Carré]{WeberRSI2015}
@@ -491,6 +1565,48 @@ Weber SJ, Manschwetus B, Billon M, Böttcher M, Bougeard M, Breger P, Géléoc
 \newblock \emph{Flexible attosecond beamline for high harmonic spectroscopy and
   xuv/near-ir pump probe experiments requiring long acquisition times}.
 \newblock Review of Scientific Instruments \textbf{86},~033108 (2015).
+
+\bibitem[Wehlitz et~al.(2003)Wehlitz, Luki\ifmmode~\acute{c}\else \'{c}\fi{},
+  et Bluett]{WehlitzPRA2003}
+Wehlitz R, Luki\ifmmode~\acute{c}\else \'{c}\fi{} D, et Bluett JB.
+\newblock \emph{Resonance parameters of autoionizing be $2pn\mathcal{l}$
+  states}.
+\newblock Phys. Rev. A \textbf{68},~052708 (2003).
+
+\bibitem[Weihe et Bucksbaum(1996)]{WeiheJOSAB1996}
+Weihe F et Bucksbaum P.
+\newblock \emph{Measurement of the polarization state of high harmonics
+  generated in gases}.
+\newblock JOSA B \textbf{13},~157--161 (1996).
+
+\bibitem[Weihe et~al.(1995)Weihe, Dutta, Korn, Du, Bucksbaum, et
+  Shkolnikov]{WeihePRA1995}
+Weihe F, Dutta S, Korn G, Du D, Bucksbaum P, et Shkolnikov P.
+\newblock \emph{Polarization of high-intensity high-harmonic generation}.
+\newblock Physical Review A \textbf{51},~R3433 (1995).
+
+\bibitem[Weissler(1956)]{EncyclopediaOfPhysicsVolXXI}
+Weissler GL.
+\newblock Photoionization in gases and photoelectric emission from solids.
+\newblock In \emph{Encyclopedia of Physics vol XXI - Electron emission, Gas
+  discharges I}, pages 304--382. S Fl{\"u}gge (Berlin: Springer), (1956).
+
+\bibitem[Wickenhauser et~al.(2005)Wickenhauser, Burgd{\"o}rfer, Krausz, et
+  Drescher]{WickenhauserPRL2005}
+Wickenhauser M, Burgd{\"o}rfer J, Krausz F, et Drescher M.
+\newblock \emph{Time resolved fano resonances}.
+\newblock Phys. Rev. Lett. \textbf{94} (2005).
+
+\bibitem[Wigner(1932)]{WignerPR1932}
+Wigner E.
+\newblock \emph{On the quantum correction for thermodynamic equilibrium}.
+\newblock Phys. Rev. \textbf{40},~749--759 (1932).
+
+\bibitem[Wigner(1955)]{WignerPR1955}
+Wigner E.
+\newblock \emph{Lower limit for the energy derivative of the scattering phase
+  shift}.
+\newblock Phys. Rev. (1955).
 
 \bibitem[Willems et~al.(2015)Willems, Smeenk, Zhavoronkov, Kornilov, Radu,
   Schmidbauer, Hanke, Schmising, Vrakking, et Eisebitt]{WillemsPRB2015}
@@ -509,11 +1625,41 @@ Yang L, Ågren H, Carravetta V, Vahtras O, Karlsson L, Wannberg B, Holland D,
 \newblock Journal of Electron Spectroscopy and Related Phenomena
   \textbf{94},~163 -- 179 (1998).
 
+\bibitem[Za\"{\i}r et~al.(2008)Za\"{\i}r, Holler, Guandalini, Schapper,
+  Biegert, Gallmann, Keller, Wyatt, Monmayrant, Walmsley, Cormier, Auguste,
+  Caumes, et Sali\`eres]{ZairPRL2008}
+Za\"{\i}r A, Holler M, Guandalini A, Schapper F, Biegert J, Gallmann L, Keller
+  U, Wyatt AS, Monmayrant A, Walmsley IA, Cormier E, Auguste T, Caumes JP, et
+  Sali\`eres P.
+\newblock \emph{Quantum path interferences in high-order harmonic generation}.
+\newblock Phys. Rev. Lett. \textbf{100},~143902 (2008).
+
+\bibitem[Zhang et~al.(2009)Zhang, Rolles, Bozek, et Berrah]{ZhangJPhysB2009}
+Zhang H, Rolles D, Bozek J, et Berrah N.
+\newblock \emph{Photoionization of argon clusters in the ar 3s np rydberg
+  resonance region}.
+\newblock J. Phys. B: At. Mol. Opt. Phys \textbf{42},~105103 (2009).
+
+\bibitem[Zhao et Lin(2005)]{ZhaoPRA2005}
+Zhao Z et Lin C.
+\newblock \emph{Theory of laser-assisted autoionization by attosecond light
+  pulses}.
+\newblock Phys. Rev. A \textbf{71} (2005).
+
 \bibitem[Zhou et~al.(2009)Zhou, Lock, Wagner, Li, Kapteyn, et
   Murnane]{ZhouPRL2009}
 Zhou X, Lock R, Wagner N, Li W, Kapteyn HC, et Murnane MM.
 \newblock \emph{Elliptically polarized high-order harmonic emission from
   molecules in linearly polarized laser fields}.
 \newblock Phys. Rev. Lett. \textbf{102},~073902 (2009).
+
+\bibitem[Z{\"u}rch et~al.(2017)Z{\"u}rch, Chang, Borja, Kraus, Cushing,
+  Gandman, Kaplan, Oh, Prell, Prendergast, D, Neumark, et
+  Leone]{ZurchNatComm2017}
+Z{\"u}rch M, Chang HT, Borja LJ, Kraus PM, Cushing SK, Gandman A, Kaplan CJ, Oh
+  MH, Prell JS, Prendergast D, D P, Neumark DM, et Leone SR.
+\newblock \emph{Direct and simultaneous observation of ultrafast electron and
+  hole dynamics in germanium}.
+\newblock Nature Communications \textbf{8} (2017).
 
 \end{thebibliography}
