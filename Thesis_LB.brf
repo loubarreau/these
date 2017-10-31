@@ -1,65 +1,7 @@
-\backcite {MaddenCodlingPRL1963}{{3}{I}{chapter*.2}}
-\backcite {CooperPRL1963}{{3}{I}{chapter*.2}}
-\backcite {TannerRevModPhys2000}{{3}{I}{chapter*.2}}
-\backcite {MaddenCodling1965}{{3}{I}{chapter*.2}}
-\backcite {MorganPRA1984}{{3}{I}{chapter*.2}}
-\backcite {KossmannJPhysB1988}{{3}{I}{chapter*.2}}
-\backcite {DomkePRA1996}{{3}{I}{chapter*.2}}
-\backcite {CooperPRL1963}{{3}{1}{Hfootnote.1}}
-\backcite {DomkePRA1996}{{4}{0.1}{figure.0.1}}
-\backcite {WeberRSI2015}{{5}{1.1}{section.1.1}}
-\backcite {DomkePRA1996}{{6}{1.1}{figure.1.1}}
-\backcite {TheseChirla}{{7}{1.1}{equation.1.1.2}}
-\backcite {KoturNatComm2016}{{7}{1.1}{equation.1.1.2}}
-\backcite {JimenezGalanPRA2016}{{7}{1.1}{equation.1.1.2}}
-\backcite {TheseGruson}{{9}{1.2}{figure.1.6}}
-\backcite {CooperPR1962}{{15}{2.1.1}{section*.3}}
-\backcite {SchounPRL2014}{{15}{2.1.1}{section*.3}}
-\backcite {MaquetJMO2007}{{16}{2.1.1}{equation.2.1.8}}
-\backcite {JimenezGalanPRA2016}{{17}{2.1.2}{equation.2.1.16}}
-\backcite {GrusonScience2016}{{20}{2.2}{equation.2.2.24}}
-\backcite {WickenhauserPRL2005}{{21}{2.3}{section.2.3}}
-\backcite {IUPAC}{{22}{1}{Hfootnote.3}}
-\backcite {JimenezGalanPRA2016}{{29}{3.1.2}{section*.7}}
-\backcite {JimenezGalanPRA2016}{{29}{3.1.2}{section*.7}}
-\backcite {JimenezGalanPRA2016}{{30}{3.6}{figure.3.6}}
-\backcite {WignerPR1932}{{35}{3.2.1}{section*.11}}
-\backcite {Ville1948}{{35}{3.2.1}{section*.11}}
-\backcite {OttNature2014}{{36}{3.2.2}{subsection.3.2.2}}
-\backcite {FleischhauerRevModPhys2005}{{41}{3.3}{section.3.3}}
-\backcite {SzymanowskiJModOpt1995}{{41}{3.3}{section.3.3}}
-\backcite {OttScience2013}{{41}{3.3}{section.3.3}}
-\backcite {OttScience2013}{{42}{3.17}{figure.3.17}}
-\backcite {GrusonScience2016}{{47}{4}{chapter.4}}
-\backcite {KaldunScience2016}{{47}{4}{chapter.4}}
-\backcite {KaldunScience2016}{{47}{4.1}{figure.4.1}}
-\backcite {ChuPRA2010}{{48}{4}{figure.4.1}}
-\backcite {KaldunScience2016}{{48}{4}{figure.4.1}}
-\backcite {Caillat2017}{{48}{4}{figure.4.1}}
-\backcite {TheseKaldun}{{48}{4.1.1}{equation.4.1.3}}
-\backcite {ChuPRA2010}{{49}{4.1.2}{equation.4.1.9}}
-\backcite {KaldunScience2016}{{50}{4.1.2}{section*.14}}
-\backcite {OttScience2013}{{51}{2}{Hfootnote.6}}
-\backcite {OttScience2013}{{51}{2}{Hfootnote.6}}
-\backcite {KaldunScience2016}{{52}{4.2}{figure.4.2}}
-\backcite {BeckCPL2015}{{53}{4.1.2}{equation.4.1.37}}
-\backcite {WehlitzPRA2003}{{54}{4.3}{figure.4.3}}
-\backcite {ChuPRA2010}{{54}{4.3}{figure.4.3}}
-\backcite {ChuPRA2010}{{54}{4.2}{figure.4.3}}
-\backcite {WickenhauserPRL2005}{{54}{4.2}{figure.4.3}}
-\backcite {ChuPRA2010}{{54}{4.2}{figure.4.3}}
-\backcite {GrusonScience2016}{{54}{4.2}{figure.4.3}}
-\backcite {KaldunScience2016}{{55}{4.3}{section.4.3}}
-\backcite {GrusonScience2016}{{55}{4.3}{section.4.3}}
-\backcite {WangPRL2010}{{55}{4.3}{section.4.3}}
-\backcite {BernhardtPRA2014}{{55}{4.3}{section.4.3}}
-\backcite {KaldunScience2016}{{55}{{{\textbullet }}}{Item.7}}
-\backcite {PabstPRA2012}{{55}{{{\textbullet }}}{Item.8}}
-\backcite {ChenPRA2013}{{55}{{{\textbullet }}}{Item.8}}
-\backcite {ChuPRA2013}{{55}{{{\textbullet }}}{Item.8}}
-\backcite {OttScience2013}{{55}{{{\textbullet }}}{Item.8}}
-\backcite {BeckCPL2015}{{55}{{{\textbullet }}}{Item.9}}
-\backcite {LiaoPRL2015}{{55}{{{\textbullet }}}{Item.10}}
-\backcite {LiaoPRA2016}{{55}{{{\textbullet }}}{Item.10}}
-\backcite {BeaulieuPRA2017}{{55}{{{\textbullet }}}{Item.11}}
-\backcite {OttNature2014}{{56}{4.3}{figure.4.4}}
+\backcite {TheseGruson}{{8}{1.2}{figure.1.2}}
+\backcite {TheseGruson}{{11}{1.3.1}{figure.1.4}}
+\backcite {TheseGruson}{{11}{1.3.2}{figure.1.6}}
+\backcite {TheseGruson}{{18}{1.4}{figure.1.10}}
+\backcite {WeberRSI2015}{{37}{3.2}{figure.3.3}}
+\backcite {WeberRSI2015}{{37}{3.2}{figure.3.3}}
+\backcite {TheseGruson}{{37}{3.2}{figure.3.3}}

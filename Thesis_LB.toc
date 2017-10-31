@@ -1,31 +1,25 @@
 \select@language {french}
-\contentsline {part}{\partnumberline {I}Dynamiques d'autoionisation dans l'h\IeC {\'e}lium}{1}{part.1}
-\contentsline {chapter}{\chapternumberline {1}Mesure de la phase de la transition au voisinage de la r\IeC {\'e}sonance $2s2p$ par RABBIT et Rainbow RABBIT}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Mesures RABBIT}{5}{section.1.1}
-\contentsline {section}{\numberline {1.2}Mesures Rainbow RABBIT}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Comparaison du RABBIT et du Rainbow RABBIT}{10}{section.1.3}
-\contentsline {chapter}{\chapternumberline {2}Reconstruction de la dynamique d'autoionisation}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Paquet d'onde \IeC {\'e}lectronique dans le domaine spectral}{15}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Paquet d'onde \IeC {\`a} deux photons}{15}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Paquet d'onde \IeC {\`a} un photon}{17}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Paquet d'onde \IeC {\'e}lectronique dans le domaine temporel}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Construction du profil spectral de la r\IeC {\'e}sonance au cours du temps}{21}{section.2.3}
-\contentsline {chapter}{\chapternumberline {3}Etude de la r\IeC {\'e}sonance $sp3^+$ et de l'influence de param\IeC {\`e}tres exp\IeC {\'e}rimentaux}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mesures Rainbow RABBIT \IeC {\`a} Lund}{25}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Dispositif exp\IeC {\'e}rimental}{25}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Excitation de la r\IeC {\'e}sonance 2s2p}{26}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Excitation simultan\IeC {\'e}e des r\IeC {\'e}sonances 2s2p et sp3+}{30}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Dynamiques d'autoionisation}{31}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Repr\IeC {\'e}sentations temps-\IeC {\'e}nergie du paquet d'ondes r\IeC {\'e}sonant \IeC {\`a} deux photons issu de l'\IeC {\'e}tat 2s2p}{31}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Paquet d'onde \IeC {\`a} deux r\IeC {\'e}sonances}{36}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Influence de l'intensit\IeC {\'e} d'habillage sur le profil de raie}{41}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Comparaison des spectroscopies de photoionisation et d'absorption transitoire attoseconde pour l'\IeC {\'e}tude de la dynamique d'autoionisation de l'h\IeC {\'e}lium}{47}{chapter.4}
-\contentsline {section}{\numberline {4.1}Absorption transitoire attoseconde}{48}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Section efficace et r\IeC {\'e}ponse dipolaire}{48}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}R\IeC {\'e}ponse dipolaire d\IeC {\'e}pendante du temps au voisinage d'une r\IeC {\'e}sonance de Fano}{49}{subsection.4.1.2}
-\contentsline {paragraph}{Fonction d'onde dans la base des configurations}{49}{section*.13}
-\contentsline {paragraph}{Calcul de la r\IeC {\'e}ponse dipolaire}{50}{section*.14}
-\contentsline {paragraph}{Section efficace d'absorption d\IeC {\'e}pendante du temps}{51}{section*.15}
-\contentsline {section}{\numberline {4.2}Photoionisation}{53}{section.4.2}
-\contentsline {section}{\numberline {4.3}Conclusions}{55}{section.4.3}
-\contentsline {part}{Bibliographie}{57}{section*.16}
+\contentsline {part}{\partnumberline {I}Polarim\IeC {\'e}trie de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{1}{part.1}
+\contentsline {chapter}{\chapternumberline {1}G\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} polaris\IeC {\'e}es elliptiquement}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Polarisation de la lumi\IeC {\`e}re}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}G\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} \IeC {\`a} partir d'un laser polaris\IeC {\'e} elliptiquement}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}Autres m\IeC {\'e}thodes de g\IeC {\'e}n\IeC {\'e}ration d'harmoniques d'ordre \IeC {\'e}lev\IeC {\'e} polaris\IeC {\'e}es elliptiquement}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}G\IeC {\'e}n\IeC {\'e}ration dans des mol\IeC {\'e}cules align\IeC {\'e}es}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}G\IeC {\'e}n\IeC {\'e}ration au voisinage d'une r\IeC {\'e}sonance}{11}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}GHOE \IeC {\`a} partir d'un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{14}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}Etude num\IeC {\'e}rique de la GHOE par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}M\IeC {\'e}thodes num\IeC {\'e}riques}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Champs de g\IeC {\'e}n\IeC {\'e}ration ultra-brefs}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}Ionisation du milieu de g\IeC {\'e}n\IeC {\'e}ration}{24}{section.2.3}
+\contentsline {section}{\numberline {2.4}D\IeC {\'e}faut de circularit\IeC {\'e} du fondamental}{28}{section.2.4}
+\contentsline {chapter}{\chapternumberline {3}Mesure compl\IeC {\`e}te de l'\IeC {\'e}tat de polarisation de l'\IeC {\'e}mission harmonique g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e par un champ \IeC {\`a} deux couleurs polaris\IeC {\'e}es circulairement en sens oppos\IeC {\'e}}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Principe de la polarim\IeC {\'e}trie mol\IeC {\'e}culaire}{33}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Expression de la distribution angulaire des photo\IeC {\'e}lectrons dans le r\IeC {\'e}f\IeC {\'e}rentiel mol\IeC {\'e}culaire}{33}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}D\IeC {\'e}termination de $s_1$ et $s_2$ \IeC {\`a} partir de la distribution angulaire des ions dans le r\IeC {\'e}f\IeC {\'e}rentiel du laboratoire}{35}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}D\IeC {\'e}termination de $s_3$ \IeC {\`a} partir du dichro\IeC {\"\i }sme circulaire dans le r\IeC {\'e}f\IeC {\'e}rentiel mol\IeC {\'e}culaire}{35}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Dispositif exp\IeC {\'e}rimental}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}R\IeC {\'e}sultats}{38}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Champs \IeC {\`a} $\omega $ et $2\omega $ polaris\IeC {\'e}s circulairement en sens oppos\IeC {\'e}}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Champ \IeC {\`a} $\omega $ elliptique et champ \IeC {\`a} $2\omega $ circulaire d'h\IeC {\'e}licit\IeC {\'e} oppos\IeC {\'e}e}{42}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Discussion}{43}{section.3.4}
+\contentsline {part}{Bibliographie}{47}{section*.3}
